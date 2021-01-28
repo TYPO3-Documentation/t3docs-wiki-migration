@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01a0cc4d03d1696698196de2d36ea9f4",
+    "content-hash": "9a232002071e05fd81be9f5132c5c517",
     "packages": [
         {
             "name": "symfony/dom-crawler",

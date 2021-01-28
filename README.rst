@@ -8,13 +8,14 @@ docs.typo3.org.
 Installation
 ------------
 
-1. Install Docker and Docker-Compose.
+1. Install `Docker <https://docs.docker.com/get-docker/>`_ and `Docker-Compose <https://docs.docker.com/compose/install/>`_.
 2. Build the environment by
 
-   ::
+   .. code-block:: bash
 
       # Linux
       make build
+
       # MacOS and Windows
       docker-compose build --force-rm
       docker-compose run --rm composer-install
@@ -22,14 +23,15 @@ Installation
 Conversion of Wiki Exception Pages
 ----------------------------------
 
-1. Copy TYPO3 wiki exception HTML pages to folder `/source</source>`__.
+1. Copy TYPO3 wiki exception HTML pages to folder `source <source>`_.
 2. Run conversion script by
 
-   ::
+   .. code-block:: bash
 
       # Linux
       make convert
+
       # MacOS and Windows
       docker-compose run --rm convert-html-to-rst
 
-3. Check folder `/target</target>`__ for reST files - ready for use in docs.typo3.org.
+3. Check folder `target <target>`_ for reST files - ready for use in docs.typo3.org.
