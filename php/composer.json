@@ -1,0 +1,15 @@
+{
+  "name": "typo3/t3docs-wiki-migration",
+  "description": "This project converts TYPO3 Wiki pages from HTML to reST for use in TYPO3 Docs.",
+  "minimum-stability": "stable",
+  "license": "CC-BY-NC-SA-4.0",
+  "authors": [
+    {
+      "name": "TYPO3 Documentation Team",
+      "homepage": "https://typo3.org/community/teams/documentation"
+    }
+  ],
+  "require": {
+    "symfony/dom-crawler": "^5.2"
+  }
+}

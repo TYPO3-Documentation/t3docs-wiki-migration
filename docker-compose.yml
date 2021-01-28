@@ -1,0 +1,34 @@
+version: '3'
+services:
+
+  pandoc:
+    image: t3docs/wiki-migration
+    build: ./pandoc
+
+  composer-install:
+    image: t3docs/wiki-migration
+    user: "${UID}:${GID}"
+    volumes:
+      - ./php:/php
+    environment:
+      SCRIPT_VERBOSE: 0
+    command: >
+      /bin/sh -c '
+        [ "$${SCRIPT_VERBOSE}" -eq "1" ] && set -x;
+        composer install;
+      '
+
+  convert-html-to-rst:
+    image: t3docs/wiki-migration
+    user: "${UID}:${GID}"
+    volumes:
+      - ./source:/source
+      - ./target:/target
+      - ./php:/php
+    environment:
+      SCRIPT_VERBOSE: 0
+    command: >
+      /bin/sh -c '
+        [ "$${SCRIPT_VERBOSE}" -eq "1" ] && set -x;
+        php wiki.php;
+      '
