@@ -5,35 +5,72 @@ declare(strict_types=1);
 require 'vendor/autoload.php';
 
 use Symfony\Component\DomCrawler\Crawler;
+use Symfony\Component\HttpClient\HttpClient;
 
 $sourceFolder = '/source';
 $targetFolder = '/target';
 
-try {
-    cleanup($targetFolder);
-    convert($sourceFolder, $targetFolder);
-} catch (\Exception $e) {
-    file_put_contents('php://stdout', $e);
-}
+cleanup($sourceFolder);
+cleanup($targetFolder);
+fetchExceptionPages($sourceFolder);
+convert($sourceFolder, $targetFolder);
 
 /**
- * Clean up all HTML and reST files in target folder.
+ * Clean up all HTML and reST files in folder.
  *
- * @param string $targetFolder
+ * @param string $folder
  */
-function cleanup(string $targetFolder): void
+function cleanup(string $folder): void
 {
-    if ($handle = opendir($targetFolder)) {
+    if ($handle = opendir($folder)) {
         while (false !== ($file = readdir($handle))) {
-            $filePath = $targetFolder . DIRECTORY_SEPARATOR . $file;
+            $filePath = $folder . DIRECTORY_SEPARATOR . $file;
             if (is_file($filePath)) {
                 $pathInfo = pathinfo($filePath);
-                if (in_array($pathInfo['extension'], ['html', 'rst'])) {
+                if (!in_array($pathInfo['basename'], ['.gitkeep'])) {
                     unlink($filePath);
                 }
             }
         }
         closedir($handle);
+    }
+    printf("Folder %s cleaned up.\n", $folder);
+}
+
+/**
+ * Crawl TYPO3 Wiki exception pages and save their content into the specified folder.
+ *
+ * @param string $folder
+ */
+function fetchExceptionPages(string $folder): void
+{
+    $baseUri = 'https://wiki.typo3.org';
+    $pathExceptions = 'Special:PrefixIndex?prefix=Exception&namespace=0';
+
+    $client = HttpClient::create();
+    $response = $client->request('GET', $baseUri . '/' . $pathExceptions);
+    $content = $response->getContent();
+    $crawler = new Crawler($content);
+    $pathException = $crawler->filterXPath('//ul[@class="mw-prefixindex-list"]/li/a')
+        ->reduce(function(Crawler $node){return !in_array($node->text(), ['Exception']);})
+        ->each(function(Crawler $node){return $node->text();});
+
+    if (count($pathException) > 0) {
+        $responses = [];
+        foreach ($pathException as $path) {
+            $responses[] = $client->request('GET', $baseUri . '/' . $path);
+        }
+        foreach ($responses as $response) {
+            $content = $response->getContent(false);
+            if ($response->getStatusCode() === 200) {
+                $uri = parse_url($response->getInfo('url'));
+                $filename = explode('/', $uri['path'])[3] . '.html';
+                file_put_contents($folder . DIRECTORY_SEPARATOR . $filename, $content);
+                printf("%s fetched.\n", $response->getInfo('url'));
+            } else {
+                printf("%s not fetched (status code %s)!\n", $response->getInfo('url'), $response->getStatusCode());
+            }
+        }
     }
 }
 
@@ -52,10 +89,15 @@ function convert(string $sourceFolder, string $targetFolder): void
             if (is_file($sourceFile)) {
                 $pathInfo = pathinfo($sourceFile);
                 if ($pathInfo['extension'] == 'html') {
-                    $targetHtmlFile = $targetFolder . DIRECTORY_SEPARATOR . $pathInfo['filename'] . '.html';
-                    $targetRstFile = $targetFolder . DIRECTORY_SEPARATOR . $pathInfo['filename'] . '.rst';
-                    extractHtmlOfException($sourceFile, $targetHtmlFile);
-                    convertHtmlToRst($targetHtmlFile, $targetRstFile);
+                    try {
+                        $targetHtmlFile = $targetFolder . DIRECTORY_SEPARATOR . $pathInfo['filename'] . '.html';
+                        $targetRstFile = $targetFolder . DIRECTORY_SEPARATOR . $pathInfo['filename'] . '.rst';
+                        extractHtmlOfExceptionPage($sourceFile, $targetHtmlFile);
+                        convertHtmlToRst($targetHtmlFile, $targetRstFile);
+                        printf("%s converted.\n", $file);
+                    } catch (\Exception $e) {
+                        printf("%s could not be converted (%s).\n", $file, $e->getMessage());
+                    }
                 }
             }
         }
@@ -70,7 +112,7 @@ function convert(string $sourceFolder, string $targetFolder): void
  * @param $sourceFile
  * @param $targetFile
  */
-function extractHtmlOfException($sourceFile, $targetFile): void
+function extractHtmlOfExceptionPage($sourceFile, $targetFile): void
 {
     $crawler = new Crawler(file_get_contents($sourceFile));
     $title = $crawler->filterXPath('//h1[@id="firstHeading"]')->outerHtml();
