@@ -21,5 +21,5 @@ RUN apt-get -q --no-allow-insecure-repositories update \
 RUN pandoc --version \
    && php --version
 
-WORKDIR /php
+WORKDIR /wiki-migration
 ENTRYPOINT [""]

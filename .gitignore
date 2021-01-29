@@ -1,6 +1,5 @@
 /.env
 /php/vendor/
-/source/**
 /.idea
 
 !.gitkeep

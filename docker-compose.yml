@@ -9,25 +9,24 @@ services:
     image: t3docs/wiki-migration
     user: "${UID}:${GID}"
     volumes:
-      - ./php:/php
+      - .:/wiki-migration
     environment:
       SCRIPT_VERBOSE: 0
     command: >
       /bin/sh -c '
         [ "$${SCRIPT_VERBOSE}" -eq "1" ] && set -x;
-        composer install;
+        cd php && composer install;
       '
 
   convert-html-to-rst:
     image: t3docs/wiki-migration
     user: "${UID}:${GID}"
     volumes:
-      - ./source:/source
-      - ./php:/php
+      - .:/wiki-migration
     environment:
       SCRIPT_VERBOSE: 0
     command: >
       /bin/sh -c '
         [ "$${SCRIPT_VERBOSE}" -eq "1" ] && set -x;
-        php wiki.php;
+        cd php && php wiki.php;
       '

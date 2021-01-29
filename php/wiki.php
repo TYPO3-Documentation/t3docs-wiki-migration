@@ -7,9 +7,12 @@ require 'vendor/autoload.php';
 use Symfony\Component\DomCrawler\Crawler;
 use Symfony\Component\HttpClient\HttpClient;
 
-$folder = '/source';
+$folder = '/wiki-migration/output';
 $keepTemporaryFiles = false;
 
+if (!is_dir($folder)) {
+    mkdir($folder);
+}
 cleanup($folder);
 fetchExceptionPages($folder);
 convert($folder);
