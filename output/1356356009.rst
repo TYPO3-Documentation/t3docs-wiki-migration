@@ -1,0 +1,14 @@
+.. _firstHeading:
+
+Exception/CMS/1356356009
+========================
+
+#. 1356356009: Exception while parsing composer file
+   /.../typo3conf/ext/assetic//composer.json: Syntax error, malformed
+   JSON
+
+Solution
+--------
+
+Most likely you have an error in the mentioned composer.json file. Check
+the composer.json for errors.

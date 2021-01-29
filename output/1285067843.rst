@@ -1,0 +1,11 @@
+.. _firstHeading:
+
+Exception/CMS/1285067843
+========================
+
+Error message:
+
+::
+
+   Oops, an error occurred!
+   A back-end form protection may only be instantiated if there is an active back-end session.

@@ -1,0 +1,8 @@
+.. _firstHeading:
+
+Exception/CMS/1475924277
+========================
+
+For me the Exception occured in TYPO3 9.5.7 When I was trying to include
+a "form" form and forgot to include the TypoScript Template of extension
+form.

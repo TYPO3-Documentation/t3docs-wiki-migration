@@ -1,0 +1,19 @@
+.. _firstHeading:
+
+Exception/CMS/1349880195
+========================
+
+Extension BLSV Sportabzeichen 2012 (blsvsa2012)
+-----------------------------------------------
+
+error message
+~~~~~~~~~~~~~
+
+::
+
+   #1349880195: Kein Lehrer konnte in der Schule gefunden werden
+
+Resolvung error
+~~~~~~~~~~~~~~~
+
+Each scholl needs at least one teacher

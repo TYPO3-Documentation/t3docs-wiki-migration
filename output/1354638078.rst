@@ -1,0 +1,10 @@
+.. _firstHeading:
+
+Exception/CMS/1354638078
+========================
+
+YAG TYPO3 Gallery
+-----------------
+
+This error is thrown when no theme identifier could be found within the
+TypoScript path *module.tx_yag.settings.theme*.

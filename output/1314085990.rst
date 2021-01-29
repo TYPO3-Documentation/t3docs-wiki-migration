@@ -1,0 +1,14 @@
+.. _firstHeading:
+
+Exception/CMS/1314085990
+========================
+
+::
+
+    Desired storage is not in the list of available storages
+
+Related tickets on the forge :
+
+-  https://forge.typo3.org/issues/59017
+-  https://forge.typo3.org/issues/62489
+-  https://forge.typo3.org/issues/67627

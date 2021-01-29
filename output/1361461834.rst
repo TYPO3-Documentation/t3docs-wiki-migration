@@ -1,0 +1,10 @@
+.. _firstHeading:
+
+Exception/CMS/1361461834
+========================
+
+The storage "folder" looks currently off-line. Check the storage configuration if you think this is an error
+------------------------------------------------------------------------------------------------------------
+
+The folder needs to exist and be readable and writable. After creating
+the folder, edit the storage configuration record and set it "online".

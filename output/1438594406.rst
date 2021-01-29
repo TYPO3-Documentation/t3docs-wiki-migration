@@ -1,0 +1,10 @@
+.. _firstHeading:
+
+Exception/CMS/1438594406
+========================
+
+On possible cause for this is the use of old ext_tables/TCA
+configuration. Please see
+https://wiki.typo3.org/TYPO3.CMS/Releases/7.6/Deprecation#Deprecation:_.2370514_-_dynamicConfigFile_is_deprecated
+for the changes in TYPO3. Also, the TCA file must return the array, not
+only declare it, as would work before.

@@ -1,0 +1,13 @@
+.. _firstHeading:
+
+Exception/CMS/1294585860
+========================
+
+TYPO3 is in maintenance mode
+----------------------------
+
+Non-admins get this message when trying to login to a TYPO3 installation
+in maintenance mode.
+
+To disable this behaviour, login as an admin and set [BE][adminOnly] = 0
+in the Install Tool.

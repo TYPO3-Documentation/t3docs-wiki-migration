@@ -1,0 +1,9 @@
+.. _firstHeading:
+
+Exception/CMS/1588095936
+========================
+
+Error occurs after importing database dump and open the backend the
+first time. No login, normally automatically logged in by a service.
+Maybe old temporary files or other old data. Clear InstallTool Cache
+solve the problem.

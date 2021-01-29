@@ -1,0 +1,13 @@
+.. _firstHeading:
+
+Exception/CMS/1256475114
+========================
+
+#. 1256475114: The argument "newsItem" was registered with type
+   "Tx_News_Domain_Model_News", but is of type
+   "TYPO3\CMS\Extbase\Persistence\Generic\LazyObjectStorage" in view
+   helper "Tx_News_ViewHelpers_LinkViewHelper". (More information)
+
+--`David bruchmann </User:David_bruchmann>`__
+(`talk </wiki/index.php?title=User_talk:David_bruchmann&action=edit&redlink=1>`__)
+10:49, 4 September 2014 (CEST)

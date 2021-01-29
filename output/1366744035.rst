@@ -1,0 +1,13 @@
+.. _firstHeading:
+
+Exception/CMS/1366744035
+========================
+
+::
+
+   #1366744035: Permission on .../fileadmin/user_upload/_temp_ are already ok (More information)
+
+   TYPO3\CMS\Install\FolderStructure\Exception thrown in file
+   ../typo3_src-6.2.31/typo3/sysext/install/Classes/FolderStructure/AbstractNode.php in line 137.
+
+Happened in the install wizard when trying to create a missing folder

@@ -1,0 +1,12 @@
+.. _firstHeading:
+
+Exception/CMS/1431452406
+========================
+
+This exception can be raised when the TCA definition is invalid (check
+if the "type"-Attribute is correct/non-empty). The current TCA can be
+shown under System > Configuration > $GLOBALS['TCA']...
+
+--`Benjamin-pick </wiki/index.php?title=User:Benjamin-pick&action=edit&redlink=1>`__
+(`talk </wiki/index.php?title=User_talk:Benjamin-pick&action=edit&redlink=1>`__)
+16:24, 16 November 2015 (CET)

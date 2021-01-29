@@ -1,0 +1,49 @@
+.. _firstHeading:
+
+Exception/CMS/1439288036
+========================
+
+"An item in field XXXXX of table YYYYY is not an array as expected"
+
+This happens in TYPO3 7.6 if there is a incompatible 'items' TCA
+definition in the according field like
+
+.. container:: geshitypo3wiki
+
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+
+.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+
+   ::
+
+      'items' => [
+          '0' => '-'
+      ]
+
+or
+
+.. container:: geshitypo3wiki
+
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+
+.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+
+   ::
+
+      'items' => ['-']
+
+This has to be replaced with a correct item definition like
+
+.. container:: geshitypo3wiki
+
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+
+.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+
+   ::
+
+      'items' => [
+          ['-', 0]
+      ]
+
+https://docs.typo3.org/typo3cms/TCAReference/7.6/Reference/Columns/Select/Index.html#items

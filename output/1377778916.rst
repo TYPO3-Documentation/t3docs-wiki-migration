@@ -1,0 +1,9 @@
+.. _firstHeading:
+
+Exception/CMS/1377778916
+========================
+
+**You are not allowed to delete a file with extension "..."**
+
+you may edit the value for $TYPO3_CONF_VARS[BE][fileDenyPattern] in the
+Install-Tool

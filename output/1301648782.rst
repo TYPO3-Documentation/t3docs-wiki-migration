@@ -1,0 +1,7 @@
+.. _firstHeading:
+
+Exception/CMS/1301648782
+========================
+
+I granted privileges to user on the wrong database. Corrected it and
+solved.

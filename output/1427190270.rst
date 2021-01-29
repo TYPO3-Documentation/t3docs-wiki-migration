@@ -1,0 +1,86 @@
+.. _firstHeading:
+
+Exception/CMS/1427190270
+========================
+
+Errors Messages for Image Cropper.
+----------------------------------
+
+Missing Metadata
+~~~~~~~~~~~~~~~~
+
+How you got the error
+^^^^^^^^^^^^^^^^^^^^^
+
+When using the image cropper :
+
+.. container:: floatleft
+
+   |Screenshot : using image cropper|
+
+| 
+| You might encounter the following error message :
+
+.. container:: floatleft
+
+   |Screenshot : Missing Metadata Error|
+
+| 
+
+How to solve it
+^^^^^^^^^^^^^^^
+
+| Go to the Schelduler as shown in the following image.
+| Note that if you have already defined task, such as "File Abstraction
+  Layer : Update Storage index", you should jump to step :"run
+  schelduler"
+
+.. container:: floatleft
+
+   |Screenshot : Schelduler main page|
+
+| 
+| Create a new task by clicking on the "+" as shown in the following
+  image :
+
+.. container:: floatleft
+
+   |Screenshot : Creating a new task|
+
+| 
+| Once the Task Form opens, fill it as follow:
+
+.. container:: floatleft
+
+   |Screenshot : Task Setting|
+
+| 
+| Save the task by clicking on the floppy icon, tick the leftside
+  checkbox, and clic the "execute selected task" button:
+
+.. container:: floatleft
+
+   |image1|
+
+| 
+| If you have a lot of files in FAL, indexing may take some time. once
+  indexing finishes, get back to image cropping, all should be fine now.
+
+.. |Screenshot : using image cropper| image:: /wiki/images/thumb/c/cc/01-start-image-cropper.jpg/960px-01-start-image-cropper.jpg
+   :width: 960px
+   :height: 532px
+.. |Screenshot : Missing Metadata Error| image:: /wiki/images/thumb/0/01/02-image-cropper-error-meta-data-missing.jpg/960px-02-image-cropper-error-meta-data-missing.jpg
+   :width: 960px
+   :height: 532px
+.. |Screenshot : Schelduler main page| image:: /wiki/images/thumb/5/5f/01-scheduler-open.jpg/960px-01-scheduler-open.jpg
+   :width: 960px
+   :height: 532px
+.. |Screenshot : Creating a new task| image:: /wiki/images/thumb/8/80/02-scheduler-create.jpg/960px-02-scheduler-create.jpg
+   :width: 960px
+   :height: 532px
+.. |Screenshot : Task Setting| image:: /wiki/images/thumb/0/09/03-scheduler-settings.jpg/960px-03-scheduler-settings.jpg
+   :width: 960px
+   :height: 621px
+.. |image1| image:: /wiki/images/thumb/4/4f/04-scheduler-run.jpg/960px-04-scheduler-run.jpg
+   :width: 960px
+   :height: 578px

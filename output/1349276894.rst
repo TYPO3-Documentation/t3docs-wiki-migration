@@ -1,0 +1,9 @@
+.. _firstHeading:
+
+Exception/CMS/1349276894
+========================
+
+This error most likely occurs because the current backend-user does not
+have access to any file-mounts. Check that a file-mount exists and that
+the current user has access to it - either through the group(s) or
+through the user directly.

@@ -1,0 +1,8 @@
+.. _firstHeading:
+
+Exception/CMS/1458745468
+========================
+
+This exception has been introduced together with `exception
+1458745712 </Exception/CMS/1458745712>`__, same documentation may apply
+for this one as well.

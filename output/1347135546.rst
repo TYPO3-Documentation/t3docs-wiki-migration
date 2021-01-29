@@ -1,0 +1,19 @@
+.. _firstHeading:
+
+Exception/CMS/1347135546
+========================
+
+The error always occurs. Even when I wanted to clear the cache in the
+Install Tool The reason was a wrong defined TCA-column. I wrote
+something like this:
+
+::
+
+   'items' => array(
+      'items' => array(
+          array('noRotation', 0),
+          array('oneQuarter', 1),
+          array('halfCircle', 2),
+          array('threeQuarter', 3),
+     ),
+   ),
