@@ -23,8 +23,7 @@ Installation
 Conversion of Wiki Exception Pages
 ----------------------------------
 
-1. Copy TYPO3 wiki exception HTML pages to folder `source <source>`_.
-2. Run conversion script by
+1. Run conversion script by
 
    .. code-block:: bash
 
@@ -34,7 +33,7 @@ Conversion of Wiki Exception Pages
       # MacOS and Windows
       docker-compose run --rm convert-html-to-rst
 
-3. Check folder `target <target>`_ for reST files - ready for use in docs.typo3.org.
+2. Check folder `output <output>`_ for reST files and edit manually to make them ready for use in docs.typo3.org.
 
 Uninstallation
 --------------
