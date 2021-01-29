@@ -7,27 +7,30 @@ require 'vendor/autoload.php';
 use Symfony\Component\DomCrawler\Crawler;
 use Symfony\Component\HttpClient\HttpClient;
 
-$sourceFolder = '/source';
-$targetFolder = '/target';
+$folder = '/source';
+$keepTemporaryFiles = false;
 
-cleanup($sourceFolder);
-cleanup($targetFolder);
-fetchExceptionPages($sourceFolder);
-convert($sourceFolder, $targetFolder);
+cleanup($folder);
+fetchExceptionPages($folder);
+convert($folder);
+if (!$keepTemporaryFiles) {
+    cleanup($folder, '/\.html$/');
+}
 
 /**
  * Clean up all HTML and reST files in folder.
  *
  * @param string $folder
+ * @param string $filePattern
  */
-function cleanup(string $folder): void
+function cleanup(string $folder, string $filePattern = '/(\.html|\.rst)$/'): void
 {
     if ($handle = opendir($folder)) {
         while (false !== ($file = readdir($handle))) {
             $filePath = $folder . DIRECTORY_SEPARATOR . $file;
             if (is_file($filePath)) {
                 $pathInfo = pathinfo($filePath);
-                if (!in_array($pathInfo['basename'], ['.gitkeep'])) {
+                if (preg_match($filePattern, $pathInfo['basename'])) {
                     unlink($filePath);
                 }
             }
@@ -75,25 +78,24 @@ function fetchExceptionPages(string $folder): void
 }
 
 /**
- * Traverse source folder, extract essential html from HTML files and convert to reST files.
+ * Traverse folder, extract essential html from HTML files and convert to reST files.
  *
- * @param string $sourceFolder
- * @param string $targetFolder
+ * @param string $folder
  * @throws Exception
  */
-function convert(string $sourceFolder, string $targetFolder): void
+function convert(string $folder): void
 {
-    if ($handle = opendir($sourceFolder)) {
+    if ($handle = opendir($folder)) {
         while (false !== ($file = readdir($handle))) {
-            $sourceFile = $sourceFolder . DIRECTORY_SEPARATOR . $file;
-            if (is_file($sourceFile)) {
-                $pathInfo = pathinfo($sourceFile);
-                if ($pathInfo['extension'] == 'html') {
+            $filePath = $folder . DIRECTORY_SEPARATOR . $file;
+            if (is_file($filePath)) {
+                $pathInfo = pathinfo($filePath);
+                if ($pathInfo['extension'] == 'html' && strpos($pathInfo['filename'], '-extract') === false) {
                     try {
-                        $targetHtmlFile = $targetFolder . DIRECTORY_SEPARATOR . $pathInfo['filename'] . '.html';
-                        $targetRstFile = $targetFolder . DIRECTORY_SEPARATOR . $pathInfo['filename'] . '.rst';
-                        extractHtmlOfExceptionPage($sourceFile, $targetHtmlFile);
-                        convertHtmlToRst($targetHtmlFile, $targetRstFile);
+                        $extractFilePath = $folder . DIRECTORY_SEPARATOR . $pathInfo['filename'] . '-extract.html';
+                        $rstFilePath = $folder . DIRECTORY_SEPARATOR . $pathInfo['filename'] . '.rst';
+                        extractHtmlOfExceptionPage($filePath, $extractFilePath);
+                        convertHtmlToRst($extractFilePath, $rstFilePath);
                         printf("%s converted.\n", $file);
                     } catch (\Exception $e) {
                         printf("%s could not be converted (%s).\n", $file, $e->getMessage());

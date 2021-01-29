@@ -23,7 +23,6 @@ services:
     user: "${UID}:${GID}"
     volumes:
       - ./source:/source
-      - ./target:/target
       - ./php:/php
     environment:
       SCRIPT_VERBOSE: 0
