@@ -35,3 +35,16 @@ Conversion of Wiki Exception Pages
       docker-compose run --rm convert-html-to-rst
 
 3. Check folder `target <target>`_ for reST files - ready for use in docs.typo3.org.
+
+Uninstallation
+--------------
+
+Remove the environment from your operating system by
+
+.. code-block:: bash
+
+   # Linux
+   make clean
+
+   # MacOS and Windows
+   docker-compose down --rmi all --volumes
