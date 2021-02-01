@@ -8,11 +8,11 @@ Exception/CMS/1439288036
 This happens in TYPO3 7.6 if there is a incompatible 'items' TCA
 definition in the according field like
 
-.. container:: geshitypo3wiki
+.. container::
 
    `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
 
-.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+.. container::
 
    ::
 
@@ -22,11 +22,11 @@ definition in the according field like
 
 or
 
-.. container:: geshitypo3wiki
+.. container::
 
    `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
 
-.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+.. container::
 
    ::
 
@@ -34,11 +34,11 @@ or
 
 This has to be replaced with a correct item definition like
 
-.. container:: geshitypo3wiki
+.. container::
 
    `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
 
-.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+.. container::
 
    ::
 

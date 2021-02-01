@@ -22,11 +22,11 @@ For 4.x: Remove all ``typo3conf/temp_*`` files. For 6.x: Remove
 If this does not help, add the following lines to you
 ``typo3conf/localconf.php`` file.
 
-.. container:: geshitypo3wiki
+.. container::
 
    `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
 
-.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+.. container::
 
    ::
 

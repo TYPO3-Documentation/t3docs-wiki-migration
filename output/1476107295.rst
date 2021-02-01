@@ -82,15 +82,15 @@ Compilation failed: regular expression is too large at offset 27 in
 /html/typo3/typo3_src-9.5.22/typo3/sysext/frontend/Classes/ContentObject/ContentObjectRenderer.php
 line 3473"*
 
-.. container:: thumb tright
+.. container::
 
-   .. container:: thumbinner
+   .. container::
 
       |Error ... to large ... offset 27.jpg|
 
-      .. container:: thumbcaption
+      .. container::
 
-         .. container:: magnify
+         .. container::
 
             ` </File:Error_..._to_large_..._offset_27.jpg>`__
 
@@ -110,8 +110,19 @@ mentioned error was gone!
 
 --------------
 
-.. |Error ... to large ... offset 27.jpg| image:: /wiki/images/thumb/0/01/Error_..._to_large_..._offset_27.jpg/300px-Error_..._to_large_..._offset_27.jpg
-   :class: thumbimage
-   :width: 300px
-   :height: 32px
+Calling typo3/sysext/core/bin/typo3 scheduler:run from CLI:
+
+Uncaught TYPO3 Exception #1476107295: PHP Runtime Deprecation Notice:
+Array and string offset access syntax with curly braces is deprecated in
+(...)/typo3_src-9.5.9/vendor/typo3/phar-stream-wrapper/src/PharStreamWrapper.php
+line 479
+
+thrown in file
+/srv/sftp/ppwmain/udm.esaa-eu.org/typo3_src-9.5.9/typo3/sysext/core/Classes/Error/ErrorHandler.php
+
+in line 124
+
+Solution: Disable Debug Mode ;)
+
+.. |Error ... to large ... offset 27.jpg| image:: /output/Images/Error_..._to_large_..._offset_27.jpg
    :target: /File:Error_..._to_large_..._offset_27.jpg

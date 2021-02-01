@@ -23,7 +23,7 @@ configurePlugin: Actions declared incorrectly
 This error happens when the first array does have an integer as key
 instead of the plugin name:
 
-.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+.. container::
 
    ::
 
@@ -31,7 +31,7 @@ instead of the plugin name:
 
 The correct solution is this:
 
-.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+.. container::
 
    ::
 

@@ -470,11 +470,11 @@ either by injecting the repository or at least by using
 ``GeneralUtility::makeInstance`` to get the objectmanager instance and
 using ``$objectManager->get('MyExtension\MyRepository')``:
 
-.. container:: geshitypo3wiki
+.. container::
 
    `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
 
-.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+.. container::
 
    ::
 

@@ -3,11 +3,11 @@
 Exception/CMS/1316104317
 ========================
 
-.. container:: alert alert-notice
+.. container::
 
    notice - Draft
 
-   .. container:: alert-body
+   .. container::
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
       reviewer for text and TypoScript.
@@ -24,11 +24,11 @@ This basically means that you need to define a controller in your
 ext_localconf.php. Usually the first entry is taken as default
 controller/action. Here's an example:
 
-.. container:: geshitypo3wiki
+.. container::
 
    `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
 
-.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+.. container::
 
    ::
 
@@ -45,7 +45,7 @@ controller/action. Here's an example:
         ),
           
         // An array of non-cachable controller-action-combinations (they must already be enabled)
-        array(              
+        array(                
           'YourController' => 'new,create,edit,update'
         )
       );
@@ -57,12 +57,12 @@ This error can appear if you got your TypoScript wrong. Make sure that
 you write your settings with the first letter in uppercase and
 double-check your ext_localconf.
 
-.. container:: geshitypo3wiki
+.. container::
 
    `TS
    TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
 
-.. container:: mw-highlight mw-highlight-lang-typoscript mw-content-ltr
+.. container::
 
    ::
 

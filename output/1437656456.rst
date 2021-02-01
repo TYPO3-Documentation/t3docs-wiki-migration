@@ -20,15 +20,15 @@ cannnot switch to "Default" language. If no translated records present,
 we see the TYPO3 error. This is a very important feature of TYPO3 and
 used by many BE Editors. Please check and fix the bugs!
 
-.. container:: thumb tright
+.. container::
 
-   .. container:: thumbinner
+   .. container::
 
       |TYPO3 multi-content edit error.png|
 
-      .. container:: thumbcaption
+      .. container::
 
-         .. container:: magnify
+         .. container::
 
             ` </File:TYPO3_multi-content_edit_error.png>`__
 
@@ -60,8 +60,5 @@ The issue was solved here by comparing the database with the
 specification (see install tool > important actions). Make sure your
 table definitions are the same as they are in the current database!
 
-.. |TYPO3 multi-content edit error.png| image:: /wiki/images/thumb/0/03/TYPO3_multi-content_edit_error.png/300px-TYPO3_multi-content_edit_error.png
-   :class: thumbimage
-   :width: 300px
-   :height: 200px
+.. |TYPO3 multi-content edit error.png| image:: /output/Images/TYPO3_multi-content_edit_error.png
    :target: /File:TYPO3_multi-content_edit_error.png

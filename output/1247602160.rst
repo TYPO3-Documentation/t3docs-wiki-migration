@@ -24,11 +24,11 @@ definitions, choose "Update required tables COMPARE".
 Model mapping incorrect or missing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. container:: geshitypo3wiki
+.. container::
 
    `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__
 
-.. container:: mw-highlight mw-highlight-lang-sql mw-content-ltr
+.. container::
 
    ::
 
@@ -41,12 +41,12 @@ can happen if you didn't map the table and model via TypoScript.
 To solve this problem map the model to the corresponding database table
 name. The syntax for the upper example is the following:
 
-.. container:: geshitypo3wiki
+.. container::
 
    `TS
    TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
 
-.. container:: mw-highlight mw-highlight-lang-typoscript mw-content-ltr
+.. container::
 
    ::
 
@@ -55,11 +55,11 @@ name. The syntax for the upper example is the following:
 'tx_extbase_domain_model_backenduser' doesn't exist
 ---------------------------------------------------
 
-.. container:: geshitypo3wiki
+.. container::
 
    `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__
 
-.. container:: mw-highlight mw-highlight-lang-sql mw-content-ltr
+.. container::
 
    ::
 
@@ -75,12 +75,12 @@ name. The syntax for the upper example is the following:
 Adding this code to the TypoScript, on **all pages where is_siteroot is
 set**, seems to solve this issue:
 
-.. container:: geshitypo3wiki
+.. container::
 
    `TS
    TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
 
-.. container:: mw-highlight mw-highlight-lang-typoscript mw-content-ltr
+.. container::
 
    ::
 
@@ -123,11 +123,11 @@ be able to create and edit records in backend on page [0],
 otherwise TYPo3 will display error message and you can not edit anything
 on page [0].
 
-.. container:: geshitypo3wiki
+.. container::
 
    `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__
 
-.. container:: mw-highlight mw-highlight-lang-sql mw-content-ltr
+.. container::
 
    ::
 
@@ -190,11 +190,11 @@ in tables "tx_powermail_fieldsets" and "tx_powermail_fields". Add it
 manually to both tables, and formconverter will work (remove fields via
 DB COMPARE when done):
 
-.. container:: geshitypo3wiki
+.. container::
 
    `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__
 
-.. container:: mw-highlight mw-highlight-lang-sql mw-content-ltr
+.. container::
 
    ::
 
@@ -215,11 +215,11 @@ function findAllByIso2 ->
 
 changing :
 
-.. container:: geshitypo3wiki
+.. container::
 
    `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
 
-.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+.. container::
 
    ::
 
@@ -227,11 +227,11 @@ changing :
 
 to
 
-.. container:: geshitypo3wiki
+.. container::
 
    `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
 
-.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+.. container::
 
    ::
 
@@ -242,11 +242,11 @@ replace the Questionmark with $iso2 i am not sure why this is needed.
 
 Alternative solution is to use DB abstraction with following code:
 
-.. container:: geshitypo3wiki
+.. container::
 
    `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
 
-.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+.. container::
 
    ::
 
@@ -266,11 +266,11 @@ sql_mode of the MySQL Database.
 
 Check your sql_mode
 
-.. container:: geshitypo3wiki
+.. container::
 
    `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__
 
-.. container:: mw-highlight mw-highlight-lang-sql mw-content-ltr
+.. container::
 
    ::
 

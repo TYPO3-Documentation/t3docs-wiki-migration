@@ -21,14 +21,14 @@ Solution Typo3 8.4.x
 
 The way registering the Hook has changed in ext_localconf.php:
 
-.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+.. container::
 
    ::
 
       // Prior Typo3 8
       //$TYPO3_CONF_VARS['SC_OPTIONS']['cms/layout/class.tx_cms_layout.php']['tt_content_drawItem'][] = 'EXT:extensionkey/Classes/Hooks/PageLayoutViewDrawItemHook.php:&Vendor\\Extensionkey\\Hooks\\PageLayoutViewDrawItemHook';
 
-.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+.. container::
 
    ::
 

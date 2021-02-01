@@ -22,7 +22,7 @@ This doesn't work:
               expandAll = 1
               levels = 3
               as = dropdownNav
-              stdWrap.wrap =  <div class="mynavi-wrapper"> | </div>
+              stdWrap.wrap =  <div > | </div>
             }
         }
     }
@@ -45,5 +45,5 @@ This works:
               as = dropdownNav
             }
         }
-        stdWrap.wrap =  <div class="mynavi-wrapper"> | </div>
+        stdWrap.wrap =  <div > | </div>
     }

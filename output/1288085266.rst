@@ -16,12 +16,12 @@ Possible Reasons for this Exception
 Example
 ~~~~~~~
 
-.. container:: geshitypo3wiki
+.. container::
 
    `TS
    TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
 
-.. container:: mw-highlight mw-highlight-lang-typoscript mw-content-ltr
+.. container::
 
    ::
 

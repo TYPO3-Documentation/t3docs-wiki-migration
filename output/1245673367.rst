@@ -14,26 +14,26 @@ Class not defined in any of the typical Extbase Autoloader locations.
 
 Occours in: typo3/sysext/extbase/Classes/SignalSlot/Dispatcher.php:117
 
-.. container:: geshitypo3wiki
+.. container::
 
    `Shell
    Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
 
-.. container:: mw-highlight mw-highlight-lang-bash mw-content-ltr
+.. container::
 
    ::
 
       grep -rhC3 'is not a registered object' typo3
 
-.. container:: geshitypo3wiki
+.. container::
 
    `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
 
-.. container:: mw-highlight mw-highlight-lang-php mw-content-ltr
+.. container::
 
    ::
 
-                       throw new Tx_Extbase_SignalSlot_Exception_InvalidSlotException(sprintf('Cannot dispatch %s::%s to class %s. The object manager is not yet available in the Signal Slot Dispatcher and therefore it cannot dispatch classes.', $signalClassName, $signalName, $slotInformation['class']), 1298113624);
+                        throw new Tx_Extbase_SignalSlot_Exception_InvalidSlotException(sprintf('Cannot dispatch %s::%s to class %s. The object manager is not yet available in the Signal Slot Dispatcher and therefore it cannot dispatch classes.', $signalClassName, $signalName, $slotInformation['class']), 1298113624);
                       }
                       if (!$this->objectManager->isRegistered($slotInformation['class'])) {
                           throw new Tx_Extbase_SignalSlot_Exception_InvalidSlotException('The given class "' . $slotInformation['class'] . '" is not a registered object.', 1245673367);

@@ -41,7 +41,7 @@ Use the Template module to modify that template: Select the
 the pencil icon next to the word "Setup" and replace what you have in
 the Setup field with the following lines:
 
-.. container:: mw-highlight mw-highlight-lang-typoscript mw-content-ltr
+.. container::
 
    ::
 

@@ -25,7 +25,5 @@ for non admin)".
 
 |Media Extra Module in Access List for Backend usergroup.png|
 
-.. |Media Extra Module in Access List for Backend usergroup.png| image:: /wiki/images/8/85/Media_Extra_Module_in_Access_List_for_Backend_usergroup.png
-   :width: 604px
-   :height: 39px
+.. |Media Extra Module in Access List for Backend usergroup.png| image:: /output/Images/Media_Extra_Module_in_Access_List_for_Backend_usergroup.png
    :target: /File:Media_Extra_Module_in_Access_List_for_Backend_usergroup.png

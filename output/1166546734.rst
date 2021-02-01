@@ -14,15 +14,15 @@ Reason 1:
 Reason 2:
 ~~~~~~~~~
 
-.. container:: thumb tright
+.. container::
 
-   .. container:: thumbinner
+   .. container::
 
       |Extension Upload screen TER.png|
 
-      .. container:: thumbcaption
+      .. container::
 
-         .. container:: magnify
+         .. container::
 
             ` </File:Extension_Upload_screen_TER.png>`__
 
@@ -58,8 +58,5 @@ varies in the error message until "rte_ckeditor" and
 "fluid_styled_content" have been deactivated. Now the error message
 appears only with Package "core".
 
-.. |Extension Upload screen TER.png| image:: /wiki/images/thumb/d/d1/Extension_Upload_screen_TER.png/300px-Extension_Upload_screen_TER.png
-   :class: thumbimage
-   :width: 300px
-   :height: 160px
+.. |Extension Upload screen TER.png| image:: /output/Images/Extension_Upload_screen_TER.png
    :target: /File:Extension_Upload_screen_TER.png
