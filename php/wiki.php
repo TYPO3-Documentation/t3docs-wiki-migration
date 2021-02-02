@@ -30,8 +30,9 @@ fetchExceptionPages();
 reduceExceptionPages();
 fetchImagesOfExceptionPages();
 convert();
+postProcess();
 if (!$keepTemporaryFiles) {
-    cleanDir($outputDir, '/\.html$/');
+    cleanDir($outputDir, '/(\.html|-s4-converted\.rst)$/');
 }
 
 /**
@@ -327,7 +328,7 @@ function convert(): void
                     $pageName = str_replace('-s3-images-fetched', '', $pathInfo['filename']);
                     try {
                         $targetFileName = $pageName;
-                        $targetFilePath = $outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.rst';
+                        $targetFilePath = $outputDir . DIRECTORY_SEPARATOR . $targetFileName . '-s4-converted.rst';
                         convertHtmlToRst($filePath, $targetFilePath);
                         printf("Page %s converted.\n", $pageName);
                     } catch (\Exception $e) {
@@ -360,4 +361,75 @@ function convertHtmlToRst($sourceFile, $targetFile): void
     if ($result > 0) {
         throw new Exception(json_encode($output), $result);
     }
+}
+
+/**
+ * Traverse folder and post-process reST files.
+ */
+function postProcess(): void
+{
+    global $outputDir;
+
+    if ($handle = opendir($outputDir)) {
+        while (false !== ($file = readdir($handle))) {
+            $filePath = $outputDir . DIRECTORY_SEPARATOR . $file;
+            if (is_file($filePath)) {
+                $pathInfo = pathinfo($filePath);
+                if ($pathInfo['extension'] == 'rst' && strpos($pathInfo['filename'], '-s4-converted') !== false) {
+                    $pageName = str_replace('-s4-converted', '', $pathInfo['filename']);
+                    try {
+                        $targetFileName = $pageName;
+                        $targetFilePath = $outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.rst';
+                        postProcessRst($filePath, $targetFilePath);
+                        printf("Page %s post-processed.\n", $pageName);
+                    } catch (\Exception $e) {
+                        printf("Page %s could not be post-processed (%s)!\n", $pageName, $e->getMessage());
+                    }
+                }
+            }
+        }
+        closedir($handle);
+    }
+}
+
+/**
+ * Post-process reST file.
+ *
+ * @param $sourceFile
+ * @param $targetFile
+ */
+function postProcessRst($sourceFile, $targetFile): void
+{
+    $content = file_get_contents($sourceFile);
+    /**
+     * First-level heading
+     * ===================
+     * =>
+     * ===================
+     * First-level heading
+     * ===================
+     */
+    $content = preg_replace("/\n\n([^\n]+)\n([=]+)\n\n/", "\n\n$2\n$1\n$2\n\n", $content);
+    /**
+     * Second-level heading
+     * --------------------
+     * =>
+     * Second-level heading
+     * ====================
+     */
+    $content = preg_replace_callback("/\n\n([^\n]+)\n([-]+)\n\n/", function($matches) {
+        return sprintf("\n\n%s\n%s\n\n", $matches[1], str_repeat('=', strlen($matches[2])));
+    }, $content);
+    /**
+     * Third-level heading
+     * ~~~~~~~~~~~~~~~~~~~
+     * =>
+     * Third-level heading
+     * -------------------
+     */
+    $content = preg_replace_callback("/\n\n([^\n]+)\n([~]+)\n\n/", function($matches) {
+        return sprintf("\n\n%s\n%s\n\n", $matches[1], str_repeat('-', strlen($matches[2])));
+    }, $content);
+
+    file_put_contents($targetFile, $content);
 }
