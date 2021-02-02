@@ -16,9 +16,9 @@ $includePages = [];
 // Private
 $projectDir = dirname(dirname(__FILE__));
 $outputDir = $projectDir . DIRECTORY_SEPARATOR . 'output';
-$imagesDir = $outputDir . DIRECTORY_SEPARATOR . 'Images';
+$imagesDir = $outputDir . DIRECTORY_SEPARATOR . 'images';
 $outputUrl = '/output';
-$imagesUrl = $outputUrl . '/' . 'Images';
+$imagesUrl = $outputUrl . '/' . 'images';
 $pages = [];
 $imagesMap = [];
 
