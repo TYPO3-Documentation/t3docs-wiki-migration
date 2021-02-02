@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1237900529
 ========================
 
 News2
------
+=====
 
 ::
 
@@ -16,7 +17,7 @@ v2 (news) from the list and save your template record. Reload you
 frontend page.
 
 Fluid Template
---------------
+==============
 
 ::
 
@@ -46,7 +47,7 @@ bruchmann </User:David_bruchmann>`__
 09:33, 12 March 2014 (CET)
 
 <f:for>
--------
+=======
 
 ::
 
@@ -69,7 +70,7 @@ Please not the discussion at: https://forge.typo3.org/issues/64317
 Schenkenfelder </wiki/index.php?title=User:Bernland&action=edit&redlink=1>`__
 
 <f:form.select>
----------------
+===============
 
 ::
 

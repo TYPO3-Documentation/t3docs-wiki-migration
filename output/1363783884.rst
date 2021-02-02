@@ -1,13 +1,14 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1363783884
 ========================
 
 Extension BLSV Sporttabzieche 2013( blsvsa2013)
------------------------------------------------
+===============================================
 
 Error
-~~~~~
+-----
 
 ::
 
@@ -17,7 +18,7 @@ Error
    /www/2013.sportabzeichen-bayern.de/htdocs/typo3conf/ext/blsvsa2013/Classes/Domain/Model/Schulen.php in line 853.
 
 solution
-~~~~~~~~
+--------
 
 ::
 

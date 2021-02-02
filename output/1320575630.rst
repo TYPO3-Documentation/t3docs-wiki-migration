@@ -1,12 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1320575630
 ========================
 
-| 
-
 Error message
--------------
+=============
 
 Uncaught TYPO3 Exception
 
@@ -38,14 +37,14 @@ $this->rteImageStorageDir() 00558: ); 00559: if ($magicFolder instanceof
 $magicFolder->getPublicUrl();
 
 To reproduce the error
-----------------------
+======================
 
 When login in with an author user (!not admin) the message appears
 whenever there is a RTE Field available. When switching of the RTE in
 user settings, the error doesn't occur.
 
 Furthermore
------------
+===========
 
 | Bug might be related to one of these articles:
 | `orge.typo3.org/issues/51808 <https://forge.typo3.org/issues/51808>`__

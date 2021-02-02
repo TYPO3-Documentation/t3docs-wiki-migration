@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1353598137
 ========================
 
 Extension **blsvsa2013** Sportabzeichen 2013
---------------------------------------------
+============================================
 
 error message
 -------------
@@ -13,7 +14,7 @@ error message
    User ist kein Bezirk zugeordnet - 11964
 
 solution
---------
+========
 
 the user needs to be assigned to a group *Bezirk nn* with TSconfig:
 tx_blsvsa2013.bezirk.bnn=nn

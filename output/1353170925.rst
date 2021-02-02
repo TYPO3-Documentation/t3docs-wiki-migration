@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1353170925
 ========================
 
 The relation information for property "propertyXX" of class "TX\ext_key\Domain\Model\SomeModelYY" is missing.
--------------------------------------------------------------------------------------------------------------
+=============================================================================================================
 
 If you have a propery in a class SomeModelYY which has another class as
 type

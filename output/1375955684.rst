@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1375955684
 ========================
 
@@ -23,13 +24,13 @@ may occur after an upgrade due to security bulletin
    people.
 
 Exception when calling the language module
-------------------------------------------
+==========================================
 
 If you encounter this exception when calling the language module in
 6.1.4 => try to update to 6.1.5 or later.
 
 Exception Scheduler calling: File Abstraction Layer: Indexing job (scheduler)
------------------------------------------------------------------------------
+=============================================================================
 
 ::
 
@@ -41,14 +42,14 @@ all storages on **root level /**
 This also applies to indexing content with ke_search.
 
 Exception when calling search in the file list module
------------------------------------------------------
+=====================================================
 
 -  If this occurs as editor (not admin), you are using TYPO3 9.5 and you
    are directly on the top level directory of a file mount, it may be
    due to this bug: https://forge.typo3.org/issues/88175
 
 Exception when calling the file list module
--------------------------------------------
+===========================================
 
 you may have switched your file storage to offline. This may happen, if
 you create a non-public file storage without a ``_processed_`` subfolder
@@ -63,7 +64,7 @@ Then switch back to the file list and either reload the file list frame
 or logout/relogin.
 
 Exception, when trying to select a file in tce_forms
-----------------------------------------------------
+====================================================
 
 Look for something like this in the Page / User / Group TS and prefix
 the folder with the correct storage
@@ -76,7 +77,7 @@ the folder with the correct storage
    options.folderTree.altElementBrowserMountPoints = 1:assets
 
 Exception after cloning a 6.2 site when calling the file list module
---------------------------------------------------------------------
+====================================================================
 
 The fileadmin folder had been (deliberately) replaced by another one.
 Then, the page tree column displayed this error - only that 2nd column.
@@ -85,13 +86,13 @@ above helped, but truncating all sys_file.. tables did. In my case, that
 was feasible.
 
 Exception after viewing the TYPO3 frontend in a browser (you are not allowed to access the given folder: "_processed_")
------------------------------------------------------------------------------------------------------------------------
+=======================================================================================================================
 
 The auto-created fileadmin folder had been put offline. Re-enabling the
 folder fixes the issue.
 
 Exception when deleting file as non admin user (You are not allowed to access the given folder: "")
----------------------------------------------------------------------------------------------------
+===================================================================================================
 
 If sys extension recycler is enabled, make sure that there is a
 **\_recycler\_** folder accessible for the user.

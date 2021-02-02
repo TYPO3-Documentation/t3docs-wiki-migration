@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1225709597
 ========================
 
@@ -19,7 +20,7 @@ linked Partials, and check the (case-sensitive) filename/s.
 make sure you are using a slash but not a backslash.
 
 TYPO3CMS >= 6.2
----------------
+===============
 
 Make sure pathes to partials MUST NOT start with a slash.
 

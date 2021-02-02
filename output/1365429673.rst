@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1365429673
 ========================
 
 Error message
--------------
+=============
 
 ::
 
@@ -12,10 +13,10 @@ Error message
    TYPO3 Fatal Error: Extension key "sphinx" is NOT loaded!
 
 Solutions
----------
+=========
 
 Disable the extension manually
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
 Open ``typo3conf/PackageStates.php``, look up the extension key and
 change
@@ -36,10 +37,8 @@ You might also need to clear the PHP code cache in ``typo3temp``:
 
    $ rm -rf typo3temp/*
 
-| 
-
 Observations
-------------
+============
 
 Using a Vagrant with TYPO3 6.2beta6 we had this problem
 
@@ -82,10 +81,8 @@ array part or add it to your file PackageStates.php:
         ),
       ),
 
-| 
-
 back from TYPO3 7.6.x
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 The following error message is shown when you downgrade from TYPO3 7.6
 to 6.2.

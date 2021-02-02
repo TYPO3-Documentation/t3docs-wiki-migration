@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1278450972
 ========================
 
 #1278450972: The classname "TYPO3\CMS\Extbase\Persistence\ObjectStorage<\Webconsulting\WebconWarndienst\Domain\Model\Location>" was not found and thus can not be reflected.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+============================================================================================================================================================================
 
 This (extbase) error can occur if you have annotated a (controller
 action) method using "@param" but have not given a type hint. If the
@@ -59,10 +60,8 @@ psr4 autoload in copmposer.json:
            }
        },
 
-| 
-
 #1278450972 TYPO3\CMS\Extbase\Reflection\Exception\UnknownClassException
-------------------------------------------------------------------------
+========================================================================
 
 **Class Boolean does not exist. Reflection failed.**
 

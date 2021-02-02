@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1343464101
 ========================
 
@@ -10,6 +11,7 @@ Error message
 
    #1343464101: Broken rootline. Could not resolve page with uid 333.
 
+=====
 Cause
 =====
 

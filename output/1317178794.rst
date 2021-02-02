@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1317178794
 ========================
 
@@ -10,7 +11,7 @@ You'll probably get this error if you add a file mount *after* creating
 content containing images or links to files. (Using FAL.)
 
 Solution
---------
+========
 
 Check the Upgrade Wizard in the Install Tool to make sure that there are
 no outstanding FAL migration actions required.
@@ -20,7 +21,7 @@ element or resource is being inherited from a different page (higher up
 the tree structure.)
 
 Workaround
-----------
+==========
 
 There is a bug in TYPO3 6.2.15 which leads to a wrong SQL query. That
 will raise this exception.
@@ -34,6 +35,7 @@ references to your extension table) records of the table
 sys_file_reference are not marked as deleted. If this SQL query executes
 successfully, then it will work.
 
+=================
 From a eID script
 =================
 

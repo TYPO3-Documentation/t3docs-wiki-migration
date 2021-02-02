@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1316104317
 ========================
 
@@ -18,7 +19,7 @@ Tx_Extbase_Utility_Extension::configurePlugin() in your
 ext_localconf.php
 
 Basic requirements
-------------------
+==================
 
 This basically means that you need to define a controller in your
 ext_localconf.php. Usually the first entry is taken as default
@@ -51,7 +52,7 @@ controller/action. Here's an example:
       );
 
 Situation: Adding your plugin via TypoScript
---------------------------------------------
+============================================
 
 This error can appear if you got your TypoScript wrong. Make sure that
 you write your settings with the first letter in uppercase and
@@ -86,7 +87,7 @@ double-check your ext_localconf.
       }
 
 Situation: Adding the Plugin via Flexform Plugin
-------------------------------------------------
+================================================
 
 Extbase has the possibility to override internal configuration from
 Flexforms. This error might appear if you change a plugin from diffrent

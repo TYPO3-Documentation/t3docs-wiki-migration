@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1232985915
 ========================
 
 Exception
----------
+=========
 
 ::
 
@@ -20,7 +21,7 @@ which works fine if called using an HTTP-context (e.g. via Apache or
 nginx) but does not if invoked via CLI (command line interface).
 
 Adjust PHP CLI configuration to fix this behavior
--------------------------------------------------
+=================================================
 
 -  modify configuration file ``/etc/php/7.1/cli/conf.d/20-apcu.ini`` (as
    an exaxmple on Ubuntu 17.10)

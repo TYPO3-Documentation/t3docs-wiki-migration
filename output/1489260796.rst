@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1489260796
 ========================
 
 TYPO3.CMS.Form.prototypes.standard does not exist within the configuration
---------------------------------------------------------------------------
+==========================================================================
 
 ::
 

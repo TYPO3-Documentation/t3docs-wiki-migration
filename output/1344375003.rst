@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1344375003
 ========================
 
@@ -13,7 +14,7 @@ So you need to create a template on your root page that has the Box
 "rootlevel" under options ticked.
 
 Things to note
---------------
+==============
 
 -  Make sure the root template gets loaded from the root page of your
    page tree. (Even if this is only shortcut to somewhere else.)

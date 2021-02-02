@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1232985914
 ========================
 
@@ -8,7 +9,7 @@ Exception/CMS/1232985914
   order to use the APCu backend."
 
 Solution:
----------
+=========
 
 Disable, save and then re-enable APC in server management console to get
 it fixed.

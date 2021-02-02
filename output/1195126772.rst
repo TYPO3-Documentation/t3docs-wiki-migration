@@ -1,16 +1,17 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1195126772
 ========================
 
 General
--------
+=======
 
 #. Check wether the requested class really implements
    TYPO3\\CMS\\Backend\\Toolbar\\ToolbarItemHookInterface
 
 Exception on shortcut
----------------------
+=====================
 
 #. The error might have been caused because the argument to the
    constructor was not passed by reference as requested by the
@@ -60,7 +61,7 @@ in line 148.
           }
 
 Workaround
-----------
+==========
 
 My Backend worked well again after switching to PHP 5.5 -> Don't use PHP
 5.6 until fixed.

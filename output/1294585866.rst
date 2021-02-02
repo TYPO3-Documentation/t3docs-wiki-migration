@@ -1,16 +1,17 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1294585866
 ========================
 
 Error Message
--------------
+=============
 
 **Oops, an error occurred!** **No class named
 EXT:tt_products/hooks/class.tx_ttproducts_hooks_cms.php:&tx_ttproducts_hooks_cms**
 
 Solution
---------
+========
 
 For some reason the file
 tt_products/hooks/class.tx_ttproducts_hooks_cms.php does not exist. Copy

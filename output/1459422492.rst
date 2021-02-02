@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1459422492
 ========================
 
@@ -8,7 +9,7 @@ This error happens when you update a TYPO3 7.x installation to Version
 find the proper database connection.
 
 You need to change to following lines in your LocalConfiguration.php:
----------------------------------------------------------------------
+=====================================================================
 
 **From:**
 

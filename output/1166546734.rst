@@ -1,18 +1,19 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1166546734
 ========================
 
 #1166546734 TYPO3\CMS\Core\Package\Exception\UnknownPackageException
---------------------------------------------------------------------
+====================================================================
 
 Reason 1:
-~~~~~~~~~
+---------
 
 -  Package does really not exist
 
 Reason 2:
-~~~~~~~~~
+---------
 
 .. container::
 
@@ -23,8 +24,6 @@ Reason 2:
       .. container::
 
          .. container::
-
-            ` </File:Extension_Upload_screen_TER.png>`__
 
 -  CamelCaseConversion Problem with numbers
 -  f.e. vendor_extension_2018 will be converted into VendorExtension2018
@@ -38,17 +37,15 @@ case sensitive)**
 
 According to the hints in TER these kind of keys are invalid:
 
-| 
-
 -  https://docs.typo3.org/typo3cms/CoreApiReference/ExtensionArchitecture/ExtensionKey/Index.html
 
 Also See
-~~~~~~~~
+--------
 
 -  https://forge.typo3.org/issues/87737
 
 Reason 3 - Unknown
-~~~~~~~~~~~~~~~~~~
+------------------
 
 On a new Typo3 8LTS installation with test page and empty database comes
 this error message in Backend: "Uncaught TYPO3 Exception: #1166546734:
@@ -58,5 +55,5 @@ varies in the error message until "rte_ckeditor" and
 "fluid_styled_content" have been deactivated. Now the error message
 appears only with Package "core".
 
-.. |Extension Upload screen TER.png| image:: /output/Images/Extension_Upload_screen_TER.png
+.. |Extension Upload screen TER.png| image:: /output/images/Extension_Upload_screen_TER.png
    :target: /File:Extension_Upload_screen_TER.png

@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1234386924
 ========================
 
 Error-messages:
----------------
+===============
 
 #. #1234386924: Cannot create empty instance of the class
    "TYPO3\CMS\Extbase\Domain\Repository\FrontendUserRepository" because
@@ -19,7 +20,7 @@ Error-messages:
 04:19, 11 August 2014 (CEST)
 
 Fix
----
+===
 
 Assure that all classes in your model-files are defined and annotated
 correctly.

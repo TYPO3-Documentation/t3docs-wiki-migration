@@ -1,20 +1,21 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1349880193
 ========================
 
 Extension BLSV Sportabzeichen 2012 (blsvsa2012)
------------------------------------------------
+===============================================
 
 Fehlermeldung
-~~~~~~~~~~~~~
+-------------
 
 ::
 
    Angemeldeter User kann nicht ermittelt werden N° = nn
 
 Fehlerbehebung
-~~~~~~~~~~~~~~
+--------------
 
 ::
 

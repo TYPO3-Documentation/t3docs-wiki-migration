@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1533822084
 ========================
 
 Error message
--------------
+=============
 
 The following exception may bubble up since TYPO3 v9 during login:
 
@@ -13,10 +14,8 @@ The following exception may bubble up since TYPO3 v9 during login:
       #1533822084 TYPO3\CMS\Core\Crypto\PasswordHashing\InvalidPasswordHashException
       Configured default hash method TYPO3\CMS\Core\Crypto\PasswordHashing\Argon2iPasswordHash is not available. If the instance has just been upgraded, please log in to the standalone install tool at typo3/install.php to fix this. Follow the wiki link for more details.
 
-| 
-
 Explanation
------------
+===========
 
 If an instance has just been upgraded and if *argon2i* hash mechanism is
 not available locally, the default backend will still try to upgrade a
@@ -24,14 +23,14 @@ given user password to *argon2i* if the install tool has not been
 executed once.
 
 Reasons
--------
+=======
 
 This typically happens only if a system has just been upgraded and a
 backend login is performed before the install tool has executed silent
 upgarde wizards.
 
 Solutions
----------
+=========
 
 -  **Recommended**: Fix the server side: There is little reason to run
    PHP 7.2 without argon2i support. Install a PHP build that supports
@@ -60,7 +59,7 @@ Solutions
       to be able to generate a new hash value.
 
 More information
-----------------
+================
 
 -  `Official password hashing documentation since TYPO3
    v9 <https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/PasswordHashing/Index.html>`__

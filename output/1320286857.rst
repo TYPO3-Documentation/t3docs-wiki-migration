@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1320286857
 ========================
 
@@ -19,8 +20,6 @@ other posted solutions in this entry.
 I've got this error since some weeks, when I try to create a link to a
 file or folder inside RTE. Links to email or pages work fine. I had that
 problem with 6.2 and now after upgrade also with 7.6.15.
-
-| 
 
 | 
 | I noticed this issue when RTE had an incorrect link:
@@ -44,8 +43,6 @@ Other possible places where this issue can be noticed:
 -  Sometimes, we may even get into this situation when the file in
    question has been renamed/moved/missing.
 
-| 
-
 SOLUTION:
 
 Sadly when this issue happens, RTE failed to load. So, the only option I
@@ -53,8 +50,6 @@ had was to correct the path directly in the DB using "phpmyadmin".
 
 In my case it was "tt_content" table and the field that had isue was
 "bodytext"
-
-| 
 
 RTE// CKEditor with Core v9+
 
@@ -104,8 +99,4 @@ ref_table = '_FILE'@. It will give you the pattern to match. Typical
 patterns are "../fileadmin" or "uploads/tx_extension//filename.ext". The
 first pattern need correction in the original field too. The second
 needs correction in the extension tca. I also encountered links like
-"../?id=" but these are not related by it could be good to include (in
-tt_content.bodytext). After the changes, re-run the refindex update and
-you can go back updating to 6.2 If the issue is encountered while
-running the update wizards, make sure the maybe created file storage
-using the invalid "../" path is in deleted state.
+"../?../" path is in deleted state.

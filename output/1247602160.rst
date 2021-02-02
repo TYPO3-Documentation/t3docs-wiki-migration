@@ -1,13 +1,14 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1247602160
 ========================
 
 Tx_Extbase_Persistence_Storage_Exception_SqlError
--------------------------------------------------
+=================================================
 
 Tables or Fields missing, database needs to be updated
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------
 
 ::
 
@@ -19,10 +20,8 @@ and deactivate and activate the Extension (Typo3 6.0) or choose
 can use the install-Tools "Database Analyser" to update all table
 definitions, choose "Update required tables COMPARE".
 
-| 
-
 Model mapping incorrect or missing
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------
 
 .. container::
 
@@ -53,7 +52,7 @@ name. The syntax for the upper example is the following:
       plugin.tx_extendpages.persistence.classes.Tx_Extendpages_Domain_Model_Page.mapping.tableName = pages
 
 'tx_extbase_domain_model_backenduser' doesn't exist
----------------------------------------------------
+===================================================
 
 .. container::
 
@@ -107,7 +106,7 @@ set**, seems to solve this issue:
       }
 
 'tx_staticinfotables_domain_model_language' doesn't exist
----------------------------------------------------------
+=========================================================
 
 ::
 
@@ -148,7 +147,7 @@ General Record Storage Page:
    <INCLUDE_TYPOSCRIPT: source="FILE:EXT:static_info_tables/Configuration/TypoScript/Extbase/setup.txt">
 
 'tx_srlanguagemenu_domain_model_systemlanguage' doesn't exist
--------------------------------------------------------------
+=============================================================
 
 This occurs when the sr_language_menu extension is installed, but not
 configured right.
@@ -163,7 +162,7 @@ Secondly take a look a the static info tables extension and make sure
 that you have installed the infotables for all required languages!
 
 'tx_news_domain_model_filereference' doesn't exist
---------------------------------------------------
+==================================================
 
 See https://forge.typo3.org/issues/58925 and
 https://forge.typo3.org/issues/58784 I actually had the current version
@@ -172,17 +171,15 @@ to include the static templates and clear all caches, also truncate cf\_
 tables manually. Now it works.
 
 MySQL max_allowed_packet
-------------------------
+========================
 
 If only one Plugin/Site stops with "MySQL server has gone away" and all
 other are working..
 
 Increase the MySQL max_allowed_packet value.
 
-| 
-
 Powermail 2 formconverter: Unknown column 'fs.class' in 'field list'
---------------------------------------------------------------------
+====================================================================
 
 Error encountered using formconverter after updating powermail from
 v1.4.x. Intermediate versions (1.6 to 2.0?) used to have field "class"
@@ -201,10 +198,8 @@ DB COMPARE when done):
       alter table tx_powermail_fieldsets add column class text NOT NULL;
       alter table tx_powermail_fields add column class text NOT NULL;
 
-| 
-
 sf_register Thows error with activated static_info_tables
----------------------------------------------------------
+=========================================================
 
 With TYPO3 CMS 7.6.4 , sf_register 6.2.7 together with
 static_info_tables 6.3.9: Error in Mysql Request: newar "? and
@@ -259,7 +254,7 @@ Related `issue <https://forge.typo3.org/issues/67375>`__ at TYPO3
 bugtracker.
 
 SQL Mode not compatible
------------------------
+=======================
 
 In some cases the query is okay, but not compatible with the current
 sql_mode of the MySQL Database.

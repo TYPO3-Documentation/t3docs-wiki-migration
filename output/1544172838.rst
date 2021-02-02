@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1544172838
 ========================
 
@@ -7,15 +8,13 @@ Exception/CMS/1544172838
 no internet connection or protected )
 
 Migrating from Fluidpages to Flux
----------------------------------
+=================================
 
 If this exception appears while migrating from Fluidpages to Flux,
 verify that the corresponding Flux-TS is included.
 
-| 
-
 404 error handler set to "Display content from page" (TYPO3 9.x)
-----------------------------------------------------------------
+================================================================
 
 ::
 
@@ -30,10 +29,8 @@ certificate isn't valid.
 Solution: test again without SSL or test on a staging system with a
 properly installed valid certificate.
 
-| 
-
 self signed certificate problem
--------------------------------
+===============================
 
 ::
 

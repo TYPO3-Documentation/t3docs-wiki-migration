@@ -1,22 +1,23 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1426448465
 ========================
 
 Error message
--------------
+=============
 
 ::
 
     Field must not be empty
 
 Source
-------
+======
 
 Error in TCA configuration. E.g. in section ``types['1']['showitem']``.
 
 Possible solution
------------------
+=================
 
 Fix TCA configuration. E.g. ``showitem`` string. (In my case, the value
 was illegally starting with ``;;1,``.)

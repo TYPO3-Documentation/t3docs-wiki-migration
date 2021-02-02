@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1518472189
 ========================
 
 Path is not found (TYPO3 version 9.5)
--------------------------------------
+=====================================
 
 The error is shown if the requested page can't be found for one of the
 following or further reasons:
@@ -18,7 +19,7 @@ following or further reasons:
    some configurations share the same rootPageId
 
 Request parameters could not be validated
------------------------------------------
+=========================================
 
 Some parameters in your url should not be part of the cHash generation.
 You must add them to the cacheHash excluded parameters list in the
@@ -29,13 +30,13 @@ Install Tool. E.g. it is the eID parameter for Ajax calls.
     $GLOBALS['TYPO3_CONF_VARS']['FE']['cacheHash']['excludedParameters'] = ...,eID
 
 How to fix cross-domain problems (TYPO3 version 9.5)?
------------------------------------------------------
+=====================================================
 
 -  Create a site-configuration for the rootpage of each domain in the
    TYPO3-installation respectively pagetree.
 
 How to fix slug related problems (TYPO3 version 9.5)?
------------------------------------------------------
+=====================================================
 
 -  Fix the slugs starting with the root-page for each domain in the
    TYPO3-installation respectively pagetree. Each rootpage should be
@@ -49,7 +50,7 @@ How to fix slug related problems (TYPO3 version 9.5)?
    TYPO3-root is configured accordingly to the previous list-point.
 
 How to fix issues regarding multiple site configurations with the same rootPageId (TYPO3 version 9.5)?
-------------------------------------------------------------------------------------------------------
+======================================================================================================
 
 -  Remove the offending configuration or consolidate the configurations
    in one file

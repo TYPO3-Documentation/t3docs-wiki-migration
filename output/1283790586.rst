@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1283790586
 ========================
 
 Description
------------
+===========
 
 Exception 1283790586 **'There is no entry in the $TCA array for the
 table "your_unknown_table". This means that the function enableFields()
@@ -13,7 +14,7 @@ TYPO3\CMS\Frontend\Page\PageRepository::enableFields when the table (as
 mentioned in the error) is not found in the TCA.
 
 Possible causes
----------------
+===============
 
 Your project uses:
 

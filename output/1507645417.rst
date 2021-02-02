@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1507645417
 ========================
 
@@ -10,7 +11,7 @@ This happened in TYPO3 9.3.3 :
 =<>({
 
 Solution:
----------
+=========
 
 The file **ext_conf_template.txt** of the extension contains a missing
 equation sign (=).

@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1460976566
 ========================
 
 Misspelled folder name in icon path
------------------------------------
+===================================
 
 | I've encoutered the exception that "source" is mandatory during icon
   rendering.
@@ -14,12 +15,12 @@ Misspelled folder name in icon path
   end.
 
 Cache
------
+=====
 
 Clearing the cache via the install tool fixed the error for me
 
 Other
------
+=====
 
 i received following exception when i installed the following extensions
 /\* 'svconnector' => [

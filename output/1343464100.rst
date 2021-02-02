@@ -1,19 +1,20 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1343464100
 ========================
 
 Error message
--------------
+=============
 
 Broken rootline. Mountpoint parameter does not match the actual
 rootline. mount_pid (xxx) does not match page uid (yyy).
 
 Possible solutions
-------------------
+==================
 
 Check your realurl data
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 When I encountered this problem the reason was an invalid entry in the
 ID to path mapping of realurl.

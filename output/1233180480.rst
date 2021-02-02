@@ -1,23 +1,24 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1233180480
 ========================
 
 error message
--------------
+=============
 
 #. 1233180480: The method "yourMethod" is not supported by the
    repository
 
 Analysis
---------
+========
 
 -  check if the method **yourMethod** is not defined in the repository,
    also with respect to spelling (lowercase and upercase).
 -  check the visibility of the method (public, protected, private)
 
 Solution
---------
+========
 
 -  define the method **yourMethod** or correct the spelling.
 -  change the visibility of the method to public if it's called from a

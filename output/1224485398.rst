@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1224485398
 ========================
 
 error message
--------------
+=============
 
 ::
 
@@ -17,7 +18,7 @@ properly nested. Consult the manual for the correct nesting
 possibilities.
 
 solution
---------
+========
 
 ::
 
@@ -30,7 +31,7 @@ correctly close a single tag with a slash. (e.g. you need to use
 <f:example /> not <f:example>)
 
 Fault in viewHelper
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 If a viewHelper is not properly programmed, any arguments might break
 templates. It's important to register all arguments properly to get the

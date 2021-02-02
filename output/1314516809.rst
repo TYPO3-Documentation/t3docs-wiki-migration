@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1314516809
 ========================
 
 Check case sensitivity setting in \`File storage\` record
----------------------------------------------------------
+=========================================================
 
 Most problems rises when you are migrating from case-insensitive to
 case-sensitive file system, or when auto-generated File Storage didn't
@@ -14,14 +15,14 @@ In such situation created **File storage** saves file identifiers with
 lower-case in DB and can't find files which has mixed case.
 
 Solution
-~~~~~~~~
+--------
 
 -  Find all **File Storages** via module List on 'page zero' and on tab
    **Configuration** check the **Uses case sensitive identifiers**
    checkbox.
 
 Other possibilities
--------------------
+===================
 
 -  This error occurs when a media resource (image, PDF) is deleted from
    the server but remains linked via the "media" extension and FAL.
@@ -35,7 +36,7 @@ Other possibilities
    if setting case sensitivity in File Storage record doesn't help).
 
 Situation: Upgrade from 6.1 to 6.2
-----------------------------------
+==================================
 
 This error occurs at this step of the upgrade process :
 
@@ -59,7 +60,7 @@ rename my default Storage to "00 - Default", which made it the first to
 be retrieved.
 
 Situation: Upgrade from 4.5 to 6.2
-----------------------------------
+==================================
 
 This error occurs at this step of the upgrade process:
 
@@ -71,7 +72,7 @@ directly in DB. Field 'configuration' in XML text for variable for
 'caseSensitive' set to '1'. Restart/continue migration.
 
 Situation: Upgrading from very old DAM versions
------------------------------------------------
+===============================================
 
 DAM versions up to 1.1.7 allowed users to circumvent TYPO3's file and
 folder name sanitization, so users could enter files containing e.g.
@@ -97,10 +98,8 @@ below). Assuming reference index is reliable:
 
     SELECT * FROM sys_file WHERE identifier LIKE "% %" AND number_of_references > 0;
 
-| 
-
 Situation: Entering Upgrade Wizard after upgrading to 8.7
----------------------------------------------------------
+=========================================================
 
 Exception gets thrown when entering Upgrade Wizard:
 

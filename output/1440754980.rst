@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1440754980
 ========================
 
 Exception Message: [module-icon-<something>] The option "source" is required and must not be empty
---------------------------------------------------------------------------------------------------
+==================================================================================================
 
 This happen in 9LTS if you use ExtensionManagementUtility::addModule()
 with 7LTS parameters. Instead of

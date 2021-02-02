@@ -1,18 +1,19 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1407060572
 ========================
 
 Case 1
-------
+======
 
 If you did change the fluid_styled_content/Templates/ like this:
-<core:contentEditable table="tt_content" field="header"
-uid="{data.uid}"> <f:render partial="Header/All" arguments="{_all}" />
-</core:contentEditable> You need to add the frontend_editing Ext.
+<core:contentEditable table="tt_content" field="header" u> <f:render
+partial="Header/All" arguments="{_all}" /> </core:contentEditable> You
+need to add the frontend_editing Ext.
 
 Case 2
-------
+======
 
 ::
 
@@ -22,10 +23,8 @@ Case 2
 Check for typos! I named the ViewHelper "CustomViewhelper" with an
 lowercase "h", which leads to above fatal error.
 
-| 
-
 Case 3
-------
+======
 
 Fluid parse error in template
 Query_action_show_0c62eb625eb2a7904988fc25163bb9056e30949a, line 11 at
@@ -41,6 +40,6 @@ typoscriptObjectPath="lib.CUD" />' />
   not install the Vhs extension
 
 Case 4
-------
+======
 
 I forgot to clear my PHP Autoload Cache via Install Tool.

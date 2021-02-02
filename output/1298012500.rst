@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1298012500
 ========================
 
@@ -18,7 +19,7 @@ object), but the POST request did not contain those data.
 This may happen when the form is submitted without filling any values.
 
 Posted 25. June 2015
---------------------
+====================
 
 | **PROBLEM**
 | After **successfull** submission of the powermail form, I get this
@@ -27,8 +28,6 @@ Posted 25. June 2015
 ::
 
    #1298012500: Required argument "mail" is not set. 
-
-| 
 
 ::
 
@@ -60,7 +59,7 @@ Posted 25. June 2015
 | https://forge.typo3.org/issues/66848
 
 Posted earlier from somebody else
----------------------------------
+=================================
 
 I got this error message with the extension "powermail"!
 

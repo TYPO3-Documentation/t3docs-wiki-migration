@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1481889220
 ========================
 
 Optimize MySQL tables scheduler task
-------------------------------------
+====================================
 
 If you get this error when running the *Optimize MySQL database tables
 (scheduler)* task, try using the **mysqli** driver instead of

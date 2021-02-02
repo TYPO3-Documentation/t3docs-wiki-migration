@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1300205628
 ========================
 
@@ -7,7 +8,7 @@ Related to the YAG Extension.
 =============================
 
 Case 1
-------
+======
 
 ::
 
@@ -22,10 +23,8 @@ Case 1
    - This exception could occur when there are special chars in the name of the image files. In this case simply replace the spcial char in the filename in both: filesystem and database 
      (table: tx_yag_domain_model_item, field: sourceuri)
 
-| 
-
 Case 2
-------
+======
 
 This exception may happen when my fileadmin (storage) has disabled flag
 "Is publicly available?" on the Access sheet.

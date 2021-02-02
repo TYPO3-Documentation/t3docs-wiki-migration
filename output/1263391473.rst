@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1263391473
 ========================
 
 News
-----
+====
 
 **Exception in news detail view:**
 
@@ -21,7 +22,7 @@ Ensure that plugin.tx_news.features.rewrittenPropertyMapper is **not**
 set to 0.
 
 Flux
-----
+====
 
 Error:
 

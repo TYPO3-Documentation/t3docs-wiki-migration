@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1314455642
 ========================
 
 Exception in typo3 6.1 Backend show content in fileadmin folder
----------------------------------------------------------------
+===============================================================
 
 After upload a broken image the following error occured:
 
@@ -13,7 +14,7 @@ Error during file indexing: "Column 'height' cannot be null".
 *Solution:* Find the broken image and delete it.
 
 ERROR during Upgrade typo3 4.5 to 6.1
--------------------------------------
+=====================================
 
 During using the **Upgrade Wizard** at step **Migrate all file relations
 from tt_content.image and pages.media** the following error occured:
@@ -24,7 +25,7 @@ from tt_content.image and pages.media** the following error occured:
    Error during file indexing: "Unknown column 'creation_date' in 'field list'"
 
 solution
---------
+========
 
 ::
 

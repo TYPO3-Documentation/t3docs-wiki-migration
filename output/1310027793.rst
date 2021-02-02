@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1310027793
 ========================
 
@@ -19,8 +20,6 @@ unsigned NOT NULL auto_increment, pid int(11) unsigned NOT NULL default
 unsigned NOT NULL default '0', server_url varchar(2047) NOT NULL default
 *, salt char(40) NOT NULL default* , PRIMARY KEY (uid), UNIQUE nonce
 (server_url(255),tstamp,salt), KEY crdate (crdate) ) ENGINE=InnoDB;"
-
-| 
 
 | 
 | **I was led to this page after an SQL executing error from install

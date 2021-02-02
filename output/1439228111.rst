@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1439228111
 ========================
 
 Exception Message
------------------
+=================
 
 ::
 
@@ -14,10 +15,10 @@ Exception Message
    [...]/typo3/vendor/typo3/class-alias-loader/src/ClassAliasMap.php in line 59.
 
 Possible Error Sources
-----------------------
+======================
 
 Composer install with "--no-scripts" option
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------
 
 Probably you tried to run a composer install/update using the
 "--no-scripts" option.

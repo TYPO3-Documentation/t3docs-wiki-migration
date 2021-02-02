@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1349868540
 ========================
 
 No composer manifest file found at "/..../www/typo3conf/ext/myextension//composer.json".
-----------------------------------------------------------------------------------------
+========================================================================================
 
 I did some modification to the (running) extension to add one field and
 to delete 5 fields. Now the extension manager and the language-module
@@ -14,7 +15,7 @@ install-Tool says: "All local extensions can be loaded!" which is not
 correct as the plugin is not available any more.
 
 Solution
-~~~~~~~~
+--------
 
 the folders (and files?) of the extension needs to be accessible for PHP
 (I copied the files from remote via ssh and changed the owner and the

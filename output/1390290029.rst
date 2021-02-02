@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1390290029
 ========================
 
@@ -23,7 +24,7 @@ TYPO3 7:
    storage is number 1, then set this folder value to »1:/_processed_«)
 
 processed directory readonly
-----------------------------
+============================
 
 We had this error when listing files in the backend. The source of the
 problem was that the folder contained image files and the backend wanted

@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1384611413
 ========================
 
@@ -14,9 +15,9 @@ Exception message:
    ``typo3conf/ext/vhs/Classes/Utility/ErrorUtility.php`` in line 25.
 
 Case 1: v:page.resources.fal
-----------------------------
+============================
 
-This happens when ``<v:page.resources.fal uid="..">`` is used and the
-page is not visible (hidden, or start/endtime).
+This happens when ``<v:page.resources.fal u>`` is used and the page is
+not visible (hidden, or start/endtime).
 
 See https://github.com/FluidTYPO3/vhs/issues/1618#issuecomment-579699504

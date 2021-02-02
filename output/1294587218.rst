@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1294587218
 ========================
 
@@ -59,7 +60,7 @@ on `TYPO3.org <http://TYPO3.org>`__
 --------------
 
 SOLUTION 1 (Tested with TYPO3 7+)
----------------------------------
+=================================
 
 #. In the backend, click on 'Template' menu under web module.
 #. Click on the main page (usually id 1)

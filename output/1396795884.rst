@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1396795884
 ========================
 
 Error displayed during installation of TYPO3
---------------------------------------------
+============================================
 
 Usually, when installing a new TYPO3 instance, the system will detect
 the instance has not been configured yet and will redirect to the
@@ -15,10 +16,8 @@ this is to just manually add the path url »typo3/install.php« in the
 browser to directly reach the installer, which will take care of the
 trusted hosts pattern setting in one of its installer steps.
 
-| 
-
 Error displayed on an existing instance
----------------------------------------
+=======================================
 
 You see this error, because the submitted HTTP host-header does not
 match the trustedHosts configuration. You may want to adjust the trusted
@@ -49,7 +48,7 @@ configuration. A typical case is a hosting setup with a Load Balancer,
 CDN or a HA proxy.
 
 Typical configuration examples
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
 The following matches all hosts that end with **.domain.com** with all
 corresponding subdomains:
@@ -88,7 +87,7 @@ insecure) you can use ".*" as pattern:
    .*
 
 Extension 'hosts_pattern'
--------------------------
+=========================
 
 Take a look at the extension 'hosts_pattern' which generates the
 patterns for you

@@ -1,13 +1,14 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1460629247
 ========================
 
 TYPO3 8.7.1
------------
+===========
 
 Error: No valid handlers found for type: javascript
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------
 
 Happens after saving in CKEditor.
 

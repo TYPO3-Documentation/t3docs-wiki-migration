@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1318283565
 ========================
 
@@ -21,7 +22,7 @@ Description: Login into TYPO3 is not possible anymore, as no OpenSSL
 backend for rsaauth is available.
 
 Solutions
----------
+=========
 
 -  Activate and configure (on Windows) the PHP module openssl
 -  Configure rsaauth to use the openssl executable inside localconf.php
@@ -40,7 +41,7 @@ Solutions
    until openssl is available.
 
 Windows 7 and Xampp
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 Assuming you installed Xampp into C:\xampp:
 
@@ -126,7 +127,7 @@ I do not know what is the difference (directory spec or what?) between
 XAMPP Control Panel and xampp/apache_start.bat.
 
 Debian Squeeze/Wheezy
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 | Got error after installation of Redmine on Debian (amd64).
 | Typo3 is version : 6.1.0.
@@ -147,8 +148,6 @@ Debian Squeeze/Wheezy
   /etc/ssl/openssl.cnf as this seems to be needed by PHP's
   openssl_pkey_new():
 | chmod a+r /etc/ssl/openssl.cnf
-
-| 
 
 ::
 

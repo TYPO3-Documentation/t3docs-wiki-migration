@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1478806566
 ========================
 
 MenuProcessor Configuration contains invalid Arguments: stdWrap / wrap
-----------------------------------------------------------------------
+======================================================================
 
 This doesn't work:
 

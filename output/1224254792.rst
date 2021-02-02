@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1224254792
 ========================
 
 Namespace could not be resolved. This exception should never be thrown!
------------------------------------------------------------------------
+=======================================================================
 
 -  Most likely, you're using a ViewHelper or something that has its own
    namespace, but you didn't declared that namespace (e.g: missing

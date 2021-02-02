@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1317178604
 ========================
 
@@ -8,7 +9,7 @@ Exception/CMS/1317178604
 07:00, 30 July 2013 (CEST)
 
 Typo3 CMS 6.1.2 filelist/fileadmin error while uploading a file again which has been deleted earlier in the same folder
------------------------------------------------------------------------------------------------------------------------
+=======================================================================================================================
 
 | Having deleted a specific file before at the fileadmin it´s not
   possible to upload the same file again without error "No file found
@@ -31,14 +32,14 @@ Typo3 CMS 6.1.2 filelist/fileadmin error while uploading a file again which has 
 | Edit: Related to `Bug #50508 <https://forge.typo3.org/issues/50508>`__
 
 TYPO3 CMS 6.2.x - happened when a tt_news entry had an non-existing image in the bodytext
------------------------------------------------------------------------------------------
+=========================================================================================
 
 For some reason the preview did still exist and was shown in BE when
 editing the news record. But in FE this lead to the exception, because
 the sys_file record was not there anymore.
 
 EXT:solr + EXT:solrfal
-----------------------
+======================
 
 The exception happened when initializing fileadmin/ queue. File record
 was missing in sys_file but existed in sys_file_reference and

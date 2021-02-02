@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1288085266
 ========================
 
 Possible Reasons for this Exception
------------------------------------
+===================================
 
 -  You've created a Template using css_styled_content methods, but
    haven't included it inside your template
@@ -14,7 +15,7 @@ Possible Reasons for this Exception
    forgot to add the Static Include (from extension)
 
 Example
-~~~~~~~
+-------
 
 .. container::
 

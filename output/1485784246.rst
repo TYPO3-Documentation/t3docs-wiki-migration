@@ -1,9 +1,10 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1485784246
 ========================
 
 Extension 'chk_editor' installed, but not enabled
--------------------------------------------------
+=================================================
 
 Be sure the *chk_editor* extension is enabled.

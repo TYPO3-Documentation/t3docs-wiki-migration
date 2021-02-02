@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1320855304
 ========================
 
@@ -9,7 +10,7 @@ wrong file-permissions. To solve this issue: either delete the mentioned
 file or change it's permissions
 
 Example of problem resolution on Linux
---------------------------------------
+======================================
 
 ::
 

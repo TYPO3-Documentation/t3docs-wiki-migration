@@ -1,11 +1,10 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1438185331
 ========================
 
 An error message of this kind appears in the TYPO3 backend.
-
-| 
 
 ::
 

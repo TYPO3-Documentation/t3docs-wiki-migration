@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1237823699
 ========================
 
 #1237823699: Required argument "controller" was not supplied.
--------------------------------------------------------------
+=============================================================
 
 Just add the parameter controller to the *be.menus.actionMenuItem*
 ViewHelper:
@@ -18,7 +19,7 @@ you use a view Helper in your fluid template without a required
 argument.
 
 #1237823699: Required argument "each" was not supplied.
--------------------------------------------------------
+=======================================================
 
 ::
 
@@ -42,7 +43,7 @@ And you must have the correct syntax of the "f:for"-ViewHelper.
     </f:for>
 
 #1237823699 Error: Required argument "colPos" was not supplied.
----------------------------------------------------------------
+===============================================================
 
 TYPO3 with flux and fluidcontent - Upgraded to version 9.
 

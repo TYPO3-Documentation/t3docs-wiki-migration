@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1251315967
 ========================
 
@@ -38,7 +39,7 @@ Non-CamelCase:
 case, the truncating of the cf_-tables was sufficient.
 
 extension_builder bug
----------------------
+=====================
 
 In another case, this occurred in the extension builder v6.2.0 after the
 modification of an extension via the extension builder to add a new

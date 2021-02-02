@@ -1,22 +1,23 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1233058486
 ========================
 
 Invalid chars in identifier for the cache-instance
---------------------------------------------------
+==================================================
 
 Remove or replace the invalid characters from your identifier.
 
 Interface: TYPO3\CMS\Core\Cache\Frontend\FrontendInterface
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------------
 
 ::
 
       const PATTERN_ENTRYIDENTIFIER = '/^[a-zA-Z0-9_%\\-&]{1,250}$/';
 
 Abstract Class: TYPO3\CMS\Core\Cache\Frontend\AbstractFrontend
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------------------------
 
 ::
 
@@ -25,7 +26,7 @@ Abstract Class: TYPO3\CMS\Core\Cache\Frontend\AbstractFrontend
       }
 
 file ext_autoload.php
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 An invalid character in the file ext_autoload.php causes this error
 message.
@@ -49,7 +50,7 @@ class name of its own. It does not exist anywhere: ..._hooks_marker
       /Cache/Frontend/AbstractFrontend.php in line 85. Requested URL:
 
 EXT:be_acl :: Version 1.7.3 and above
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------
 
 From version 1.7.3 on the cache identifier includes the
 "usergroup_cached_list" of the backend user object. If there are too

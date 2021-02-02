@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1203699034
 ========================
 
@@ -8,7 +9,7 @@ Exception/CMS/1203699034
    #1203699034: A cache with identifier "IDENTIFIER" does not exist. 
 
 Solution
---------
+========
 
 Most likely you did not clear cache. You will not be able to do this
 from backend any more. Instead you have to remove all cache files from

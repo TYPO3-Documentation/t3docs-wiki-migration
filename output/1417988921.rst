@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1417988921
 ========================
 
 Workaround
-----------
+==========
 
 Create your first page in the List-tab. Afterwards it will work in the
 Page-tab too. Copied from this german thread:

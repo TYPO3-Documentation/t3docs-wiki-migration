@@ -1,17 +1,18 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1458745712
 ========================
 
 Exception message
------------------
+=================
 
 Invalid flex form data structure on field name "pi_flexform" with
 element "..." in section container "section": Nesting sections in
 container elements sections is not allowed.
 
 Background
-----------
+==========
 
 Support for editing/creating nested flex form section containers has
 been blocked in TYPO3 7.4.5 due to issues in data consistency and
@@ -20,7 +21,7 @@ component handling (`commit
 See `Core bug report #73125 <https://forge.typo3.org/issues/73125>`__.
 
 Nested sections in Flux aka "Fluid Powered TYPO3"
--------------------------------------------------
+=================================================
 
 Nesting sections could be thought of as "repeaters" inside "repeaters",
 such as for a FCE which contained a dynamic list of contacts with
@@ -42,7 +43,7 @@ GitHub <https://github.com/FluidTYPO3/flux/issues/1139>`__, "Nesting
 sections in container elements sections is not allowed.").
 
 Impact
-~~~~~~
+------
 
 Previously created FCEs with nested sections can still be read (and
 rendered), disabled/enabled, copied and deleted, but no longer be fully
@@ -54,7 +55,7 @@ even after the data structure has been modified, but the absence of a
 clean-up of such invalid data cannot be guaranteed for all times.
 
 Workarounds
-~~~~~~~~~~~
+-----------
 
 Using nested FCEs (containers/grid) instead
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

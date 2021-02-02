@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1481380393
 ========================
 
@@ -11,7 +12,7 @@ stuff from Configuration/FlexForms/FlexformPlugin.xml (or whatever your
 flexform file is named).
 
 Old:
-----
+====
 
 ::
 
@@ -26,7 +27,7 @@ Old:
      </displayCond>
 
 New:
-----
+====
 
 ::
 

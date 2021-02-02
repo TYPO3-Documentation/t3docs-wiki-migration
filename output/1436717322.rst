@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1436717322
 ========================
 
@@ -25,7 +26,7 @@ I hope someone can do something with this text. Greetings
 For me it was enough to delete "typo3temp". Good luck. SteBo
 
 The parsedUri string appears to be malformed
---------------------------------------------
+============================================
 
 Happened to me in TYPO3 9.5 in DDEV on Windows 10 when logging into the
 backend after setting up the project with composer and

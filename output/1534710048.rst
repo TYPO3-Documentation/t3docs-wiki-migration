@@ -1,17 +1,18 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1534710048
 ========================
 
 Exeption is Thrown when click in Backend on Module "Sites"
-----------------------------------------------------------
+==========================================================
 
 after Upgrade from TYPO3 LTS 8 or lower to LTS-9 and imported Database
 from old instance you want to create Your First SITE configuration, but
 get this Exception/CMS/1534710048
 
 Possible Reasons / Solutions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 Missing database Tables
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -19,10 +20,10 @@ Missing database Tables
 **Solution** : -> goto Admin Tools -> maintanance -> Database Compare
 
 Exception is thrown when trying to edit records in BE
------------------------------------------------------
+=====================================================
 
 Error in TCA configuration
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 **Solution**: Check if display condition 'displayCond' => 'USER:' .
 \\TYPO3\CMS\Core\Compatibility\PseudoSiteTcaDisplayCondition::class .
@@ -35,7 +36,7 @@ The error may only occur if you edit specific records as a problem only
 arises if a page(!) with the uid of the record(!) does not exist.
 
 **Extension news or tt_address needs updates**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------
 
 Some versions of the extensions news and tt_address can cause this error
 on opening records like sys_category. Updating the extension to the most

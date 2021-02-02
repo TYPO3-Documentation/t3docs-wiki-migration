@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1470230766
 ========================
 
 Unknown column 'a' in 'field list'
-----------------------------------
+==================================
 
 This error might occur if a model contains a field that does not exist
 in the corresponding database table. In this case you should add the

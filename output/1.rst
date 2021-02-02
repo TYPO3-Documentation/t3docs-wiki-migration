@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+===============
 Exception/CMS/1
 ===============
 
 typo3 4.6.0
------------
+===========
 
 I get this error when switching to Web>Template.
 
@@ -16,8 +17,6 @@ I get this error when switching to Web>Template.
    must be an array, null given, called in /home/typo3_src/typo3_src-4.6.0/typo3/sysext/lang/lang.php 
    on line 554 and defined in /home/typo3_src/typo3_src-4.6.0/t3lib/class.t3lib_div.php line 1867
 
-| 
-
 -  Read the Ticket for this `Bug
    #31353 <https://forge.typo3.org/issues/31353>`__.
 -  If you speak German, this `post at
@@ -25,7 +24,7 @@ I get this error when switching to Web>Template.
    could help.
 
 TYPO3 4.6.8
------------
+===========
 
 After a Debian upgrade (apt-get dist-upgrade) the suhosin.so can not be
 loaded
@@ -37,7 +36,7 @@ apt-get install php5-suhosin shows a broken dependency.
 solution is to drop suhosin.so from apache2 dpkg -P php5-suhosin
 
 typo3 4.7.10
-------------
+============
 
 Suddenly got this error when logging on to the next.
 
@@ -54,7 +53,7 @@ Suddenly got this error when logging on to the next.
    above <http://www.typo3.net/forum/thematik/zeige/thema/107943/seite/2/?show=1&cHash=a1bcb079cea5fd9fee872ce737f9f544>`__.
 
 Solution
-~~~~~~~~
+--------
 
 In localconf.php do the settings for the output errors:
 
@@ -74,7 +73,7 @@ is working again (but without localization :)
 None - please edit if you found a solution!
 
 typo3 4.7.17
-------------
+============
 
 -  Login to Backend was not possible.
 -  Error occured after changing PHP Binaries (not PHP Version) from 5.4
@@ -93,13 +92,13 @@ typo3 4.7.17
 .. _solution-1:
 
 Solution
-~~~~~~~~
+--------
 
 Delete content of /typo3temp folder.
 http://www.typo3forum.net/forum/typo3-4-x-backend/56543-kein-login-fatal-error-typo3-4-7-1-a.html#post187281
 
 typo3 4.7.14
-------------
+============
 
 I get this error when uploading files with DAM 1.3.2 for a user that
 does not have admin rights.
@@ -119,7 +118,7 @@ does not have admin rights.
 .. _solution-2:
 
 Solution
-~~~~~~~~
+--------
 
 Downgrade to DAM 1.3.1
 `dam <https://extensions.typo3.org/extension/dam/>`__
@@ -129,10 +128,10 @@ https://forge.typo3.org/issues/51969 Patch is here :
 https://review.typo3.org/#/c/23848/ Tested, working...
 
 typo3 6.1.0
------------
+===========
 
 indexed search
-~~~~~~~~~~~~~~
+--------------
 
 I get this error after installing `indexed
 search </De:Indexed_search>`__.
@@ -155,10 +154,8 @@ Solution
 After uninstalling extension `system extension
 form <https://forge.typo3.org/projects/typo3v4-form>`__ it works
 
-| 
-
 solr_report
-~~~~~~~~~~~
+-----------
 
 **TO COME HERE WE DID:**
 
@@ -198,7 +195,7 @@ Solution
 ^^^^^^^^
 
 typo3 6.2.0
------------
+===========
 
 when clicking on Page - rootpage - create content element using flux /
 fluidpages / fluidcontent
@@ -213,12 +210,10 @@ I got this error after upgrading from 6.1.7 to 6.2.0. occures when the
 gridelements extension is installed tested with gridelements v2.0.2 and
 gridelements v3.0.0-dev https://forge.typo3.org/issues/57833
 
-| 
-
 .. _solution-5:
 
 Solution
-~~~~~~~~
+--------
 
 Download the news versions from GIT of "view"
 https://github.com/FluidTYPO3/view
@@ -229,27 +224,27 @@ typo3_src-6.2.0/typo3/sysext/lang/Classes/LanguageService.php line 250
 .. _solution-6:
 
 Solution
-~~~~~~~~
+--------
 
 None please post if you have found one! THX
 
 form
-~~~~
+----
 
 When submitting a very basic form
 
 .. _solution-7:
 
 Solution
-~~~~~~~~
+--------
 
 none, please add
 
 TYPO3 6.2.2
------------
+===========
 
 PHP Warning: touch(): Unable to create file /user_upload/news/aAbB
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------------
 
 ::
 
@@ -284,7 +279,7 @@ Error source code with line#263 = error line:
 No solution found yet
 
 sav_library_kickstarter
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 ::
 
@@ -293,10 +288,8 @@ sav_library_kickstarter
 temporarily solved by adding "if (is_array($views))" to the foreach
 statement.
 
-| 
-
 tx_cal
-~~~~~~
+------
 
 ::
 
@@ -317,7 +310,7 @@ tx_cal
 Calling the preview or workspace preview, this typo3 exception appears!
 
 TYPO 6.2.3
-----------
+==========
 
 ::
 
@@ -327,14 +320,14 @@ At 1st initial start of this page on a day, after realod [e.g. pressing
 F5] this message disapears, and page runs fine...
 
 TYPO3 6.2.4
------------
+===========
 
 ::
 
    #1: PHP Warning: fread(): Length parameter must be greater than 0 in /var/www/typo3_src-6.2.4/typo3/sysext/impexp/Classes/ImportExport.php line 3042
 
 Error description
-~~~~~~~~~~~~~~~~~
+-----------------
 
 This error occurs when exporting content to .t3d (all tables) from TYPO3
 4.5.35 and importing this .t3d into TYPO3 6.2.4. The problem comes from
@@ -351,7 +344,7 @@ typo3_src/typo3/sysext/impexp/Classes/ImportExport.php line 3042.
 .. _solution-8:
 
 Solution
-~~~~~~~~
+--------
 
 This bugfix did it for me:
 
@@ -366,8 +359,6 @@ This bugfix did it for me:
    3045
    3046                 if (strstr($initStrDat[0], 'Warning') == FALSE) {
 
-| 
-
 ::
 
    #1: PHP Warning: Illegal string offset 'uid' in D:\___WWW___\_typo3\_PROJECTS\work_6.2.3\typo3\sysext\frontend\Classes\Controller\TypoScriptFrontendController.php line 1281
@@ -378,7 +369,7 @@ This bugfix did it for me:
 .. _solution-9:
 
 Solution
-~~~~~~~~
+--------
 
 At 1st initial start of this page after clearing the cache, after reload
 [e.g. pressing F5] this message disappears, and page runs fine...
@@ -386,12 +377,10 @@ At 1st initial start of this page after clearing the cache, after reload
 (`talk </wiki/index.php?title=User_talk:David_bruchmann&action=edit&redlink=1>`__)
 02:03, 27 August 2014 (CEST)
 
-| 
-
 .. _typo3-6.2.4-1:
 
 TYPO3 6.2.4
------------
+===========
 
 ::
 
@@ -402,7 +391,7 @@ TYPO3 6.2.4
 .. _error-description-1:
 
 Error description
-~~~~~~~~~~~~~~~~~
+-----------------
 
 This error occurs when opening a Folder while in Page-Module, but only
 if the Folder has a Backend Layout configured with no columns. This was
@@ -411,7 +400,7 @@ only possible until at least 4.7
 .. _solution-1-1:
 
 Solution 1
-~~~~~~~~~~
+----------
 
 Got to the List Module and switch the Folder back to Standard, change
 the Backend Layout and switch back.
@@ -419,12 +408,12 @@ the Backend Layout and switch back.
 .. _solution-2-1:
 
 Solution 2
-~~~~~~~~~~
+----------
 
 Edit your empty Backend Layout: Insert a colPos
 
 TYPO3 6.2.14
-------------
+============
 
 ::
 
@@ -438,19 +427,19 @@ For background information see `Ticket
 .. _solution-1-2:
 
 Solution 1
-~~~~~~~~~~
+----------
 
 Log into Backend, clear Cache
 
 .. _solution-2-2:
 
 Solution 2
-~~~~~~~~~~
+----------
 
 truncate all tables **cf_xxx_xxxx**
 
 TYPO3 6.2.14: Argument 1 must implement ObjectManagerInterface
---------------------------------------------------------------
+==============================================================
 
 ::
 
@@ -459,7 +448,7 @@ TYPO3 6.2.14: Argument 1 must implement ObjectManagerInterface
 .. _solution-1-3:
 
 Solution 1
-~~~~~~~~~~
+----------
 
 You are trying to instantiate a Repository by calling
 ``GeneralUtility::makeInstance('MyExtension\MyRepository')``.
@@ -488,7 +477,7 @@ using ``$objectManager->get('MyExtension\MyRepository')``:
       }
 
 TYPO3 6.2.15: Argument 1 passed to TYPO3\CMS\Extbase\Property\PropertyMappingConfiguration::setTypeConverter() must implement interface TYPO3\CMS\Extbase\Property\TypeConverterInterface, string given
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=======================================================================================================================================================================================================
 
 In the case you would like to implement your own TypeConverter, you need
 to call setTypeConverter() method, located in
@@ -532,14 +521,14 @@ by the name of your converter.
   than not.
 
 TYPO3 6.2.18: tx_news:newsadministration: Division by zero in PaginateController
---------------------------------------------------------------------------------
+================================================================================
 
 ::
 
    #1: PHP Warning: Division by zero in /srv/typo3/typo3_src-6.2.18/typo3/sysext/fluid/Classes/ViewHelpers/Be/Widget/Controller/PaginateController.php line 65
 
 TYPO3 7.5
----------
+=========
 
 ::
 
@@ -549,7 +538,7 @@ Getting this error in page view when trying to edited an element
 carousel from the Fluid Bootstrap Theme (fluidbootstraptheme)
 
 TYPO3 7.6
----------
+=========
 
 ::
 
@@ -578,7 +567,7 @@ from the install tool.
 --------------
 
 TYPO3 7.6.5
------------
+===========
 
 After Login the following error is shown (7.6.5):
 
@@ -597,7 +586,7 @@ This regression will be fixed in 7.6.6:
 https://review.typo3.org/#/c/47783/
 
 TYPO3 7.6.10
-------------
+============
 
 Scheduler results in this error. When scheduler sends mail, this is the
 content of the mail
@@ -609,7 +598,7 @@ content of the mail
    More information regarding this error might be available https://typo3.org/go/exception/CMS/1
 
 indexed_search
-~~~~~~~~~~~~~~
+--------------
 
 `Indexing
 configuration <https://docs.typo3.org/typo3cms/extensions/indexed_search/latest/IndexingConfigurations/Index.html>`__
@@ -620,13 +609,11 @@ missing:
    PHP Warning: Invalid argument supplied for foreach() in
    typo3_src/typo3/sysext/indexed_search/Classes/Hook/CrawlerHook.php line 740
 
-| 
-
 TYPO3 7.6.16
-------------
+============
 
 Deprecation Notice: mysql_connect()
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------
 
 PHP Runtime Deprecation Notice: mysql_connect(): The mysql extension is
 deprecated and will be removed in the future: use mysqli or PDO instead
@@ -649,7 +636,7 @@ http://adodb.org/dokuwiki/doku.php?id=v5:database:mysql
 php version: PHP 5.6.30-1~dotdeb+7.1 (cli) (built: Jan 21 2017 14:50:59)
 
 ReflectionProperty::getValue()
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
 #. 1: PHP Warning: ReflectionProperty::getValue(): Couldn't fetch
    mysqli_result in
@@ -662,7 +649,7 @@ This happens when i use
 For some reason the connection to the database fails.
 
 Warning: phpinfo() has been disabled
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------
 
 Eception occurs in Install Tool > System environment
 

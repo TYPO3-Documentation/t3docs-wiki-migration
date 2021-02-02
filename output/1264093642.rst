@@ -1,17 +1,18 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1264093642
 ========================
 
 error with use-statement in annotaions
---------------------------------------
+======================================
 
 #. 1264093642: Found an invalid element type declaration in %s. Type
    "ObjectStorage" must not have an element type hint
    (vendor\yourExtension\Domain\Model\yourModel)
 
 solution
---------
+========
 
 | in annotations use statement does'nt work
 

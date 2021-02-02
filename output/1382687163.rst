@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1382687163
 ========================
 
@@ -17,19 +18,17 @@ occurs when a FAL img is loaded This happened to me when I had an orphan
 Is working fine now!
 
 ================================================================================================================
-----------------------------------------------------------------------------------------------------------------
+================================================================================================================
 
 This exception can also simply be thrown when you use a fluid template
 with an image tag <f:image src="image.jpg"> and the image does not
 exist! So check your templates for correct image sources before checking
 models !
 
-| 
-
 .. _section-1:
 
 ================================================================================================================
-----------------------------------------------------------------------------------------------------------------
+================================================================================================================
 
 I had this for the extension ws_flexslider. I had updated it during the
 upgrade from 6.1 to 6.2, but forgot about the partials and templates

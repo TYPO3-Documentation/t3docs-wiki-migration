@@ -1,17 +1,18 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1225709596
 ========================
 
 TYPO3 6.2.1
------------
+===========
 
 ::
 
    The template files "/home/.....t3bootstrap/Resources/Private/Layouts/Content", "/home/....t3bootstrap/Resources/Private/Layouts/Content.html" could not be loaded.
 
 Reason
-~~~~~~
+------
 
 Happend by using Flux 7.0.0
 

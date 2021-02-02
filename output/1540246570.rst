@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1540246570
 ========================
 
@@ -11,10 +12,8 @@ choose the specific Plugin from the tab 'Plug-in'
 Occures if you pass the wrong pluginType to
 TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(...)
 
-| 
-
 You have removed Typoscript by Conditon ?
------------------------------------------
+=========================================
 
 f.e. you have used this:
 
@@ -33,7 +32,7 @@ like the next line in your Fluid Template <f:cObject
 typoscriptObjectPath="lib.login" />
 
 Solution
-~~~~~~~~
+--------
 
 change typoscript to:
 
@@ -47,10 +46,8 @@ lib.login =
 
      [global]
 
-| 
-
 Exception is thrown in a fluid template using a view helper
------------------------------------------------------------
+===========================================================
 
 reason code like this:
 
@@ -64,11 +61,9 @@ error message
 .. _solution-1:
 
 Solution
---------
+========
 
 add a default Text and also FIX LLL language File
-
-| 
 
 or add path to lll File:
 

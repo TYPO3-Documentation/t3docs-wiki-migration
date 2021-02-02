@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1356356009
 ========================
 
@@ -8,7 +9,7 @@ Exception/CMS/1356356009
    JSON
 
 Solution
---------
+========
 
 Most likely you have an error in the mentioned composer.json file. Check
 the composer.json for errors.

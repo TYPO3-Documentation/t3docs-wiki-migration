@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1433416043
 ========================
 
 TYPO3 7.6.0
------------
+===========
 
 Error when opening backend login after upgrading from 7.x:
 
@@ -17,7 +18,7 @@ Error when opening backend login after upgrading from 7.x:
    Requested URL: http://www.doamin.dev/typo3/index.php
 
 Solution
-~~~~~~~~
+--------
 
 | Flush all caches via "Clear all cache" button in the Install Tool.
 | (Explanation: The openid login form is registered with its old

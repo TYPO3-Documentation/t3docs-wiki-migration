@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1533818591
 ========================
 
 Error message
--------------
+=============
 
 The following exception may bubble up since TYPO3 v9 during login:
 
@@ -13,17 +14,15 @@ The following exception may bubble up since TYPO3 v9 during login:
       #1533818591 TYPO3\CMS\Core\Crypto\PasswordHashing\InvalidPasswordHashException
       No implementation found that handles given hash. This happens if the stored hash uses a mechanism not supported by current server. Follow the wiki link to fix this issue.
 
-| 
-
 Explanation
------------
+===========
 
 A frontend user, a backend user or the install tool password hash is
 stored using a mechanism not supported by the current server. The login
 process can not compare the given password with the stored hash.
 
 Reasons
--------
+=======
 
 This typically happens if a TYPO3 upgrade is performed on a system that
 supports the default hash mechanism *argon2i*, passwords in the database
@@ -31,7 +30,7 @@ and/or the install tool password is updated to use this hash, and the
 system is then deployed to a system that does not support *argon2i*.
 
 Solutions
----------
+=========
 
 -  **Recommended**: Fix the server side: If the passwords are stored
    using *argon2i*, make the project hoster support PHP 7.2 with
@@ -76,7 +75,7 @@ Solutions
       -  Clean up the local instance.
 
 More information
-----------------
+================
 
 -  `Official password hashing documentation since TYPO3
    v9 <https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/PasswordHashing/Index.html>`__

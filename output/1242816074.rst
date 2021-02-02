@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1242816074
 ========================
 
 Error 1
--------
+=======
 
 ::
 
@@ -13,7 +14,7 @@ Error 1
    The number of question marks to replace must be equal to the number of parameters.
 
 Error 2
--------
+=======
 
 ::
 

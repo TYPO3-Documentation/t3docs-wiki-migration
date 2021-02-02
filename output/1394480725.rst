@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1394480725
 ========================
 
@@ -41,15 +42,13 @@ Important Actions Before it worked but trying to Install a new Core
 (6.2.10) via important Actions ran into a general Error, the Clearing
 Cache runs into this error.
 
-| 
-
 typo3 6.2.25
-------------
+============
 
 Got error "Could not acquire lock for ClassLoader cache creation." on
 after updateing the realurl extension from 1.12.8 to 2.0.15
 
 Solution
-~~~~~~~~
+--------
 
 Cleared Cache again, no problem detected

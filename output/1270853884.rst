@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1270853884
 ========================
 
@@ -9,10 +10,8 @@ Exception/CMS/1270853884
    was not accepted when the connection to the database was
    attempted to be established!
 
-| 
-
 Solution 1: restart the MySQL daemon.
--------------------------------------
+=====================================
 
 ::
 
@@ -34,10 +33,8 @@ Solution 1: restart the MySQL daemon.
       On Mac OSX 10.10 (Yosemite) type: 
       sudo /usr/local/mysql/support-files/mysql.server start
 
-| 
-
 Solution 2: TYPO3 6.2 - modify your MySQL configuration file
-------------------------------------------------------------
+============================================================
 
 ::
 

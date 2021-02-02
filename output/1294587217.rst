@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1294587217
 ========================
 
@@ -15,8 +16,6 @@ page = PAGE page. 10 = TEXT page. 10.value = HELLO WORLD!
 
 Removing these spaces leaded to a page running fine without the error
 message this Thread is about. Best regards, strawk
-
-| 
 
 | 
 | **#1294587217: The page is not configured! [type=0][]. This means that
@@ -70,6 +69,6 @@ TYPO3 CMS 6.2. Please see: http://www.bahai.by/be/?type=103 Why no 404
 error.
 
 Using Bootstrap_package
------------------------
+=======================
 
 You forgot to include the bootstrap_package static template.

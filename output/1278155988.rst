@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1278155988
 ========================
 
@@ -35,12 +36,12 @@ Jonsson
 
 ::
 
-   <trans-unit id="backend_layout.default_2_V_columns">
+   <trans-unit >
     <source>Bootstrap Package: Left & normal, 2 Columns</source>
    </trans-unit>
 
 ==============================
-------------------------------
+==============================
 
 I want a page layout with 3 grids for left margin and 9 grids for
 normal. Are there any tutorial how to add a new page layout in bootstrap
@@ -67,7 +68,7 @@ bootstrap_package/Resources/Private/Language/Backend.xml
 
 ::
 
-   <trans-unit id="backend_layout.default_2_V_columns">
+   <trans-unit >
     <source>Bootstrap Package: Left & normal, 2 Columns</source>
    </trans-unit>
 
@@ -129,7 +130,7 @@ Package: Left & normal, 2 Columns" when choosing page layout in Edit
 page.
 
 Broken character in locallang_db.xlf
-------------------------------------
+====================================
 
 I got this error in the BE list view (7.6 LTS) and was able to fix it by
 correcting a broken character in

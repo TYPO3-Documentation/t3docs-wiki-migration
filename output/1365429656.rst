@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1365429656
 ========================
 
 TYPO3 >= 10 LTS
----------------
+===============
 
 Starting with TYPO3 10 LTS the variable $_EXTKEY isn't filled with the
 extension key anymore. Solution: use the hardcoded extension key within
@@ -19,7 +20,7 @@ ext_emconf.php <https://github.com/TYPO3/CmsComposerInstallers/pull/59>`__.
 .. _typo3-10-lts-1:
 
 TYPO3 < 10 LTS
---------------
+==============
 
 This error might come up, if you delete the files of a Extension from
 the Extension Path (*typo3conf/ext*), which is still activated in TYPO3.
@@ -51,16 +52,12 @@ everything will be restored automatically.
 
 `clear_cache_franz.php <http://www.jambage.com/fileadmin/user_upload/clear_cache_franz.php.zip>`__
 
-| 
-
 Also this error might come up if you restructure your TCA files to fit
 into the new 6.2 structure. If you try to use $_EXTKEY in the
 Configuration/TCA/tablename.php files (for paths with
 extPath($_EXTKEY)), then $_EXTKEY will be empty and thus TYPO3 looks for
 the extension ' '. Solution is to replace $_EXTKEY by the extkey of the
 extension.
-
-| 
 
 If you encounter this error during an upgrade to 6.2, you might check
 your *LocalConfiguration.php* for the right order of extensions in the

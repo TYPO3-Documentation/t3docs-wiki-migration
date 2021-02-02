@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1218547409
 ========================
 
 Solution
---------
+========
 
 Deleting all files in "typo3temp/Cache" through console, did the job for
 me.
@@ -17,7 +18,7 @@ console.
 ``rm -rf typo3temp/autoload/*``
 
 Solution Typo3 8.4.x
---------------------
+====================
 
 The way registering the Hook has changed in ext_localconf.php:
 

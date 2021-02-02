@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1319455097
 ========================
 
 Issue occurs because of offline filestorage
--------------------------------------------
+===========================================
 
 Go to page 0 and check your file storage records. If they are offline at
 the moment, set them online. After saving check whether they are still
@@ -16,10 +17,10 @@ After the folder exists and the record is set to online, the issue
 should be solved in most cases.
 
 Possible second solution
-------------------------
+========================
 
 2st step
-~~~~~~~~
+--------
 
 *Oops, an error occurred!* Error while fetching permissions for More
 information regarding this error might be available online.
@@ -43,7 +44,7 @@ delete from sys_file_storage where uid = xxx;
 done ;-) Leo
 
 2nd step
-~~~~~~~~
+--------
 
 In addition to what Leo did, i had to open the filelist-module, with a
 non-admin user, which has some filemounts in the auto-created
@@ -53,12 +54,12 @@ fileadmin/-storage (the only storage left for me).
 20:10, 12 August 2014 (CEST)
 
 one more
-~~~~~~~~
+--------
 
 I had to delete migrated entries in the table sys_file_storage
 
 4) if steps 2 - 3 above does not fit to you problem
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------
 
 You have only ONLY one auto-created FAL Entry after Upgrade from 6.0/6.1
 to 6.2.x? (so deleting of other entries does not help?= For me it helped
@@ -66,7 +67,7 @@ to fix the autocreated FAL entry: I activated "Is default storage?" and
 entered a folder to "Folder for manipulated and temporary images etc."
 
 5th
-~~~
+---
 
 | It maybe connected to unicode file names handling - it can happen with
   names like Økonomi.jpg. If you have such file in folder then you can
@@ -82,7 +83,7 @@ entered a folder to "Folder for manipulated and temporary images etc."
 .. _th-1:
 
 6th
-~~~
+---
 
 UTF-8 named files may become damaged/mangled upon transferring them via
 (S)FTP. For example using Transmit/Coda between OS X and a linux server.
@@ -93,7 +94,7 @@ help.-`ursbraem </wiki/index.php?title=User:Ursbraem&action=edit&redlink=1>`__
 .. _th-2:
 
 7th
-~~~
+---
 
 Problem occurred for me after updating from TYPO3 6.2.10 to 6.2.11 and
 6.2.12 – contrary to https://forge.typo3.org/issues/58403#note-3 I
@@ -102,14 +103,14 @@ re-created a file storage for ``/``, but without setting it as standard
 solved and I haven't found any new ones yet.
 
 simple solution
----------------
+===============
 
 This exception hit me hard when I created a storage element in the
 Backend of a fresh installed 7.2, but did not create the corresponding
 directory in the filesystem.
 
 Migrate all RTE magic images from uploads/RTEmagicC_\* to fileadmin/_migrated/RTE/
-----------------------------------------------------------------------------------
+==================================================================================
 
 Got this exception during update 4.5.40 to 6.2.12 at "Migrate all RTE
 magic images from uploads/RTEmagicC_\* to fileadmin/_migrated/RTE/". =>
@@ -118,7 +119,7 @@ delete unwanted entries from sys_file_storage (in my case only
 /fileadmin should remain in sys_file_storage).
 
 Remove /uploads from filemounts
--------------------------------
+===============================
 
 I simply had to remove the uploads-folder from filemounts, log out and
 log in. Voilà.

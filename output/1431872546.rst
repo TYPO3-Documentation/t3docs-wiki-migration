@@ -1,16 +1,17 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1431872546
 ========================
 
 LIMITATION
-----------
+==========
 
 This Errormessage is shown only in Versions starting from TYPO3 7.3 and
 up.
 
 Errormessage
-------------
+============
 
 #. 1431872546: Node of type VENDOR\EXTENSION\Form\CLASSNAME must
    implement NodeInterface (More information)

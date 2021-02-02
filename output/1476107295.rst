@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1476107295
 ========================
 
@@ -92,8 +93,6 @@ line 3473"*
 
          .. container::
 
-            ` </File:Error_..._to_large_..._offset_27.jpg>`__
-
 *This is the code in row 3473: if (preg_match($cropRegEx, $tempContent,
 $croppedMatch)) { ... and in the image you see the content of the 3
 parameters"*
@@ -124,5 +123,5 @@ in line 124
 
 Solution: Disable Debug Mode ;)
 
-.. |Error ... to large ... offset 27.jpg| image:: /output/Images/Error_..._to_large_..._offset_27.jpg
+.. |Error ... to large ... offset 27.jpg| image:: /output/images/Error_..._to_large_..._offset_27.jpg
    :target: /File:Error_..._to_large_..._offset_27.jpg

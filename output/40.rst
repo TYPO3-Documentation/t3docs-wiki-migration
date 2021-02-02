@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+================
 Exception/CMS/40
 ================
 
@@ -39,8 +40,6 @@ sys_products_fe_users_mm_visited_products
 
 Solution: Remove the second line with the field 'tstamp' from table
 'sys_products_fe_users_mm_visited_products'.
-
-| 
 
 ::
 

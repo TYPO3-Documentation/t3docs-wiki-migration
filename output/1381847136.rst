@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1381847136
 ========================
 
 #1381847136: Could not determine the current charset of the database.
----------------------------------------------------------------------
+=====================================================================
 
 Did you update MySQL last time and this exception occurred? First verify
 if MySQL can check the charsets by running SQL in some GUI:

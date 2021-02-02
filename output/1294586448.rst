@@ -1,10 +1,11 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1294586448
 ========================
 
 Editors cannot upload files in media extension
-----------------------------------------------
+==============================================
 
 When a editor (a backend user that is not an administrator) tries to
 access a module to where they have no access to an exception like this
@@ -25,5 +26,5 @@ for non admin)".
 
 |Media Extra Module in Access List for Backend usergroup.png|
 
-.. |Media Extra Module in Access List for Backend usergroup.png| image:: /output/Images/Media_Extra_Module_in_Access_List_for_Backend_usergroup.png
+.. |Media Extra Module in Access List for Backend usergroup.png| image:: /output/images/Media_Extra_Module_in_Access_List_for_Backend_usergroup.png
    :target: /File:Media_Extra_Module_in_Access_List_for_Backend_usergroup.png

@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1310027933
 ========================
 
@@ -14,10 +15,6 @@ pages work.
 Don't have a solution for this problem, any clues?
 
 Here's the exception message:
-
-| 
-
-| 
 
 Uncaught TYPO3 Exception
 

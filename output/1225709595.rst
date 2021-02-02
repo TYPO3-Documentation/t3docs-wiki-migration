@@ -1,5 +1,6 @@
-.. _firstHeading:
+.. include:: /Includes.rst.txt
 
+========================
 Exception/CMS/1225709595
 ========================
 
@@ -14,13 +15,13 @@ Exception message:
    in line 730.
 
 TYPO3 10+
----------
+=========
 
 I also believe this solution might work for most user of TYPO3 6+,
 though only tested with version 10.4.5.
 
 Solution 1
-~~~~~~~~~~
+----------
 
 If you're using a standalone view, be sure to set the controller
 context. You can then adjust it to your taste if you want to. But at
@@ -44,7 +45,7 @@ $standaloneView->assignMultiple($this->settings);
 ...
 
 Solution 2
-~~~~~~~~~~
+----------
 
 If you are running your view away from the Controllers, then make sure
 to fill in *fillDefaultsByPackageName* with your extension key:
@@ -58,14 +59,14 @@ $standaloneView->setTemplatePathAndFilename('EXT:myextention/Resources/Private/T
 . $this->template); ...
 
 error message
--------------
+=============
 
 #. 1225709595: The template files
    ".../typo3conf/ext/blsvsa2013/Resources/Private/Partials/Model/Template.html"
    could not be loaded.
 
 solution
---------
+========
 
 check if the template file exist.
 
@@ -76,7 +77,7 @@ need to create both files, the html file can be empty. I think this is a
 bug and filled a bug report; https://forge.typo3.org/issues/46657
 
 typo3 6.1.7
------------
+===========
 
 typo3conf/ext/fluidpages/Resources/Private/Partials/Exception/1364741158
 usually happening i.e. when you make your own extension from the
@@ -107,10 +108,8 @@ i.e.
 -  1 match in tx_impexp_presets (delete) -
 -  39 matches in tx_realurl_errorlog (delete)
 
-| 
-
 other error
------------
+===========
 
 The error could be related to his Issue;
 https://github.com/noelboss/Podcast/issues/17
