@@ -349,7 +349,14 @@ function convert(): void
  */
 function convertHtmlToRst($sourceFile, $targetFile): void
 {
-    exec(sprintf('pandoc %s -f html -t rst -s -o %s', $sourceFile, $targetFile), $output, $result);
+    global $projectDir;
+
+    $headerIncludes = $projectDir . '/pandoc/header.rst.txt';
+
+    exec(sprintf(
+        'pandoc %s -f html -t rst -H %s -s -o %s', $sourceFile, $headerIncludes, $targetFile
+    ), $output, $result);
+
     if ($result > 0) {
         throw new Exception(json_encode($output), $result);
     }
