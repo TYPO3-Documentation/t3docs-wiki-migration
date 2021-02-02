@@ -5,13 +5,17 @@ declare(strict_types=1);
 require 'vendor/autoload.php';
 
 use Symfony\Component\DomCrawler\Crawler;
+use Symfony\Component\HttpClient\Exception\TransportException;
 use Symfony\Component\HttpClient\HttpClient;
 
 define('WIKI_URL', 'https://wiki.typo3.org');
+define('LOGLEVEL_INFO', 1);
+define('LOGLEVEL_WARNING', 2);
 
 // Public
 $keepTemporaryFiles = false;
 $includePages = [];
+$logLevel = LOGLEVEL_INFO;
 
 // Private
 $projectDir = dirname(dirname(__FILE__));
@@ -21,6 +25,7 @@ $outputUrl = '/output';
 $imagesUrl = $outputUrl . '/' . 'images';
 $pages = [];
 $imagesMap = [];
+$linksMap = [];
 
 cleanDir($imagesDir);
 cleanDir($outputDir);
@@ -28,11 +33,12 @@ createDir($outputDir);
 fetchListOfExceptionPages();
 fetchExceptionPages();
 reduceExceptionPages();
+replaceWikiLinksOfExceptionPages();
 fetchImagesOfExceptionPages();
 convert();
 postProcess();
 if (!$keepTemporaryFiles) {
-    cleanDir($outputDir, '/(\.html|-s4-converted\.rst)$/');
+    cleanDir($outputDir, '/(\.html|-s5-converted\.rst)$/');
 }
 
 /**
@@ -44,7 +50,7 @@ function createDir(string $folder): void
 {
     if (!is_dir($folder)) {
         mkdir($folder);
-        printf("Folder %s created.\n", $folder);
+        logInfo("Folder %s created.", $folder);
     }
 }
 
@@ -71,7 +77,7 @@ function cleanDir(string $folder, string $filePattern = ''): void
         }
         @rmdir($folder);
     }
-    printf("Folder %s cleaned up.\n", $folder);
+    logInfo("Folder %s cleaned up.", $folder);
 }
 
 /**
@@ -124,9 +130,9 @@ function fetchExceptionPages(): void
                 $uri = parse_url($response->getInfo('url'));
                 $fileName = explode('/', $uri['path'])[3] . '-s1-full.html';
                 file_put_contents($outputDir . DIRECTORY_SEPARATOR . $fileName, $content);
-                printf("Page %s fetched.\n", $response->getInfo('url'));
+                logInfo("Page %s fetched.", $response->getInfo('url'));
             } else {
-                printf("Page %s not fetched (status code: %s)!\n", $response->getInfo('url'), $response->getStatusCode());
+                logWarning("Page %s not fetched (status code: %s)!", $response->getInfo('url'), $response->getStatusCode());
             }
         }
     }
@@ -150,9 +156,9 @@ function reduceExceptionPages(): void
                         $targetFileName = $pageName . '-s2-reduce';
                         $targetFilePath = $outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.html';
                         reduceExceptionPage($filePath, $targetFilePath);
-                        printf("Page %s reduced.\n", $pageName);
+                        logInfo("Page %s reduced.", $pageName);
                     } catch (\Exception $e) {
-                        printf("Page %s could not be reduced (%s)!\n", $pageName, $e->getMessage());
+                        logWarning("Page %s could not be reduced (%s)!", $pageName, $e->getMessage());
                     }
                 }
             }
@@ -187,6 +193,138 @@ function reduceExceptionPage(string $sourceFile, string $targetFile): void
 }
 
 /**
+ * Traverse folder and replace internal wiki links by actual links outside of wiki scope - if available.
+ *
+ * @throws \Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface
+ * @throws \Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface
+ * @throws \Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface
+ * @throws \Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface
+ */
+function replaceWikiLinksOfExceptionPages(): void
+{
+    global $outputDir;
+
+    if ($handle = opendir($outputDir)) {
+        while (false !== ($file = readdir($handle))) {
+            $filePath = $outputDir . DIRECTORY_SEPARATOR . $file;
+            if (is_file($filePath)) {
+                $pathInfo = pathinfo($filePath);
+                if ($pathInfo['extension'] == 'html' && strpos($pathInfo['filename'], '-s2-reduce') !== false) {
+                    $pageName = str_replace('-s2-reduce', '', $pathInfo['filename']);
+                    $targetFileName = $pageName . '-s3-links';
+                    $targetFilePath = $outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.html';
+                    try {
+                        replaceWikiLinksOfExceptionPage($filePath, $targetFilePath, $pageName);
+                    } catch (\Exception $e) {
+                        file_put_contents($targetFilePath, file_get_contents($filePath));
+                        logWarning("Links of page %s could not be replaced (%s)!", $pageName, $e->getMessage());
+                    }
+                }
+            }
+        }
+        closedir($handle);
+    }
+}
+
+/**
+ * Crawl TYPO3 Wiki exception page and replace its wiki links by actual links.
+ *
+ * @param string $sourceFile Exception page content with TYPO3 Wiki links
+ * @param string $targetFile Exception page content with actual links
+ * @param string $pageName Exception page name
+ * @throws \Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface
+ * @throws \Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface
+ * @throws \Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface
+ * @throws \Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface
+ */
+function replaceWikiLinksOfExceptionPage(string $sourceFile, string $targetFile, string $pageName): void
+{
+    global $linksMap;
+
+    $content = file_get_contents($sourceFile);
+    $crawler = new Crawler($content);
+    $links = $crawler->filterXPath('//a')
+        ->each(function(Crawler $node){return $node->attr('href');});
+
+    if (count($links) > 0) {
+        $client = HttpClient::create();
+        $replace = [];
+        $responses = [];
+
+        foreach ($links as $link) {
+            if (strpos($link, '/File:') === 0) {
+                continue;
+            }
+
+            $linkAbs = strpos($link, 'http') === 0 ? $link :
+                        (strpos($link, '/') === 0 ? WIKI_URL . $link :
+                            WIKI_URL . '/' . $link);
+
+            if (strpos($linkAbs, WIKI_URL) !== false) {
+                if (!array_key_exists($link, $replace)) {
+                    if (!array_key_exists($linkAbs, $linksMap)) {
+                        $linksMap[$linkAbs] = $linkAbs;
+                        $responses[$linkAbs] = $client->request('GET', $linkAbs);
+                    } else {
+                        if ($linksMap[$linkAbs] !== $linkAbs) {
+                            $linkPath = preg_replace('/http[s]?:\/\/[^\/]+/', '', $linkAbs);
+                            $replace[$linkAbs] = $linksMap[$linkAbs];
+                            $replace[$linkPath] = $linksMap[$linkAbs];
+                            $replace[substr($linkPath, 1)] = $linksMap[$linkAbs];
+                        }
+                    }
+                }
+            } else {
+                if (!array_key_exists($linkAbs, $linksMap)) {
+                    $linksMap[$linkAbs] = $linkAbs;
+                    $responses[$linkAbs] = $client->request('GET', $linkAbs);
+                }
+            }
+        }
+
+        if (count($responses) > 0) {
+            foreach ($responses as $requestUrl => $response) {
+                try {
+                    $response->getContent(false);
+                    if ($response->getStatusCode() === 200) {
+                        $responseUrl = $response->getInfo('url');
+                        if (strpos($requestUrl, WIKI_URL) !== false && strpos($responseUrl, WIKI_URL) === false) {
+                            $linksMap[$requestUrl] = $responseUrl;
+                            $requestPath = preg_replace('/http[s]?:\/\/[^\/]+/', '', $requestUrl);
+                            $replace[$requestUrl] = $responseUrl;
+                            $replace[$requestPath] = $responseUrl;
+                            $replace[substr($requestPath, 1)] = $responseUrl;
+                            logInfo("Link %s of page %s replaced by link %s.", $requestUrl, $pageName, $responseUrl);
+                        } else {
+                            logInfo("Link %s of page %s remains as-is.", $requestUrl, $pageName);
+                        }
+                    } else {
+                        logWarning("Link %s of page %s seems to be outdated (status code: %s)!", $requestUrl, $pageName, $response->getStatusCode());
+                    }
+                } catch (TransportException $e) {
+                    logWarning("Link %s of page %s seems to be outdated (%s)!", $requestUrl, $pageName, $e->getMessage());
+                }
+            }
+        }
+
+        if (count($replace) > 0) {
+            $content = str_replace(
+                array_keys($replace),
+                array_values($replace),
+                $content
+            );
+            $content = str_replace(
+                array_map('htmlspecialchars', array_keys($replace)),
+                array_map('htmlspecialchars', array_values($replace)),
+                $content
+            );
+        }
+    }
+
+    file_put_contents($targetFile, $content);
+}
+
+/**
  * Crawl TYPO3 Wiki exception pages and save their images into the folder $imagesDir.
  *
  * @throws \Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface
@@ -203,14 +341,15 @@ function fetchImagesOfExceptionPages(): void
             $filePath = $outputDir . DIRECTORY_SEPARATOR . $file;
             if (is_file($filePath)) {
                 $pathInfo = pathinfo($filePath);
-                if ($pathInfo['extension'] == 'html' && strpos($pathInfo['filename'], '-s2-reduce') !== false) {
-                    $pageName = str_replace('-s2-reduce', '', $pathInfo['filename']);
+                if ($pathInfo['extension'] == 'html' && strpos($pathInfo['filename'], '-s3-links') !== false) {
+                    $pageName = str_replace('-s3-links', '', $pathInfo['filename']);
+                    $targetFileName = $pageName . '-s4-images';
+                    $targetFilePath = $outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.html';
                     try {
-                        $targetFileName = $pageName . '-s3-images-fetched';
-                        $targetFilePath = $outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.html';
                         fetchImagesOfExceptionPage($filePath, $targetFilePath, $pageName);
                     } catch (\Exception $e) {
-                        printf("Images of page %s could not be fetched (%s)!\n", $pageName, $e->getMessage());
+                        file_put_contents($targetFilePath, file_get_contents($filePath));
+                        logWarning("Images of page %s could not be fetched (%s)!", $pageName, $e->getMessage());
                     }
                 }
             }
@@ -267,7 +406,7 @@ function fetchImagesOfExceptionPage(string $sourceFile, string $targetFile, stri
                     }
                 }
             } else {
-                printf("Image %s of page %s is out of wiki scope and not fetched.\n", $imageSrc, $pageName);
+                logInfo("Image %s of page %s is out of wiki scope and not fetched.", $imageSrc, $pageName);
             }
         }
 
@@ -278,9 +417,9 @@ function fetchImagesOfExceptionPage(string $sourceFile, string $targetFile, stri
                 if ($response->getStatusCode() === 200) {
                     createDir($imagesDir);
                     file_put_contents($imagesMap[$imageUrl], $imageContent);
-                    printf("Image %s of page %s fetched.\n", $imageUrl, $pageName);
+                    logInfo("Image %s of page %s fetched.", $imageUrl, $pageName);
                 } else {
-                    printf("Image %s of page %s not fetched (status code: %s)!\n", $imageUrl, $pageName, $response->getStatusCode());
+                    logWarning("Image %s of page %s not fetched (status code: %s)!", $imageUrl, $pageName, $response->getStatusCode());
                 }
             }
         }
@@ -324,15 +463,15 @@ function convert(): void
             $filePath = $outputDir . DIRECTORY_SEPARATOR . $file;
             if (is_file($filePath)) {
                 $pathInfo = pathinfo($filePath);
-                if ($pathInfo['extension'] == 'html' && strpos($pathInfo['filename'], '-s3-images-fetched') !== false) {
-                    $pageName = str_replace('-s3-images-fetched', '', $pathInfo['filename']);
+                if ($pathInfo['extension'] == 'html' && strpos($pathInfo['filename'], '-s4-images') !== false) {
+                    $pageName = str_replace('-s4-images', '', $pathInfo['filename']);
                     try {
                         $targetFileName = $pageName;
-                        $targetFilePath = $outputDir . DIRECTORY_SEPARATOR . $targetFileName . '-s4-converted.rst';
+                        $targetFilePath = $outputDir . DIRECTORY_SEPARATOR . $targetFileName . '-s5-converted.rst';
                         convertHtmlToRst($filePath, $targetFilePath);
-                        printf("Page %s converted.\n", $pageName);
+                        logInfo("Page %s converted.", $pageName);
                     } catch (\Exception $e) {
-                        printf("Page %s could not be converted (%s)!\n", $pageName, $e->getMessage());
+                        logWarning("Page %s could not be converted (%s)!", $pageName, $e->getMessage());
                     }
                 }
             }
@@ -375,15 +514,15 @@ function postProcess(): void
             $filePath = $outputDir . DIRECTORY_SEPARATOR . $file;
             if (is_file($filePath)) {
                 $pathInfo = pathinfo($filePath);
-                if ($pathInfo['extension'] == 'rst' && strpos($pathInfo['filename'], '-s4-converted') !== false) {
-                    $pageName = str_replace('-s4-converted', '', $pathInfo['filename']);
+                if ($pathInfo['extension'] == 'rst' && strpos($pathInfo['filename'], '-s5-converted') !== false) {
+                    $pageName = str_replace('-s5-converted', '', $pathInfo['filename']);
                     try {
                         $targetFileName = $pageName;
                         $targetFilePath = $outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.rst';
                         postProcessRst($filePath, $targetFilePath);
-                        printf("Page %s post-processed.\n", $pageName);
+                        logInfo("Page %s post-processed.", $pageName);
                     } catch (\Exception $e) {
-                        printf("Page %s could not be post-processed (%s)!\n", $pageName, $e->getMessage());
+                        logWarning("Page %s could not be post-processed (%s)!", $pageName, $e->getMessage());
                     }
                 }
             }
@@ -432,4 +571,28 @@ function postProcessRst($sourceFile, $targetFile): void
     }, $content);
 
     file_put_contents($targetFile, $content);
+}
+
+function logInfo(string $message, ...$args): void
+{
+    logg(LOGLEVEL_INFO, $message, ...$args);
+}
+
+function logWarning(string $message, ...$args): void
+{
+    logg(LOGLEVEL_WARNING, $message, ...$args);
+}
+
+function logg(int $level, string $message, ...$args): void
+{
+    global $logLevel;
+    global $outputDir;
+
+    if ($level >= $logLevel) {
+        printf($message . "\n", ...$args);
+    }
+
+    if ($level >= LOGLEVEL_WARNING) {
+        file_put_contents($outputDir . DIRECTORY_SEPARATOR . 'warnings.txt', sprintf($message . "\n", ...$args), FILE_APPEND);
+    }
 }

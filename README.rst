@@ -33,7 +33,8 @@ Conversion of Wiki Exception Pages
       # MacOS and Windows
       docker-compose run --rm convert-html-to-rst
 
-2. Check folder `output <output>`_ for reST files and edit manually to make them ready for use in docs.typo3.org.
+2. Check file `output/warnings.txt <output/warnings.txt>`_ for conversion warnings which should be handled.
+3. Edit reST files of folder `output <output>`_ manually to make them ready for use in docs.typo3.org.
 
 Uninstallation
 --------------

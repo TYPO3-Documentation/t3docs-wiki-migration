@@ -7,6 +7,6 @@ Exception/CMS/1438594406
 
 On possible cause for this is the use of old ext_tables/TCA
 configuration. Please see
-https://wiki.typo3.org/TYPO3.CMS/Releases/7.6/Deprecation#Deprecation:_.2370514_-_dynamicConfigFile_is_deprecated
+https://docs.typo3.org/c/typo3/cms-core/master/en-us/Changelog/7.6/Index.html
 for the changes in TYPO3. Also, the TCA file must return the array, not
 only declare it, as would work before.
