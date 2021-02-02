@@ -171,14 +171,18 @@ function reduceExceptionPage(string $sourceFile, string $targetFile): void
 {
     $crawler = new Crawler(file_get_contents($sourceFile));
     $title = $crawler->filterXPath('//h1[@id="firstHeading"]')->outerHtml();
-    $content = $crawler->filterXPath('//div[@class="mw-parser-output"]/*[not(contains(@class, "toc"))]')
+    $body = $crawler->filterXPath('//div[@class="mw-parser-output"]/*[not(contains(@class, "toc"))]')
         ->each(function(Crawler $node){return $node->outerHtml();});
 
+    $content = $title . "\n\n" . implode("\n\n", $body);
+    $content = preg_replace('/id="[^"]*"/', '', $content);
     $content = preg_replace('/class="[^"]*"/', '', $content);
     $content = preg_replace('/width="[^"]*"/', '', $content);
     $content = preg_replace('/height="[^"]*"/', '', $content);
+    $content = preg_replace('/<a[^>]*>\s*<\/a>/', '', $content);
+    $content = preg_replace('/<p[^>]*>\s*<br>\s*<\/p>/', '', $content);
 
-    file_put_contents($targetFile, $title . "\n\n" . implode("\n\n", $content));
+    file_put_contents($targetFile, $content);
 }
 
 /**
