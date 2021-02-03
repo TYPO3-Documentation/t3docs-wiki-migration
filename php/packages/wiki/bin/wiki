@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+require dirname(dirname(dirname(dirname(__FILE__)))) . '/vendor/autoload.php';
+
+use Typo3\Wiki\Wiki;
+
+$wiki = new Wiki();
+$wiki->run();

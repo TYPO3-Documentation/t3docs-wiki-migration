@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77864672a664417478a73c81802ffdf2",
+    "content-hash": "15f332d7cdfe942a8cd64bd8b52def42",
     "packages": [
         {
             "name": "psr/container",
@@ -104,7 +104,7 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v5.2.2",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
@@ -175,7 +175,7 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.2.2",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
@@ -716,12 +716,46 @@
                 }
             ],
             "time": "2020-09-07T11:33:47+00:00"
+        },
+        {
+            "name": "typo3/wiki",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./packages/wiki",
+                "reference": "f3df0715a78b7084515eeaeb8b1cd9d77ad6786b"
+            },
+            "require": {
+                "symfony/dom-crawler": "^5.2",
+                "symfony/http-client": "^5.2"
+            },
+            "bin": [
+                "bin/wiki"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Typo3\\Wiki\\": "src/"
+                }
+            },
+            "license": [
+                "CC-BY-NC-SA-4.0"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Documentation Team",
+                    "homepage": "https://typo3.org/community/teams/documentation"
+                }
+            ],
+            "description": "This library handles the TYPO3 Wiki at wiki.typo3.org."
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "typo3/wiki": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

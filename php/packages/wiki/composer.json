@@ -1,0 +1,22 @@
+{
+  "name": "typo3/wiki",
+  "description": "This library handles the TYPO3 Wiki at wiki.typo3.org.",
+  "type": "library",
+  "license": "CC-BY-NC-SA-4.0",
+  "authors": [
+    {
+      "name": "TYPO3 Documentation Team",
+      "homepage": "https://typo3.org/community/teams/documentation"
+    }
+  ],
+  "require": {
+    "symfony/dom-crawler": "^5.2",
+    "symfony/http-client": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Typo3\\Wiki\\": "src/"
+    }
+  },
+  "bin": ["bin/wiki"]
+}

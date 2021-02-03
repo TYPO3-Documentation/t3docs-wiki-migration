@@ -15,7 +15,7 @@ build:
 
 convert: env
 	@echo "Convert TYPO3 Wiki HTML files into reST files"
-	@docker-compose run --rm convert-html-to-rst
+	@docker-compose run --rm convert
 
 clean:
 	@echo "Remove TYPO3 Wiki migration environment"

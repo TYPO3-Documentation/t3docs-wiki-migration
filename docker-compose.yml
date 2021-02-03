@@ -18,7 +18,7 @@ services:
         cd php && composer install;
       '
 
-  convert-html-to-rst:
+  composer-update:
     image: t3docs/wiki-migration
     user: "${UID}:${GID}"
     volumes:
@@ -28,5 +28,18 @@ services:
     command: >
       /bin/sh -c '
         [ "$${SCRIPT_VERBOSE}" -eq "1" ] && set -x;
-        cd php && php wiki.php;
+        cd php && composer update;
+      '
+
+  convert:
+    image: t3docs/wiki-migration
+    user: "${UID}:${GID}"
+    volumes:
+      - .:/wiki-migration
+    environment:
+      SCRIPT_VERBOSE: 0
+    command: >
+      /bin/sh -c '
+        [ "$${SCRIPT_VERBOSE}" -eq "1" ] && set -x;
+        ./php/vendor/bin/wiki;
       '

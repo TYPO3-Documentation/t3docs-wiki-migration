@@ -10,7 +10,12 @@
     }
   ],
   "require": {
-    "symfony/dom-crawler": "^5.2",
-    "symfony/http-client": "^5.2"
+    "typo3/wiki": "@dev"
+  },
+  "repositories": {
+    "local": {
+      "type": "path",
+      "url": "./packages/*"
+    }
   }
 }
