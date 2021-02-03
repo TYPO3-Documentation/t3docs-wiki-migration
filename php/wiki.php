@@ -24,8 +24,7 @@ $imagesDir = $outputDir . DIRECTORY_SEPARATOR . 'images';
 $outputUrl = '/output';
 $imagesUrl = $outputUrl . '/' . 'images';
 $pages = [];
-$imagesMap = [];
-$linksMap = [];
+$urlMap = [];
 
 cleanDir($imagesDir);
 cleanDir($outputDir);
@@ -239,7 +238,7 @@ function replaceWikiLinksOfExceptionPages(): void
  */
 function replaceWikiLinksOfExceptionPage(string $sourceFile, string $targetFile, string $pageName): void
 {
-    global $linksMap;
+    global $urlMap;
 
     $content = file_get_contents($sourceFile);
     $crawler = new Crawler($content);
@@ -262,21 +261,21 @@ function replaceWikiLinksOfExceptionPage(string $sourceFile, string $targetFile,
 
             if (strpos($linkAbs, WIKI_URL) !== false) {
                 if (!array_key_exists($link, $replace)) {
-                    if (!array_key_exists($linkAbs, $linksMap)) {
-                        $linksMap[$linkAbs] = $linkAbs;
+                    if (!array_key_exists($linkAbs, $urlMap)) {
+                        $urlMap[$linkAbs] = $linkAbs;
                         $responses[$linkAbs] = $client->request('GET', $linkAbs);
                     } else {
-                        if ($linksMap[$linkAbs] !== $linkAbs) {
+                        if ($urlMap[$linkAbs] !== $linkAbs) {
                             $linkPath = preg_replace('/http[s]?:\/\/[^\/]+/', '', $linkAbs);
-                            $replace[$linkAbs] = $linksMap[$linkAbs];
-                            $replace[$linkPath] = $linksMap[$linkAbs];
-                            $replace[substr($linkPath, 1)] = $linksMap[$linkAbs];
+                            $replace[$linkAbs] = $urlMap[$linkAbs];
+                            $replace[$linkPath] = $urlMap[$linkAbs];
+                            $replace[substr($linkPath, 1)] = $urlMap[$linkAbs];
                         }
                     }
                 }
             } else {
-                if (!array_key_exists($linkAbs, $linksMap)) {
-                    $linksMap[$linkAbs] = $linkAbs;
+                if (!array_key_exists($linkAbs, $urlMap)) {
+                    $urlMap[$linkAbs] = $linkAbs;
                     $responses[$linkAbs] = $client->request('GET', $linkAbs);
                 }
             }
@@ -289,7 +288,7 @@ function replaceWikiLinksOfExceptionPage(string $sourceFile, string $targetFile,
                     if ($response->getStatusCode() === 200) {
                         $responseUrl = $response->getInfo('url');
                         if (strpos($requestUrl, WIKI_URL) !== false && strpos($responseUrl, WIKI_URL) === false) {
-                            $linksMap[$requestUrl] = $responseUrl;
+                            $urlMap[$requestUrl] = $responseUrl;
                             $requestPath = preg_replace('/http[s]?:\/\/[^\/]+/', '', $requestUrl);
                             $replace[$requestUrl] = $responseUrl;
                             $replace[$requestPath] = $responseUrl;
@@ -373,7 +372,7 @@ function fetchImagesOfExceptionPage(string $sourceFile, string $targetFile, stri
 {
     global $imagesDir;
     global $imagesUrl;
-    global $imagesMap;
+    global $urlMap;
 
     $content = file_get_contents($sourceFile);
     $crawler = new Crawler($content);
@@ -392,7 +391,7 @@ function fetchImagesOfExceptionPage(string $sourceFile, string $targetFile, stri
 
             if (strpos($imageSrcAbs, WIKI_URL) !== false) {
                 if (!array_key_exists($imageSrc, $replace)) {
-                    $imageSrcPath = parse_url($imageSrcAbs)['path'];
+                    $imageSrcPath = preg_replace('/http[s]?:\/\/[^\/]+/', '', $imageSrcAbs);
                     $imageUrl = getOriginalImageFromPotentialThumbnail($imageSrcAbs);
                     $imageNameAndExt = pathinfo(parse_url($imageUrl)['path'])['basename'];
                     $localImageUrl = $imagesUrl . '/' . $imageNameAndExt;
@@ -400,8 +399,8 @@ function fetchImagesOfExceptionPage(string $sourceFile, string $targetFile, stri
                     $replace[$imageSrcAbs] = $localImageUrl;
                     $replace[$imageSrcPath] = $localImageUrl;
                     $replace[substr($imageSrcPath, 1)] = $localImageUrl;
-                    if (!array_key_exists($imageUrl, $imagesMap)) {
-                        $imagesMap[$imageUrl] = $localImagePath;
+                    if (!array_key_exists($imageUrl, $urlMap)) {
+                        $urlMap[$imageUrl] = $localImagePath;
                         $responses[] = $client->request('GET', $imageUrl);
                     }
                 }
@@ -416,7 +415,7 @@ function fetchImagesOfExceptionPage(string $sourceFile, string $targetFile, stri
                 $imageUrl = $response->getInfo('url');
                 if ($response->getStatusCode() === 200) {
                     createDir($imagesDir);
-                    file_put_contents($imagesMap[$imageUrl], $imageContent);
+                    file_put_contents($urlMap[$imageUrl], $imageContent);
                     logInfo("Image %s of page %s fetched.", $imageUrl, $pageName);
                 } else {
                     logWarning("Image %s of page %s not fetched (status code: %s)!", $imageUrl, $pageName, $response->getStatusCode());

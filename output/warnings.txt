@@ -15,8 +15,7 @@ Link http://www.typo3forum.net/forum/typo3-4-x-backend/56543-kein-login-fatal-er
 Link https://github.com/FluidTYPO3/view of page 1 seems to be outdated (status code: 404)!
 Link https://project.localdomain.vm/http-error-404 of page 1544172838 seems to be outdated (Could not resolve host "project.localdomain.vm".)!
 Link http://......ch/typo3/mod.php?M=tools_ExtensionmanagerExtensionmanager&moduleToken=0cede4471e1c5e94daa96d46bcbb6904ddbeca6c of page 1348146451 seems to be outdated (Could not resolve host "......ch".)!
-Link https://www.example.de/' of page 1519788775 seems to be outdated (fopen(): SSL operation failed with code 1. OpenSSL Error messages:
-error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error)!
+Link https://www.example.de/' of page 1519788775 seems to be outdated (fopen(): SSL: Success)!
 Link http://www.typo3forum.net/forum/extbase/59994-action-show-list-not-allowed-plugin.html of page 1313855175 seems to be outdated (status code: 404)!
 Link http://www.jambage.com/uploads/media/clear_cache_franz.php.zip of page 1329821485 seems to be outdated (status code: 404)!
 Link https://fluidtypo3.org/viewhelpers/flux/master/Form/ContainerViewHelper.html of page 1440685208 seems to be outdated (status code: 404)!
