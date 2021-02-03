@@ -40,6 +40,5 @@ templates parsed correct. To test any viewHelper, remove any arguments
 in the fluid-template to check if the nesting is recognized right then.
 The error-message is misleading in this case because the reason is not
 related to the notation in the template but to faults in the viewHelper.
---`David bruchmann </User:David_bruchmann>`__
-(`talk </wiki/index.php?title=User_talk:David_bruchmann&action=edit&redlink=1>`__)
+--David bruchmann [outdated wiki link] (talk [outdated wiki link])
 01:16, 2 March 2015 (CET)

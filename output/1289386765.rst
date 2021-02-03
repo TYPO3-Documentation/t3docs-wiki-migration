@@ -141,9 +141,8 @@ becomes
 
 For more information see:
 
--  `Fluid#form_fields </Fluid#f:form.textbox>`__
--  `Documentation on Typo3
-   Forge <https://forge.typo3.org/projects/typo3v4-mvc/wiki/Breaking_Changes%7CExtbase>`__
+-  Fluid#form_fields [outdated wiki link]
+-  Documentation on Typo3 Forge [outdated link]
 
 ======================================================
 error message concerning DamViewHelper (from ext:news)
@@ -156,10 +155,8 @@ TYPO3 upgrade from 6.1.12 to 6.2.6
 
    #1289386765: Could not analyse class:Tx_News_ViewHelpers_Format_DamViewHelper maybe not loaded or no autoloader?
 
-earlier an error `"#1263391473: The property "falMediaNonPreviews" on
-the subject was not
-accessible." <https://wiki.typo3.org/Exception/CMS/1263391473%7C>`__
-appears.
+earlier an error "#1263391473: The property "falMediaNonPreviews" on the
+subject was not accessible." [outdated link] appears.
 
 Solution
 ========
@@ -235,7 +232,7 @@ Note if your installation "web-dir" in composer.json is "Web":
 
 For more information see:
 
--  https://wiki.typo3.org/Composer
+-  https://wiki.typo3.org/Composer [outdated wiki link]
 
 =========================================================
 If you got the error while updating from TYPO3 4.x to 6.2

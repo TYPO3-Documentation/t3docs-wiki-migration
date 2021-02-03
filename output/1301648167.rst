@@ -29,7 +29,7 @@ cacheentries.
 
 TYPO3 4.7.4, realurl 1.12.3
 
-`Maholtz </User:Maholtz>`__ (`talk </User_talk:Maholtz>`__) 10:55, 1
+Maholtz [outdated wiki link] (talk [outdated wiki link]) 10:55, 1
 October 2012 (CEST)
 
 addRootLineFields which are not available

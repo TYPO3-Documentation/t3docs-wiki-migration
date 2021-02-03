@@ -51,7 +51,7 @@ from your fileadmin folder as
 http://www.mydomain.com/fileadmin/clear_cache_franz.php . Then
 everything will be restored automatically.
 
-`clear_cache_franz.php <http://www.jambage.com/fileadmin/user_upload/clear_cache_franz.php.zip>`__
+clear_cache_franz.php [outdated link]
 
 Also this error might come up if you restructure your TCA files to fit
 into the new 6.2 structure. If you try to use $_EXTKEY in the

@@ -16,7 +16,7 @@ exist)
 After upgrading from TYPO3 7.6.23 to TYPO3 8.7.9, I am getting this
 error most of the time that I login to the Backend. After I delete the
 folder "var" in "typo3temp", the next Backend login succeeds. See:
-`File:Backend Login Exception.pdf </File:Backend_Login_Exception.pdf>`__
+File:Backend Login Exception.pdf [outdated wiki link]
 
 --------------
 

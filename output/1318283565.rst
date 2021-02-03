@@ -137,6 +137,7 @@ Debian Squeeze/Wheezy
   source package").
 | Solution came when i installed it manually with dpkg -i from :
 | http://ftp.us.debian.org/debian/pool/main/o/openssl/openssl_0.9.8o-4squeeze14_amd64.deb
+  [outdated link]
 | Which was the version i needed.
 | Hope it helps.
 
@@ -153,4 +154,4 @@ Debian Squeeze/Wheezy
 ::
 
    I got this error when i had the directory /etc/ssl owned by root and no read access for www-data (apache2)
-   Ron
+   Ron [outdated wiki link]

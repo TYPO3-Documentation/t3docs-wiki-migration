@@ -49,16 +49,14 @@ the Typo3 Backend :
 
 TYPO3 backend, ADMIN TOOLS > DB check > Manage Reference Index
 
-(`Francois </wiki/index.php?title=User:Francois&action=edit&redlink=1>`__
-(`talk </wiki/index.php?title=User_talk:Francois&action=edit&redlink=1>`__)
-14:20, 1 June 2015 (CEST)) This didn't work for me, because the problem
-was different: the migration wizard (rather stupidly) takes the first
-File Storage that it finds. File Storages are sorted by name. In my
-case, I happened to have some Storage which came before the default one.
-When the update wizard tried to check if the file had been moved
-properly, it couldn't find it in that Storage. My workaround was to
-rename my default Storage to "00 - Default", which made it the first to
-be retrieved.
+(Francois [outdated wiki link] (talk [outdated wiki link]) 14:20, 1 June
+2015 (CEST)) This didn't work for me, because the problem was different:
+the migration wizard (rather stupidly) takes the first File Storage that
+it finds. File Storages are sorted by name. In my case, I happened to
+have some Storage which came before the default one. When the update
+wizard tried to check if the file had been moved properly, it couldn't
+find it in that Storage. My workaround was to rename my default Storage
+to "00 - Default", which made it the first to be retrieved.
 
 Situation: Upgrade from 4.5 to 6.2
 ==================================

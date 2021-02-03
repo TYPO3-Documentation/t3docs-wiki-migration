@@ -15,9 +15,8 @@ that I might have made a fault I never had success with the simple
 notation by using several parameters in the render-function. I succeeded
 with the solution to register the arguments in the function
 initializeArguments() which is automatically called if present in the
-viewHelper. --`David bruchmann </User:David_bruchmann>`__
-(`talk </wiki/index.php?title=User_talk:David_bruchmann&action=edit&redlink=1>`__)
-01:07, 2 March 2015 (CET)
+viewHelper. --David bruchmann [outdated wiki link] (talk [outdated wiki
+link]) 01:07, 2 March 2015 (CET)
 
 PHPStorm
 ========

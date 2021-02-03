@@ -38,10 +38,10 @@ Posted 25. June 2015
 | **POSSIBLE CAUSE**
 | My powermail form redirects to a thank you page. The base-url was set
   to non-www.
-| e.g. config.baseURL = http://domain.tld/
+| e.g. config.baseURL = http://domain.tld/ [outdated link]
 | **SOLUTION**
 | Change
-| config.baseURL = http://domain.tld/
+| config.baseURL = http://domain.tld/ [outdated link]
 | To
 | config.baseURL = http://**www.**\ domain.tld/
 | See this page for details

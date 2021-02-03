@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Typo3\Wiki;
 
 use Symfony\Component\DomCrawler\Crawler;
-use Symfony\Component\HttpClient\Exception\TransportException;
 use Symfony\Component\HttpClient\HttpClient;
 use Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface;
@@ -29,6 +28,7 @@ class Wiki
     protected string $imagesUrl;
     protected array $pages;
     protected array $urlMap;
+    protected array $urlMapOfFailed;
 
     public function __construct()
     {
@@ -43,23 +43,44 @@ class Wiki
         $this->imagesUrl = $this->outputUrl . '/' . 'images';
         $this->pages = [];
         $this->urlMap = [];
+        $this->urlMapOfFailed = [];
     }
 
     public function run(): void
     {
+        $this->loadMapOfFailedUrls();
         $this->cleanDir($this->imagesDir);
         $this->cleanDir($this->outputDir);
         $this->createDir($this->outputDir);
         $this->fetchListOfExceptionPages();
         $this->fetchExceptionPages();
         $this->reduceExceptionPages();
-        $this->replaceWikiLinksOfExceptionPages();
+        $this->replaceLinksOfExceptionPages();
         $this->fetchImagesOfExceptionPages();
         $this->convert();
         $this->postProcess();
+        $this->saveMapOfFailedUrls();
         if (!$this->keepTemporaryFiles) {
             $this->cleanDir($this->outputDir, '/(\.html|-s5-converted\.rst)$/');
         }
+    }
+
+    protected function loadMapOfFailedUrls(): void
+    {
+        if (is_file($this->outputDir . DIRECTORY_SEPARATOR . 'map_of_failed_urls.php')) {
+            $this->urlMapOfFailed = include $this->outputDir . DIRECTORY_SEPARATOR . 'map_of_failed_urls.php';
+        }
+    }
+
+    protected function saveMapOfFailedUrls(): void
+    {
+        $urlMapOfFailed = array_filter($this->urlMap, function($responseUrl){
+            return $responseUrl === '' || strpos($responseUrl, self::WIKI_URL) === 0;
+        });
+        $urlMapOfFailed = array_merge($urlMapOfFailed, $this->urlMapOfFailed);
+        ksort($urlMapOfFailed);
+        $content = sprintf("<?php\nreturn %s;", var_export($urlMapOfFailed, true));
+        file_put_contents($this->outputDir . DIRECTORY_SEPARATOR . 'map_of_failed_urls.php', $content);
     }
 
     /**
@@ -206,14 +227,14 @@ class Wiki
     }
 
     /**
-     * Traverse folder and replace internal wiki links by actual links outside of wiki scope - if available.
+     * Traverse folder and replace links by actual links - if available.
      *
      * @throws ClientExceptionInterface
      * @throws RedirectionExceptionInterface
      * @throws ServerExceptionInterface
      * @throws TransportExceptionInterface
      */
-    protected function replaceWikiLinksOfExceptionPages(): void
+    protected function replaceLinksOfExceptionPages(): void
     {
         if ($handle = opendir($this->outputDir)) {
             while (false !== ($file = readdir($handle))) {
@@ -225,7 +246,7 @@ class Wiki
                         $targetFileName = $pageName . '-s3-links';
                         $targetFilePath = $this->outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.html';
                         try {
-                            $this->replaceWikiLinksOfExceptionPage($filePath, $targetFilePath, $pageName);
+                            $this->replaceLinksOfExceptionPage($filePath, $targetFilePath, $pageName);
                         } catch (\Exception $e) {
                             file_put_contents($targetFilePath, file_get_contents($filePath));
                             $this->warn("Links of page %s could not be replaced (%s)!", $pageName, $e->getMessage());
@@ -238,7 +259,7 @@ class Wiki
     }
 
     /**
-     * Crawl TYPO3 Wiki exception page and replace its wiki links by actual links.
+     * Crawl TYPO3 Wiki exception page and replace its links by actual links.
      *
      * @param string $sourceFile Exception page content with TYPO3 Wiki links
      * @param string $targetFile Exception page content with actual links
@@ -248,89 +269,92 @@ class Wiki
      * @throws ServerExceptionInterface
      * @throws TransportExceptionInterface
      */
-    protected function replaceWikiLinksOfExceptionPage(string $sourceFile, string $targetFile, string $pageName): void
+    protected function replaceLinksOfExceptionPage(string $sourceFile, string $targetFile, string $pageName): void
     {
         $content = file_get_contents($sourceFile);
-        $crawler = new Crawler($content);
-        $links = $crawler->filterXPath('//a')
-            ->each(function(Crawler $node){return $node->attr('href');});
+        preg_match_all('|<a[^>]*href="([^"]*)"[^>]*>([^<]+)<\/a>|', $content, $nodes);
+        $links = [];
+        foreach ($nodes[0] as $id => $node) {
+            $links[] = [
+                'node' => $node,
+                'text' => $nodes[2][$id],
+                'url' => $nodes[1][$id],
+                'urlAbs' => $this->getAbsoluteUri($nodes[1][$id])
+            ];
+        }
 
         if (count($links) > 0) {
             $client = HttpClient::create();
-            $replace = [];
             $responses = [];
+            $replace = [];
 
             foreach ($links as $link) {
-                if (strpos($link, '/File:') === 0) {
-                    continue;
+                if (!array_key_exists($link['urlAbs'], $this->urlMap) && !array_key_exists($link['urlAbs'], $responses)) {
+                    if (empty($this->urlMapOfFailed[$link['urlAbs']])) {
+                        $responses[$link['urlAbs']] = $client->request('GET', $link['urlAbs']);
+                    } else {
+                        $responses[$link['urlAbs']] = $client->request('GET', $this->urlMapOfFailed[$link['urlAbs']]);
+                    }
                 }
+            }
 
-                $linkAbs = strpos($link, 'http') === 0 ? $link :
-                    (strpos($link, '/') === 0 ? self::WIKI_URL . $link :
-                        self::WIKI_URL . '/' . $link);
-
-                if (strpos($linkAbs, self::WIKI_URL) !== false) {
-                    if (!array_key_exists($link, $replace)) {
-                        if (!array_key_exists($linkAbs, $this->urlMap)) {
-                            $this->urlMap[$linkAbs] = $linkAbs;
-                            $responses[$linkAbs] = $client->request('GET', $linkAbs);
+            foreach ($responses as $requestUrl => $response) {
+                try {
+                    $response->getContent(false);
+                    if ($response->getStatusCode() === 200) {
+                        if ($requestUrl !== $response->getInfo('url')) {
+                            $this->info("Url %s redirects to %s.", $requestUrl, $response->getInfo('url'));
+                            $this->urlMap[$requestUrl] = $response->getInfo('url');
                         } else {
-                            if ($this->urlMap[$linkAbs] !== $linkAbs) {
-                                $linkPath = preg_replace('/http[s]?:\/\/[^\/]+/', '', $linkAbs);
-                                $replace[$linkAbs] = $this->urlMap[$linkAbs];
-                                $replace[$linkPath] = $this->urlMap[$linkAbs];
-                                $replace[substr($linkPath, 1)] = $this->urlMap[$linkAbs];
-                            }
+                            $this->info("Url %s is confirmed.", $requestUrl);
+                            $this->urlMap[$requestUrl] = $response->getInfo('url');
                         }
+                    } else {
+                        $this->warn("Url %s seems to be outdated (status code: %s)!", $requestUrl, $response->getStatusCode());
+                        $this->urlMap[$requestUrl] = '';
+                    }
+                } catch (\Exception $e) {
+                    $this->warn("Url %s seems to be outdated (%s)!", $requestUrl, $e->getMessage());
+                    $this->urlMap[$requestUrl] = '';
+                }
+            }
+
+            foreach ($links as $link) {
+                $actualUrl = $this->urlMap[$link['urlAbs']];
+                if ($actualUrl !== '') {
+                    if (strpos($actualUrl, self::WIKI_URL) !== 0) {
+                        if (strpos($link['urlAbs'], self::WIKI_URL) === 0 || !empty($this->urlMapOfFailed[$link['urlAbs']])) {
+                            $actualNode = str_replace($link['url'], $actualUrl, $link['node']);
+                            $replace[$link['node']] = $actualNode;
+                            $this->info("Link %s of page %s gets replaced by %s.", $link['urlAbs'], $pageName, $actualUrl);
+                        }
+                    } else {
+                        $replace[$link['node']] = $link['text'] . ' [outdated wiki link]';
+                        $this->warn("Link %s of page %s gets removed as it links to deprecated wiki instance.", $link['urlAbs'], $pageName);
                     }
                 } else {
-                    if (!array_key_exists($linkAbs, $this->urlMap)) {
-                        $this->urlMap[$linkAbs] = $linkAbs;
-                        $responses[$linkAbs] = $client->request('GET', $linkAbs);
-                    }
+                    $replace[$link['node']] = $link['text'] . ' [outdated link]';
+                    $this->warn("Link %s of page %s gets removed as it is outdated.", $link['urlAbs'], $pageName);
                 }
             }
 
-            if (count($responses) > 0) {
-                foreach ($responses as $requestUrl => $response) {
-                    try {
-                        $response->getContent(false);
-                        if ($response->getStatusCode() === 200) {
-                            $responseUrl = $response->getInfo('url');
-                            if (strpos($requestUrl, self::WIKI_URL) !== false && strpos($responseUrl, self::WIKI_URL) === false) {
-                                $this->urlMap[$requestUrl] = $responseUrl;
-                                $requestPath = preg_replace('/http[s]?:\/\/[^\/]+/', '', $requestUrl);
-                                $replace[$requestUrl] = $responseUrl;
-                                $replace[$requestPath] = $responseUrl;
-                                $replace[substr($requestPath, 1)] = $responseUrl;
-                                $this->info("Link %s of page %s replaced by link %s.", $requestUrl, $pageName, $responseUrl);
-                            } else {
-                                $this->info("Link %s of page %s remains as-is.", $requestUrl, $pageName);
-                            }
-                        } else {
-                            $this->warn("Link %s of page %s seems to be outdated (status code: %s)!", $requestUrl, $pageName, $response->getStatusCode());
-                        }
-                    } catch (TransportException $e) {
-                        $this->warn("Link %s of page %s seems to be outdated (%s)!", $requestUrl, $pageName, $e->getMessage());
-                    }
-                }
-            }
-
-            if (count($replace) > 0) {
+            if (count($replace)) {
                 $content = str_replace(
                     array_keys($replace),
                     array_values($replace),
-                    $content
-                );
-                $content = str_replace(
-                    array_map('htmlspecialchars', array_keys($replace)),
-                    array_map('htmlspecialchars', array_values($replace)),
                     $content
                 );
             }
         }
 
         file_put_contents($targetFile, $content);
+    }
+
+    protected function getAbsoluteUri(string $url): string
+    {
+        return strpos($url, 'http') === 0 ? $url :
+            (strpos($url, '/') === 0 ? self::WIKI_URL . $url :
+                self::WIKI_URL . '/' . $url);
     }
 
     /**
@@ -582,8 +606,13 @@ class Wiki
 
     protected function log(int $level, string $message, ...$args): void
     {
+        $levelPrefix = [
+            self::LOGLEVEL_INFO => '[I] ',
+            self::LOGLEVEL_WARNING => '[W] ',
+        ];
+
         if ($level >= $this->logLevel) {
-            printf($message . "\n", ...$args);
+            printf($levelPrefix[$level] . $message . "\n", ...$args);
         }
 
         if ($level >= self::LOGLEVEL_WARNING) {

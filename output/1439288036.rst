@@ -12,7 +12,7 @@ definition in the according field like
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   PHP Script [outdated wiki link]
 
 .. container::
 
@@ -26,7 +26,7 @@ or
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   PHP Script [outdated wiki link]
 
 .. container::
 
@@ -38,7 +38,7 @@ This has to be replaced with a correct item definition like
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   PHP Script [outdated wiki link]
 
 .. container::
 

@@ -33,8 +33,10 @@ Conversion of Wiki Exception Pages
       # MacOS and Windows
       docker-compose run --rm convert
 
-2. Check file `output/warnings.txt <output/warnings.txt>`_ for conversion warnings which should be handled.
-3. Edit reST files of folder `output <output>`_ manually to make them ready for use in docs.typo3.org.
+2. Check and adapt file `output/map_of_failed_urls.php <output/map_of_failed_urls.php>`_ for outdated links which should
+   be mapped to valid urls. Run script after adaption again.
+3. Check file `output/warnings.txt <output/warnings.txt>`_ for conversion warnings which should be handled.
+4. Edit reST files of folder `output <output>`_ manually to make them ready for use in docs.typo3.org.
 
 Uninstallation
 --------------

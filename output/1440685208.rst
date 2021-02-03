@@ -11,9 +11,8 @@ Exception/CMS/1440685208
 
    #1440685208: Broken data structure on field name pi_flexform. section without type or vice versa is not allowed
 
-Happens when using
-`<flux:form.container> <https://fluidtypo3.org/viewhelpers/flux/master/Form/ContainerViewHelper.html>`__
-in a fluid content element.
+Happens when using <flux:form.container> [outdated link] in a fluid
+content element.
 
 In our case it was due to <type>no_map</type> which we commented out.
 Then I worked.
@@ -38,3 +37,4 @@ the same level.
 
 -  See
    https://docs.templavoila.support/Changelog/7.6/Breaking-ConfigurationOfTypesInFlexforms.html
+   [outdated link]

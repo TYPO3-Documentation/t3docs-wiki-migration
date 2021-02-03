@@ -10,9 +10,8 @@ ext_localconf.php
 
 If the problem still comes up:
 
-#. Have a look at
-   `this <http://www.typo3forum.net/forum/extbase/59994-action-show-list-not-allowed-plugin.html#post192668>`__,
-   if you work with switchableControllerActions.
+#. Have a look at this [outdated link], if you work with
+   switchableControllerActions.
 #. Maybe you have changed your content element from another plugin to
    your new extbase plugin. In that case it may be that the previous
    plugin works with FlexForms (pi_flexform). Extbase will read these

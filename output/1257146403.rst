@@ -16,10 +16,8 @@ Happened to me when I had invalid values for
    </numIndex>
 
 Notice the missing ``>`` for ``Member-update`` (should be
-``Member->update``). Have a look at
-`FrontendConfigurationManager <https://typo3.org/api/typo3cms/_frontend_configuration_manager_8php_source.html#l00220>`__
-to see what values are expected.
+``Member->update``). Have a look at FrontendConfigurationManager
+[outdated link] to see what values are expected.
 
---`Supermonster </wiki/index.php?title=User:Supermonster&action=edit&redlink=1>`__
-(`talk </wiki/index.php?title=User_talk:Supermonster&action=edit&redlink=1>`__)
-10:47, 22 January 2015 (CET)
+--Supermonster [outdated wiki link] (talk [outdated wiki link]) 10:47,
+22 January 2015 (CET)

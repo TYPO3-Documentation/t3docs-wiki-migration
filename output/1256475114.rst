@@ -10,6 +10,5 @@ Exception/CMS/1256475114
    "TYPO3\CMS\Extbase\Persistence\Generic\LazyObjectStorage" in view
    helper "Tx_News_ViewHelpers_LinkViewHelper". (More information)
 
---`David bruchmann </User:David_bruchmann>`__
-(`talk </wiki/index.php?title=User_talk:David_bruchmann&action=edit&redlink=1>`__)
+--David bruchmann [outdated wiki link] (talk [outdated wiki link])
 10:49, 4 September 2014 (CEST)

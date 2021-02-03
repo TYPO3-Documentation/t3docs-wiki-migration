@@ -15,7 +15,7 @@ I received this error when using the new style configuration of filefill
       'placeholder' => true,
       [
           'identifier' => 'domain',
-          'configuration' => 'https://www.example.de/',
+          'configuration' => 'https://www.example.de/' [outdated link],
       ],
       [
           'identifier' => 'placeholder',

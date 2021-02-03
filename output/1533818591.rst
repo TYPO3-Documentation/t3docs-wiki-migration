@@ -56,7 +56,8 @@ Solutions
          the »/typo3conf/LocalConfiguration.php« at the
          »installToolPassword« setting, to be able to generate a new
          hash value → see
-         https://wiki.typo3.org/Exception/CMS/1518448686
+         https://wiki.typo3.org/Exception/CMS/1518448686 [outdated wiki
+         link]
 
    -  B)
 

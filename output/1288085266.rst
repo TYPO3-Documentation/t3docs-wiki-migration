@@ -20,8 +20,7 @@ Example
 
 .. container::
 
-   `TS
-   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   TS TypoScript [outdated wiki link]
 
 .. container::
 

@@ -16,7 +16,7 @@ You need to change to following lines in your LocalConfiguration.php:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   PHP Script [outdated wiki link]
 
 .. container::
 
@@ -34,7 +34,7 @@ You need to change to following lines in your LocalConfiguration.php:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   PHP Script [outdated wiki link]
 
 .. container::
 

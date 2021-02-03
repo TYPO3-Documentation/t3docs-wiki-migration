@@ -33,4 +33,4 @@ data type.
 Links:
 
 -  `eAccelerator <http://eaccelerator.net/>`__
--  `xCache <http://xcache.lighttpd.net/>`__
+-  xCache [outdated link]

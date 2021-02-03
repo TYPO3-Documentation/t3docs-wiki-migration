@@ -12,8 +12,7 @@ Exception/CMS/1316104317
    .. container::
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
-      reviewer for text and TypoScript.
-      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      reviewer for text and TypoScript. info [outdated wiki link]
 
 The default controller can not be determined. Please check for
 Tx_Extbase_Utility_Extension::configurePlugin() in your
@@ -28,7 +27,7 @@ controller/action. Here's an example:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   PHP Script [outdated wiki link]
 
 .. container::
 
@@ -61,8 +60,7 @@ double-check your ext_localconf.
 
 .. container::
 
-   `TS
-   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   TS TypoScript [outdated wiki link]
 
 .. container::
 

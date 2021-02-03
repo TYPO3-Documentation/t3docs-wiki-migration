@@ -66,8 +66,8 @@ words "HELLO WORLD!".
   configured.
 
 This error is thrown when an old dead link is called after update to
-TYPO3 CMS 6.2. Please see: http://www.bahai.by/be/?type=103 Why no 404
-error.
+TYPO3 CMS 6.2. Please see: http://www.bahai.by/be/?type=103 [outdated
+link] Why no 404 error.
 
 Using Bootstrap_package
 =======================

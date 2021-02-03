@@ -35,6 +35,5 @@ Fixing the Errors and Misbehavior
 In the Admin-Tool set $TYPO3_CONF_VARS[SYS][cookieSecure]=2 or
 $TYPO3_CONF_VARS[SYS][cookieSecure]=0
 
---`David bruchmann </User:David_bruchmann>`__
-(`talk </wiki/index.php?title=User_talk:David_bruchmann&action=edit&redlink=1>`__)
+--David bruchmann [outdated wiki link] (talk [outdated wiki link])
 23:20, 26 May 2015 (CEST)

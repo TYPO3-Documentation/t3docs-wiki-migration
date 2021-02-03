@@ -27,6 +27,7 @@ Have a look here :
 https://github.com/FluidTYPO3/vhs/issues/506
 
 http://fluidtypo3.org/viewhelpers/vhs/master/Page/MenuViewHelper.html
+[outdated link]
 
 ---
 

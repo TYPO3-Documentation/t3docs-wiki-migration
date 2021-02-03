@@ -26,7 +26,7 @@ If this does not help, add the following lines to you
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   PHP Script [outdated wiki link]
 
 .. container::
 
@@ -36,9 +36,8 @@ If this does not help, add the following lines to you
           $TYPO3_CONF_VARS['SYS']['caching']['cacheConfigurations']['IDENTIFIER'] = array();
       }
 
-See
-`Caching_framework#How_to_use_the_caching_framework_in_extensions <https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/CachingFramework/Index.html>`__
-for more information.
+See Caching_framework#How_to_use_the_caching_framework_in_extensions
+[outdated link] for more information.
 
 --------------
 

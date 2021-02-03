@@ -16,8 +16,7 @@ Error-messages:
    "TYPO3\CMS\Extbase\Persistence\ObjectStorage" because it does not
    implement the TYPO3\CMS\Extbase\DomainObject\DomainObjectInterface.
 
---`David bruchmann </User:David_bruchmann>`__
-(`talk </wiki/index.php?title=User_talk:David_bruchmann&action=edit&redlink=1>`__)
+--David bruchmann [outdated wiki link] (talk [outdated wiki link])
 04:19, 11 August 2014 (CEST)
 
 Fix

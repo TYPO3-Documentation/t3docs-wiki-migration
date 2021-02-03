@@ -258,7 +258,7 @@ It will only output "\TYPO3\CMS\Extbase\Persistence\ObjectStorage"
 
 For me the solution was to remove the type hint from my "detailAction".
 Extbase then uses the @param annotation. But this caused another error:
-https://wiki.typo3.org/Exception/CMS/1278450972
+https://wiki.typo3.org/Exception/CMS/1278450972 [outdated wiki link]
 
 Which could only get solved by applying a patch:
 https://forge.typo3.org/issues/66049
