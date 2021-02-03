@@ -71,7 +71,7 @@ class Wiki
     {
         if (!is_dir($folder)) {
             mkdir($folder);
-            $this->logInfo("Folder %s created.", $folder);
+            $this->info("Folder %s created.", $folder);
         }
     }
 
@@ -98,7 +98,7 @@ class Wiki
             }
             @rmdir($folder);
         }
-        $this->logInfo("Folder %s cleaned up.", $folder);
+        $this->info("Folder %s cleaned up.", $folder);
     }
 
     /**
@@ -145,9 +145,9 @@ class Wiki
                     $uri = parse_url($response->getInfo('url'));
                     $fileName = explode('/', $uri['path'])[3] . '-s1-full.html';
                     file_put_contents($this->outputDir . DIRECTORY_SEPARATOR . $fileName, $content);
-                    $this->logInfo("Page %s fetched.", $response->getInfo('url'));
+                    $this->info("Page %s fetched.", $response->getInfo('url'));
                 } else {
-                    $this->logWarning("Page %s not fetched (status code: %s)!", $response->getInfo('url'), $response->getStatusCode());
+                    $this->warn("Page %s not fetched (status code: %s)!", $response->getInfo('url'), $response->getStatusCode());
                 }
             }
         }
@@ -169,9 +169,9 @@ class Wiki
                             $targetFileName = $pageName . '-s2-reduce';
                             $targetFilePath = $this->outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.html';
                             $this->reduceExceptionPage($filePath, $targetFilePath);
-                            $this->logInfo("Page %s reduced.", $pageName);
+                            $this->info("Page %s reduced.", $pageName);
                         } catch (\Exception $e) {
-                            $this->logWarning("Page %s could not be reduced (%s)!", $pageName, $e->getMessage());
+                            $this->warn("Page %s could not be reduced (%s)!", $pageName, $e->getMessage());
                         }
                     }
                 }
@@ -228,7 +228,7 @@ class Wiki
                             $this->replaceWikiLinksOfExceptionPage($filePath, $targetFilePath, $pageName);
                         } catch (\Exception $e) {
                             file_put_contents($targetFilePath, file_get_contents($filePath));
-                            $this->logWarning("Links of page %s could not be replaced (%s)!", $pageName, $e->getMessage());
+                            $this->warn("Links of page %s could not be replaced (%s)!", $pageName, $e->getMessage());
                         }
                     }
                 }
@@ -303,15 +303,15 @@ class Wiki
                                 $replace[$requestUrl] = $responseUrl;
                                 $replace[$requestPath] = $responseUrl;
                                 $replace[substr($requestPath, 1)] = $responseUrl;
-                                $this->logInfo("Link %s of page %s replaced by link %s.", $requestUrl, $pageName, $responseUrl);
+                                $this->info("Link %s of page %s replaced by link %s.", $requestUrl, $pageName, $responseUrl);
                             } else {
-                                $this->logInfo("Link %s of page %s remains as-is.", $requestUrl, $pageName);
+                                $this->info("Link %s of page %s remains as-is.", $requestUrl, $pageName);
                             }
                         } else {
-                            $this->logWarning("Link %s of page %s seems to be outdated (status code: %s)!", $requestUrl, $pageName, $response->getStatusCode());
+                            $this->warn("Link %s of page %s seems to be outdated (status code: %s)!", $requestUrl, $pageName, $response->getStatusCode());
                         }
                     } catch (TransportException $e) {
-                        $this->logWarning("Link %s of page %s seems to be outdated (%s)!", $requestUrl, $pageName, $e->getMessage());
+                        $this->warn("Link %s of page %s seems to be outdated (%s)!", $requestUrl, $pageName, $e->getMessage());
                     }
                 }
             }
@@ -356,7 +356,7 @@ class Wiki
                             $this->fetchImagesOfExceptionPage($filePath, $targetFilePath, $pageName);
                         } catch (\Exception $e) {
                             file_put_contents($targetFilePath, file_get_contents($filePath));
-                            $this->logWarning("Images of page %s could not be fetched (%s)!", $pageName, $e->getMessage());
+                            $this->warn("Images of page %s could not be fetched (%s)!", $pageName, $e->getMessage());
                         }
                     }
                 }
@@ -409,7 +409,7 @@ class Wiki
                         }
                     }
                 } else {
-                    $this->logInfo("Image %s of page %s is out of wiki scope and not fetched.", $imageSrc, $pageName);
+                    $this->info("Image %s of page %s is out of wiki scope and not fetched.", $imageSrc, $pageName);
                 }
             }
 
@@ -420,9 +420,9 @@ class Wiki
                     if ($response->getStatusCode() === 200) {
                         $this->createDir($this->imagesDir);
                         file_put_contents($this->urlMap[$imageUrl], $imageContent);
-                        $this->logInfo("Image %s of page %s fetched.", $imageUrl, $pageName);
+                        $this->info("Image %s of page %s fetched.", $imageUrl, $pageName);
                     } else {
-                        $this->logWarning("Image %s of page %s not fetched (status code: %s)!", $imageUrl, $pageName, $response->getStatusCode());
+                        $this->warn("Image %s of page %s not fetched (status code: %s)!", $imageUrl, $pageName, $response->getStatusCode());
                     }
                 }
             }
@@ -470,9 +470,9 @@ class Wiki
                             $targetFileName = $pageName;
                             $targetFilePath = $this->outputDir . DIRECTORY_SEPARATOR . $targetFileName . '-s5-converted.rst';
                             $this->convertHtmlToRst($filePath, $targetFilePath);
-                            $this->logInfo("Page %s converted.", $pageName);
+                            $this->info("Page %s converted.", $pageName);
                         } catch (\Exception $e) {
-                            $this->logWarning("Page %s could not be converted (%s)!", $pageName, $e->getMessage());
+                            $this->warn("Page %s could not be converted (%s)!", $pageName, $e->getMessage());
                         }
                     }
                 }
@@ -517,9 +517,9 @@ class Wiki
                             $targetFileName = $pageName;
                             $targetFilePath = $this->outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.rst';
                             $this->postProcessRst($filePath, $targetFilePath);
-                            $this->logInfo("Page %s post-processed.", $pageName);
+                            $this->info("Page %s post-processed.", $pageName);
                         } catch (\Exception $e) {
-                            $this->logWarning("Page %s could not be post-processed (%s)!", $pageName, $e->getMessage());
+                            $this->warn("Page %s could not be post-processed (%s)!", $pageName, $e->getMessage());
                         }
                     }
                 }
@@ -570,17 +570,17 @@ class Wiki
         file_put_contents($targetFile, $content);
     }
 
-    protected function logInfo(string $message, ...$args): void
+    protected function info(string $message, ...$args): void
     {
-        $this->logg(self::LOGLEVEL_INFO, $message, ...$args);
+        $this->log(self::LOGLEVEL_INFO, $message, ...$args);
     }
 
-    protected function logWarning(string $message, ...$args): void
+    protected function warn(string $message, ...$args): void
     {
-        $this->logg(self::LOGLEVEL_WARNING, $message, ...$args);
+        $this->log(self::LOGLEVEL_WARNING, $message, ...$args);
     }
 
-    protected function logg(int $level, string $message, ...$args): void
+    protected function log(int $level, string $message, ...$args): void
     {
         if ($level >= $this->logLevel) {
             printf($message . "\n", ...$args);
