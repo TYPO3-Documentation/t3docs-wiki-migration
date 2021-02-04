@@ -56,5 +56,5 @@ varies in the error message until "rte_ckeditor" and
 "fluid_styled_content" have been deactivated. Now the error message
 appears only with Package "core".
 
-.. |Extension Upload screen TER.png| image:: /output/files/Extension_Upload_screen_TER.png
+.. |Extension Upload screen TER.png| image:: files/Extension_Upload_screen_TER.png
    :target: /File:Extension_Upload_screen_TER.png

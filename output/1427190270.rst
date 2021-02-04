@@ -68,9 +68,9 @@ How to solve it
 | If you have a lot of files in FAL, indexing may take some time. once
   indexing finishes, get back to image cropping, all should be fine now.
 
-.. |Screenshot : using image cropper| image:: /output/files/01-start-image-cropper.jpg
-.. |Screenshot : Missing Metadata Error| image:: /output/files/02-image-cropper-error-meta-data-missing.jpg
-.. |Screenshot : Schelduler main page| image:: /output/files/01-scheduler-open.jpg
-.. |Screenshot : Creating a new task| image:: /output/files/02-scheduler-create.jpg
-.. |Screenshot : Task Setting| image:: /output/files/03-scheduler-settings.jpg
-.. |image1| image:: /output/files/04-scheduler-run.jpg
+.. |Screenshot : using image cropper| image:: files/01-start-image-cropper.jpg
+.. |Screenshot : Missing Metadata Error| image:: files/02-image-cropper-error-meta-data-missing.jpg
+.. |Screenshot : Schelduler main page| image:: files/01-scheduler-open.jpg
+.. |Screenshot : Creating a new task| image:: files/02-scheduler-create.jpg
+.. |Screenshot : Task Setting| image:: files/03-scheduler-settings.jpg
+.. |image1| image:: files/04-scheduler-run.jpg

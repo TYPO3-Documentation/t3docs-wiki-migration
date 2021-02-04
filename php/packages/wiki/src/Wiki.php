@@ -24,7 +24,6 @@ class Wiki
     protected string $projectDir;
     protected string $outputDir;
     protected string $filesDir;
-    protected string $outputUrl;
     protected string $filesUrl;
     protected array $pages;
     protected array $urlMap;
@@ -39,8 +38,7 @@ class Wiki
         $this->projectDir = dirname(dirname(dirname(dirname(dirname(__FILE__)))));
         $this->outputDir = $this->projectDir . DIRECTORY_SEPARATOR . 'output';
         $this->filesDir = $this->outputDir . DIRECTORY_SEPARATOR . 'files';
-        $this->outputUrl = '/output';
-        $this->filesUrl = $this->outputUrl . '/' . 'files';
+        $this->filesUrl = 'files';
         $this->pages = [];
         $this->urlMap = [];
         $this->urlMapOfFailed = [];

@@ -16,8 +16,7 @@ exist)
 After upgrading from TYPO3 7.6.23 to TYPO3 8.7.9, I am getting this
 error most of the time that I login to the Backend. After I delete the
 folder "var" in "typo3temp", the next Backend login succeeds. See:
-`File:Backend Login
-Exception.pdf </output/files/Backend_Login_Exception.pdf>`__
+`File:Backend Login Exception.pdf <files/Backend_Login_Exception.pdf>`__
 
 --------------
 
@@ -125,5 +124,5 @@ in line 124
 
 Solution: Disable Debug Mode ;)
 
-.. |Error ... to large ... offset 27.jpg| image:: /output/files/Error_..._to_large_..._offset_27.jpg
+.. |Error ... to large ... offset 27.jpg| image:: files/Error_..._to_large_..._offset_27.jpg
    :target: /File:Error_..._to_large_..._offset_27.jpg
