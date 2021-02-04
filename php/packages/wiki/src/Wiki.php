@@ -29,14 +29,14 @@ class Wiki
     protected array $urlMap;
     protected array $urlMapOfFailed;
 
-    public function __construct()
+    public function __construct(string $outputDir)
     {
         $this->keepTemporaryFiles = false;
         $this->includePages = [];
         $this->logLevel = self::LOGLEVEL_INFO;
 
         $this->projectDir = dirname(dirname(dirname(dirname(dirname(__FILE__)))));
-        $this->outputDir = $this->projectDir . DIRECTORY_SEPARATOR . 'output';
+        $this->outputDir = $this->projectDir . DIRECTORY_SEPARATOR . $outputDir;
         $this->filesDir = $this->outputDir . DIRECTORY_SEPARATOR . 'files';
         $this->filesUrl = 'files';
         $this->pages = [];
