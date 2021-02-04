@@ -403,56 +403,67 @@ class Wiki
     protected function fetchImagesOfExceptionPage(string $sourceFile, string $targetFile, string $pageName): void
     {
         $content = file_get_contents($sourceFile);
-        $crawler = new Crawler($content);
-        $images = $crawler->filterXPath('//img')
-            ->each(function(Crawler $node){return $node->attr('src');});
+        preg_match_all('|<img[^>]*src="([^"]*)"[^>]*>|', $content, $nodes);
+        $images = [];
+        foreach ($nodes[0] as $id => $node) {
+            $images[] = [
+                'node' => $node,
+                'url' => $nodes[1][$id],
+                'urlAbs' => $this->getAbsoluteUri($nodes[1][$id]),
+                'urlOriginal' => $this->getOriginalImageFromPotentialThumbnail($this->getAbsoluteUri($nodes[1][$id]))
+            ];
+        }
 
         if (count($images) > 0) {
             $client = HttpClient::create();
-            $replace = [];
             $responses = [];
+            $replace = [];
 
-            foreach ($images as $imageSrc) {
-                $imageSrcAbs = strpos($imageSrc, 'http') === 0 ? $imageSrc :
-                    (strpos($imageSrc, '/') === 0 ? self::WIKI_URL . $imageSrc :
-                        self::WIKI_URL . '/' . $imageSrc);
-
-                if (strpos($imageSrcAbs, self::WIKI_URL) !== false) {
-                    if (!array_key_exists($imageSrc, $replace)) {
-                        $imageSrcPath = preg_replace('/http[s]?:\/\/[^\/]+/', '', $imageSrcAbs);
-                        $imageUrl = $this->getOriginalImageFromPotentialThumbnail($imageSrcAbs);
-                        $imageNameAndExt = pathinfo(parse_url($imageUrl)['path'])['basename'];
-                        $localImageUrl = $this->imagesUrl . '/' . $imageNameAndExt;
-                        $localImagePath = $this->imagesDir . DIRECTORY_SEPARATOR . $imageNameAndExt;
-                        $replace[$imageSrcAbs] = $localImageUrl;
-                        $replace[$imageSrcPath] = $localImageUrl;
-                        $replace[substr($imageSrcPath, 1)] = $localImageUrl;
-                        if (!array_key_exists($imageUrl, $this->urlMap)) {
-                            $this->urlMap[$imageUrl] = $localImagePath;
-                            $responses[] = $client->request('GET', $imageUrl);
-                        }
-                    }
-                } else {
-                    $this->info("Image %s of page %s is out of wiki scope and not fetched.", $imageSrc, $pageName);
-                }
-            }
-
-            if (count($responses) > 0) {
-                foreach ($responses as $response) {
-                    $imageContent = $response->getContent(false);
-                    $imageUrl = $response->getInfo('url');
-                    if ($response->getStatusCode() === 200) {
-                        $this->createDir($this->imagesDir);
-                        file_put_contents($this->urlMap[$imageUrl], $imageContent);
-                        $this->info("Image %s of page %s fetched.", $imageUrl, $pageName);
+            foreach ($images as $image) {
+                if (!array_key_exists($image['urlOriginal'], $this->urlMap) && !array_key_exists($image['urlOriginal'], $responses)) {
+                    if (empty($this->urlMapOfFailed[$image['urlOriginal']])) {
+                        $responses[$image['urlOriginal']] = $client->request('GET', $image['urlOriginal']);
                     } else {
-                        $this->warn("Image %s of page %s not fetched (status code: %s)!", $imageUrl, $pageName, $response->getStatusCode());
+                        $responses[$image['urlOriginal']] = $client->request('GET', $this->urlMapOfFailed[$image['urlOriginal']]);
                     }
                 }
             }
 
-            if (count($replace) > 0) {
-                $content = str_replace(array_keys($replace), array_values($replace), $content);
+            foreach ($responses as $requestUrl => $response) {
+                try {
+                    $imageContent = $response->getContent(false);
+                    if ($response->getStatusCode() === 200) {
+                        $localImageUrl = $this->saveImageToLocal($requestUrl, $imageContent);
+                        $this->urlMap[$requestUrl] = $localImageUrl;
+                        $this->info("Url %s is confirmed and downloaded to %s.", $requestUrl, $localImageUrl);
+                    } else {
+                        $this->urlMap[$requestUrl] = '';
+                        $this->warn("Url %s seems to be outdated (status code: %s)!", $requestUrl, $response->getStatusCode());
+                    }
+                } catch (\Exception $e) {
+                    $this->urlMap[$requestUrl] = '';
+                    $this->warn("Url %s seems to be outdated (%s)!", $requestUrl, $e->getMessage());
+                }
+            }
+
+            foreach ($images as $image) {
+                $localImageUrl = $this->urlMap[$image['urlOriginal']];
+                if ($localImageUrl !== '') {
+                    $actualNode = str_replace($image['url'], $localImageUrl, $image['node']);
+                    $replace[$image['node']] = $actualNode;
+                    $this->info("Image %s of page %s gets replaced by %s.", $image['url'], $pageName, $localImageUrl);
+                } else {
+                    $replace[$image['node']] = $image['urlOriginal'] . ' [outdated image]';
+                    $this->warn("Image %s of page %s gets removed as it is outdated.", $image['url'], $pageName);
+                }
+            }
+
+            if (count($replace)) {
+                $content = str_replace(
+                    array_keys($replace),
+                    array_values($replace),
+                    $content
+                );
             }
         }
 
@@ -476,6 +487,30 @@ class Wiki
             $targetFile = substr($targetFile, 0, strrpos($targetFile, '/'));
         }
         return $targetFile;
+    }
+
+    /**
+     * Save fetched image to local images folder and return path of local image.
+     *
+     * @param string $sourceFile Original image path
+     * @param string $sourceContent Original image content
+     * @return string Local image path
+     */
+    protected function saveImageToLocal(string $sourceFile, string $sourceContent): string
+    {
+        $pathInfo = pathinfo(parse_url($sourceFile)['path']);
+        $imageName = $pathInfo['filename'];
+        $imageExt = $pathInfo['extension'];
+        $imageNameAndExt = $imageName . '.' . $imageExt;
+        $suffix = 1;
+
+        while (is_file($this->imagesDir . DIRECTORY_SEPARATOR . $imageNameAndExt)) {
+            $imageNameAndExt = $imageName . '-' . $suffix++ . '.' . $imageExt;
+        }
+        $this->createDir($this->imagesDir);
+        file_put_contents($this->imagesDir . DIRECTORY_SEPARATOR . $imageNameAndExt, $sourceContent);
+
+        return $this->imagesUrl . '/' . $imageNameAndExt;
     }
 
     /**
