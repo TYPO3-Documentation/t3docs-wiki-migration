@@ -28,7 +28,6 @@ Link http://xcache.lighttpd.net/ of page 1242292003 gets removed as it is outdat
 Link https://wiki.typo3.org/wiki/index.php?title=User:Mmix&amp;action=edit&amp;redlink=1 of page 1283790586 gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Mmix&amp;action=edit&amp;redlink=1 of page 1283790586 gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=User:Ursbraem&amp;action=edit&amp;redlink=1 of page 1283790586 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/File:Backend_Login_Exception.pdf of page 1476107295 gets removed as it links to deprecated wiki instance.
 Url https://typo3.org/news/article/cross-site-request-forgery-protection-in-typo3-cms-62/ seems to be outdated (status code: 404)!
 Url https://typo3.org/api/typo3cms/class_t_y_p_o3_1_1_c_m_s_1_1_backend_1_1_utility_1_1_backend_utility.html#a8437ed5134d2c407ca67cc5f5627b280 seems to be outdated (status code: 404)!
 Url https://docs.typo3.org/typo3cms/TCAReference/AdditionalFeatures/WizardsConfiguration/Index.html#wizards-configuration-script-script seems to be outdated (status code: 404)!

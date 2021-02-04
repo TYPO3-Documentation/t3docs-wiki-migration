@@ -27,5 +27,5 @@ for non admin)".
 
 |Media Extra Module in Access List for Backend usergroup.png|
 
-.. |Media Extra Module in Access List for Backend usergroup.png| image:: /output/images/Media_Extra_Module_in_Access_List_for_Backend_usergroup.png
+.. |Media Extra Module in Access List for Backend usergroup.png| image:: /output/files/Media_Extra_Module_in_Access_List_for_Backend_usergroup.png
    :target: /File:Media_Extra_Module_in_Access_List_for_Backend_usergroup.png

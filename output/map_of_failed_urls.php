@@ -33,7 +33,6 @@ return array (
   'https://wiki.typo3.org/Exception/CMS/1458745712' => 'https://wiki.typo3.org/Exception/CMS/1458745712',
   'https://wiki.typo3.org/Exception/CMS/1518448686' => 'https://wiki.typo3.org/Exception/CMS/1518448686',
   'https://wiki.typo3.org/Extension_Development,_native_ExtJS_Modules' => 'https://wiki.typo3.org/Extension_Development,_native_ExtJS_Modules',
-  'https://wiki.typo3.org/File:Backend_Login_Exception.pdf' => 'https://wiki.typo3.org/File:Backend_Login_Exception.pdf',
   'https://wiki.typo3.org/Fluid#f:form.textbox' => 'https://wiki.typo3.org/Fluid#f:form.textbox',
   'https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated' => 'https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated',
   'https://wiki.typo3.org/User:David_bruchmann' => 'https://wiki.typo3.org/User:David_bruchmann',

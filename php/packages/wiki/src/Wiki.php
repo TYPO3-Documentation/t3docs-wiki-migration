@@ -23,9 +23,9 @@ class Wiki
 
     protected string $projectDir;
     protected string $outputDir;
-    protected string $imagesDir;
+    protected string $filesDir;
     protected string $outputUrl;
-    protected string $imagesUrl;
+    protected string $filesUrl;
     protected array $pages;
     protected array $urlMap;
     protected array $urlMapOfFailed;
@@ -38,9 +38,9 @@ class Wiki
 
         $this->projectDir = dirname(dirname(dirname(dirname(dirname(__FILE__)))));
         $this->outputDir = $this->projectDir . DIRECTORY_SEPARATOR . 'output';
-        $this->imagesDir = $this->outputDir . DIRECTORY_SEPARATOR . 'images';
+        $this->filesDir = $this->outputDir . DIRECTORY_SEPARATOR . 'files';
         $this->outputUrl = '/output';
-        $this->imagesUrl = $this->outputUrl . '/' . 'images';
+        $this->filesUrl = $this->outputUrl . '/' . 'files';
         $this->pages = [];
         $this->urlMap = [];
         $this->urlMapOfFailed = [];
@@ -49,7 +49,7 @@ class Wiki
     public function run(): void
     {
         $this->loadMapOfFailedUrls();
-        $this->cleanDir($this->imagesDir);
+        $this->cleanDir($this->filesDir);
         $this->cleanDir($this->outputDir);
         $this->createDir($this->outputDir);
         $this->fetchListOfExceptionPages();
@@ -279,7 +279,8 @@ class Wiki
                 'node' => $node,
                 'text' => $nodes[2][$id],
                 'url' => $nodes[1][$id],
-                'urlAbs' => $this->getAbsoluteUri($nodes[1][$id])
+                'urlAbs' => $this->getAbsoluteUri($nodes[1][$id]),
+                'urlActual' => $this->getFileUrlFromWikiFileLink($this->getAbsoluteUri($nodes[1][$id]))
             ];
         }
 
@@ -291,7 +292,7 @@ class Wiki
             foreach ($links as $link) {
                 if (!array_key_exists($link['urlAbs'], $this->urlMap) && !array_key_exists($link['urlAbs'], $responses)) {
                     if (empty($this->urlMapOfFailed[$link['urlAbs']])) {
-                        $responses[$link['urlAbs']] = $client->request('GET', $link['urlAbs']);
+                        $responses[$link['urlAbs']] = $client->request('GET', $link['urlActual']);
                     } else {
                         $responses[$link['urlAbs']] = $client->request('GET', $this->urlMapOfFailed[$link['urlAbs']]);
                     }
@@ -300,14 +301,20 @@ class Wiki
 
             foreach ($responses as $requestUrl => $response) {
                 try {
-                    $response->getContent(false);
+                    $linkContent = $response->getContent(false);
                     if ($response->getStatusCode() === 200) {
-                        if ($requestUrl !== $response->getInfo('url')) {
-                            $this->info("Url %s redirects to %s.", $requestUrl, $response->getInfo('url'));
-                            $this->urlMap[$requestUrl] = $response->getInfo('url');
+                        if ($this->isWikiFileLink($requestUrl)) {
+                            $localFileUrl = $this->saveFileToLocal($requestUrl, $linkContent);
+                            $this->urlMap[$requestUrl] = $localFileUrl;
+                            $this->info("Url %s is confirmed and downloaded to %s.", $requestUrl, $localFileUrl);
                         } else {
-                            $this->info("Url %s is confirmed.", $requestUrl);
-                            $this->urlMap[$requestUrl] = $response->getInfo('url');
+                            if ($requestUrl !== $response->getInfo('url')) {
+                                $this->info("Url %s redirects to %s.", $requestUrl, $response->getInfo('url'));
+                                $this->urlMap[$requestUrl] = $response->getInfo('url');
+                            } else {
+                                $this->info("Url %s is confirmed.", $requestUrl);
+                                $this->urlMap[$requestUrl] = $response->getInfo('url');
+                            }
                         }
                     } else {
                         $this->warn("Url %s seems to be outdated (status code: %s)!", $requestUrl, $response->getStatusCode());
@@ -355,6 +362,29 @@ class Wiki
         return strpos($url, 'http') === 0 ? $url :
             (strpos($url, '/') === 0 ? self::WIKI_URL . $url :
                 self::WIKI_URL . '/' . $url);
+    }
+
+    protected function isWikiFileLink(string $sourceFile): bool
+    {
+        return strpos($sourceFile, self::WIKI_URL) === 0 && strpos($sourceFile, '/File:') !== false;
+    }
+
+    protected function getFileUrlFromWikiFileLink(string $sourceFile): string
+    {
+        $targetFile = $sourceFile;
+        if (strpos($sourceFile, self::WIKI_URL) === 0) {
+            $targetFile = str_replace('/File:', '/Special:FilePath/', $sourceFile);
+        }
+        return $targetFile;
+    }
+
+    protected function removeWikiFileLinkSyntax(string $sourceFile): string
+    {
+        $targetFile = $sourceFile;
+        if (strpos($sourceFile, self::WIKI_URL) === 0) {
+            $targetFile = str_replace('/File:', '/', $sourceFile);
+        }
+        return $targetFile;
     }
 
     /**
@@ -410,7 +440,7 @@ class Wiki
                 'node' => $node,
                 'url' => $nodes[1][$id],
                 'urlAbs' => $this->getAbsoluteUri($nodes[1][$id]),
-                'urlOriginal' => $this->getOriginalImageFromPotentialThumbnail($this->getAbsoluteUri($nodes[1][$id]))
+                'urlActual' => $this->getOriginalImageFromPotentialThumbnail($this->getAbsoluteUri($nodes[1][$id]))
             ];
         }
 
@@ -420,11 +450,11 @@ class Wiki
             $replace = [];
 
             foreach ($images as $image) {
-                if (!array_key_exists($image['urlOriginal'], $this->urlMap) && !array_key_exists($image['urlOriginal'], $responses)) {
-                    if (empty($this->urlMapOfFailed[$image['urlOriginal']])) {
-                        $responses[$image['urlOriginal']] = $client->request('GET', $image['urlOriginal']);
+                if (!array_key_exists($image['urlActual'], $this->urlMap) && !array_key_exists($image['urlActual'], $responses)) {
+                    if (empty($this->urlMapOfFailed[$image['urlActual']])) {
+                        $responses[$image['urlActual']] = $client->request('GET', $image['urlActual']);
                     } else {
-                        $responses[$image['urlOriginal']] = $client->request('GET', $this->urlMapOfFailed[$image['urlOriginal']]);
+                        $responses[$image['urlActual']] = $client->request('GET', $this->urlMapOfFailed[$image['urlActual']]);
                     }
                 }
             }
@@ -433,7 +463,7 @@ class Wiki
                 try {
                     $imageContent = $response->getContent(false);
                     if ($response->getStatusCode() === 200) {
-                        $localImageUrl = $this->saveImageToLocal($requestUrl, $imageContent);
+                        $localImageUrl = $this->saveFileToLocal($requestUrl, $imageContent);
                         $this->urlMap[$requestUrl] = $localImageUrl;
                         $this->info("Url %s is confirmed and downloaded to %s.", $requestUrl, $localImageUrl);
                     } else {
@@ -447,13 +477,13 @@ class Wiki
             }
 
             foreach ($images as $image) {
-                $localImageUrl = $this->urlMap[$image['urlOriginal']];
+                $localImageUrl = $this->urlMap[$image['urlActual']];
                 if ($localImageUrl !== '') {
                     $actualNode = str_replace($image['url'], $localImageUrl, $image['node']);
                     $replace[$image['node']] = $actualNode;
                     $this->info("Image %s of page %s gets replaced by %s.", $image['url'], $pageName, $localImageUrl);
                 } else {
-                    $replace[$image['node']] = $image['urlOriginal'] . ' [outdated image]';
+                    $replace[$image['node']] = $image['urlActual'] . ' [outdated image]';
                     $this->warn("Image %s of page %s gets removed as it is outdated.", $image['url'], $pageName);
                 }
             }
@@ -482,7 +512,7 @@ class Wiki
     protected function getOriginalImageFromPotentialThumbnail(string $sourceFile): string
     {
         $targetFile = $sourceFile;
-        if (strpos($sourceFile, '/thumb/') !== false) {
+        if (strpos($sourceFile, self::WIKI_URL) === 0 && strpos($sourceFile, '/thumb/') !== false) {
             $targetFile = str_replace('/thumb', '', $targetFile);
             $targetFile = substr($targetFile, 0, strrpos($targetFile, '/'));
         }
@@ -490,27 +520,28 @@ class Wiki
     }
 
     /**
-     * Save fetched image to local images folder and return path of local image.
+     * Save fetched file to local files folder and return path of local file.
      *
-     * @param string $sourceFile Original image path
-     * @param string $sourceContent Original image content
-     * @return string Local image path
+     * @param string $sourceFile Original file path
+     * @param string $sourceContent Original file content
+     * @return string Local file path
      */
-    protected function saveImageToLocal(string $sourceFile, string $sourceContent): string
+    protected function saveFileToLocal(string $sourceFile, string $sourceContent): string
     {
+        $sourceFile = $this->removeWikiFileLinkSyntax($sourceFile);
         $pathInfo = pathinfo(parse_url($sourceFile)['path']);
-        $imageName = $pathInfo['filename'];
-        $imageExt = $pathInfo['extension'];
-        $imageNameAndExt = $imageName . '.' . $imageExt;
+        $fileName = $pathInfo['filename'];
+        $fileExt = $pathInfo['extension'];
+        $fileNameAndExt = $fileName . '.' . $fileExt;
         $suffix = 1;
 
-        while (is_file($this->imagesDir . DIRECTORY_SEPARATOR . $imageNameAndExt)) {
-            $imageNameAndExt = $imageName . '-' . $suffix++ . '.' . $imageExt;
+        while (is_file($this->filesDir . DIRECTORY_SEPARATOR . $fileNameAndExt)) {
+            $fileNameAndExt = $fileName . '-' . $suffix++ . '.' . $fileExt;
         }
-        $this->createDir($this->imagesDir);
-        file_put_contents($this->imagesDir . DIRECTORY_SEPARATOR . $imageNameAndExt, $sourceContent);
+        $this->createDir($this->filesDir);
+        file_put_contents($this->filesDir . DIRECTORY_SEPARATOR . $fileNameAndExt, $sourceContent);
 
-        return $this->imagesUrl . '/' . $imageNameAndExt;
+        return $this->filesUrl . '/' . $fileNameAndExt;
     }
 
     /**

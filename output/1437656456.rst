@@ -60,5 +60,5 @@ The issue was solved here by comparing the database with the
 specification (see install tool > important actions). Make sure your
 table definitions are the same as they are in the current database!
 
-.. |TYPO3 multi-content edit error.png| image:: /output/images/TYPO3_multi-content_edit_error.png
+.. |TYPO3 multi-content edit error.png| image:: /output/files/TYPO3_multi-content_edit_error.png
    :target: /File:TYPO3_multi-content_edit_error.png
