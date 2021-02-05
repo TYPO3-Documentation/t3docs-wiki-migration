@@ -158,7 +158,7 @@ abstract class AbstractWiki
     protected function getUpperCamelCase(string $string): string
     {
         return str_replace('_', '', ucwords(
-            str_replace(['-', ' '], '_', strtolower($string)), '_')
+            str_replace(['-', ' ', ',', ':', '.'], '_', strtolower($string)), '_')
         );
     }
 
