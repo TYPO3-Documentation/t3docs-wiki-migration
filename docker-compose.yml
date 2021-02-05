@@ -41,5 +41,5 @@ services:
     command: >
       /bin/sh -c '
         [ "$${SCRIPT_VERBOSE}" -eq "1" ] && set -x;
-        ./php/vendor/bin/wiki;
+        ./php/vendor/bin/wiki $${SCOPE};
       '

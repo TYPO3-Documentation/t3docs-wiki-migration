@@ -11,9 +11,10 @@ use Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
 
-class Wiki
+abstract class AbstractWiki
 {
     const WIKI_URL = 'https://wiki.typo3.org';
+    const WIKI_API_URL = 'https://wiki.typo3.org/api.php';
     const LOGLEVEL_INFO = 1;
     const LOGLEVEL_WARNING = 2;
 
@@ -50,11 +51,11 @@ class Wiki
         $this->cleanDir($this->filesDir);
         $this->cleanDir($this->outputDir);
         $this->createDir($this->outputDir);
-        $this->fetchListOfExceptionPages();
-        $this->fetchExceptionPages();
-        $this->reduceExceptionPages();
-        $this->replaceLinksOfExceptionPages();
-        $this->fetchImagesOfExceptionPages();
+        $this->fetchListOfPages();
+        $this->fetchPages();
+        $this->reducePages();
+        $this->replaceLinksOfPages();
+        $this->fetchImagesOfPages();
         $this->convert();
         $this->postProcess();
         $this->saveMapOfFailedUrls();
@@ -76,9 +77,12 @@ class Wiki
             return $responseUrl === '' || strpos($responseUrl, self::WIKI_URL) === 0;
         });
         $urlMapOfFailed = array_merge($urlMapOfFailed, $this->urlMapOfFailed);
-        ksort($urlMapOfFailed);
-        $content = sprintf("<?php\nreturn %s;", var_export($urlMapOfFailed, true));
-        file_put_contents($this->outputDir . DIRECTORY_SEPARATOR . 'map_of_failed_urls.php', $content);
+
+        if (count($urlMapOfFailed)) {
+            ksort($urlMapOfFailed);
+            $content = sprintf("<?php\nreturn %s;", var_export($urlMapOfFailed, true));
+            file_put_contents($this->outputDir . DIRECTORY_SEPARATOR . 'map_of_failed_urls.php', $content);
+        }
     }
 
     /**
@@ -121,48 +125,26 @@ class Wiki
     }
 
     /**
-     * Fetch list of TYPO3 Wiki exception pages.
-     *
-     * @throws ClientExceptionInterface
-     * @throws RedirectionExceptionInterface
-     * @throws ServerExceptionInterface
-     * @throws TransportExceptionInterface
+     * Fetch list of TYPO3 Wiki pages and saves as 1-dimensional array of absolute page urls in $this->pages.
      */
-    protected function fetchListOfExceptionPages(): void
-    {
-        $client = HttpClient::create();
-        $response = $client->request('GET', self::WIKI_URL . '/Special:PrefixIndex?prefix=Exception&namespace=0');
-        $content = $response->getContent();
-        $crawler = new Crawler($content);
-        $this->pages = $crawler->filterXPath('//ul[@class="mw-prefixindex-list"]/li/a')
-            ->reduce(function(Crawler $node) {
-                if (!empty($this->includePages)) {
-                    return in_array($node->text(), $this->includePages);
-                } else {
-                    return !in_array($node->text(), ['Exception']);
-                }
-            })
-            ->each(function(Crawler $node){
-                return $node->text();
-            });
-    }
+    abstract protected function fetchListOfPages(): void;
 
     /**
-     * Crawl TYPO3 Wiki exception pages and save their content into folder $this->outputDir.
+     * Crawl TYPO3 Wiki pages and save their content into folder $this->outputDir.
      */
-    protected function fetchExceptionPages(): void
+    protected function fetchPages(): void
     {
         if (count($this->pages) > 0) {
             $client = HttpClient::create();
             $responses = [];
             foreach ($this->pages as $path) {
-                $responses[] = $client->request('GET', self::WIKI_URL . '/' . $path);
+                $responses[] = $client->request('GET', $path);
             }
             foreach ($responses as $response) {
                 $content = $response->getContent(false);
                 if ($response->getStatusCode() === 200) {
-                    $uri = parse_url($response->getInfo('url'));
-                    $fileName = explode('/', $uri['path'])[3] . '-s1-full.html';
+                    $pathInfo = pathinfo(parse_url($response->getInfo('url'))['path']);
+                    $fileName = $this->getUpperCamelCase($pathInfo['basename']) . '-s1-full.html';
                     file_put_contents($this->outputDir . DIRECTORY_SEPARATOR . $fileName, $content);
                     $this->info("Page %s fetched.", $response->getInfo('url'));
                 } else {
@@ -172,10 +154,17 @@ class Wiki
         }
     }
 
+    protected function getUpperCamelCase(string $string): string
+    {
+        return str_replace('_', '', ucwords(
+            str_replace(['-', ' '], '_', strtolower($string)), '_')
+        );
+    }
+
     /**
      * Traverse folder and extract essential html from HTML files.
      */
-    protected function reduceExceptionPages(): void
+    protected function reducePages(): void
     {
         if ($handle = opendir($this->outputDir)) {
             while (false !== ($file = readdir($handle))) {
@@ -187,7 +176,7 @@ class Wiki
                         try {
                             $targetFileName = $pageName . '-s2-reduce';
                             $targetFilePath = $this->outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.html';
-                            $this->reduceExceptionPage($filePath, $targetFilePath);
+                            $this->reducePage($filePath, $targetFilePath);
                             $this->info("Page %s reduced.", $pageName);
                         } catch (\Exception $e) {
                             $this->warn("Page %s could not be reduced (%s)!", $pageName, $e->getMessage());
@@ -200,13 +189,13 @@ class Wiki
     }
 
     /**
-     * Extract essential html parts like title and content from TYPO3 Wiki Exception page
+     * Extract essential html parts like title and content from TYPO3 Wiki page
      * and remove superfluous HTML attributes.
      *
      * @param string $sourceFile
      * @param string $targetFile
      */
-    protected function reduceExceptionPage(string $sourceFile, string $targetFile): void
+    protected function reducePage(string $sourceFile, string $targetFile): void
     {
         $crawler = new Crawler(file_get_contents($sourceFile));
         $title = $crawler->filterXPath('//h1[@id="firstHeading"]')->outerHtml();
@@ -232,7 +221,7 @@ class Wiki
      * @throws ServerExceptionInterface
      * @throws TransportExceptionInterface
      */
-    protected function replaceLinksOfExceptionPages(): void
+    protected function replaceLinksOfPages(): void
     {
         if ($handle = opendir($this->outputDir)) {
             while (false !== ($file = readdir($handle))) {
@@ -244,7 +233,7 @@ class Wiki
                         $targetFileName = $pageName . '-s3-links';
                         $targetFilePath = $this->outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.html';
                         try {
-                            $this->replaceLinksOfExceptionPage($filePath, $targetFilePath, $pageName);
+                            $this->replaceLinksOfPage($filePath, $targetFilePath, $pageName);
                         } catch (\Exception $e) {
                             file_put_contents($targetFilePath, file_get_contents($filePath));
                             $this->warn("Links of page %s could not be replaced (%s)!", $pageName, $e->getMessage());
@@ -257,17 +246,17 @@ class Wiki
     }
 
     /**
-     * Crawl TYPO3 Wiki exception page and replace its links by actual links.
+     * Crawl TYPO3 Wiki page and replace its links by actual links.
      *
-     * @param string $sourceFile Exception page content with TYPO3 Wiki links
-     * @param string $targetFile Exception page content with actual links
-     * @param string $pageName Exception page name
+     * @param string $sourceFile Page content with TYPO3 Wiki links
+     * @param string $targetFile Page content with actual links
+     * @param string $pageName Page name
      * @throws ClientExceptionInterface
      * @throws RedirectionExceptionInterface
      * @throws ServerExceptionInterface
      * @throws TransportExceptionInterface
      */
-    protected function replaceLinksOfExceptionPage(string $sourceFile, string $targetFile, string $pageName): void
+    protected function replaceLinksOfPage(string $sourceFile, string $targetFile, string $pageName): void
     {
         $content = file_get_contents($sourceFile);
         preg_match_all('|<a[^>]*href="([^"]*)"[^>]*>([^<]+)<\/a>|', $content, $nodes);
@@ -386,14 +375,14 @@ class Wiki
     }
 
     /**
-     * Crawl TYPO3 Wiki exception pages and save their images into the folder $this->imagesDir.
+     * Crawl TYPO3 Wiki pages and save their images into the folder $this->filesDir.
      *
      * @throws ClientExceptionInterface
      * @throws RedirectionExceptionInterface
      * @throws ServerExceptionInterface
      * @throws TransportExceptionInterface
      */
-    protected function fetchImagesOfExceptionPages(): void
+    protected function fetchImagesOfPages(): void
     {
         if ($handle = opendir($this->outputDir)) {
             while (false !== ($file = readdir($handle))) {
@@ -405,7 +394,7 @@ class Wiki
                         $targetFileName = $pageName . '-s4-images';
                         $targetFilePath = $this->outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.html';
                         try {
-                            $this->fetchImagesOfExceptionPage($filePath, $targetFilePath, $pageName);
+                            $this->fetchImagesOfPage($filePath, $targetFilePath, $pageName);
                         } catch (\Exception $e) {
                             file_put_contents($targetFilePath, file_get_contents($filePath));
                             $this->warn("Images of page %s could not be fetched (%s)!", $pageName, $e->getMessage());
@@ -418,17 +407,17 @@ class Wiki
     }
 
     /**
-     * Crawl TYPO3 Wiki exception page and save its images into the folder $this->imagesDir.
+     * Crawl TYPO3 Wiki page and save its images into the folder $this->filesDir.
      *
-     * @param string $sourceFile Exception page content with TYPO3 Wiki image urls
-     * @param string $targetFile Exception page content with local image urls
-     * @param string $pageName Exception page name
+     * @param string $sourceFile Page content with TYPO3 Wiki image urls
+     * @param string $targetFile Page content with local image urls
+     * @param string $pageName Page name
      * @throws ClientExceptionInterface
      * @throws RedirectionExceptionInterface
      * @throws ServerExceptionInterface
      * @throws TransportExceptionInterface
      */
-    protected function fetchImagesOfExceptionPage(string $sourceFile, string $targetFile, string $pageName): void
+    protected function fetchImagesOfPage(string $sourceFile, string $targetFile, string $pageName): void
     {
         $content = file_get_contents($sourceFile);
         preg_match_all('|<img[^>]*src="([^"]*)"[^>]*>|', $content, $nodes);
@@ -691,7 +680,7 @@ class Wiki
 
     public function setIncludePages(array $includePages): void
     {
-        $this->includePages = $includePages;
+        $this->includePages = array_map([$this, 'getAbsoluteUri'], $includePages);
     }
 
     public function setLogLevel(int $logLevel): void
