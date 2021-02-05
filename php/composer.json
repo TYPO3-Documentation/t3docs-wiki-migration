@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "typo3/wiki": "@dev"
+    "typo3/wiki": "@dev",
+    "ext-json": "*"
   },
   "repositories": {
     "local": {
