@@ -328,9 +328,9 @@ Comparism to other frameworks
 Apache Cocoon
 -------------
 
-http://cocoon.apache.org/images/cocoon-logo.gif
+http://cocoon.apache.org/images/cocoon-logo.gif [outdated link]
 
-`on apache.org <http://cocoon.apache.org/>`__, `on
+on apache.org [outdated link], `on
 wikipedia <http://en.wikipedia.org/wiki/Apache_Cocoon>`__
 
 Cocoon is a JAVA framework with a pipeline as the central piece of its

@@ -1,3 +1,27 @@
+Url https://docs.typo3.org/typo3cms/TyposcriptReference/Functions/Stdwrap#htmlSpecialChars seems to be outdated (status code: 404)!
+Url https://docs.typo3.org/typo3cms/TyposcriptReference/Functions/Stdwrap#allWrap seems to be outdated (status code: 404)!
+Link https://docs.typo3.org/typo3cms/TyposcriptReference/Functions/Stdwrap#htmlSpecialChars of page CssTypo3TyposcriptSetup gets removed as it is outdated.
+Link https://docs.typo3.org/typo3cms/TyposcriptReference/Functions/Stdwrap#allWrap of page CssTypo3TyposcriptSetup gets removed as it is outdated.
+Link https://wiki.typo3.org/Running_with_TypoScript_and_CSS of page CssTypo3TyposcriptSetup gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/My_first_TYPO3_site of page CssTypo3TyposcriptSetup gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/TS/CSS:_Typo3_TypoScript_Constants of page CssTypo3TemplateSetup gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Running_with_TypoScript_and_CSS of page CssTypo3TemplateSetup gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/My_first_TYPO3_site of page CssTypo3TemplateSetup gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Extension_Development of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_Debugging&amp;action=edit&amp;section=0 of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Extension_Developers_Guide of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Category:Debug of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page ExtensionDevelopmentDebugging gets removed as it links to deprecated wiki instance.
 Url https://wiki.typo3.org/wiki/index.php?title=ExtDirect_StateProvider&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
 Url https://typo3.org/api/typo3cms/namespace_t_y_p_o3_1_1_c_m_s_1_1_workspaces_1_1_ext_direct.html seems to be outdated (status code: 404)!
 Url https://github.com/sgalinski/rs_fetsy seems to be outdated (status code: 404)!
@@ -66,14 +90,6 @@ Link https://wiki.typo3.org/MVC_Framework of page Apache2Typo3Webdav gets remove
 Link https://wiki.typo3.org/wiki/index.php?title=Dam&amp;action=edit&amp;redlink=1 of page Apache2Typo3Webdav gets removed as it is outdated.
 Link https://wiki.typo3.org/WebDAV of page Apache2Typo3Webdav gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Apache2_Typo3_WebDAV of page Apache2Typo3Webdav gets removed as it links to deprecated wiki instance.
-Url https://wiki.typo3.org/Special:WhatLinksHere/Php.ini seems to be outdated (status code: 403)!
-Link https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&amp;action=edit&amp;redlink=1 of page Php.ini gets removed as it is outdated.
-Link https://wiki.typo3.org/Special:WhatLinksHere/Php.ini of page Php.ini gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/index.php?title=Php.ini&amp;action=history of page Php.ini gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Category:Php.ini of page Php.ini gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page Php.ini gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript of page Php.ini gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript of page Php.ini gets removed as it links to deprecated wiki instance.
 Url https://forge.typo3.org/projects/show/extension-phpunit seems to be outdated (status code: 404)!
 Url https://wiki.typo3.org/wiki/index.php?title=Functional_testing&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
 Link https://wiki.typo3.org/Unit_Testing_TYPO3 of page UsingThePhpunitExtensionForTypo3CmsInPhpstorm gets removed as it links to deprecated wiki instance.
@@ -94,6 +110,9 @@ Link https://wiki.typo3.org/Category:Extension of page HookProgramming gets remo
 Link https://wiki.typo3.org/Category:Hook of page HookProgramming gets removed as it links to deprecated wiki instance.
 Link https://typo3.org/documentation/article/how-to-use-existing-hooks-in-your-own-extension/ of page HookProgramming gets removed as it is outdated.
 Link https://wiki.typo3.org/FAQ of page CachedFilesInTypo3temp gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Inline_Relational_Record_Editing of page InlineRelationalRecordEditing1N gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Category:Project of page InlineRelationalRecordEditing1N gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Inline_Relational_Record_Editing_1:n#Attributes_on_Intermediate_Tables of page InlineRelationalRecordEditing1N gets removed as it links to deprecated wiki instance.
 Url http://test.example.com seems to be outdated (Could not resolve host "test.example.com".)!
 Link https://wiki.typo3.org/Category:Installation of page Multidomain gets removed as it links to deprecated wiki instance.
 Link http://test.example.com of page Multidomain gets removed as it is outdated.
@@ -210,17 +229,10 @@ Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20an
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page FluidtemplateByExample gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page FluidtemplateByExample gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page FluidtemplateByExample gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Typo3_Installation_Basics#Webspace_vs._Webserver of page WebspaceVs.Webserver gets removed as it links to deprecated wiki instance.
 Url http://localhost/content/typo3/install seems to be outdated (fopen(http://127.0.0.1/content/typo3/install): failed to open stream: Connection refused)!
 Url http://localhost/content/typo3 seems to be outdated (fopen(http://127.0.0.1/content/typo3): failed to open stream: Connection refused)!
 Link http://localhost/content/typo3/install of page Typo3InstallationOnUbuntu gets removed as it is outdated.
 Link http://localhost/content/typo3 of page Typo3InstallationOnUbuntu gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&amp;action=edit&amp;redlink=1 of page ExtensionDevelopment,AddPageTsconfig,UserTsconfigAndTs gets removed as it is outdated.
-Link https://wiki.typo3.org/Special:WhatLinksHere/Extension_Development,_add_Page_TSconfig,_User_TSconfig_and_TS of page ExtensionDevelopment,AddPageTsconfig,UserTsconfigAndTs gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_add_Page_TSconfig,_User_TSconfig_and_TS&amp;action=history of page ExtensionDevelopment,AddPageTsconfig,UserTsconfigAndTs gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Extension_Development of page ExtensionDevelopment,AddPageTsconfig,UserTsconfigAndTs gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Overview_Developer_Manuals of page ExtensionDevelopment,AddPageTsconfig,UserTsconfigAndTs gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_add_Page_TSconfig,_User_TSconfig_and_TS&amp;action=edit&amp;section=0 of page ExtensionDevelopment,AddPageTsconfig,UserTsconfigAndTs gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Slack of page T3bot gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Slack of page T3bot gets removed as it links to deprecated wiki instance.
 Url https://wiki.typo3.org/wiki/index.php?title=Formidable&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
@@ -231,26 +243,12 @@ Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScrip
 Link https://wiki.typo3.org/Category:TSconfig of page FrontendEditing gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page FrontendEditing gets removed as it links to deprecated wiki instance.
 Link http://www.yoursite.com/typo3/ of page FrontendEditing gets removed as it is outdated.
-Link https://wiki.typo3.org/Extension_Development of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_Debugging&amp;action=edit&amp;section=0 of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Extension_Developers_Guide of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Category:Debug of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page ExtensionDevelopment,Debugging gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Category:Wiki-Question of page BackendProgramming,UsingTreeview gets removed as it links to deprecated wiki instance.
 Url http://goo.gl/usIB3 seems to be outdated (status code: 404)!
 Link https://wiki.typo3.org/Overview_Extension_manuals#Connecting_.2F_Integrating_.2F_Combining_-_.22Get_it_together_and_inspire_to_share.22 of page Typo3AndMoodle gets removed as it links to deprecated wiki instance.
 Link http://goo.gl/usIB3 of page Typo3AndMoodle gets removed as it is outdated.
 Link https://docs.typo3.org/typo3cms/TyposcriptReference/Functions/Stdwrap of page Rootline gets removed as it is outdated.
+Url https://typo3.org/fileadmin/typo3api-3.8.0/ seems to be outdated (status code: 404)!
+Link https://typo3.org/fileadmin/typo3api-3.8.0/ of page ExtensionDevelopmentUsingPostForms gets removed as it is outdated.
 Link https://wiki.typo3.org/Introduction_(reST) of page Rest gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Editors_(reST) of page Rest gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Rendering_reST of page Rest gets removed as it links to deprecated wiki instance.
@@ -295,8 +293,6 @@ Link https://wiki.typo3.org/Core_Team of page TyposcriptTemplates gets removed a
 Link https://wiki.typo3.org/Category:Core_Team of page TyposcriptTemplates gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated of page TyposcriptTemplates gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page TyposcriptTemplates gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Category:HowTo of page ExtensionDevelopment,AddUserTsconfig gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,AddUserTsconfig gets removed as it links to deprecated wiki instance.
 Url http://typo3-blog.net/tutorials/news/typo3-konstanteneditor.html seems to be outdated (status code: 404)!
 Link https://wiki.typo3.org/Core_Team of page TyposcriptConstants gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Core_Team of page TyposcriptConstants gets removed as it links to deprecated wiki instance.
@@ -352,12 +348,10 @@ Link https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_sp
 Link https://wiki.typo3.org/Special:WhatLinksHere/Indexed_search of page IndexedSearch gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=Indexed_search&amp;action=history of page IndexedSearch gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Draft of page IndexedSearch gets removed as it links to deprecated wiki instance.
-Url https://typo3.org/api/typo3cms/_sleep_task_8php_source.html seems to be outdated (status code: 404)!
-Url https://typo3.org/api/typo3cms/_sleep_task_additional_field_provider_8php_source.html seems to be outdated (status code: 404)!
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,AddSchedulerTask gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,AddSchedulerTask gets removed as it links to deprecated wiki instance.
-Link https://typo3.org/api/typo3cms/_sleep_task_8php_source.html of page ExtensionDevelopment,AddSchedulerTask gets removed as it is outdated.
-Link https://typo3.org/api/typo3cms/_sleep_task_additional_field_provider_8php_source.html of page ExtensionDevelopment,AddSchedulerTask gets removed as it is outdated.
+Url https://twitter.com/t3git_master seems to be outdated (status code: 400)!
+Link https://wiki.typo3.org/TYPO3_6.0_Extension_Migration_Tips of page Typo376ExtensionMigrationGuide gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Deprecation_Log of page Typo376ExtensionMigrationGuide gets removed as it links to deprecated wiki instance.
+Link https://twitter.com/t3git_master of page Typo376ExtensionMigrationGuide gets removed as it is outdated.
 Url http://www.aptana.org/studio/download seems to be outdated (status code: 404)!
 Url https://github.com/NeoBlack/PHPStormTYPO3 seems to be outdated (status code: 404)!
 Url http://typo3.helmut-hummel.de/post/85031122475/xml-schema-auto-completion-in-phpstorm seems to be outdated (status code: 404)!
@@ -471,47 +465,19 @@ Link https://wiki.typo3.org/Category:Symbolic_links of page Windows gets removed
 Link http://www.dynawell.com/reskit/microsoft/win2000/linkd.zip of page Windows gets removed as it is outdated.
 Link https://wiki.typo3.org/Symlinks_on_Windows of page Windows gets removed as it links to deprecated wiki instance.
 Link http://www.sysinternals.com/Utilities/Junction.html of page Windows gets removed as it is outdated.
-Url https://forge.typo3.org/projects/typo3cms-core/repository/revisions/91c7175198b4e6fd3491b207a7c332c288cffef8/diff seems to be outdated (status code: 404)!
-Url https://forge.typo3.org/projects/typo3cms-core/repository/revisions/0ecff15a36e4a74b089dabe16d2d8ffd5cb35704/diff/typo3/sysext/cms/tslib/content/class.tslib_content_file.php seems to be outdated (status code: 404)!
-Url https://forge.typo3.org/projects/typo3cms-core/repository/revisions/8f4baa47a0ecd6137f11b4945cf5f363c24b49fc/diff/typo3/sysext/cms/tslib/content/class.tslib_content_cleargif.php seems to be outdated (status code: 404)!
-Url https://forge.typo3.org/projects/typo3cms-core/repository/revisions/11e9a5460221b6b34f33af0b1227fdf33b5afc70/diff seems to be outdated (status code: 404)!
-Url https://forge.typo3.org/projects/typo3cms-core/repository/revisions/14b4990022c3cb196a80a8b1d3beb8ad748959a1/diff seems to be outdated (status code: 404)!
-Url https://forge.typo3.org/projects/typo3cms-core/repository/revisions/b90e61c1fbe44a8242cf111403bb0a4d2ce44aaf/diff seems to be outdated (status code: 404)!
-Url https://typo3.org/documentation/document-library/core-documentation/doc_core_tsref/4.3.1/view/1/5/#id2509370 seems to be outdated (status code: 404)!
-Url https://wiki.typo3.org/wiki/index.php?title=TYPO3Viewport&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
-Url https://typo3.org/documentation/document-library/core-documentation/doc_core_api/4.3.0/view/2/1/#id2344981 seems to be outdated (status code: 404)!
-Url http://swiftmailer.org/docs/messages seems to be outdated (status code: 302)!
-Url http://swiftmailer.org/docs/headers seems to be outdated (status code: 302)!
-Link https://wiki.typo3.org/Core_Team of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Category:Core_Team of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
-Link https://forge.typo3.org/projects/typo3cms-core/repository/revisions/91c7175198b4e6fd3491b207a7c332c288cffef8/diff of page DocumentationChangesIn4.4And4.5 gets removed as it is outdated.
-Link https://forge.typo3.org/projects/typo3cms-core/repository/revisions/0ecff15a36e4a74b089dabe16d2d8ffd5cb35704/diff/typo3/sysext/cms/tslib/content/class.tslib_content_file.php of page DocumentationChangesIn4.4And4.5 gets removed as it is outdated.
-Link https://forge.typo3.org/projects/typo3cms-core/repository/revisions/8f4baa47a0ecd6137f11b4945cf5f363c24b49fc/diff/typo3/sysext/cms/tslib/content/class.tslib_content_cleargif.php of page DocumentationChangesIn4.4And4.5 gets removed as it is outdated.
-Link https://forge.typo3.org/projects/typo3cms-core/repository/revisions/11e9a5460221b6b34f33af0b1227fdf33b5afc70/diff of page DocumentationChangesIn4.4And4.5 gets removed as it is outdated.
-Link https://forge.typo3.org/projects/typo3cms-core/repository/revisions/14b4990022c3cb196a80a8b1d3beb8ad748959a1/diff of page DocumentationChangesIn4.4And4.5 gets removed as it is outdated.
-Link https://forge.typo3.org/projects/typo3cms-core/repository/revisions/b90e61c1fbe44a8242cf111403bb0a4d2ce44aaf/diff of page DocumentationChangesIn4.4And4.5 gets removed as it is outdated.
-Link https://typo3.org/documentation/document-library/core-documentation/doc_core_tsref/4.3.1/view/1/5/#id2509370 of page DocumentationChangesIn4.4And4.5 gets removed as it is outdated.
-Link https://wiki.typo3.org/ExtDirect of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=TYPO3Viewport&amp;action=edit&amp;redlink=1 of page DocumentationChangesIn4.4And4.5 gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/index.php?title=TYPO3Viewport&amp;action=edit&amp;redlink=1 of page DocumentationChangesIn4.4And4.5 gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/index.php?title=TYPO3Viewport&amp;action=edit&amp;redlink=1 of page DocumentationChangesIn4.4And4.5 gets removed as it is outdated.
-Link https://typo3.org/documentation/document-library/core-documentation/doc_core_api/4.3.0/view/2/1/#id2344981 of page DocumentationChangesIn4.4And4.5 gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
-Link http://swiftmailer.org/docs/messages of page DocumentationChangesIn4.4And4.5 gets removed as it is outdated.
-Link http://swiftmailer.org/docs/headers of page DocumentationChangesIn4.4And4.5 gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn4.4And4.5 gets removed as it links to deprecated wiki instance.
 Url https://wiki.typo3.org/ftp://ftp.isi.edu/in-notes/rfc2223.txt seems to be outdated (status code: 404)!
 Link https://wiki.typo3.org/ftp://ftp.isi.edu/in-notes/rfc2223.txt of page RfcStructure gets removed as it is outdated.
+Url https://wiki.typo3.org/wiki/index.php?title=Template:Head-Howto&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
+Url https://typo3.org/fileadmin/typo3api-4.0.0/de/d07/classt3lib__DB.html#7d45dad7dfa1fdb4bd0e6a09cd34ba61 seems to be outdated (status code: 404)!
+Link https://wiki.typo3.org/wiki/index.php?title=Template:Head-Howto&amp;action=edit&amp;redlink=1 of page ExtensionDevelopmentAddAStartingpoint gets removed as it is outdated.
+Link https://wiki.typo3.org/Extension_Development of page ExtensionDevelopmentAddAStartingpoint gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Overview_Developer_Manuals of page ExtensionDevelopmentAddAStartingpoint gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_add_a_startingpoint&amp;action=edit&amp;section=0 of page ExtensionDevelopmentAddAStartingpoint gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentAddAStartingpoint gets removed as it links to deprecated wiki instance.
+Link https://typo3.org/fileadmin/typo3api-4.0.0/de/d07/classt3lib__DB.html#7d45dad7dfa1fdb4bd0e6a09cd34ba61 of page ExtensionDevelopmentAddAStartingpoint gets removed as it is outdated.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentAddAStartingpoint gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentAddAStartingpoint gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/User:Chi_hoang of page ExtensionDevelopmentAddAStartingpoint gets removed as it links to deprecated wiki instance.
 Url https://forge.typo3.org/projects/typo3v4-mvc/wiki seems to be outdated (status code: 403)!
 Url http://flow.typo3.org/documentation/manuals/fluid/ seems to be outdated (Could not resolve host "flow.typo3.org".)!
 Url https://forge.typo3.org/projects/show/extension-extension_builder seems to be outdated (status code: 403)!
@@ -633,12 +599,57 @@ Link https://wiki.typo3.org/Category:Wiki-Todo of page HowToCreateATypo3Package 
 Link https://wiki.typo3.org/Category:Installation of page HowToCreateATypo3Package gets removed as it links to deprecated wiki instance.
 Link https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/Configuration/LocalconfphpAndTypo3ConfVars/Index.html of page HowToCreateATypo3Package gets removed as it is outdated.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page HowToCreateATypo3Package gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/TS/CSS:_Typo3_Template_Setup of page CssHtmlTemplate gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Running_with_TypoScript_and_CSS of page CssHtmlTemplate gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/My_first_TYPO3_site of page CssHtmlTemplate gets removed as it links to deprecated wiki instance.
 Url https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/PasswordHashing/Index.htmlFor seems to be outdated (status code: 404)!
 Link https://wiki.typo3.org/Category:FAQ of page ResetAdminPassword gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/FAQ of page ResetAdminPassword gets removed as it links to deprecated wiki instance.
 Link https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/PasswordHashing/Index.htmlFor of page ResetAdminPassword gets removed as it is outdated.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL of page ResetAdminPassword gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ResetAdminPassword gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&amp;action=edit&amp;redlink=1 of page ExtensionDevelopmentAddPageTsconfigUserTsconfigAndTs gets removed as it is outdated.
+Link https://wiki.typo3.org/Special:WhatLinksHere/Extension_Development,_add_Page_TSconfig,_User_TSconfig_and_TS of page ExtensionDevelopmentAddPageTsconfigUserTsconfigAndTs gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_add_Page_TSconfig,_User_TSconfig_and_TS&amp;action=history of page ExtensionDevelopmentAddPageTsconfigUserTsconfigAndTs gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Extension_Development of page ExtensionDevelopmentAddPageTsconfigUserTsconfigAndTs gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Overview_Developer_Manuals of page ExtensionDevelopmentAddPageTsconfigUserTsconfigAndTs gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_add_Page_TSconfig,_User_TSconfig_and_TS&amp;action=edit&amp;section=0 of page ExtensionDevelopmentAddPageTsconfigUserTsconfigAndTs gets removed as it links to deprecated wiki instance.
+Url https://typo3.org/documentation/document-library/core-documentation/doc_core_api/4.3.0/view/4/2/#id2520197 seems to be outdated (status code: 404)!
+Url https://docs.typo3.org/typo3cms/extensions/api_macmade/DeveloperApi/Php5Classes/TxApimacmadeFlexform/Index.html seems to be outdated (status code: 404)!
+Link https://wiki.typo3.org/Category:HowTo of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Category:Extension_development of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://typo3.org/documentation/document-library/core-documentation/doc_core_api/4.3.0/view/4/2/#id2520197 of page ExtensionDevelopmentUsingFlexforms gets removed as it is outdated.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopmentUsingFlexforms gets removed as it links to deprecated wiki instance.
+Link https://docs.typo3.org/typo3cms/ of page ExtensionDevelopmentUsingFlexforms gets removed as it is outdated.
+Link https://docs.typo3.org/typo3cms/extensions/api_macmade/DeveloperApi/Php5Classes/TxApimacmadeFlexform/Index.html of page ExtensionDevelopmentUsingFlexforms gets removed as it is outdated.
 Url https://msdn.microsoft.com/en-us/library/ff921087.aspx seems to be outdated (status code: 403)!
 Url https://api.typo3.org/typo3cms/current/html/class_t_y_p_o3_1_1_c_m_s_1_1_extbase_1_1_object_1_1_object_manager.html seems to be outdated (status code: 404)!
 Link https://msdn.microsoft.com/en-us/library/ff921087.aspx of page DependencyInjection gets removed as it is outdated.
@@ -657,12 +668,7 @@ Url http://studio9.tribut.de/class.ux_t3lib_db.MSSQL.patch seems to be outdated 
 Link http://www.typo3.net/forum/list/list_post//43371/?page=1 of page Mssql gets removed as it is outdated.
 Link https://wiki.typo3.org/wiki/index.php?title=User:Abezet&amp;action=edit&amp;redlink=1 of page Mssql gets removed as it links to deprecated wiki instance.
 Link http://studio9.tribut.de/class.ux_t3lib_db.MSSQL.patch of page Mssql gets removed as it is outdated.
-Url https://docs.typo3.org/typo3cms/TyposcriptReference/Functions/Stdwrap#htmlSpecialChars seems to be outdated (status code: 404)!
-Url https://docs.typo3.org/typo3cms/TyposcriptReference/Functions/Stdwrap#allWrap seems to be outdated (status code: 404)!
-Link https://docs.typo3.org/typo3cms/TyposcriptReference/Functions/Stdwrap#htmlSpecialChars of page Css:Typo3TyposcriptSetup gets removed as it is outdated.
-Link https://docs.typo3.org/typo3cms/TyposcriptReference/Functions/Stdwrap#allWrap of page Css:Typo3TyposcriptSetup gets removed as it is outdated.
-Link https://wiki.typo3.org/Running_with_TypoScript_and_CSS of page Css:Typo3TyposcriptSetup gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/My_first_TYPO3_site of page Css:Typo3TyposcriptSetup gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Category:Wiki-Question of page BackendProgrammingUsingTreeview gets removed as it links to deprecated wiki instance.
 Url https://typo3.org/documentation/articles/ seems to be outdated (status code: 404)!
 Url https://typo3.org/documentation/videos/ seems to be outdated (status code: 404)!
 Link https://wiki.typo3.org/Main_Page of page DocumentMatrix gets removed as it links to deprecated wiki instance.
@@ -703,17 +709,13 @@ Link https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page RteHtmlarea gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page RteHtmlarea gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page RteHtmlarea gets removed as it links to deprecated wiki instance.
-Url https://wiki.typo3.org/wiki/index.php?title=Template:Head-Howto&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
-Url https://typo3.org/fileadmin/typo3api-4.0.0/de/d07/classt3lib__DB.html#7d45dad7dfa1fdb4bd0e6a09cd34ba61 seems to be outdated (status code: 404)!
-Link https://wiki.typo3.org/wiki/index.php?title=Template:Head-Howto&amp;action=edit&amp;redlink=1 of page ExtensionDevelopment,AddAStartingpoint gets removed as it is outdated.
-Link https://wiki.typo3.org/Extension_Development of page ExtensionDevelopment,AddAStartingpoint gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Overview_Developer_Manuals of page ExtensionDevelopment,AddAStartingpoint gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_add_a_startingpoint&amp;action=edit&amp;section=0 of page ExtensionDevelopment,AddAStartingpoint gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,AddAStartingpoint gets removed as it links to deprecated wiki instance.
-Link https://typo3.org/fileadmin/typo3api-4.0.0/de/d07/classt3lib__DB.html#7d45dad7dfa1fdb4bd0e6a09cd34ba61 of page ExtensionDevelopment,AddAStartingpoint gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,AddAStartingpoint gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,AddAStartingpoint gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/User:Chi_hoang of page ExtensionDevelopment,AddAStartingpoint gets removed as it links to deprecated wiki instance.
+Url https://typo3.org/api/typo3cms/_sleep_task_8php_source.html seems to be outdated (status code: 404)!
+Url https://typo3.org/api/typo3cms/_sleep_task_additional_field_provider_8php_source.html seems to be outdated (status code: 404)!
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentAddSchedulerTask gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentAddSchedulerTask gets removed as it links to deprecated wiki instance.
+Link https://typo3.org/api/typo3cms/_sleep_task_8php_source.html of page ExtensionDevelopmentAddSchedulerTask gets removed as it is outdated.
+Link https://typo3.org/api/typo3cms/_sleep_task_additional_field_provider_8php_source.html of page ExtensionDevelopmentAddSchedulerTask gets removed as it is outdated.
+Url https://wiki.typo3.org/wiki/index.php?title=TYPO3Viewport&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
 Link https://wiki.typo3.org/Core_Team of page Pagetree gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Core_Team of page Pagetree gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=TYPO3Viewport&amp;action=edit&amp;redlink=1 of page Pagetree gets removed as it is outdated.
@@ -737,9 +739,6 @@ Link https://wiki.typo3.org/Category:HowTo of page HowToUploadBigFiles gets remo
 Link https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated of page HowToUploadBigFiles gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Installation of page HowToUploadBigFiles gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Php.ini of page HowToUploadBigFiles gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Inline_Relational_Record_Editing of page InlineRelationalRecordEditing1:n gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Category:Project of page InlineRelationalRecordEditing1:n gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Inline_Relational_Record_Editing_1:n#Attributes_on_Intermediate_Tables of page InlineRelationalRecordEditing1:n gets removed as it links to deprecated wiki instance.
 Url http://localhost/www seems to be outdated (fopen(http://127.0.0.1/www): failed to open stream: Connection refused)!
 Url http://localhost/typo3/ seems to be outdated (fopen(http://127.0.0.1/typo3/): failed to open stream: Connection refused)!
 Link https://wiki.typo3.org/Category:HowTo of page EfficientlyDebuggingTypo3 gets removed as it links to deprecated wiki instance.
@@ -776,6 +775,9 @@ Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code 
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page Xclass gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Autoload of page Xclass gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=Namespaces&amp;action=edit&amp;redlink=1 of page Xclass gets removed as it is outdated.
+Link https://wiki.typo3.org/TS/CSS:_Typo3_TypoScript_Setup of page CssTypo3TyposcriptConstants gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Running_with_TypoScript_and_CSS of page CssTypo3TyposcriptConstants gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/My_first_TYPO3_site of page CssTypo3TyposcriptConstants gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:HowTo of page ExternalLinks gets removed as it links to deprecated wiki instance.
 Url http://goo.gl/4gVBF seems to be outdated (status code: 404)!
 Link https://wiki.typo3.org/Overview_Extension_manuals#Connecting_.2F_Integrating_.2F_Combining_-_.22Get_it_together_and_inspire_to_share.22 of page Typo3AndPrestashop gets removed as it links to deprecated wiki instance.
@@ -789,10 +791,15 @@ Link https://wiki.typo3.org/Category:HowTo of page HowToBuildGraphicsmagickRpmPa
 Link https://wiki.typo3.org/Category:RedHat of page HowToBuildGraphicsmagickRpmPackage gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Linux of page HowToBuildGraphicsmagickRpmPackage gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Installation of page HowToBuildGraphicsmagickRpmPackage gets removed as it links to deprecated wiki instance.
+Url http://codepress.org/ seems to be outdated (Could not resolve host "codepress.org".)!
+Url http://www.cdolivet.net/editarea/ seems to be outdated (Could not resolve host "www.cdolivet.net".)!
 Url http://www.typo3-unleashed.net/codepress seems to be outdated (Could not resolve host "www.typo3-unleashed.net".)!
 Link https://wiki.typo3.org/Category:Project of page Codeeditor gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Text_Editor of page Codeeditor gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:TypoScript of page Codeeditor gets removed as it links to deprecated wiki instance.
+Link http://codepress.org/ of page Codeeditor gets removed as it is outdated.
+Link http://codepress.org/ of page Codeeditor gets removed as it is outdated.
+Link http://www.cdolivet.net/editarea/ of page Codeeditor gets removed as it is outdated.
 Link http://www.typo3-unleashed.net/codepress of page Codeeditor gets removed as it is outdated.
 Link http://www.typo3-unleashed.net/codepress of page Codeeditor gets removed as it is outdated.
 Link https://wiki.typo3.org/User:Matrikz of page Codeeditor gets removed as it links to deprecated wiki instance.
@@ -801,6 +808,11 @@ Url https://wiki.typo3.org/Special:WhatLinksHere/Grunt_Bower seems to be outdate
 Link https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&amp;action=edit&amp;redlink=1 of page GruntBower gets removed as it is outdated.
 Link https://wiki.typo3.org/Special:WhatLinksHere/Grunt_Bower of page GruntBower gets removed as it is outdated.
 Link https://wiki.typo3.org/wiki/index.php?title=Grunt_Bower&amp;action=history of page GruntBower gets removed as it links to deprecated wiki instance.
+Url https://typo3.org/fileadmin/typo3api-3.8.0/db/d23/classt3lib__extMgm.html#a51 seems to be outdated (status code: 404)!
+Link https://wiki.typo3.org/Category:HowTo of page ExtensionDevelopmentAddStaticExtensionTemplates gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page ExtensionDevelopmentAddStaticExtensionTemplates gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentAddStaticExtensionTemplates gets removed as it links to deprecated wiki instance.
+Link https://typo3.org/fileadmin/typo3api-3.8.0/db/d23/classt3lib__extMgm.html#a51 of page ExtensionDevelopmentAddStaticExtensionTemplates gets removed as it is outdated.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page FluidtemplateContentObject gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page FluidtemplateContentObject gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page FluidtemplateContentObject gets removed as it links to deprecated wiki instance.
@@ -889,9 +901,6 @@ Link https://wiki.typo3.org/Category:Outdated of page Overviewofwiki gets remove
 Link https://wiki.typo3.org/Category:Delete of page Overviewofwiki gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/WikiMigration of page Overviewofwiki gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:HowTo of page Backup gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/TS/CSS:_Typo3_TypoScript_Constants of page Css:Typo3TemplateSetup gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Running_with_TypoScript_and_CSS of page Css:Typo3TemplateSetup gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/My_first_TYPO3_site of page Css:Typo3TemplateSetup gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Typo3_Installation_Basics#Check_Basic_Configuration of page CheckBasicConfiguration gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Webserver#Apache_User of page CheckBasicConfiguration gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Chown_and_Chmod of page CheckBasicConfiguration gets removed as it links to deprecated wiki instance.
@@ -954,23 +963,6 @@ Url https://typo3.org/roadmap/ seems to be outdated (status code: 404)!
 Link https://wiki.typo3.org/Core_Team of page BerlinManifesto gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Core_Team of page BerlinManifesto gets removed as it links to deprecated wiki instance.
 Link https://typo3.org/roadmap/ of page BerlinManifesto gets removed as it is outdated.
-Url https://typo3.org/fileadmin/typo3api-3.8.0/db/d23/classt3lib__extMgm.html#a51 seems to be outdated (status code: 404)!
-Link https://wiki.typo3.org/Category:HowTo of page ExtensionDevelopment,AddStaticExtensionTemplates gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page ExtensionDevelopment,AddStaticExtensionTemplates gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,AddStaticExtensionTemplates gets removed as it links to deprecated wiki instance.
-Link https://typo3.org/fileadmin/typo3api-3.8.0/db/d23/classt3lib__extMgm.html#a51 of page ExtensionDevelopment,AddStaticExtensionTemplates gets removed as it is outdated.
-Url http://www.example.com/typo3 seems to be outdated (status code: 404)!
-Url http://www.section508.gov seems to be outdated (fopen(http://159.142.81.36/): failed to open stream: Connection timed out)!
-Link https://wiki.typo3.org/Category:Tutorial of page Ja:typo3TutorialForEditors gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Category:Stable of page Ja:typo3TutorialForEditors gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/User:Eikaa of page Ja:typo3TutorialForEditors gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/User:Psychomieze of page Ja:typo3TutorialForEditors gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/User:Psychomieze of page Ja:typo3TutorialForEditors gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Overview_Extension_manuals of page Ja:typo3TutorialForEditors gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=Ja:TYPO3_Tutorial_for_Editors&amp;action=edit&amp;section=0 of page Ja:typo3TutorialForEditors gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/TYPO3_Tutorial_for_Editors_part2 of page Ja:typo3TutorialForEditors gets removed as it links to deprecated wiki instance.
-Link http://www.example.com/typo3 of page Ja:typo3TutorialForEditors gets removed as it is outdated.
-Link http://www.section508.gov of page Ja:typo3TutorialForEditors gets removed as it is outdated.
 Url https://wiki.typo3.org/wiki/index.php?title=User:Oldstucki&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
 Url http://www.sysinternals.com/ntw2k/source/misc.shtml#junction seems to be outdated (status code: 404)!
 Url https://wiki.typo3.org/wiki/index.php?title=User:OldBolson&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
@@ -1455,6 +1447,18 @@ Link https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete
 Link https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated of page Slack gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated of page Slack gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/T3Bot of page Slack gets removed as it links to deprecated wiki instance.
+Url http://www.example.com/typo3 seems to be outdated (status code: 404)!
+Url http://www.section508.gov seems to be outdated (fopen(http://159.142.81.36/): failed to open stream: Connection timed out)!
+Link https://wiki.typo3.org/Category:Tutorial of page JaTypo3TutorialForEditors gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Category:Stable of page JaTypo3TutorialForEditors gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/User:Eikaa of page JaTypo3TutorialForEditors gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/User:Psychomieze of page JaTypo3TutorialForEditors gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/User:Psychomieze of page JaTypo3TutorialForEditors gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Overview_Extension_manuals of page JaTypo3TutorialForEditors gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=Ja:TYPO3_Tutorial_for_Editors&amp;action=edit&amp;section=0 of page JaTypo3TutorialForEditors gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/TYPO3_Tutorial_for_Editors_part2 of page JaTypo3TutorialForEditors gets removed as it links to deprecated wiki instance.
+Link http://www.example.com/typo3 of page JaTypo3TutorialForEditors gets removed as it is outdated.
+Link http://www.section508.gov of page JaTypo3TutorialForEditors gets removed as it is outdated.
 Url http://xavier.perseguers.ch/tutoriels/typo3/articles/managing-localization-files.html seems to be outdated (status code: 404)!
 Url https://typo3.org/extensions/translate/ seems to be outdated (status code: 404)!
 Url https://wiki.typo3.org/wiki/index.php?title=Arabic-Translation-Team&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
@@ -1499,6 +1503,7 @@ Link https://wiki.typo3.org/Turkish-Translation-Team of page Translation gets re
 Link https://wiki.typo3.org/wiki/index.php?title=Arabic-Translation-Team&amp;action=edit&amp;redlink=1 of page Translation gets removed as it is outdated.
 Link https://wiki.typo3.org/Chinese-Translation-Team of page Translation gets removed as it links to deprecated wiki instance.
 Link http://xavier.perseguers.ch/en/tutorials/typo3/articles/managing-localization-files.html of page Translation gets removed as it is outdated.
+Link https://wiki.typo3.org/Typo3_Installation_Basics#Webspace_vs._Webserver of page WebspaceVsWebserver gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/How_to_use_the_Fluid_Standalone_view_to_render_template_based_emails#Usage_in_TYPO3_6.0_and_higher of page HowToUseTheFluidStandaloneViewToRenderTemplateBasedEmails gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/How_to_use_the_Fluid_Standalone_view_to_render_template_based_emails#Usage_in_TYPO3_7.6_and_higher of page HowToUseTheFluidStandaloneViewToRenderTemplateBasedEmails gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/How_to_use_the_Fluid_Standalone_view_to_render_template_based_emails#Usage_in_TYPO3_8.7 of page HowToUseTheFluidStandaloneViewToRenderTemplateBasedEmails gets removed as it links to deprecated wiki instance.
@@ -1568,9 +1573,14 @@ Link https://wiki.typo3.org/Category:MySQL of page MysqlConfiguration gets remov
 Link https://wiki.typo3.org/Category:Installation of page MysqlConfiguration gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Performance_tuning of page MysqlConfiguration gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Typo3_Installation_Basics#Before_you_start of page MysqlConfiguration gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/TS/CSS:_Typo3_Template_Setup of page Css:HtmlTemplate gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Running_with_TypoScript_and_CSS of page Css:HtmlTemplate gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/My_first_TYPO3_site of page Css:HtmlTemplate gets removed as it links to deprecated wiki instance.
+Url https://wiki.typo3.org/Special:WhatLinksHere/Php.ini seems to be outdated (status code: 403)!
+Link https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&amp;action=edit&amp;redlink=1 of page PhpIni gets removed as it is outdated.
+Link https://wiki.typo3.org/Special:WhatLinksHere/Php.ini of page PhpIni gets removed as it is outdated.
+Link https://wiki.typo3.org/wiki/index.php?title=Php.ini&amp;action=history of page PhpIni gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Category:Php.ini of page PhpIni gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page PhpIni gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript of page PhpIni gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript of page PhpIni gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Wiki-Todo of page ProtectFromSpam gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:HowTo of page HowToDeleteExtensions gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Extension of page HowToDeleteExtensions gets removed as it links to deprecated wiki instance.
@@ -1589,6 +1599,8 @@ Url https://wiki.typo3.org/wiki/index.php?title=Kickstarter_mvc&amp;action=edit&
 Url http://svn.syntithenai.com/svn/t3ext/persistence/ seems to be outdated (Could not resolve host "svn.syntithenai.com".)!
 Url http://www.php.net/manual/en/migration5.php seems to be outdated (status code: 404)!
 Url http://smarty.php.net/ seems to be outdated (Could not resolve host "smarty.php.net".)!
+Url http://cocoon.apache.org/images/cocoon-logo.gif seems to be outdated (fopen(http://40.79.78.1/images/cocoon-logo.gif): failed to open stream: Connection timed out)!
+Url http://cocoon.apache.org/ seems to be outdated (fopen(http://40.79.78.1/): failed to open stream: Connection timed out)!
 Url http://www.camlann.de/apidoc/ seems to be outdated (status code: 404)!
 Url http://lib.idohost.com/phpdocumentor/ seems to be outdated (status code: 404)!
 Url http://lib.idohost.com/xref/ seems to be outdated (status code: 404)!
@@ -1642,6 +1654,8 @@ Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code 
 Link https://wiki.typo3.org/Category:PAC of page MvcFramework gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Action_Pipeline of page MvcFramework gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:SPL of page MvcFramework gets removed as it links to deprecated wiki instance.
+Link http://cocoon.apache.org/images/cocoon-logo.gif of page MvcFramework gets removed as it is outdated.
+Link http://cocoon.apache.org/ of page MvcFramework gets removed as it is outdated.
 Link https://wiki.typo3.org/MVC_Framework/ResultBrowser of page MvcFramework gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Widget of page MvcFramework gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Action_Pipeline of page MvcFramework gets removed as it links to deprecated wiki instance.
@@ -1676,8 +1690,6 @@ Link https://wiki.typo3.org/Extension_coordination_team of page CompatibleLicens
 Link https://wiki.typo3.org/User:Patchworker of page CompatibleLicenses gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:License of page CompatibleLicenses gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Glossary#TYPO3_extension_repository_.28TER.29 of page CompatibleLicenses gets removed as it links to deprecated wiki instance.
-Url https://typo3.org/fileadmin/typo3api-3.8.0/ seems to be outdated (status code: 404)!
-Link https://typo3.org/fileadmin/typo3api-3.8.0/ of page ExtensionDevelopment,UsingPostForms gets removed as it is outdated.
 Url https://docs.typo3.org/typo3cms/extensions/core/7.6/singlehtml/Index.html#feature-68700-autoload-definition-can-be-provided-in-ext-emconf-php seems to be outdated (status code: 404)!
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_JavaScript of page Composer gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_JavaScript of page Composer gets removed as it links to deprecated wiki instance.
@@ -1687,9 +1699,49 @@ Link https://docs.typo3.org/typo3cms/extensions/core/7.6/singlehtml/Index.html#f
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_JavaScript of page Composer gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/ComposerClassLoader of page Composer gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/ComposerClassLoader of page Composer gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Category:HowTo of page ExtensionDevelopmentAddUserTsconfig gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopmentAddUserTsconfig gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:FAQ of page CopyPartsOfARunningTypo3SystemToAnotherServer gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/User:Peter289 of page CopyPartsOfARunningTypo3SystemToAnotherServer gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/User:Peter289 of page CopyPartsOfARunningTypo3SystemToAnotherServer gets removed as it links to deprecated wiki instance.
+Url https://forge.typo3.org/projects/typo3cms-core/repository/revisions/91c7175198b4e6fd3491b207a7c332c288cffef8/diff seems to be outdated (status code: 404)!
+Url https://forge.typo3.org/projects/typo3cms-core/repository/revisions/0ecff15a36e4a74b089dabe16d2d8ffd5cb35704/diff/typo3/sysext/cms/tslib/content/class.tslib_content_file.php seems to be outdated (status code: 404)!
+Url https://forge.typo3.org/projects/typo3cms-core/repository/revisions/8f4baa47a0ecd6137f11b4945cf5f363c24b49fc/diff/typo3/sysext/cms/tslib/content/class.tslib_content_cleargif.php seems to be outdated (status code: 404)!
+Url https://forge.typo3.org/projects/typo3cms-core/repository/revisions/11e9a5460221b6b34f33af0b1227fdf33b5afc70/diff seems to be outdated (status code: 404)!
+Url https://forge.typo3.org/projects/typo3cms-core/repository/revisions/14b4990022c3cb196a80a8b1d3beb8ad748959a1/diff seems to be outdated (status code: 404)!
+Url https://forge.typo3.org/projects/typo3cms-core/repository/revisions/b90e61c1fbe44a8242cf111403bb0a4d2ce44aaf/diff seems to be outdated (status code: 404)!
+Url https://typo3.org/documentation/document-library/core-documentation/doc_core_tsref/4.3.1/view/1/5/#id2509370 seems to be outdated (status code: 404)!
+Url https://typo3.org/documentation/document-library/core-documentation/doc_core_api/4.3.0/view/2/1/#id2344981 seems to be outdated (status code: 404)!
+Url http://swiftmailer.org/docs/messages seems to be outdated (status code: 302)!
+Url http://swiftmailer.org/docs/headers seems to be outdated (status code: 302)!
+Link https://wiki.typo3.org/Core_Team of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Category:Core_Team of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
+Link https://forge.typo3.org/projects/typo3cms-core/repository/revisions/91c7175198b4e6fd3491b207a7c332c288cffef8/diff of page DocumentationChangesIn44And45 gets removed as it is outdated.
+Link https://forge.typo3.org/projects/typo3cms-core/repository/revisions/0ecff15a36e4a74b089dabe16d2d8ffd5cb35704/diff/typo3/sysext/cms/tslib/content/class.tslib_content_file.php of page DocumentationChangesIn44And45 gets removed as it is outdated.
+Link https://forge.typo3.org/projects/typo3cms-core/repository/revisions/8f4baa47a0ecd6137f11b4945cf5f363c24b49fc/diff/typo3/sysext/cms/tslib/content/class.tslib_content_cleargif.php of page DocumentationChangesIn44And45 gets removed as it is outdated.
+Link https://forge.typo3.org/projects/typo3cms-core/repository/revisions/11e9a5460221b6b34f33af0b1227fdf33b5afc70/diff of page DocumentationChangesIn44And45 gets removed as it is outdated.
+Link https://forge.typo3.org/projects/typo3cms-core/repository/revisions/14b4990022c3cb196a80a8b1d3beb8ad748959a1/diff of page DocumentationChangesIn44And45 gets removed as it is outdated.
+Link https://forge.typo3.org/projects/typo3cms-core/repository/revisions/b90e61c1fbe44a8242cf111403bb0a4d2ce44aaf/diff of page DocumentationChangesIn44And45 gets removed as it is outdated.
+Link https://typo3.org/documentation/document-library/core-documentation/doc_core_tsref/4.3.1/view/1/5/#id2509370 of page DocumentationChangesIn44And45 gets removed as it is outdated.
+Link https://wiki.typo3.org/ExtDirect of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=TYPO3Viewport&amp;action=edit&amp;redlink=1 of page DocumentationChangesIn44And45 gets removed as it is outdated.
+Link https://wiki.typo3.org/wiki/index.php?title=TYPO3Viewport&amp;action=edit&amp;redlink=1 of page DocumentationChangesIn44And45 gets removed as it is outdated.
+Link https://wiki.typo3.org/wiki/index.php?title=TYPO3Viewport&amp;action=edit&amp;redlink=1 of page DocumentationChangesIn44And45 gets removed as it is outdated.
+Link https://typo3.org/documentation/document-library/core-documentation/doc_core_api/4.3.0/view/2/1/#id2344981 of page DocumentationChangesIn44And45 gets removed as it is outdated.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
+Link http://swiftmailer.org/docs/messages of page DocumentationChangesIn44And45 gets removed as it is outdated.
+Link http://swiftmailer.org/docs/headers of page DocumentationChangesIn44And45 gets removed as it is outdated.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page DocumentationChangesIn44And45 gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Fluid of page Fluidsyntax gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page Fluidsyntax gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page Fluidsyntax gets removed as it links to deprecated wiki instance.
@@ -1721,42 +1773,6 @@ Link https://wiki.typo3.org/Delete_Extensions of page BackendModules gets remove
 Link https://wiki.typo3.org/DocumentationTeam of page AlternativeLanguage gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=Alternative_Language&amp;action=edit&amp;section=0 of page AlternativeLanguage gets removed as it links to deprecated wiki instance.
 Link https://typo3.org/extensions/translate/ of page AlternativeLanguage gets removed as it is outdated.
-Url https://typo3.org/documentation/document-library/core-documentation/doc_core_api/4.3.0/view/4/2/#id2520197 seems to be outdated (status code: 404)!
-Url https://docs.typo3.org/typo3cms/extensions/api_macmade/DeveloperApi/Php5Classes/TxApimacmadeFlexform/Index.html seems to be outdated (status code: 404)!
-Link https://wiki.typo3.org/Category:HowTo of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Category:Extension_development of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://typo3.org/documentation/document-library/core-documentation/doc_core_api/4.3.0/view/4/2/#id2520197 of page ExtensionDevelopment,UsingFlexforms gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML of page ExtensionDevelopment,UsingFlexforms gets removed as it links to deprecated wiki instance.
-Link https://docs.typo3.org/typo3cms/ of page ExtensionDevelopment,UsingFlexforms gets removed as it is outdated.
-Link https://docs.typo3.org/typo3cms/extensions/api_macmade/DeveloperApi/Php5Classes/TxApimacmadeFlexform/Index.html of page ExtensionDevelopment,UsingFlexforms gets removed as it is outdated.
 Url http://typo3.sunsite.dk/software/debian/ seems to be outdated (Could not resolve host "typo3.sunsite.dk".)!
 Url http://192.168.1.25/myfirsttypo3 seems to be outdated (fopen(http://192.168.1.25/myfirsttypo3): failed to open stream: Connection timed out)!
 Url http://typo3.sunsite.dk/unix-archives/3.7.0/typo3_src/typo3_src-3.7.0.tar.gz seems to be outdated (Could not resolve host "typo3.sunsite.dk".)!
@@ -1881,10 +1897,6 @@ Link http://www.andersundsehr.com/blog/technik/typo3-performance-optimierung-dur
 Link https://wiki.typo3.org/Category:TemplaVoila of page OverviewWithImageAndText gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Tutorial of page OverviewWithImageAndText gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:TypoScript of page OverviewWithImageAndText gets removed as it links to deprecated wiki instance.
-Url https://twitter.com/t3git_master seems to be outdated (status code: 400)!
-Link https://wiki.typo3.org/TYPO3_6.0_Extension_Migration_Tips of page Typo37.6ExtensionMigrationGuide gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Deprecation_Log of page Typo37.6ExtensionMigrationGuide gets removed as it links to deprecated wiki instance.
-Link https://twitter.com/t3git_master of page Typo37.6ExtensionMigrationGuide gets removed as it is outdated.
 Url http://flow3.typo3.org/documentation/guide/partiii/propertymapping.html seems to be outdated (Could not resolve host "flow3.typo3.org".)!
 Link http://flow3.typo3.org/documentation/guide/partiii/propertymapping.html of page BreakingChanges gets removed as it is outdated.
 Link https://wiki.typo3.org/QueryResult of page BreakingChanges gets removed as it links to deprecated wiki instance.
@@ -2015,9 +2027,6 @@ Link https://wiki.typo3.org/Category:Ajax of page TtProducts gets removed as it 
 Link http://www.fernwege.de/einkauf/digitale-karten/index.html, of page TtProducts gets removed as it is outdated.
 Link http://www.kramski-putter.com, of page TtProducts gets removed as it is outdated.
 Link https://wiki.typo3.org/User:Franzholz of page TtProducts gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/TS/CSS:_Typo3_TypoScript_Setup of page Css:Typo3TyposcriptConstants gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Running_with_TypoScript_and_CSS of page Css:Typo3TyposcriptConstants gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/My_first_TYPO3_site of page Css:Typo3TyposcriptConstants gets removed as it links to deprecated wiki instance.
 Url https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_Security_Guidelines&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
 Url https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_using_HTML-Templates&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
 Url https://wiki.typo3.org/wiki/index.php?title=Modify_%24TCA&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
