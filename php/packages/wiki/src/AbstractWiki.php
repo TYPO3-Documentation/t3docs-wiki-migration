@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Typo3\Wiki;
 
+use Exception;
 use Symfony\Component\DomCrawler\Crawler;
 use Symfony\Component\HttpClient\HttpClient;
 use Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface;
@@ -178,7 +179,7 @@ abstract class AbstractWiki
                             $targetFilePath = $this->outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.html';
                             $this->reducePage($filePath, $targetFilePath);
                             $this->info("Page %s reduced.", $pageName);
-                        } catch (\Exception $e) {
+                        } catch (Exception $e) {
                             $this->warn("Page %s could not be reduced (%s)!", $pageName, $e->getMessage());
                         }
                     }
@@ -234,7 +235,7 @@ abstract class AbstractWiki
                         $targetFilePath = $this->outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.html';
                         try {
                             $this->replaceLinksOfPage($filePath, $targetFilePath, $pageName);
-                        } catch (\Exception $e) {
+                        } catch (Exception $e) {
                             file_put_contents($targetFilePath, file_get_contents($filePath));
                             $this->warn("Links of page %s could not be replaced (%s)!", $pageName, $e->getMessage());
                         }
@@ -307,7 +308,7 @@ abstract class AbstractWiki
                         $this->warn("Url %s seems to be outdated (status code: %s)!", $requestUrl, $response->getStatusCode());
                         $this->urlMap[$requestUrl] = '';
                     }
-                } catch (\Exception $e) {
+                } catch (Exception $e) {
                     $this->warn("Url %s seems to be outdated (%s)!", $requestUrl, $e->getMessage());
                     $this->urlMap[$requestUrl] = '';
                 }
@@ -395,7 +396,7 @@ abstract class AbstractWiki
                         $targetFilePath = $this->outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.html';
                         try {
                             $this->fetchImagesOfPage($filePath, $targetFilePath, $pageName);
-                        } catch (\Exception $e) {
+                        } catch (Exception $e) {
                             file_put_contents($targetFilePath, file_get_contents($filePath));
                             $this->warn("Images of page %s could not be fetched (%s)!", $pageName, $e->getMessage());
                         }
@@ -457,7 +458,7 @@ abstract class AbstractWiki
                         $this->urlMap[$requestUrl] = '';
                         $this->warn("Url %s seems to be outdated (status code: %s)!", $requestUrl, $response->getStatusCode());
                     }
-                } catch (\Exception $e) {
+                } catch (Exception $e) {
                     $this->urlMap[$requestUrl] = '';
                     $this->warn("Url %s seems to be outdated (%s)!", $requestUrl, $e->getMessage());
                 }
@@ -548,7 +549,7 @@ abstract class AbstractWiki
                             $targetFilePath = $this->outputDir . DIRECTORY_SEPARATOR . $targetFileName . '-s5-converted.rst';
                             $this->convertHtmlToRst($filePath, $targetFilePath);
                             $this->info("Page %s converted.", $pageName);
-                        } catch (\Exception $e) {
+                        } catch (Exception $e) {
                             $this->warn("Page %s could not be converted (%s)!", $pageName, $e->getMessage());
                         }
                     }
@@ -595,7 +596,7 @@ abstract class AbstractWiki
                             $targetFilePath = $this->outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.rst';
                             $this->postProcessRst($filePath, $targetFilePath);
                             $this->info("Page %s post-processed.", $pageName);
-                        } catch (\Exception $e) {
+                        } catch (Exception $e) {
                             $this->warn("Page %s could not be post-processed (%s)!", $pageName, $e->getMessage());
                         }
                     }
