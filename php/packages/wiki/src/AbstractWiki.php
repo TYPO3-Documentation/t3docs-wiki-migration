@@ -67,8 +67,8 @@ abstract class AbstractWiki
 
     protected function loadMapOfFailedUrls(): void
     {
-        if (is_file($this->outputDir . DIRECTORY_SEPARATOR . 'map_of_failed_urls.php')) {
-            $this->urlMapOfFailed = include $this->outputDir . DIRECTORY_SEPARATOR . 'map_of_failed_urls.php';
+        if (is_file($this->outputDir . DIRECTORY_SEPARATOR . '_map_of_failed_urls.php')) {
+            $this->urlMapOfFailed = include $this->outputDir . DIRECTORY_SEPARATOR . '_map_of_failed_urls.php';
         }
     }
 
@@ -82,7 +82,7 @@ abstract class AbstractWiki
         if (count($urlMapOfFailed)) {
             ksort($urlMapOfFailed);
             $content = sprintf("<?php\nreturn %s;", var_export($urlMapOfFailed, true));
-            file_put_contents($this->outputDir . DIRECTORY_SEPARATOR . 'map_of_failed_urls.php', $content);
+            file_put_contents($this->outputDir . DIRECTORY_SEPARATOR . '_map_of_failed_urls.php', $content);
         }
     }
 
@@ -670,7 +670,7 @@ abstract class AbstractWiki
         }
 
         if ($level >= self::LOGLEVEL_WARNING) {
-            file_put_contents($this->outputDir . DIRECTORY_SEPARATOR . 'warnings.txt', sprintf($message . "\n", ...$args), FILE_APPEND);
+            file_put_contents($this->outputDir . DIRECTORY_SEPARATOR . '_warnings.txt', sprintf($message . "\n", ...$args), FILE_APPEND);
         }
     }
 
