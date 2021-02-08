@@ -65,4 +65,15 @@ class WikiExceptions extends AbstractWiki
 
         $this->info("%d exception pages will be fetched.", count($this->pages));
     }
+
+    /**
+     * Convert PageName into page-id with prefix "exception-".
+     *
+     * @param string $pageName
+     * @return string Page ID
+     */
+    protected function getPageId(string $pageName): string
+    {
+        return 'exception-' . parent::getPageId($pageName);
+    }
 }

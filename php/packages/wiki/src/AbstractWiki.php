@@ -138,28 +138,68 @@ abstract class AbstractWiki
         if (count($this->pages) > 0) {
             $client = HttpClient::create();
             $responses = [];
-            foreach ($this->pages as $path) {
-                $responses[] = $client->request('GET', $path);
+            foreach ($this->pages as $pageUrl) {
+                $responses[$pageUrl] = $client->request('GET', $pageUrl);
             }
-            foreach ($responses as $response) {
+            foreach ($responses as $requestUrl => $response) {
                 $content = $response->getContent(false);
                 if ($response->getStatusCode() === 200) {
-                    $pathInfo = pathinfo(parse_url($response->getInfo('url'))['path']);
-                    $fileName = $this->getUpperCamelCase($pathInfo['basename']) . '-s1-full.html';
-                    file_put_contents($this->outputDir . DIRECTORY_SEPARATOR . $fileName, $content);
-                    $this->info("Page %s fetched.", $response->getInfo('url'));
+                    $localPageUrl = $this->savePageToLocal($requestUrl, $content, '-s1-full.html');
+                    $pageName = str_replace('-s1-full.html', '', $localPageUrl);
+                    $this->urlMap[$requestUrl] = $this->getPageId($pageName);
+                    $this->info("Page %s fetched and saved to %s.", $requestUrl, $localPageUrl);
                 } else {
-                    $this->warn("Page %s not fetched (status code: %s)!", $response->getInfo('url'), $response->getStatusCode());
+                    $this->warn("Page %s not fetched (status code: %s)!", $requestUrl, $response->getStatusCode());
                 }
             }
         }
     }
 
-    protected function getUpperCamelCase(string $string): string
+    /**
+     * Save fetched page to local page folder and return path of local page.
+     *
+     * @param string $pageUrl Original page url
+     * @param string $pageContent Original page content
+     * @param string $suffix Local file suffix
+     * @return string Local file path
+     */
+    protected function savePageToLocal(string $pageUrl, string $pageContent, string $suffix): string
+    {
+        $pathInfo = pathinfo(parse_url($pageUrl)['path']);
+        $fileName = $this->getPageName($pathInfo['basename']);
+        $fileNameAndExt = $fileName . $suffix;
+        $index = 1;
+
+        while (is_file($this->outputDir . DIRECTORY_SEPARATOR . $fileNameAndExt)) {
+            $fileNameAndExt = $fileName . '-' . $index++ . $suffix;
+        }
+        file_put_contents($this->outputDir . DIRECTORY_SEPARATOR . $fileNameAndExt, $pageContent);
+
+        return $fileNameAndExt;
+    }
+
+    /**
+     * Get PageName from file name of page url.
+     *
+     * @param string $fileName
+     * @return string Page name
+     */
+    protected function getPageName(string $fileName): string
     {
         return str_replace('_', '', ucwords(
-            str_replace(['-', ' ', ',', ':', '.'], '_', strtolower($string)), '_')
+            str_replace(['-', ' ', ',', ':', '.'], '_', strtolower($fileName)), '_')
         );
+    }
+
+    /**
+     * Convert PageName into page-id.
+     *
+     * @param string $pageName
+     * @return string Page ID
+     */
+    protected function getPageId(string $pageName): string
+    {
+        return ltrim(strtolower(preg_replace('|([A-Z]{1})|', '-$1', $pageName)), '-');
     }
 
     /**
@@ -177,7 +217,7 @@ abstract class AbstractWiki
                         try {
                             $targetFileName = $pageName . '-s2-reduce';
                             $targetFilePath = $this->outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.html';
-                            $this->reducePage($filePath, $targetFilePath);
+                            $this->reducePage($filePath, $targetFilePath, $pageName);
                             $this->info("Page %s reduced.", $pageName);
                         } catch (Exception $e) {
                             $this->warn("Page %s could not be reduced (%s)!", $pageName, $e->getMessage());
@@ -195,13 +235,15 @@ abstract class AbstractWiki
      *
      * @param string $sourceFile
      * @param string $targetFile
+     * @param string $pageName
      */
-    protected function reducePage(string $sourceFile, string $targetFile): void
+    protected function reducePage(string $sourceFile, string $targetFile, string $pageName): void
     {
         $crawler = new Crawler(file_get_contents($sourceFile));
         $title = $crawler->filterXPath('//h1[@id="firstHeading"]')->outerHtml();
         $body = $crawler->filterXPath('//div[@class="mw-parser-output"]/*[not(contains(@class, "toc"))]')
             ->each(function(Crawler $node){return $node->outerHtml();});
+        $pageId = $this->getPageId($pageName);
 
         $content = $title . "\n\n" . implode("\n\n", $body);
         $content = preg_replace('/id="[^"]*"/', '', $content);
@@ -210,6 +252,10 @@ abstract class AbstractWiki
         $content = preg_replace('/height="[^"]*"/', '', $content);
         $content = preg_replace('/<a[^>]*>\s*<\/a>/', '', $content);
         $content = preg_replace('/<p[^>]*>\s*<br>\s*<\/p>/', '', $content);
+
+        $content = preg_replace_callback('/<(h1[^>]*)>(.*)<\/h1>/', function($matches) use($pageId) {
+            return sprintf('<%s id="%s">%s</h1>', $matches[1], $pageId, $matches[2]);
+        }, $content, 1);
 
         file_put_contents($targetFile, $content);
     }
