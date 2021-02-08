@@ -1,11 +1,13 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _cached-files-in-typo3temp:
+
 ==============================
 FAQ/Cached files in typo3temp/
 ==============================
 
-<< Back to FAQ [outdated wiki link]
+<< Back to `FAQ <faq>`__
 
 .. container::
 
@@ -18,6 +20,8 @@ FAQ/Cached files in typo3temp/
       `get.typo3.org <https://get.typo3.org>`__. For information about
       updating, see the `Installation & Upgrade
       Guide <https://docs.typo3.org/m/typo3/guide-installation/master/en-us/>`__
+
+.. _cached-files-in-typo3temp-1:
 
 Cached files in typo3temp/
 ==========================

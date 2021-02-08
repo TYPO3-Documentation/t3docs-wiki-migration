@@ -5,7 +5,7 @@
 Backend Modules
 ===============
 
-<< Back to Administrators [outdated wiki link] page
+<< Back to `Administrators <overview-administrator-manuals>`__ page
 
 [edit] [outdated wiki link]
 
@@ -71,8 +71,8 @@ Admin Tools
 
 -  **User admin**
 -  **Ext Manager**
-   Install / uninstall [outdated wiki link] / create / delete [outdated
-   wiki link] extensions
+   Install / uninstall [outdated wiki link] / create /
+   `delete <delete-extensions>`__ extensions
 -  **DB check**
 -  **Configuration**
    Explore different arrays like $GLOBALS['TYPO3_CONF_VARS'] or

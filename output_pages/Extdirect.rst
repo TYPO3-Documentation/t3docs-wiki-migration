@@ -7,8 +7,8 @@ ExtDirect
 
 .. container::
 
-   This page belongs to the Core Team [outdated wiki link] (category
-   Core Team [outdated wiki link])
+   This page belongs to the `Core Team <core-team>`__ (category Core
+   Team [outdated wiki link])
 
 TYPO3 and Ext.Direct
 ====================
@@ -427,7 +427,7 @@ Core parts using ExtDirect
 ==========================
 
 -  ExtDirect StateProvider [outdated link]
--  Pagetree [outdated wiki link]
+-  `Pagetree <pagetree>`__
 -  Workspaces [outdated link]
 
 ===============

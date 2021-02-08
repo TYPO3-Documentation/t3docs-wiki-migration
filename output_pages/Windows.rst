@@ -764,10 +764,10 @@ configuration process. If still having troubles look for more either on
 the official site or thru the newsgroups/mailinglists. Hope you have
 fun ;-)
 
-Older help: Read this document Symlinks_on_Windows [outdated wiki link]
-These are 2 differents batch that you can copy-paste into a new text
-file and rename as you like. Put the batch file in your main TYPO3
-directory before running it.
+Older help: Read this document
+`Symlinks_on_Windows <symlinks-on-windows>`__ These are 2 differents
+batch that you can copy-paste into a new text file and rename as you
+like. Put the batch file in your main TYPO3 directory before running it.
 
 The batch consider that you place the junction freeware [outdated link]
 in the WINNT directory. For XP or 2003 change WINNT for WINDOWS.

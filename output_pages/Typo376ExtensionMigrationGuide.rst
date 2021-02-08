@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _typo376-extension-migration-guide:
+
 ===================================
 TYPO3 7.6 Extension Migration Guide
 ===================================
@@ -8,11 +10,12 @@ TYPO3 7.6 Extension Migration Guide
 -  `List of outdated class names and their namespace counterparts in
    TYPO3
    6.2 <https://git.typo3.org/Packages/TYPO3.CMS.git/tree/refs/heads/TYPO3_6-2:/typo3/sysext/core/Migrations/Code>`__
--  Extension migration hints for TYPO3 6.0 [outdated wiki link]
+-  `Extension migration hints for TYPO3
+   6.0 <typo360-extension-migration-tips>`__
 -  `Helpful information on how to convert your code to PHP
    Namespaces <https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/Namespaces/Index.html>`__
--  Manual on how to activate and evaluate the deprecation log-file
-   [outdated wiki link]
+-  `Manual on how to activate and evaluate the deprecation
+   log-file <deprecation-log>`__
 -  `Core changelog for TYPO3 7 LTS in the TYPO3 Git repository. Perfect
    for downloading and
    searching <https://git.typo3.org/Packages/TYPO3.CMS.git/tree/TYPO3_7-6:/typo3/sysext/core/Documentation/Changelog/7.6>`__

@@ -17,7 +17,7 @@ Backend Programming
       updating, see the `Installation & Upgrade
       Guide <https://docs.typo3.org/m/typo3/guide-installation/master/en-us/>`__
 
-<< Back to Developer manuals [outdated wiki link] page
+<< Back to `Developer manuals <overview-developer-manuals>`__ page
 
 [edit] [outdated wiki link]
 

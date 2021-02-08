@@ -233,7 +233,7 @@ extension *phpunit*, thus all request must be routed trough the
 
     ./typo3/cli_dispatch.phpsh phpunit
 
--  PhpStorm [outdated wiki link]
+-  `PhpStorm <using-the-phpunit-extension-for-typo3-cms-in-phpstorm>`__
 -  *your IDE*
 
 Hints

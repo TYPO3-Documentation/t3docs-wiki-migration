@@ -27,11 +27,11 @@ Search extensions
 |        |        |        | dexed_ | d_sear |        |        | dexed_ |
 |        |        |        | search | ch/Ind |        |        | search |
 |        |        |        | /Confi | exingC |        |        | />`__, |
-|        |        |        | gurati | onfigu |        |        | wiki   |
-|        |        |        | on/Typ | ration |        |        | [ou    |
-|        |        |        | oScrip | s/Craw |        |        | tdated |
-|        |        |        | t/Inde | lerSet |        |        | wiki   |
-|        |        |        | x.html | up/Ind |        |        | link], |
+|        |        |        | gurati | onfigu |        |        | `w     |
+|        |        |        | on/Typ | ration |        |        | iki <i |
+|        |        |        | oScrip | s/Craw |        |        | ndexed |
+|        |        |        | t/Inde | lerSet |        |        | -searc |
+|        |        |        | x.html | up/Ind |        |        | h>`__, |
 |        |        |        | #templ | ex.htm |        |        | `t     |
 |        |        |        | atefil | l>`__, |        |        | t_news |
 |        |        |        | e>`__, | `on    |        |        | crawle |

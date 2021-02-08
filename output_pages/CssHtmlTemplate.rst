@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _css-html-template:
+
 =====================
 TS/CSS: HTML Template
 =====================
@@ -33,11 +35,11 @@ Content...
    </BODY>
    </HTML>
 
-NEXT: TS/CSS: Typo3 Template Setup [outdated wiki link]
-=======================================================
+NEXT: `TS/CSS: Typo3 Template Setup <css-typo3-template-setup>`__
+=================================================================
 
-Back to: Running with TypoScript and CSS [outdated wiki link]
--------------------------------------------------------------
+Back to: `Running with TypoScript and CSS <running-with-typoscript-and-css>`__
+------------------------------------------------------------------------------
 
-Back to: My first TYPO3 site [outdated wiki link]
--------------------------------------------------
+Back to: `My first TYPO3 site <my-first-typo3-site>`__
+------------------------------------------------------

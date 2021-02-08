@@ -267,8 +267,8 @@ Relations
 order*)
 
 -  TYPO3 Neos Content Repository [outdated link]
--  maybe a relation to lib/div (can provide data for the MVC Framework
-   [outdated wiki link])
+-  maybe a relation to lib/div (can provide data for the `MVC
+   Framework <mvc-framework>`__)
 -  DAM aka Digital Asset Management [outdated link] - features advanced
    metatagging and categorisation of assets
 -  WebDAV, Apache2 Typo3 WebDAV [outdated wiki link] - client - needs

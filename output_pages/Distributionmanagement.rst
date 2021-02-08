@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _distributionmanagement:
+
 =================================
 Blueprints/DistributionManagement
 =================================

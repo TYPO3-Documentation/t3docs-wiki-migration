@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _ja-typo3-tutorial-for-editors:
+
 =============================
 Ja:TYPO3 Tutorial for Editors
 =============================

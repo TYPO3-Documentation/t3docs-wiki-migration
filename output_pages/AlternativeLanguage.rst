@@ -5,8 +5,8 @@
 Alternative Language
 ====================
 
-| << Back to Documentation Team [outdated wiki link]   (edit [outdated
-  wiki link])
+| << Back to `Documentation Team <documentationteam>`__   (edit
+  [outdated wiki link])
 | If you would like to write documentation in other language than
   English, start here. But please consider writing in english first -
   most people will benefit from that!

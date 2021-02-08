@@ -1,11 +1,14 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _utf8-support:
+
 =============
 UTF-8 support
 =============
 
-<< Back to Help, tips and troubleshooting [outdated wiki link] page
+<< Back to `Help, tips and troubleshooting <overview-miscellaneous>`__
+page
 
 [edit] [outdated wiki link]
 

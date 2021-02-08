@@ -1,14 +1,17 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _inline-relational-record-editing1-n:
+
 ====================================
 Inline Relational Record Editing 1:n
 ====================================
 
 .. container::
 
-   This page belongs to the Inline Relational Record Editing project
-   [outdated wiki link] (category Project [outdated wiki link])
+   This page belongs to the `Inline Relational Record Editing
+   project <inline-relational-record-editing>`__ (category Project
+   [outdated wiki link])
 
 ============================================
 Different kinds of storing and configuration

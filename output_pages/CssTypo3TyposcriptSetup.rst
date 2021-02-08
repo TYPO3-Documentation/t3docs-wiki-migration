@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _css-typo3-typoscript-setup:
+
 ==============================
 TS/CSS: Typo3 TypoScript Setup
 ==============================
@@ -118,8 +120,8 @@ or more external stylesheets...
 
 That's it!
 
-Back to: Running with TypoScript and CSS [outdated wiki link]
-=============================================================
+Back to: `Running with TypoScript and CSS <running-with-typoscript-and-css>`__
+==============================================================================
 
-Back to: My first TYPO3 site [outdated wiki link]
--------------------------------------------------
+Back to: `My first TYPO3 site <my-first-typo3-site>`__
+------------------------------------------------------

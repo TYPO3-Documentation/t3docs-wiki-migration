@@ -10,8 +10,8 @@ Efficiently Debugging TYPO3
    **Content Type:** HowTo [outdated wiki link].
 
 This page describes how efficiently debugging TYPO3. If you need a PHP
-editor / IDE, please refer to Comparison of PHP Editors for TYPO3
-development [outdated wiki link].
+editor / IDE, please refer to `Comparison of PHP Editors for TYPO3
+development <ide-for-typo3>`__.
 
 .. container::
 
@@ -252,6 +252,7 @@ How-to debug
 Further Reading
 ===============
 
--  Extension Development, Debugging [outdated wiki link]
+-  `Extension Development,
+   Debugging <extension-development-debugging>`__
 
 debug [outdated wiki link]

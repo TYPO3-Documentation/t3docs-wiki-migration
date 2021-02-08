@@ -171,4 +171,4 @@ MiKTeX (but it's a LOT bigger).
 First Project with Sphinx
 =========================
 
-Please read our dedicated tutorial [outdated wiki link].
+Please read `our dedicated tutorial <new-rest-project-with-sphinx>`__.

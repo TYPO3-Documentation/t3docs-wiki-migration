@@ -78,4 +78,4 @@ When to use which syntax depends on your taste and the use case.
 Usually you want to use the tag syntax for view helpers that render as
 html tag (e.g. ``<f:image />``) and the inline notation to render a
 variable/string in a special format. Of course you can also nest view
-helpers (see FAQ [outdated wiki link]).
+helpers (see `FAQ <extbase-und-fluid-faq>`__).

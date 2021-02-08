@@ -244,13 +244,13 @@ something about why we write documentation in a certain way.
 -  Help [outdated wiki link] for editing and creating wiki pages
 -  General guidelines [outdated wiki link] on how to write documentation
 -  Information about images in documentation [outdated wiki link]
--  Writing in an alternativ language [outdated wiki link]
+-  Writing in an `alternativ language <alternative-language>`__
 -  How to use Wink [outdated wiki link] to make small flash tutorials
 
 OpenOffice related
 ------------------
 
-Before moving our documents to reST format [outdated wiki link], we used
+Before moving our documents to `reST format <rest>`__, we used
 OpenOffice to maintain them. These information were helpful back then:
 
 -  How to update an OpenOffice manual with changes made in the wiki:

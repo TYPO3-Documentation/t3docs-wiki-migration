@@ -64,8 +64,8 @@ How can I change the link prefix of Extbase extensions?
 -------------------------------------------------------
 
 With version 1.3 you can adjust the so called namespace of your Extbase
-plugins. See Configurable Plugin Namespaces [outdated wiki link] for
-more details.
+plugins. See `Configurable Plugin
+Namespaces <configurable-plugin-namespaces>`__ for more details.
 
 Solving "Fatal error: Maximum function nesting level of '100' reached, aborting!"
 ---------------------------------------------------------------------------------
@@ -82,7 +82,8 @@ nesting level in php.ini:
 How can I render trees with Extbase and Fluid?
 ----------------------------------------------
 
-See Rendering trees with Extbase and Fluid [outdated wiki link]
+See `Rendering trees with Extbase and
+Fluid <rendering-trees-with-extbase-and-fluid>`__
 
 Fluid
 =====
@@ -144,8 +145,8 @@ How can I get translated validation error messages?
 
 There will be support for localized error labels at some point.
 Currently you can use the error code in order to output the error
-message in the current language. See Translated validation error
-messages for Fluid [outdated wiki link].
+message in the current language. See `Translated validation error
+messages for Fluid <translated-validation-error-messages-for-fluid>`__.
 
 How can I render localized dates?
 ---------------------------------
@@ -255,8 +256,8 @@ kind of logic to your domain model.
 How can I use Fluid in my Email templates?
 ------------------------------------------
 
-See How to use the Fluid Standalone view to render template based emails
-[outdated wiki link]
+See `How to use the Fluid Standalone view to render template based
+emails <how-to-use-the-fluid-standalone-view-to-render-template-based-emails>`__
 
 Can I compare strings with the if view helper?
 ----------------------------------------------

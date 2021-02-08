@@ -6,7 +6,7 @@ FluidSyntax
 ===========
 
 | 
-| Fluid [outdated wiki link] syntax by example
+| `Fluid <fluid>`__ syntax by example
 
 Variables
 =========

@@ -9,7 +9,7 @@ Extension Development
 
    **Content Type:** HowTo [outdated wiki link].
 
-<< Back to Developer manuals [outdated wiki link] page
+<< Back to `Developer manuals <overview-developer-manuals>`__ page
 
 [edit] [outdated wiki link]
 
@@ -35,8 +35,8 @@ You find all the different extension development [outdated wiki link]
 manuals either by the `extensions <https://extensions.typo3.org/>`__
 themself or in the TYPO3 documentation matrix [outdated link].
 
-A good place to start is the Extension Developers Guide (XDG) [outdated
-wiki link]
+A good place to start is the `Extension Developers Guide
+(XDG) <extension-developers-guide>`__
 
 Extension development mini how-to
 =================================
@@ -82,8 +82,9 @@ the APIs for extensions and a link list to documentation.
 -  Search in the `Namazu: Full-Text Search
    Engine <http://lists.typo3.org/cgi-bin/namazu.cgi?idxname=Typo3-english>`__.
 -  Follow the Project Coding Guidelines [outdated link]
--  Extension Development, using Flexforms [outdated wiki link]
--  Backend Programming [outdated wiki link]
+-  `Extension Development, using
+   Flexforms <extension-development-using-flexforms>`__
+-  `Backend Programming <backend-programming>`__
 -  Translate and document your extension following the `TYPO3.org -
    manual for
    developers <https://docs.typo3.org/typo3cms/extensions/doc_typo3org>`__
@@ -132,8 +133,8 @@ Classes and functions
 Flexforms
 ---------
 
--  If you wish to use Flexforms in your extension, follow the Using
-   Flexforms [outdated wiki link] guide.
+-  If you wish to use Flexforms in your extension, follow the `Using
+   Flexforms <extension-development-using-flexforms>`__ guide.
 
 Multiple Languages
 ------------------
@@ -190,7 +191,7 @@ all PHP files:
 
        grep -rniH --include '*php' 'your search string' directory-of-sources
 
--  The Linux cheat sheet [outdated wiki link] lists some commands for
+-  The `Linux cheat sheet <linux-cheat-sheet>`__ lists some commands for
    frequent tasks under Linux (most of these should also work under
    other flavors of Unix)
 

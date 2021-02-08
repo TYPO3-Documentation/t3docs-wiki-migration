@@ -1,14 +1,18 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _berlin-manifesto:
+
 ================================
 Transition Days/Berlin Manifesto
 ================================
 
 .. container::
 
-   This page belongs to the Core Team [outdated wiki link] (category
-   Core Team [outdated wiki link])
+   This page belongs to the `Core Team <core-team>`__ (category Core
+   Team [outdated wiki link])
+
+.. _berlin-manifesto-1:
 
 Berlin Manifesto
 ================

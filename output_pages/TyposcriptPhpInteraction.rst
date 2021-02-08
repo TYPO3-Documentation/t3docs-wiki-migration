@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _typoscript-php-interaction:
+
 ============================
 TypoScript - PHP Interaction
 ============================

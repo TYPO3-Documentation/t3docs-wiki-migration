@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _sample-typoscript-setup:
+
 ================================
 Tutorial/Sample TypoScript Setup
 ================================

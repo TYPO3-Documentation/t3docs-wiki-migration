@@ -43,7 +43,7 @@ Extension Development, add Page TSconfig, User TSconfig and TS
       Remember to check what links here [outdated wiki link] and the the
       page history [outdated wiki link] before deleting.
 
-<< Back to Extension Development [outdated wiki link] << Back to
-Developer manuals [outdated wiki link] page
+<< Back to `Extension Development <extension-development>`__ << Back to
+`Developer manuals <overview-developer-manuals>`__ page
 
 [edit] [outdated wiki link]

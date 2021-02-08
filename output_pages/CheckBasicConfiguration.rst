@@ -71,13 +71,13 @@ Two things need to be done:
 
 ::
 
-   chown [outdated wiki link] -R :www-data ext
+   chown -R :www-data ext
 
 2. Give the group write permissions.
 
 ::
 
-   chmod [outdated wiki link] -R 775 ext
+   chmod -R 775 ext
 
 3. Do that with all the directories that TYPO3 does not have write
 permissions to.
@@ -121,7 +121,7 @@ Memory
 
 4. Save [outdated wiki link] and exit [outdated wiki link] php.ini.
 
-5. Restart your webserver [outdated wiki link].
+5. `Restart your webserver <restart-your-webserver>`__.
 
 6. Choose **1. Basic Configuration** from the menu again to see if the
 error message is gone.
@@ -138,7 +138,7 @@ Example (php.ini):
 "upload_max_filesize" and "post_max_size" should have the same values,
 because they are connected.
 
-1. Open [outdated wiki link] the php.ini [outdated wiki link] file.
+1. Open [outdated wiki link] the `php.ini <php-ini>`__ file.
 
 2. Find [outdated wiki link] the entry **upload_max_filesize**.
 
@@ -150,7 +150,7 @@ because they are connected.
 
 4. Save [outdated wiki link] and exit [outdated wiki link] php.ini
 
-5. Restart your webserver [outdated wiki link].
+5. `Restart your webserver <restart-your-webserver>`__.
 
 6. Choose **1. Basic Configuration** from the menu again to see if the
 error message is gone.

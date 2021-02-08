@@ -56,7 +56,7 @@ tt_products - The classic shop extension
 ========================================
 
 -  tt_products [outdated wiki link] - online shop extension
--  tt_products tutorial [outdated wiki link] - experiences with
+-  `tt_products tutorial <tt-products-tutorial>`__ - experiences with
    installing basic setup of tt_products
 -  https://docs.typo3.org/typo3cms/extensions/tt_products/
 -  https://docs.typo3.org/typo3cms/extensions/doc_shop/

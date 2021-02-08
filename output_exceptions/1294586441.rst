@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _exception-1294586441:
+
 ========================
 Exception/CMS/1294586441
 ========================
@@ -23,7 +25,7 @@ available online.
 
 Online liefert es mir einen Pfad, den ich in der akutellen Installation
 tpyo3 6.1.7 nicht finden kann
-(https://wiki.typo3.org/Exception/CMS/1294586442 [outdated wiki link]):
+(`exception-1294586442 <exception-1294586442>`__):
 
 Template is not writeable Happens when your filepermissions (Unix) are
 not correct if you include TypoScript from a file and try to edit it in

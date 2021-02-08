@@ -12,8 +12,9 @@ Using the PHPUnit extension for TYPO3 CMS in PhpStorm
    .. container::
 
       Using the TYPO3 extension *phpunit* is discouraged and not
-      supported by the TYPO3 CMS core. Have a look at Unit_Testing_TYPO3
-      [outdated wiki link] on how to properly execute test suites.
+      supported by the TYPO3 CMS core. Have a look at
+      `Unit_Testing_TYPO3 <unit-testing-typo3>`__ on how to properly
+      execute test suites.
 
 ============
 Introduction

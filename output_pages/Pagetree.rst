@@ -7,8 +7,8 @@ Pagetree
 
 .. container::
 
-   This page belongs to the Core Team [outdated wiki link] (category
-   Core Team [outdated wiki link])
+   This page belongs to the `Core Team <core-team>`__ (category Core
+   Team [outdated wiki link])
 
 General
 =======
@@ -226,9 +226,8 @@ to be included with the ``t3lib_pageRenderer`` singleton.
           });
       });
 
-The defined callback will call an Ext.Direct [outdated wiki link] method
-that returns a specific string. The parameters for the callback function
-are:
+The defined callback will call an `Ext.Direct <extdirect>`__ method that
+returns a specific string. The parameters for the callback function are:
 
 -  node
 
@@ -276,7 +275,7 @@ the JavaScript file described above.
 
 Have a look at the mentioned demo example how you can work with the node
 in your Ext.Direct data provider. The usage of Ext.Direct is explained
-on another wiki page [outdated wiki link].
+on `another wiki page <extdirect>`__.
 
 Option "displayCondition"
 ^^^^^^^^^^^^^^^^^^^^^^^^^

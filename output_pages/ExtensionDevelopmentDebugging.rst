@@ -5,7 +5,7 @@
 Extension Development, Debugging
 ================================
 
-<< Back to Extension Development [outdated wiki link] page
+<< Back to `Extension Development <extension-development>`__ page
 
 [edit] [outdated wiki link]
 
@@ -37,7 +37,7 @@ Tipps on debugging
 Debug TYPO3
 ===========
 
-See also the Extension Developers Guide [outdated wiki link]
+See also the `Extension Developers Guide <extension-developers-guide>`__
 
 -  In ``typo3conf/LocalConfiguration.php``, set ``[FE][debug] = 1`` and
    ``[SYS][devIPmask]`` to e.g. *"192.*,169.*,127.0.0.1"*. Then use the

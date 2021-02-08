@@ -51,7 +51,7 @@ a clarification:
    disk".
 -  **Delete** means "removing extension files permanently from disk".
 
-See also the Delete Extensions [outdated wiki link] for a complete
+See also the `Delete Extensions <delete-extensions>`__ for a complete
 discussion about removing an extension completely from disk and
 database.
 
@@ -244,7 +244,7 @@ In order to install the extension again, you may just click on
 |Extension Install Icon| and follow the instructions (save changes).
 
 If you want to purge the extension entirely from your installation and
-the hard disk, read Delete Extensions [outdated wiki link].
+the hard disk, read `Delete Extensions <delete-extensions>`__.
 
 ---
 

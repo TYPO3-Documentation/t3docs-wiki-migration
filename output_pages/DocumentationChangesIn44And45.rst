@@ -1,14 +1,16 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _documentation-changes-in44-and45:
+
 ====================================
 Documentation changes in 4.4 and 4.5
 ====================================
 
 .. container::
 
-   This page belongs to the Core Team [outdated wiki link] (category
-   Core Team [outdated wiki link])
+   This page belongs to the `Core Team <core-team>`__ (category Core
+   Team [outdated wiki link])
 
 .. container::
 
@@ -1975,7 +1977,7 @@ doc_core_api (4.4)
 `22000: TYPO3 Core - ExtDirect API [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/22000>`__
 -----------------------------------------------------------------------------------------------------------------
 
-Ext Direct Wiki Page [outdated wiki link]
+`Ext Direct Wiki Page <extdirect>`__
 
 `22319: TYPO3 Core - Add Viewport layout to BE [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/22319>`__
 -----------------------------------------------------------------------------------------------------------------------------

@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _using-the-extension-builder:
+
 ===================================================
 T3Doc/Extension Builder/Using the Extension Builder
 ===================================================

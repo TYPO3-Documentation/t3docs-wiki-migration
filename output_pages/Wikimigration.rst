@@ -16,7 +16,7 @@ General information
 ===================
 
 -  Wiki Coordination [outdated wiki link]
--  Overview of the Wiki [outdated wiki link] (contains some information
+-  `Overview of the Wiki <overviewofwiki>`__ (contains some information
    about types of pages, categories, number of pages etc.)
 
 What should be migrated?

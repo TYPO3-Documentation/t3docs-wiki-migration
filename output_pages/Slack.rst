@@ -209,6 +209,6 @@ Some examples:
 Botty
 =====
 
-Botty [outdated wiki link] : Botty (or T3Bot) is a bot which is active
-in Slack. You can use Botty in most channels (Botty must be invited to a
-channel like a normal user for this to work).
+`Botty <t3bot>`__ : Botty (or T3Bot) is a bot which is active in Slack.
+You can use Botty in most channels (Botty must be invited to a channel
+like a normal user for this to work).

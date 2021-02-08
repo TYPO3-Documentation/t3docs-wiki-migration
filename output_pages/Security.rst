@@ -25,7 +25,7 @@ Security
       Remember to check what links here [outdated wiki link] and the the
       page history [outdated wiki link] before deleting.
 
-<< Back to Administrators [outdated wiki link] page
+<< Back to `Administrators <overview-administrator-manuals>`__ page
 
 [edit] [outdated wiki link]
 

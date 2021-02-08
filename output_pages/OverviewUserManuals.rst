@@ -14,7 +14,7 @@ In this section you find documentation for editors.
 Editor documents
 ================
 
--  TYPO3 Templates [outdated wiki link]
+-  `TYPO3 Templates <typo3-templates-repository>`__
 -  TYPO3 Tutorial [outdated link]
 -  Handbuch für Redakteure [outdated link] (Deutsch) - *finished*
 -  `Manual Para

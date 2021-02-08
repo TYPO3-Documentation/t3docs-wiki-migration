@@ -55,10 +55,10 @@ No symlinks possible
 Symbolic links [outdated wiki link] (symlinks) offer a great possibility
 to solve redundancies inside of TYPO3.
 
-Hint: There is a solution called Junction [outdated wiki link] which
-offers something like symlinks on Windows, however file junctions are
-not an integrated solution (but directory junctions are) and requires an
-NTFS file system:
+Hint: There is a solution called `Junction <symlinks-on-windows>`__
+which offers something like symlinks on Windows, however file junctions
+are not an integrated solution (but directory junctions are) and
+requires an NTFS file system:
 http://www.sysinternals.com/ntw2k/source/misc.shtml#junction [outdated
 link]
 

@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _how-to-create-a-typo3-package:
+
 =================================
 FAQ/How to create a TYPO3 package
 =================================

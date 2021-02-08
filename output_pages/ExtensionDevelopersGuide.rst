@@ -5,7 +5,7 @@
 Extension Developers Guide
 ==========================
 
-<< Back to Developer manuals [outdated wiki link] page
+<< Back to `Developer manuals <overview-developer-manuals>`__ page
 
 [edit] [outdated wiki link]
 
@@ -70,14 +70,14 @@ Extensions for extension developers
 Extension Builder
 ^^^^^^^^^^^^^^^^^
 
-| The Extension Builder [outdated wiki link] helps you develop
+| The `Extension Builder <extension-builder>`__ helps you develop
   extensions based on Extbase [outdated link] and Fluid [outdated link].
 | It can be downloaded from
   `extension_builder <https://extensions.typo3.org/extension/extension_builder/>`__.
 
 The most important resources are:
 
--  the Extension Builder wiki page [outdated wiki link]
+-  the `Extension Builder wiki page <extension-builder>`__
 -  the Extension Builder TYPO3 Forge project [outdated link].
 
 Extension Development Evaluator
@@ -1221,7 +1221,8 @@ This will save all *built* queries (not necessarily executed) in the
 all errors are output by ``echo`` (at least in the MySQL implementation
 of DBAL).
 
-See also the Extension Development [outdated wiki link] mini howto.
+See also the `Extension Development <extension-development>`__ mini
+howto.
 
 ````
 
@@ -1402,7 +1403,7 @@ Krumo
 
 ````
 
-Useful for debugging code using the MVC Framework [outdated wiki link]
+Useful for debugging code using the `MVC Framework <mvc-framework>`__
 ``lib/div``, as ``cc_debug`` doesn't work properly in conjunction with
 ``lib/div``. Get it from http://krumo.sourceforge.net/
 

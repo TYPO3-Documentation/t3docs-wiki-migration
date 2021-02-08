@@ -131,7 +131,8 @@ address". In the following there are some examples mentioned.
 1:n relations
 ^^^^^^^^^^^^^
 
-see **Inline Relational Record Editing 1:n [outdated wiki link]**
+see `Inline Relational Record Editing
+1:n <inline-relational-record-editing1-n>`__
 
 Children of 1:n relations normally depend fully on their parent. That
 would mean, if the parent is moved, copied or deleted, the child-records
@@ -148,7 +149,8 @@ so the own intermediate table has a proper uid and pid for example.
 Attributes on relations
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-see **Inline Relational Record Editing Attributes [outdated wiki link]**
+see `Inline Relational Record Editing
+Attributes <inline-relational-record-editing-attributes>`__
 
 Inline interaction with data
 ----------------------------

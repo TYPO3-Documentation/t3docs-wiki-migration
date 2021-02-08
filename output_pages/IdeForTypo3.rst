@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _ide-for-typo3:
+
 ===========================
 PHP Editors / IDE for TYPO3
 ===========================

@@ -51,7 +51,7 @@ free after some years of funds collection.
 
 | Info sites:
 | `German tt_products.de site <http://ttproducts.de>`__
-| tt products Tutorial [outdated wiki link]
+| `tt products Tutorial <tt-products-tutorial>`__
 
 | Books:
 | `Der
@@ -251,8 +251,8 @@ Documentation
 Marker
 ======
 
-This is documented on the subpage tt_products Marker [outdated wiki
-link]
+This is documented on the subpage `tt_products
+Marker <tt-products-marker>`__
 
 Installation Instructions
 =========================

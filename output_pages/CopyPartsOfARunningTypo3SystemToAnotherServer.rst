@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _copy-parts-of-a-running-typo3-system-to-another-server:
+
 ==========================================================
 Faq/copy parts of a running TYPO3 system to another server
 ==========================================================

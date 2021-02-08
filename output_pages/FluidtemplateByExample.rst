@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _fluidtemplate-by-example:
+
 ==============================
 T3Doc/Fluidtemplate by example
 ==============================
@@ -248,7 +250,7 @@ Notice the Difference and never forget the ()...
 Finding out more about Viewhelpers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Quick reference / Cheatsheet: Fluid [outdated wiki link]
+Quick reference / Cheatsheet: `Fluid <fluid>`__
 
 The definitive ViewHelper Reference is here (it also contains
 viewHelpers which are only relevant for extension). [1] [outdated link]
@@ -291,8 +293,8 @@ f:if-Viewhelper
         <aside class="rightcol">{contentRight->f:format.raw()}</aside>
       </f:if>
 
-If needed you can write a if-then-else-logic, find out more here: Fluid
-[outdated wiki link]
+If needed you can write a if-then-else-logic, find out more here:
+`Fluid <fluid>`__
 
 Structure your code with partials
 =================================

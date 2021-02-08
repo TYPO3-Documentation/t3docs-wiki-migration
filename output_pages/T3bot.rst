@@ -5,7 +5,7 @@
 T3Bot
 =====
 
-General information about Slack: Slack [outdated wiki link]
+General information about Slack: `Slack <slack>`__
 
 Hi, I am Botty
 ==============
@@ -118,5 +118,5 @@ Links
 
 -  `Homepage of Botty <http://www.t3bot.de>`__
 -  `Github repository <https://github.com/NeoBlack/T3Bot>`__
--  General information about Slack: Slack [outdated wiki link]
+-  General information about Slack: `Slack <slack>`__
 -  `Register for Slack <https://my.typo3.org/about-mytypo3org/slack/>`__

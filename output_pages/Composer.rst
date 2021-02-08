@@ -594,10 +594,10 @@ directory of your installation.
 Class Loading
 -------------
 
-To improve the reliability of TYPO3 6.2.x the composer class loader
-[outdated wiki link] was added to TYPO3 6.2.10. Classes of all required
-TYPO3 extensions will be loaded by the composer class loader since that
-version.
+To improve the reliability of TYPO3 6.2.x the `composer class
+loader <composerclassloader>`__ was added to TYPO3 6.2.10. Classes of
+all required TYPO3 extensions will be loaded by the composer class
+loader since that version.
 
 Advanced Class Loading Setup
 ----------------------------
@@ -640,7 +640,7 @@ Tools:
 
 Wiki
 
--  ComposerClassLoader [outdated wiki link]
+-  `ComposerClassLoader <composerclassloader>`__
 -  see also:
 
 community blogs:

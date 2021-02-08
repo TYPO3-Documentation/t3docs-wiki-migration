@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _typo360-extension-migration-tips:
+
 ==================================
 TYPO3 6.0 Extension Migration Tips
 ==================================

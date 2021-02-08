@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _meta-tags:
+
 =============
 Faq/Meta Tags
 =============
@@ -9,7 +11,7 @@ Faq/Meta Tags
 
    **Content Type:** FAQ [outdated wiki link].
 
-<< back to FAQ [outdated wiki link]
+<< back to `FAQ <faq>`__
 
 .. container::
 

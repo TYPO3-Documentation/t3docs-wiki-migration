@@ -1,11 +1,13 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _fce:
+
 ===============
 TemplaVoila/FCE
 ===============
 
-<< Back to Administrators [outdated wiki link] page
+<< Back to `Administrators <overview-administrator-manuals>`__ page
 
 [edit] [outdated wiki link]
 

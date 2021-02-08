@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _exception-1533818591:
+
 ========================
 Exception/CMS/1533818591
 ========================
@@ -56,8 +58,7 @@ Solutions
          the »/typo3conf/LocalConfiguration.php« at the
          »installToolPassword« setting, to be able to generate a new
          hash value → see
-         https://wiki.typo3.org/Exception/CMS/1518448686 [outdated wiki
-         link]
+         `exception-1518448686 <exception-1518448686>`__
 
    -  B)
 

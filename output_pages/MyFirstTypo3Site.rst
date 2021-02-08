@@ -5,7 +5,8 @@
 My first TYPO3 site
 ===================
 
-<< Back to Help, tips and troubleshooting [outdated wiki link] page
+<< Back to `Help, tips and troubleshooting <overview-miscellaneous>`__
+page
 
 [edit] [outdated wiki link]
 
@@ -288,9 +289,10 @@ it). For my TS/CSS format at level 1, the code looks like this...
     page.10.marks.MENU_GOES_HERE.1.SPC.doNotLinkIt = 1
     page.10.marks.MENU_GOES_HERE.1.SPC.allWrap = <div > | </div>
 
-See also my Running with TypoScript and CSS [outdated wiki link] where
-this code is included in context. The code will need to be slightly
-different if you are using TemplaVoila or another template approach.
+See also my `Running with TypoScript and
+CSS <running-with-typoscript-and-css>`__ where this code is included in
+context. The code will need to be slightly different if you are using
+TemplaVoila or another template approach.
 
 Targets
 -------
@@ -359,7 +361,7 @@ Another essential component is a backup system for your site. You'll
 need to back up both critical directories on the server, as well as the
 MySQL databases.
 
-See Backup [outdated wiki link] for details about how to backup a TYPO3
+See `Backup <backup>`__ for details about how to backup a TYPO3
 installation!
 
 Statistics
@@ -527,8 +529,8 @@ It turns out that multiple domain handling is built into TYPO3, which is
 very cool. There is a basic documentation page in the Getting Started
 tutorial [outdated link]
 
-A comprehensive tutorial/howto can be found here The multidomain wiki
-[outdated wiki link]
+A comprehensive tutorial/howto can be found here `The multidomain
+wiki <multidomain>`__
 
 -  When it says the additional domain has to be directed to the TYPO3
    installation, this means the domain has to be **parked** at the

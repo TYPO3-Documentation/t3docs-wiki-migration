@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _overview-with-image-and-text:
+
 ======================================================
 TemplaVoila/VideoTutorial/Overview with Image and Text
 ======================================================

@@ -1,12 +1,14 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _documentation-process-problems-and-resolutions:
+
 ================================================
 Documentation Process - Problems and Resolutions
 ================================================
 
-| << Back to Documentation Team [outdated wiki link]   (edit [outdated
-  wiki link])
+| << Back to `Documentation Team <documentationteam>`__   (edit
+  [outdated wiki link])
 | DocTeam [outdated wiki link] More details are being filled in as time
   permits. Please feel free to add or comment, but please be aware that
   this is not being posted as "complete" as there are more details

@@ -6,7 +6,6 @@ Link https://wiki.typo3.org/User:David_bruchmann of page 1254325546 gets removed
 Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1254325546 gets removed as it links to deprecated wiki instance.
 Url http://www.bahai.by/be/?type=103 seems to be outdated (status code: 404)!
 Link http://www.bahai.by/be/?type=103 of page 1294587217 gets removed as it is outdated.
-Link https://wiki.typo3.org/Exception/CMS/1278450972 of page 1297759968 gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/User:David_bruchmann of page 1224485398 gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1224485398 gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/User:David_bruchmann of page 1237900529 gets removed as it links to deprecated wiki instance.
@@ -38,14 +37,12 @@ Link https://wiki.typo3.org/User:Kraftb of page 1392409507 gets removed as it li
 Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Kraftb&amp;action=edit&amp;redlink=1 of page 1392409507 gets removed as it links to deprecated wiki instance.
 Url http://christ.media/ssl-certificate-problem-unable-get-local-issuer-certificate-howto/ seems to be outdated (status code: 404)!
 Link http://christ.media/ssl-certificate-problem-unable-get-local-issuer-certificate-howto/ of page 1342635425 gets removed as it is outdated.
-Link https://wiki.typo3.org/Exception/CMS/1319455097 of page 1314516810 gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=User:Francois&amp;action=edit&amp;redlink=1 of page 1314516809 gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Francois&amp;action=edit&amp;redlink=1 of page 1314516809 gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/User:Maholtz of page 1301648167 gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/User_talk:Maholtz of page 1301648167 gets removed as it links to deprecated wiki instance.
 Url https://twitter.com/s_michaelsen/statuses/243636376648699904 seems to be outdated (status code: 400)!
 Link https://twitter.com/s_michaelsen/statuses/243636376648699904 of page 1295611406 gets removed as it is outdated.
-Link https://wiki.typo3.org/Exception/CMS/1294586442 of page 1294586441 gets removed as it links to deprecated wiki instance.
 Url http://fluidtypo3.org/viewhelpers/vhs/master/Page/MenuViewHelper.html seems to be outdated (status code: 404)!
 Link http://fluidtypo3.org/viewhelpers/vhs/master/Page/MenuViewHelper.html of page 1371069824 gets removed as it is outdated.
 Url https://typo3.org/api/typo3cms/_frontend_configuration_manager_8php_source.html#l00220 seems to be outdated (status code: 404)!
@@ -90,10 +87,8 @@ Link https://wiki.typo3.org/wiki/index.php?title=User:An0ther-adm1n&amp;action=e
 Link https://wiki.typo3.org/wiki/index.php?title=User_talk:An0ther-adm1n&amp;action=edit&amp;redlink=1 of page 1417988921 gets removed as it links to deprecated wiki instance.
 Url http://......ch/typo3/mod.php?M=tools_ExtensionmanagerExtensionmanager&amp;moduleToken=0cede4471e1c5e94daa96d46bcbb6904ddbeca6c seems to be outdated (Could not resolve host "......ch".)!
 Link http://......ch/typo3/mod.php?M=tools_ExtensionmanagerExtensionmanager&amp;moduleToken=0cede4471e1c5e94daa96d46bcbb6904ddbeca6c of page 1348146451 gets removed as it is outdated.
-Url https://www.example.de/' seems to be outdated (fopen(): SSL operation failed with code 1. OpenSSL Error messages:
-error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error)!
+Url https://www.example.de/' seems to be outdated (fopen(): SSL: Success)!
 Link https://www.example.de/' of page 1519788775 gets removed as it is outdated.
-Link https://wiki.typo3.org/Exception/CMS/1458745712 of page 1458745468 gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=User:Csehrt&amp;action=edit&amp;redlink=1 of page 1319455097 gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Csehrt&amp;action=edit&amp;redlink=1 of page 1319455097 gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=User:Ursbraem&amp;action=edit&amp;redlink=1 of page 1319455097 gets removed as it links to deprecated wiki instance.
@@ -118,7 +113,6 @@ Link https://wiki.typo3.org/User:Woepwoep of page 1318283565 gets removed as it 
 Url https://wiki.typo3.org/wiki/index.php?title=Caching_framework&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1203699034 gets removed as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=Caching_framework&amp;action=edit&amp;redlink=1 of page 1203699034 gets removed as it is outdated.
-Link https://wiki.typo3.org/Exception/CMS/1518448686 of page 1533818591 gets removed as it links to deprecated wiki instance.
 Url http://www.typo3forum.net/forum/extbase/59994-action-show-list-not-allowed-plugin.html#post192668 seems to be outdated (status code: 404)!
 Link http://www.typo3forum.net/forum/extbase/59994-action-show-list-not-allowed-plugin.html#post192668 of page 1313855173 gets removed as it is outdated.
 Url http://domain.tld/ seems to be outdated (Could not resolve host "domain.tld".)!

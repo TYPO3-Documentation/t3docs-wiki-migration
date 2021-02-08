@@ -5,8 +5,8 @@
 Tt products tutorial
 ====================
 
-This is step by step tutorial on running simple shop with Tt products
-[outdated wiki link] Extension [outdated wiki link].
+This is step by step tutorial on running simple shop with `Tt
+products <tt-products>`__ Extension [outdated wiki link].
 
 *Note: This tutorial was written for version 2.5.2 of the extension, but
 it should reflect last version available. Therefore if you find that any

@@ -21,7 +21,7 @@ HTML/CSS Template
 Once again we need to design an HTML file in advance, to serve as our
 template.
 
--  TS/CSS: HTML Template [outdated wiki link]
+-  `TS/CSS: HTML Template <css-html-template>`__
 
 By way of example, I am using a very, very simple HTML layout. But
 complexity can be added in the HTML and/or through CSS. I'm assuming
@@ -39,14 +39,15 @@ The Typo3 Template Record
 Now we're ready to setup a Typo3 template record for our website. Here's
 how it goes step by step...
 
--  TS/CSS: Typo3 Template Setup [outdated wiki link]
--  TS/CSS: Typo3 TypoScript Constants [outdated wiki link]
--  TS/CSS: Typo3 TypoScript Setup [outdated wiki link]
+-  `TS/CSS: Typo3 Template Setup <css-typo3-template-setup>`__
+-  `TS/CSS: Typo3 TypoScript
+   Constants <css-typo3-typoscript-constants>`__
+-  `TS/CSS: Typo3 TypoScript Setup <css-typo3-typoscript-setup>`__
 
 That's it!
 
-Back to: My first TYPO3 site [outdated wiki link]
-=================================================
+Back to: `My first TYPO3 site <my-first-typo3-site>`__
+======================================================
 
 Some relevant reference material
 --------------------------------

@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _typo3-elasticsearch:
+
 ===================
 TYPO3.ElasticSearch
 ===================

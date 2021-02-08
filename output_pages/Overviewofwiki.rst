@@ -135,6 +135,6 @@ More Information
 
 See also:
 
--  WikiMigration [outdated wiki link]
+-  `WikiMigration <wikimigration>`__
 -  `issue in docs team
    repo <https://github.com/TYPO3-Documentation/T3DocTeam/issues/8>`__.

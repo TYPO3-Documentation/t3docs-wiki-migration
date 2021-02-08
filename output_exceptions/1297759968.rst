@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _exception-1297759968:
+
 ========================
 Exception/CMS/1297759968
 ========================
@@ -258,7 +260,7 @@ It will only output "\TYPO3\CMS\Extbase\Persistence\ObjectStorage"
 
 For me the solution was to remove the type hint from my "detailAction".
 Extbase then uses the @param annotation. But this caused another error:
-https://wiki.typo3.org/Exception/CMS/1278450972 [outdated wiki link]
+`exception-1278450972 <exception-1278450972>`__
 
 Which could only get solved by applying a patch:
 https://forge.typo3.org/issues/66049

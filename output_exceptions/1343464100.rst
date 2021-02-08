@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _exception-1343464100:
+
 ========================
 Exception/CMS/1343464100
 ========================

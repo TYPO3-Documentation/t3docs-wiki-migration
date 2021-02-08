@@ -137,7 +137,7 @@ new MySQL user.
 Relations
 =========
 
--  Project Performance tuning [outdated wiki link]
+-  Project `Performance tuning <performance-tuning>`__
 
 | 
 | << Back to Installation manual [outdated wiki link]

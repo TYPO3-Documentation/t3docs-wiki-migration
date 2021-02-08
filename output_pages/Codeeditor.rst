@@ -99,9 +99,8 @@ underlying techniques
 [STRIKEOUT:Codepress -- a javascript-based editor]
 --------------------------------------------------
 
-[STRIKEOUT:As base for the editor we are using the Codepress-Editor
-[outdated link]
-(]\ `SF-Project <http://sourceforge.net/projects/codepress/>`__\ [STRIKEOUT:)
+[STRIKEOUT:As base for the editor we are using
+the]\ `Codepress-Editor <http://codepress.org/>`__\ [STRIKEOUT:(]\ `SF-Project <http://sourceforge.net/projects/codepress/>`__\ [STRIKEOUT:)
 It's working great for IE6+ and Firefox. But there are still some things
 we are missing or like to solve in Codepress:]
 
@@ -132,8 +131,8 @@ codepress.]
 As Codepress don't fit our needs, we decide to write an own
 javascript-based editor. We looked at, and get inspired by:
 
--  Codepress [outdated link]
--  Editarea [outdated link]
+-  `Codepress <http://codepress.org/>`__
+-  `Editarea <http://www.cdolivet.net/editarea/>`__
 -  `Codeide <http://www.codeide.com/>`__
 -  http://marijn.haverbeke.nl/highlight/story.html
 -  http://marijn.haverbeke.nl/highlight/index.html

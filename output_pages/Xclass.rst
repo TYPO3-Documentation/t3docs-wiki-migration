@@ -19,8 +19,8 @@ XCLASS
 
 .. container::
 
-   This page belongs to the Core Team [outdated wiki link] (category
-   Core Team [outdated wiki link])
+   This page belongs to the `Core Team <core-team>`__ (category Core
+   Team [outdated wiki link])
 
 Introduction
 ============

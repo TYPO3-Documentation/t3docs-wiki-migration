@@ -10,7 +10,7 @@ Performance tuning
    This page belongs to the Performance tuning for TYPO3 and database
    project (category Project [outdated wiki link])
 
-<< Back to Administrators [outdated wiki link] page
+<< Back to `Administrators <overview-administrator-manuals>`__ page
 
 [edit] [outdated wiki link]
 
@@ -48,7 +48,7 @@ PHP Opcode Caching
 ------------------
 
 PHP scripts are parsed into opcodes that are later run. Read more about
-it in Opcode_Cache [outdated wiki link].
+it in `Opcode_Cache <opcode-cache>`__.
 
 Webserver proxy caching or static file caching
 ----------------------------------------------
@@ -639,8 +639,8 @@ experiment which adds basic file-caching support to index.php
 Relations
 =========
 
--  MySQL configuration [outdated wiki link] - *the basics: prepare for
-   installation, settings, rights management*
+-  `MySQL configuration <mysql-configuration>`__ - *the basics: prepare
+   for installation, settings, rights management*
 -  TYPO3.org - improvements#better performance [outdated wiki link]
 
 Links

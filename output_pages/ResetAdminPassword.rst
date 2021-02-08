@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _reset-admin-password:
+
 ========================
 FAQ/Reset admin password
 ========================
@@ -9,7 +11,7 @@ FAQ/Reset admin password
 
    **Content Type:** FAQ [outdated wiki link].
 
-<< Back to FAQ [outdated wiki link]
+<< Back to `FAQ <faq>`__
 
 .. container::
 
@@ -34,6 +36,8 @@ FAQ/Reset admin password
       `get.typo3.org <https://get.typo3.org>`__. For information about
       updating, see the `Installation & Upgrade
       Guide <https://docs.typo3.org/m/typo3/guide-installation/master/en-us/>`__
+
+.. _reset-admin-password-1:
 
 Reset admin password
 ====================

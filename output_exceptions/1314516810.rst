@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _exception-1314516810:
+
 ========================
 Exception/CMS/1314516810
 ========================
@@ -36,7 +38,8 @@ If you see this Exception because of an other reason
 
 If you upgrade from older Version to 6.2.x, and click on -> Info Icon of
 an Image that is related to a page/content element and got this
-exception? see FIX Problems with sys_file_storage [outdated wiki link]
+exception? `see FIX Problems with
+sys_file_storage <exception-1319455097>`__
 
 What also links to this exception: File /tmpl/layouts/ [myedit: or any other path/filename including \*uppercase\* letters /myedit] does not exist.
 ---------------------------------------------------------------------------------------------------------------------------------------------------

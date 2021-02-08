@@ -25,7 +25,7 @@ Fluid
       versions, see
       https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/Fluid/Index.html
 
-Also see FluidSyntax [outdated wiki link].
+Also see `FluidSyntax <fluidsyntax>`__.
 
 +-----------------------------------+-----------------------------------+
 | **Fluid / Extbase**               |                                   |
@@ -67,12 +67,13 @@ Also see FluidSyntax [outdated wiki link].
 | -  Extbase Documentation on Typo3 |                                   |
 |    Forge [outdated link]          |                                   |
 | -  Flow Manuals [outdated link]   |                                   |
-| -  FluidSyntax [outdated wiki     |                                   |
-|    link]                          |                                   |
-| -  Fluid Inline Notation          |                                   |
-|    [outdated wiki link]           |                                   |
-| -  T3Doc/Fluidtemplate by example |                                   |
-|    [outdated wiki link]           |                                   |
+| -  `FluidSyntax <fluidsyntax>`__  |                                   |
+| -  `Fluid Inline                  |                                   |
+|    No                             |                                   |
+| tation <fluid-inline-notation>`__ |                                   |
+| -  `T3Doc/Fluidtemplate by        |                                   |
+|    exam                           |                                   |
+| ple <fluidtemplate-by-example>`__ |                                   |
 +-----------------------------------+-----------------------------------+
 
 Collection of fluid [outdated wiki link] / extbase [outdated wiki link] hints
@@ -1494,8 +1495,7 @@ Rendering links from the link wizard
 
 If you are using the link wizard as described
 `here <https://docs.typo3.org/typo3cms/TCAReference/AdditionalFeatures/CoreWizardScripts/Index.html#core-wizards-browse-example>`__
-you have to use your own View Helper. Example see here [outdated wiki
-link].
+you have to use your own View Helper. Example see `here <viewhelper>`__.
 
 f:renderFlashMessages
 ---------------------

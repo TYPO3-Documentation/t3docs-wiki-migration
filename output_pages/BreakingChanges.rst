@@ -285,8 +285,8 @@ From Extbase 1.2.x to Extbase 1.3.0
 Due to a bug in PHP you can't use the *array_\** functions on the
 QueryResult though. That applies to the *current()* function too, which
 people used to return the first result. Instead you should use the
-method *getFirst()* on the QueryResult. See QueryResult [outdated wiki
-link].
+method *getFirst()* on the QueryResult. See
+`QueryResult <queryresult>`__.
 
 -  The **ConfigurationManager** has been reworked. As it was not part of
    the Public API this should not be a breaking change to you. Anyways,

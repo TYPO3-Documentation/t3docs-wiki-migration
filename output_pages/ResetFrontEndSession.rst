@@ -1,6 +1,8 @@
 .. include:: /Includes.rst.txt
 .. highlight:: php
 
+.. _reset-front-end-session:
+
 ===========================
 FAQ/Reset front end session
 ===========================
@@ -9,7 +11,9 @@ FAQ/Reset front end session
 
    **Content Type:** FAQ [outdated wiki link].
 
-<< Back to FAQ [outdated wiki link]
+<< Back to `FAQ <faq>`__
+
+.. _reset-front-end-session-1:
 
 Reset front end session
 =======================

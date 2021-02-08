@@ -5,8 +5,8 @@
 Symlinks on Windows
 ===================
 
-<< Back to Installation basics [outdated wiki link] or Windows [outdated
-wiki link]
+<< Back to `Installation basics <typo3-installation-basics>`__ or
+`Windows <windows>`__
 
 Introduction
 ============

@@ -7,8 +7,9 @@ Inline Relational Record Editing Attributes
 
 .. container::
 
-   This page belongs to the Inline Relational Record Editing project
-   [outdated wiki link] (category Project [outdated wiki link])
+   This page belongs to the `Inline Relational Record Editing
+   project <inline-relational-record-editing>`__ (category Project
+   [outdated wiki link])
 
 ==========
 Attributes
