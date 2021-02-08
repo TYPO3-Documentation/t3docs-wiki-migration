@@ -241,11 +241,14 @@ abstract class AbstractWiki
     {
         $crawler = new Crawler(file_get_contents($sourceFile));
         $title = $crawler->filterXPath('//h1[@id="firstHeading"]')->outerHtml();
-        $body = $crawler->filterXPath('//div[@class="mw-parser-output"]/*[not(contains(@class, "toc"))]')
+        $bodyParts = $crawler->filterXPath('//div[@class="mw-parser-output"]/*[not(contains(@class, "toc"))]')
             ->each(function(Crawler $node){return $node->outerHtml();});
         $pageId = $this->getPageId($pageName);
 
-        $content = $title . "\n\n" . implode("\n\n", $body);
+        $body = implode("\n\n", $bodyParts);
+        $this->streamlineHeadingsOfPageBody($body);
+
+        $content = $title . "\n\n" . $body;
         $content = preg_replace('/id="[^"]*"/', '', $content);
         $content = preg_replace('/class="[^"]*"/', '', $content);
         $content = preg_replace('/width="[^"]*"/', '', $content);
@@ -258,6 +261,35 @@ abstract class AbstractWiki
         }, $content, 1);
 
         file_put_contents($targetFile, $content);
+    }
+
+    /**
+     * Remove any <h1> heading from the page body - as it should be used in the page title only.
+     * Reduce gaps between headings, e.g. <h2><h4> should become <h2><h3>
+     *
+     * @param string $pageBody
+     */
+    protected function streamlineHeadingsOfPageBody(string &$pageBody): void
+    {
+        preg_match_all('|<h([1-5])|', $pageBody, $matches);
+
+        if (count($matches) > 0) {
+            $headerMap = array_flip($matches[1]);
+
+            ksort($headerMap);
+            for ($level=2, reset($headerMap); $level<count($headerMap)+2; $level++, next($headerMap)) {
+                $headerMap[key($headerMap)] = $level;
+            }
+
+            krsort($headerMap);
+            foreach ($headerMap as $originalLevel => $actualLevel) {
+                $pageBody = str_replace(
+                    ['<h'.$originalLevel, 'h'.$originalLevel.'>'],
+                    ['<h'.$actualLevel, 'h'.$actualLevel.'>'],
+                    $pageBody
+                );
+            }
+        }
     }
 
     /**

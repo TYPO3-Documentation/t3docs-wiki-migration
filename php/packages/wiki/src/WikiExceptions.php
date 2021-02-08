@@ -90,11 +90,14 @@ class WikiExceptions extends AbstractWiki
     {
         $crawler = new Crawler(file_get_contents($sourceFile));
         $title = sprintf('<h1>TYPO3 Exception %s</h1>', $pageName);
-        $body = $crawler->filterXPath('//div[@class="mw-parser-output"]/*[not(contains(@class, "toc"))]')
+        $bodyParts = $crawler->filterXPath('//div[@class="mw-parser-output"]/*[not(contains(@class, "toc"))]')
             ->each(function(Crawler $node){return $node->outerHtml();});
         $pageId = $this->getPageId($pageName);
 
-        $content = $title . "\n\n" . implode("\n\n", $body);
+        $body = implode("\n\n", $bodyParts);
+        $this->streamlineHeadingsOfPageBody($body);
+
+        $content = $title . "\n\n" . $body;
         $content = preg_replace('/id="[^"]*"/', '', $content);
         $content = preg_replace('/class="[^"]*"/', '', $content);
         $content = preg_replace('/width="[^"]*"/', '', $content);
