@@ -370,12 +370,12 @@ abstract class AbstractWiki
                             $this->info("Link %s of page %s gets replaced by %s.", $link['urlAbs'], $pageName, $actualUrl);
                         }
                     } else {
-                        $replace[$link['node']] = $link['text'] . ' [outdated wiki link]';
-                        $this->warn("Link %s of page %s gets removed as it links to deprecated wiki instance.", $link['urlAbs'], $pageName);
+                        $replace[$link['node']] = $link['node'] . ' [deprecated wiki link]';
+                        $this->warn("Link %s of page %s gets marked as outdated as it links to deprecated wiki instance.", $link['urlAbs'], $pageName);
                     }
                 } else {
-                    $replace[$link['node']] = $link['text'] . ' [outdated link]';
-                    $this->warn("Link %s of page %s gets removed as it is outdated.", $link['urlAbs'], $pageName);
+                    $replace[$link['node']] = $link['node'] . ' [not available anymore]';
+                    $this->warn("Link %s of page %s gets marked as outdated as it is not available.", $link['urlAbs'], $pageName);
                 }
             }
 
