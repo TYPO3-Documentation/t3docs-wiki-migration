@@ -281,7 +281,6 @@ class WikiPages extends AbstractWiki
             'TS/CSS:_HTML_Template',
             'Enhanced_TypoScript_editing_with_the_jEdit_editor',
             'OverviewOfWiki',
-            'Typo3_Installation_Basics',
             'Commerce',
             'Formidable_documentation',
             'EXT/Rating_AX',
