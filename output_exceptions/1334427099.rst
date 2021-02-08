@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1334427099:
-
-========================
-Exception/CMS/1334427099
-========================
+==========================
+TYPO3 Exception 1334427099
+==========================
 
 What I did? I tried to log on as a back-end user whilst still logged in
 as admin in the back-end. Now I am not able to log on again.

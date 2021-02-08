@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1295479651:
-
-========================
-Exception/CMS/1295479651
-========================
+==========================
+TYPO3 Exception 1295479651
+==========================
 
 #1295479651: The default action can not be determined for controller
 "Foo". Please check

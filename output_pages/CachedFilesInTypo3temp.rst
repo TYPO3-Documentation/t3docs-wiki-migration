@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _cached-files-in-typo3temp:
 

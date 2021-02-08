@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _translation:
 
@@ -10,7 +9,7 @@ Translations
 .. container::
 
    This page belongs to the TYPO3 Core & Extensions Translation project
-   (category Project [outdated wiki link])
+   (category `Project </Category:Project>`__ [deprecated wiki link])
 
 .. container::
 
@@ -28,13 +27,14 @@ Translations
 Projects
 ========
 
--  Support for XLIFF [outdated wiki link] is available in TYPO3 4.6. To
-   be able to use XLIFF, a new `Translation
+-  `Support for XLIFF </Support_for_XLIFF>`__ [deprecated wiki link] is
+   available in TYPO3 4.6. To be able to use XLIFF, a new `Translation
    Server <http://translation.typo3.org>`__ based on Pootle has been set
    up.
 
-A very good page with information about localization management with
-XLIFF [outdated link] has been set up by Xavier Perseguers.
+A `very good page with information about localization management with
+XLIFF <http://xavier.perseguers.ch/tutoriels/typo3/articles/managing-localization-files.html>`__
+[not available anymore] has been set up by Xavier Perseguers.
 
 Translation Workflow
 ====================
@@ -68,8 +68,9 @@ Possibilities of "everyone else"
 -  Propose translations for changed or missing (new) labels
 -  respect the common terminology
 
-Originally based on "process of translating TYPO3 (core and extensions)"
-by Kasper [outdated link].
+Originally based on `"process of translating TYPO3 (core and
+extensions)" by Kasper <https://typo3.org/extensions/translate/>`__ [not
+available anymore].
 
 Translation process
 ===================
@@ -83,19 +84,20 @@ version based on the common vocabulary for the language. If you would
 like to do more and engage yourself for a longer time, you can become a
 translation team member. If you want to become a team member, you have
 to do the following: Login on `typo3.org <http://typo3.org>`__ and then
-visit the translation server. Afterwards write an e-mail to the language
-administrator of your language [outdated wiki link]. He can make you
-member of the translation team for your language so that you can do your
-translation work.
+visit the translation server. Afterwards write an e-mail to the
+`language administrator of your language <#Translation_Teams>`__
+[deprecated wiki link]. He can make you member of the translation team
+for your language so that you can do your translation work.
 
 Extensions available for translation
 ------------------------------------
 
 The translation server is not only a place to translate the language
-files of the TYPO3 core: We can also translate extension [outdated wiki
-link]s there. Right now only manually added extensions can be
-translated. If your extension is not on the list and you would like it
-to be, please file a "task" issue in the `Forge
+files of the TYPO3 core: We can also translate
+`extension </Category:Extension>`__ [deprecated wiki link]s there. Right
+now only manually added extensions can be translated. If your extension
+is not on the list and you would like it to be, please file a "task"
+issue in the `Forge
 bugtracker <https://forge.typo3.org/projects/show/team-translation>`__
 or request for admission via `translators mailing
 list <http://lists.typo3.org/cgi-bin/mailman/listinfo/typo3-project-documentation>`__.
@@ -289,18 +291,20 @@ goal is to change that.
       You want to help us?
       Then go here:
 
-      Hardcoded [outdated wiki link]
+      `Hardcoded </Hardcoded>`__ [deprecated wiki link]
 
 Labels not needed for TYPO3 terminology
 =======================================
 
-With the Terminology Project [outdated wiki link] we have built a
-Terminology list for TYPO3! This list is now used for the Terminology
-hints, when you translate on the `Translation
-Server <http://translation.typo3.org>`__.
+With the `Terminology Project </Translations/Terminology_Project>`__
+[deprecated wiki link] we have built a Terminology list for TYPO3! This
+list is now used for the Terminology hints, when you translate on the
+`Translation Server <http://translation.typo3.org>`__.
 
 Inside that terminology there are some labels that are not really needed
-for TYPO3. See this page [outdated wiki link].
+for TYPO3. `See this
+page </Translations/Terminology_Project/Words_to_remove>`__ [deprecated
+wiki link].
 
 locallang_common.xlf
 ====================
@@ -340,42 +344,45 @@ Translation Teams
 
 Translation teams have been formed for the following languages:
 
--  Bahasa Indonesia [outdated wiki link]
--  Bulgarian [outdated wiki link]
--  Brazilian Portuguese [outdated wiki link]
--  Czech [outdated wiki link]
--  Croatian [outdated wiki link]
--  Danish [outdated wiki link]
--  Dutch [outdated wiki link]
--  Estonian [outdated wiki link]
--  Filipino [outdated wiki link]
--  French [outdated wiki link]
--  Galician [outdated wiki link]
--  German [outdated wiki link]
--  Greek [outdated wiki link]
--  Hebrew [outdated wiki link]
--  Hungarian [outdated wiki link]
--  Italian [outdated wiki link]
--  Khmer [outdated wiki link]
--  Latvian [outdated wiki link]
--  Polish [outdated wiki link]
--  Romanian [outdated wiki link]
--  Russian [outdated wiki link]
--  Slovak [outdated wiki link]
--  Slovenian [outdated wiki link]
--  Spanish [outdated wiki link]
--  Swedish [outdated wiki link]
--  Thai [outdated wiki link]
--  Japanese [outdated wiki link]
--  Turkish [outdated wiki link]
+-  `Bahasa Indonesia </Bahasa-Translation-Team>`__ [deprecated wiki
+   link]
+-  `Bulgarian </Bulgarian-Translation-Team>`__ [deprecated wiki link]
+-  `Brazilian Portuguese </Brazilian-Translation-Team>`__ [deprecated
+   wiki link]
+-  `Czech </Czech-Translation-Team>`__ [deprecated wiki link]
+-  `Croatian </Croatian-Translation-Team>`__ [deprecated wiki link]
+-  `Danish </Danish-Translation-Team>`__ [deprecated wiki link]
+-  `Dutch </Dutch-Translation-Team>`__ [deprecated wiki link]
+-  `Estonian </Estonian-Translation-Team>`__ [deprecated wiki link]
+-  `Filipino </Filipino-Translation-Team>`__ [deprecated wiki link]
+-  `French </French-Translation-Team>`__ [deprecated wiki link]
+-  `Galician </Galician-Translation-Team>`__ [deprecated wiki link]
+-  `German </German-Translation-Team>`__ [deprecated wiki link]
+-  `Greek </Greek-Translation-Team>`__ [deprecated wiki link]
+-  `Hebrew </Hebrew-Translation-Team>`__ [deprecated wiki link]
+-  `Hungarian </Hungarian-Translation-Team>`__ [deprecated wiki link]
+-  `Italian </Italian-Translation-Team>`__ [deprecated wiki link]
+-  `Khmer </Khmer-Translation-Team>`__ [deprecated wiki link]
+-  `Latvian </Latvian-Translation-Team>`__ [deprecated wiki link]
+-  `Polish </Polish-Translation-Team>`__ [deprecated wiki link]
+-  `Romanian </Romanian-Translation-Team>`__ [deprecated wiki link]
+-  `Russian </Russian-Translation-Team>`__ [deprecated wiki link]
+-  `Slovak </Slovak-Translation-Team>`__ [deprecated wiki link]
+-  `Slovenian </Slovenian-Translation-Team>`__ [deprecated wiki link]
+-  `Spanish </Spanish-Translation-Team>`__ [deprecated wiki link]
+-  `Swedish </Swedish-Translation-Team>`__ [deprecated wiki link]
+-  `Thai </Thai-Translation-Team>`__ [deprecated wiki link]
+-  `Japanese </Japanese-Translation-Team>`__ [deprecated wiki link]
+-  `Turkish </Turkish-Translation-Team>`__ [deprecated wiki link]
 
 To facilitate broader acceptance of TYPO3 in the world we would very
 much like to see translation teams for `all of the six UN
 languages <http://en.wikipedia.org/wiki/United_Nations>`__. We still
 miss:
 
--  Arabic [outdated link]
--  Chinese [outdated wiki link]
+-  `Arabic </wiki/index.php?title=Arabic-Translation-Team&action=edit&redlink=1>`__
+   [not available anymore]
+-  `Chinese </Chinese-Translation-Team>`__ [deprecated wiki link]
 
 If you would like to become a member of a translation team, please
 contact the administrator for your language. If your language does not
@@ -452,7 +459,7 @@ Migrating locallang.xml to locallang.xlf
 
 Please follow the tutorial at:
 http://xavier.perseguers.ch/en/tutorials/typo3/articles/managing-localization-files.html
-[outdated link]
+[not available anymore]
 
 Using this tutorial and EXT:xliff you're able to use xliff from 4.5
 until current TYPO3 easily ;) But if you're already using a current

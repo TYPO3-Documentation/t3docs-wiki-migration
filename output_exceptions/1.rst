@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1:
-
-===============
-Exception/CMS/1
-===============
+=================
+TYPO3 Exception 1
+=================
 
 typo3 4.6.0
 ===========
@@ -99,7 +96,7 @@ Solution
 
 Delete content of /typo3temp folder.
 http://www.typo3forum.net/forum/typo3-4-x-backend/56543-kein-login-fatal-error-typo3-4-7-1-a.html#post187281
-[outdated link]
+[not available anymore]
 
 typo3 4.7.14
 ============
@@ -137,7 +134,8 @@ typo3 6.1.0
 indexed search
 --------------
 
-I get this error after installing indexed search [outdated wiki link].
+I get this error after installing `indexed
+search </De:Indexed_search>`__ [deprecated wiki link].
 
 ::
 
@@ -219,7 +217,7 @@ Solution
 --------
 
 Download the news versions from GIT of "view"
-https://github.com/FluidTYPO3/view [outdated link]
+https://github.com/FluidTYPO3/view [not available anymore]
 
 unfortunately only working partly:
 typo3_src-6.2.0/typo3/sysext/lang/Classes/LanguageService.php line 250
@@ -376,8 +374,9 @@ Solution
 
 At 1st initial start of this page after clearing the cache, after reload
 [e.g. pressing F5] this message disappears, and page runs fine...
---David bruchmann [outdated wiki link] (talk [outdated wiki link])
-02:03, 27 August 2014 (CEST)
+--`David bruchmann </User:David_bruchmann>`__ [deprecated wiki link]
+(`talk </wiki/index.php?title=User_talk:David_bruchmann&action=edit&redlink=1>`__
+[deprecated wiki link]) 02:03, 27 August 2014 (CEST)
 
 .. _typo3-6.2.4-1:
 
@@ -463,7 +462,8 @@ using ``$objectManager->get('MyExtension\MyRepository')``:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -597,7 +597,7 @@ content of the mail
 
    PHP Warning: array_shift() expects parameter 1 to be array, null given in
    typo3_src-7.6.10/vendor/symfony/console/Input/ArgvInput.php line 61
-   More information regarding this error might be available https://typo3.org/go/exception/CMS/1 [outdated wiki link]
+   More information regarding this error might be available https://typo3.org/go/exception/CMS/1 [deprecated wiki link]
 
 indexed_search
 --------------

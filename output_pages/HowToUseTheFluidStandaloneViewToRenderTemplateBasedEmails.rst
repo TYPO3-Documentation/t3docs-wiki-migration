@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ====================================================================
 How to use the Fluid Standalone view to render template based emails
@@ -19,16 +18,23 @@ How to use the Fluid Standalone view to render template based emails
 | 
 | Find the Code for TYPO3 versions below:
 
--  TYPO3 version 6 [outdated wiki link]
--  TYPO3 version 7.6 [outdated wiki link]
--  TYPO3 version 8.7 [outdated wiki link]
+-  `TYPO3 version
+   6 </How_to_use_the_Fluid_Standalone_view_to_render_template_based_emails#Usage_in_TYPO3_6.0_and_higher>`__
+   [deprecated wiki link]
+-  `TYPO3 version
+   7.6 </How_to_use_the_Fluid_Standalone_view_to_render_template_based_emails#Usage_in_TYPO3_7.6_and_higher>`__
+   [deprecated wiki link]
+-  `TYPO3 version
+   8.7 </How_to_use_the_Fluid_Standalone_view_to_render_template_based_emails#Usage_in_TYPO3_8.7>`__
+   [deprecated wiki link]
 
 Add the following function to your controller (or preferably to a common
 abstract base controller).
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -77,7 +83,8 @@ Usage
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -98,7 +105,8 @@ make the *f:translate* view helper work as expected:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -120,7 +128,8 @@ sending the Email you need replace in line 10:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -132,7 +141,8 @@ instead of:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -151,7 +161,8 @@ html and text use setFormat to switch the template-fileending used.
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -175,7 +186,8 @@ snippet has not changed.
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -236,7 +248,8 @@ In LTS7 you have to use the following line to get the absolute filepath:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -253,7 +266,8 @@ loaded" please add the following lines before calling method
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -273,7 +287,8 @@ Extension Builder (ver.8.7 from git):
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -293,5 +308,5 @@ Extension Builder (ver.8.7 from git):
 
    .. container::
 
-   *Please remove "{{Todo}}" when the problem is solved. See all todos
-   [outdated wiki link].*
+   *Please remove "{{Todo}}" when the problem is solved. See*\ `all
+   todos </Category:Wiki-Todo>`__\ *[deprecated wiki link].*

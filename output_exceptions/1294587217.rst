@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1294587217:
-
-========================
-Exception/CMS/1294587217
-========================
+==========================
+TYPO3 Exception 1294587217
+==========================
 
 Hello! I received this error message from my TYPO3-Frontend. Reason:
 Inside the Template of this page there were spaces inside the lines
@@ -68,8 +65,8 @@ words "HELLO WORLD!".
   configured.
 
 This error is thrown when an old dead link is called after update to
-TYPO3 CMS 6.2. Please see: http://www.bahai.by/be/?type=103 [outdated
-link] Why no 404 error.
+TYPO3 CMS 6.2. Please see: http://www.bahai.by/be/?type=103 [not
+available anymore] Why no 404 error.
 
 Using Bootstrap_package
 =======================

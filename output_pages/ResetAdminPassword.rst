@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _reset-admin-password:
 
@@ -9,7 +8,7 @@ FAQ/Reset admin password
 
 .. container::
 
-   **Content Type:** FAQ [outdated wiki link].
+   **Content Type:** `FAQ </Category:FAQ>`__ [deprecated wiki link].
 
 << Back to `FAQ <faq>`__
 
@@ -21,7 +20,7 @@ FAQ/Reset admin password
 
       Current TYPO3-Version uses other hashing algorithms. See
       https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/PasswordHashing/Index.htmlFor
-      [outdated link] 9 LTS you can use tools like
+      [not available anymore] 9 LTS you can use tools like
       `this <http://antelle.net/argon2-browser/>`__ to generate a new
       password hash. (Be aware to type real passwords in foreign pages!)
 
@@ -66,7 +65,8 @@ You can also edit the database directly:
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -86,7 +86,8 @@ row with the following:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 

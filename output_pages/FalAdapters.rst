@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ============
 FAL Adapters
@@ -20,10 +19,16 @@ Adapters
 |             |             | o3.org/exte |             | 7.1+        |
 |             |             | nsion/fal_w |             |             |
 |             |             | ebdav/>`__, |             |             |
-|             |             | forg        |             |             |
-|             |             | e.typo3.org |             |             |
-|             |             | [outdated   |             |             |
-|             |             | link],      |             |             |
+|             |             | `forge.ty   |             |             |
+|             |             | po3.org <ht |             |             |
+|             |             | tps://forge |             |             |
+|             |             | .typo3.org/ |             |             |
+|             |             | projects/ex |             |             |
+|             |             | tension-fal |             |             |
+|             |             | _webdav>`__ |             |             |
+|             |             | [not        |             |             |
+|             |             | available   |             |             |
+|             |             | anymore],   |             |             |
 |             |             | `Git <https |             |             |
 |             |             | ://git.typo |             |             |
 |             |             | 3.org/TYPO3 |             |             |
@@ -37,10 +42,17 @@ Adapters
 |             |             | typo3.org/e |             | for TYPO3   |
 |             |             | xtension/fa |             | CMS 6.1 and |
 |             |             | l_ftp/>`__, |             | 6.2         |
-|             |             | forg        |             |             |
-|             |             | e.typo3.org |             |             |
-|             |             | [outdated   |             |             |
-|             |             | link] and   |             |             |
+|             |             | `forge      |             |             |
+|             |             | .typo3.org  |             |             |
+|             |             | <https://fo |             |             |
+|             |             | rge.typo3.o |             |             |
+|             |             | rg/projects |             |             |
+|             |             | /extension- |             |             |
+|             |             | fal_ftp>`__ |             |             |
+|             |             | [not        |             |             |
+|             |             | available   |             |             |
+|             |             | anymore]    |             |             |
+|             |             | and         |             |             |
 |             |             | `Git        |             |             |
 |             |             | Hub <https: |             |             |
 |             |             | //github.co |             |             |
@@ -179,8 +191,9 @@ Ideas for adapters
 |             |             | asho.com/te | Dobberkau   |             |
 |             |             | chnology/wh | (           |             |
 |             |             | y-use-riak/ | Ideaholder) |             |
-|             |             | [outdated   |             |             |
-|             |             | link]       |             |             |
+|             |             | [not        |             |             |
+|             |             | available   |             |             |
+|             |             | anymore]    |             |             |
 +-------------+-------------+-------------+-------------+-------------+
 | Gallery     | DAM         | http:/      |             |             |
 |             |             | /gallery.me |             |             |

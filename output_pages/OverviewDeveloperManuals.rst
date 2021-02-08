@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==========================
 Overview Developer Manuals
@@ -17,9 +16,10 @@ Overview Developer Manuals
       document is `TYPO3
       Explained <https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/Index.html>`__
 
-<< Back to Main Page [outdated wiki link]
+<< Back to `Main Page </Main_Page>`__ [deprecated wiki link]
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=Overview_Developer_Manuals&action=edit&section=0>`__
+[deprecated wiki link]
 
 Developer Manuals
 =================
@@ -46,15 +46,20 @@ Revision Control and Development of core
 Extension development
 ---------------------
 
--  Extbase [outdated wiki link]
+-  `Extbase </Extbase>`__ [deprecated wiki link]
 -  `Extension Development <extension-development>`__ Mini-HowTo
 
-   -  TYPO3.org - manual for developers [outdated wiki link]
-   -  Project Coding Guidelines [outdated wiki link]
+   -  `TYPO3.org - manual for developers </T3Doc/How_typo3.org_works>`__
+      [deprecated wiki link]
+   -  `Project Coding Guidelines </T3Doc/TYPO3_Coding_Guidelines>`__
+      [deprecated wiki link]
    -  `Extension Development Guide (XDG) <extension-developers-guide>`__
-   -  Extension Development, Security Guidelines [outdated link]
-   -  Extension Development, configuration of the extension [outdated
-      wiki link]
+   -  `Extension Development, Security
+      Guidelines </wiki/index.php?title=Extension_Development,_Security_Guidelines&action=edit&redlink=1>`__
+      [not available anymore]
+   -  `Extension Development, configuration of the
+      extension </Extension_Development,_configuration_of_the_extension>`__
+      [deprecated wiki link]
    -  `Extension Development, add static extension
       templates <extension-development-add-static-extension-templates>`__
    -  `Extension Development, add user
@@ -65,7 +70,9 @@ Extension development
       Forms <extension-development-using-post-forms>`__
    -  `Extension Development, using
       Flexforms <extension-development-using-flexforms>`__
-   -  Extension Development, using HTML-Templates [outdated link]
+   -  `Extension Development, using
+      HTML-Templates </wiki/index.php?title=Extension_Development,_using_HTML-Templates&action=edit&redlink=1>`__
+      [not available anymore]
    -  `Extension Development, add Page TSconfig, User TSconfig and
       TS <extension-development-add-page-tsconfig-user-tsconfig-and-ts>`__
    -  `Extension Development, page types already in use (typeNum,
@@ -74,19 +81,25 @@ Extension development
       startingpoint <extension-development-add-a-startingpoint>`__
    -  `Extension Development,
       Debugging <extension-development-debugging>`__
-   -  Modify $TCA [outdated link]
-   -  Extension Development, native ExtJS Modules (starting from 4.6
-      hopefully 4.5.4) [outdated wiki link]
-   -  Proper caching by the usage of two plugins [outdated link]
+   -  `Modify
+      $TCA </wiki/index.php?title=Modify_%24TCA&action=edit&redlink=1>`__
+      [not available anymore]
+   -  `Extension Development, native ExtJS Modules (starting from 4.6
+      hopefully 4.5.4) </Extension_Development,_native_ExtJS_Modules>`__
+      [deprecated wiki link]
+   -  `Proper caching by the usage of two
+      plugins <http://t3flyers.wordpress.com/2006/09/11/a-quick-guide-to-proper-caching-with-tslib_pibase-episode-1/>`__
+      [not available anymore]
 
 -  `MVC_Framework <mvc-framework>`__ Object oriented extension
    development with the MVC framework lib/div
 
-   -  apples [outdated link] Tutorial 1
-   -  bananas [outdated wiki link] Tutorial 2
+   -  `apples </wiki/index.php?title=Apples&action=edit&redlink=1>`__
+      [not available anymore] Tutorial 1
+   -  `bananas </Bananas>`__ [deprecated wiki link] Tutorial 2
 
--  Standardization [outdated wiki link] Follow these standards and
-   propose new ones
+-  `Standardization </Standardization>`__ [deprecated wiki link] Follow
+   these standards and propose new ones
 
 PHP Editors / IDE for TYPO3
 ---------------------------
@@ -95,27 +108,36 @@ PHP Editors / IDE for TYPO3
 -  `Efficiently Debugging TYPO3 <efficiently-debugging-typo3>`__
 -  `Using the PHPUnit extension for TYPO3 CMS in
    PhpStorm <using-the-phpunit-extension-for-typo3-cms-in-phpstorm>`__
--  PHPStorm Settings [outdated link]
+-  `PHPStorm
+   Settings </wiki/index.php?title=Development/PHPStorm_Settings&action=edit&redlink=1>`__
+   [not available anymore]
 
 Tips and troubleshooting
 ------------------------
 
--  TYPO3_sourcecode_profiling [outdated wiki link]
--  Script Error Handling [outdated wiki link]
+-  `TYPO3_sourcecode_profiling </TYPO3_sourcecode_profiling>`__
+   [deprecated wiki link]
+-  `Script Error Handling </Script_Error_Handling>`__ [deprecated wiki
+   link]
 
 TypoScript Library
 ------------------
 
--  The TypoScript Library Project [outdated wiki link]
+-  `The TypoScript Library Project </TS/TypoScript_Library>`__
+   [deprecated wiki link]
 
 TypoScript
 ----------
 
--  TypoScript Syntax and In-depth Study [outdated link]
+-  `TypoScript Syntax and In-depth
+   Study <https://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/>`__
+   [not available anymore]
 -  `TypoScript - PHP Interaction <typoscript-php-interaction>`__
 -  `TypoScript language additions,
    override <typoscript-language-additions-override>`__
--  Enhanced TypoScript editing with the jEdit editor [outdated link]
+-  `Enhanced TypoScript editing with the jEdit
+   editor </wiki/index.php?title=Enhanced_TypoScript_editing_with_the_jEdit_editor&action=edit&redlink=1>`__
+   [not available anymore]
 -  `TypoScript Header Image <typoscript-header-image>`__
 
 TypoScript Editing
@@ -123,29 +145,43 @@ TypoScript Editing
 
 -  `Emacs TypoScript
    Mode <http://www.emacswiki.org/emacs/TypoScriptMode>`__
--  TextMate TYPO3 Bundle [outdated link]
+-  `TextMate TYPO3
+   Bundle <http://castironcoding.com/downloads/CIC_typo3_bundle.zip>`__
+   [not available anymore]
 
 TYPO3 CMS Core
 --------------
 
--  Inside TYPO3 [outdated wiki link]
--  TYPO3 Core APIs [outdated wiki link]
--  TYPO3 Services [outdated wiki link]
--  Caching and The Mysteries Of &cHash [outdated link]
--  Reviewing and submitting patches to the core [outdated link]
+-  `Inside TYPO3 </T3Doc/Inside_TYPO3>`__ [deprecated wiki link]
+-  `TYPO3 Core APIs </T3Doc/TYPO3_Core_APIs>`__ [deprecated wiki link]
+-  `TYPO3 Services </T3Doc/TYPO3_Services>`__ [deprecated wiki link]
+-  `Caching and The Mysteries Of
+   &cHash <https://typo3.org/documentation/article/the-mysteries-of-chash/>`__
+   [not available anymore]
+-  `Reviewing and submitting patches to the
+   core </wiki/index.php?title=Git_Gerrit&action=edit&redlink=1>`__ [not
+   available anymore]
 
 Miscellaneous / Links
 ---------------------
 
 -  Miscellaneous
 
-   -  Details of Static Templates [outdated wiki link]
+   -  `Details of Static
+      Templates </T3Doc/Details_of_Static_Templates>`__ [deprecated wiki
+      link]
    -  `Additional columns in WEB-Page
       Module <additional-columns-in-web-page-module>`__
-   -  Exploring the Core Project [outdated link]
-   -  Helpful Tools [outdated link]
-   -  TYPO3 JOBS [outdated wiki link]
-   -  Set up a TYPO3 PHP IDE with debugger [outdated link]
+   -  `Exploring the Core
+      Project </wiki/index.php?title=Exploring_the_Core_Project&action=edit&redlink=1>`__
+      [not available anymore]
+   -  `Helpful
+      Tools </wiki/index.php?title=Helpful_Tools&action=edit&redlink=1>`__
+      [not available anymore]
+   -  `TYPO3 JOBS </TYPO3_JOBS>`__ [deprecated wiki link]
+   -  `Set up a TYPO3 PHP IDE with
+      debugger <http://www.robvonk.com/typo3-informatie/setup-a-typo3-development-ide-with-debugger/>`__
+      [not available anymore]
    -  `Video-tutorial showing how to debug TYPO3 sites live with
       Eclipse, XDebug and
       SSHFS <http://www.evorion.hr/fileadmin/videos_en/eclipse_php_xdebug.ogv>`__
@@ -153,4 +189,6 @@ Miscellaneous / Links
 
 -  Caching
 
-   -  Dynamic Caching in TYPO3 [outdated link]
+   -  `Dynamic Caching in
+      TYPO3 <http://castironcoding.com/resources/typo3-admins-corner/typo3-admin-corner-article/article/dynamic-caching-in-typo3/index.html>`__
+      [not available anymore]

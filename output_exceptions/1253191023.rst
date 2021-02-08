@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1253191023:
-
-========================
-Exception/CMS/1253191023
-========================
+==========================
+TYPO3 Exception 1253191023
+==========================
 
 **#1253191023: TypoScript object path "tt_content.list.20.yourext" does
 not exist**

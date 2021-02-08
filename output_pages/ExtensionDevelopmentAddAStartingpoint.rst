@@ -1,11 +1,11 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==========================================
 Extension Development, add a startingpoint
 ==========================================
 
-Template:Head-Howto [outdated link]
+`Template:Head-Howto </wiki/index.php?title=Template:Head-Howto&action=edit&redlink=1>`__
+[not available anymore]
 
 .. container::
 
@@ -22,7 +22,8 @@ Template:Head-Howto [outdated link]
 << Back to `Extension Development <extension-development>`__ << Back to
 `Developer manuals <overview-developer-manuals>`__ page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_add_a_startingpoint&action=edit&section=0>`__
+[deprecated wiki link]
 
 Startingpoint
 =============
@@ -47,7 +48,8 @@ Remove **pages** from **subtypes_excludelist** in **ext_tables.php**:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -60,12 +62,14 @@ Remove **pages** from **subtypes_excludelist** in **ext_tables.php**:
 
 | 
 | Now we may use MySQL's ``IN`` operator to make sure we select only
-  records on the desired pages. We also use t3lib_DB::cleanIntList()
-  [outdated link] to stay safe of sql injections:
+  records on the desired pages. We also use
+  `t3lib_DB::cleanIntList() <https://typo3.org/fileadmin/typo3api-4.0.0/de/d07/classt3lib__DB.html#7d45dad7dfa1fdb4bd0e6a09cd34ba61>`__
+  [not available anymore] to stay safe of sql injections:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -91,7 +95,8 @@ recursion and gain some speed:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -105,7 +110,8 @@ recursion and gain some speed:
           'S2.uid='..$GLOBALS['TYPO3_DB']->cleanIntList($parentUid).' AND WA.deleted=0 AND WA.hidden=0'.(count($this->andWhere)?' AND '.implode(' AND ',$this->andWhere):'').(count($this->orWhere)?' AND ('.implode(' OR ',$this->orWhere).')':''),
           'S1.uid','WA.pid','');
 
---Chibox [outdated wiki link] 15:38, 12 February 2008 (CET)
+--`Chibox </User:Chi_hoang>`__ [deprecated wiki link] 15:38, 12 February
+2008 (CET)
 
 .. |Typo3-extension-startingpoint.png| image:: files/Typo3-extension-startingpoint.png
    :target: /File:Typo3-extension-startingpoint.png

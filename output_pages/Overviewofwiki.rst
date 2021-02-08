@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==============
 OverviewOfWiki
@@ -11,10 +10,10 @@ Overview of Wiki
 Categories
 ----------
 
-This is an overview of what is currently in the Wiki. The categories
-[outdated wiki link] are being used to categorize and tag the Wiki.
-There are some ways to categorize the content e.g. by DocumentState, by
-ContentType etc.
+This is an overview of what is currently in the Wiki. The
+`categories </Special:Categories>`__ [deprecated wiki link] are being
+used to categorize and tag the Wiki. There are some ways to categorize
+the content e.g. by DocumentState, by ContentType etc.
 
 ContentType
 ^^^^^^^^^^^
@@ -23,43 +22,45 @@ category:
 
 -  TYPO3 **documentation** (english). You can find documentation in the
    subcategories of the category Documentation:
-   https://wiki.typo3.org/Category:Documentation [outdated wiki link]
+   https://wiki.typo3.org/Category:Documentation [deprecated wiki link]
 -  TYPO3 **documentation (other languages)**, e.g. (Japanese):
    https://wiki.typo3.org/Ja:T3Doc/doc_core_inside/Using_versioning_and_workspaces
-   [outdated wiki link]
+   [deprecated wiki link]
 -  **Extension documentation**: For some older extensions, a Wiki page
    is still used as documentation (see category
-   https://wiki.typo3.org/Category:ExtensionDocumentation [outdated wiki
-   link]). In the meantime, it is recommended to add the documentation
-   to the Git repository of the extension and render it on GitHub,
-   Gitlab and / or docs.typo3.org. For some of these (but not for all),
-   the category Category:ExtensionsOnlyDocumentation [outdated wiki
-   link] was used. This category is for "pages in this wiki that are the
-   only available documentation of the extension." The pages that have
-   the documentation elsewhere can be marked as to be deleted with
-   {{delete}}.
+   https://wiki.typo3.org/Category:ExtensionDocumentation [deprecated
+   wiki link]). In the meantime, it is recommended to add the
+   documentation to the Git repository of the extension and render it on
+   GitHub, Gitlab and / or docs.typo3.org. For some of these (but not
+   for all), the category
+   `Category:ExtensionsOnlyDocumentation <https://wiki.typo3.org/Category:ExtensionsOnlyDocumentation>`__
+   [deprecated wiki link] was used. This category is for "pages in this
+   wiki that are the only available documentation of the extension." The
+   pages that have the documentation elsewhere can be marked as to be
+   deleted with {{delete}}.
 -  **Exception** descriptions + hints: uses the prefix "Exception", see
    https://wiki.typo3.org/Special:PrefixIndex?prefix=Exception&namespace=0
-   [outdated wiki link] for an overview
+   [deprecated wiki link] for an overview
 -  **Team** communication & information (e.g. meeting minutes). You can
    find some categories in subcategories of Team
-   (https://wiki.typo3.org/Category:Team [outdated wiki link]), e.g.
-   https://wiki.typo3.org/Category:DocTeam [outdated wiki link], see
-   also team page: https://wiki.typo3.org/Teams [outdated wiki link].
+   (https://wiki.typo3.org/Category:Team [deprecated wiki link]), e.g.
+   https://wiki.typo3.org/Category:DocTeam [deprecated wiki link], see
+   also team page: https://wiki.typo3.org/Teams [deprecated wiki link].
    These categories are primarily used to indicate that a team belongs
    to a team and not always used to indicate the type of the Wiki page.
 -  **translation** teams, uses category Translation
-   https://wiki.typo3.org/Category:Translation [outdated wiki link]
+   https://wiki.typo3.org/Category:Translation [deprecated wiki link]
 -  Information about **events**, event communication, Information for
    Code sprints: uses category Events
-   https://wiki.typo3.org/Category:Events [outdated wiki link],
-   examples: t3board [outdated wiki link], TYPO3 release parties, e.g.
-   code sprint [outdated wiki link], UXW [outdated wiki link]
+   https://wiki.typo3.org/Category:Events [deprecated wiki link],
+   examples: `t3board </T3BOARD19>`__ [deprecated wiki link], TYPO3
+   release parties, e.g. `code sprint </Code_Sprint_Linz_2012>`__
+   [deprecated wiki link], `UXW </T3UXW18>`__ [deprecated wiki link]
 -  Information about **Usergroups**: uses category Usergroup
-   https://wiki.typo3.org/Category:Usergroup [outdated wiki link]
+   https://wiki.typo3.org/Category:Usergroup [deprecated wiki link]
 -  **Blueprints** are TYPO3 CMS feature specifications. The is used. See
-   the general description: https://wiki.typo3.org/Blueprints [outdated
-   wiki link]
+   the general description: https://wiki.typo3.org/Blueprints
+   [deprecated wiki link]
 
 Already moved:
 
@@ -83,7 +84,7 @@ outdated) etc.
 
 See
 https://wiki.typo3.org/Help:Contents#Teamwork_and_page_states_-_draft.2C_review.2C_publish.2C_delete.2C_merge.2C_outdated
-[outdated wiki link]
+[deprecated wiki link]
 
 Number of pages
 ---------------
@@ -94,7 +95,7 @@ Number of pages
 -  number of exception pages: 283 (as of May, 2019)
 
 You can also see an accurate number of (content) pages in the
-statistics: https://wiki.typo3.org/Special:Statistics [outdated wiki
+statistics: https://wiki.typo3.org/Special:Statistics [deprecated wiki
 link]
 
 history:
@@ -112,23 +113,25 @@ Nov 12, 2020    769   ?      ?          ?
 Lists of pages
 --------------
 
--  Changed pages in last 300 days [outdated wiki link], last change
-   first - **Currently shows 90 days max.**
+-  `Changed pages in last 300
+   days <https://wiki.typo3.org/wiki/index.php?title=Special:RecentChanges&days=300&from=>`__
+   [deprecated wiki link], last change first - **Currently shows 90 days
+   max.**
 -  List of pages in wiki: https://wiki.typo3.org/Special:SpecialPages
-   [outdated wiki link]
--  All pages: https://wiki.typo3.org/Special:AllPages [outdated wiki
+   [deprecated wiki link]
+-  All pages: https://wiki.typo3.org/Special:AllPages [deprecated wiki
    link]
 -  Exceptions:
    https://wiki.typo3.org/Special:PrefixIndex?prefix=Exception&namespace=0
-   [outdated wiki link]
--  New pages: https://wiki.typo3.org/Special:NewPages [outdated wiki
+   [deprecated wiki link]
+-  New pages: https://wiki.typo3.org/Special:NewPages [deprecated wiki
    link]
--  Deleted pages: https://wiki.typo3.org/Special:Log/delete [outdated
+-  Deleted pages: https://wiki.typo3.org/Special:Log/delete [deprecated
    wiki link]
--  Outdated pages: https://wiki.typo3.org/Category:Outdated [outdated
+-  Outdated pages: https://wiki.typo3.org/Category:Outdated [deprecated
    wiki link]
 -  Candidate for deletion (with {{delete}} tag):
-   https://wiki.typo3.org/Category:Delete [outdated wiki link]
+   https://wiki.typo3.org/Category:Delete [deprecated wiki link]
 
 More Information
 ================

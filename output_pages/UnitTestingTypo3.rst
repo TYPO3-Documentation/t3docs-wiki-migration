@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==================
 Unit Testing TYPO3
@@ -24,7 +23,9 @@ Setup and run tests:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -40,7 +41,9 @@ testing file, function name and testclass
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -53,7 +56,9 @@ the parent level to prevent showing it up in Git
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -71,11 +76,13 @@ Unit testing since TYPO3 6.2
    .. container::
 
       Do not use the TYPO3 extension "phpunit", it is broken until
-      https://forge.typo3.org/issues/64720 [outdated link] is solved
+      https://forge.typo3.org/issues/64720 [not available anymore] is
+      solved
 
 With TYPO3 CMS version 6.2 the unit test execution and its required
-setup was streamlined. See Blueprints/StandaloneUnitTests [outdated wiki
-link] for more details.
+setup was streamlined. See
+`Blueprints/StandaloneUnitTests </Blueprints/StandaloneUnitTests>`__
+[deprecated wiki link] for more details.
 
 `composer <https://getcomposer.org/>`__ should be available on the
 system already, see its documentation for installation details.
@@ -84,7 +91,9 @@ Setup and run tests:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -107,7 +116,9 @@ Install the randomizer using composer.
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -119,7 +130,9 @@ Using the randomizer works in a similar way as the normal phpunit.
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -133,7 +146,9 @@ this seed to the randomizer command reproduces the same order.
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -156,15 +171,17 @@ fail.
 Normal windows users are not allowed to create symbolic links, the tests
 will fail with "symlink(): Cannot create symlink, error code(1314)". You
 either have to set the according rights (see
-https://wiki.typo3.org/Flow_Installation_Hints#Symbolic_Links [outdated
-link]) or start the Windows shell as Administrator (Right-click => Open
-as administrator). On Windows Home the second option is your only choice
-because secpol.msc is not available there (polsedit doesn't seem to
-work).
+https://wiki.typo3.org/Flow_Installation_Hints#Symbolic_Links [not
+available anymore]) or start the Windows shell as Administrator
+(Right-click => Open as administrator). On Windows Home the second
+option is your only choice because secpol.msc is not available there
+(polsedit doesn't seem to work).
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -176,7 +193,9 @@ To run a certain test, just append the test class:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -185,8 +204,8 @@ To run a certain test, just append the test class:
       .\bin\phpunit.bat -c components/testing_framework/Resources/Core/Build/UnitTests.xml typo3/sysext/form/Tests/Unit/Filter/StripNewLinesFilterTest.php
 
 There currently is a bug in xampp with a wrong path to OPENSSL_CONF:
-https://community.apachefriends.org/f/viewtopic.php?f=16&t=69986
-[outdated link]
+https://community.apachefriends.org/f/viewtopic.php?f=16&t=69986 [not
+available anymore]
 
 Unit Testing with PhpStorm
 --------------------------
@@ -199,7 +218,8 @@ Functional testing
 ==================
 
 For information about functional testing see
-https://wiki.typo3.org/Functional_testing [outdated link]
+`https://wiki.typo3.org/Functional_testing </wiki/index.php?title=Functional_testing&action=edit&redlink=1>`__
+[not available anymore]
 
 Unit testing below TYPO3 CMS 6.2
 ================================

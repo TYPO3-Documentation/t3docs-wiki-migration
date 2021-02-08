@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==========
 OpenSearch
@@ -27,20 +26,21 @@ OpenSearch
 
    .. container::
 
-   *Please remove "{{Question}}" when the problem is solved. See all
-   questions [outdated wiki link].*
+   *Please remove "{{Question}}" when the problem is solved. See*\ `all
+   questions </Category:Wiki-Question>`__\ *[deprecated wiki link].*
 
 .. container::
 
    Todo:
    When this page has been updated, the block "Browser Search" can be
-   uncommented on Template:Main_Page/SidebarMenu [outdated wiki link] -
-   Speters 2020-04-19
+   uncommented on
+   `Template:Main_Page/SidebarMenu </Template:Main_Page/SidebarMenu>`__
+   [deprecated wiki link] - Speters 2020-04-19
 
    .. container::
 
-   *Please remove "{{Todo}}" when the problem is solved. See all todos
-   [outdated wiki link].*
+   *Please remove "{{Todo}}" when the problem is solved. See*\ `all
+   todos </Category:Wiki-Todo>`__\ *[deprecated wiki link].*
 
 .. _opensearch-1:
 
@@ -48,12 +48,12 @@ OpenSearch
 ==========
 
 OpenSearch gives the possiblity to define the search-engine for your
-browser [outdated wiki link]. You will know it from google or wikipedia,
-now you can use it for TYPO3 related search.
+`browser </Category:Browser>`__ [deprecated wiki link]. You will know it
+from google or wikipedia, now you can use it for TYPO3 related search.
 
 If your Browser supports OpenSearch (IE and FF works) you can go to
-http://www.martinholtz.de/index.php?id=219 [outdated link] and add the
-TSref Search.
+http://www.martinholtz.de/index.php?id=219 [not available anymore] and
+add the TSref Search.
 
 .. image:: files/Add_typo3_wiki_search_scribble.png
    :alt: Add_typo3_wiki_search_scribble.png
@@ -67,8 +67,10 @@ You can use some prefixes like "forge" to search in forge.typo3.org or
 the wiki.typo3.org - search. But if your search term is in a list of
 keywords (like
 `IMAGE <https://docs.typo3.org/typo3cms/TyposcriptReference/ContentObjects/Image>`__,
-typolink [outdated link], stdWrap [outdated link]) you will be sent
-directly to the TSref Page.
+`typolink <https://docs.typo3.org/typo3cms/TyposcriptReference/Functions/Typolink>`__
+[not available anymore],
+`stdWrap <https://docs.typo3.org/typo3cms/TyposcriptReference/Functions/Stdwrap>`__
+[not available anymore]) you will be sent directly to the TSref Page.
 
 |In this Example the search term "stdwr" was typed in. You get all
 Objects and functions which has an property starts with "stdwr|
@@ -94,7 +96,7 @@ redirected there.
 
    # You type in 
    stdWrap
-   # then you will be sent to T3Doc:TyposcriptReference/Functions/Stdwrap [outdated link]
+   # then you will be sent to T3Doc:TyposcriptReference/Functions/Stdwrap [not available anymore]
 
 So it is a shortcut for sending you to TSref/# that you typed in.
 

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1347135546:
-
-========================
-Exception/CMS/1347135546
-========================
+==========================
+TYPO3 Exception 1347135546
+==========================
 
 The error always occurs. Even when I wanted to clear the cache in the
 Install Tool The reason was a wrong defined TCA-column. I wrote

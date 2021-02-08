@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ================================
 Extension Development, Debugging
@@ -7,7 +6,8 @@ Extension Development, Debugging
 
 << Back to `Extension Development <extension-development>`__ page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_Debugging&action=edit&section=0>`__
+[deprecated wiki link]
 
 .. container::
 
@@ -16,7 +16,9 @@ Extension Development, Debugging
    .. container::
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
-      reviewer for text and TypoScript. info [outdated wiki link]
+      reviewer for text and TypoScript.
+      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      [deprecated wiki link]
 
 .. container::
 
@@ -41,7 +43,8 @@ See also the `Extension Developers Guide <extension-developers-guide>`__
 
 -  In ``typo3conf/LocalConfiguration.php``, set ``[FE][debug] = 1`` and
    ``[SYS][devIPmask]`` to e.g. *"192.*,169.*,127.0.0.1"*. Then use the
-   extended *debug [outdated wiki link]()* function of the Extension
+   extended `debug </Category:Debug>`__\ *[deprecated wiki link]()*
+   function of the Extension
    `cc_debug <https://extensions.typo3.org/extension/cc_debug/>`__. On
    your TYPO3 site you will see a bomb
    ([`[1] <http://jambage.com/wiki/CC-Debug.png>`__]) in the upper right
@@ -49,7 +52,8 @@ See also the `Extension Developers Guide <extension-developers-guide>`__
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -65,7 +69,8 @@ These will also work if there are HTML or JavaScript errors on a page.
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -76,7 +81,8 @@ These will also work if there are HTML or JavaScript errors on a page.
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -112,7 +118,8 @@ well, by adding the following line to
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -127,7 +134,8 @@ You can write to the (system) error log using:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -148,7 +156,8 @@ To show the contents of arrays, you use ``foreach`` loops:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -169,7 +178,8 @@ Or use these lines with ``var_dump()``:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -186,7 +196,8 @@ How to debug SQL
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -226,7 +237,9 @@ table - looks nicer. Example:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -258,7 +271,9 @@ An example:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 

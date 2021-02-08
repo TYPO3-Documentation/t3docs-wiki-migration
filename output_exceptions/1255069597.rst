@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1255069597:
-
-========================
-Exception/CMS/1255069597
-========================
+==========================
+TYPO3 Exception 1255069597
+==========================
 
 Go to TYPO3 Install tool -> All Configurations -> [encryptionKey] and
 fill in some long encryptionKey

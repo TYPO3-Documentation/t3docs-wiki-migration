@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ========
 Composer
@@ -216,7 +215,8 @@ recommend to use a custom, minimum distribution composer.json like this:
 
 .. container::
 
-   JavaScript [outdated wiki link]
+   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -286,7 +286,8 @@ section of the root composer.json like that:
 
 .. container::
 
-   JavaScript [outdated wiki link]
+   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -361,7 +362,8 @@ package like that:
 
 .. container::
 
-   JavaScript [outdated wiki link]
+   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -403,7 +405,8 @@ extension key.
 
 .. container::
 
-   JavaScript [outdated wiki link]
+   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -483,8 +486,10 @@ and developers:
 #. PSR-4 compatible class loading information can be specified in a
    composer.json of the extension to ease development of extensions. It
    is recommended to do this in a composer.json file delivered by the
-   extension. Alternatively this can be done similarly in the "autoload"
-   section in the ext_emconf.php [outdated link].
+   extension. Alternatively this can be done similarly in the
+   `"autoload" section in the
+   ext_emconf.php <https://docs.typo3.org/typo3cms/extensions/core/7.6/singlehtml/Index.html#feature-68700-autoload-definition-can-be-provided-in-ext-emconf-php>`__
+   [not available anymore].
 #. The class loading information of extensions will end up in
    ``typo3temp/autoload``. Do **NOT** delete this directory, especially
    not in production environments. It contains vital information for
@@ -550,7 +555,8 @@ Recommended minimum example composer.json:
 
 .. container::
 
-   JavaScript [outdated wiki link]
+   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   [deprecated wiki link]
 
 .. container::
 

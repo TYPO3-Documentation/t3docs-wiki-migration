@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===========
 T3BOARD20EU
@@ -25,7 +24,7 @@ Important information
 
 ::
 
-   Feel free to follow us on Twitter too: @t3board https://twitter.com/t3board [outdated link] !
+   Feel free to follow us on Twitter too: @t3board https://twitter.com/t3board [not available anymore] !
 
 What the accommodation offers
 =============================
@@ -40,7 +39,7 @@ and here:
 
 ::
 
-   https://www.chaletobergurgl.at/en/apartments-prices/services [outdated link]
+   https://www.chaletobergurgl.at/en/apartments-prices/services [not available anymore]
 
 The house features 25 "homes", most of them in a holiday-flat layout
 featuring 2 or 3 bedrooms.

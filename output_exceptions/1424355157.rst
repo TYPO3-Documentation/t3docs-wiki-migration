@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1424355157:
-
-========================
-Exception/CMS/1424355157
-========================
+==========================
+TYPO3 Exception 1424355157
+==========================
 
 Exception: "Session file not writable. Please check permission on typo3temp/InstallToolSessions and its subdirectories."
 ========================================================================================================================

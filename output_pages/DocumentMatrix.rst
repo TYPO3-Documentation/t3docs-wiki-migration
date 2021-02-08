@@ -1,22 +1,26 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===============
 Document Matrix
 ===============
 
-<< Back to Main Page [outdated wiki link]
+<< Back to `Main Page </Main_Page>`__ [deprecated wiki link]
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=Document_Matrix&action=edit&section=0>`__
+[deprecated wiki link]
 
 On this page you can list documents and information in different ways.
 Many are in development.
 
 | The finished ones will be a `published
-  OpenOffice-document <https://typo3.org/documentation/>`__, a published
-  article [outdated link], Flash-Animation [outdated wiki link], or
-  published Video [outdated link].
-| *(external link [outdated wiki link]*
+  OpenOffice-document <https://typo3.org/documentation/>`__, `a
+  published article <https://typo3.org/documentation/articles/>`__ [not
+  available anymore], `Flash-Animation </Wink_flashvideos>`__
+  [deprecated wiki link], or `published
+  Video <https://typo3.org/documentation/videos/>`__ [not available
+  anymore].
+| *(*\ `external link </Category:External_link>`__\ *[deprecated wiki
+  link]*
 
 +-------------+-------------+-------------+-------------+-------------+
 | ..          |             | .. rub      |             | ..          |
@@ -25,111 +29,144 @@ Many are in development.
 |  contribute |             |    :name:   |             |    :nam     |
 |             |             | skill-level |             | e: by-topic |
 |             |             |             |             |             |
-|             |             | -  Beginner |             | -  Do       |
-|    :name: e |             |             |             | cumentation |
-| asy-ways-to |             |   [outdated |             |    tips and |
-| -contribute |             |    wiki     |             |    tools    |
-|             |             |    link]    |             |             |
-| -  Wik      |             | -  I        |             |   [outdated |
-| i-Questions |             | ntermediate |             |    wiki     |
-|             |             |             |             |    link]    |
-|   [outdated |             |   [outdated |             | -           |
-|    wiki     |             |    wiki     |             |  Extensions |
-|    link] -  |             |    link]    |             |             |
-|    can you  |             | -  Expert   |             |   [outdated |
-|    find out |             |             |             |    wiki     |
-|    an       |             |   [outdated |             |    link]    |
-|    answer?  |             |    wiki     |             | -  TYPO3    |
-| -  Projects |             |    link]    |             |             |
-|             |             |             |             |  Usergroups |
-|   [outdated |             | |           |             |             |
-|    wiki     |             |             |             |   [outdated |
-|    link] -  |             | .. ru       |             |    wiki     |
-|    one for  |             | bric:: Type |             |    link]    |
-|    you,     |             |    of user  |             |    (TUG)    |
-|    too?     |             |             |             | -  TYPO3    |
-| -           |             |             |             |             |
-|  Usergroups |             |    :name: t |             |   snowboard |
-|             |             | ype-of-user |             |    tours    |
-|   [outdated |             |             |             |             |
-|    wiki     |             | -  All      |             |   [outdated |
-|    link] -  |             |    users    |             |    wiki     |
-|    one near |             |             |             |    link]    |
-|    by you?  |             |   [outdated |             | -  TYPO3    |
-| -  Join the |             |    wiki     |             |    R        |
-|    TYPO3    |             |    link]    |             | eleaseNotes |
-|             |             | -  Editor   |             |             |
-|   community |             |             |             |   [outdated |
-|             |             |   [outdated |             |    wiki     |
-|   [outdated |             |    wiki     |             |    link] -  |
-|    wiki     |             |    link]    |             |    all      |
-|    link] -  |             | -  Ad       |             |    release  |
-|    any      |             | ministrator |             |    notes    |
-|    broken   |             |             |             |    now      |
-|    link     |             |   [outdated |             |    redirect |
-|    there?   |             |    wiki     |             |    to       |
-|             |             |    link]    |             |    ge       |
-| .. ru       |             | -           |             | t.typo3.org |
-| bric:: Type |             |   Developer |             |    and can  |
-|    of       |             |             |             |    be found |
-|    content  |             |   [outdated |             |    on       |
-|             |             |    wiki     |             |    http     |
-| :name: type |             |    link]    |             | s://get.typ |
-| -of-content |             |             |             | o3.org/rele |
-|             |             |             |             | ase-notes/) |
-| *see Help   |             |             |             | -           |
-| [outdated   |             |             |             |  TypoScript |
+|             |             | -           |             | -  `Do      |
+|    :name: e |             | `Beginner < |             | cumentation |
+| asy-ways-to |             | /Category:B |             |    tips and |
+| -contribute |             | eginner>`__ |             |    to       |
+|             |             |             |             | ols </Categ |
+| -           |             | [deprecated |             | ory:Tips_an |
+| `Wiki-Quest |             |    wiki     |             | d_tools_for |
+| ions </Cate |             |    link]    |             | _the_docume |
+| gory:Wiki-Q |             | -  `Interme |             | ntation>`__ |
+| uestion>`__ |             | diate </Cat |             |             |
+|             |             | egory:Inter |             | [deprecated |
+| [deprecated |             | mediate>`__ |             |    wiki     |
+|    wiki     |             |             |             |    link]    |
+|    link] -  |             | [deprecated |             | -  `Ex      |
+|    can you  |             |    wiki     |             | tensions </ |
+|    find out |             |    link]    |             | Category:Ex |
+|    an       |             | -  `Expert  |             | tension>`__ |
+|    answer?  |             |  </Category |             |             |
+| -  `P       |             | :Expert>`__ |             | [deprecated |
+| rojects </P |             |             |             |    wiki     |
+| rojects>`__ |             | [deprecated |             |    link]    |
+|             |             |    wiki     |             | -  TYPO3    |
+| [deprecated |             |    link]    |             |    `Us      |
+|    wiki     |             |             |             | ergroups </ |
+|    link] -  |             | |           |             | Category:Us |
+|    one for  |             |             |             | ergroup>`__ |
+|    you,     |             | .. ru       |             |             |
+|    too?     |             | bric:: Type |             | [deprecated |
+| -  `Userg   |             |    of user  |             |    wiki     |
+| roups </Use |             |             |             |    link]    |
+| rgroups>`__ |             |             |             |    (TUG)    |
+|             |             |    :name: t |             | -  TYPO3    |
+| [deprecated |             | ype-of-user |             |             |
+|    wiki     |             |             |             |  `snowboard |
+|    link] -  |             | -  `All     |             |    tours </ |
+|    one near |             |    use      |             | T3board>`__ |
+|    by you?  |             | rs </Catego |             |             |
+| -  `Join    |             | ry:Getting_ |             | [deprecated |
+|    the      |             | started>`__ |             |    wiki     |
+|    TYPO3    |             |             |             |    link]    |
+|    communi  |             | [deprecated |             | -  TYPO3    |
+| ty </Join_t |             |    wiki     |             |    `Release |
+| he_TYPO3_co |             |    link]    |             | Notes </Cat |
+| mmunity>`__ |             | -  `Editor  |             | egory:Relea |
+|             |             |  </Category |             | seNotes>`__ |
+| [deprecated |             | :Editor>`__ |             |             |
+|    wiki     |             |             |             | [deprecated |
+|    link] -  |             | [deprecated |             |    wiki     |
+|    any      |             |    wiki     |             |    link] -  |
+|    broken   |             |    link]    |             |    all      |
+|    link     |             | -           |             |    release  |
+|    there?   |             |  `Administr |             |    notes    |
+|             |             | ator </Cate |             |    now      |
+| .. ru       |             | gory:Admini |             |    redirect |
+| bric:: Type |             | strator>`__ |             |    to       |
+|    of       |             |             |             |    ge       |
+|    content  |             | [deprecated |             | t.typo3.org |
+|             |             |    wiki     |             |    and can  |
+| :name: type |             |    link]    |             |    be found |
+| -of-content |             | -  `D       |             |    on       |
+|             |             | eveloper </ |             |    http     |
+| *           |             | Category:De |             | s://get.typ |
+| see*\ `Help |             | veloper>`__ |             | o3.org/rele |
+|  </Help:Con |             |             |             | ase-notes/) |
+| tents#The_T |             | [deprecated |             | -  `Typ     |
+| ype_of_docu |             |    wiki     |             | oScript </C |
+| ment>`__\ * |             |    link]    |             | ategory:Typ |
+| [deprecated |             |             |             | oScript>`__ |
 | wiki link]  |             |             |             |             |
-| how to add  |             |             |             |   [outdated |
+| how to add  |             |             |             | [deprecated |
 | your        |             |             |             |    wiki     |
 | document*   |             |             |             |    link]    |
 |             |             |             |             |             |
-| Do          |             |             |             |             |
-| cumentation |             |             |             |             |
-| [outdated   |             |             |             |             |
+| `Documenta  |             |             |             |             |
+| tion </Cate |             |             |             |             |
+| gory:Docume |             |             |             |             |
+| ntation>`__ |             |             |             |             |
+| [deprecated |             |             |             |             |
 | wiki link]  |             |             |             |             |
 | type:       |             |             |             |             |
 |             |             |             |             |             |
-| -  FAQ      |             |             |             |             |
+| -  `        |             |             |             |             |
+| FAQ </Categ |             |             |             |             |
+| ory:FAQ>`__ |             |             |             |             |
 |             |             |             |             |             |
-|   [outdated |             |             |             |             |
+| [deprecated |             |             |             |             |
 |    wiki     |             |             |             |             |
 |    link]    |             |             |             |             |
 |    \*\*     |             |             |             |             |
-| -  HowTo    |             |             |             |             |
+| -  `HowT    |             |             |             |             |
+| o </Categor |             |             |             |             |
+| y:HowTo>`__ |             |             |             |             |
 |             |             |             |             |             |
-|   [outdated |             |             |             |             |
+| [deprecated |             |             |             |             |
 |    wiki     |             |             |             |             |
 |    link]    |             |             |             |             |
 |    \**\*    |             |             |             |             |
-| -           |             |             |             |             |
-|  Guidelines |             |             |             |             |
+| -  `Gui     |             |             |             |             |
+| delines </C |             |             |             |             |
+| ategory:Gui |             |             |             |             |
+| delines>`__ |             |             |             |             |
 |             |             |             |             |             |
-|   [outdated |             |             |             |             |
+| [deprecated |             |             |             |             |
 |    wiki     |             |             |             |             |
 |    link],   |             |             |             |             |
-|    Guide    |             |             |             |             |
+|    `Guid    |             |             |             |             |
+| e </Categor |             |             |             |             |
+| y:Guide>`__ |             |             |             |             |
 |             |             |             |             |             |
-|   [outdated |             |             |             |             |
+| [deprecated |             |             |             |             |
 |    wiki     |             |             |             |             |
 |    link] \* |             |             |             |             |
-| -  Tutorial |             |             |             |             |
+| -           |             |             |             |             |
+| `Tutorial < |             |             |             |             |
+| /Category:T |             |             |             |             |
+| utorial>`__ |             |             |             |             |
 |             |             |             |             |             |
-|   [outdated |             |             |             |             |
+| [deprecated |             |             |             |             |
 |    wiki     |             |             |             |             |
 |    link]    |             |             |             |             |
-| -  Cheat    |             |             |             |             |
-|    sheet    |             |             |             |             |
+| -  `Cheat   |             |             |             |             |
 |             |             |             |             |             |
-|   [outdated |             |             |             |             |
+|   sheet </C |             |             |             |             |
+| ategory:Che |             |             |             |             |
+| atSheet>`__ |             |             |             |             |
+|             |             |             |             |             |
+| [deprecated |             |             |             |             |
 |    wiki     |             |             |             |             |
 |    link]    |             |             |             |             |
 | -           |             |             |             |             |
-|   Extension |             |             |             |             |
-|    Do       |             |             |             |             |
-| cumentation |             |             |             |             |
+|  `Extension |             |             |             |             |
+|    Documen  |             |             |             |             |
+| tation </Ca |             |             |             |             |
+| tegory:Exte |             |             |             |             |
+| nsionDocume |             |             |             |             |
+| ntation>`__ |             |             |             |             |
 |             |             |             |             |             |
-|   [outdated |             |             |             |             |
+| [deprecated |             |             |             |             |
 |    wiki     |             |             |             |             |
 |    link] -  |             |             |             |             |
 |             |             |             |             |             |
@@ -167,10 +204,13 @@ Many are in development.
 | tension/Ind |             |             |             |             |
 | ex.html>`__ |             |             |             |             |
 | -           |             |             |             |             |
-|   Extension |             |             |             |             |
-|    notes    |             |             |             |             |
+|  `Extension |             |             |             |             |
+|    n        |             |             |             |             |
+| otes </Cate |             |             |             |             |
+| gory:Extens |             |             |             |             |
+| ionNote>`__ |             |             |             |             |
 |             |             |             |             |             |
-|   [outdated |             |             |             |             |
+| [deprecated |             |             |             |             |
 |    wiki     |             |             |             |             |
 |    link] -  |             |             |             |             |
 |             |             |             |             |             |

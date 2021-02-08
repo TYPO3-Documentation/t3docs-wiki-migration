@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1301648780:
-
-========================
-Exception/CMS/1301648780
-========================
+==========================
+TYPO3 Exception 1301648780
+==========================
 
 When clicking on Show in the backend, this error occurs when an item is
 disabled, instead it should show the preview of the page.

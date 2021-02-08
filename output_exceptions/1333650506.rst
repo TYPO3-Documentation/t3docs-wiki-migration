@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1333650506:
-
-========================
-Exception/CMS/1333650506
-========================
+==========================
+TYPO3 Exception 1333650506
+==========================
 
 No settings detected
 ====================

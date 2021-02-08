@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _backendrouting:
 
@@ -7,7 +6,7 @@
 Blueprints/BackendRouting
 =========================
 
-<- Back to blueprints overview [outdated wiki link]
+`<- Back to blueprints overview </Blueprints>`__ [deprecated wiki link]
 
 ==========================
 Blueprint: Backend Routing

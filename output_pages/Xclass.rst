@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ======
 XCLASS
@@ -19,8 +18,8 @@ XCLASS
 
 .. container::
 
-   This page belongs to the `Core Team <core-team>`__ (category Core
-   Team [outdated wiki link])
+   This page belongs to the `Core Team <core-team>`__ (category `Core
+   Team </Category:Core_Team>`__ [deprecated wiki link])
 
 Introduction
 ============
@@ -95,7 +94,8 @@ be given to fluid (this feature will hopefully be implemented with 6.1).
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -138,7 +138,8 @@ FLUIDTEMPLATE XCLASS above:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -179,7 +180,8 @@ XCLASSing will not work. Example from t3lib/class.t3lib_userauth.php:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -194,7 +196,8 @@ row in "ext_localconf.php" like:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -207,7 +210,8 @@ orginial class, except that it must be prefixed with 'ux_':
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -232,9 +236,11 @@ orginial class, except that it must be prefixed with 'ux_':
 See also
 ========
 
-Class auto loader documentation [outdated wiki link]
+`Class auto loader documentation </Autoload>`__ [deprecated wiki link]
 
-Name space documentation [outdated link]
+`Name space
+documentation </wiki/index.php?title=Namespaces&action=edit&redlink=1>`__
+[not available anymore]
 
 `TYPO3 Core API, Chapter "PHP Class
 Extension" <https://docs.typo3.org/typo3cms/CoreApiReference/>`__

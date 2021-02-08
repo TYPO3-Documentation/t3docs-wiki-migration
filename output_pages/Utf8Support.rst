@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _utf8-support:
 
@@ -10,7 +9,8 @@ UTF-8 support
 << Back to `Help, tips and troubleshooting <overview-miscellaneous>`__
 page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=UTF-8_support&action=edit&section=0>`__
+[deprecated wiki link]
 
 .. container::
 
@@ -26,15 +26,15 @@ page
 
    .. container::
 
-      If a step is not understandable, you can note that here [outdated
-      wiki link].
+      If a step is not understandable, you can `note that
+      here </Talk:UTF-8_support>`__ [deprecated wiki link].
 
 Introduction
 ============
 
 On this page we collect information about the old but still current
-UTF-8 [outdated wiki link] topic. There are many options to set and
-check.
+`UTF-8 </Category:UTF-8>`__ [deprecated wiki link] topic. There are many
+options to set and check.
 
 A good start is to make sure that everything in the chain is using UTF-8
 encoding, starting with ``apache.conf``, ``php.ini``, ``my.cnf`` and
@@ -153,8 +153,9 @@ connecting to a UTF-8 database.)
 
       With MySQL 5.5.3 however, this setting has been removed!
 
-Info on dropping support of default_character_set in MySQL 5.5.3
-[outdated link]
+`Info on dropping support of default_character_set in MySQL
+5.5.3 <https://dev.mysql.com/doc/relnotes/mysql/5.5/en/news-5-5-3.html#mysqld-5-5-3-feature>`__
+[not available anymore]
 
 TYPO3 settings
 ==============
@@ -164,7 +165,8 @@ TYPO3 settings
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -239,7 +241,8 @@ change ``$TYPO3_CONF_VARS['SYS']['setDBinit']`` at all.
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -271,7 +274,8 @@ In some configurations a setting for the session is needed, too:
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -294,7 +298,8 @@ that are hard to solve. **Avoid using this directive**:
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -309,7 +314,8 @@ values:
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -356,7 +362,9 @@ charset:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -366,7 +374,9 @@ charset:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -389,7 +399,9 @@ To work with strings in TYPO3 extensions, use the methods in
 
    .. container::
 
-      PHP Script [outdated wiki link]
+      `PHP
+      Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+      [deprecated wiki link]
 
    .. container::
 
@@ -401,7 +413,9 @@ To work with strings in TYPO3 extensions, use the methods in
 
    .. container::
 
-      PHP Script [outdated wiki link]
+      `PHP
+      Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+      [deprecated wiki link]
 
    .. container::
 
@@ -413,7 +427,9 @@ To work with strings in TYPO3 extensions, use the methods in
 
    .. container::
 
-      PHP Script [outdated wiki link]
+      `PHP
+      Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+      [deprecated wiki link]
 
    .. container::
 
@@ -479,8 +495,10 @@ design.
 GIFBUILDER: Use Unicode font files
 ----------------------------------
 
-If you use ``GIFBUILDER`` to create text (e.g. in a menu), make sure to
-use an Unicode font file [outdated link]
+If you use ``GIFBUILDER`` to create text (e.g. in a menu), `make sure to
+use an Unicode font
+file <http://people.merea.se/david/2007/03/08/gmenugifbuilder-broke-my-swedish-characters/>`__
+[not available anymore]
 
 If there still are problems with broken special chars in these images,
 you should make sure that the configuration for ``mbstring`` or
@@ -548,7 +566,7 @@ Jigal writes:
       subdirectory so it can pick up the database connection data from
       ``localconf.php``.
    -  Run the script from your browser:
-      ``http://example.com/fileadmin/db_utf8_fix.php [outdated link]``.
+      ``http://example.com/fileadmin/db_utf8_fix.php [not available anymore]``.
       It shows each found table and prints a dot after the table name
       for each column it has converted.
 
@@ -560,7 +578,8 @@ order to pick up the database connection data:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -574,7 +593,8 @@ retrieve from the configuration array:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -624,7 +644,9 @@ Linux users connect to the server via ssh typing
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -636,7 +658,9 @@ Create a backup of the database (if things go wrong...)
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -650,7 +674,9 @@ the following error: *"SQL=Specified key was too long; max key length is
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -670,7 +696,9 @@ to ``"DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci"``:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -683,7 +711,9 @@ charset you have written in your file) to "COLLATE utf8_general_ci":
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -695,7 +725,9 @@ Import database:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -707,7 +739,9 @@ Alter character set and collation for the whole database:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -727,7 +761,9 @@ and ``utf8_general_ci`` as collation:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -761,7 +797,9 @@ Then they use iconv on the dumped file to convert the signs inside:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -774,7 +812,9 @@ Use this to find supported charset names:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -787,7 +827,9 @@ After that they import the file using the switch
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -804,7 +846,9 @@ as the origin charset to the iconv command like that:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -824,7 +868,9 @@ correctly encoded UTF-8:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -845,7 +891,9 @@ which there is no representation in the target charset:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -858,7 +906,9 @@ ignore these characters silently:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -879,7 +929,9 @@ For the database do:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -904,7 +956,9 @@ statement by setting MySQL to very verbose:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -916,7 +970,9 @@ For errors like this:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -939,7 +995,9 @@ line:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -991,10 +1049,10 @@ German
 Misc. links about charset conversion
 ====================================
 
--  http://dev.mysql.com/doc/refman/5.7/en/charset-convert.html [outdated
-   link] Charset conversion with MySQL
+-  http://dev.mysql.com/doc/refman/5.7/en/charset-convert.html [not
+   available anymore] Charset conversion with MySQL
 -  http://m.tacker.org/blog/64.script-to-convert-wordpress-content-encoding.html
-   [outdated link] Useful charset conversion PHP script
+   [not available anymore] Useful charset conversion PHP script
 -  http://dev.mysql.com/doc/refman/5.7/en/charset.html
 
 .. _german-1:

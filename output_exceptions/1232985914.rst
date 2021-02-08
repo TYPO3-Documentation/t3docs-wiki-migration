@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1232985914:
-
-========================
-Exception/CMS/1232985914
-========================
+==========================
+TYPO3 Exception 1232985914
+==========================
 
 | Got this on a Hetzner managed server after an update.
 | Message: "The PHP extension "apcu" must be installed and loaded in

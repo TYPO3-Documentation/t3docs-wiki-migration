@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _advancedtitle:
 
@@ -9,8 +8,11 @@ EXT/advancedtitle
 
 .. container::
 
-   **Content Type:** Extension Documentation [outdated wiki link] (find
-   more extensions in the Extension Repository [outdated link])
+   **Content Type:** `Extension
+   Documentation </Category:ExtensionDocumentation>`__ [deprecated wiki
+   link] (find more extensions in the `Extension
+   Repository <https://extensions.typo3.org/extension/%7B%7B%7Bterkey%7D%7D%7D>`__
+   [not available anymore])
    Using the Wiki for extension documentation is no longer recommended.
    You should add the documentation in the git repository of your
    extension and render it on docs.typo3.org or on the Git hoster, e.g.
@@ -30,8 +32,10 @@ EXT/advancedtitle
    |                                   | Advanced page title control with  |
    |                                   | prefix and sufix.                 |
    +-----------------------------------+-----------------------------------+
-   | **documentation state**           | **stable [outdated wiki link]**   |
-   |                                   | |document state list|             |
+   | **documentation state**           | `stable </C                       |
+   |                                   | ategory:Stable>`__\ **[deprecated |
+   |                                   | wiki link]** |document state      |
+   |                                   | list|                             |
    |                                   | `licence                          |
    |                                   | OCL <http:/                       |
    |                                   | /www.opencontent.org/openpub/>`__ |
@@ -43,7 +47,10 @@ EXT/advancedtitle
    | usergroups                        | |list of usergroups| forAdmins,   |
    |                                   | forDevelopers, forIntermediates   |
    +-----------------------------------+-----------------------------------+
-   | author(s)                         | Tanel Põld [outdated link]        |
+   | author(s)                         | `Tanel                            |
+   |                                   | Põld <htt                         |
+   |                                   | ps://twitter.com/t3brightside>`__ |
+   |                                   | [not available anymore]           |
    |                                   | `t3brightside                     |
    |                                   | .com <http://t3brightside.com>`__ |
    +-----------------------------------+-----------------------------------+
@@ -52,9 +59,11 @@ EXT/advancedtitle
    | dependency                        | TYPO3 6.2 – 7.6                   |
    +-----------------------------------+-----------------------------------+
 
-<< Back to Extension manuals [outdated wiki link] page
+<< Back to `Extension manuals </Overview_Extension_manuals>`__
+[deprecated wiki link] page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=EXT/advancedtitle&action=edit&section=0>`__
+[deprecated wiki link]
 
 **Simplistic page title manipulation by extending pages table and adding
 TypoScript template.**

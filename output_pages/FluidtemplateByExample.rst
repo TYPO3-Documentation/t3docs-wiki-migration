@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _fluidtemplate-by-example:
 
@@ -14,7 +13,9 @@ T3Doc/Fluidtemplate by example
    .. container::
 
       Change the **{{review}}** marker to **{{publish}}** when all parts
-      are reviewed (e.g. TypoScript). info [outdated wiki link]
+      are reviewed (e.g. TypoScript).
+      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      [deprecated wiki link]
 
 A simple Template
 =================
@@ -35,7 +36,9 @@ and some text-output:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -57,7 +60,9 @@ Then change your Typoscript:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -92,7 +97,9 @@ fileadmin/projectTemplate/index.html:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -107,7 +114,9 @@ and again we change our Typoscript-Template:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -128,7 +137,9 @@ Typoscript:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -157,7 +168,9 @@ and set the variables in our fileadmin/projectTemplate/index.html:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -181,7 +194,9 @@ fileadmin/projectTemplate/index.html:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -205,7 +220,9 @@ We don't need the menu as a variable, we have the cObject-viewhelper
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -225,7 +242,9 @@ content-text:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -253,7 +272,9 @@ Finding out more about Viewhelpers
 Quick reference / Cheatsheet: `Fluid <fluid>`__
 
 The definitive ViewHelper Reference is here (it also contains
-viewHelpers which are only relevant for extension). [1] [outdated link]
+viewHelpers which are only relevant for extension).
+`[1] <https://docs.typo3.org/flow/TYPO3FlowDocumentation/stable/TheDefinitiveGuide/PartV/FluidViewHelperReference.html>`__
+[not available anymore]
 
 Taking Page-Data from the {data}-Object
 ---------------------------------------
@@ -265,7 +286,9 @@ thing. you can easily do this in fluid like this: )
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -283,7 +306,9 @@ f:if-Viewhelper
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -303,7 +328,9 @@ let's add some more content from the data-Object in some Sidebar-Boxes:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -333,7 +360,9 @@ like:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -350,7 +379,9 @@ Next we tell the Typoscript-Template where to find the Partials-Folder:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -370,7 +401,9 @@ fileadmin/projectTemplate/index.html
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -409,7 +442,9 @@ Typoscript:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -429,7 +464,9 @@ Template: fileadmin/projectTemplate/index.html
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -460,7 +497,9 @@ Layout: fileadmin/projectTemplate/Layouts/Nuremberg.html
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 

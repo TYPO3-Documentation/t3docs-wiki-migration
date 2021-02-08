@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===============
 Backend Modules
@@ -7,7 +6,8 @@ Backend Modules
 
 << Back to `Administrators <overview-administrator-manuals>`__ page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=Backend_Modules&action=edit&section=0>`__
+[deprecated wiki link]
 
 .. container::
 
@@ -18,7 +18,8 @@ Backend Modules
 Web
 ===
 
--  **Page [outdated link]**
+-  `Page </wiki/index.php?title=BEmodule_Page&action=edit&redlink=1>`__\ **[not
+   available anymore]**
 -  **View**
    Views the current page in the same way that it would look in the
    frontend (for a normal visitor).
@@ -32,7 +33,7 @@ Web
    are able to view, edit and delete a page and also which frontend
    users that are able to see it.
 -  **Functions**
--  **Template [outdated wiki link]**
+-  `Template </BEmodule_Template>`__\ **[deprecated wiki link]**
    Here you handle all the templates for you site, and the TypoScript
    configuration related to it.
 
@@ -49,11 +50,17 @@ Workspaces
 
 For an introduction to Workspaces read
 
--  Workspace - Typical Tutorial (requires Flash Player) [outdated link]
--  Workspace - Custom Tutorial (requires Flash Player) [outdated link]
+-  `Workspace - Typical Tutorial (requires Flash
+   Player) <http://www.mcuniverse.com/Workspace-Typical.1239.0.html>`__
+   [not available anymore]
+-  `Workspace - Custom Tutorial (requires Flash
+   Player) <http://www.mcuniverse.com/Workspace-Custom.1244.0.html>`__
+   [not available anymore]
 -  http://www.seesite.be/fileadmin/images/feature_focus/Workspaces.pdf
-   [outdated link]
--  Inside TYPO3 (core architecture) [outdated link]
+   [not available anymore]
+-  `Inside TYPO3 (core
+   architecture) <https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/VersioningAndWorkspaces/Index.html>`__
+   [not available anymore]
 -  `doc_v4_workspace <https://extensions.typo3.org/extension/doc_v4_workspace/>`__
    (German)
 
@@ -71,8 +78,8 @@ Admin Tools
 
 -  **User admin**
 -  **Ext Manager**
-   Install / uninstall [outdated wiki link] / create /
-   `delete <delete-extensions>`__ extensions
+   Install / `uninstall </Uninstall_Extensions>`__ [deprecated wiki
+   link] / create / `delete <delete-extensions>`__ extensions
 -  **DB check**
 -  **Configuration**
    Explore different arrays like $GLOBALS['TYPO3_CONF_VARS'] or

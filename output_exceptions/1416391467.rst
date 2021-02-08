@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1416391467:
-
-========================
-Exception/CMS/1416391467
-========================
+==========================
+TYPO3 Exception 1416391467
+==========================
 
 TYPO3 exception message:
 

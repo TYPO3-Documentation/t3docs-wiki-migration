@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =====================================================
 Extension Development, add static extension templates
@@ -7,7 +6,7 @@ Extension Development, add static extension templates
 
 .. container::
 
-   **Content Type:** HowTo [outdated wiki link].
+   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
 
 .. container::
 
@@ -43,7 +42,9 @@ For example:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -68,7 +69,8 @@ pi1/static/css of your extension.
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -77,8 +79,9 @@ pi1/static/css of your extension.
        t3lib_extMgm::addStaticFile($_EXTKEY, 'pi1/static/css', 'myext default CSS');
 
 in ext_tables.php of your extension calls
-t3lib_extMgm::addStaticFile($extKey, $path, $title). more [outdated
-link]
+t3lib_extMgm::addStaticFile($extKey, $path, $title).
+`more <https://typo3.org/fileadmin/typo3api-3.8.0/db/d23/classt3lib__extMgm.html#a51>`__
+[not available anymore]
 
 **3) "include static template (from extensions)" selector:**
 

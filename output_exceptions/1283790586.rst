@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1283790586:
-
-========================
-Exception/CMS/1283790586
-========================
+==========================
+TYPO3 Exception 1283790586
+==========================
 
 Description
 ===========
@@ -28,8 +25,10 @@ Your project uses:
    array, "30")* indicates that an unknown table is used in a
    CONTENT-element with the name '30'.
 
---Mmix [outdated wiki link] (talk [outdated wiki link]) 19:01, 7 August
-2014 (CEST)
+--`Mmix </wiki/index.php?title=User:Mmix&action=edit&redlink=1>`__
+[deprecated wiki link]
+(`talk </wiki/index.php?title=User_talk:Mmix&action=edit&redlink=1>`__
+[deprecated wiki link]) 19:01, 7 August 2014 (CEST)
 
 -  Backtrace is the detailed error output when dev mode is enabled in
    the install tool. I searched it for "array" and found this:
@@ -62,4 +61,5 @@ Less bad:
    }
    [global]
 
---ursbraem [outdated wiki link] 23. December 2014 (CEST)
+--`ursbraem </wiki/index.php?title=User:Ursbraem&action=edit&redlink=1>`__
+[deprecated wiki link] 23. December 2014 (CEST)

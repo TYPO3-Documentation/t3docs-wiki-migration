@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1254325546:
-
-========================
-Exception/CMS/1254325546
-========================
+==========================
+TYPO3 Exception 1254325546
+==========================
 
 Occurence in Frontend
 =====================
@@ -37,5 +34,6 @@ Fixing the Errors and Misbehavior
 In the Admin-Tool set $TYPO3_CONF_VARS[SYS][cookieSecure]=2 or
 $TYPO3_CONF_VARS[SYS][cookieSecure]=0
 
---David bruchmann [outdated wiki link] (talk [outdated wiki link])
-23:20, 26 May 2015 (CEST)
+--`David bruchmann </User:David_bruchmann>`__ [deprecated wiki link]
+(`talk </wiki/index.php?title=User_talk:David_bruchmann&action=edit&redlink=1>`__
+[deprecated wiki link]) 23:20, 26 May 2015 (CEST)

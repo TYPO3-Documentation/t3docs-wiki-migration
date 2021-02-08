@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===============
 Chown and Chmod
@@ -12,9 +11,11 @@ Chown and Chmod
    .. container::
 
       **Reason: Information not TYPO3 specific, can be found elsewhere**
-      If you disagree with its deletion, please explain why at Category
-      talk:Candidates for speedy deletion [outdated link] or improve the
-      page and remove the ``{{delete}}`` tag.
+      If you disagree with its deletion, please explain why at `Category
+      talk:Candidates for speedy
+      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      [not available anymore] or improve the page and remove the
+      ``{{delete}}`` tag.
 
       This notice should remain for a minimum of 1 week after it was
       placed on the page. If a discussion is still ongoing, it should
@@ -22,16 +23,19 @@ Chown and Chmod
       about the removal, after which the page will either be deleted or
       this notice removed.
 
-      Remember to check what links here [outdated wiki link] and the the
-      page history [outdated wiki link] before deleting.
+      Remember to check `what links
+      here </Special:WhatLinksHere/Chown_and_Chmod>`__ [deprecated wiki
+      link] and the `the page
+      history <https://wiki.typo3.org/wiki/index.php?title=Chown_and_Chmod&action=history>`__
+      [deprecated wiki link] before deleting.
 
 =====
 Chown
 =====
 
-This is an important Linux [outdated wiki link] Linux shell-command
-[outdated wiki link]. german-users: see the
-`linuxwiki <http://linuxwiki.de>`__
+This is an important `Linux </Category:Linux>`__ [deprecated wiki link]
+`Linux shell-command </Category:Linux_shell-command>`__ [deprecated wiki
+link]. german-users: see the `linuxwiki <http://linuxwiki.de>`__
 
 Chown means **change owner** but it can do more than that. Let's look at
 a directory listing that you get under a Linux/Unix/Mac OS X

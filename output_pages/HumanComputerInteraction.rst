@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==========================
 Human-Computer-Interaction
@@ -8,9 +7,11 @@ Human-Computer-Interaction
 .. container::
 
    This page belongs to the Human-Computer-Interaction - Team (category
-   HCI [outdated wiki link])
+   `HCI </Category:HCI>`__ [deprecated wiki link])
 
-See usability-design [outdated link] on forge.
+See
+`usability-design <https://forge.typo3.org/projects/show/usability-design>`__
+[not available anymore] on forge.
 
 ISO 9241-11 definition of "usability": *effectiveness, efficiency and
 satisfaction with which a specified set of users can achieve a specified
@@ -25,7 +26,8 @@ This page represents the working area for the HCI team. The initially
 published information here is a summary of the first 3 weeks of mailing
 list activity, collected by the interim team leader, Kasper Skårhøj.
 
-See all pages that belong to HCI [outdated wiki link].
+See `all pages that belong to HCI </Category:HCI>`__ [deprecated wiki
+link].
 
 Focus
 =====
@@ -93,19 +95,22 @@ Usability for 4.5
 In the process of working with usability for version 4.5, we have the
 following work areas:
 
--  Usability No-brainers [outdated wiki link]: There are obvious
-   improvements we can already name from our own experience (these are
-   abundantly exposed on the HCI list already, on mailing lists and we
-   could make a survey for the community). **This is where you can
-   contribute your ideas offhand**. Also, contributed by creating a
-   Usability Survey [outdated wiki link] for the community.
--  Usability Discoveries [outdated wiki link]: There are improvements we
-   have not realized yet (these should be discovered through usability
-   tests on the current system). **This is where we work systematically
-   with analysis of the current system**.
--  Usability Innovation [outdated wiki link]: There are possible
-   innovative ideas to be discovered (seeking inspiration outside our
-   software?). **This is where we innovate new approaches**
+-  `Usability No-brainers </Usability_No-brainers>`__ [deprecated wiki
+   link]: There are obvious improvements we can already name from our
+   own experience (these are abundantly exposed on the HCI list already,
+   on mailing lists and we could make a survey for the community).
+   **This is where you can contribute your ideas offhand**. Also,
+   contributed by creating a `Usability Survey </Usability_Survey>`__
+   [deprecated wiki link] for the community.
+-  `Usability Discoveries </Usability_Discoveries>`__ [deprecated wiki
+   link]: There are improvements we have not realized yet (these should
+   be discovered through usability tests on the current system). **This
+   is where we work systematically with analysis of the current
+   system**.
+-  `Usability Innovation </Usability_Innovation>`__ [deprecated wiki
+   link]: There are possible innovative ideas to be discovered (seeking
+   inspiration outside our software?). **This is where we innovate new
+   approaches**
 
 Eventually all improvements needs to be tested (we change only to
 improve, not for the sake of change).
@@ -169,8 +174,8 @@ Does this make sense? (-kasper)
 Target Groups
 -------------
 
-Big topic, gets its own page: Usability Target Groups [outdated wiki
-link]
+Big topic, gets its own page: `Usability Target
+Groups </Usability_Target_Groups>`__ [deprecated wiki link]
 
 Interface must work for
 -----------------------
@@ -282,9 +287,12 @@ Methods and actions
 What methods and actions are we going to go about for improving
 usability:
 
--  Online-Survey (view draft: Usability_Survey [outdated wiki link])
+-  Online-Survey (view draft: `Usability_Survey </Usability_Survey>`__
+   [deprecated wiki link])
 -  Remote-Usability-Testing (Skype/VNC)
--  single observations (see Usability_Discoveries [outdated wiki link])
+-  single observations (see
+   `Usability_Discoveries </Usability_Discoveries>`__ [deprecated wiki
+   link])
 
 Resources
 =========
@@ -321,14 +329,14 @@ http://www.sensible.com/chapter.html
 
 **Designing Interfaces (Book)** "Excerpts from book that shows a lot of
 patterns for “effective interaction design”"
-http://designinginterfaces.com/Introduction [outdated link]
+http://designinginterfaces.com/Introduction [not available anymore]
 
 **uxmatters website** A good resource of UX articles not many but good.
 Aims to produce a volunteer-driven, nonprofit Web magazine that delivers
 compelling content about \* developing effective user experience (UX)
 strategies \* designing digital-product user experiences that optimally
 serve people’s needs and satisfy their desires
-http://dev.uxmatters.com/MT/archives/000107.php [outdated link]
+http://dev.uxmatters.com/MT/archives/000107.php [not available anymore]
 
 **Why usability in Open Source Software is poor** I would like to
 recommend this read to everyone, I have started a small discussion on
@@ -337,11 +345,12 @@ http://www.cs.waikato.ac.nz/~daven/docs/oss-wp.html - kasper
 
 **OS-X HCI Guidelines** Grate Examples! >>
 http://developer.apple.com/documentation/UserExperience/Conceptual/OSXHIGuidelines/index.html
-[outdated link] - Jens Hoffmann
+[not available anymore] - Jens Hoffmann
 
 **Interface Design patterns** "Best guidelines for designers for
 creating interface design patterns"
 http://www.techved.com/blog/interface-design-patterns-a-designers-guide
+[not available anymore]
 
 HCI Team Structure
 ==================
@@ -381,8 +390,8 @@ related to usability/HCI team]
 
 -  Sebastian Erlhofer - erlhofer(at)mindshape(dott).de - interested in
    getting TYPO3 more intuitive for everybody and especially easy to use
-   for editors (working on Usability_Survey [outdated wiki link] at the
-   moment)
+   for editors (working on `Usability_Survey </Usability_Survey>`__
+   [deprecated wiki link] at the moment)
 
 -  Andreas Balzer - typo3(at)andreas-balzer(dot)de - "interested in
    proofreading documentation so that it is easily understood by the new
@@ -396,9 +405,9 @@ related to usability/HCI team]
    content or whatever in the long run. So let's say I'm a
    programmer ;-)
 
-   -  Kuckuck [outdated wiki link] 10:55, 19 June 2006 (CEST) pleas
-      don't, realy don't do one at your own, there are two existing
-      libarys, one from ezPublish and one from PEAR...
+   -  `Kuckuck </User:Kuckuck>`__ [deprecated wiki link] 10:55, 19 June
+      2006 (CEST) pleas don't, realy don't do one at your own, there are
+      two existing libarys, one from ezPublish and one from PEAR...
 
       -  Andreas: We used the one from PEAR ;-) I meant a libray
          specially adopted for TYPO3

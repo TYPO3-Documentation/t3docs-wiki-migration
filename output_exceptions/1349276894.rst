@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1349276894:
-
-========================
-Exception/CMS/1349276894
-========================
+==========================
+TYPO3 Exception 1349276894
+==========================
 
 This error most likely occurs because the current backend-user does not
 have access to any file-mounts. Check that a file-mount exists and that

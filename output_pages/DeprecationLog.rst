@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===============
 Deprecation Log
@@ -44,7 +43,8 @@ A lot of extension can fail in newer TYPO3 versions. The goal of this
 wiki page is to describe TYPO3 extensions that might be affected in
 future.
 
-*Please add your extensions below [outdated wiki link].*
+*Please add your
+extensions*\ `below <#Affected_extensions>`__\ *[deprecated wiki link].*
 
 How to enable and disable the deprecation log
 =============================================

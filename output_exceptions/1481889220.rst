@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1481889220:
-
-========================
-Exception/CMS/1481889220
-========================
+==========================
+TYPO3 Exception 1481889220
+==========================
 
 Optimize MySQL tables scheduler task
 ====================================

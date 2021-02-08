@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1309272922:
-
-========================
-Exception/CMS/1309272922
-========================
+==========================
+TYPO3 Exception 1309272922
+==========================
 
 Exception is caused when a site uses Solr
 

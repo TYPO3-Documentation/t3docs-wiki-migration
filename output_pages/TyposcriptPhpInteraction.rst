@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _typoscript-php-interaction:
 
@@ -39,7 +38,7 @@ know that a piece of TS-code looks somewhat like this:
    10 = TEXT
    10.field = title
    10.wrap = <strong> | </strong>
-   10.if [outdated link].isTrue.field = title
+   10.if [not available anymore].isTrue.field = title
 
 Those few lines of TS would output the title of a page/tt_content
 element (depending on the actual "context") wrapped in <strong> tags but
@@ -279,9 +278,11 @@ TS-Programmer (T3 Administrator) should be able to "generate" a value
 somehow he passed the respective TS key(s) through stdWrap.
 
 Let's have a look for example at the "CONTENT" cObject. From the
-documentation on typo3.org about CONTENT cObjects (CONTENT [outdated
-link]) you can see that it has a property "select" (select [outdated
-link]) which again has subproperties.
+documentation on typo3.org about CONTENT cObjects
+(`CONTENT <https://typo3.org/documentation/document-library/core-documentation/doc_core_tsref/current/view/8/9/>`__
+[not available anymore]) you can see that it has a property "select"
+(`select <https://typo3.org/documentation/document-library/core-documentation/doc_core_tsref/current/view/5/5/>`__
+[not available anymore]) which again has subproperties.
 
 Two of those subproperties are "uidInList" and "pidInList". When you
 look at the datatype they have you see that "pidInList" has /stdWrap.
@@ -300,7 +301,8 @@ Here the 'pidInList' value and 'pidInList.' sub-array of the $conf array
 the stdWrap method. Whenever this happens you can do a lot of possible
 things with the value which get's generated. For an overview over all
 the possiblities just take look at the stdWrap definition at typo3.org
-(stdWrap [outdated link])
+(`stdWrap <https://typo3.org/documentation/document-library/core-documentation/doc_core_tsref/current/view/5/1/>`__
+[not available anymore])
 
 I guess the reason why Kasper has inserted a picture from the code of
 stdWrap there is that you should simply look up what stdWrap does
@@ -432,12 +434,14 @@ typo3/sys ext/css_styled_content/static/setup.txt (line 10):
    }
 
 And if you read the documentation about the CONTENT cObject on typo3.org
-(CONTENT [outdated link]) you will note that when no "renderObj" is
+(`CONTENT <https://typo3.org/documentation/document-library/core-documentation/doc_core_tsref/4.6.0/view/1/7/#id2635332>`__
+[not available anymore]) you will note that when no "renderObj" is
 given. To cite typo3.org :
 
 ok... you will not notice it because this information is missing in this
-place. But if you look at the RECORDS cObject (RECORDS [outdated link])
-you'll find there:
+place. But if you look at the RECORDS cObject
+(`RECORDS <https://typo3.org/documentation/document-library/core-documentation/doc_core_tsref/4.6.0/view/1/7/#id2635539>`__
+[not available anymore]) you'll find there:
 
 ::
 
@@ -465,5 +469,6 @@ rendered in TYPO3.
 
 --------------
 
-Bernhard Kraft [outdated link] 16:00, 25 Jun 2006 (CET)
-[www.think-open.at]
+`Bernhard
+Kraft </wiki/index.php?title=User:Oldkraftb&action=edit&redlink=1>`__
+[not available anymore] 16:00, 25 Jun 2006 (CET) [www.think-open.at]

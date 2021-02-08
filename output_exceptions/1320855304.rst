@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1320855304:
-
-========================
-Exception/CMS/1320855304
-========================
+==========================
+TYPO3 Exception 1320855304
+==========================
 
 Check the File-Permissions of this file. In my case there was a file
 which couldn't be created in the folder \_processed\_ because it had the

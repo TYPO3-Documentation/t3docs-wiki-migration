@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _copy-parts-of-a-running-typo3-system-to-another-server:
 
@@ -9,7 +8,7 @@ Faq/copy parts of a running TYPO3 system to another server
 
 .. container::
 
-   **Content Type:** FAQ [outdated wiki link].
+   **Content Type:** `FAQ </Category:FAQ>`__ [deprecated wiki link].
 
 .. container::
 
@@ -135,11 +134,11 @@ With TemplaVoila 0.3.0/0.4.0 and Typo3 3.7.0/3.8.0 everything works
 well, except that imported pages are blank or have strange content! That
 is because the content elements on each page have been put into the
 Non-used elements tab. Just copy them from there and everything is ok. /
-Peter [outdated wiki link], 11 June 2005
+`Peter </User:Peter289>`__ [deprecated wiki link], 11 June 2005
 
 In Typo3 v3.8.0- this function has been extended and look a little
-different, but the principle is still the same. /Peter [outdated wiki
-link]
+different, but the principle is still the same.
+/`Peter </User:Peter289>`__ [deprecated wiki link]
 
 .. |HowtoCopyParts1.png| image:: files/HowtoCopyParts1.png
    :target: /File:HowtoCopyParts1.png

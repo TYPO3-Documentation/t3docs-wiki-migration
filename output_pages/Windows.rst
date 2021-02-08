@@ -1,13 +1,15 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =======
 Windows
 =======
 
-<< Back to Getting started [outdated link] page
+<< Back to `Getting
+started </wiki/index.php?title=Getting_started&action=edit&redlink=1>`__
+[not available anymore] page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=Windows&action=edit&section=0>`__
+[deprecated wiki link]
 
 .. container::
 
@@ -50,7 +52,9 @@ Windows
    .. container::
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
-      reviewer for text and TypoScript. info [outdated wiki link]
+      reviewer for text and TypoScript.
+      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      [deprecated wiki link]
 
 Introduction
 ============
@@ -76,7 +80,8 @@ MoWeS Portable
 MoWeS Portable (Former WOS Portable) is a free WAMP package (GNU/GPL)
 that needs no installation and runs out of box. TYPO3 and ImageMagick
 are already included.
-(http://www.chsoftware.net/en/useware/mowes/mowes.htm [outdated link])
+(http://www.chsoftware.net/en/useware/mowes/mowes.htm [not available
+anymore])
 
 MySQL
 =====
@@ -128,7 +133,7 @@ gives the same security level than IIS5.
 
 Edit: If you receive "error forking ... ImageMagick\convert.exe" etc. in
 the Typo3-Installer (Image Processing-Setup), you shold read this:
-Windows security [outdated wiki link]
+`Windows security </Windows_security>`__ [deprecated wiki link]
 
 Webserver
 =========
@@ -171,10 +176,10 @@ Get PHP
 
 -  Download the php version of your choice, from http://www.php.net. If
    you want to get a specific version, use
-   http://www.php.net/get/php-4.3.11-Win32.zip/from/a/mirror [outdated
-   link] and substitute 'php-4.3.11' with the the version you need.
-   There might be the case, that Windows binaries for some specific
-   extension, are not available for recent php versions.
+   http://www.php.net/get/php-4.3.11-Win32.zip/from/a/mirror [not
+   available anymore] and substitute 'php-4.3.11' with the the version
+   you need. There might be the case, that Windows binaries for some
+   specific extension, are not available for recent php versions.
 -  Extract the content of the ZIP file to your harddisk (e.g. to c:\)
    and rename the 'php-4.3.10-Win32' folder (your version number might
    be different) to 'php', so we have our php installation in 'c:\php'.
@@ -282,9 +287,9 @@ plugins for IIS, which offer such a functionality:
 
 -  http://iirf.codeplex.com/\ **(Ionic's Isapi Rewrite Filter is free)**
 -  http://www.isapirewrite.com\ **(lite version is free)**
--  http://www.jdhodges.com/log/1309 [outdated link]
+-  http://www.jdhodges.com/log/1309 [not available anymore]
 -  http://www.opcode.co.uk/components/rewrite.asp
--  http://www.iisrewrite.com/en/ [outdated link]
+-  http://www.iisrewrite.com/en/ [not available anymore]
 -  Microsoft solution included in **IIS 6.0** Resource Kit : RemapURL,
    available under
    http://www.microsoft.com/downloads/details.aspx?FamilyId=56FC92EE-A71A-4C73-B628-ADE629C89499&displaylang=en
@@ -339,7 +344,7 @@ simple.
 About iirf ini.
 
 -  StatusUrl - this sets addres of status page
-   (http://localhost/iirfStatus [outdated link]).
+   (http://localhost/iirfStatus [not available anymore]).
 -  RewriteLogLevel - for debugging set logging level to 3, for
    production set it to 1.
 
@@ -516,23 +521,25 @@ Typoscripts config.locale_all value has to be set with the corresponding
 locale, you want to use (eg. 'german' instead of 'de_DE'). A list of
 Language Strings can be found at:
 http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vclib/html/_crt_language_strings.asp
-[outdated link]
+[not available anymore]
 
 eAccelerator
 ============
 
-eaccelerator [outdated wiki link] increases performance of PHP scripts
-by caching them in precompiled state, so that the overhead of compiling
-is almost completely eliminated. eAccelerator 's home is
-http://eaccelerator.net, Windows binaries can be found at
-http://dev.freshsite.pl/php-accelerators/eaccelerator.html [outdated
-link] or `eAccelerator Windows
+e\ `accelerator </Category:Accelerator>`__ [deprecated wiki link]
+increases performance of PHP scripts by caching them in precompiled
+state, so that the overhead of compiling is almost completely
+eliminated. eAccelerator 's home is http://eaccelerator.net, Windows
+binaries can be found at
+http://dev.freshsite.pl/php-accelerators/eaccelerator.html [not
+available anymore] or `eAccelerator Windows
 binaries <http://www.sitebuddy.com/PHP/Accelerators/eAccelerator_windows_binaries_builds>`__
 
 Download the DLL suitable to your PHP version, rename it to
 *eaccelerator.dll* and copy it to the *extensions* directory of your PHP
-installation. After this step, open the *php.ini [outdated wiki link]*
-and add the following lines:
+installation. After this step, open the
+`php.ini </Category:Php.ini>`__\ *[deprecated wiki link]* and add the
+following lines:
 
 ::
 
@@ -589,7 +596,8 @@ package.
 Use Windows symbolic links
 --------------------------
 
-(Choice number two is using symbolic links [outdated wiki link])
+(Choice number two is using `symbolic
+links </Category:Symbolic_links>`__ [deprecated wiki link])
 
 NEW: 16th of December 2005. Once again, quote "TYPO3 uses symlinks to
 offer a much easier management of future maintenance and upgrades. With
@@ -601,13 +609,14 @@ DOS and general computer knowledge so one can understand what is going
 and eventually adjust it, if needed. Plus, please read 'rem' lines
 within the batch files, there are comments and helpful hints as well!
 Here are two separate batch files I've created. BTW, you need linkd from
-http://www.dynawell.com/reskit/microsoft/win2000/linkd.zip [outdated
-link] (as a replacement for junction from sysinternals). I've used linkd
-instead of junction. The batch scripts assume that you've placed the
-[petri.co.il/download_free_reskit_tools.htm linkd freeware] in the WINNT
-directory. For XP or 2003 change WINNT for WINDOWS. I've used on winxp
-sp2. Also, this doesnt cover apache2, php 4.4.1 and MySQL 4.1.14
-installation and configuration. I assume you have it all set. Now:
+http://www.dynawell.com/reskit/microsoft/win2000/linkd.zip [not
+available anymore] (as a replacement for junction from sysinternals).
+I've used linkd instead of junction. The batch scripts assume that
+you've placed the [petri.co.il/download_free_reskit_tools.htm linkd
+freeware] in the WINNT directory. For XP or 2003 change WINNT for
+WINDOWS. I've used on winxp sp2. Also, this doesnt cover apache2, php
+4.4.1 and MySQL 4.1.14 installation and configuration. I assume you have
+it all set. Now:
 
 My directory structure within c:/www:
 
@@ -769,8 +778,10 @@ Older help: Read this document
 batch that you can copy-paste into a new text file and rename as you
 like. Put the batch file in your main TYPO3 directory before running it.
 
-The batch consider that you place the junction freeware [outdated link]
-in the WINNT directory. For XP or 2003 change WINNT for WINDOWS.
+The batch consider that you place the `junction
+freeware <http://www.sysinternals.com/Utilities/Junction.html>`__ [not
+available anymore] in the WINNT directory. For XP or 2003 change WINNT
+for WINDOWS.
 
 | 
 | Quickstart Batch

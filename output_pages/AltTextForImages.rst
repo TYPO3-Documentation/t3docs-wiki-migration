@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===================
 Alt text for images
@@ -7,7 +6,7 @@ Alt text for images
 
 .. container::
 
-   **Content Type:** HowTo [outdated wiki link].
+   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
 
 .. _alt-text-for-images-1:
 

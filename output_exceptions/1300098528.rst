@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1300098528:
-
-========================
-Exception/CMS/1300098528
-========================
+==========================
+TYPO3 Exception 1300098528
+==========================
 
 Observed in TYPO3 6.2.0: This error occurs when importing a previously
 exported page containing a reference to a file in fileadmin (Testing

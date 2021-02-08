@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ======================================
 Extension Development, using Flexforms
@@ -7,7 +6,7 @@ Extension Development, using Flexforms
 
 .. container::
 
-   **Content Type:** HowTo [outdated wiki link].
+   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
 
 .. container::
 
@@ -37,11 +36,13 @@ Before You Start
 Create Your Extension
 =====================
 
-At this point of the extension development [outdated wiki link], you are
-ready to begin and you'll need to create your extension. I recommend
-using the Extension Kickstarter but to each his/her own. If you want to
-be able to do anything with your new and shiny flexform, **make sure you
-configure your extension to have at least one 'frontend plugin'.**
+At this point of the `extension
+development </Category:Extension_development>`__ [deprecated wiki link],
+you are ready to begin and you'll need to create your extension. I
+recommend using the Extension Kickstarter but to each his/her own. If
+you want to be able to do anything with your new and shiny flexform,
+**make sure you configure your extension to have at least one 'frontend
+plugin'.**
 
 After you have your base layout for your front end extension, you'll
 need to make a few changes. For this reason, **make sure** you have
@@ -64,7 +65,8 @@ simple demonstration):
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -87,7 +89,8 @@ You'll need to add a couple of lines as marked at the end of the lines
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -115,7 +118,8 @@ be made in ext_tables.php:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -154,7 +158,9 @@ A sample *flexform_ds_pi1.xml* looks like:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -282,7 +288,9 @@ Let's dissect this XML and go over some of the parts.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -299,7 +307,9 @@ options such as Disabling the RTE.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -312,7 +322,9 @@ This is the default sheet, aka the *General* tab.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -325,7 +337,9 @@ capabilities, so we are using the builtin language features.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -343,7 +357,9 @@ Point*.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -371,7 +387,9 @@ with pre-defined options.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -428,7 +446,8 @@ In your **ext_tables.php** file, look for this line :
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -443,7 +462,8 @@ new content element type")
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -461,7 +481,9 @@ them on their own sheet. So, we create another sheet for the display.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -492,7 +514,9 @@ while the format is the same, we also require a **Checkbox** and a
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -531,7 +555,9 @@ continue our efforts!
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -557,7 +583,9 @@ add something like the following to you flexform.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -578,7 +606,8 @@ your extension directory and include it in ext_tables.php as
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -591,7 +620,8 @@ this.
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -622,7 +652,9 @@ to reload the form after changing a field (onChange)
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -635,7 +667,9 @@ expects a certain value of the type field. (displayCondition)
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -660,7 +694,9 @@ only within FlexForm datastructure definitions):
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -670,14 +706,16 @@ only within FlexForm datastructure definitions):
 
 See The TYPO3 API for a list of "displayCond" modifiers:
 https://typo3.org/documentation/document-library/core-documentation/doc_core_api/4.3.0/view/4/2/#id2520197
-[outdated link]
+[not available anymore]
 
 | 
 | **Test example:**
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -753,7 +791,8 @@ A sample *EXT:sampleflex/locallang_db.php*
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -780,7 +819,9 @@ Configuration for new format multilang file *locallang_db.xml*
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -827,7 +868,8 @@ several keys by that name in the array!**
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -858,7 +900,8 @@ function (including the main function) and handle it appropriately:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -886,7 +929,8 @@ multi-language installation:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -905,7 +949,8 @@ The same example but with arrays:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -929,7 +974,9 @@ values in the controller can be read with $this->settings.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -975,12 +1022,14 @@ Existing/finished documents
 
 You find all the different extension manuals either by the
 `extensions <https://extensions.typo3.org/>`__ themself or in the TYPO3
-documentation matrix [outdated link].
+`documentation matrix <https://docs.typo3.org/typo3cms/>`__ [not
+available anymore].
 
 Existing References
 ===================
 
--  Merge plugin TS configuration with flexform configuration. [outdated
-   link]
+-  `Merge plugin TS configuration with flexform
+   configuration. <https://docs.typo3.org/typo3cms/extensions/api_macmade/DeveloperApi/Php5Classes/TxApimacmadeFlexform/Index.html>`__
+   [not available anymore]
 -  `EXT: Library for Frontend
    plugins <https://docs.typo3.org/typo3cms/extensions/sg_zfelib/>`__

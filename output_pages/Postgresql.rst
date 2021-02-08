@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==========
 PostgreSQL
@@ -33,8 +32,9 @@ TYPO3
 -----
 
 It is advised to use the latest development master as a lot of work is
-happening on the DBAL [outdated wiki link] at the moment. If you need to
-use released version TYPO3 7.3 or later is advised.
+happening on the `DBAL </Category:DBAL>`__ [deprecated wiki link] at the
+moment. If you need to use released version TYPO3 7.3 or later is
+advised.
 
 How do I configure my system
 ============================
@@ -73,11 +73,12 @@ Windows:
 TYPO3
 -----
 
-The current installer supports using the DBAL [outdated wiki link]
-during first install. Most PostgreSQL [outdated wiki link] installations
-are set up to connect using a TCP/IP network connection with user
-authentication, if you can't connect using the socket it is advisable to
-switch the connection type.
+The current installer supports using the `DBAL </Category:DBAL>`__
+[deprecated wiki link] during first install. Most
+`PostgreSQL </Category:PostgreSQL>`__ [deprecated wiki link]
+installations are set up to connect using a TCP/IP network connection
+with user authentication, if you can't connect using the socket it is
+advisable to switch the connection type.
 
 .. _postgresql-2:
 
@@ -106,7 +107,7 @@ Create a Vagrantfile
 
     Vagrant.configure(2) do |config|
       config.vm.box = 'mojocode/typo3'
-      config.vm.box_url = 'http://vagrant-boxes.mojocode.de/typo3/' [outdated link]
+      config.vm.box_url = 'http://vagrant-boxes.mojocode.de/typo3/' [not available anymore]
       config.vm.box_version = '~> 1.0'
       config.vm.box_check_update = true
       config.vm.network 'private_network', ip: '192.168.144.120'
@@ -143,8 +144,8 @@ Create a database
 Perform TYPO3 first install
 ---------------------------
 
-Open http://postgresql.local.typo3.org/ [outdated link] in your browser
-and configure TYPO3 with PostgreSQL.
+Open http://postgresql.local.typo3.org/ [not available anymore] in your
+browser and configure TYPO3 with PostgreSQL.
 
 **Database connection parameters**
 

@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ====================
 TypoScript Constants
@@ -7,8 +6,8 @@ TypoScript Constants
 
 .. container::
 
-   This page belongs to the `Core Team <core-team>`__ (category Core
-   Team [outdated wiki link])
+   This page belongs to the `Core Team <core-team>`__ (category `Core
+   Team </Category:Core_Team>`__ [deprecated wiki link])
 
 .. container::
 
@@ -17,7 +16,9 @@ TypoScript Constants
    .. container::
 
       Change the **{{review}}** marker to **{{publish}}** when all parts
-      are reviewed (e.g. TypoScript). info [outdated wiki link]
+      are reviewed (e.g. TypoScript).
+      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      [deprecated wiki link]
 
 | This page is a draft designed to be included in the Core manual:
   TypoScript Syntax and In-depth Study
@@ -37,7 +38,9 @@ TypoScript template. Example:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -49,7 +52,9 @@ To use that constant in a TypoScript template, use the following syntax:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -70,7 +75,9 @@ Editor. Here is an example:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -104,7 +111,9 @@ Example:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -162,7 +171,9 @@ Custom main categories can be defined for extensions. Example:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -191,7 +202,9 @@ You can add your own subcategories by defining them the following way:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -207,8 +220,9 @@ You can add your own subcategories by defining them the following way:
           PID =
       }
 
-Source: (German) TYPO3 Konstanten im Konstanteneditor anzeigen [outdated
-link]
+Source: `(German) TYPO3 Konstanten im Konstanteneditor
+anzeigen <http://typo3-blog.net/tutorials/news/typo3-konstanteneditor.html>`__
+[not available anymore]
 
 Helpful Links
 =============

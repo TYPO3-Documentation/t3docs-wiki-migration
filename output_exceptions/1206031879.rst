@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1206031879:
-
-========================
-Exception/CMS/1206031879
-========================
+==========================
+TYPO3 Exception 1206031879
+==========================
 
 It is explicit enough to understand that the TYPE can't be found,
 knowing you have three choices, all set in

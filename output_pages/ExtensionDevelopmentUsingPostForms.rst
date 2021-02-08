@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =======================================
 Extension Development, using POST Forms
@@ -24,7 +23,9 @@ Here I want to explain the programming of POST-Forms with the Typo3
 functions in class tslib_pibase. First of all every form variable in the
 HTML-Template must have the name of the extension class. Then, if the
 form is submitted you can find all form variables in the incoming array
-$this->piVars. more TYPO3 3.8.0 Documentation [outdated link]
+$this->piVars. more `TYPO3 3.8.0
+Documentation <https://typo3.org/fileadmin/typo3api-3.8.0/>`__ [not
+available anymore]
 
 Default configuration of $this->piVars in class tslib_pibase (the array
 is empty when check the first time in the extension):

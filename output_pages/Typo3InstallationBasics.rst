@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =========================
 TYPO3 Installation Basics
@@ -9,4 +8,5 @@ TYPO3 Installation Basics
 
    Redirect to:
 
-   -  Install [outdated link]
+   -  `Install </wiki/index.php?title=Install&action=edit&redlink=1>`__
+      [not available anymore]

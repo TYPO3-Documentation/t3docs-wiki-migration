@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1329821485:
-
-========================
-Exception/CMS/1329821485
-========================
+==========================
+TYPO3 Exception 1329821485
+==========================
 
 This exception can occour due to at least three reasons:
 
@@ -27,7 +24,7 @@ Ringer] <https://forge.typo3.org/issues/43484>`__
 
 -  Some unknown cached php file has been active. I have provided the PHP
    file "clear_cache_franz.php" at
-   http://www.jambage.com/uploads/media/clear_cache_franz.php.zip
-   [outdated link] to clear all caches. Use the Install Tool to clear
+   http://www.jambage.com/uploads/media/clear_cache_franz.php.zip [not
+   available anymore] to clear all caches. Use the Install Tool to clear
    all files in the folders typo3temp/_processed\_ and
    typo3temp/_migrated_.

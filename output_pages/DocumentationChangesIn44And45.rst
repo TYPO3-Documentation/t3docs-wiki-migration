@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _documentation-changes-in44-and45:
 
@@ -9,8 +8,8 @@ Documentation changes in 4.4 and 4.5
 
 .. container::
 
-   This page belongs to the `Core Team <core-team>`__ (category Core
-   Team [outdated wiki link])
+   This page belongs to the `Core Team <core-team>`__ (category `Core
+   Team </Category:Core_Team>`__ [deprecated wiki link])
 
 .. container::
 
@@ -565,7 +564,8 @@ The patches were made by Joey.
 `23921: TYPO3 Core - Optimize stdWrap usage for TypoScript content element HTML [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23921>`__
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-diff [outdated link]
+`diff <https://forge.typo3.org/projects/typo3cms-core/repository/revisions/91c7175198b4e6fd3491b207a7c332c288cffef8/diff>`__
+[not available anymore]
 
 TSref: HTML
 
@@ -607,7 +607,8 @@ PHP_SCRIPT cObject.
 `23896: TYPO3 Core - Optimize stdWrap usage for TypoScript content element FILE [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23896>`__
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-diff [outdated link]
+`diff <https://forge.typo3.org/projects/typo3cms-core/repository/revisions/0ecff15a36e4a74b089dabe16d2d8ffd5cb35704/diff/typo3/sysext/cms/tslib/content/class.tslib_content_file.php>`__
+[not available anymore]
 
 TSref: FILE
 
@@ -650,7 +651,8 @@ cObj->cImage.
 `23888: TYPO3 Core - Optimize stdWrap usage for TypoScript content element CLEARGIF [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23888>`__
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-diff [outdated link]
+`diff <https://forge.typo3.org/projects/typo3cms-core/repository/revisions/8f4baa47a0ecd6137f11b4945cf5f363c24b49fc/diff/typo3/sysext/cms/tslib/content/class.tslib_content_cleargif.php>`__
+[not available anymore]
 
 TSref: CLEARGIF
 
@@ -663,7 +665,8 @@ TSref: CLEARGIF
 `23890: TYPO3 Core - Optimize stdWrap usage for TypoScript content element CONTENT [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23890>`__
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-diff [outdated link]
+`diff <https://forge.typo3.org/projects/typo3cms-core/repository/revisions/11e9a5460221b6b34f33af0b1227fdf33b5afc70/diff>`__
+[not available anymore]
 
 TSref: CONTENT
 
@@ -780,7 +783,8 @@ TSref: CTABLE
 `24050: TYPO3 Core - Optimize stdWrap usage for TypoScript content element OTABLE [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/24050>`__
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-diff [outdated link]
+`diff <https://forge.typo3.org/projects/typo3cms-core/repository/revisions/14b4990022c3cb196a80a8b1d3beb8ad748959a1/diff>`__
+[not available anymore]
 
 TSref: OTABLE
 
@@ -1166,8 +1170,9 @@ RFCs (#23969 and #23970).
 But: "other missing stdWrap parameters will be added by another RFC
 changing the behaviour of cObj->cImage."
 
-I went through the diff [outdated link] and added stdWrap where it has
-been added.
+I went through the
+`diff <https://forge.typo3.org/projects/typo3cms-core/repository/revisions/b90e61c1fbe44a8242cf111403bb0a4d2ce44aaf/diff>`__
+[not available anymore] and added stdWrap where it has been added.
 
 IMAGE
 
@@ -1359,9 +1364,10 @@ or http, which is the default value)
 `22300: TYPO3 Core - Possibility to configure another link paramter for jumpurl filelinks [Closed; assigned to Benni Mack] <https://forge.typo3.org/issues/22300>`__
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Add the following to chapter 1.5 Functions in section filelink [outdated
-link] inside the explanation of the jumpurl property inside "Extra
-properties":
+Add the following to chapter 1.5 Functions in `section
+filelink <https://typo3.org/documentation/document-library/core-documentation/doc_core_tsref/4.3.1/view/1/5/#id2509370>`__
+[not available anymore] inside the explanation of the jumpurl property
+inside "Extra properties":
 
 -  .parameter = [string/stdWrap]
 
@@ -1982,12 +1988,16 @@ doc_core_api (4.4)
 `22319: TYPO3 Core - Add Viewport layout to BE [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/22319>`__
 -----------------------------------------------------------------------------------------------------------------------------
 
-Wiki Page [outdated link]
+`Wiki
+Page </wiki/index.php?title=TYPO3Viewport&action=edit&redlink=1>`__ [not
+available anymore]
 
 `22642: TYPO3 Core - Rewrite of the debug panel (More Features!, More Stability!, More Usability!) [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/22642>`__
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Wiki Page [outdated link]
+`Wiki
+Page </wiki/index.php?title=TYPO3Viewport&action=edit&redlink=1>`__ [not
+available anymore]
 
 doc_core_api (4.5)
 ==================
@@ -1995,14 +2005,17 @@ doc_core_api (4.5)
 `24071: TYPO3 Core - Support for Custom Navigation Components [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/24071>`__
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-Wiki Page [outdated link]
+`Wiki
+Page </wiki/index.php?title=TYPO3Viewport&action=edit&redlink=1>`__ [not
+available anymore]
 
 Extension Architecture
 ----------------------
 
 **ext_emconf.php**
 
-[1] [outdated link]
+`[1] <https://typo3.org/documentation/document-library/core-documentation/doc_core_api/4.3.0/view/2/1/#id2344981>`__
+[not available anymore]
 
 ::
 
@@ -2075,7 +2088,8 @@ This is how to generate and send a mail in TYPO3 starting with 4.5:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -2092,7 +2106,8 @@ Or if you prefer, don't concatenate the calls:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -2109,7 +2124,8 @@ Or if you prefer, don't concatenate the calls:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -2129,7 +2145,8 @@ Or if you prefer, don't concatenate the calls:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -2159,7 +2176,8 @@ To make use of this setting in your extension, use the following code:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -2175,10 +2193,10 @@ To make use of this setting in your extension, use the following code:
 For more information about available methods for creating messages,
 refer to SwiftMail documentation:
 
--  http://swiftmailer.org/docs/messages [outdated link]: Content,
-   attachments, basic headers
--  http://swiftmailer.org/docs/headers [outdated link]: Adding and
-   manipulating complex or custom headers
+-  http://swiftmailer.org/docs/messages [not available anymore]:
+   Content, attachments, basic headers
+-  http://swiftmailer.org/docs/headers [not available anymore]: Adding
+   and manipulating complex or custom headers
 
 **Deprecated Methods**
 
@@ -2208,7 +2226,8 @@ it.
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -2229,7 +2248,8 @@ For editing a tt_content record, the call could look like this:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -2244,7 +2264,8 @@ removed:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -2261,7 +2282,8 @@ check that the form token is valid like this:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -2295,7 +2317,8 @@ verifying it.
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -2315,7 +2338,8 @@ removed:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -2328,7 +2352,8 @@ check that the form token is valid like this:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 

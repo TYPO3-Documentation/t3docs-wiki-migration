@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1537362815351:
-
-===========================
-Exception/CMS/1537362815351
-===========================
+=============================
+TYPO3 Exception 1537362815351
+=============================
 
 E-mail address is incorrect or empty. Please enter a correct e-mail
 address with the beuser.

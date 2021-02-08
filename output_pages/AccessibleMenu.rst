@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===============
 Accessible menu
@@ -7,7 +6,7 @@ Accessible menu
 
 .. container::
 
-   **Content Type:** HowTo [outdated wiki link].
+   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
 
 .. container::
 
@@ -18,8 +17,8 @@ Accessible menu
 Article about Accessible menus on typo3.org
 ===========================================
 
--  https://typo3.org/documentation/article/accessible-menus/ [outdated
-   link]
+-  https://typo3.org/documentation/article/accessible-menus/ [not
+   available anymore]
 
 Accessible menu as an un/ordered list in XHTML
 ==============================================

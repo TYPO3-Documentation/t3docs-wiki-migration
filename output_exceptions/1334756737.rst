@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1334756737:
-
-========================
-Exception/CMS/1334756737
-========================
+==========================
+TYPO3 Exception 1334756737
+==========================
 
 A cache file could not be written.
 

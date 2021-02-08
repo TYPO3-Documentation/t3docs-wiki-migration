@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1342635425:
-
-========================
-Exception/CMS/1342635425
-========================
+==========================
+TYPO3 Exception 1342635425
+==========================
 
 If this error comes directly after installation, activate cUrl support
 in Install-Tool.
@@ -24,7 +21,7 @@ symlinks (mklink). curlUse = 1 worked for me.
   local issuer certificate". I could solve this issue with this step-by
   step Guide from this blog:
   http://christ.media/ssl-certificate-problem-unable-get-local-issuer-certificate-howto/
-  [outdated link]
+  [not available anymore]
 
 | (in short and english):
 | Get the **cacert.pem** from http://curl.haxx.se/docs/caextract.html

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1301648167:
-
-========================
-Exception/CMS/1301648167
-========================
+==========================
+TYPO3 Exception 1301648167
+==========================
 
 Mountpoints and Shortcut Pages
 ==============================
@@ -31,8 +28,9 @@ cacheentries.
 
 TYPO3 4.7.4, realurl 1.12.3
 
-Maholtz [outdated wiki link] (talk [outdated wiki link]) 10:55, 1
-October 2012 (CEST)
+`Maholtz </User:Maholtz>`__ [deprecated wiki link]
+(`talk </User_talk:Maholtz>`__ [deprecated wiki link]) 10:55, 1 October
+2012 (CEST)
 
 addRootLineFields which are not available
 =========================================

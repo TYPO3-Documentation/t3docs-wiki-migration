@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1203699034:
-
-========================
-Exception/CMS/1203699034
-========================
+==========================
+TYPO3 Exception 1203699034
+==========================
 
 ::
 
@@ -28,7 +25,8 @@ If this does not help, add the following lines to you
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -38,8 +36,9 @@ If this does not help, add the following lines to you
           $TYPO3_CONF_VARS['SYS']['caching']['cacheConfigurations']['IDENTIFIER'] = array();
       }
 
-See Caching_framework#How_to_use_the_caching_framework_in_extensions
-[outdated link] for more information.
+See
+`Caching_framework#How_to_use_the_caching_framework_in_extensions </wiki/index.php?title=Caching_framework&action=edit&redlink=1>`__
+[not available anymore] for more information.
 
 --------------
 

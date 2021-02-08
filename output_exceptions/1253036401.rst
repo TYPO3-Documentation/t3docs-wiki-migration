@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1253036401:
-
-========================
-Exception/CMS/1253036401
-========================
+==========================
+TYPO3 Exception 1253036401
+==========================
 
 I receive this when the extensions fluid_styled_content and
 css_styled_content are installed and are activated in the page template.

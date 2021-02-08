@@ -1,18 +1,17 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1313855173:
-
-========================
-Exception/CMS/1313855173
-========================
+==========================
+TYPO3 Exception 1313855173
+==========================
 
 First of all: Please check, if you have configured your controller in
 ext_localconf.php
 
 If the problem still comes up:
 
-#. Have a look at this [outdated link], if you work with
+#. Have a look at
+   `this <http://www.typo3forum.net/forum/extbase/59994-action-show-list-not-allowed-plugin.html#post192668>`__
+   [not available anymore], if you work with
    switchableControllerActions.
 #. Maybe you have changed your content element from another plugin to
    your new extbase plugin. In that case it may be that the previous

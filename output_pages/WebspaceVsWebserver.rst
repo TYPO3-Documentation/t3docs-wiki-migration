@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _webspace-vs-webserver:
 
@@ -7,7 +6,8 @@
 Webspace vs. Webserver
 ======================
 
-<< back [outdated wiki link]
+<< `back </Typo3_Installation_Basics#Webspace_vs._Webserver>`__
+[deprecated wiki link]
 
 =================
 What is Webspace?

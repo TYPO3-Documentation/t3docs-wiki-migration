@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ================
 Hook programming
@@ -26,9 +25,11 @@ Using TYPO3 Hooks
    .. container::
 
       **Reason: No reason given**
-      If you disagree with its deletion, please explain why at Category
-      talk:Candidates for speedy deletion [outdated link] or improve the
-      page and remove the ``{{delete}}`` tag.
+      If you disagree with its deletion, please explain why at `Category
+      talk:Candidates for speedy
+      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      [not available anymore] or improve the page and remove the
+      ``{{delete}}`` tag.
 
       This notice should remain for a minimum of 1 week after it was
       placed on the page. If a discussion is still ongoing, it should
@@ -36,15 +37,19 @@ Using TYPO3 Hooks
       about the removal, after which the page will either be deleted or
       this notice removed.
 
-      Remember to check what links here [outdated link] and the the page
-      history [outdated wiki link] before deleting.
+      Remember to check `what links
+      here </Special:WhatLinksHere/Hook_programming>`__ [not available
+      anymore] and the `the page
+      history <https://wiki.typo3.org/wiki/index.php?title=Hook_programming&action=history>`__
+      [deprecated wiki link] before deleting.
 
-For extension [outdated wiki link] programmers.
+For `extension </Category:Extension>`__ [deprecated wiki link]
+programmers.
 
 Hooks are places in TYPO3 code where registered user-defined functions,
 so called *callbacks*, are called..
 
-Usage of a hook [outdated wiki link]:
+Usage of a `hook </Category:Hook>`__ [deprecated wiki link]:
 
 #. Either the hook already exists in the core of TYPO3 and you can just
    register a callback.
@@ -68,7 +73,7 @@ Hook references
 -  The extension dmc_hooklist (downloadable in TER) can show you a list
    of most of the hooks available.
 -  https://typo3.org/documentation/article/how-to-use-existing-hooks-in-your-own-extension/
-   [outdated link] How to use
+   [not available anymore] How to use
 
 =====================================
 Registered hooks in your installation

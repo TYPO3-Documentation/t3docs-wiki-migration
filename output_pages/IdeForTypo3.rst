@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _ide-for-typo3:
 
@@ -22,16 +21,21 @@ IDEs are ordered alphabetically.
    .. container::
 
       Change the **{{review}}** marker to **{{publish}}** when all parts
-      are reviewed (e.g. TypoScript). info [outdated wiki link]
+      are reviewed (e.g. TypoScript).
+      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      [deprecated wiki link]
 
 Aptana
 ======
 
-============= =====================================================
-Download page http://www.aptana.org/studio/download [outdated link]
-Type          *OpenSource*
-Platform      Windows, Mac OS X, Linux
-============= =====================================================
++---------------+-----------------------------------------------------+
+| Download page | http://www.aptana.org/studio/download [not          |
+|               | available anymore]                                  |
++---------------+-----------------------------------------------------+
+| Type          | *OpenSource*                                        |
++---------------+-----------------------------------------------------+
+| Platform      | Windows, Mac OS X, Linux                            |
++---------------+-----------------------------------------------------+
 
 Strengths
 ---------
@@ -287,10 +291,18 @@ PHPDoc > Missing @throws tag(s)", see screenshot above
 Usefull Add-Ons & additions
 ---------------------------
 
--  Live Templates for Fluid [outdated link]
--  XML Schema auto completion in PhpStorm [outdated link]
--  TypoScript Plugin for PHPStorm [outdated link]
--  Collection if Plugins by Kay Strobach [outdated link]
+-  `Live Templates for
+   Fluid <https://github.com/NeoBlack/PHPStormTYPO3>`__ [not available
+   anymore]
+-  `XML Schema auto completion in
+   PhpStorm <http://typo3.helmut-hummel.de/post/85031122475/xml-schema-auto-completion-in-phpstorm>`__
+   [not available anymore]
+-  `TypoScript Plugin for
+   PHPStorm <http://www.sgalinski.de/open-source/typoscript-plugin.html>`__
+   [not available anymore]
+-  `Collection if Plugins by Kay
+   Strobach <http://blog.kay-strobach.de/index.php/2014/05/23/usefull-plugins-for-typo3-flow-and-typo3-cms/>`__
+   [not available anymore]
 
 Waterproof PHPEdit
 ==================
@@ -298,7 +310,7 @@ Waterproof PHPEdit
 +---------------+-----------------------------------------------------+
 | Download page | http://w                                            |
 |               | ww.phpedit.com/en/download/download-latest-versions |
-|               | [outdated link]                                     |
+|               | [not available anymore]                             |
 +---------------+-----------------------------------------------------+
 | Type          | *Commercial*, € 89                                  |
 +---------------+-----------------------------------------------------+

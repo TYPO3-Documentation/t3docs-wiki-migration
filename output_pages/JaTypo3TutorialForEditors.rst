@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _ja-typo3-tutorial-for-editors:
 
@@ -23,16 +22,19 @@ Ja:TYPO3 Tutorial for Editors
    | `typo3_tut <https://extensions.t  |                                   |
    | ypo3.org/extension/typo3_tut/>`__ |                                   |
    +-----------------------------------+-----------------------------------+
-   |                                   | tutorial [outdated wiki link]:    |
-   |                                   | This basic tutorial for editors   |
+   |                                   | `tutorial </Category:Tutorial>`__ |
+   |                                   | [deprecated wiki link]: This      |
+   |                                   | basic tutorial for editors        |
    |                                   | explains how to add or change     |
    |                                   | content on an existing website in |
    |                                   | TYPO3. It provides the most basic |
    |                                   | step-by-step instructions to get  |
    |                                   | the job done.                     |
    +-----------------------------------+-----------------------------------+
-   | **documentation state**           | **stable [outdated wiki link]**   |
-   |                                   | |document state list|             |
+   | **documentation state**           | `stable </C                       |
+   |                                   | ategory:Stable>`__\ **[deprecated |
+   |                                   | wiki link]** |document state      |
+   |                                   | list|                             |
    |                                   | `licence                          |
    |                                   | OCL <http:/                       |
    |                                   | /www.opencontent.org/openpub/>`__ |
@@ -44,26 +46,34 @@ Ja:TYPO3 Tutorial for Editors
    | usergroups                        | |list of usergroups| forEditors,  |
    |                                   | forBeginners                      |
    +-----------------------------------+-----------------------------------+
-   | author(s)                         | editors: Eikaa [outdated wiki     |
-   |                                   | link], Psychomieze [outdated wiki |
-   |                                   | link]                             |
+   | author(s)                         | editors: `Eikaa </User:Eikaa>`__  |
+   |                                   | [deprecated wiki link],           |
+   |                                   | `P                                |
+   |                                   | sychomieze </User:Psychomieze>`__ |
+   |                                   | [deprecated wiki link]            |
    |                                   | reviewer and publisher:           |
-   |                                   | Psychomieze [outdated wiki link]  |
+   |                                   | `P                                |
+   |                                   | sychomieze </User:Psychomieze>`__ |
+   |                                   | [deprecated wiki link]            |
    +-----------------------------------+-----------------------------------+
    | TER category                      | doc_tut                           |
    +-----------------------------------+-----------------------------------+
    | dependency                        |                                   |
    +-----------------------------------+-----------------------------------+
 
-<< Back to Extension manuals [outdated wiki link] page
+<< Back to `Extension manuals </Overview_Extension_manuals>`__
+[deprecated wiki link] page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=Ja:TYPO3_Tutorial_for_Editors&action=edit&section=0>`__
+[deprecated wiki link]
 
 | 
 | この基本的なチュートリアルでは既存のTYPO3のウェブ･サイトにコンテンツを付け加えたり、変更したりする方法を説明します。その作業を成し遂げる為の手順を段階を追って説明します。このチュートリアルでは利用可能な全ての機能を説明するわけではなく、もっとも一般的なものだけです。他の言語に翻訳する手伝いをするにはこちらを参照のこと：
   https://docs.typo3.org/m/typo3/tutorial-editors/master/en-us/
 
-続編: TYPO3_Tutorial_for_Editors_part2 [outdated wiki link]
+続編:
+`TYPO3_Tutorial_for_Editors_part2 </TYPO3_Tutorial_for_Editors_part2>`__
+[deprecated wiki link]
 
 ========
 ログイン
@@ -75,7 +85,7 @@ TYPO3にログインするには、ブラウザのアドレス欄に自分のウ
 
 ::
 
-   http://www.example.com/typo3 [outdated link]
+   http://www.example.com/typo3 [not available anymore]
 
 次のような画面に変わるでしょう：
 
@@ -312,8 +322,9 @@ secondary options**\ オプションを有効にしておくと便利です。
 #. 画像にキャプションをつけたい場合はここに入力します。画像が複数ある場合は、キャプション毎に改行します
 
 **Alternative
-Text:**\ 欄もあると思います。それぞれの画像に対し、一行ずつ簡単な説明を記入しておくのは一般的によいことです。アクセシビリティ要件(例えば合衆国のSection
-508 compliance [outdated link]のような)を満たすには特に重要です。
+Text:**\ 欄もあると思います。それぞれの画像に対し、一行ずつ簡単な説明を記入しておくのは一般的によいことです。アクセシビリティ要件(例えば合衆国の\ `Section
+508 compliance <http://www.section508.gov>`__ [not available
+anymore]のような)を満たすには特に重要です。
 
 ==================
 ファイルの取り扱い

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1278450972:
-
-========================
-Exception/CMS/1278450972
-========================
+==========================
+TYPO3 Exception 1278450972
+==========================
 
 #1278450972: The classname "TYPO3\CMS\Extbase\Persistence\ObjectStorage<\Webconsulting\WebconWarndienst\Domain\Model\Location>" was not found and thus can not be reflected.
 ============================================================================================================================================================================

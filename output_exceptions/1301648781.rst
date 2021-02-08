@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1301648781:
-
-========================
-Exception/CMS/1301648781
-========================
+==========================
+TYPO3 Exception 1301648781
+==========================
 
 I realized this message with a HTTP404 when my eID script was registered
 but not found. (T3v9.5, eID PSR style)

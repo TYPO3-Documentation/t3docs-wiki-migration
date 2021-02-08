@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1225709597:
-
-========================
-Exception/CMS/1225709597
-========================
+==========================
+TYPO3 Exception 1225709597
+==========================
 
 The requested Fluid template (or Partial file linked from within a
 Template file) is missing. Verify the configured file path/s and any

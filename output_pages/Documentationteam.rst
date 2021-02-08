@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =================
 DocumentationTeam
@@ -7,8 +6,8 @@ DocumentationTeam
 
 .. container::
 
-   This page belongs to the Documentation Team (category DocTeam
-   [outdated wiki link])
+   This page belongs to the Documentation Team (category
+   `DocTeam </Category:DocTeam>`__ [deprecated wiki link])
 
 .. container::
 
@@ -44,21 +43,30 @@ current projects:
 Projects
 --------
 
-You can attend our projects, just contact us [outdated wiki link].
-Sorted by current priority:
+You can attend our projects, `just contact
+us </DocumentationTeam#Contact_us>`__ [deprecated wiki link]. Sorted by
+current priority:
 
 .. container::
 
-   [edit [outdated wiki link]]
+   [`edit <https://wiki.typo3.org/wiki/index.php?title=Template:DocTeam/Projects&action=edit>`__
+   [deprecated wiki link]]
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| Link      | 1.        | 2. ReST   | 3. Online | 4. Online | 5. Solr   |
-|           | Official  | migration | ReST      | TSRef     | search    |
-|           | Docu      | [outdated | Editor    | [outdated | index of  |
-|           | mentation | wiki      | [outdated | wiki      | the wiki  |
-|           | [outdated | link]     | wiki      | link]     | [outdated |
-|           | wiki      |           | link]     |           | wiki      |
-|           | link]     |           |           |           | link]     |
+| Link      | 1.        | 2. `ReST  | 3.        | 4.        | 5. `Solr  |
+|           | `Official | mi        | `Online   | `Online   | search    |
+|           | Docum     | gration < | ReST      | TSRef     | index of  |
+|           | entation  | /DocTeam/ | Edi       |  </DocTea | the       |
+|           | </DocTeam | ReST_migr | tor </Doc | m/Online_ | wik       |
+|           | /Official | ation>`__ | Team/Onli | TSRef>`__ | i </DocTe |
+|           | _Document | [d        | ne_ReST_E | [d        | am/Solr_s |
+|           | ation>`__ | eprecated | ditor>`__ | eprecated | earch_ind |
+|           | [d        | wiki      | [d        | wiki      | ex_of_the |
+|           | eprecated | link]     | eprecated | link]     | _wiki>`__ |
+|           | wiki      |           | wiki      |           | [d        |
+|           | link]     |           | link]     |           | eprecated |
+|           |           |           |           |           | wiki      |
+|           |           |           |           |           | link]     |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Aim**   | Create,   | Change    | Easily    | Provide   | Provide   |
 |           | update    | the       | edit      | the TSRef | the page  |
@@ -99,8 +107,10 @@ Sorted by current priority:
 | The following **has already been done**:
 
 +----------------+-------------------------+-------------------------+
-| Link           | Wiki Design Rebrush     | SSO for the wiki        |
-|                | [outdated wiki link]    | [outdated link]         |
+| Link           | `Wiki Design            | `SSO for the            |
+|                | Rebrush </DocTeam/      | wiki <https://forge.ty  |
+|                | Wiki_Design_Rebrush>`__ | po3.org/issues/6449>`__ |
+|                | [deprecated wiki link]  | [not available anymore] |
 +----------------+-------------------------+-------------------------+
 | **Aim**        | Give the TYPO3-Wiki a   | Make logins possible    |
 |                | nice rebrushing         | with www.typo3.org      |
@@ -136,20 +146,23 @@ about goals and evolution of the project. The reports of the meeting are
 available online: `DocTeam
 Meetings <https://forge.typo3.org/projects/team-docteam/wiki#Team-Meetings>`__.
 If you would like to participate to such meetings and help around don't
-hesistate to contact Francois Suter [outdated link].
+hesistate to contact `Francois Suter <mailto:documentation@typo3.org>`__
+[not available anymore].
 
 Cross-project activities
 ------------------------
 
 Classification of roles, states and tags used in documentation (draft,
-you`re welcome to edit) DocTeam/ContentClassification [outdated wiki
-link]
+you`re welcome to edit)
+`DocTeam/ContentClassification </DocTeam/ContentClassification>`__
+[deprecated wiki link]
 
 Discussion about challenges and goals of TYPO3 documentation
-DocTeam/ChallengesAndGoals [outdated wiki link]
+`DocTeam/ChallengesAndGoals </DocTeam/ChallengesAndGoals>`__ [deprecated
+wiki link]
 
-The new vision of Documentation Team DocTeam/New vision [outdated wiki
-link]
+The new vision of Documentation Team `DocTeam/New
+vision </DocTeam/New_vision>`__ [deprecated wiki link]
 
 Goals and Mission Statement
 ===========================
@@ -214,9 +227,13 @@ Honorary Member
 Supporters
 ----------
 
--  The Server Administration Team [outdated link] (e.g. Steffen Gebert
-   [outdated wiki link], Fabien Udriot [outdated wiki link]...) takes
-   care for the Server (PHP, MySQL).
+-  The `Server Administration
+   Team <https://forge.typo3.org/projects/team-infrastructure>`__ [not
+   available anymore] (e.g. `Steffen
+   Gebert </wiki/index.php?title=User:Stephenking&action=edit&redlink=1>`__
+   [deprecated wiki link], `Fabien
+   Udriot </wiki/index.php?title=User:Fab1en&action=edit&redlink=1>`__
+   [deprecated wiki link]...) takes care for the Server (PHP, MySQL).
 
 Maybe you?
 ----------
@@ -231,7 +248,8 @@ Get in contact with the Documentation Team
 You want to participate? You have a question? You want to help? Please
 contact us:
 
--  Send us an e-mail [outdated link] or
+-  `Send us an e-mail <mailto:documentation@typo3.org>`__ [not available
+   anymore] or
 -  Tell us what you want to do in `our newsgroup
    "typo3-project-documentation" <http://lists.typo3.org/cgi-bin/mailman/listinfo/typo3-project-documentation>`__
 
@@ -241,11 +259,16 @@ Further reading on how to write documentation
 How to write documentation; the rules, templates, tips and tricks. Also
 something about why we write documentation in a certain way.
 
--  Help [outdated wiki link] for editing and creating wiki pages
--  General guidelines [outdated wiki link] on how to write documentation
--  Information about images in documentation [outdated wiki link]
+-  `Help </Help:Contents>`__ [deprecated wiki link] for editing and
+   creating wiki pages
+-  General `guidelines </Documentation_guidelines>`__ [deprecated wiki
+   link] on how to write documentation
+-  Information about `images in
+   documentation </DocTeam/Official_Documentation_Screenshots>`__
+   [deprecated wiki link]
 -  Writing in an `alternativ language <alternative-language>`__
--  How to use Wink [outdated wiki link] to make small flash tutorials
+-  How to `use Wink </Wink_flashvideos>`__ [deprecated wiki link] to
+   make small flash tutorials
 
 OpenOffice related
 ------------------
@@ -254,10 +277,15 @@ Before moving our documents to `reST format <rest>`__, we used
 OpenOffice to maintain them. These information were helpful back then:
 
 -  How to update an OpenOffice manual with changes made in the wiki:
-   DocTeam/Update OpenOffice manual from the Wiki [outdated wiki link]
--  How to upload Open office documents to typo3.org [outdated link]
--  How to convert OpenOffice documents to Wiki format [outdated wiki
-   link] about writing documentation
+   `DocTeam/Update OpenOffice manual from the
+   Wiki </DocTeam/Update_OpenOffice_manual_from_the_Wiki>`__ [deprecated
+   wiki link]
+-  How to `upload Open office documents to
+   typo3.org </wiki/index.php?title=Document_upload&action=edit&redlink=1>`__
+   [not available anymore]
+-  `How to convert OpenOffice documents to Wiki
+   format </How_to_convert_OpenOffice_documents_to_Wiki_format>`__
+   [deprecated wiki link] about writing documentation
 
 Free Software Song from Band "Fenster"
 ======================================

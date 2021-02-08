@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1264678095:
-
-========================
-Exception/CMS/1264678095
-========================
+==========================
+TYPO3 Exception 1264678095
+==========================
 
 Error-Message:
 
@@ -19,5 +16,6 @@ thrown in file
 
 29 TYPO3\CMS\Extbase\Persistence\Generic\Query::in("authors", "6")
 
---David bruchmann [outdated wiki link] (talk [outdated wiki link])
-00:41, 15 August 2014 (CEST)
+--`David bruchmann </User:David_bruchmann>`__ [deprecated wiki link]
+(`talk </wiki/index.php?title=User_talk:David_bruchmann&action=edit&redlink=1>`__
+[deprecated wiki link]) 00:41, 15 August 2014 (CEST)

@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===========
 Grunt Bower
@@ -14,9 +13,11 @@ Grunt Bower
       **Reason: Documentation about contribution to core is maintained
       in the\ **\ `Contribution
       Guide <https://docs.typo3.org/m/typo3/guide-contributionworkflow/master/en-us/Index.html>`__
-      If you disagree with its deletion, please explain why at Category
-      talk:Candidates for speedy deletion [outdated link] or improve the
-      page and remove the ``{{delete}}`` tag.
+      If you disagree with its deletion, please explain why at `Category
+      talk:Candidates for speedy
+      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      [not available anymore] or improve the page and remove the
+      ``{{delete}}`` tag.
 
       This notice should remain for a minimum of 1 week after it was
       placed on the page. If a discussion is still ongoing, it should
@@ -24,8 +25,11 @@ Grunt Bower
       about the removal, after which the page will either be deleted or
       this notice removed.
 
-      Remember to check what links here [outdated link] and the the page
-      history [outdated wiki link] before deleting.
+      Remember to check `what links
+      here </Special:WhatLinksHere/Grunt_Bower>`__ [not available
+      anymore] and the `the page
+      history <https://wiki.typo3.org/wiki/index.php?title=Grunt_Bower&action=history>`__
+      [deprecated wiki link] before deleting.
 
 .. container::
 

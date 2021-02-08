@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1245673367:
-
-========================
-Exception/CMS/1245673367
-========================
+==========================
+TYPO3 Exception 1245673367
+==========================
 
 I get this error after installing an Extension which tries to use a
 Class not defined in any of the typical Extbase Autoloader locations.
@@ -20,7 +17,9 @@ Occours in: typo3/sysext/extbase/Classes/SignalSlot/Dispatcher.php:117
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -30,7 +29,8 @@ Occours in: typo3/sysext/extbase/Classes/SignalSlot/Dispatcher.php:117
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 

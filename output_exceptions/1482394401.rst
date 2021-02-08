@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1482394401:
-
-========================
-Exception/CMS/1482394401
-========================
+==========================
+TYPO3 Exception 1482394401
+==========================
 
 | **Missing "type" in TCA of field
   "['dummyTable']['dummyField']['config']**

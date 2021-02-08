@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1498144052:
-
-========================
-Exception/CMS/1498144052
-========================
+==========================
+TYPO3 Exception 1498144052
+==========================
 
 A new installations of T3 v8.7.4 (Aug 2017). Installed 'media' extension
 successfully but using it gives error message, "Parameter $extensionName

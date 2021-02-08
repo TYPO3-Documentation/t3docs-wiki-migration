@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1365429656:
-
-========================
-Exception/CMS/1365429656
-========================
+==========================
+TYPO3 Exception 1365429656
+==========================
 
 TYPO3 >= 10 LTS
 ===============
@@ -53,7 +50,8 @@ from your fileadmin folder as
 http://www.mydomain.com/fileadmin/clear_cache_franz.php . Then
 everything will be restored automatically.
 
-clear_cache_franz.php [outdated link]
+`clear_cache_franz.php <http://www.jambage.com/fileadmin/user_upload/clear_cache_franz.php.zip>`__
+[not available anymore]
 
 Also this error might come up if you restructure your TCA files to fit
 into the new 6.2 structure. If you try to use $_EXTKEY in the

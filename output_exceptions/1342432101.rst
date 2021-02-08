@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1342432101:
-
-========================
-Exception/CMS/1342432101
-========================
+==========================
+TYPO3 Exception 1342432101
+==========================
 
 Cause: This error can happened after updating extension list from TER
 (corrupted entries, error during download, ...).

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1270853882:
-
-========================
-Exception/CMS/1270853882
-========================
+==========================
+TYPO3 Exception 1270853882
+==========================
 
 Message
    TYPO3 Fatal Error: No database selected!

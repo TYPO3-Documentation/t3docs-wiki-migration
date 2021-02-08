@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _typo376-extension-migration-guide:
 
@@ -21,7 +20,8 @@ TYPO3 7.6 Extension Migration Guide
    searching <https://git.typo3.org/Packages/TYPO3.CMS.git/tree/TYPO3_7-6:/typo3/sysext/core/Documentation/Changelog/7.6>`__
 -  `Core changelog in the TYPO3
    documentation <https://docs.typo3.org/c/typo3/cms-core/8.7/en-us/Changelog-7.html>`__
--  Follow core changes with Twitter [outdated link]
+-  `Follow core changes with
+   Twitter <https://twitter.com/t3git_master>`__ [not available anymore]
 -  `TYPO3 upgrade report extension of the Smooth-Migration
    project <https://github.com/nxpthx/typo3-upgradereport/blob/master/Documentation/UserManual/Index.rst>`__
 -  `TCA

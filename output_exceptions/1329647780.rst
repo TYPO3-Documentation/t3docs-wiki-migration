@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1329647780:
-
-========================
-Exception/CMS/1329647780
-========================
+==========================
+TYPO3 Exception 1329647780
+==========================
 
 Error: Object with identifier
 "1:/user_upload/bilder/Arbeiten_in_Architektur/Augsburg/" does not exist

@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==============
 External links
@@ -7,7 +6,7 @@ External links
 
 .. container::
 
-   **Content Type:** HowTo [outdated wiki link].
+   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
 
 Marking external links with an image or descriptive text is usually
 considered good behaviour usability-wise. In some countries it may even

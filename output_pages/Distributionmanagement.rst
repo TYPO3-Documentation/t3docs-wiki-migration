@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _distributionmanagement:
 
@@ -7,7 +6,7 @@
 Blueprints/DistributionManagement
 =================================
 
-<- Back to blueprints overview [outdated wiki link]
+`<- Back to blueprints overview </Blueprints>`__ [deprecated wiki link]
 
 ====================================================
 Blueprint: Distribution Management for TYPO3 6.2 LTS

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1301648328:
-
-========================
-Exception/CMS/1301648328
-========================
+==========================
+TYPO3 Exception 1301648328
+==========================
 
 The shortcut from the root page must be changed in the shortcutmodul to
 the selected page

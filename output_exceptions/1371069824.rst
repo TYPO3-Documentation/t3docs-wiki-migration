@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1371069824:
-
-========================
-Exception/CMS/1371069824
-========================
+==========================
+TYPO3 Exception 1371069824
+==========================
 
 It happened by TYPO3 6.1.7 Fluid Extbase Flux Bootstrap Template
 
@@ -29,7 +26,7 @@ Have a look here :
 https://github.com/FluidTYPO3/vhs/issues/506
 
 http://fluidtypo3.org/viewhelpers/vhs/master/Page/MenuViewHelper.html
-[outdated link]
+[not available anymore]
 
 ---
 

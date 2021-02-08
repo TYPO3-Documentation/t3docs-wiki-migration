@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ====================
 TypoScript Templates
@@ -7,8 +6,8 @@ TypoScript Templates
 
 .. container::
 
-   This page belongs to the `Core Team <core-team>`__ (category Core
-   Team [outdated wiki link])
+   This page belongs to the `Core Team <core-team>`__ (category `Core
+   Team </Category:Core_Team>`__ [deprecated wiki link])
 
 .. container::
 
@@ -17,7 +16,9 @@ TypoScript Templates
    .. container::
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
-      reviewer for text and TypoScript. info [outdated wiki link]
+      reviewer for text and TypoScript.
+      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      [deprecated wiki link]
 
 To be inserted into TSref, as the first chapter just after the
 Introduction.
@@ -86,7 +87,9 @@ An example:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 

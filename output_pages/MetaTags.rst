@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _meta-tags:
 
@@ -9,7 +8,7 @@ Faq/Meta Tags
 
 .. container::
 
-   **Content Type:** FAQ [outdated wiki link].
+   **Content Type:** `FAQ </Category:FAQ>`__ [deprecated wiki link].
 
 << back to `FAQ <faq>`__
 

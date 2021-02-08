@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1314455642:
-
-========================
-Exception/CMS/1314455642
-========================
+==========================
+TYPO3 Exception 1314455642
+==========================
 
 Exception in typo3 6.1 Backend show content in fileadmin folder
 ===============================================================

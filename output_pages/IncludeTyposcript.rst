@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==================
 INCLUDE TYPOSCRIPT
@@ -7,7 +6,7 @@ INCLUDE TYPOSCRIPT
 
 .. container::
 
-   **Content Type:** HowTo [outdated wiki link].
+   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
 
 .. container::
 

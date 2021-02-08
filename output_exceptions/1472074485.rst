@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1472074485:
-
-========================
-Exception/CMS/1472074485
-========================
+==========================
+TYPO3 Exception 1472074485
+==========================
 
 Unknown column 'tx_myext_domain_model_myfield.' in 'order clause'
 =================================================================

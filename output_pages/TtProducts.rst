@@ -1,13 +1,14 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===========
 Tt products
 ===========
 
-<< Back to Extension manuals [outdated wiki link] page
+<< Back to `Extension manuals </Overview_Extension_manuals>`__
+[deprecated wiki link] page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=Tt_products&action=edit&section=0>`__
+[deprecated wiki link]
 
 | 
 
@@ -18,7 +19,9 @@ Tt products
    .. container::
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
-      reviewer for text and TypoScript. info [outdated wiki link]
+      reviewer for text and TypoScript.
+      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      [deprecated wiki link]
 
 | 
 
@@ -40,14 +43,15 @@ extension with additional features which is based on hooks of
 tt_products. Nobody should create or use a fork.
 
 You can get the latest version of tt_products and a much improved
-mbi_products_categories extensions including hook [outdated wiki link]s
-for mm-categories in the shop of http://ttproducts.de. This sponsoring
-is needed to get the bugs fixed, questions answered and new features
-implemented and well tested. This development work cannot continue
-without regularly received payments. This is a fundraising where the
-contributors and sponsors will get the code in advance. The currently
-developed extension code will be published on the TYPO3 TER under GPL as
-free after some years of funds collection.
+mbi_products_categories extensions including `hook </Category:Hook>`__
+[deprecated wiki link]s for mm-categories in the shop of
+http://ttproducts.de. This sponsoring is needed to get the bugs fixed,
+questions answered and new features implemented and well tested. This
+development work cannot continue without regularly received payments.
+This is a fundraising where the contributors and sponsors will get the
+code in advance. The currently developed extension code will be
+published on the TYPO3 TER under GPL as free after some years of funds
+collection.
 
 | Info sites:
 | `German tt_products.de site <http://ttproducts.de>`__
@@ -63,7 +67,8 @@ free after some years of funds collection.
 | Video: `adding & editing products with
   tt_products <http://www.youtube.com/watch?v=IQFDvgVJDXA>`__
 
-Franz Holzinger [outdated wiki link] is the maintainer of
+`Franz Holzinger </User:Franzholz>`__ [deprecated wiki link] is the
+maintainer of
 `tt_products <https://extensions.typo3.org/extension/tt_products/>`__
 since version 2.0.0.
 
@@ -147,8 +152,8 @@ In tt_products 2.8.0 you will have
    additional price. Support for IRRE.
 -  Multi language text markers for the shop template
    (addons_tt_products)
--  Demo shops at http://demo.ttproducts.de [outdated link] and
-   http://www.ttproducts.net [outdated link] .
+-  Demo shops at http://demo.ttproducts.de [not available anymore] and
+   http://www.ttproducts.net [not available anymore] .
 
 | Send me any error messages per email or to the forum at
   http://jambage.com .
@@ -308,9 +313,10 @@ Hooks
 =====
 
 It's much easier to upgrade from one shop-version to the current one,
-when addons are added using hook [outdated wiki link]s. When a hook
-exists what is not listed here, then **just add** it to this page!
---Daniel Brüßler [outdated wiki link] 09:45, 21 April 2007 (CEST)
+when addons are added using `hook </Category:Hook>`__ [deprecated wiki
+link]s. When a hook exists what is not listed here, then **just add** it
+to this page! --`Daniel Brüßler </User:Patchworker>`__ [deprecated wiki
+link] 09:45, 21 April 2007 (CEST)
 
 getLinkParams
 -------------
@@ -323,7 +329,8 @@ documentation@2007-03-17 - available in the next version (suppose
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -336,7 +343,8 @@ you can change the contents.
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -359,7 +367,8 @@ You define the method in an extra class:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -508,9 +517,9 @@ what should be implemented in the next step.
 -  Always check if the amount of products is on the stock before making
    an order possible.
 
--  Ajax [outdated wiki link] Shop Search
+-  `Ajax </Category:Ajax>`__ [deprecated wiki link] Shop Search
 
--  Ajax [outdated wiki link] Mini Basket
+-  `Ajax </Category:Ajax>`__ [deprecated wiki link] Mini Basket
 
 -  Create a price value where shipping costs nothing
 
@@ -553,9 +562,12 @@ Implemented Shops
 | Please, keep the alphabetical sorting by the URLs.
 
 | 
-| Minishop modified list/put in basket [outdated link]
+| `Minishop modified list/put in
+  basket <http://www.fernwege.de/einkauf/digitale-karten/index.html,>`__
+  [not available anymore]
 | `Goldene Zeiten Juweliere <https://www.goldene-zeiten.info>`__
-| KRAMSKI Putter Golfausrüstung [outdated link]
+| `KRAMSKI Putter Golfausrüstung <http://www.kramski-putter.com,>`__
+  [not available anymore]
 | `LignoPlant - Der Pflanzgutshop von
   Lignovis <http://www.lignoplant.com>`__
 | `Traditionelle Weihnachtskunst aus dem
@@ -594,4 +606,5 @@ in svn you have written your patch.
 
 -  The function headers shall be completed.
 
---Franz Holzinger [outdated wiki link] 09:20, 12 October 2008 (CEST)
+--`Franz Holzinger </User:Franzholz>`__ [deprecated wiki link] 09:20, 12
+October 2008 (CEST)

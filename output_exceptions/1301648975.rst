@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1301648975:
-
-========================
-Exception/CMS/1301648975
-========================
+==========================
+TYPO3 Exception 1301648975
+==========================
 
 GIVEN: - TYPO3 CMS Version 6.2.1 - No Pages in PageTree
 

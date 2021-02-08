@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ========================
 How to delete extensions
@@ -7,7 +6,7 @@ How to delete extensions
 
 .. container::
 
-   **Content Type:** HowTo [outdated wiki link].
+   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
 
 .. container::
 
@@ -36,10 +35,10 @@ How to delete extensions
 Extension Manager terminology
 =============================
 
-In the context of the TYPO3 extension [outdated wiki link] manager
-("EM"), the words "install" and "uninstall" differ from their mainstream
-meaning. To avoid mixing these terms up with the other EM verbs, here is
-a clarification:
+In the context of the TYPO3 `extension </Category:Extension>`__
+[deprecated wiki link] manager ("EM"), the words "install" and
+"uninstall" differ from their mainstream meaning. To avoid mixing these
+terms up with the other EM verbs, here is a clarification:
 
 -  **Import** means "downloading an extension from
    `TER <https://extensions.typo3.org/>`__ and copying it to
@@ -52,7 +51,8 @@ a clarification:
 -  **Delete** means "removing extension files permanently from disk".
 
 To deactivate an extension without deleting it completely, see the
-article Uninstall Extensions [outdated wiki link].
+article `Uninstall Extensions </Uninstall_Extensions>`__ [deprecated
+wiki link].
 
 ================
 Why this manual?
@@ -91,8 +91,9 @@ steps carefully:
 Uninstall
 ---------
 
-Follow all steps in Uninstall Extensions [outdated wiki link]. Don't
-forget to backup the new *LocalConfiguration.php*.
+Follow all steps in `Uninstall Extensions </Uninstall_Extensions>`__
+[deprecated wiki link]. Don't forget to backup the new
+*LocalConfiguration.php*.
 
 Identifying files and tables
 ----------------------------

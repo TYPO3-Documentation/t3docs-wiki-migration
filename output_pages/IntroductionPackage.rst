@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ====================
 Introduction Package
@@ -25,9 +24,9 @@ For more information about the TYPO3 Introduction Package, visit the
 download page at https://typo3.org/download/ ; the news page at
 https://typo3.org/news/article/typo3-version-44-easier-than-ever-before/ ;
 and the project page at
-https://forge.typo3.org/projects/extension-introduction [outdated link]
-. Also, the TYPO3 Introduction Package is the basis for the TYPO3
-Getting Started Tutorial at
+https://forge.typo3.org/projects/extension-introduction [not available
+anymore] . Also, the TYPO3 Introduction Package is the basis for the
+TYPO3 Getting Started Tutorial at
 https://docs.typo3.org/typo3cms/GettingStartedTutorial .
 
 Preparation
@@ -89,16 +88,16 @@ workstation, then extract all its files and subdirectories to your local
 web server's document root directory (which may be "htdocs/",
 "public_html/", "www/", or a similar name).
 
-Launch your web browser, and visit http://localhost/ [outdated link] .
-You should see the first page of the TYPO3 1-2-3 Install Tool, which
-says, "Welcome to the TYPO3 Install Tool," and presents a "continue"
-button. You can click on the "continue" button to proceed to the next
-installation step (page).
+Launch your web browser, and visit http://localhost/ [not available
+anymore] . You should see the first page of the TYPO3 1-2-3 Install
+Tool, which says, "Welcome to the TYPO3 Install Tool," and presents a
+"continue" button. You can click on the "continue" button to proceed to
+the next installation step (page).
 
 You can return to the 1-2-3 Installation at a later time by adding the
 parameters "mode=123&step=1" to the install tool's url. Or enter
 "http://localhost/typo3/install/index.php?mode=123&step=1&password=joh316
-[outdated link]" into the web browser.
+[not available anymore]" into the web browser.
 
 The next step is "Connect to your database host." Here, pick your
 database management system (DBMS) driver; enter the username and
@@ -123,7 +122,7 @@ website.
 The next step says, "Congratulations, TYPO3 has been successfully
 installed on your system!" You have completed the installation process.
 You can click on a "go to your website" button to go to your new website
-at http://localhost/ [outdated link] .
+at http://localhost/ [not available anymore] .
 
 Subdirectory
 ------------
@@ -142,8 +141,8 @@ steps.
 -  Edit the file
    "/var/www/html/introductionpackage-4.6.6/typo3conf/settings/introduction.ts"
 -  Set "domain = localhost".
--  Set "absRefPrefix = http://localhost/introductionpackage-4.6.6
-   [outdated link]"
+-  Set "absRefPrefix = http://localhost/introductionpackage-4.6.6 [not
+   available anymore]"
 
 Removal
 -------
@@ -165,9 +164,9 @@ Operation
 =========
 
 The home page of the new Introduction Package website is
-http://localhost/index.php [outdated link] . The home page is, in fact,
-a program that will serve content pages, beginning with the "get
-started" page that says, "Congratulations, you have successfully
+http://localhost/index.php [not available anymore] . The home page is,
+in fact, a program that will serve content pages, beginning with the
+"get started" page that says, "Congratulations, you have successfully
 installed TYPO3. So--what's next?" There are a number of links on the
 page that point to both internal pages in the website and external pages
 on the Internet. If you click on an internal page link (such as to
@@ -203,9 +202,9 @@ ImageMagick program, at least not so TYPO3 could find it. See the tips
 in the Problems section, below.
 
 You can log in to the back end via the "log into TYPO3" link on the "get
-started" page, or by visiting http://localhost/typo3/index.php [outdated
-link] directly. Refer to the right column, "How do I log in," on the
-"get started" page for username-password combinations.
+started" page, or by visiting http://localhost/typo3/index.php [not
+available anymore] directly. Refer to the right column, "How do I log
+in," on the "get started" page for username-password combinations.
 
 In the back end (also spelled backend), you will see a menu of modules
 in the left column, and a description of those modules in the middle of
@@ -229,11 +228,12 @@ documentation pages or purchase one of the books written about TYPO3.
 Problems
 ========
 
-After you launch your web browser and visit http://localhost/ [outdated
-link] , if you see a simple directory listing, you probably haven't
-configured your web server to serve "index.php" files automatically.
-(Or, you may not have restarted your web server so that it can read your
-edits of its configuration files.) See the Preparation section, above.
+After you launch your web browser and visit http://localhost/ [not
+available anymore] , if you see a simple directory listing, you probably
+haven't configured your web server to serve "index.php" files
+automatically. (Or, you may not have restarted your web server so that
+it can read your edits of its configuration files.) See the Preparation
+section, above.
 
 During installation, you may find yourself suddenly in the classic TYPO3
 Installation Tool, which was written before the 1-2-3 Install Tool and
@@ -261,19 +261,20 @@ are a few tips.
    If you have any error messages, copy them into your search terms,
    too.
 -  Visit the project's "issues" page at
-   https://forge.typo3.org/projects/extension-introduction/issues
-   [outdated link] . That issues page lists and tracks bugs and features
-   related to the Introduction Package.
+   https://forge.typo3.org/projects/extension-introduction/issues [not
+   available anymore] . That issues page lists and tracks bugs and
+   features related to the Introduction Package.
 -  If you can't find your exact problem and a solution, read TYPO3
    documentation. Visit the docs.typo3.org at
-   https://docs.typo3.org/typo3cms/ [outdated link] . Search the
+   https://docs.typo3.org/typo3cms/ [not available anymore] . Search the
    Internet for "TYPO3 books". Visit the TYPO3 Wiki at
-   https://wiki.typo3.org/ [outdated wiki link] . Browse TYPO3 mailing
+   https://wiki.typo3.org/ [deprecated wiki link] . Browse TYPO3 mailing
    list archives, beginning at https://typo3.org/support/mailing-lists/
-   [outdated link] . There is a LOT of documentation about TYPO3.
+   [not available anymore] . There is a LOT of documentation about
+   TYPO3.
 -  If, after searching and reading doesn't help, post a question on an
    appropriate, active TYPO3 mailing list.
 -  If you have found an actual unreported bug in the program, post a bug
    report on the appropriate bug tracker site. See
-   https://typo3.org/documentation/report-bugs/ [outdated link] and
-   https://forge.typo3.org/ .
+   https://typo3.org/documentation/report-bugs/ [not available anymore]
+   and https://forge.typo3.org/ .

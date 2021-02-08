@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ============
 TYPO3-Docker
@@ -56,8 +55,8 @@ variables. The alias (option after semicolon) defines the prefix of the
 environment variables
 
 After executing the second line you will be able to access a fresh TYPO3
-7.6.[latest] by accessing "http://localhost:8080/typo3/ [outdated link]"
-in your browser.
+7.6.[latest] by accessing "http://localhost:8080/typo3/ [not available
+anymore]" in your browser.
 
 Making changes in the docker container
 ======================================

@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =======================
 How to upload big files
@@ -7,7 +6,7 @@ How to upload big files
 
 .. container::
 
-   **Content Type:** HowTo [outdated wiki link].
+   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
 
 .. container::
 
@@ -16,11 +15,13 @@ How to upload big files
    .. container::
 
       Change the **{{review}}** marker to **{{publish}}** when all parts
-      are reviewed (e.g. TypoScript). info [outdated wiki link]
+      are reviewed (e.g. TypoScript).
+      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      [deprecated wiki link]
 
 In TYPO3 it is - by default - impossible to upload files bigger than 10
 MB. Here's a short list of actions in order to bypass this limit
-installation [outdated wiki link]:
+`installation </Category:Installation>`__ [deprecated wiki link]:
 
 Modification of the Apache PHP module configuration
 ===================================================
@@ -50,8 +51,8 @@ PHP settings to appropriate values to accept bigger files before
 changing TYPO3 settings. You can change these values directly via
 php.ini or via a .htaccess file:
 
-Entries for php.ini [outdated wiki link]:
------------------------------------------
+Entries for `php.ini </Category:Php.ini>`__ [deprecated wiki link]:
+-------------------------------------------------------------------
 
 ::
 

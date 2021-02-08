@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1389265900:
-
-========================
-Exception/CMS/1389265900
-========================
+==========================
+TYPO3 Exception 1389265900
+==========================
 
 You are not allowed to access the backend as your IP does not matches
 the [BE][IPmaskList] setting in the Install Tool.

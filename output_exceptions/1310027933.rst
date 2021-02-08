@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1310027933:
-
-========================
-Exception/CMS/1310027933
-========================
+==========================
+TYPO3 Exception 1310027933
+==========================
 
 Update: see https://forge.typo3.org/issues/59829 for a hint towards the
 cause and/or workaround.

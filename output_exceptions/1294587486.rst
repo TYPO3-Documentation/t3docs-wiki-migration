@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1294587486:
-
-========================
-Exception/CMS/1294587486
-========================
+==========================
+TYPO3 Exception 1294587486
+==========================
 
 TYPO3 9.5.23 and the extension phpmyadmin 5.6.4 result in error message
 

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1485784246:
-
-========================
-Exception/CMS/1485784246
-========================
+==========================
+TYPO3 Exception 1485784246
+==========================
 
 Extension 'chk_editor' installed, but not enabled
 =================================================

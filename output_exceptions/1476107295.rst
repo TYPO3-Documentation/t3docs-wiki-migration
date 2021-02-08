@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1476107295:
-
-========================
-Exception/CMS/1476107295
-========================
+==========================
+TYPO3 Exception 1476107295
+==========================
 
 PHP Warning: session_start():
 open(C:\windows\TEMP\sess_57271dd7537f919aeded93b5144d0b5f, O_RDWR)

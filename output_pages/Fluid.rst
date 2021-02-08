@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =====
 Fluid
@@ -12,7 +11,9 @@ Fluid
    .. container::
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
-      reviewer for text and TypoScript. info [outdated wiki link]
+      reviewer for text and TypoScript.
+      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      [deprecated wiki link]
 
 .. container::
 
@@ -40,23 +41,47 @@ Also see `FluidSyntax <fluidsyntax>`__.
 +-----------------------------------+-----------------------------------+
 | *current version:*                |                                   |
 +-----------------------------------+-----------------------------------+
-| TYPO3 6.2 [outdated link]         | Extbase/Fluid 6.2                 |
+| `TYPO3                            | Extbase/Fluid 6.2                 |
+| 6.2 </wiki/index.php?title=TY     |                                   |
+| PO3_6.2&action=edit&redlink=1>`__ |                                   |
+| [not available anymore]           |                                   |
 +-----------------------------------+-----------------------------------+
 | *earlier releases:*               |                                   |
 +-----------------------------------+-----------------------------------+
-| TYPO3 6.1 [outdated link]         | Extbase/Fluid 6.1                 |
+| `TYPO3                            | Extbase/Fluid 6.1                 |
+| 6.1 </wiki/index.php?title=TY     |                                   |
+| PO3_6.1&action=edit&redlink=1>`__ |                                   |
+| [not available anymore]           |                                   |
 +-----------------------------------+-----------------------------------+
-| TYPO3 6.0 [outdated link]         | Extbase/Fluid 6.0                 |
+| `TYPO3                            | Extbase/Fluid 6.0                 |
+| 6.0 </wiki/index.php?title=TY     |                                   |
+| PO3_6.0&action=edit&redlink=1>`__ |                                   |
+| [not available anymore]           |                                   |
 +-----------------------------------+-----------------------------------+
-| TYPO3 4.7 [outdated link]         | Extbase/Fluid 4.7                 |
+| `TYPO3                            | Extbase/Fluid 4.7                 |
+| 4.7 </wiki/index.php?title=TY     |                                   |
+| PO3_4.7&action=edit&redlink=1>`__ |                                   |
+| [not available anymore]           |                                   |
 +-----------------------------------+-----------------------------------+
-| TYPO3 4.6 [outdated link]         | Extbase/Fluid 1.4                 |
+| `TYPO3                            | Extbase/Fluid 1.4                 |
+| 4.6 </wiki/index.php?title=TY     |                                   |
+| PO3_4.6&action=edit&redlink=1>`__ |                                   |
+| [not available anymore]           |                                   |
 +-----------------------------------+-----------------------------------+
-| TYPO3 4.5 [outdated link]         | Extbase/Fluid 1.3                 |
+| `TYPO3                            | Extbase/Fluid 1.3                 |
+| 4.5 </wiki/index.php?title=TY     |                                   |
+| PO3_4.5&action=edit&redlink=1>`__ |                                   |
+| [not available anymore]           |                                   |
 +-----------------------------------+-----------------------------------+
-| TYPO3 4.4 [outdated link]         | Extbase/Fluid 1.2                 |
+| `TYPO3                            | Extbase/Fluid 1.2                 |
+| 4.4 </wiki/index.php?title=TY     |                                   |
+| PO3_4.4&action=edit&redlink=1>`__ |                                   |
+| [not available anymore]           |                                   |
 +-----------------------------------+-----------------------------------+
-| TYPO3 4.3 [outdated link]         | Extbase/Fluid 1.0                 |
+| `TYPO3                            | Extbase/Fluid 1.0                 |
+| 4.3 </wiki/index.php?title=TY     |                                   |
+| PO3_4.3&action=edit&redlink=1>`__ |                                   |
+| [not available anymore]           |                                   |
 +-----------------------------------+-----------------------------------+
 | *Ressources:*                     |                                   |
 |                                   |                                   |
@@ -64,9 +89,16 @@ Also see `FluidSyntax <fluidsyntax>`__.
 |    Guide                          |                                   |
 | <https://docs.typo3.org/typo3cms/ |                                   |
 | ExtbaseGuide/Fluid/Index.html>`__ |                                   |
-| -  Extbase Documentation on Typo3 |                                   |
-|    Forge [outdated link]          |                                   |
-| -  Flow Manuals [outdated link]   |                                   |
+| -  `Extbase Documentation on      |                                   |
+|    Typo3                          |                                   |
+|    Forge <h                       |                                   |
+| ttps://forge.typo3.org/projects/t |                                   |
+| ypo3v4-mvc/wiki/Documentation>`__ |                                   |
+|    [not available anymore]        |                                   |
+| -  `Flow                          |                                   |
+|    Manuals <http://               |                                   |
+| flow.typo3.org/documentation/>`__ |                                   |
+|    [not available anymore]        |                                   |
 | -  `FluidSyntax <fluidsyntax>`__  |                                   |
 | -  `Fluid Inline                  |                                   |
 |    No                             |                                   |
@@ -76,8 +108,8 @@ Also see `FluidSyntax <fluidsyntax>`__.
 | ple <fluidtemplate-by-example>`__ |                                   |
 +-----------------------------------+-----------------------------------+
 
-Collection of fluid [outdated wiki link] / extbase [outdated wiki link] hints
-=============================================================================
+Collection of `fluid </Category:Fluid>`__ [deprecated wiki link] / `extbase </Category:Extbase>`__ [deprecated wiki link] hints
+===============================================================================================================================
 
 Accessing a view helper
 -----------------------
@@ -86,7 +118,8 @@ Acessing a viewHelper from another viewHelper for instance:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -101,7 +134,8 @@ Including a Fluid plugin through ext_tables.php
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -121,7 +155,8 @@ Configure a Fluid plugin through ext_localconf.php
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -148,7 +183,8 @@ The TS configuration can be accessed through
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -163,7 +199,8 @@ Use
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -175,7 +212,8 @@ Better is the method (not for uncached actions) to include js or css.
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -187,7 +225,8 @@ Example:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -202,7 +241,8 @@ You can access the current request with
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -214,7 +254,8 @@ If you want to access f.e. a $_GET param use
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -226,7 +267,8 @@ or to access all arguments:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -238,7 +280,8 @@ You can also check if an argument exists with
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -259,7 +302,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -278,7 +323,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -290,7 +337,9 @@ Output:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -307,7 +356,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -338,7 +389,9 @@ Example2:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -392,7 +445,7 @@ Output:
    Uebergroesse
 
 http://www.t3node.com/blog/combining-fluid-viewhelpers-and-typoscript-in-typo3-5-basic-examples/
-[outdated link]
+[not available anymore]
 
 f:comment
 ---------
@@ -403,7 +456,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -424,7 +479,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -438,7 +495,9 @@ Example for usage in condtions:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -459,7 +518,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -484,7 +545,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -498,7 +561,9 @@ attribute. It defaults to 8:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -512,7 +577,9 @@ activate "inline":
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -538,7 +605,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -554,7 +623,9 @@ Output:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -583,12 +654,14 @@ f:form
 Outputs a HTML form. The data is submitted via POST request (you can
 change that by setting ``method="get"``).
 
-Inside the form you can use form fields [outdated wiki link] (see
-below).
+Inside the form you can use `form fields </Fluid#form_fields>`__
+[deprecated wiki link] (see below).
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -602,7 +675,9 @@ values to the form fields.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -621,7 +696,9 @@ f:form.checkbox
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -634,7 +711,9 @@ You can also perfom simple boolean operations.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -647,7 +726,9 @@ Bind to an object property
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -665,7 +746,9 @@ Iterates through errors of the request
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -689,7 +772,9 @@ Renders an ``<input type="hidden" ...>`` tag.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -707,7 +792,9 @@ Creates a textbox for password input.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -725,7 +812,9 @@ Creates a radio button
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -737,7 +826,9 @@ Creates a radio button
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -749,7 +840,9 @@ Creates a radio button
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -772,7 +865,9 @@ human-readable name.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -788,7 +883,9 @@ this example: ``value="visa"``. If it is a multi-select box
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -806,7 +903,9 @@ f:form.submit
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -821,7 +920,9 @@ f:form.textarea
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -834,14 +935,17 @@ f:form.textarea
 f:form.textbox
 ^^^^^^^^^^^^^^
 
-**DEPRECATED:** use f:form.textfield [outdated wiki link] instead!
+**DEPRECATED:** use `f:form.textfield </Fluid#f:form.textfield>`__
+[deprecated wiki link] instead!
 
 f:form.textfield
 ^^^^^^^^^^^^^^^^
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -859,7 +963,9 @@ Generates an ``<input type="file">`` element. Make sure to set
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -879,7 +985,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -894,7 +1002,9 @@ Formats a number to resemble a currency.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -909,7 +1019,9 @@ f:format.date
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -921,7 +1033,9 @@ Usage with unix timestamps:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -956,7 +1070,9 @@ Decode special HTML characters that Fluid encodes by default (&, <, >,
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -973,7 +1089,9 @@ Outputs an argument/value without any escaping.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -985,7 +1103,9 @@ Outputs: Content of ``{string}`` without any escaping.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -998,7 +1118,9 @@ Inline
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1013,7 +1135,9 @@ Makes <br /> tags out of new lines.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1034,7 +1158,9 @@ Formats numbers country-specific
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1052,7 +1178,9 @@ str_pad function).
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1072,7 +1200,9 @@ Formats a string with the PHP printf function.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1097,7 +1227,9 @@ Sorts a multidimensional array in another dimension.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1131,7 +1263,9 @@ Examples:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1154,7 +1288,9 @@ Inline:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1169,7 +1305,9 @@ Since TYPO3 6.1 a string comparison can easily be done:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1183,7 +1321,9 @@ Inline notation:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1199,7 +1339,9 @@ It is possible, to do some comparance of integer values.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1219,7 +1361,9 @@ Inline notation:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1234,7 +1378,9 @@ Simply use integer comparison:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1251,7 +1397,9 @@ Inline:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1269,7 +1417,9 @@ changed to single quotes then.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1288,15 +1438,19 @@ Logical operators
 ^^^^^^^^^^^^^^^^^
 
 Concatenating multiple comparisons with AND, OR or NOT is not possible
-in ``f:if``. You can use v:if [outdated link] from VHS for that - see
-the `examples <https://github.com/FluidTYPO3/vhs/pull/401>`__.
+in ``f:if``. You can use
+`v:if <https://fluidtypo3.org/viewhelpers/vhs/master/IfViewHelper.html>`__
+[not available anymore] from VHS for that - see the
+`examples <https://github.com/FluidTYPO3/vhs/pull/401>`__.
 
 If you only need ``AND``, you can stack all values into an object that
 will be compared:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1316,7 +1470,9 @@ specify 'c' or 'm' to the width and height attributes.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1326,7 +1482,9 @@ specify 'c' or 'm' to the width and height attributes.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1346,7 +1504,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1366,7 +1526,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1378,7 +1540,9 @@ Example with arguments:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1395,7 +1559,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1412,7 +1578,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1429,7 +1597,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1456,7 +1626,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1480,7 +1652,9 @@ Examples:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1506,7 +1680,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1523,7 +1699,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1538,7 +1716,9 @@ Renders the content of a section or a partial.
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1548,7 +1728,7 @@ Renders the content of a section or a partial.
 
       <f:render section="sectionname" />
 
-See also: f:section [outdated wiki link]
+See also: `f:section </Fluid#f:section>`__ [deprecated wiki link]
 
 Parameters
 ^^^^^^^^^^
@@ -1560,7 +1740,9 @@ You can provide a list of variables to pass on:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1572,7 +1754,9 @@ or simply pass all parameters to the template:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1589,7 +1773,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1604,7 +1790,9 @@ This section will be called from a layout with
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1623,7 +1811,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1656,7 +1846,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1673,7 +1865,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1696,7 +1890,9 @@ Example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1740,8 +1936,9 @@ Mathematical expessions
 =======================
 
 Fluid does *not* have a native way to e.g. make sums or products of
-numbers and variables. You have to use external view helpers [outdated
-link] like ``<vhs:math.sum>``.
+numbers and variables. You have to use `external view
+helpers <https://fluidtypo3.org/viewhelpers/vhs/master.html>`__ [not
+available anymore] like ``<vhs:math.sum>``.
 
 ===============
 Other resources
@@ -1749,8 +1946,9 @@ Other resources
 
 -  Fluid manual:
    http://flow.typo3.org/documentation/guide/partiii/templating.html
-   [outdated link]
--  Extbase: https://forge.typo3.org/projects/typo3v4-mvc [outdated link]
+   [not available anymore]
+-  Extbase: https://forge.typo3.org/projects/typo3v4-mvc [not available
+   anymore]
 -  Talks on T3DD09: http://t3dd09.typo3.org/recordings.html
--  Podcast: https://typo3.org/videos/category/fluid/page-1/ [outdated
-   link]
+-  Podcast: https://typo3.org/videos/category/fluid/page-1/ [not
+   available anymore]

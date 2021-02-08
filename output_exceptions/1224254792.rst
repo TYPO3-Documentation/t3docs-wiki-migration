@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1224254792:
-
-========================
-Exception/CMS/1224254792
-========================
+==========================
+TYPO3 Exception 1224254792
+==========================
 
 Namespace could not be resolved. This exception should never be thrown!
 =======================================================================

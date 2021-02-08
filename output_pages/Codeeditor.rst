@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==========
 Codeeditor
@@ -9,15 +8,17 @@ Codeeditor
 
    This page belongs to the javascript-based Code-Editor with
    syntax-highlighting (TS, PHP, HTML, CSS,...) project (category
-   Project [outdated wiki link])
+   `Project </Category:Project>`__ [deprecated wiki link])
 
 What's it about
 ===============
 
-We are developing a Text Editor [outdated wiki link] -- based on
-JavaScript -- to improve the way you can edit files and templates in the
-TYPO3-backend. The most important feature is to integrate syntax
-highlighting for TypoScript [outdated wiki link] in the template module.
+We are developing a `Text Editor </Category:Text_Editor>`__ [deprecated
+wiki link] -- based on JavaScript -- to improve the way you can edit
+files and templates in the TYPO3-backend. The most important feature is
+to integrate syntax highlighting for
+`TypoScript </Category:TypoScript>`__ [deprecated wiki link] in the
+template module.
 
 Features
 ========
@@ -149,9 +150,10 @@ Releases
 
 -  beta 1
 
-On 13.05.2007 we released a first beta on typo3-unleashed.net/codepress
-[outdated link] as a patch against the TYPO3core-SVN-Version and an
-already patched corepackage. Download it, try it and send us your
+On 13.05.2007 we released a first beta on
+`typo3-unleashed.net/codepress <http://www.typo3-unleashed.net/codepress>`__
+[not available anymore] as a patch against the TYPO3core-SVN-Version and
+an already patched corepackage. Download it, try it and send us your
 feedback!
 
 Roadmap and coming releases
@@ -194,14 +196,16 @@ To get in contact with us, you can send us a mail to
 codepress(at)typo3-unleashed(dot)net
 
 Further informations and release announcements you can find on
-typo3-unleashed.net/codepress [outdated link]
+`typo3-unleashed.net/codepress <http://www.typo3-unleashed.net/codepress>`__
+[not available anymore]
 
 Current Project Members
 =======================
 
--  Thomas Hempel [outdated wiki link]
+-  `Thomas Hempel </User:Matrikz>`__ [deprecated wiki link]
    <thomas(at)typo3-unleashed(dot)net>
--  Tobias Liebig [outdated wiki link] <tobias(at)work(dot)de>
+-  `Tobias Liebig </User:Etobi.de>`__ [deprecated wiki link]
+   <tobias(at)work(dot)de>
 
 Wishlist
 ========

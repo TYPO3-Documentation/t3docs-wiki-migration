@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1439288036:
-
-========================
-Exception/CMS/1439288036
-========================
+==========================
+TYPO3 Exception 1439288036
+==========================
 
 "An item in field XXXXX of table YYYYY is not an array as expected"
 
@@ -14,7 +11,8 @@ definition in the according field like
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -28,7 +26,8 @@ or
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -40,7 +39,8 @@ This has to be replaced with a correct item definition like
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 

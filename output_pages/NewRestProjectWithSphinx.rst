@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ============================
 New reST Project with Sphinx
@@ -94,7 +93,9 @@ HTML Output
 
 Edit ``source/conf.py`` and search for entries ``html_theme`` and
 ``html_theme_path`` and put in the full path where you checked out the
-RestTools project [outdated link]:
+`RestTools
+project </wiki/index.php?title=Rendering_reST_on_Linux&action=edit&redlink=1>`__
+[not available anymore]:
 
 ::
 

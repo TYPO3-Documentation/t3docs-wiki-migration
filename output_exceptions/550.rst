@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-550:
-
-=================
-Exception/CMS/550
-=================
+===================
+TYPO3 Exception 550
+===================
 
 Following Message appears
 

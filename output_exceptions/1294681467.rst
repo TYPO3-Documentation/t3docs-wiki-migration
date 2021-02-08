@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1294681467:
-
-========================
-Exception/CMS/1294681467
-========================
+==========================
+TYPO3 Exception 1294681467
+==========================
 
 This error shows up if Email addresses could not be validated
 succesfully. Correct format would be something like My Group: "Richard"

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1348146451:
-
-========================
-Exception/CMS/1348146451
-========================
+==========================
+TYPO3 Exception 1348146451
+==========================
 
 Hi I got the following failure bei Updating the Ext. div2007 in ext
 Manager. What can I do to eliminate this failure?
@@ -18,7 +15,7 @@ file
 /home/www/web6/html/typo/typo3_src-6.2.30/typo3/sysext/core/Classes/Package/PackageFactory.php
 in line 92. Requested URL:
 http://......ch/typo3/mod.php?M=tools_ExtensionmanagerExtensionmanager&moduleToken=0cede4471e1c5e94daa96d46bcbb6904ddbeca6c
-[outdated link]
+[not available anymore]
 
 Failure Message in backend: Oops, an error occurred! Invalid form/module
 token detected. Access Denied!

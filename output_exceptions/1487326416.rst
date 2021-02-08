@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1487326416:
-
-========================
-Exception/CMS/1487326416
-========================
+==========================
+TYPO3 Exception 1487326416
+==========================
 
 This error happened on deleting content elements. We had several entries
 in table tx_solr_indexqueue_item with "root" pointing to a deleted page.

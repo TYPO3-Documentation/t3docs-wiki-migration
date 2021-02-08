@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1289679153:
-
-========================
-Exception/CMS/1289679153
-========================
+==========================
+TYPO3 Exception 1289679153
+==========================
 
 The error "The specified compression of type "integer" but a boolean is
 expected. When your cache configuration is invalid. Check

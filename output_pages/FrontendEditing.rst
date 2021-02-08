@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ================
 Frontend editing
@@ -7,7 +6,7 @@ Frontend editing
 
 .. container::
 
-   **Content Type:** FAQ [outdated wiki link].
+   **Content Type:** `FAQ </Category:FAQ>`__ [deprecated wiki link].
 
 .. container::
 
@@ -37,7 +36,9 @@ add :**
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -56,12 +57,14 @@ users which are allowed to edit one website are not allowed to edit
 another website if not explicitly added to the other website's
 usergroup.
 
--  Add the following code to the usergroup's TSconfig [outdated wiki
-   link] field :
+-  Add the following code to the usergroup's
+   `TSconfig </Category:TSconfig>`__ [deprecated wiki link] field :
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -118,12 +121,12 @@ Reference <https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/AdmPan
   (to display a pull down menu with both options)**
 
 | 
-| **6. Log out of your backend session, and go to
-  http://www.yoursite.com/typo3/ [outdated link] . The login form should
-  now include a new select box named "Interface". Select the "Frontend"
-  entry, and type the login and password of the frontend editing user
-  you just created. You should now see your website with all the pencil
-  icons aside the contents.**
+| **6. Log out of your backend session, and go
+  to**\ http://www.yoursite.com/typo3/\ **[not available anymore] . The
+  login form should now include a new select box named "Interface".
+  Select the "Frontend" entry, and type the login and password of the
+  frontend editing user you just created. You should now see your
+  website with all the pencil icons aside the contents.**
 
 Links
 =====

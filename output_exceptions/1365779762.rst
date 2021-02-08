@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1365779762:
-
-========================
-Exception/CMS/1365779762
-========================
+==========================
+TYPO3 Exception 1365779762
+==========================
 
 Trying to fetch data from a repository and get this error :
 

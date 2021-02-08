@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1247602160:
-
-========================
-Exception/CMS/1247602160
-========================
+==========================
+TYPO3 Exception 1247602160
+==========================
 
 Tx_Extbase_Persistence_Storage_Exception_SqlError
 =================================================
@@ -28,7 +25,8 @@ Model mapping incorrect or missing
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -45,7 +43,9 @@ name. The syntax for the upper example is the following:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -58,7 +58,8 @@ name. The syntax for the upper example is the following:
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -78,7 +79,9 @@ set**, seems to solve this issue:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -125,7 +128,8 @@ on page [0].
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -190,7 +194,8 @@ DB COMPARE when done):
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -213,7 +218,8 @@ changing :
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -225,7 +231,8 @@ to
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -240,7 +247,8 @@ Alternative solution is to use DB abstraction with following code:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -264,7 +272,8 @@ Check your sql_mode
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 

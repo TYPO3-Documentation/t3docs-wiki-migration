@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1294587482:
-
-========================
-Exception/CMS/1294587482
-========================
+==========================
+TYPO3 Exception 1294587482
+==========================
 
 This exception occurs when TYPO3 misses any mandatory PHP modules (i.e.
 gd, mysql, openssl, fileinfo).

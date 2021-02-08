@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _css-typo3-typoscript-setup:
 
@@ -60,8 +59,8 @@ The actual dynamic menu code (found in menu.txt) goes like this...
 
     # Level 1: Enable active state and set properties:
     ACT = 1
-    ACT.stdWrap.htmlSpecialChars [outdated link] = 1
-    ACT.allWrap [outdated link] = <div > | </div>
+    ACT.stdWrap.htmlSpecialChars [not available anymore] = 1
+    ACT.allWrap [not available anymore] = <div > | </div>
 
     # Level 1: Enable Spacer Menu Item (no link)
     SPC = 1

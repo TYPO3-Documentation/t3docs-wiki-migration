@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ====================
 Apache2 TYPO3 WebDAV
@@ -9,9 +8,9 @@ Configuring Apache2/WebDAV for TYPO3
 ====================================
 
 This HowTo describes the installation and configuration for WebDAV usage
-on a Linux Debian [outdated wiki link] (sarge) system. All software used
-and required is also available for Windows. So this tutorial should be
-pretty much the same.
+on a Linux `Debian </Category:Debian>`__ [deprecated wiki link] (sarge)
+system. All software used and required is also available for Windows. So
+this tutorial should be pretty much the same.
 
 What you get (after working through this)
 -----------------------------------------
@@ -52,7 +51,7 @@ Requirements
 Apache2 configuration
 =====================
 
-Apache [outdated wiki link]
+`Apache </Category:Apache>`__ [deprecated wiki link]
 
 You will have to install and configure the WebDAV modules and the
 MySQL-Auth module: First we will make sure we got the recent package
@@ -92,7 +91,7 @@ line in the apache.conf file and remove the #.
 Creating Additional MySQL Views
 ===============================
 
-MySQL [outdated wiki link]
+`MySQL </Category:MySQL>`__ [deprecated wiki link]
 
 Welcome to the tricky part. Later on this step will allow us to
 configure the apache2-auth_module to use the users and groups from
@@ -132,7 +131,8 @@ execute the following SQL statement:
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -155,7 +155,8 @@ be encrypted too and the be_user flag is set to 0.
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -177,7 +178,8 @@ Merge both views to get a big family.
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -291,17 +293,17 @@ encounter problems when accessing it. There are several known bugs on
 this. A good overview of work-arounds can be found
 `here <http://ulihansen.kicks-ass.net/aero/webdav/index.html>`__. A
 short summary: Webfolders looking like
-*http://mydomain.ch/fileadmin/webdav/ [outdated link]* may not be
-accessible. To overcome that there seem to be several workarounds:
+http://mydomain.ch/fileadmin/webdav/\ *[not available anymore]* may not
+be accessible. To overcome that there seem to be several workarounds:
 
 -  use a subdomain that points to that folder
 -  add a port number to the link
 -  add a # sign at the end of the resource link
-   (*http://mydomain.ch/fileadmin/webdav/# [outdated link]*)
--  use an SSL [outdated wiki link] resource, https:// (and be aware of
-   the restrictions if you have only one ip address for your server and
-   are already using it, it will be difficult to use another virtual
-   host, see `Apache2 SSL
+   (http://mydomain.ch/fileadmin/webdav/#\ *[not available anymore]*)
+-  use an `SSL </Category:SSL>`__ [deprecated wiki link] resource,
+   https:// (and be aware of the restrictions if you have only one ip
+   address for your server and are already using it, it will be
+   difficult to use another virtual host, see `Apache2 SSL
    FAQ <https://httpd.apache.org/docs/2.4/ssl/ssl_faq.html#vhosts>`__
    for some infos in this)
 -  use another client (like webdrive) or another operating system
@@ -317,7 +319,9 @@ We do another Apache2 restart:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -332,7 +336,9 @@ To test if the webdav thing works you may use the command line client:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -515,9 +521,10 @@ You should be ready to rock.
 Questions and Feedback
 ======================
 
-If you got some feedback or questions you may find my at typo3.net
-[outdated link] (I will watch that thread) or write something on the
-discussion page (sorry no email, I'm some poor spam victim).
+If you got some feedback or questions you may find my at
+`typo3.net <http://www.typo3.net/forum/list/list_post//53197/?page=1>`__
+[not available anymore] (I will watch that thread) or write something on
+the discussion page (sorry no email, I'm some poor spam victim).
 
 Some tools that allow mapping of a driveletter to the WebDAV folder
 ===================================================================
@@ -532,7 +539,8 @@ http://www.loyola.edu/5555/netdrive/installingnetdrive/
 
 or:
 
-http://downloads.lansa.co.uk/other/Novel%20Netdrive/ [outdated link]
+http://downloads.lansa.co.uk/other/Novel%20Netdrive/ [not available
+anymore]
 
 If all else fails, give your searchengine a try
 
@@ -566,7 +574,7 @@ letter:
 
 ::
 
-   net use w: http://webdav.yourserver.org/ [outdated link] * /user:USERNAME
+   net use w: http://webdav.yourserver.org/ [not available anymore] * /user:USERNAME
 
 Choose any free driveletter instead of w. The "*" will ask you for a
 password.
@@ -580,13 +588,19 @@ Will write out some additional parameters for the command.
 Relations
 =========
 
-**relating projects** (edit this [outdated wiki link], *in alphabetical
-order*)
+**relating projects** (`edit
+this </Template:NavigationContentRepository>`__ [deprecated wiki link],
+*in alphabetical order*)
 
--  TYPO3 Neos Content Repository [outdated link]
+-  `TYPO3 Neos Content
+   Repository </wiki/index.php?title=TYPO3_Neos_Content_Repository&action=edit&redlink=1>`__
+   [not available anymore]
 -  maybe a relation to lib/div (can provide data for the `MVC
    Framework <mvc-framework>`__)
--  DAM aka Digital Asset Management [outdated link] - features advanced
-   metatagging and categorisation of assets
--  `WebDAV <webdav>`__, Apache2 Typo3 WebDAV [outdated wiki link] -
-   client - needs meta data to render objects in a tree structure
+-  `DAM aka Digital Asset
+   Management </wiki/index.php?title=Dam&action=edit&redlink=1>`__ [not
+   available anymore] - features advanced metatagging and categorisation
+   of assets
+-  `WebDAV <webdav>`__, `Apache2 Typo3 WebDAV </Apache2_Typo3_WebDAV>`__
+   [deprecated wiki link] - client - needs meta data to render objects
+   in a tree structure

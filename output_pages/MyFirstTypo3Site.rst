@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===================
 My first TYPO3 site
@@ -8,7 +7,8 @@ My first TYPO3 site
 << Back to `Help, tips and troubleshooting <overview-miscellaneous>`__
 page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=My_first_TYPO3_site&action=edit&section=0>`__
+[deprecated wiki link]
 
 .. container::
 
@@ -35,7 +35,7 @@ to simplify the process for other newbies like me.
 
 **I am partial to HTML/CSS formatting and no frames.**
 
---chrispy [outdated wiki link]
+--`chrispy </User:Cpaige>`__ [deprecated wiki link]
 
 Overall documentation
 =====================
@@ -90,7 +90,7 @@ really committed to TYPO3. I knew/know there was/is a lot more to learn.
 But with that first site functional, I would then be able to make
 progress gradually as my time allowed.
 
-Possible solution? [outdated wiki link]
+`Possible solution? </Gimmicks_for_beginners>`__ [deprecated wiki link]
 
 TemplaVoila
 -----------
@@ -101,7 +101,9 @@ TypoScript was too intimidating without more accessible documentation
 and this was the first thing I felt I could make any progress with. Here
 are some of my notes and reference material for that...
 
--  Running with TemplaVoila [outdated link]
+-  `Running with
+   TemplaVoila </wiki/index.php?title=Running_with_TemplaVoila&action=edit&redlink=1>`__
+   [not available anymore]
 
 **Disadvantages**: As I tweaked my layout in my HTML template file and
 reloaded, the site would sometimes crash. I would have to run through
@@ -146,8 +148,9 @@ Videos! Check them out...
 Well, I had heard the videos referenced on the mailing list, but it took
 a long time before I figured out that they were available on-line for
 free! These look to be a great help at getting started with some basic
-aspects of TYPO3. Check them out at Getting Started Videos [outdated
-link]. You'll need to view them with Windows Media Player in order to
+aspects of TYPO3. Check them out at `Getting Started
+Videos <https://typo3.org/documentation/videos/>`__ [not available
+anymore]. You'll need to view them with Windows Media Player in order to
 choose your favorite language. In my initial browing of them, I found a
 lot of extensions that I was able to imnplement quickly and easily! Take
 the time. You'll be glad you did.
@@ -441,8 +444,10 @@ Using tt_news
 Using tt_news as a random quote generator
 -----------------------------------------
 
--  This information [outdated link] may help in the configuration of a
-   random tt_news generator.
+-  `This
+   information <http://www.typo3wizard.com/en/snippets/general-config/random-content.html>`__
+   [not available anymore] may help in the configuration of a random
+   tt_news generator.
 
 Setting up multiple users
 =========================
@@ -457,8 +462,10 @@ I was looking through the various documentation. It looked like it
 should be so easy to do what I wanted to do. It took me a long time to
 finally guess that I needed to install another extension in order to
 empower the admin panel discussed in the documentation (see also
-Frontend editing [outdated link]). With the right extension installed
-(this was either
+`Frontend
+editing <https://typo3.org/documentation/tips-tricks/frontend-editing/>`__
+[not available anymore]). With the right extension installed (this was
+either
 `feuser_admin <https://extensions.typo3.org/extension/feuser_admin/>`__
 or `beuser <https://extensions.typo3.org/extension/beuser/>`__, I
 think), suddenly it all worked like the documentation said it would! But
@@ -526,8 +533,9 @@ Multiple Domains
 ================
 
 It turns out that multiple domain handling is built into TYPO3, which is
-very cool. There is a basic documentation page in the Getting Started
-tutorial [outdated link]
+very cool. There is a basic documentation page in the `Getting Started
+tutorial <https://typo3.org/documentation/document-library/doc_tut_quickstart/Controlling_multiple/?encryptionKey=&cHash=98ea078d32>`__
+[not available anymore]
 
 A comprehensive tutorial/howto can be found here `The multidomain
 wiki <multidomain>`__
@@ -567,7 +575,9 @@ for me. I didn't know any .htaccess stuff before this.
    was pretty much ready to go. But it was named \_.htaccess, so I had
    to rename it to .htaccess for it to become active.
 -  There also is a simple TypoScript configuration set of a few commands
-   - see A Wiki page about RealURL test and error [outdated link].
+   - see `A Wiki page about RealURL test and
+   error </wiki/index.php?title=Realurl/testing&action=edit&redlink=1>`__
+   [not available anymore].
 
 Choosing extensions
 ===================
@@ -605,13 +615,15 @@ Meanwhile, here are notes on my own meanderings:
          end, this is the image extension that I settled on.**
       -  **Gallery** - Getting this setup took a little bit more work,
          but it looks more flexible to structure. I got slowed down
-         getting the directory syntax right. The manual [outdated link]
-         should say more about that! This thread [outdated link] helped
-         me figure out that I did not need to include fileadmin in the
-         directory notation since it is the default. This is slow to
-         load the first time also. It lets you load a large batch of new
-         images all at once, by directory. This starts you out at an
-         index page.
+         getting the directory syntax right. The
+         `manual <https://typo3.org/documentation/document-library/lz_gallery/>`__
+         [not available anymore] should say more about that! `This
+         thread <https://typo3.org/documentation/mailing-lists/english-main-list-archive/thread/7654/?tx_maillisttofaq_pi1%5Bmode%5D=1>`__
+         [not available anymore] helped me figure out that I did not
+         need to include fileadmin in the directory notation since it is
+         the default. This is slow to load the first time also. It lets
+         you load a large batch of new images all at once, by directory.
+         This starts you out at an index page.
       -  **WS Gallery** - With this one, you have to load each image one
          at a time, including the caption. But it automatically provides
          an index of smaller images that click through to a full size
@@ -646,29 +658,35 @@ create the content myself.
    **css_styled_content** extension (related to templates) -- turns out
    this problem would impact any of the **tt\_ extensions** such as
    tt_news, tt_board, etc!! I found the various advice on this issue to
-   be cryptic. It took me a while, but this thread [outdated link]
-   finally led me to make the correction. (from extension manager,
-   select "css_styled_content", select "edit files" from the drop down
-   menu, select "edit file" next to "static/setup.txt", and then add the
-   line "styles.content.mailform < tt_content.mailform.20" right before
-   the section titled/documented as "CType: search", save the file)
+   be cryptic. It took me a while, but `this
+   thread <https://typo3.org/documentation/mailing-lists/dev-list-archive/thread/43729/>`__
+   [not available anymore] finally led me to make the correction. (from
+   extension manager, select "css_styled_content", select "edit files"
+   from the drop down menu, select "edit file" next to
+   "static/setup.txt", and then add the line "styles.content.mailform <
+   tt_content.mailform.20" right before the section titled/documented as
+   "CType: search", save the file)
 
 -  I had been fighting with News (tt_news) though that might have been
    because of the TT-CSS conflict. But **mini-news** setup pretty
-   quickly. When I started to really work with it, this thread [outdated
-   link] helped me figure out why the front teaser link had stopped
-   working (can't use system folders for news items... they have to be
-   in a page with the mininews archive content installed).
+   quickly. When I started to really work with it, `this
+   thread <https://typo3.org/documentation/mailing-lists/english-main-list-archive/thread/21641/?tx_maillisttofaq_pi1%5Bsword%5D=mininews%20teaser%20link&tx_maillisttofaq_pi1%5Banswered_only%5D=0&tx_maillisttofaq_pi1%5Bmode%5D=1>`__
+   [not available anymore] helped me figure out why the front teaser
+   link had stopped working (can't use system folders for news items...
+   they have to be in a page with the mininews archive content
+   installed).
 
 **Documentation suggestion**
 
 -  There is a simple adjustment that can resolve this CSS-TT conflict,
    but it was really hard to figure out what the fix was. I was finally
-   able to parse this thread [outdated link] from the developers list. I
-   don't know why an adjustment hasn't been made to css_styled_content
-   directly (maybe a technical reason?), but this important adjustment
-   seems like it deserves it's own explanation page. (Does it already
-   exist in the wiki?)
+   able to parse `this
+   thread <https://typo3.org/documentation/mailing-lists/dev-list-archive/thread/43729/>`__
+   [not available anymore] from the developers list. I don't know why an
+   adjustment hasn't been made to css_styled_content directly (maybe a
+   technical reason?), but this important adjustment seems like it
+   deserves it's own explanation page. (Does it already exist in the
+   wiki?)
 
 RTE
 ===
@@ -734,5 +752,6 @@ Weird Things I've run into
    php_value session.use_trans_sid 0
 
 Note: I originally had them in an .htaccess file, but when I changed
-servers that no longer worked. Putting them in a php.ini [outdated wiki
-link] file is better anyhow.
+servers that no longer worked. Putting them in a
+`php.ini </Category:Php.ini>`__ [deprecated wiki link] file is better
+anyhow.

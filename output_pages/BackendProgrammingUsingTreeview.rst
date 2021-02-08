@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===================================
 Backend Programming, using treeview
@@ -34,8 +33,8 @@ Backend Programming, using treeview
 
    .. container::
 
-   *Please remove "{{Question}}" when the problem is solved. See all
-   questions [outdated wiki link].*
+   *Please remove "{{Question}}" when the problem is solved. See*\ `all
+   questions </Category:Wiki-Question>`__\ *[deprecated wiki link].*
 
 Recently I needed a possibility to let the user select a target folder
 for importing a xml file in a web module. I wrote a browseable tree and

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1328709784:
-
-========================
-Exception/CMS/1328709784
-========================
+==========================
+TYPO3 Exception 1328709784
+==========================
 
 1328709784: The finisher preset identified by "xxx" could not be found,
 or the implementationClassName was not specified.

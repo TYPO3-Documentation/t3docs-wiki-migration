@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===============
 Breadcrumb menu
@@ -7,7 +6,7 @@ Breadcrumb menu
 
 .. container::
 
-   **Content Type:** HowTo [outdated wiki link].
+   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
 
 Breadcrumb menu - Assign different page data to a breadcrumb menu
 =================================================================
@@ -32,7 +31,7 @@ Breadcrumb menu can show other page data than main menu
         1.target = _self
         1.wrap = <div > | </div>
         1.NO {
-            stdWrap [outdated link].field = title
+            stdWrap [not available anymore].field = title
             ATagTitle.field = nav_title // title
             linkWrap = ||*|  > |*|
             }

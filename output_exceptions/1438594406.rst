@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1438594406:
-
-========================
-Exception/CMS/1438594406
-========================
+==========================
+TYPO3 Exception 1438594406
+==========================
 
 On possible cause for this is the use of old ext_tables/TCA
 configuration. Please see

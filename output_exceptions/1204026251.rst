@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1204026251:
-
-========================
-Exception/CMS/1204026251
-========================
+==========================
+TYPO3 Exception 1204026251
+==========================
 
 You probably ran into a race condition which is described in
 https://forge.typo3.org/issues/46205 and has been fixed in 6.0.5 Try to

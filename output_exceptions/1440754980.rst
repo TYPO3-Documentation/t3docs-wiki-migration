@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1440754980:
-
-========================
-Exception/CMS/1440754980
-========================
+==========================
+TYPO3 Exception 1440754980
+==========================
 
 Exception Message: [module-icon-<something>] The option "source" is required and must not be empty
 ==================================================================================================

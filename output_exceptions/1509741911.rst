@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1509741911:
-
-========================
-Exception/CMS/1509741911
-========================
+==========================
+TYPO3 Exception 1509741911
+==========================
 
 This exception happens when a image file should be rendered in fluid,
 but failed because the file does not exist:

@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ========
 Rootline
@@ -27,7 +26,7 @@ Full TS
         1.target = _self
         1.wrap = <div > | </div>
         1.NO {
-            stdWrap [outdated link].field = title
+            stdWrap [not available anymore].field = title
             ATagTitle.field = nav_title // title
             linkWrap = ||*| >> |*|
             }

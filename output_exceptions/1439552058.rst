@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1439552058:
-
-========================
-Exception/CMS/1439552058
-========================
+==========================
+TYPO3 Exception 1439552058
+==========================
 
 Hi, I tried to install the "doc_tut_templating" extension in TYPO3 7.6.6
 running locally under WAMP. After doing so, when I try to open

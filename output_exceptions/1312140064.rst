@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1312140064:
-
-========================
-Exception/CMS/1312140064
-========================
+==========================
+TYPO3 Exception 1312140064
+==========================
 
 You should use the following hook
 
@@ -16,4 +13,5 @@ You should use the following hook
 and execute t3lib_extMgm::addModuleJsFile in the above file - the
 pagerenderer is needed to add files to the backend.
 
--  Extension_Development,_native_ExtJS_Modules [outdated wiki link]
+-  `Extension_Development,_native_ExtJS_Modules </Extension_Development,_native_ExtJS_Modules>`__
+   [deprecated wiki link]

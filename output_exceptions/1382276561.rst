@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1382276561:
-
-========================
-Exception/CMS/1382276561
-========================
+==========================
+TYPO3 Exception 1382276561
+==========================
 
 Dear creators of TYPO3: please allow me to use composer in my own
 projects.

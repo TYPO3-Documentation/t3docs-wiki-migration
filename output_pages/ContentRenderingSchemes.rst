@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =========================
 Content Rendering Schemes
@@ -7,21 +6,24 @@ Content Rendering Schemes
 
 .. container::
 
-   This page belongs to the Content Rendering - Team [outdated wiki
-   link] (category ContentRenderingTeam [outdated wiki link])
+   This page belongs to the `Content Rendering -
+   Team </Content_Rendering>`__ [deprecated wiki link] (category
+   `ContentRenderingTeam </Category:ContentRenderingTeam>`__ [deprecated
+   wiki link])
 
-The ECT (Extension Coordination Team) [outdated wiki link] and the CRG
-(Content Rendering Group) [outdated wiki link] are doing a joint effort
-at the moment to get some new out-of-the-box templates into TYPO3. For
-this purpose some standard id and class schemes for the HTML output have
-to be drawn up. That's what's done on this page.
+The `ECT (Extension Coordination Team) </Extension_coordination_team>`__
+[deprecated wiki link] and the `CRG (Content Rendering
+Group) </Content_Rendering>`__ [deprecated wiki link] are doing a joint
+effort at the moment to get some new out-of-the-box templates into
+TYPO3. For this purpose some standard id and class schemes for the HTML
+output have to be drawn up. That's what's done on this page.
 
 What is this about?
 ===================
 
-glossary-definition [outdated wiki link]: Content Rendering Schemes
-(CRS) are a method for standardisation of markup code and classes/IDs
-for TYPO3 markup.
+`glossary-definition </Category:Glossary-definition>`__ [deprecated wiki
+link]: Content Rendering Schemes (CRS) are a method for standardisation
+of markup code and classes/IDs for TYPO3 markup.
 
 Content Rendering Schemes should bring together several things :
 

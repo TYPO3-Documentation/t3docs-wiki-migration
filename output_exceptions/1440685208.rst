@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1440685208:
-
-========================
-Exception/CMS/1440685208
-========================
+==========================
+TYPO3 Exception 1440685208
+==========================
 
 **Fluid**
 
@@ -13,8 +10,9 @@ Exception/CMS/1440685208
 
    #1440685208: Broken data structure on field name pi_flexform. section without type or vice versa is not allowed
 
-Happens when using <flux:form.container> [outdated link] in a fluid
-content element.
+Happens when using
+`<flux:form.container> <https://fluidtypo3.org/viewhelpers/flux/master/Form/ContainerViewHelper.html>`__
+[not available anymore] in a fluid content element.
 
 In our case it was due to <type>no_map</type> which we commented out.
 Then I worked.
@@ -39,4 +37,4 @@ the same level.
 
 -  See
    https://docs.templavoila.support/Changelog/7.6/Breaking-ConfigurationOfTypesInFlexforms.html
-   [outdated link]
+   [not available anymore]

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1375889830:
-
-========================
-Exception/CMS/1375889830
-========================
+==========================
+TYPO3 Exception 1375889830
+==========================
 
 You are not allowed to access files outside your storages
 =========================================================

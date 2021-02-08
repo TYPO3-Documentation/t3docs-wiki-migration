@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1537633463:
-
-========================
-Exception/CMS/1537633463
-========================
+==========================
+TYPO3 Exception 1537633463
+==========================
 
 If you have a problem with an OutOfRangeException with the message "Hash
 not resolvable" this is a bug reported here:

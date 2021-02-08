@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===========================
 Efficiently Debugging TYPO3
@@ -7,7 +6,7 @@ Efficiently Debugging TYPO3
 
 .. container::
 
-   **Content Type:** HowTo [outdated wiki link].
+   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
 
 This page describes how efficiently debugging TYPO3. If you need a PHP
 editor / IDE, please refer to `Comparison of PHP Editors for TYPO3
@@ -20,7 +19,9 @@ development <ide-for-typo3>`__.
    .. container::
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
-      reviewer for text and TypoScript. info [outdated wiki link]
+      reviewer for text and TypoScript.
+      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      [deprecated wiki link]
 
 PDT and Zend Server Community Edition
 =====================================
@@ -197,12 +198,14 @@ Configure Eclipse Galileo PDT for Xdebug
 Regarding the correct paths: Assuming you have your Eclipse Workspace in
 c:\web and a typo3 project named www in C:\web\www with your Apache
 document root in your workspace directory c:\web. (This means you can
-get to your Typo3 website on http://localhost/www [outdated link])...
-You will have to choose the following as debug configuration:
+get to your Typo3 website on http://localhost/www [not available
+anymore])... You will have to choose the following as debug
+configuration:
 
 -  File: /www/index.php
--  Leave URL to auto generate which will use http://localhost/ [outdated
-   link] in the left part and /www/index.php in the right one.
+-  Leave URL to auto generate which will use http://localhost/ [not
+   available anymore] in the left part and /www/index.php in the right
+   one.
 
 Some notes:
 
@@ -226,7 +229,7 @@ Configure NetBeans 6.8 for debugging
 
    -  Run as: Local web site
    -  Project URL: **[Base URL to your TYPO3 instance]**, like
-      http://localhost/typo3/ [outdated link]
+      http://localhost/typo3/ [not available anymore]
    -  Index File: (leave blank)
    -  Arguments: (leave blank)
 
@@ -255,4 +258,4 @@ Further Reading
 -  `Extension Development,
    Debugging <extension-development-debugging>`__
 
-debug [outdated wiki link]
+`debug </Category:Debug>`__ [deprecated wiki link]

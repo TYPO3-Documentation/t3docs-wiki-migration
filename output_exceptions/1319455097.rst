@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1319455097:
-
-========================
-Exception/CMS/1319455097
-========================
+==========================
+TYPO3 Exception 1319455097
+==========================
 
 Issue occurs because of offline filestorage
 ===========================================
@@ -51,8 +48,11 @@ done ;-) Leo
 
 In addition to what Leo did, i had to open the filelist-module, with a
 non-admin user, which has some filemounts in the auto-created
-fileadmin/-storage (the only storage left for me). --Csehrt [outdated
-wiki link] (talk [outdated wiki link]) 20:10, 12 August 2014 (CEST)
+fileadmin/-storage (the only storage left for me).
+--`Csehrt </wiki/index.php?title=User:Csehrt&action=edit&redlink=1>`__
+[deprecated wiki link]
+(`talk </wiki/index.php?title=User_talk:Csehrt&action=edit&redlink=1>`__
+[deprecated wiki link]) 20:10, 12 August 2014 (CEST)
 
 one more
 --------
@@ -89,8 +89,9 @@ entered a folder to "Folder for manipulated and temporary images etc."
 UTF-8 named files may become damaged/mangled upon transferring them via
 (S)FTP. For example using Transmit/Coda between OS X and a linux server.
 Use scp, rsync or lftp to transfer such files. Alternatively, also
-compressing them in a tar.gz for the move may help.-ursbraem [outdated
-wiki link]
+compressing them in a tar.gz for the move may
+help.-`ursbraem </wiki/index.php?title=User:Ursbraem&action=edit&redlink=1>`__
+[deprecated wiki link]
 
 .. _th-2:
 
@@ -123,4 +124,6 @@ Remove /uploads from filemounts
 ===============================
 
 I simply had to remove the uploads-folder from filemounts, log out and
-log in. Voilà. User:pragmas [outdated wiki link]
+log in. Voilà.
+`User:pragmas </wiki/index.php?title=User:Pragmas&action=edit&redlink=1>`__
+[deprecated wiki link]

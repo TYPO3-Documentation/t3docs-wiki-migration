@@ -1,11 +1,12 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===================
 MySQL configuration
 ===================
 
-<< Back to Installation manual [outdated wiki link]
+<< Back to `Installation
+manual </Typo3_Installation_Basics#Before_you_start>`__ [deprecated wiki
+link]
 
 Introduction
 ============
@@ -17,10 +18,11 @@ management.
 Basic security steps
 ====================
 
-The first thing to do after finishing your MySQL [outdated wiki link]
-installation [outdated wiki link], is to protect it against unauthorized
-access. This is absolutely neccessary, if you're sitting in front of a
-multiuser system or you're on a network.
+The first thing to do after finishing your `MySQL </Category:MySQL>`__
+[deprecated wiki link] `installation </Category:Installation>`__
+[deprecated wiki link], is to protect it against unauthorized access.
+This is absolutely neccessary, if you're sitting in front of a multiuser
+system or you're on a network.
 
 Set up a password for the MySQL admin
 -------------------------------------
@@ -140,4 +142,6 @@ Relations
 -  Project `Performance tuning <performance-tuning>`__
 
 | 
-| << Back to Installation manual [outdated wiki link]
+| << Back to `Installation
+  manual </Typo3_Installation_Basics#Before_you_start>`__ [deprecated
+  wiki link]

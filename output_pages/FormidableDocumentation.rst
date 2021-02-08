@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ========================
 Formidable documentation
@@ -9,4 +8,5 @@ Formidable documentation
 
    Redirect to:
 
-   -  Formidable [outdated link]
+   -  `Formidable </wiki/index.php?title=Formidable&action=edit&redlink=1>`__
+      [not available anymore]

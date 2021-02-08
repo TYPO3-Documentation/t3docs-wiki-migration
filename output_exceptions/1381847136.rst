@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1381847136:
-
-========================
-Exception/CMS/1381847136
-========================
+==========================
+TYPO3 Exception 1381847136
+==========================
 
 #1381847136: Could not determine the current charset of the database.
 =====================================================================

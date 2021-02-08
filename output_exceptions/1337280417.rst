@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1337280417:
-
-========================
-Exception/CMS/1337280417
-========================
+==========================
+TYPO3 Exception 1337280417
+==========================
 
 Problem occurs when extension size is more than post_max_size (php.ini).
 Just fix post_max_size and restart webserver.

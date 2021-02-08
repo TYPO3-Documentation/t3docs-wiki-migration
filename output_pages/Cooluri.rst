@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =======
 Cooluri
@@ -7,8 +6,11 @@ Cooluri
 
 .. container::
 
-   **Content Type:** Extension Documentation [outdated wiki link] (find
-   more extensions in the Extension Repository [outdated link])
+   **Content Type:** `Extension
+   Documentation </Category:ExtensionDocumentation>`__ [deprecated wiki
+   link] (find more extensions in the `Extension
+   Repository <https://extensions.typo3.org/extension/%7B%7B%7Bterkey%7D%7D%7D>`__
+   [not available anymore])
    Using the Wiki for extension documentation is no longer recommended.
    You should add the documentation in the git repository of your
    extension and render it on docs.typo3.org or on the Git hoster, e.g.
@@ -27,8 +29,11 @@ Cooluri
    |                                   | This extension will offer you     |
    |                                   | nicer URLs.                       |
    +-----------------------------------+-----------------------------------+
-   | **documentation state**           | **needs a review [outdated wiki   |
-   |                                   | link]** |document state list|     |
+   | **documentation state**           | `needs a                          |
+   |                                   | review </Category:                |
+   |                                   | Needs_a_review>`__\ **[deprecated |
+   |                                   | wiki link]** |document state      |
+   |                                   | list|                             |
    |                                   | `licence                          |
    |                                   | OCL <http:/                       |
    |                                   | /www.opencontent.org/openpub/>`__ |
@@ -47,9 +52,11 @@ Cooluri
    | dependency                        | NONE                              |
    +-----------------------------------+-----------------------------------+
 
-<< Back to Extension manuals [outdated wiki link] page
+<< Back to `Extension manuals </Overview_Extension_manuals>`__
+[deprecated wiki link] page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=Cooluri&action=edit&section=0>`__
+[deprecated wiki link]
 
 .. container::
 
@@ -121,7 +128,9 @@ your URLs
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -155,7 +164,9 @@ Subdirectory
 
    .. container::
 
-      TS TypoScript [outdated wiki link]
+      `TS
+      TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+      [deprecated wiki link]
 
    .. container::
 
@@ -171,8 +182,8 @@ Subdirectory
 #. Got to 'Cached links' and check if ``my_subdirectory/typo3/ id=1`` is
    listed
 #. Now accessing your TYPO3 frontend (e.g.
-   http://my_basedomain/my_subdirectory/typo3/ [outdated link]) without
-   adding 'index.php' should work.
+   http://my_basedomain/my_subdirectory/typo3/ [not available anymore])
+   without adding 'index.php' should work.
 
 Hide pathsegments
 -----------------

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1255072832:
-
-========================
-Exception/CMS/1255072832
-========================
+==========================
+TYPO3 Exception 1255072832
+==========================
 
 **The form field "[items][][]" is invalid. Reason: "[]" used not as last
 argument, but somewhere in the middle (like foo[][bar]).**

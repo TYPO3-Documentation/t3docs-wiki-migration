@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1404068038:
-
-========================
-Exception/CMS/1404068038
-========================
+==========================
+TYPO3 Exception 1404068038
+==========================
 
 You will see this exception most likely because
 t3lib_extMgm::addPlugin() or

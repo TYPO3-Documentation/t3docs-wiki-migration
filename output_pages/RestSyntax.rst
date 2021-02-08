@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===========
 ReST Syntax
@@ -35,7 +34,7 @@ Furthermore you may want to read those guides:
 -  Brief introduction to reStructuredText (reST) concepts and syntax, as
    well as conventions for TYPO3 documentation:
    https://docs.typo3.org/typo3cms/drafts/github/xperseguers/RstPrimer/
-   [outdated link]
+   [not available anymore]
 -  A more general reference:
    http://docutils.sourceforge.net/docs/user/rst/quickref.html
 
@@ -228,7 +227,7 @@ For a link in the same project you need two things:
 **Note** that label names must be unique throughout the *entire*
 documentation project!
 
-See http://sphinx.pocoo.org/markup/inline.html [outdated link]
+See http://sphinx.pocoo.org/markup/inline.html [not available anymore]
 
 Links to a headline
                    
@@ -305,7 +304,7 @@ E.g.
    # t3tssyntax    = https://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/
 
 In case of the PHP API, you have to link to:
-``t3api = https://typo3.org/api/typo3cms/ [outdated link]``
+``t3api = https://typo3.org/api/typo3cms/ [not available anymore]``
 
 Here is a list of the official prefixes and the projects they point to:
 
@@ -340,7 +339,7 @@ Then you can reference stdWrap in this other project with
 To create this kind of link you do neither need to know, in which file
 the referenced label is to be found nor at which place exactly.
 
-See http://sphinx.pocoo.org/ext/intersphinx.html [outdated link]
+See http://sphinx.pocoo.org/ext/intersphinx.html [not available anymore]
 
 External links
 ''''''''''''''

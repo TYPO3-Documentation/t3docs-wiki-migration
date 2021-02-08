@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _reset-front-end-session:
 
@@ -9,7 +8,7 @@ FAQ/Reset front end session
 
 .. container::
 
-   **Content Type:** FAQ [outdated wiki link].
+   **Content Type:** `FAQ </Category:FAQ>`__ [deprecated wiki link].
 
 << Back to `FAQ <faq>`__
 

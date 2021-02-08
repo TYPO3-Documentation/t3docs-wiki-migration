@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1381960493:
-
-========================
-Exception/CMS/1381960493
-========================
+==========================
+TYPO3 Exception 1381960493
+==========================
 
 | I got this Exception with a huge amount of Dependency Loops. I fixed
   the problem with commenting all custom extensions in

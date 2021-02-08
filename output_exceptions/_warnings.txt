@@ -1,135 +1,136 @@
 Url http://blog.typoplanet.de/2012/04/19/difference-between-entity-and-valueobject/ seems to be outdated (Could not resolve host "blog.typoplanet.de".)!
-Link http://blog.typoplanet.de/2012/04/19/difference-between-entity-and-valueobject/ of page 1274799934 gets removed as it is outdated.
+Link http://blog.typoplanet.de/2012/04/19/difference-between-entity-and-valueobject/ of page 1274799934 gets marked as outdated as it is not available.
 Url http://www.jambage.com/fileadmin/user_upload/clear_cache_franz.php.zip seems to be outdated (status code: 500)!
-Link http://www.jambage.com/fileadmin/user_upload/clear_cache_franz.php.zip of page 1365429656 gets removed as it is outdated.
-Link https://wiki.typo3.org/User:David_bruchmann of page 1254325546 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1254325546 gets removed as it links to deprecated wiki instance.
+Link http://www.jambage.com/fileadmin/user_upload/clear_cache_franz.php.zip of page 1365429656 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/User:David_bruchmann of page 1254325546 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1254325546 gets marked as outdated as it links to deprecated wiki instance.
 Url http://www.bahai.by/be/?type=103 seems to be outdated (status code: 404)!
-Link http://www.bahai.by/be/?type=103 of page 1294587217 gets removed as it is outdated.
-Link https://wiki.typo3.org/User:David_bruchmann of page 1224485398 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1224485398 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/User:David_bruchmann of page 1237900529 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1237900529 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User:Bernland&amp;action=edit&amp;redlink=1 of page 1237900529 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User:Woepwoep&amp;action=edit&amp;redlink=1 of page 1438780511 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Woepwoep&amp;action=edit&amp;redlink=1 of page 1438780511 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1439288036 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1439288036 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1439288036 gets removed as it links to deprecated wiki instance.
+Link http://www.bahai.by/be/?type=103 of page 1294587217 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/User:David_bruchmann of page 1224485398 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1224485398 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/User:David_bruchmann of page 1237900529 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1237900529 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User:Bernland&amp;action=edit&amp;redlink=1 of page 1237900529 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User:Woepwoep&amp;action=edit&amp;redlink=1 of page 1438780511 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Woepwoep&amp;action=edit&amp;redlink=1 of page 1438780511 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1439288036 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1439288036 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1439288036 gets marked as outdated as it links to deprecated wiki instance.
 Url https://forge.typo3.org/projects/typo3v4-mvc/wiki/Breaking_Changes%7CExtbase seems to be outdated (status code: 403)!
 Url https://wiki.typo3.org/Exception/CMS/1263391473%7C seems to be outdated (status code: 400)!
-Link https://wiki.typo3.org/Fluid#f:form.textbox of page 1289386765 gets removed as it links to deprecated wiki instance.
-Link https://forge.typo3.org/projects/typo3v4-mvc/wiki/Breaking_Changes%7CExtbase of page 1289386765 gets removed as it is outdated.
-Link https://wiki.typo3.org/Exception/CMS/1263391473%7C of page 1289386765 gets removed as it is outdated.
-Link https://wiki.typo3.org/Composer of page 1289386765 gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Fluid#f:form.textbox of page 1289386765 gets marked as outdated as it links to deprecated wiki instance.
+Link https://forge.typo3.org/projects/typo3v4-mvc/wiki/Breaking_Changes%7CExtbase of page 1289386765 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/Exception/CMS/1263391473%7C of page 1289386765 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/Composer of page 1289386765 gets marked as outdated as it links to deprecated wiki instance.
 Url http://xcache.lighttpd.net/ seems to be outdated (status code: 404)!
-Link http://xcache.lighttpd.net/ of page 1242292003 gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/index.php?title=User:Mmix&amp;action=edit&amp;redlink=1 of page 1283790586 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Mmix&amp;action=edit&amp;redlink=1 of page 1283790586 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User:Ursbraem&amp;action=edit&amp;redlink=1 of page 1283790586 gets removed as it links to deprecated wiki instance.
+Link http://xcache.lighttpd.net/ of page 1242292003 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/wiki/index.php?title=User:Mmix&amp;action=edit&amp;redlink=1 of page 1283790586 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Mmix&amp;action=edit&amp;redlink=1 of page 1283790586 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User:Ursbraem&amp;action=edit&amp;redlink=1 of page 1283790586 gets marked as outdated as it links to deprecated wiki instance.
 Url https://typo3.org/news/article/cross-site-request-forgery-protection-in-typo3-cms-62/ seems to be outdated (status code: 404)!
 Url https://typo3.org/api/typo3cms/class_t_y_p_o3_1_1_c_m_s_1_1_backend_1_1_utility_1_1_backend_utility.html#a8437ed5134d2c407ca67cc5f5627b280 seems to be outdated (status code: 404)!
 Url https://docs.typo3.org/typo3cms/TCAReference/AdditionalFeatures/WizardsConfiguration/Index.html#wizards-configuration-script-script seems to be outdated (status code: 404)!
-Link https://typo3.org/news/article/cross-site-request-forgery-protection-in-typo3-cms-62/ of page 1392409507 gets removed as it is outdated.
-Link https://typo3.org/api/typo3cms/class_t_y_p_o3_1_1_c_m_s_1_1_backend_1_1_utility_1_1_backend_utility.html#a8437ed5134d2c407ca67cc5f5627b280 of page 1392409507 gets removed as it is outdated.
-Link https://docs.typo3.org/typo3cms/TCAReference/AdditionalFeatures/WizardsConfiguration/Index.html#wizards-configuration-script-script of page 1392409507 gets removed as it is outdated.
-Link https://wiki.typo3.org/User:Kraftb of page 1392409507 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Kraftb&amp;action=edit&amp;redlink=1 of page 1392409507 gets removed as it links to deprecated wiki instance.
+Link https://typo3.org/news/article/cross-site-request-forgery-protection-in-typo3-cms-62/ of page 1392409507 gets marked as outdated as it is not available.
+Link https://typo3.org/api/typo3cms/class_t_y_p_o3_1_1_c_m_s_1_1_backend_1_1_utility_1_1_backend_utility.html#a8437ed5134d2c407ca67cc5f5627b280 of page 1392409507 gets marked as outdated as it is not available.
+Link https://docs.typo3.org/typo3cms/TCAReference/AdditionalFeatures/WizardsConfiguration/Index.html#wizards-configuration-script-script of page 1392409507 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/User:Kraftb of page 1392409507 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Kraftb&amp;action=edit&amp;redlink=1 of page 1392409507 gets marked as outdated as it links to deprecated wiki instance.
 Url http://christ.media/ssl-certificate-problem-unable-get-local-issuer-certificate-howto/ seems to be outdated (status code: 404)!
-Link http://christ.media/ssl-certificate-problem-unable-get-local-issuer-certificate-howto/ of page 1342635425 gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/index.php?title=User:Francois&amp;action=edit&amp;redlink=1 of page 1314516809 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Francois&amp;action=edit&amp;redlink=1 of page 1314516809 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/User:Maholtz of page 1301648167 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/User_talk:Maholtz of page 1301648167 gets removed as it links to deprecated wiki instance.
+Link http://christ.media/ssl-certificate-problem-unable-get-local-issuer-certificate-howto/ of page 1342635425 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/wiki/index.php?title=User:Francois&amp;action=edit&amp;redlink=1 of page 1314516809 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Francois&amp;action=edit&amp;redlink=1 of page 1314516809 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/User:Maholtz of page 1301648167 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/User_talk:Maholtz of page 1301648167 gets marked as outdated as it links to deprecated wiki instance.
 Url https://twitter.com/s_michaelsen/statuses/243636376648699904 seems to be outdated (status code: 400)!
-Link https://twitter.com/s_michaelsen/statuses/243636376648699904 of page 1295611406 gets removed as it is outdated.
+Link https://twitter.com/s_michaelsen/statuses/243636376648699904 of page 1295611406 gets marked as outdated as it is not available.
 Url http://fluidtypo3.org/viewhelpers/vhs/master/Page/MenuViewHelper.html seems to be outdated (status code: 404)!
-Link http://fluidtypo3.org/viewhelpers/vhs/master/Page/MenuViewHelper.html of page 1371069824 gets removed as it is outdated.
+Link http://fluidtypo3.org/viewhelpers/vhs/master/Page/MenuViewHelper.html of page 1371069824 gets marked as outdated as it is not available.
 Url https://typo3.org/api/typo3cms/_frontend_configuration_manager_8php_source.html#l00220 seems to be outdated (status code: 404)!
-Link https://typo3.org/api/typo3cms/_frontend_configuration_manager_8php_source.html#l00220 of page 1257146403 gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/index.php?title=User:Supermonster&amp;action=edit&amp;redlink=1 of page 1257146403 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Supermonster&amp;action=edit&amp;redlink=1 of page 1257146403 gets removed as it links to deprecated wiki instance.
+Link https://typo3.org/api/typo3cms/_frontend_configuration_manager_8php_source.html#l00220 of page 1257146403 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/wiki/index.php?title=User:Supermonster&amp;action=edit&amp;redlink=1 of page 1257146403 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Supermonster&amp;action=edit&amp;redlink=1 of page 1257146403 gets marked as outdated as it links to deprecated wiki instance.
 Url https://wiki.typo3.org/wiki/index.php?title=Ts45min&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
-Link https://wiki.typo3.org/wiki/index.php?title=Ts45min&amp;action=edit&amp;redlink=1 of page 1294587218 gets removed as it is outdated.
+Link https://wiki.typo3.org/wiki/index.php?title=Ts45min&amp;action=edit&amp;redlink=1 of page 1294587218 gets marked as outdated as it is not available.
 Url http://www.typo3forum.net/forum/typo3-4-x-backend/56543-kein-login-fatal-error-typo3-4-7-1-a.html#post187281 seems to be outdated (status code: 404)!
 Url https://github.com/FluidTYPO3/view seems to be outdated (status code: 404)!
-Link http://www.typo3forum.net/forum/typo3-4-x-backend/56543-kein-login-fatal-error-typo3-4-7-1-a.html#post187281 of page 1 gets removed as it is outdated.
-Link https://wiki.typo3.org/De:Indexed_search of page 1 gets removed as it links to deprecated wiki instance.
-Link https://github.com/FluidTYPO3/view of page 1 gets removed as it is outdated.
-Link https://wiki.typo3.org/User:David_bruchmann of page 1 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1 gets removed as it links to deprecated wiki instance.
-Link https://typo3.org/go/exception/CMS/1 of page 1 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/User:David_bruchmann of page 1256475114 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1256475114 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/User:David_bruchmann of page 1237823695 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1237823695 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Extension_Development,_native_ExtJS_Modules of page 1312140065 gets removed as it links to deprecated wiki instance.
+Link http://www.typo3forum.net/forum/typo3-4-x-backend/56543-kein-login-fatal-error-typo3-4-7-1-a.html#post187281 of page 1 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/De:Indexed_search of page 1 gets marked as outdated as it links to deprecated wiki instance.
+Link https://github.com/FluidTYPO3/view of page 1 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/User:David_bruchmann of page 1 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1 gets marked as outdated as it links to deprecated wiki instance.
+Link https://typo3.org/go/exception/CMS/1 of page 1 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/User:David_bruchmann of page 1256475114 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1256475114 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/User:David_bruchmann of page 1237823695 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1237823695 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Extension_Development,_native_ExtJS_Modules of page 1312140065 gets marked as outdated as it links to deprecated wiki instance.
 Url https://project.localdomain.vm/http-error-404 seems to be outdated (Could not resolve host "project.localdomain.vm".)!
-Link https://project.localdomain.vm/http-error-404 of page 1544172838 gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1231267498 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1231267498 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1231267498 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User:Benjamin-pick&amp;action=edit&amp;redlink=1 of page 1431452406 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Benjamin-pick&amp;action=edit&amp;redlink=1 of page 1431452406 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/User:David_bruchmann of page 1264678095 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1264678095 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated of page 1316104317 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1316104317 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page 1316104317 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/Extension_Development,_native_ExtJS_Modules of page 1312140064 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/User:David_bruchmann of page 1380905851 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1380905851 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/User:David_bruchmann of page 1234386924 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1234386924 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page 1288085266 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User:An0ther-adm1n&amp;action=edit&amp;redlink=1 of page 1417988921 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:An0ther-adm1n&amp;action=edit&amp;redlink=1 of page 1417988921 gets removed as it links to deprecated wiki instance.
+Link https://project.localdomain.vm/http-error-404 of page 1544172838 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1231267498 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1231267498 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1231267498 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User:Benjamin-pick&amp;action=edit&amp;redlink=1 of page 1431452406 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Benjamin-pick&amp;action=edit&amp;redlink=1 of page 1431452406 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/User:David_bruchmann of page 1264678095 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1264678095 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated of page 1316104317 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1316104317 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page 1316104317 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Extension_Development,_native_ExtJS_Modules of page 1312140064 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/User:David_bruchmann of page 1380905851 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1380905851 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/User:David_bruchmann of page 1234386924 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1234386924 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page 1288085266 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User:An0ther-adm1n&amp;action=edit&amp;redlink=1 of page 1417988921 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:An0ther-adm1n&amp;action=edit&amp;redlink=1 of page 1417988921 gets marked as outdated as it links to deprecated wiki instance.
 Url http://......ch/typo3/mod.php?M=tools_ExtensionmanagerExtensionmanager&amp;moduleToken=0cede4471e1c5e94daa96d46bcbb6904ddbeca6c seems to be outdated (Could not resolve host "......ch".)!
-Link http://......ch/typo3/mod.php?M=tools_ExtensionmanagerExtensionmanager&amp;moduleToken=0cede4471e1c5e94daa96d46bcbb6904ddbeca6c of page 1348146451 gets removed as it is outdated.
-Url https://www.example.de/' seems to be outdated (fopen(): SSL: Success)!
-Link https://www.example.de/' of page 1519788775 gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/index.php?title=User:Csehrt&amp;action=edit&amp;redlink=1 of page 1319455097 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Csehrt&amp;action=edit&amp;redlink=1 of page 1319455097 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User:Ursbraem&amp;action=edit&amp;redlink=1 of page 1319455097 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User:Pragmas&amp;action=edit&amp;redlink=1 of page 1319455097 gets removed as it links to deprecated wiki instance.
+Link http://......ch/typo3/mod.php?M=tools_ExtensionmanagerExtensionmanager&amp;moduleToken=0cede4471e1c5e94daa96d46bcbb6904ddbeca6c of page 1348146451 gets marked as outdated as it is not available.
+Url https://www.example.de/' seems to be outdated (fopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error)!
+Link https://www.example.de/' of page 1519788775 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/wiki/index.php?title=User:Csehrt&amp;action=edit&amp;redlink=1 of page 1319455097 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Csehrt&amp;action=edit&amp;redlink=1 of page 1319455097 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User:Ursbraem&amp;action=edit&amp;redlink=1 of page 1319455097 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User:Pragmas&amp;action=edit&amp;redlink=1 of page 1319455097 gets marked as outdated as it links to deprecated wiki instance.
 Url http://www.typo3forum.net/forum/extbase/59994-action-show-list-not-allowed-plugin.html seems to be outdated (status code: 404)!
-Link http://www.typo3forum.net/forum/extbase/59994-action-show-list-not-allowed-plugin.html of page 1313855175 gets removed as it is outdated.
+Link http://www.typo3forum.net/forum/extbase/59994-action-show-list-not-allowed-plugin.html of page 1313855175 gets marked as outdated as it is not available.
 Url http://www.jambage.com/uploads/media/clear_cache_franz.php.zip seems to be outdated (status code: 404)!
-Link http://www.jambage.com/uploads/media/clear_cache_franz.php.zip of page 1329821485 gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/index.php?title=User:Infodesign@reinecke.de&amp;action=edit&amp;redlink=1 of page 1317178604 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Infodesign@reinecke.de&amp;action=edit&amp;redlink=1 of page 1317178604 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript of page 1245673367 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1245673367 gets removed as it links to deprecated wiki instance.
+Link http://www.jambage.com/uploads/media/clear_cache_franz.php.zip of page 1329821485 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/wiki/index.php?title=User:Infodesign@reinecke.de&amp;action=edit&amp;redlink=1 of page 1317178604 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Infodesign@reinecke.de&amp;action=edit&amp;redlink=1 of page 1317178604 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript of page 1245673367 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1245673367 gets marked as outdated as it links to deprecated wiki instance.
 Url https://fluidtypo3.org/viewhelpers/flux/master/Form/ContainerViewHelper.html seems to be outdated (status code: 404)!
 Url https://docs.templavoila.support/Changelog/7.6/Breaking-ConfigurationOfTypesInFlexforms.html seems to be outdated (Could not resolve host "docs.templavoila.support".)!
-Link https://fluidtypo3.org/viewhelpers/flux/master/Form/ContainerViewHelper.html of page 1440685208 gets removed as it is outdated.
-Link https://docs.templavoila.support/Changelog/7.6/Breaking-ConfigurationOfTypesInFlexforms.html of page 1440685208 gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1459422492 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1459422492 gets removed as it links to deprecated wiki instance.
+Link https://fluidtypo3.org/viewhelpers/flux/master/Form/ContainerViewHelper.html of page 1440685208 gets marked as outdated as it is not available.
+Link https://docs.templavoila.support/Changelog/7.6/Breaking-ConfigurationOfTypesInFlexforms.html of page 1440685208 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1459422492 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1459422492 gets marked as outdated as it links to deprecated wiki instance.
 Url http://ftp.us.debian.org/debian/pool/main/o/openssl/openssl_0.9.8o-4squeeze14_amd64.deb seems to be outdated (status code: 404)!
-Link http://ftp.us.debian.org/debian/pool/main/o/openssl/openssl_0.9.8o-4squeeze14_amd64.deb of page 1318283565 gets removed as it is outdated.
-Link https://wiki.typo3.org/User:Woepwoep of page 1318283565 gets removed as it links to deprecated wiki instance.
+Link http://ftp.us.debian.org/debian/pool/main/o/openssl/openssl_0.9.8o-4squeeze14_amd64.deb of page 1318283565 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/User:Woepwoep of page 1318283565 gets marked as outdated as it links to deprecated wiki instance.
 Url https://wiki.typo3.org/wiki/index.php?title=Caching_framework&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1203699034 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=Caching_framework&amp;action=edit&amp;redlink=1 of page 1203699034 gets removed as it is outdated.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1203699034 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=Caching_framework&amp;action=edit&amp;redlink=1 of page 1203699034 gets marked as outdated as it is not available.
 Url http://www.typo3forum.net/forum/extbase/59994-action-show-list-not-allowed-plugin.html#post192668 seems to be outdated (status code: 404)!
-Link http://www.typo3forum.net/forum/extbase/59994-action-show-list-not-allowed-plugin.html#post192668 of page 1313855173 gets removed as it is outdated.
+Link http://www.typo3forum.net/forum/extbase/59994-action-show-list-not-allowed-plugin.html#post192668 of page 1313855173 gets marked as outdated as it is not available.
 Url http://domain.tld/ seems to be outdated (Could not resolve host "domain.tld".)!
-Link http://domain.tld/ of page 1298012500 gets removed as it is outdated.
-Link http://domain.tld/ of page 1298012500 gets removed as it is outdated.
-Link https://wiki.typo3.org/User:David_bruchmann of page 1431872546 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1431872546 gets removed as it links to deprecated wiki instance.
+Link http://domain.tld/ of page 1298012500 gets marked as outdated as it is not available.
+Link http://domain.tld/ of page 1298012500 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/User:David_bruchmann of page 1431872546 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1431872546 gets marked as outdated as it links to deprecated wiki instance.
 Url https://wiki.typo3.org/wiki/index.php?title=User&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
-Link https://wiki.typo3.org/wiki/index.php?title=User:Swagner&amp;action=edit&amp;redlink=1 of page 1251315967 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/index.php?title=User&amp;action=edit&amp;redlink=1 of page 1251315967 gets removed as it is outdated.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL of page 1247602160 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page 1247602160 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL of page 1247602160 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page 1247602160 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL of page 1247602160 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL of page 1247602160 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1247602160 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1247602160 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1247602160 gets removed as it links to deprecated wiki instance.
-Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL of page 1247602160 gets removed as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User:Swagner&amp;action=edit&amp;redlink=1 of page 1251315967 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/index.php?title=User&amp;action=edit&amp;redlink=1 of page 1251315967 gets marked as outdated as it is not available.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL of page 1247602160 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page 1247602160 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL of page 1247602160 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript of page 1247602160 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL of page 1247602160 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL of page 1247602160 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1247602160 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1247602160 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1247602160 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL of page 1247602160 gets marked as outdated as it links to deprecated wiki instance.

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1264093630:
-
-========================
-Exception/CMS/1264093630
-========================
+==========================
+TYPO3 Exception 1264093630
+==========================
 
 This error can be caused by a mis-spelled vendor name.
 

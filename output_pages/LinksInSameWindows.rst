@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =====================
 Links in same windows
@@ -7,7 +6,7 @@ Links in same windows
 
 .. container::
 
-   **Content Type:** FAQ [outdated wiki link].
+   **Content Type:** `FAQ </Category:FAQ>`__ [deprecated wiki link].
 
 .. container::
 
@@ -62,5 +61,5 @@ but it could be fixed by adding this line to the template:
 
    .. container::
 
-   *Please remove "{{Todo}}" when the problem is solved. See all todos
-   [outdated wiki link].*
+   *Please remove "{{Todo}}" when the problem is solved. See*\ `all
+   todos </Category:Wiki-Todo>`__\ *[deprecated wiki link].*

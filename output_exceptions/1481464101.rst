@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1481464101:
-
-========================
-Exception/CMS/1481464101
-========================
+==========================
+TYPO3 Exception 1481464101
+==========================
 
 The cause of this error is the flexform file itself. Especially when
 plugin options are defined under display conditions within <AND> clause.

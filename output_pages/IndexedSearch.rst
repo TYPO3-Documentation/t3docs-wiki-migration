@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==============
 Indexed search
@@ -7,8 +6,9 @@ Indexed search
 
 .. container::
 
-   **Content Type:** Extension Note [outdated wiki link] for the
-   extension Indexed search (indexed_search).
+   **Content Type:** `Extension Note </Category:ExtensionNote>`__
+   [deprecated wiki link] for the extension Indexed search
+   (indexed_search).
    It is a list of tips indented to supplement the documentation. For
    more information about the extension, see the `extension home
    page <https://docs.typo3.org/c/typo3/cms-indexed-search/master/en-us/>`__
@@ -20,9 +20,11 @@ Indexed search
    .. container::
 
       **Reason: No reason given**
-      If you disagree with its deletion, please explain why at Category
-      talk:Candidates for speedy deletion [outdated link] or improve the
-      page and remove the ``{{delete}}`` tag.
+      If you disagree with its deletion, please explain why at `Category
+      talk:Candidates for speedy
+      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      [not available anymore] or improve the page and remove the
+      ``{{delete}}`` tag.
 
       This notice should remain for a minimum of 1 week after it was
       placed on the page. If a discussion is still ongoing, it should
@@ -30,8 +32,11 @@ Indexed search
       about the removal, after which the page will either be deleted or
       this notice removed.
 
-      Remember to check what links here [outdated wiki link] and the the
-      page history [outdated wiki link] before deleting.
+      Remember to check `what links
+      here </Special:WhatLinksHere/Indexed_search>`__ [deprecated wiki
+      link] and the `the page
+      history <https://wiki.typo3.org/wiki/index.php?title=Indexed_search&action=history>`__
+      [deprecated wiki link] before deleting.
 
 Useful Files
 ============
@@ -57,13 +62,14 @@ legend: \`\` = function useful to customize
 XHTML 1.1-compatible and accessible template
 ============================================
 
-This is a draft [outdated wiki link] of a table-less, XHTML
-1.1-compatible (**currently** it is XHTML 1.0 strict) and accessible
-template (and the corresponding CSS) for **indexed-search**. Please be
-aware that the spaces (& nbsp ;) defined in the template have been
-stripped off by the wiki. To get the original template, please see
-`15878: TYPO3 Core - table-less XHTML 1.1-ready template [Closed;
-assigned to Michael Stucki] <https://forge.typo3.org/issues/15878>`__.
+This is a `draft </Category:Draft>`__ [deprecated wiki link] of a
+table-less, XHTML 1.1-compatible (**currently** it is XHTML 1.0 strict)
+and accessible template (and the corresponding CSS) for
+**indexed-search**. Please be aware that the spaces (& nbsp ;) defined
+in the template have been stripped off by the wiki. To get the original
+template, please see `15878: TYPO3 Core - table-less XHTML 1.1-ready
+template [Closed; assigned to Michael
+Stucki] <https://forge.typo3.org/issues/15878>`__.
 
 HTML template
 -------------

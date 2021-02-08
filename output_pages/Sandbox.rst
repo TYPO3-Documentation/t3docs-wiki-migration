@@ -1,13 +1,13 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =======
 Sandbox
 =======
 
-Here's the place you can try out everything what the WikiWiki-Markup
-makes possible [outdated wiki link]! Have fun! --Daniel Brüßler
-[outdated wiki link] 10:27, 2 March 2007 (CET)
+Here's the place you can try out everything what the `WikiWiki-Markup
+makes possible </Help:Contents>`__ [deprecated wiki link]! Have fun!
+--`Daniel Brüßler </User:Patchworker>`__ [deprecated wiki link] 10:27, 2
+March 2007 (CET)
 
 Test no-spam-mode
 =================
@@ -167,8 +167,8 @@ Because somebody could delete the
 
 Other solutions is that: I could create a template for you to solve this
 problem. So you would type {{HEB}} at the [beginning] of a page and
-{{HEBEND}} at the end. --Daniel Brüßler [outdated wiki link] 12:10, 11
-June 2007 (CEST)
+{{HEBEND}} at the end. --`Daniel Brüßler </User:Patchworker>`__
+[deprecated wiki link] 12:10, 11 June 2007 (CEST)
 
 Same hebrew text - using a p tag
 --------------------------------
@@ -219,7 +219,9 @@ whole page instead. But no problem, the simple Editor is enough.
 Snippet title
 =============
 
-Ich glaub ich habs gerafft. External Link: [1] [outdated link]
+Ich glaub ich habs gerafft. External Link:
+`[1] <http://blog.coupdeprojecteur.net/reseaux/la-sandbox.seo>`__ [not
+available anymore]
 
 Image, which links to a different page: |T3CON07.gif|
 
@@ -248,7 +250,8 @@ Code
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -270,7 +273,7 @@ PHP-Code
     $zeit = time();
     $c=$zeit;
     if($zeit>$x){
-      $c='abc'.$zeit; // Kommentar Apples [outdated link]
+      $c='abc'.$zeit; // Kommentar Apples [not available anymore]
       #path in &%$pj$ : C:\temp
     }
     ?>
@@ -281,7 +284,8 @@ Ext key
 
 -  Forge Team:
    `docteam <https://forge.typo3.org/projects/show/team-docteam>`__,
-   usability-design [outdated link],
+   `usability-design <https://forge.typo3.org/projects/show/usability-design>`__
+   [not available anymore],
    `typo3cms-core <https://forge.typo3.org/projects/show/typo3cms-core>`__
 -  Forge issue: [ERROR: Cannot get content for issue "7872"]
 -  TER link:
@@ -332,27 +336,38 @@ Wiki-Table of a Navigation-menu
 +-----------------------------------+-----------------------------------+
 | Git & Gerrit                      |                                   |
 +-----------------------------------+-----------------------------------+
-| | Getting started with Git        | Troubleshooting [outdated link]   |
-|   [outdated link]                 | Having trouble with Git and       |
+| | `Getting started with           | `Troubleshooting </wi             |
+|   Git                             | ki/index.php?title=TroubleShootin |
+|  </wiki/index.php?title=Git_Intro | g_(Git)&action=edit&redlink=1>`__ |
+| duction&action=edit&redlink=1>`__ | [not available anymore]           |
+|   [not available anymore]         | Having trouble with Git and       |
 | | General introduction to Git.    | Gerrit? Look if someone already   |
 |   Read this if you never used Git | solved it. Have solved an issue?  |
 |   before.                         | Add it here for others to find.   |
-|                                   | | Tips & Tricks [outdated link]   |
-| | I just want a current trunk     | | Helpful hints, tips and tricks  |
-|   [outdated link]                 |   that make your life with Git    |
-| | Find out how you can get the    |   and Gerrit easier.              |
-|   latest development version of   |                                   |
-|   TYPO3.                          | | Glossary [outdated link]        |
-|                                   | | Don't understand what all the   |
-| | I want to contribute [outdated  |   new words mean? Have a look at  |
-|   link]                           |   the glossary to find out.       |
-| | If you want to contribute to    |                                   |
-|   the TYPO3 project by submitting |                                   |
+|                                   | | `Tips &                         |
+| | `I just want a current          |   Tricks </wi                     |
+|   trunk </wiki/index.php?title=Gi | ki/index.php?title=Tips_and_Trick |
+| t_Clone&action=edit&redlink=1>`__ | s_(Git)&action=edit&redlink=1>`__ |
+|   [not available anymore]         |   [not available anymore]         |
+| | Find out how you can get the    | | Helpful hints, tips and tricks  |
+|   latest development version of   |   that make your life with Git    |
+|   TYPO3.                          |   and Gerrit easier.              |
+|                                   |                                   |
+| | `I want to                      | | `Glossa                         |
+|   contribute </wiki/              | ry </wiki/index.php?title=Glossar |
+| index.php?title=Contribution_Walk | y_(Git)&action=edit&redlink=1>`__ |
+| through&action=edit&redlink=1>`__ |   [not available anymore]         |
+|   [not available anymore]         | | Don't understand what all the   |
+| | If you want to contribute to    |   new words mean? Have a look at  |
+|   the TYPO3 project by submitting |   the glossary to find out.       |
 |   and reviewing patches, click    |                                   |
 |   here.                           |                                   |
 |                                   |                                   |
-| Multiple branch setup [outdated   |                                   |
-| link]                             |                                   |
+| `Multiple branch                  |                                   |
+| setup </wi                        |                                   |
+| ki/index.php?title=Multiple_Branc |                                   |
+| h_Setup&action=edit&redlink=1>`__ |                                   |
+| [not available anymore]           |                                   |
 |                                   |                                   |
 | | Working on multiple branches at |                                   |
 |   the same time presents some     |                                   |
@@ -415,7 +430,8 @@ Normal text as a test to compare the size with the highlighted text.
 
 .. container::
 
-   CSS Styles [outdated wiki link]
+   `CSS Styles </wiki/Help:Contents#Syntax-Highlighting_for_CSS>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -457,7 +473,8 @@ Normal text as a test to compare the size with the highlighted text.
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -475,7 +492,8 @@ Just another test
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -498,7 +516,9 @@ Just another test
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -536,21 +556,36 @@ tagcloud
 
 .. container::
 
-   2005 [outdated wiki link]  2006 [outdated wiki link]  2007 [outdated
-   wiki link]  2008 [outdated wiki link]  2009 [outdated wiki link] 
-   2010 [outdated wiki link]  2013 [outdated wiki link]  Administrator
-   [outdated wiki link]  Blueprints [outdated wiki link]  Core Team
-   [outdated wiki link]  Delete [outdated wiki link]  Developer
-   [outdated wiki link]  DocTeam [outdated wiki link]  Documentation
-   [outdated wiki link]  Draft [outdated wiki link]  ECT [outdated wiki
-   link]  Events [outdated wiki link]  Extension [outdated wiki link] 
-   ExtensionDocumentation [outdated wiki link]  Extensions [outdated
-   wiki link]  HowTo [outdated wiki link]  Installation [outdated wiki
-   link]  Note [outdated wiki link]  Outdated [outdated wiki link] 
-   Project [outdated wiki link]  T3Doc [outdated wiki link] 
-   T3cmsDocumentation [outdated wiki link]  Translation [outdated wiki
-   link]  Tutorial [outdated wiki link]  TypoScript [outdated wiki
-   link] 
+   `2005 </Category:2005>`__ [deprecated wiki link] 
+   `2006 </Category:2006>`__ [deprecated wiki link] 
+   `2007 </Category:2007>`__ [deprecated wiki link] 
+   `2008 </Category:2008>`__ [deprecated wiki link] 
+   `2009 </Category:2009>`__ [deprecated wiki link] 
+   `2010 </Category:2010>`__ [deprecated wiki link] 
+   `2013 </Category:2013>`__ [deprecated wiki link] 
+   `Administrator </Category:Administrator>`__ [deprecated wiki link] 
+   `Blueprints </Category:Blueprints>`__ [deprecated wiki link]  `Core
+   Team </Category:Core_Team>`__ [deprecated wiki link] 
+   `Delete </Category:Delete>`__ [deprecated wiki link] 
+   `Developer </Category:Developer>`__ [deprecated wiki link] 
+   `DocTeam </Category:DocTeam>`__ [deprecated wiki link] 
+   `Documentation </Category:Documentation>`__ [deprecated wiki link] 
+   `Draft </Category:Draft>`__ [deprecated wiki link] 
+   `ECT </Category:ECT>`__ [deprecated wiki link] 
+   `Events </Category:Events>`__ [deprecated wiki link] 
+   `Extension </Category:Extension>`__ [deprecated wiki link] 
+   `ExtensionDocumentation </Category:ExtensionDocumentation>`__
+   [deprecated wiki link]  `Extensions </Category:Extensions>`__
+   [deprecated wiki link]  `HowTo </Category:HowTo>`__ [deprecated wiki
+   link]  `Installation </Category:Installation>`__ [deprecated wiki
+   link]  `Note </Category:Note>`__ [deprecated wiki link] 
+   `Outdated </Category:Outdated>`__ [deprecated wiki link] 
+   `Project </Category:Project>`__ [deprecated wiki link] 
+   `T3Doc </Category:T3Doc>`__ [deprecated wiki link] 
+   `T3cmsDocumentation </Category:T3cmsDocumentation>`__ [deprecated
+   wiki link]  `Translation </Category:Translation>`__ [deprecated wiki
+   link]  `Tutorial </Category:Tutorial>`__ [deprecated wiki link] 
+   `TypoScript </Category:TypoScript>`__ [deprecated wiki link] 
 
 *update tagcloud*
 

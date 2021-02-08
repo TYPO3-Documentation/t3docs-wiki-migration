@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1316104317:
-
-========================
-Exception/CMS/1316104317
-========================
+==========================
+TYPO3 Exception 1316104317
+==========================
 
 .. container::
 
@@ -14,7 +11,9 @@ Exception/CMS/1316104317
    .. container::
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
-      reviewer for text and TypoScript. info [outdated wiki link]
+      reviewer for text and TypoScript.
+      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      [deprecated wiki link]
 
 The default controller can not be determined. Please check for
 Tx_Extbase_Utility_Extension::configurePlugin() in your
@@ -29,7 +28,8 @@ controller/action. Here's an example:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -62,7 +62,9 @@ double-check your ext_localconf.
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 

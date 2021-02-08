@@ -1,14 +1,13 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===============================
 Running with TypoScript and CSS
 ===============================
 
 The idea with this approach is to control most of the layout through an
-HTML/CSS template. A small set of TypoScript [outdated wiki link] in the
-TYPO3 Template indicates what portions TYPO3 should replace with Typo3
-content and menu items.
+HTML/CSS template. A small set of `TypoScript </Category:TypoScript>`__
+[deprecated wiki link] in the TYPO3 Template indicates what portions
+TYPO3 should replace with Typo3 content and menu items.
 
 I manage several websites within one installation of TYPO3, so I like to
 keep things modular. I'm still learning and this helps me make sure
@@ -57,10 +56,13 @@ Go Live Tutorial https://docs.typo3.org/typo3cms/extensions/doc_tut_n1/
 Templates, TypoScript & beyond
 https://docs.typo3.org/typo3cms/extensions/doc_tut_frontend/
 
-Xris: Tutorial https://wiki.typo3.org/Xris:Tutorial [outdated wiki link]
+Xris: Tutorial https://wiki.typo3.org/Xris:Tutorial [deprecated wiki
+link]
 
 TSref https://docs.typo3.org/typo3cms/TyposcriptReference/
 
 What initially helped me get this concept was a simplified example
-buried in the following thread from the mailing list: "My experience
-with TYPO3" thread [outdated link].
+buried in the following thread from the mailing list: `"My experience
+with TYPO3"
+thread <https://typo3.org/documentation/mailing-lists/english-main-list-archive/thread/110102384/?tx_maillisttofaq_pi1%5Bsword%5D=css%20div&tx_maillisttofaq_pi1%5Banswered_only%5D=0&tx_maillisttofaq_pi1%5Bmode%5D=1>`__
+[not available anymore].

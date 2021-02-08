@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ================
 Static File Edit
@@ -60,7 +59,7 @@ Any content between marker will now be edited from this placeholder OR
 as I call it 'link'.
 
 Link to view via web browser will be:
-http://DOMAIN/fileadmin/static/static_file.html [outdated link]
+http://DOMAIN/fileadmin/static/static_file.html [not available anymore]
 
 **SOURCES:**
 

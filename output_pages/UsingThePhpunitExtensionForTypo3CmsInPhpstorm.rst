@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =====================================================
 Using the PHPUnit extension for TYPO3 CMS in PhpStorm
@@ -20,8 +19,9 @@ Using the PHPUnit extension for TYPO3 CMS in PhpStorm
 Introduction
 ============
 
-To use PHPUnit in TYPO3 CMS, first install the PHPUnit extension
-[outdated link]. You can use it on the CLI and the GUI.
+To use PHPUnit in TYPO3 CMS, first install the `PHPUnit
+extension <https://forge.typo3.org/projects/show/extension-phpunit>`__
+[not available anymore]. You can use it on the CLI and the GUI.
 
 Using the builtin PHPUnit test feature with TYPO3 CMS extensions is not
 possible out of the box, as far as is known. This guide shows how to
@@ -32,7 +32,9 @@ Guide
 =====
 
 This guide is about running **unit tests**, if you want to run
-**functional tests**, please see Functional testing [outdated link]
+**functional tests**, please see `Functional
+testing </wiki/index.php?title=Functional_testing&action=edit&redlink=1>`__
+[not available anymore]
 
 Step 1
 ======
@@ -43,7 +45,8 @@ The general command pattern is:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -139,7 +142,8 @@ Running one testsuite
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -152,7 +156,8 @@ Running one test
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 

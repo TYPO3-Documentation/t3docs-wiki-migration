@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1320286857:
-
-========================
-Exception/CMS/1320286857
-========================
+==========================
+TYPO3 Exception 1320286857
+==========================
 
 File-Record-Wizard
 

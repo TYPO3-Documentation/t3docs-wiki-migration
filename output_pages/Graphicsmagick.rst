@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==============
 GraphicsMagick
@@ -7,7 +6,8 @@ GraphicsMagick
 
 << Back to `Administrators <overview-administrator-manuals>`__ page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=GraphicsMagick&action=edit&section=0>`__
+[deprecated wiki link]
 
 .. container::
 
@@ -29,8 +29,9 @@ of ImageMagick. GraphicsMagick is an alternative to ImageMagick!
 Finding
 =======
 
-   Download the latest version from the GraphicsMagick FTP server
-   [outdated link]. Then extract it in the cgi-bin folder, e.g. at
+   Download the latest version from the `GraphicsMagick FTP
+   server <ftp://ftp.graphicsmagick.org/pub/GraphicsMagick/>`__ [not
+   available anymore]. Then extract it in the cgi-bin folder, e.g. at
    /var/www/vhosts/story-castle.net/httpdocs/cgi-bin Or simply install
    it as a rpm file for your LINUX distribution and skip the following
    installation steps.
@@ -48,9 +49,10 @@ Installing
 
 ..
 
-   If you do also have an ImageMagick installation [outdated wiki link]
-   then you cannot use the option '--enable-magick-compat' in the
-   configure command.
+   If you do also have an ImageMagick
+   `installation </Category:Installation>`__ [deprecated wiki link] then
+   you cannot use the option '--enable-magick-compat' in the configure
+   command.
 
 ::
 

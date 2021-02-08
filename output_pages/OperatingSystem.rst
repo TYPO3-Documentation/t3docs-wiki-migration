@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ================
 Operating System
@@ -43,24 +42,27 @@ Indexed search can not index external files (PDF, DOC, etc.)
 ============================================================
 
 You are wrong here, TYPO3 on Windows **can** index external files...
---Clonedyke [outdated wiki link] 16:54, 3 Mar 2005 (CET)
+--`Clonedyke </User:Clonedyke>`__ [deprecated wiki link] 16:54, 3 Mar
+2005 (CET)
 
 @Clonedyke: I've just seen on mailing lists that this seems not possible
-for many people. Maybe a link would be good. --stucki [outdated link]
-09:44, 7 Mar 2005 (CET)
+for many people. Maybe a link would be good.
+--`stucki </wiki/index.php?title=User:Oldstucki&action=edit&redlink=1>`__
+[not available anymore] 09:44, 7 Mar 2005 (CET)
 
 No symlinks possible
 ====================
 
-Symbolic links [outdated wiki link] (symlinks) offer a great possibility
-to solve redundancies inside of TYPO3.
+`Symbolic links </Typo3_Installation_Basics#How_TYPO3_works>`__
+[deprecated wiki link] (symlinks) offer a great possibility to solve
+redundancies inside of TYPO3.
 
 Hint: There is a solution called `Junction <symlinks-on-windows>`__
 which offers something like symlinks on Windows, however file junctions
 are not an integrated solution (but directory junctions are) and
 requires an NTFS file system:
-http://www.sysinternals.com/ntw2k/source/misc.shtml#junction [outdated
-link]
+http://www.sysinternals.com/ntw2k/source/misc.shtml#junction [not
+available anymore]
 
 Logfile sizes
 =============
@@ -68,8 +70,8 @@ Logfile sizes
 There is no tool like logrotate which compresses/deletes logfiles after
 a given time.
 
-Clonedyke [outdated wiki link] writes: Apache/IIS are providing
-logrotate tools.
+`Clonedyke </User:Clonedyke>`__ [deprecated wiki link] writes:
+Apache/IIS are providing logrotate tools.
 
 File system properties
 ======================
@@ -138,8 +140,9 @@ packed into .dlls and .exes so you have to depend on the manufacturer to
 release patches. Which usually they do pretty rarely.
 
 What information do you miss in Windows' logging facility? Have you ever
-configured logging for your needs and are you able to do so? --Clonedyke
-[outdated wiki link] 17:02, 3 Mar 2005 (CET)
+configured logging for your needs and are you able to do so?
+--`Clonedyke </User:Clonedyke>`__ [deprecated wiki link] 17:02, 3 Mar
+2005 (CET)
 
 Software installation
 =====================
@@ -160,7 +163,8 @@ CD in your CD drive and type in licence numbers. This will get
 difficult, if the server is not located at your office. And it is very
 difficult to automate this process.
 
-Bolson [outdated link] 00:04, 15 Mar 2005 (CET)
+`Bolson </wiki/index.php?title=User:OldBolson&action=edit&redlink=1>`__
+[not available anymore] 00:04, 15 Mar 2005 (CET)
 
 Not entirely correct. If your Windows server installation is made after
 the book, you don't need any CD's. And there is no problem with

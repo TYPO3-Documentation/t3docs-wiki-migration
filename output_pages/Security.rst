@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ========
 Security
@@ -12,9 +11,11 @@ Security
    .. container::
 
       **Reason: No reason given**
-      If you disagree with its deletion, please explain why at Category
-      talk:Candidates for speedy deletion [outdated link] or improve the
-      page and remove the ``{{delete}}`` tag.
+      If you disagree with its deletion, please explain why at `Category
+      talk:Candidates for speedy
+      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      [not available anymore] or improve the page and remove the
+      ``{{delete}}`` tag.
 
       This notice should remain for a minimum of 1 week after it was
       placed on the page. If a discussion is still ongoing, it should
@@ -22,12 +23,16 @@ Security
       about the removal, after which the page will either be deleted or
       this notice removed.
 
-      Remember to check what links here [outdated wiki link] and the the
-      page history [outdated wiki link] before deleting.
+      Remember to check `what links
+      here </Special:WhatLinksHere/Security>`__ [deprecated wiki link]
+      and the `the page
+      history <https://wiki.typo3.org/wiki/index.php?title=Security&action=history>`__
+      [deprecated wiki link] before deleting.
 
 << Back to `Administrators <overview-administrator-manuals>`__ page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=Security&action=edit&section=0>`__
+[deprecated wiki link]
 
 For updated information on best practices securing your TYPO3 website,
 please head to the `Security

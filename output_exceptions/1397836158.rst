@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1397836158:
-
-========================
-Exception/CMS/1397836158
-========================
+==========================
+TYPO3 Exception 1397836158
+==========================
 
 If you have an error in typo3conf/ext/[your_ext_key]/ext_tables.php:
 **"#1397836158: No or invalid extension key "" given."**

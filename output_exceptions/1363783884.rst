@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1363783884:
-
-========================
-Exception/CMS/1363783884
-========================
+==========================
+TYPO3 Exception 1363783884
+==========================
 
 Extension BLSV Sporttabzieche 2013( blsvsa2013)
 ===============================================

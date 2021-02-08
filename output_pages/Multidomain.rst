@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===========
 Multidomain
@@ -22,8 +21,8 @@ You need the following in order to have the same result as described in
 this HowTo:
 
 -  Typo3 version 4.2.x
--  Multiple domains pointing to the same TYPO3 installation [outdated
-   wiki link].
+-  Multiple domains pointing to the same TYPO3
+   `installation </Category:Installation>`__ [deprecated wiki link].
 
 In this How To I'll explain how to set-up a multi domain managed website
 with **domain1** functioning as a portal to **domain2** and **domain3**.
@@ -73,8 +72,8 @@ now repeat these steps for **domain2** and **domain3**
 
 Be sure to make sure that you don't enter the domain with http:// or /
 as it will not work. For example the website http://www.example.com/
-should be entered as www.example.com and http://test.example.com
-[outdated link] should be entered as test.example.com
+should be entered as www.example.com and http://test.example.com [not
+available anymore] should be entered as test.example.com
 
 STEP 3 - Typoscripting
 ======================
@@ -87,7 +86,9 @@ is my setup:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -114,7 +115,9 @@ I have the same code for **domain3** only changes are:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -133,7 +136,9 @@ Now important part. The Typoscript SETUP for domain1
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 

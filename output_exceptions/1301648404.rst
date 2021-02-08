@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1301648404:
-
-========================
-Exception/CMS/1301648404
-========================
+==========================
+TYPO3 Exception 1301648404
+==========================
 
 This exception is thrown when a shortcut page with id X is pointing to a
 page with id Y which is not accessible by some reason (example: if page

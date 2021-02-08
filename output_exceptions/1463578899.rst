@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1463578899:
-
-========================
-Exception/CMS/1463578899
-========================
+==========================
+TYPO3 Exception 1463578899
+==========================
 
 **Oops, an error occurred! TCA misconfiguration in table
 "the_table_name" field "the_field_name" config section: ds_pointerField

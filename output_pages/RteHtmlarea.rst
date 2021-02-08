@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ============
 Rte htmlarea
@@ -7,8 +6,8 @@ Rte htmlarea
 
 .. container::
 
-   **Content Type:** Extension Note [outdated wiki link] for the
-   extension htmlArea RTE (rtehtmlarea).
+   **Content Type:** `Extension Note </Category:ExtensionNote>`__
+   [deprecated wiki link] for the extension htmlArea RTE (rtehtmlarea).
    It is a list of tips indented to supplement the documentation. For
    more information about the extension, see the `extension home
    page <https://extensions.typo3.org/extension/rtehtmlarea>`__
@@ -31,7 +30,9 @@ Rte htmlarea
    .. container::
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
-      reviewer for text and TypoScript. info [outdated wiki link]
+      reviewer for text and TypoScript.
+      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      [deprecated wiki link]
 
 ========================================
 Information about RTE (Rich Text Editor)
@@ -54,7 +55,9 @@ page of your site). Some examples:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -65,7 +68,9 @@ page of your site). Some examples:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -76,7 +81,9 @@ page of your site). Some examples:
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 

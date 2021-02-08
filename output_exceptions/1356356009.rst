@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1356356009:
-
-========================
-Exception/CMS/1356356009
-========================
+==========================
+TYPO3 Exception 1356356009
+==========================
 
 #. 1356356009: Exception while parsing composer file
    /.../typo3conf/ext/assetic//composer.json: Syntax error, malformed

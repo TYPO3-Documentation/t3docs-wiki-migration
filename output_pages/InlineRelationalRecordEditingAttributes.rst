@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===========================================
 Inline Relational Record Editing Attributes
@@ -8,8 +7,8 @@ Inline Relational Record Editing Attributes
 .. container::
 
    This page belongs to the `Inline Relational Record Editing
-   project <inline-relational-record-editing>`__ (category Project
-   [outdated wiki link])
+   project <inline-relational-record-editing>`__ (category
+   `Project </Category:Project>`__ [deprecated wiki link])
 
 ==========
 Attributes
@@ -59,8 +58,9 @@ MM-tables dont have these fields. So, on our own intermediate table we
 can define the fields to store the uids of the respective parent record
 - MM-tables use "uid_local" and "uid_foreign". Also we can define
 different sortings for each view (person->company or company->person)
-(for sorting see the Foreign Field of 1:n Relations [outdated wiki
-link]).
+(for sorting see the `Foreign Field of 1:n
+Relations </Inline_Relational_Record_Editing_1:n#Foreign_Field_in_Foreign_Table>`__
+[deprecated wiki link]).
 
 The tables "person" and "company" have regular TCA definitions. Only the
 special configurations are mentined below. The fields "person.employers"
@@ -73,9 +73,10 @@ Bidirectional anti-symmetric relations
 Bidirectional anti-symmetric relations are tables to that point to a
 different table on the next level. For examples "company" pointing to
 "person" is such a thing. But "company" pointing to "company" is not,
-this is a symmetric relation [outdated wiki link]. For anti-symmetric
-it's clear which one of the pointer uids belongs to its appropriate
-table.
+this is a `symmetric
+relation </Inline_Relational_Record_Editing_Attributes#Bidirectional_symmetric_relations>`__
+[deprecated wiki link]. For anti-symmetric it's clear which one of the
+pointer uids belongs to its appropriate table.
 
 Configure the normal way
 ------------------------
@@ -412,8 +413,9 @@ The following example depends on the "person"<->"company" coherency from
 above. The fields "person" (foreign_field) and "company"
 (**foreign_unique**) have to build a unique relation. This also works on
 configurations, that use a multiple selector by **foreign_selector** and
-for the combination of attributes and the foreign table record [outdated
-wiki link].
+for the `combination of attributes and the foreign table
+record </Inline_Relational_Record_Editing_Attributes#Configure_the_combined_way>`__
+[deprecated wiki link].
 
 | 
 | **TCA configuration of the regular object "person" and "company":**

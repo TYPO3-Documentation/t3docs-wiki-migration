@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ============================
 TYPO3 Installation on Ubuntu
@@ -145,7 +144,7 @@ Congratulations, you've installed TYPO3. Access the Install Tool via
 
 ::
 
-   http://localhost/content/typo3/install [outdated link]
+   http://localhost/content/typo3/install [not available anymore]
 
 to set all the neccessary details (esp. database user, database name,
 backend admin, backend password) as described elsewhere.
@@ -181,6 +180,6 @@ Start the backend with
 
 ::
 
-   http://localhost/content/typo3 [outdated link]
+   http://localhost/content/typo3 [not available anymore]
 
 to start implementing your breathtaking site ;-)

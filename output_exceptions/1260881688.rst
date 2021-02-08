@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1260881688:
-
-========================
-Exception/CMS/1260881688
-========================
+==========================
+TYPO3 Exception 1260881688
+==========================
 
 If this error occurs when you use a $this -> redirect( ... ), try $this
 -> forward( ... ) instead. You can do this but its absolutely not

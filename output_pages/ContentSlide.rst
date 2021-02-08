@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =============
 Content Slide
@@ -69,8 +68,9 @@ me: kraftb@kraftb.at
 
 --------------
 
-Bernhard Kraft [outdated link] 14:30, 22 Mar 2006 (CET)
-[www.think-open.at]
+`Bernhard
+Kraft </wiki/index.php?title=User:Oldkraftb&action=edit&redlink=1>`__
+[not available anymore] 14:30, 22 Mar 2006 (CET) [www.think-open.at]
 
 Example 2
 ^^^^^^^^^
@@ -87,7 +87,9 @@ it:
 
 --------------
 
-Szabolcs Feczak [outdated wiki link] 13:30, 08 August 2007 (AU/Sydney)
+`Szabolcs
+Feczak </wiki/index.php?title=User:OldFeczo&action=edit&redlink=1>`__
+[deprecated wiki link] 13:30, 08 August 2007 (AU/Sydney)
 
 | 
 | ...the Manual:

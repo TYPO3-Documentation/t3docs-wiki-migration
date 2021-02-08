@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1321804422:
-
-========================
-Exception/CMS/1321804422
-========================
+==========================
+TYPO3 Exception 1321804422
+==========================
 
 I encounter this error as soon as there is a htaccess that requires
 login data, like this:

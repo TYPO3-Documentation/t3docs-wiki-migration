@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1444996537:
-
-========================
-Exception/CMS/1444996537
-========================
+==========================
+TYPO3 Exception 1444996537
+==========================
 
 This error happens since TYPO3 7.6 if your extension has defined the TCA
 in the file Configuration/TCA/my_extension_table.php and when

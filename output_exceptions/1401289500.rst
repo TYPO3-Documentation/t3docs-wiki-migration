@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1401289500:
-
-========================
-Exception/CMS/1401289500
-========================
+==========================
+TYPO3 Exception 1401289500
+==========================
 
 This is a bug in the EXT:media and EXT:vidi extensions when the media
 browser is accessed by a non-admin. This issue with fix in EXT:media can

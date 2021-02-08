@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1314226805:
-
-========================
-Exception/CMS/1314226805
-========================
+==========================
+TYPO3 Exception 1314226805
+==========================
 
 #. 1314226805: Property "crop" was not found in file reference or
    original file

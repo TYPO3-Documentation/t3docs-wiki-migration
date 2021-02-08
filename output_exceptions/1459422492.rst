@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1459422492:
-
-========================
-Exception/CMS/1459422492
-========================
+==========================
+TYPO3 Exception 1459422492
+==========================
 
 This error happens when you update a TYPO3 7.x installation to Version
 8.x. Because of the changed array structure in version 8.x, TYPO3 cannot
@@ -18,7 +15,8 @@ You need to change to following lines in your LocalConfiguration.php:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -36,7 +34,8 @@ You need to change to following lines in your LocalConfiguration.php:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 

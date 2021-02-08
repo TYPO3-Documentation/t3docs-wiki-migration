@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1478105826:
-
-========================
-Exception/CMS/1478105826
-========================
+==========================
+TYPO3 Exception 1478105826
+==========================
 
 I Got this Error after migrating an extension from TYPO3 CMS 7 to 8 and
 had copied some code from 'ext_tables.php' to

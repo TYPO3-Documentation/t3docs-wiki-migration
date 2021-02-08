@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1588095935:
-
-========================
-Exception/CMS/1588095935
-========================
+==========================
+TYPO3 Exception 1588095935
+==========================
 
 I got the error message
 

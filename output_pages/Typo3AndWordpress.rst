@@ -1,11 +1,12 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===================
 TYPO3 and Wordpress
 ===================
 
-Back to the Listing [outdated wiki link]
+`Back to the
+Listing </Overview_Extension_manuals#Connecting_.2F_Integrating_.2F_Combining_-_.22Get_it_together_and_inspire_to_share.22>`__
+[deprecated wiki link]
 
 `Wordpress <http://www.wordpress.org/>`__
 =========================================
@@ -58,8 +59,8 @@ List/Links of already existing TYPO3 Extensions:
 -  `Wordpress
    Grabber <https://extensions.typo3.org/extension/ws_wordpressgrab/>`__
 -  ...
--  Search for more TYPO3 Extensions [outdated link] - You need to
-   shorten the link with i.e. goo.gl
+-  `Search for more TYPO3 Extensions <http://goo.gl/xHvRE>`__ [not
+   available anymore] - You need to shorten the link with i.e. goo.gl
 
 **Not working Extensions with TYPO3 4.5 LTS** + (please contact also the
 extension developer of this extension so he can get it working in 4.5+)

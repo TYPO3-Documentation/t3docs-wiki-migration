@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =====================================
 Additional columns in WEB-Page Module
@@ -7,7 +6,7 @@ Additional columns in WEB-Page Module
 
 .. container::
 
-   **Content Type:** HowTo [outdated wiki link].
+   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
 
 .. container::
 
@@ -17,8 +16,8 @@ Additional columns in WEB-Page Module
 
    .. container::
 
-   *Please remove "{{Question}}" when the problem is solved. See all
-   questions [outdated wiki link].*
+   *Please remove "{{Question}}" when the problem is solved. See*\ `all
+   questions </Category:Wiki-Question>`__\ *[deprecated wiki link].*
 
 TCA Overrides
 =============
@@ -44,7 +43,8 @@ columns <https://docs.typo3.org/m/typo3/reference-tca/master/en-us/Columns/Index
 Page TSconfig
 =============
 
-In your Page TSconfig [outdated wiki link] you have to set this value:
+In your Page `TSconfig </Category:TSconfig>`__ [deprecated wiki link]
+you have to set this value:
 
 .. container::
 

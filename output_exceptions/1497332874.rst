@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1497332874:
-
-========================
-Exception/CMS/1497332874
-========================
+==========================
+TYPO3 Exception 1497332874
+==========================
 
 This error can happen in the TYPO3 Backend on the page configuration.
 

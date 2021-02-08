@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===========
 Online shop
@@ -8,7 +7,8 @@ Online shop
 **Online shop** is also called **e-shop, internet shop, webshop, shop
 system or online store**. TYPO3 has several extensions which allow you
 to run an online shop on a TYPO3 based website. Here is the list with
-documentation covering these extension [outdated wiki link]s:
+documentation covering these `extension </Category:Extension>`__
+[deprecated wiki link]s:
 
 .. container::
 
@@ -17,9 +17,11 @@ documentation covering these extension [outdated wiki link]s:
    .. container::
 
       **Reason: outdated extension list**
-      If you disagree with its deletion, please explain why at Category
-      talk:Candidates for speedy deletion [outdated link] or improve the
-      page and remove the ``{{delete}}`` tag.
+      If you disagree with its deletion, please explain why at `Category
+      talk:Candidates for speedy
+      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      [not available anymore] or improve the page and remove the
+      ``{{delete}}`` tag.
 
       This notice should remain for a minimum of 1 week after it was
       placed on the page. If a discussion is still ongoing, it should
@@ -27,8 +29,11 @@ documentation covering these extension [outdated wiki link]s:
       about the removal, after which the page will either be deleted or
       this notice removed.
 
-      Remember to check what links here [outdated wiki link] and the the
-      page history [outdated wiki link] before deleting.
+      Remember to check `what links
+      here </Special:WhatLinksHere/Online_shop>`__ [deprecated wiki
+      link] and the `the page
+      history <https://wiki.typo3.org/wiki/index.php?title=Online_shop&action=history>`__
+      [deprecated wiki link] before deleting.
 
 Aimeos - high performance web shop
 ==================================
@@ -55,7 +60,8 @@ Cart - Shopping Cart(s) for TYPO3
 tt_products - The classic shop extension
 ========================================
 
--  tt_products [outdated wiki link] - online shop extension
+-  `tt_products </Ext_tt_products>`__ [deprecated wiki link] - online
+   shop extension
 -  `tt_products tutorial <tt-products-tutorial>`__ - experiences with
    installing basic setup of tt_products
 -  https://docs.typo3.org/typo3cms/extensions/tt_products/
@@ -79,10 +85,15 @@ releases.
 commerce - The modern shop extension
 ====================================
 
--  commerce [outdated link] - modern shop extension
--  ext_commerce [outdated link] - previous name for commerce [outdated
-   link]
--  tt_shop - previous name for commerce [outdated link]
+-  `commerce </wiki/index.php?title=Commerce&action=edit&redlink=1>`__
+   [not available anymore] - modern shop extension
+-  `ext_commerce </wiki/index.php?title=Commerce/old_version&action=edit&redlink=1>`__
+   [not available anymore] - previous name for
+   `commerce </wiki/index.php?title=Commerce&action=edit&redlink=1>`__
+   [not available anymore]
+-  tt_shop - previous name for
+   `commerce </wiki/index.php?title=Commerce&action=edit&redlink=1>`__
+   [not available anymore]
 
 Other shop extensions
 =====================

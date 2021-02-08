@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==============
 Extbase HowTos
@@ -7,7 +6,7 @@ Extbase HowTos
 
 .. container::
 
-   **Content Type:** HowTo [outdated wiki link].
+   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
 
 .. container::
 
@@ -16,7 +15,9 @@ Extbase HowTos
    .. container::
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
-      reviewer for text and TypoScript. info [outdated wiki link]
+      reviewer for text and TypoScript.
+      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      [deprecated wiki link]
 
 Extbase snippets
 ================
@@ -35,7 +36,8 @@ In extbase, those "piVars" are accessed by using:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -47,7 +49,8 @@ or
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -60,7 +63,8 @@ retrieve it by one of the following two ways:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -73,7 +77,8 @@ or in a simpler way:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -90,7 +95,8 @@ has been sent. To test for the existence of a GET/POST variable use:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -109,7 +115,8 @@ the current plugin like this:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -125,7 +132,8 @@ configurationManager instance instead:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -142,7 +150,8 @@ like
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -166,7 +175,9 @@ simple example
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -230,7 +241,9 @@ following content:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -245,7 +258,9 @@ using the following statement:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -267,7 +282,9 @@ the following example:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -305,7 +322,9 @@ them in the "Layouts/default.html" file:
 
 .. container::
 
-   XML / HTML [outdated wiki link]
+   `XML /
+   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -329,5 +348,5 @@ layout of this blocks without redefining everything.
 
    .. container::
 
-   *Please remove "{{Question}}" when the problem is solved. See all
-   questions [outdated wiki link].*
+   *Please remove "{{Question}}" when the problem is solved. See*\ `all
+   questions </Category:Wiki-Question>`__\ *[deprecated wiki link].*

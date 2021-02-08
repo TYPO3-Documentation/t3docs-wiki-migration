@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1460976233:
-
-========================
-Exception/CMS/1460976233
-========================
+==========================
+TYPO3 Exception 1460976233
+==========================
 
 In a custom content element, that wont check, if an image is there or
 not - will put this exception out. Check, if your CE is capable, to

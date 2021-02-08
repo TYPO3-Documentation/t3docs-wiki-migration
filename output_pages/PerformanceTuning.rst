@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==================
 Performance tuning
@@ -8,11 +7,13 @@ Performance tuning
 .. container::
 
    This page belongs to the Performance tuning for TYPO3 and database
-   project (category Project [outdated wiki link])
+   project (category `Project </Category:Project>`__ [deprecated wiki
+   link])
 
 << Back to `Administrators <overview-administrator-manuals>`__ page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=Performance_tuning&action=edit&section=0>`__
+[deprecated wiki link]
 
 .. container::
 
@@ -31,9 +32,10 @@ options.
 To get best results, it is important to calibrate each of these three
 applications to perform together as a strong team.
 
-Besides the information on this page, there's an article about Testing
-and tuning TYPO3 performance [outdated link] in the article section of
-typo3.org.
+Besides the information on this page, there's an article about `Testing
+and tuning TYPO3
+performance <https://typo3.org/documentation/article/testing-and-tuning-typo3-performance/>`__
+[not available anymore] in the article section of typo3.org.
 
 First Steps
 ===========
@@ -57,8 +59,9 @@ No matter how much you tune your system, each request for a TYPO3 page
 involves several SQL queries and heavy PHP logic. If your site has many
 static pages that are rendered the same way several times, even with
 TYPO3's cache you won't get a performance similar to static HTML files.
-That's why you should either use a web server proxy cache [outdated wiki
-link], or the static file cache extension
+That's why you should either use a web server `proxy
+cache </Category:Proxy_cache>`__ [deprecated wiki link], or the static
+file cache extension
 `nc_staticfilecache <https://extensions.typo3.org/extension/nc_staticfilecache/>`__.
 
 Testing the performance
@@ -94,18 +97,18 @@ Linux
    `accesstime <http://www.howtoforge.com/reducing-disk-io-by-mounting-partitions-with-noatime>`__
    recording can substantially reduce I/O load.
 
-Linux [outdated wiki link] has a special mount option for file systems
-called
+`Linux </Category:Linux>`__ [deprecated wiki link] has a special mount
+option for file systems called
 `noatime <http://www.howtoforge.com/reducing-disk-io-by-mounting-partitions-with-noatime>`__
 that can be added to each line that addresses one file system in
 ``/etc/fstab`` file. If a file system has been mounted with this option,
 reading accesses to the file system will no longer update the atime
 information associated with the file. Effectively, disabling noatime
 eliminates a write operation when files are read, which can result in
-measurable performance [outdated wiki link] gains. Note that the write
-time of a file will still be updated each time the file is written to.
-In our example below, we will set the noatime option to our ``/chroot``
-file system.
+measurable `performance </Category:Performance>`__ [deprecated wiki
+link] gains. Note that the write time of a file will still be updated
+each time the file is written to. In our example below, we will set the
+noatime option to our ``/chroot`` file system.
 
 Edit ``/etc/fstab`` and add the noatime option after the defaults option
 in the line that refer to ``/chroot``:
@@ -118,7 +121,9 @@ command:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -130,7 +135,9 @@ Then test your results with the following command:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -144,7 +151,8 @@ If you see something like:
 -  `Tune disk performance using
    ``hdparm`` <http://gentoo-wiki.com/HOWTO_Use_hdparm_to_improve_IDE_device_performance>`__.
    In some cases this can improve disk throughput by a factor of 6 - 10!
--  Linux tuning guide [outdated link]
+-  `Linux tuning guide <http://www.laukas.com/knbase/linux_special/>`__
+   [not available anymore]
 
 MySQL Tuning
 ============
@@ -160,7 +168,8 @@ might say, "Go snap your toolbox and search for the bottleneck".
 Exactly! MySQL optimization is not trivial and demands benchmarking
 while tuning in almost every case. Keep that in mind when websites
 advise you how to tune your server parameters. This section is about
-tools to analyse MySQL [outdated wiki link] performance.
+tools to analyse `MySQL </Category:MySQL>`__ [deprecated wiki link]
+performance.
 
 Build-in tools
 ^^^^^^^^^^^^^^
@@ -193,9 +202,9 @@ query:
 
    mysql> SHOW STATUS;
 
-You can gather tons of information with the ``SHOW`` query. The MySQL
-Reference Manual [outdated link] is a good starting point to get an
-overview.
+You can gather tons of information with the ``SHOW`` query. The `MySQL
+Reference Manual <http://dev.mysql.com/doc/refman/5.1/de/show.html>`__
+[not available anymore] is a good starting point to get an overview.
 
 -  EXPLAIN
 
@@ -251,8 +260,9 @@ Here's two of them:
 arranged status values of SHOW STATUS (memory usage, number of queries
 done, ...)
 
-mysqlsla [outdated link] analyses mysql logfiles, e.g. to easily find
-slow queries. (indexed_search is a frequent offender.)
+`mysqlsla <http://www.hackmysql.com/mysqlsla>`__ [not available anymore]
+analyses mysql logfiles, e.g. to easily find slow queries.
+(indexed_search is a frequent offender.)
 
 MySQL query cache
 -----------------
@@ -268,7 +278,8 @@ This cuts down the response time for frequently used queries.
 How to use it?
 ^^^^^^^^^^^^^^
 
-| Set Query cache [outdated wiki link] to a value greater than 16M
+| Set Query `cache </Category:Cache>`__ [deprecated wiki link] to a
+  value greater than 16M
 
 To find out if query cache is available for your MySQL server, try:
 
@@ -339,9 +350,12 @@ some good reading and time for benchmarking.
 More docs on the query cache can be found in the developer zone at
 mysql.com:
 http://dev.mysql.com/tech-resources/articles/mysql-query-cache.html
-http://dev.mysql.com/doc/refman/5.0/en/query-cache.html [outdated link]
+http://dev.mysql.com/doc/refman/5.0/en/query-cache.html [not available
+anymore]
 
-or follow the explanations in the mysqlreportguide [outdated link]
+or follow the explanations in the
+`mysqlreportguide <http://www.hackmysql.com/mysqlreportguide#qc_report:ratios>`__
+[not available anymore]
 
 PHP Tuning
 ==========
@@ -366,8 +380,8 @@ Informal Tests with Eaccelerator in 2006
 *By Patrick Gaumond*
 
 I've done a small test to see the direct influence of few tricks to see
-their impact. So you see what effect an accelerator [outdated wiki link]
-has.
+their impact. So you see what effect an
+`accelerator </Category:Accelerator>`__ [deprecated wiki link] has.
 
 +---------+---------+---------+---------+---------+---------+---------+
 |         | T3      | T3      | T3      | T3      | T3      | T3      |
@@ -408,7 +422,9 @@ Time is in milliseconds (ms.).
 | 
 | **Notes**
 
-| The first 3 pages done with the template Zen2Col [outdated wiki link]
+| The first 3 pages done with the `template
+  Zen2Col </wiki/images/4/42/TemplateUsedforTestingPerformance.png>`__
+  [deprecated wiki link]
 | Page 4 is made with the Nomad template
 | First column is always first hit
 | The time in millisecond come from TYPO3 debug parsetime
@@ -444,7 +460,9 @@ Testing TYPO3 caching vs. [FE][pageCacheToExternalFiles] in 2006
 
 *By Patrick Gaumond* *Using the same hardware as the previous test and
 ApacheBench with this line:*\ **
-ab -n 100 -c 10 http://127.0.0.1/typo34rc2/index.php [outdated link]**
+ab -n 100 -c
+10**\ *\ *\ http://127.0.0.1/typo34rc2/index.php\ *\ *\ **[not available
+anymore]**
 
 **Note:** I've received additional info of the feature by Kasper and it
 was not meant to enhance individual page rendering time. The feature was
@@ -552,8 +570,9 @@ Reverse proxies decrease the load of the web server by caching
 dynamically generated content.A nice example of a reverse proxy server
 is `nginx <http://nginx.net/>`__.
 
-To find logging inconsistencies, try mod_rpaf [outdated link] for apache
-2 or mod_realip for apache 1.3
+To find logging inconsistencies, try
+`mod_rpaf <http://stderr.net/apache/rpaf/>`__ [not available anymore]
+for apache 2 or mod_realip for apache 1.3
 
 If you can't afford to use one of the above solutions, you might want to
 try the
@@ -565,17 +584,17 @@ Articles on performance and TYPO3
 =================================
 
 -  https://typo3.org/fileadmin/t3n/articles/t3n_60_pi_s_with_typo3.pdf
-   [outdated link]
+   [not available anymore]
 -  https://typo3.org/documentation/article/testing-and-tuning-typo3-performance/
-   [outdated link]
+   [not available anymore]
 
 This article is also available in german:
 http://www.yeebase.com/fileadmin/t3n/archiv/06-02/t3n_06-02_frisiert_und_aufgebohrt.pdf
 
 -  https://typo3.org/documentation/article/using-cache-control-headers-in-typo3/
-   [outdated link]
+   [not available anymore]
 -  http://typo3bloke.net/post-details/eight_performance_tips_for_your_typo3_web_site/
-   [outdated link]
+   [not available anymore]
 -  `45+ Ultimate Ways to Speed Up Your TYPO3
    Performance <https://t3terminal.com/blog/typo3-speed-performance/>`__
 
@@ -602,34 +621,39 @@ Related discussions in the TYPO3 community
 
 -  [TYPO3-dev] Testing TYPO3 caching vs. [FE][pageCacheToExternalFiles]
    `[1] <http://lists.typo3.org/pipermail/typo3-dev/2006-March/017105.html>`__
-   TYPO3-dev [outdated link]
+   `TYPO3-dev <news://news.typo3.org:119/mailman.1.1143609630.14531.typo3-dev@lists.typo3.org>`__
+   [not available anymore]
 
 About: Comparison of DB and filesystem caching within TYPO3. *(Date:
 3-4/2006)*
 
 -  [TYPO3-dev] Typo3 Performance
    `[2] <http://lists.typo3.org/pipermail/typo3-dev/2007-February/022271.html>`__
-   TYPO3-dev [outdated link]
+   `TYPO3-dev <news://news.typo3.org:119/mailman.1.1172588346.25873.typo3-dev@lists.typo3.org>`__
+   [not available anymore]
 
 About: DB indices for TYPO3 tables, Description of Celkos nested sets
 for the Pagetree, testing+tuning tips. *(Date: 2-3/2007)*
 
 -  [TYPO3-dev] Indexed Search Performance Improvement
    `[3] <http://lists.typo3.org/pipermail/typo3-dev/2007-February/022302.html>`__
-   TYPO3-dev [outdated link]
+   `TYPO3-dev <news://news.typo3.org:119/mailman.1.1172671573.14329.typo3-dev@lists.typo3.org>`__
+   [not available anymore]
 
 About: Using the FULLTEXT feature of (MySQL) MyISAM tables for
 indexed_search. *(Date: 2-3/2007)*
 
 -  [TYPO3-dev] Typo3 Database design question (optimization / indices)
    `[4] <http://lists.typo3.org/pipermail/typo3-dev/2006-March/016967.html>`__
-   TYPO3-dev [outdated link]
+   `TYPO3-dev <news://news.typo3.org:119/mailman.1.1143135140.16594.typo3-dev@lists.typo3.org>`__
+   [not available anymore]
 
 About: DB indices for TYPO3 tables. *(Date: 3/2006)*
 
 -  [TYPO3-dev] Speeded up TYPO3 by 500% :)
    `[5] <http://lists.typo3.org/pipermail/typo3-dev/2006-June/018817.html>`__
-   TYPO3-dev [outdated link]
+   `TYPO3-dev <news://news.typo3.org:119/mailman.1.1151121093.2102.typo3-dev@lists.typo3.org>`__
+   [not available anymore]
 
 About: Bernhard Kraft introducing his extension kb_quickindex, an
 experiment which adds basic file-caching support to index.php
@@ -641,21 +665,29 @@ Relations
 
 -  `MySQL configuration <mysql-configuration>`__ - *the basics: prepare
    for installation, settings, rights management*
--  TYPO3.org - improvements#better performance [outdated wiki link]
+-  `TYPO3.org - improvements#better
+   performance </TYPO3.org_-_improvements#better_performance>`__
+   [deprecated wiki link]
 
 Links
 -----
 
 Articles by Dmitry Dulepov:
 
--  Eight performance tips for your TYPO3 web site [outdated link]
--  Cheap ways to increase performance of a TYPO3 web site [outdated
-   link]
--  Search [outdated link] Dmitry's site for possible new articles
+-  `Eight performance tips for your TYPO3 web
+   site <http://dmitry-dulepov.com/article/eight-performance-tips-for-your-typo3-web-site.html>`__
+   [not available anymore]
+-  `Cheap ways to increase performance of a TYPO3 web
+   site <http://dmitry-dulepov.com/article/cheap-ways-to-increase-performance-of-a-typo3-web-site.html>`__
+   [not available anymore]
+-  `Search <http://dmitry-dulepov.com/search.html>`__ [not available
+   anymore] Dmitry's site for possible new articles
 
 Articles by anders und sehr:
 
--  TYPO3 Performance Optimierung durch CDN [outdated link]
+-  `TYPO3 Performance Optimierung durch
+   CDN <http://www.andersundsehr.com/blog/technik/typo3-performance-optimierung-durch-cdn>`__
+   [not available anymore]
 
 Blog/Article by NITSAN:
 

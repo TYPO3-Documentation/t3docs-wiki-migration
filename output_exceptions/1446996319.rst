@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1446996319:
-
-========================
-Exception/CMS/1446996319
-========================
+==========================
+TYPO3 Exception 1446996319
+==========================
 
 #1446996319: Configuration retrieved from FlexForm is incomplete or not of type "inline".
 =========================================================================================

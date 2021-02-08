@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =========================================
 Extension Development, add Scheduler Task
@@ -21,7 +20,8 @@ Extension Development, add Scheduler Task
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -44,7 +44,8 @@ Extension Development, add Scheduler Task
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -61,7 +62,7 @@ Extension Development, add Scheduler Task
       not).
    -  Best example can be found in the scheduler extension itself → take
       a look at the example tasks in EXT:scheduler
-      (https://typo3.org/api/typo3cms/_sleep_task_8php_source.html
-      [outdated link] &
+      (https://typo3.org/api/typo3cms/_sleep_task_8php_source.html [not
+      available anymore] &
       https://typo3.org/api/typo3cms/_sleep_task_additional_field_provider_8php_source.html
-      [outdated link])
+      [not available anymore])

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1205414233:
-
-========================
-Exception/CMS/1205414233
-========================
+==========================
+TYPO3 Exception 1205414233
+==========================
 
 This can be caused when ``config.tx_extbase`` is not set in TypoScript
 which happens if ``extbase/ext_typoscript_setup.txt`` was not loaded.

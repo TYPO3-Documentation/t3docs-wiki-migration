@@ -1,12 +1,12 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ====================
 Alternative Language
 ====================
 
-| << Back to `Documentation Team <documentationteam>`__   (edit
-  [outdated wiki link])
+| << Back to `Documentation Team <documentationteam>`__  
+  (`edit <https://wiki.typo3.org/wiki/index.php?title=Alternative_Language&action=edit&section=0>`__
+  [deprecated wiki link])
 | If you would like to write documentation in other language than
   English, start here. But please consider writing in english first -
   most people will benefit from that!
@@ -47,5 +47,7 @@ Resources
 
 -  `The official ISO-639 web
    site <http://www.loc.gov/standards/iso639-2/php/code_list.php>`__
--  The list of TYPO3's volunteer for translation [outdated link]. You
-   may contact them to help you with your translation related to Typo3.
+-  The list of `TYPO3's volunteer for
+   translation <https://typo3.org/extensions/translate/>`__ [not
+   available anymore]. You may contact them to help you with your
+   translation related to Typo3.

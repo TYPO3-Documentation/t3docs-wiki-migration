@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1233058486:
-
-========================
-Exception/CMS/1233058486
-========================
+==========================
+TYPO3 Exception 1233058486
+==========================
 
 Invalid chars in identifier for the cache-instance
 ==================================================

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1288085266:
-
-========================
-Exception/CMS/1288085266
-========================
+==========================
+TYPO3 Exception 1288085266
+==========================
 
 Possible Reasons for this Exception
 ===================================
@@ -22,7 +19,9 @@ Example
 
 .. container::
 
-   TS TypoScript [outdated wiki link]
+   `TS
+   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   [deprecated wiki link]
 
 .. container::
 

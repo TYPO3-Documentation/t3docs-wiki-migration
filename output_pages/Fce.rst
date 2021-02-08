@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _fce:
 
@@ -9,10 +8,12 @@ TemplaVoila/FCE
 
 << Back to `Administrators <overview-administrator-manuals>`__ page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=TemplaVoila/FCE&action=edit&section=0>`__
+[deprecated wiki link]
 
-| This is the continuing part of the Futuristic Template Building
-  [outdated link] document.
+| This is the continuing part of the `Futuristic Template
+  Building </wiki/index.php?title=TemplaVoila/FTB1&action=edit&redlink=1>`__
+  [not available anymore] document.
 
 .. container::
 
@@ -20,9 +21,11 @@ TemplaVoila/FCE
 
    .. container::
 
-      This page should be **merged** with the page The content of this
+      This page should be **merged** with the page `The content of this
       page was imported from the TER-extension - check the changes and
-      update the original document [outdated link]
+      update the original
+      document </wiki/index.php?title=The_content_of_this_page_was_imported_from_the_TER-extension_-_check_the_changes_and_update_the_original_document&action=edit&redlink=1>`__
+      [not available anymore]
 
 Flexible Content Elements
 =========================
@@ -103,8 +106,9 @@ not the <body> tag but the
       "TypoScript Object Path".
       We want to comment on those we have set here:
    -  **Header:** The Editing Type is "Header field" - this will be the
-      same as plain input although it might allow for a typolink
-      [outdated link]
+      same as plain input although it might allow for a
+      `typolink <https://docs.typo3.org/typo3cms/TyposcriptReference/Functions/Typolink>`__
+      [not available anymore]
    -  **Bodytext:** The Editing Type is "Text area for bodytext"
    -  **Image:** The Editing Type is "Image field". Another option was
       "Image field, fixed W+H" but selecting "Image field" will allow us
@@ -196,7 +200,9 @@ not the <body> tag but the
 
    .. container::
 
-      TS TypoScript [outdated wiki link]
+      `TS
+      TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+      [deprecated wiki link]
 
    .. container::
 
@@ -220,7 +226,9 @@ not the <body> tag but the
 
    .. container::
 
-      XML / HTML [outdated wiki link]
+      `XML /
+      HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+      [deprecated wiki link]
 
    .. container::
 
@@ -306,14 +314,14 @@ not the <body> tag but the
    .. rubric:: What's td for field_ce_right
       :name: whats-td-for-field_ce_right
 
-   https://typo3.org/doc.0.html?&tx_extrepmgm_pi1 [outdated
-   link][extUid]=1332&tx_extrepmgm_pi1[tocEl]=4138&cHash=0691c16591 Not
-   clear how to select Inner for field_ce_right and field_ce_left. The
-   td's are there in the template, but no tag-icons are displayed for
-   these.. Added later: ok, got it, disambiguate sentence "The mapping
-   process is the same...." by adding something: this time, select the
-   of the "Two column view" as the root. I cleared all, but reselected
-   the "This is the header" div "same as before".
+   https://typo3.org/doc.0.html?&tx_extrepmgm_pi1 [not available
+   anymore][extUid]=1332&tx_extrepmgm_pi1[tocEl]=4138&cHash=0691c16591
+   Not clear how to select Inner for field_ce_right and field_ce_left.
+   The td's are there in the template, but no tag-icons are displayed
+   for these.. Added later: ok, got it, disambiguate sentence "The
+   mapping process is the same...." by adding something: this time,
+   select the of the "Two column view" as the root. I cleared all, but
+   reselected the "This is the header" div "same as before".
 
    .. rubric:: Creating an alternative template for the 2-columns FCE
       :name: creating-an-alternative-template-for-the-2-columns-fce
@@ -685,12 +693,14 @@ not the <body> tag but the
          been placed there for that purpose. The header and description
          fields are mapped to the <h1> and <em> tags respectively.
 
-         | [1] [outdated link]
+         | `[1] <https://typo3.org/typo3temp/tx_oodocs_5488b0d2c0.png>`__
+           [not available anymore]
 
          The DS looks like this now:
 
          | 
-         | [2] [outdated link]
+         | `[2] <https://typo3.org/typo3temp/tx_oodocs_ebf6d2cda8.png>`__
+           [not available anymore]
 
          (Notice, the all have INNER mode which is the most typical when
          mapping content into HTML).
@@ -701,7 +711,8 @@ not the <body> tag but the
          flag. The Data Structure should look like this now:
 
          | 
-         | [3] [outdated link]
+         | `[3] <https://typo3.org/typo3temp/tx_oodocs_05fac888fe.png>`__
+           [not available anymore]
 
          Now, map the two elements. The Section element (field_list)
          must be mapped to the inside of the HTML element which should
@@ -709,7 +720,8 @@ not the <body> tag but the
          the Map button we see this:
 
          | 
-         | [4] [outdated link]
+         | `[4] <https://typo3.org/typo3temp/tx_oodocs_577afc946d.png>`__
+           [not available anymore]
 
          Normally, mapping to the <table> tag would be a good choice
          (#1) since that wraps the table rows which are repeatable.
@@ -719,7 +731,8 @@ not the <body> tag but the
          last of the RANGE types:
 
          | 
-         | [5] [outdated link]
+         | `[5] <https://typo3.org/typo3temp/tx_oodocs_88867b5a3a.png>`__
+           [not available anymore]
 
          This actually means that your mapping will span over several
          HTML elements on the same level effectively cutting out all the
@@ -732,24 +745,28 @@ not the <body> tag but the
          is no problem though, using the technique from before:
 
          | 
-         | [6] [outdated link]
+         | `[6] <https://typo3.org/typo3temp/tx_oodocs_6ffaeeb54e.png>`__
+           [not available anymore]
 
          After clicking the first row, you select the range to be the
          next row:
 
          | 
-         | [7] [outdated link]
+         | `[7] <https://typo3.org/typo3temp/tx_oodocs_cdf9d10fd5.png>`__
+           [not available anymore]
 
          The result of the mapping looks like this:
 
          | 
-         | [8] [outdated link]
+         | `[8] <https://typo3.org/typo3temp/tx_oodocs_1d726124c6.png>`__
+           [not available anymore]
 
          Finally, you create the four field types inside the movie
          element:
 
          | 
-         | [9] [outdated link]
+         | `[9] <https://typo3.org/typo3temp/tx_oodocs_5a064fd836.png>`__
+           [not available anymore]
 
          Editing Types used:
 
@@ -764,7 +781,8 @@ not the <body> tag but the
          Each element should be mapped according to this (match the
          numbers with above list!):
 
-         | [10] [outdated link]
+         | `[10] <https://typo3.org/typo3temp/tx_oodocs_772be5a7eb.png>`__
+           [not available anymore]
 
          Mapping #1 and #2 is the INNER type (content should go INTO the
          tag), mapping #3 is fixed to OUTER (no other options for an
@@ -772,14 +790,16 @@ not the <body> tag but the
          of the <a> tag. Result looks like:
 
          | 
-         | [11] [outdated link]
+         | `[11] <https://typo3.org/typo3temp/tx_oodocs_616f5f2de9.png>`__
+           [not available anymore]
 
          Except the fact that I have been too lazy to provide mapping
          instructions (important information for someone who is going to
          map a second TO) and sample data this looks good. Now click
          "Save", give it a name and that's it.
 
-         | [12] [outdated link]
+         | `[12] <https://typo3.org/typo3temp/tx_oodocs_1af73f9116.png>`__
+           [not available anymore]
 
          .. rubric:: Testing the new Content Element
             :name: testing-the-new-content-element

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1349880195:
-
-========================
-Exception/CMS/1349880195
-========================
+==========================
+TYPO3 Exception 1349880195
+==========================
 
 Extension BLSV Sportabzeichen 2012 (blsvsa2012)
 ===============================================

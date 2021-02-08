@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1232986877:
-
-========================
-Exception/CMS/1232986877
-========================
+==========================
+TYPO3 Exception 1232986877
+==========================
 
 For me this happend after I configured TYPO3 6.2 to use the APC Backend
 for Extbase Cache and afterwards disabled the APC Cache module on the

@@ -1,11 +1,11 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =========================
 Check Basic Configuration
 =========================
 
-<< back [outdated wiki link]
+<< `back </Typo3_Installation_Basics#Check_Basic_Configuration>`__
+[deprecated wiki link]
 
 .. container::
 
@@ -67,7 +67,8 @@ to the extension directory.
 
 Two things need to be done:
 
-1. Change the group to Apache user [outdated wiki link].
+1. Change the group to `Apache user </Webserver#Apache_User>`__
+[deprecated wiki link].
 
 ::
 
@@ -90,8 +91,8 @@ Windows
    *C:/Webserver/Typo3/Latest*.
 #. Find the **ext** directory and **right click** on it.
 #. Choose **properties**.
-#. Make sure your webserver [outdated wiki link] has write permissions
-   to this directory.
+#. Make sure your `webserver </Webserver>`__ [deprecated wiki link] has
+   write permissions to this directory.
 
 Once you have changed all permissions, check it by selecting **1. Basic
 configuration** again and see if TYPO3 has write permissions to all
@@ -101,10 +102,10 @@ directories now.
 Php.ini
 =======
 
-The settings in php.ini [outdated wiki link] are always an issue
-concerning the TYPO3 installation process. As you can see in the
-following screenshot, there is one warning and one error to take care
-of.
+The settings in `php.ini </Category:Php.ini>`__ [deprecated wiki link]
+are always an issue concerning the TYPO3 installation process. As you
+can see in the following screenshot, there is one warning and one error
+to take care of.
 
 |Typo3instbasicphp.png|
 
@@ -113,13 +114,15 @@ Both *problems* can be addressed in the php.ini.
 Memory
 ======
 
-1. Open [outdated wiki link] the php.ini file.
+1. `Open </Text_Editor>`__ [deprecated wiki link] the php.ini file.
 
-2. Find [outdated wiki link] the entry **memory_limit**.
+2. `Find </Text_Editor>`__ [deprecated wiki link] the entry
+**memory_limit**.
 
 3. Change the value to 25M.
 
-4. Save [outdated wiki link] and exit [outdated wiki link] php.ini.
+4. `Save </Text_Editor>`__ [deprecated wiki link] and
+`exit </Text_Editor>`__ [deprecated wiki link] php.ini.
 
 5. `Restart your webserver <restart-your-webserver>`__.
 
@@ -138,17 +141,21 @@ Example (php.ini):
 "upload_max_filesize" and "post_max_size" should have the same values,
 because they are connected.
 
-1. Open [outdated wiki link] the `php.ini <php-ini>`__ file.
+1. `Open </Text_Editor>`__ [deprecated wiki link] the
+`php.ini <php-ini>`__ file.
 
-2. Find [outdated wiki link] the entry **upload_max_filesize**.
+2. `Find </Text_Editor>`__ [deprecated wiki link] the entry
+**upload_max_filesize**.
 
 3. Change the value to 10M.
 
-4. Find [outdated wiki link] the entry **post_max_size**.
+4. `Find </Text_Editor>`__ [deprecated wiki link] the entry
+**post_max_size**.
 
 5. Change the value to 10M.
 
-4. Save [outdated wiki link] and exit [outdated wiki link] php.ini
+4. `Save </Text_Editor>`__ [deprecated wiki link] and
+`exit </Text_Editor>`__ [deprecated wiki link] php.ini
 
 5. `Restart your webserver <restart-your-webserver>`__.
 

@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===================
 Backend Programming
@@ -19,9 +18,10 @@ Backend Programming
 
 << Back to `Developer manuals <overview-developer-manuals>`__ page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=Backend_Programming&action=edit&section=0>`__
+[deprecated wiki link]
 
-*Main editor:* Sylvain [outdated wiki link]
+*Main editor:* `Sylvain </User:OldSylvain>`__ [deprecated wiki link]
 
 .. _backend-programming-1:
 
@@ -39,9 +39,9 @@ License <http://www.opencontent.org/openpub/>`__.
 The content of this document is related to `TYPO3 <http://typo3.org>`__
 - a GNU/GPL CMS/Framework.
 
-This document has been imported manually, with the help of a vimscipt
-[outdated wiki link], from the following URL, most image are link to
-typo3.org web site.
+This document has been imported manually, with the help of a
+`vimscipt </User:OldSylvain#My_tools>`__ [deprecated wiki link], from
+the following URL, most image are link to typo3.org web site.
 
 -  https://docs.typo3.org/typo3cms/extensions/doc_tut_backend/
 
@@ -186,7 +186,8 @@ This is how the testsite typo3conf/localconf.php file is configured:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -308,7 +309,8 @@ TYPO3 handles the table generally.
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -471,7 +473,8 @@ The INPUT type:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -503,7 +506,8 @@ photodate field which is configured like this:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -527,7 +531,8 @@ The TEXT type:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -553,7 +558,8 @@ The CHECK type:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -577,7 +583,8 @@ receive the value. Here's an example from tables.php
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -607,7 +614,8 @@ The GROUP type / file:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -657,7 +665,8 @@ The GROUP type / db:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -704,7 +713,8 @@ is configured like this:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -766,7 +776,8 @@ tables.php):
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -790,7 +801,8 @@ The table "sys_dmail_group_mm" looks like this:
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -824,7 +836,8 @@ field in the relation table:
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -842,7 +855,8 @@ The TCA config looks like this for tt_news.related:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -871,7 +885,8 @@ t3lib/install/example_MM_relationTables.sql:
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -893,7 +908,8 @@ Did you notice in tables.php that certain fields has a flag set,
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -951,7 +967,8 @@ Consider this configuration:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -993,7 +1010,8 @@ Consider this code listing, taken from the sys_action table in TYPO3:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -1079,7 +1097,8 @@ sys_staticfile_edit table is configured:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 

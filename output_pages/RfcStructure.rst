@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =============
 RFC Structure
@@ -8,7 +7,7 @@ RFC Structure
 Common Principles
 =================
 
-From: ftp://ftp.isi.edu/in-notes/rfc2223.txt [outdated link]
+From: ftp://ftp.isi.edu/in-notes/rfc2223.txt [not available anymore]
 
 First Page
 ==========

@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===================
 Symlinks on Windows
@@ -76,9 +75,11 @@ Done.
 Using Junction
 ==============
 
-Download program Junction [outdated link] written by Mark Russnovich
-(formerly Sysinternals). Unpack into some directory on the system
-variable PATH then you will be able to use it from any directory.
+Download program
+`Junction <http://technet.microsoft.com/pl-pl/sysinternals/bb896768.aspx>`__
+[not available anymore] written by Mark Russnovich (formerly
+Sysinternals). Unpack into some directory on the system variable PATH
+then you will be able to use it from any directory.
 
 In this example Apache web root directory is D:\wamp\www. Here we have
 TYPO3 sources and developped sites.

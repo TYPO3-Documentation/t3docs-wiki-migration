@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =================
 Linux cheat sheet
@@ -7,7 +6,8 @@ Linux cheat sheet
 
 .. container::
 
-   **Content Type:** Cheat Sheet [outdated wiki link].
+   **Content Type:** `Cheat Sheet </Category:CheatSheet>`__ [deprecated
+   wiki link].
 
 .. container::
 
@@ -20,12 +20,14 @@ Linux cheat sheet
 
    .. container::
 
-   *Please remove "{{Question}}" when the problem is solved. See all
-   questions [outdated wiki link].*
+   *Please remove "{{Question}}" when the problem is solved. See*\ `all
+   questions </Category:Wiki-Question>`__\ *[deprecated wiki link].*
 
-This is my cheat sheet of helpful Linux shell-command [outdated wiki
-link]s. I refer to this frequently when I do an installation [outdated
-wiki link] of a Linux based TYPO3 server.
+This is my cheat sheet of helpful `Linux
+shell-command </Category:Linux_shell-command>`__ [deprecated wiki
+link]s. I refer to this frequently when I do an
+`installation </Category:Installation>`__ [deprecated wiki link] of a
+Linux based TYPO3 server.
 
 Often needed
 ============

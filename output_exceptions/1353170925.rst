@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1353170925:
-
-========================
-Exception/CMS/1353170925
-========================
+==========================
+TYPO3 Exception 1353170925
+==========================
 
 The relation information for property "propertyXX" of class "TX\ext_key\Domain\Model\SomeModelYY" is missing.
 =============================================================================================================

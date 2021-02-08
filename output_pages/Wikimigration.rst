@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =============
 WikiMigration
@@ -15,14 +14,14 @@ and must be migrated!)
 General information
 ===================
 
--  Wiki Coordination [outdated wiki link]
+-  `Wiki Coordination </WikiCoordination>`__ [deprecated wiki link]
 -  `Overview of the Wiki <overviewofwiki>`__ (contains some information
    about types of pages, categories, number of pages etc.)
 
 What should be migrated?
 ========================
 
--  information that is duplicate in https://wiki.typo3.org [outdated
+-  information that is duplicate in https://wiki.typo3.org [deprecated
    wiki link] + https://docs.typo3.org
 -  information that fits in an existing manual on https://docs.typo3.org
 

@@ -1,10 +1,7 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1522960188:
-
-========================
-Exception/CMS/1522960188
-========================
+==========================
+TYPO3 Exception 1522960188
+==========================
 
 https://forge.typo3.org/issues/86623

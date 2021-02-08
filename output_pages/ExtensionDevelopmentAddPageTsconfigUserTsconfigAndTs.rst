@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==============================================================
 Extension Development, add Page TSconfig, User TSconfig and TS
@@ -30,9 +29,11 @@ Extension Development, add Page TSconfig, User TSconfig and TS
    .. container::
 
       **Reason: No reason given**
-      If you disagree with its deletion, please explain why at Category
-      talk:Candidates for speedy deletion [outdated link] or improve the
-      page and remove the ``{{delete}}`` tag.
+      If you disagree with its deletion, please explain why at `Category
+      talk:Candidates for speedy
+      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      [not available anymore] or improve the page and remove the
+      ``{{delete}}`` tag.
 
       This notice should remain for a minimum of 1 week after it was
       placed on the page. If a discussion is still ongoing, it should
@@ -40,10 +41,14 @@ Extension Development, add Page TSconfig, User TSconfig and TS
       about the removal, after which the page will either be deleted or
       this notice removed.
 
-      Remember to check what links here [outdated wiki link] and the the
-      page history [outdated wiki link] before deleting.
+      Remember to check `what links
+      here </Special:WhatLinksHere/Extension_Development,_add_Page_TSconfig,_User_TSconfig_and_TS>`__
+      [deprecated wiki link] and the `the page
+      history <https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_add_Page_TSconfig,_User_TSconfig_and_TS&action=history>`__
+      [deprecated wiki link] before deleting.
 
 << Back to `Extension Development <extension-development>`__ << Back to
 `Developer manuals <overview-developer-manuals>`__ page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_add_Page_TSconfig,_User_TSconfig_and_TS&action=edit&section=0>`__
+[deprecated wiki link]

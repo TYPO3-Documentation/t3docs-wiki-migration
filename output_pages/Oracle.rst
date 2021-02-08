@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ======
 Oracle
@@ -18,9 +17,11 @@ Oracle
    .. container::
 
       **Reason: No reason given**
-      If you disagree with its deletion, please explain why at Category
-      talk:Candidates for speedy deletion [outdated link] or improve the
-      page and remove the ``{{delete}}`` tag.
+      If you disagree with its deletion, please explain why at `Category
+      talk:Candidates for speedy
+      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      [not available anymore] or improve the page and remove the
+      ``{{delete}}`` tag.
 
       This notice should remain for a minimum of 1 week after it was
       placed on the page. If a discussion is still ongoing, it should
@@ -28,8 +29,11 @@ Oracle
       about the removal, after which the page will either be deleted or
       this notice removed.
 
-      Remember to check what links here [outdated wiki link] and the the
-      page history [outdated wiki link] before deleting.
+      Remember to check `what links
+      here </Special:WhatLinksHere/Oracle>`__ [deprecated wiki link] and
+      the `the page
+      history <https://wiki.typo3.org/wiki/index.php?title=Oracle&action=history>`__
+      [deprecated wiki link] before deleting.
 
 What do I need for Oracle?
 ==========================
@@ -47,7 +51,8 @@ PHP
 ---
 
 PHP with support for Oracle. There are several PHP extensions that
-connect you to an Oracle [outdated wiki link] server.
+connect you to an `Oracle </Category:Oracle>`__ [deprecated wiki link]
+server.
 
 Hint: Via Oracle's `XE
 pages <http://www.oracle.com/technology/products/database/xe/index.html>`__
@@ -124,7 +129,8 @@ wizard to connect to an Oracle server!
 Install ADOdb and DBAL
 ^^^^^^^^^^^^^^^^^^^^^^
 
-*ADOdb [outdated wiki link] and DBAL [outdated wiki link]*
+`ADOdb </Category:ADOdb>`__\ *[deprecated wiki link]
+and*\ `DBAL </Category:DBAL>`__\ *[deprecated wiki link]*
 
 There a two possible ways
 
@@ -213,8 +219,9 @@ To make TYPO3 work with Oracle the following SQL statements are
 necessary. Otherwise TYPO3 **won't work**.
 
 Hint: With 10g XE you can use the Oracle Application Express web
-application. The default URL is http://localhost:8080/apex [outdated
-link] (assuming you work on the same machine as the server)..
+application. The default URL is http://localhost:8080/apex [not
+available anymore] (assuming you work on the same machine as the
+server)..
 
 Add column triggers for 'pages' and 'tt_content'
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -249,7 +256,8 @@ create a workaround.
    end;
 
 The 4.0.1 release of TYPO3 will include IS NULL when checking against
-fe_group --k-fish [outdated wiki link] 14:00, 6 July 2006 (CEST)
+fe_group --`k-fish </User:K-fish>`__ [deprecated wiki link] 14:00, 6
+July 2006 (CEST)
 
 Add index for versioning
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -275,7 +283,8 @@ you have the following table setup:
 
 .. container::
 
-   SQL [outdated wiki link]
+   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
+   wiki link]
 
 .. container::
 
@@ -300,7 +309,8 @@ Both index names are longer than 30 characters and table creation will
 fail with the error: ORA-00972: identifier is too long
 
 To solve this, set up a table name mapping before creating the table in
-TYPO3 --k-fish [outdated wiki link] 14:01, 6 July 2006 (CEST)
+TYPO3 --`k-fish </User:K-fish>`__ [deprecated wiki link] 14:01, 6 July
+2006 (CEST)
 
 You can create a table or column name mapping in
 typo3conf/LocalConfiguration.php. This is outlined in the dbal
@@ -338,7 +348,8 @@ A possible solution is:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 

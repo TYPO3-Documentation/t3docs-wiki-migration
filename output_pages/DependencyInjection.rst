@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ====================
 Dependency Injection
@@ -28,8 +27,8 @@ and extendable.
 There are numerous ressources that explain dependency injection and
 inversion of control:
 
--  https://msdn.microsoft.com/en-us/library/ff921087.aspx [outdated
-   link]
+-  https://msdn.microsoft.com/en-us/library/ff921087.aspx [not available
+   anymore]
 -  https://en.wikipedia.org/wiki/Dependency_injection
 
 | 
@@ -141,8 +140,9 @@ use this method for further initialization work.
 Creating Prototype Objects through the Object Manager
 -----------------------------------------------------
 
-To create prototype objects, use the get() method on the ObjectManager
-[outdated link], as in the following example.
+To create prototype objects, use the get() method on the
+`ObjectManager <https://api.typo3.org/typo3cms/current/html/class_t_y_p_o3_1_1_c_m_s_1_1_extbase_1_1_object_1_1_object_manager.html>`__
+[not available anymore], as in the following example.
 
 **Do not use GeneralUtility::makeInstance anymore!**
 

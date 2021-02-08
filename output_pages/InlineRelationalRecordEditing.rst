@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ================================
 Inline Relational Record Editing
@@ -8,7 +7,7 @@ Inline Relational Record Editing
 .. container::
 
    This page belongs to the Inline Relational Record Editing project
-   (category Project [outdated wiki link])
+   (category `Project </Category:Project>`__ [deprecated wiki link])
 
 .. container::
 
@@ -37,8 +36,9 @@ Inline Relational Record Editing
          **Screenshot of extension dynbeedit 0.0.2**
          How it could work in TYPO3
 
-glossary-definition [outdated wiki link]: IRRE (Inline Relational Record
-Editing) is part of the core since TYPO3 4.1.0.
+`glossary-definition </Category:Glossary-definition>`__ [deprecated wiki
+link]: IRRE (Inline Relational Record Editing) is part of the core since
+TYPO3 4.1.0.
 
 Main focus in abstract
 ======================
@@ -73,7 +73,8 @@ Examples
 
 -  `irre_hotel <https://extensions.typo3.org/extension/irre_hotel/>`__
 -  You could additionally use the elderly Test-Suite-Extension
-   T3X_irre_testsuite.t3x [outdated link]
+   `T3X_irre_testsuite.t3x <http://inpublica.de/typo3/T3X_irre_testsuite.t3x>`__
+   [not available anymore]
 
 Documentation
 =============
@@ -86,7 +87,7 @@ configuration options in the TCA.
 The whole project is further documented in the diploma thesis of Oliver
 Hader. You can obtain it here:
 https://typo3.org/documentation/article/inline-relational-record-editing-irre/
-[outdated link]
+[not available anymore]
 
 Feedback/Discussion
 ===================
@@ -96,7 +97,8 @@ Feedback/Discussion
 | To discuss further development of Inline Relational Record Editing you
   can subscribe to the list typo3.projects.irre by using the
   `mailing-list <http://lists.typo3.org/cgi-bin/mailman/listinfo/typo3-project-irre>`__
-  or the news-group [outdated link].
+  or the `news-group <news://lists.typo3.org/typo3.projects.irre>`__
+  [not available anymore].
 
 A closer look
 =============
@@ -105,7 +107,9 @@ A closer look
    getMainFields method to show the inline records
 -  TCEmain has to handle comma separated lists of uids (like in select
    type), mm relations (like in select/group type) and additional the
-   foreign_field alternative [outdated wiki link]
+   `foreign_field
+   alternative </Inline_Relational_Record_Editing_1:n#Foreign_Field_in_Foreign_Table>`__
+   [deprecated wiki link]
 -  The Ajax object of the prototype JavaScript framework is creating
    dynamically new records and handles the inline structure
 -  prototype/script.aculo.us is used for dynamic DOM handling like
@@ -172,23 +176,33 @@ Inline interaction with data
 Relations
 =========
 
-**Other relating projects** to Party Information Framework [outdated
-link] (edit this [outdated wiki link], *in alphabetical order*)
+**Other relating projects** to `Party Information
+Framework </wiki/index.php?title=Party_Information_Framework&action=edit&redlink=1>`__
+[not available anymore] (`edit
+this </Template:NavigationPartyInformationFramework-Relations>`__
+[deprecated wiki link], *in alphabetical order*)
 
--  Commerce Shop Extension [outdated link] This extension use an 1:N
-   relation for addresses and included an own addressmanagement, which
-   should be part of the Party Information Framework [outdated link].
--  Enhanced Rights Management [outdated wiki link] - a pear class for a
-   RBAC / Role Based Access Control.
+-  `Commerce Shop
+   Extension </wiki/index.php?title=Commerce&action=edit&redlink=1>`__
+   [not available anymore] This extension use an 1:N relation for
+   addresses and included an own addressmanagement, which should be part
+   of the `Party Information
+   Framework </wiki/index.php?title=Party_Information_Framework&action=edit&redlink=1>`__
+   [not available anymore].
+-  `Enhanced Rights Management </Enhanced_Rights_Management>`__
+   [deprecated wiki link] - a pear class for a RBAC / Role Based Access
+   Control.
 -  Inline Relational Record Editing - 1:n relations for BackEnd-Forms --
    *Oliver Hader*
--  Newloginbox [outdated link] development coordination - *Ingmar
-   Schlecht and Stefan Strasser*
+-  `Newloginbox </wiki/index.php?title=Newloginbox&action=edit&redlink=1>`__
+   [not available anymore] development coordination - *Ingmar Schlecht
+   and Stefan Strasser*
    The User list plugin (pi3) of Newloginbox is related to the Party
    Framework. If the Party Framework will ship with a user listing
    plugin, the pi3 of Newloginbox wouldn't be needed any more.
--  Users Addresses [outdated wiki link] - relations between fe_user and
-   tt_address, best practice discussion - *Elmar Hinz*
+-  `Users Addresses </Users_Addresses>`__ [deprecated wiki link] -
+   relations between fe_user and tt_address, best practice discussion -
+   *Elmar Hinz*
 -  dkd_feuser_belogin - relation between fe_user and be_user
 
 Timeline
@@ -205,9 +219,10 @@ Timeline
    november 16th 2006
 -  Bug-Fixing and necessary changes to meet conditions of the
    core-developers: until february 1st 2007
--  **"Big" Documentation of the work (= Diploma thesis [outdated link]):
-   after all points above have been finished, until end of february
-   2007**
+-  **"Big" Documentation of the work (=**\ `Diploma
+   thesis <https://typo3.org/uploads/media/Inline_Relational_Record_Editing_01.pdf>`__\ **[not
+   available anymore]): after all points above have been finished, until
+   end of february 2007**
 
 Current To-Do-List
 ==================
@@ -238,8 +253,9 @@ Current To-Do-List
    -  **OK** drag&drop sorting with script.aculo.us ("Sortable")
    -  **OK** check uniqueness on pointer tables (foreign_field), that
       are used as intermediate tables with attributes on client-side
-   -  **OK** replace xaJax [outdated link] by prototype (handling of
-      AJAX with JSON)
+   -  **OK** replace
+      `xaJax </wiki/index.php?title=Xajax&action=edit&redlink=1>`__ [not
+      available anymore] by prototype (handling of AJAX with JSON)
    -  **OK** recursively delete child records
    -  **OK** recursively undelete child records (history/undo)
    -  **OK** recursively copy child records
@@ -295,8 +311,8 @@ of "Inline-Relational-Record-Editing" at some time.
 Current Project Members
 =======================
 
--  Project Leader, developer: Oliver Hader [outdated wiki link]
-   <oh(at)inpublica(dot)de>
+-  Project Leader, developer: `Oliver Hader </User:Ohader>`__
+   [deprecated wiki link] <oh(at)inpublica(dot)de>
 -  Reviewing for the Core: Ingmar Schlecht, Sebastian Kurfürst
 -  Testing: Thomas Oppelt, Volker Graubaum, David Brühlmeier
 

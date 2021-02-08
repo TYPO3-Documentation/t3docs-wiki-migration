@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1294587215:
-
-========================
-Exception/CMS/1294587215
-========================
+==========================
+TYPO3 Exception 1294587215
+==========================
 
 **RealURL-Error "ID was outside the domain"**
 

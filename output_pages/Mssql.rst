@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =====
 Mssql
@@ -203,7 +202,7 @@ It seems as if the pagetree is not properly displayed when using MSSQL:
 ::
 
     * https://forge.typo3.org/issues/16781 (Typo3 Bugtracker, workaround posted there)
-    * http://www.typo3.net/forum/list/list_post//43371/?page=1 [outdated link] (German)
+    * http://www.typo3.net/forum/list/list_post//43371/?page=1 [not available anymore] (German)
 
 Tips and Tricks
 ===============
@@ -242,7 +241,8 @@ tx_templavoila_tmplobj.sorting',
 also for line 229 you have to remove quotes around
 ###REC_FIELD_tx_templavoila_next_ds###
 
---Abezet [outdated wiki link] 09:43, 29 August 2006 (CEST)
+--`Abezet </wiki/index.php?title=User:Abezet&action=edit&redlink=1>`__
+[deprecated wiki link] 09:43, 29 August 2006 (CEST)
 
 Problem: Treeleven shows only two levels
 ----------------------------------------
@@ -283,7 +283,7 @@ assoc array and numeric array dynamically and that seems to work just
 fine.
 
 In case the upload here does not work you may access the patch using
-this URL: http://studio9.tribut.de/class.ux_t3lib_db.MSSQL.patch
-[outdated link] [^]
+this URL: http://studio9.tribut.de/class.ux_t3lib_db.MSSQL.patch [not
+available anymore] [^]
 
 best regards

@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1195043965:
-
-========================
-Exception/CMS/1195043965
-========================
+==========================
+TYPO3 Exception 1195043965
+==========================
 
 Can someone please help me with this problem, which I've got when I
 updated to version Typo3 CMS 6.2 from 5.4.3. Thank You! I appreciate

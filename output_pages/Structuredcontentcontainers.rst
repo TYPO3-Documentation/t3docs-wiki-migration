@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _structuredcontentcontainers:
 
@@ -7,7 +6,7 @@
 Blueprints/StructuredContentContainers
 ======================================
 
-<- Back to blueprints overview [outdated wiki link]
+`<- Back to blueprints overview </Blueprints>`__ [deprecated wiki link]
 
 ===================================================================
 Blueprint: Grouped and nested content structures in the page module
@@ -293,8 +292,9 @@ Dependencies upon other Blueprints
 
 Since the original page columns are conflicting already with the way
 TYPO3 is sorting/moving content elements in the list module, there will
-be even more reasons to take care of Blueprints/RecordMoveActions
-[outdated wiki link] as well as soon as there is another level of
+be even more reasons to take care of
+`Blueprints/RecordMoveActions </Blueprints/RecordMoveActions>`__
+[deprecated wiki link] as well as soon as there is another level of
 content structures. The list module must be made at least "column aware"
 and get some bugs fixed, which are partly in the code and partly in the
 concept of "move after" actions.

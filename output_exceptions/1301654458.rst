@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1301654458:
-
-========================
-Exception/CMS/1301654458
-========================
+==========================
+TYPO3 Exception 1301654458
+==========================
 
 **Parser for plain old PHP array is not yet implemented.**
 

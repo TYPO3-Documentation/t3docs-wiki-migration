@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===========
 FluidSyntax
@@ -17,10 +16,14 @@ braces to output it:
 +-----------------------+-----------------------+-----------------------+
 | .. container::        | .. container::        | Output:               |
 |                       |                       |                       |
-|    PHP Script         |    XML / HTML         | ::                    |
-|    [outdated wiki     |    [outdated wiki     |                       |
+|    `PHP               |    `XML /             | ::                    |
+|    S                  |    HTML </            |                       |
+| cript </wiki/Help:Con | wiki/Help:Contents#Sy |                       |
+| tents#Syntax-Highligh | ntax-Highlighting_for |   <h1>An example</h1> |
+| ting_for_PHP-Code>`__ | _HTML%20and%20XML>`__ |                       |
+|    [deprecated wiki   |    [deprecated wiki   |                       |
 |    link]              |    link]              |                       |
-|                       |                       |   <h1>An example</h1> |
+|                       |                       |                       |
 | .. container::        | .. container::        |                       |
 |                       |                       |                       |
 |    ::                 |    ::                 |                       |
@@ -38,9 +41,13 @@ Use a dot ``.`` to access array keys:
 +-----------------------+-----------------------+-----------------------+
 | .. container::        | .. container::        | Output:               |
 |                       |                       |                       |
-|    PHP Script         |    XML / HTML         | ::                    |
-|    [outdated wiki     |    [outdated wiki     |                       |
-|    link]              |    link]              |    <p>Low, High</p>   |
+|    `PHP               |    `XML /             | ::                    |
+|    S                  |    HTML </            |                       |
+| cript </wiki/Help:Con | wiki/Help:Contents#Sy |    <p>Low, High</p>   |
+| tents#Syntax-Highligh | ntax-Highlighting_for |                       |
+| ting_for_PHP-Code>`__ | _HTML%20and%20XML>`__ |                       |
+|    [deprecated wiki   |    [deprecated wiki   |                       |
+|    link]              |    link]              |                       |
 |                       |                       |                       |
 | .. container::        | .. container::        |                       |
 |                       |                       |                       |
@@ -59,9 +66,13 @@ This also works for object properties:
 +-----------------------+-----------------------+-----------------------+
 | .. container::        | .. container::        | Output:               |
 |                       |                       |                       |
-|    PHP Script         |    XML / HTML         | ::                    |
-|    [outdated wiki     |    [outdated wiki     |                       |
-|    link]              |    link]              |    <p>Pear: 1.2</p>   |
+|    `PHP               |    `XML /             | ::                    |
+|    S                  |    HTML </            |                       |
+| cript </wiki/Help:Con | wiki/Help:Contents#Sy |    <p>Pear: 1.2</p>   |
+| tents#Syntax-Highligh | ntax-Highlighting_for |                       |
+| ting_for_PHP-Code>`__ | _HTML%20and%20XML>`__ |                       |
+|    [deprecated wiki   |    [deprecated wiki   |                       |
+|    link]              |    link]              |                       |
 |                       |                       |                       |
 | .. container::        | .. container::        |                       |
 |                       |                       |                       |
@@ -89,9 +100,13 @@ variable, put them in curly braces and ``v:variable.get``:
 +-----------------------+-----------------------+-----------------------+
 | .. container::        | .. container::        | Output:               |
 |                       |                       |                       |
-|    PHP Script         |    XML / HTML         | ::                    |
-|    [outdated wiki     |    [outdated wiki     |                       |
-|    link]              |    link]              |    <p>Pear</p>        |
+|    `PHP               |    `XML /             | ::                    |
+|    S                  |    HTML </            |                       |
+| cript </wiki/Help:Con | wiki/Help:Contents#Sy |    <p>Pear</p>        |
+| tents#Syntax-Highligh | ntax-Highlighting_for |                       |
+| ting_for_PHP-Code>`__ | _HTML%20and%20XML>`__ |                       |
+|    [deprecated wiki   |    [deprecated wiki   |                       |
+|    link]              |    link]              |                       |
 |                       |                       |                       |
 | .. container::        | .. container::        |                       |
 |                       |                       |                       |
@@ -122,8 +137,11 @@ Simple
 +-----------------------------------+-----------------------------------+
 | .. container::                    | .. container::                    |
 |                                   |                                   |
-|    PHP Script [outdated wiki      |    XML / HTML [outdated wiki      |
-|    link]                          |    link]                          |
+|    `PHP                           |    `XML /                         |
+|                                   |    HTML                           |
+|   Script </wiki/Help:Contents#Syn |  </wiki/Help:Contents#Syntax-High |
+| tax-Highlighting_for_PHP-Code>`__ | lighting_for_HTML%20and%20XML>`__ |
+|    [deprecated wiki link]         |    [deprecated wiki link]         |
 |                                   |                                   |
 | .. container::                    | .. container::                    |
 |                                   |                                   |
@@ -148,10 +166,14 @@ values are variables, quoted values are used as they are:
 +-----------------------+-----------------------+-----------------------+
 | .. container::        | .. container::        | Output:               |
 |                       |                       |                       |
-|    PHP Script         |    XML / HTML         | ::                    |
-|    [outdated wiki     |    [outdated wiki     |                       |
-|    link]              |    link]              |    1.230e+2           |
-|                       |                       |    0.000e+0           |
+|    `PHP               |    `XML /             | ::                    |
+|    S                  |    HTML </            |                       |
+| cript </wiki/Help:Con | wiki/Help:Contents#Sy |    1.230e+2           |
+| tents#Syntax-Highligh | ntax-Highlighting_for |    0.000e+0           |
+| ting_for_PHP-Code>`__ | _HTML%20and%20XML>`__ |                       |
+|    [deprecated wiki   |    [deprecated wiki   |                       |
+|    link]              |    link]              |                       |
+|                       |                       |                       |
 | .. container::        | .. container::        |                       |
 |                       |                       |                       |
 |    ::                 |    ::                 |                       |

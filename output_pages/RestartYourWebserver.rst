@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ======================
 Restart your webserver
@@ -14,9 +13,11 @@ Restart your webserver
       **Reason: Page is not TYPO3 specific, is outdated and the
       information can be found elsewhere, e.g. on Stack Overflow or on
       documentation pages for specific Webserver**
-      If you disagree with its deletion, please explain why at Category
-      talk:Candidates for speedy deletion [outdated link] or improve the
-      page and remove the ``{{delete}}`` tag.
+      If you disagree with its deletion, please explain why at `Category
+      talk:Candidates for speedy
+      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      [not available anymore] or improve the page and remove the
+      ``{{delete}}`` tag.
 
       This notice should remain for a minimum of 1 week after it was
       placed on the page. If a discussion is still ongoing, it should
@@ -24,8 +25,11 @@ Restart your webserver
       about the removal, after which the page will either be deleted or
       this notice removed.
 
-      Remember to check what links here [outdated wiki link] and the the
-      page history [outdated wiki link] before deleting.
+      Remember to check `what links
+      here </Special:WhatLinksHere/Restart_your_webserver>`__
+      [deprecated wiki link] and the `the page
+      history <https://wiki.typo3.org/wiki/index.php?title=Restart_your_webserver&action=history>`__
+      [deprecated wiki link] before deleting.
 
 ======
 Apache

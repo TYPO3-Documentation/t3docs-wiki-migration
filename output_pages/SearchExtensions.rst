@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =================
 Search extensions
@@ -92,33 +91,50 @@ Search extensions
 |        |        |        |        |        |        |        | olr/wi |
 |        |        |        |        |        |        |        | ki>`__ |
 +--------+--------+--------+--------+--------+--------+--------+--------+
-| `F     | -      |        | Yes,   | Sch    | Yes    | Yes    | `forg  |
-| aceted |        |        | Fluid  | eduler |        |        | e <htt |
-| Se     |        |        | [ou    | [ou    |        |        | ps://f |
-| arch < |        |        | tdated | tdated |        |        | orge.t |
-| https: |        |        | link]  | link]  |        |        | ypo3.o |
-| //gith |        |        |        |        |        |        | rg/pro |
-| ub.com |        |        |        |        |        |        | jects/ |
-| /teami |        |        |        |        |        |        | extens |
-| nmedia |        |        |        |        |        |        | ion-ke |
-| s-plus |        |        |        |        |        |        | _searc |
-| werk/k |        |        |        |        |        |        | h>`__, |
-| e_sear |        |        |        |        |        |        | `TER < |
-| ch>`__ |        |        |        |        |        |        | https: |
-|        |        |        |        |        |        |        | //exte |
-|        |        |        |        |        |        |        | nsions |
-|        |        |        |        |        |        |        | .typo3 |
-|        |        |        |        |        |        |        | .org/e |
-|        |        |        |        |        |        |        | xtensi |
-|        |        |        |        |        |        |        | on/ke_ |
+| `F     | -      |        | Yes,   | `Sch   | Yes    | Yes    | `forg  |
+| aceted |        |        | `Fluid | eduler |        |        | e <htt |
+| Se     |        |        |  <http |  <http |        |        | ps://f |
+| arch < |        |        | s://ww | s://ww |        |        | orge.t |
+| https: |        |        | w.typo | w.typo |        |        | ypo3.o |
+| //gith |        |        | 3-mach | 3-mach |        |        | rg/pro |
+| ub.com |        |        | er.de/ | er.de/ |        |        | jects/ |
+| /teami |        |        | en/fac | en/fac |        |        | extens |
+| nmedia |        |        | etted- | etted- |        |        | ion-ke |
+| s-plus |        |        | search | search |        |        | _searc |
+| werk/k |        |        | -ke-se | -ke-se |        |        | h>`__, |
+| e_sear |        |        | arch/d | arch/d |        |        | `TER < |
+| ch>`__ |        |        | ocumen | ocumen |        |        | https: |
+|        |        |        | tation | tation |        |        | //exte |
+|        |        |        | /front | /autom |        |        | nsions |
+|        |        |        | end-re | ated-i |        |        | .typo3 |
+|        |        |        | nderin | ndexin |        |        | .org/e |
+|        |        |        | g/>`__ | g/>`__ |        |        | xtensi |
+|        |        |        | [not   | [not   |        |        | on/ke_ |
+|        |        |        | ava    | ava    |        |        | search |
+|        |        |        | ilable | ilable |        |        | />`__, |
+|        |        |        | an     | an     |        |        | `      |
+|        |        |        | ymore] | ymore] |        |        | docume |
+|        |        |        |        |        |        |        | ntatio |
+|        |        |        |        |        |        |        | n <htt |
+|        |        |        |        |        |        |        | ps://w |
+|        |        |        |        |        |        |        | ww.typ |
+|        |        |        |        |        |        |        | o3-mac |
+|        |        |        |        |        |        |        | her.de |
+|        |        |        |        |        |        |        | /en/fa |
+|        |        |        |        |        |        |        | ceted- |
 |        |        |        |        |        |        |        | search |
-|        |        |        |        |        |        |        | />`__, |
-|        |        |        |        |        |        |        | d      |
+|        |        |        |        |        |        |        | -ke-se |
+|        |        |        |        |        |        |        | arch/d |
 |        |        |        |        |        |        |        | ocumen |
 |        |        |        |        |        |        |        | tation |
-|        |        |        |        |        |        |        | [ou    |
-|        |        |        |        |        |        |        | tdated |
-|        |        |        |        |        |        |        | link]  |
+|        |        |        |        |        |        |        | /intro |
+|        |        |        |        |        |        |        | ductio |
+|        |        |        |        |        |        |        | n/>`__ |
+|        |        |        |        |        |        |        | [not   |
+|        |        |        |        |        |        |        | ava    |
+|        |        |        |        |        |        |        | ilable |
+|        |        |        |        |        |        |        | an     |
+|        |        |        |        |        |        |        | ymore] |
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | `mkse  | `      |        | Yes    | Sch    | Yes    | Yes    | `TER   |
 | arch < | Solr < |        |        | eduler |        |        | <https |
@@ -143,30 +159,60 @@ Search extensions
 |        | /www.e |        |        |        |        |        | ons/mk |
 |        | lastic |        |        |        |        |        | search |
 |        | .co/pr |        |        |        |        |        | />`__, |
-|        | oducts |        |        |        |        |        | d      |
+|        | oducts |        |        |        |        |        | `d     |
 |        | /elast |        |        |        |        |        | ocumen |
 |        | icsear |        |        |        |        |        | tation |
 |        | ch>`__ |        |        |        |        |        | in     |
-|        | server |        |        |        |        |        | pr     |
-|        |        |        |        |        |        |        | ogress |
-|        |        |        |        |        |        |        | [ou    |
-|        |        |        |        |        |        |        | tdated |
-|        |        |        |        |        |        |        | link]  |
-+--------+--------+--------+--------+--------+--------+--------+--------+
-| mnogo  | `mnogo |        | Yes    | c      | ?      | ?      | forge  |
-| search | search |        |        | ronjob |        |        | [ou    |
-| [ou    | ser    |        |        | [ou    |        |        | tdated |
-| tdated | ver <h |        |        | tdated |        |        | link], |
-| link]  | ttp:// |        |        | link]  |        |        | `T     |
-|        | www.mn |        |        |        |        |        | ER <ht |
-|        | ogosea |        |        |        |        |        | tps:// |
-|        | rch.or |        |        |        |        |        | extens |
-|        | g/>`__ |        |        |        |        |        | ions.t |
-|        | + PHP  |        |        |        |        |        | ypo3.o |
-|        | ext    |        |        |        |        |        | rg/ext |
-|        | ension |        |        |        |        |        | ension |
-|        |        |        |        |        |        |        | /mnogo |
+|        | server |        |        |        |        |        | progre |
+|        |        |        |        |        |        |        | ss <ht |
+|        |        |        |        |        |        |        | tps:// |
+|        |        |        |        |        |        |        | github |
+|        |        |        |        |        |        |        | .com/D |
+|        |        |        |        |        |        |        | MKEBUS |
+|        |        |        |        |        |        |        | INESSG |
+|        |        |        |        |        |        |        | MBH/ty |
+|        |        |        |        |        |        |        | po3-mk |
 |        |        |        |        |        |        |        | search |
+|        |        |        |        |        |        |        | /blob/ |
+|        |        |        |        |        |        |        | master |
+|        |        |        |        |        |        |        | /Docum |
+|        |        |        |        |        |        |        | entati |
+|        |        |        |        |        |        |        | on/Mar |
+|        |        |        |        |        |        |        | kdown/ |
+|        |        |        |        |        |        |        | index. |
+|        |        |        |        |        |        |        | md>`__ |
+|        |        |        |        |        |        |        | [not   |
+|        |        |        |        |        |        |        | ava    |
+|        |        |        |        |        |        |        | ilable |
+|        |        |        |        |        |        |        | an     |
+|        |        |        |        |        |        |        | ymore] |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| `mnogo | `mnogo |        | Yes    | `cr    | ?      | ?      | `forge |
+| search | search |        |        | onjob  |        |        |  <http |
+|  <http | ser    |        |        | <https |        |        | s://fo |
+| s://fo | ver <h |        |        | ://doc |        |        | rge.ty |
+| rge.ty | ttp:// |        |        | s.typo |        |        | po3.or |
+| po3.or | www.mn |        |        | 3.org/ |        |        | g/proj |
+| g/proj | ogosea |        |        | typo3c |        |        | ects/e |
+| ects/e | rch.or |        |        | ms/ext |        |        | xtensi |
+| xtensi | g/>`__ |        |        | ension |        |        | on-mno |
+| on-mno | + PHP  |        |        | s/mnog |        |        | gosear |
+| gosear | ext    |        |        | osearc |        |        | ch>`__ |
+| ch>`__ | ension |        |        | h/ExtM |        |        | [not   |
+| [not   |        |        |        | nogose |        |        | ava    |
+| ava    |        |        |        | arch/A |        |        | ilable |
+| ilable |        |        |        | dminis |        |        | any    |
+| an     |        |        |        | tratio |        |        | more], |
+| ymore] |        |        |        | n/Addi |        |        | `T     |
+|        |        |        |        | ngCron |        |        | ER <ht |
+|        |        |        |        | Job/In |        |        | tps:// |
+|        |        |        |        | dex.ht |        |        | extens |
+|        |        |        |        | ml>`__ |        |        | ions.t |
+|        |        |        |        | [not   |        |        | ypo3.o |
+|        |        |        |        | ava    |        |        | rg/ext |
+|        |        |        |        | ilable |        |        | ension |
+|        |        |        |        | an     |        |        | /mnogo |
+|        |        |        |        | ymore] |        |        | search |
 |        |        |        |        |        |        |        | />`__, |
 |        |        |        |        |        |        |        | `do    |
 |        |        |        |        |        |        |        | cument |
@@ -206,35 +252,35 @@ Search extensions
 |        |        |        |        |        |        |        | osearc |
 |        |        |        |        |        |        |        | h/>`__ |
 +--------+--------+--------+--------+--------+--------+--------+--------+
-| `to    | `Lu    |        | Yes    | on     | No     | No     | `forg  |
+| `to    | `Lu    |        | Yes    | `on    | No     | No     | `forg  |
 | llwerk | cene < |        |        | page   |        |        | e <htt |
-| Lucene | https: |        |        | gene   |        |        | ps://f |
-| searc  | //luce |        |        | ration |        |        | orge.t |
-| h <htt | ne.apa |        |        | [ou    |        |        | ypo3.o |
-| ps://g | che.or |        |        | tdated |        |        | rg/pro |
-| ithub. | g/>`__ |        |        | link]  |        |        | jects/ |
-| com/to | server |        |        |        |        |        | extens |
-| llwerk |        |        |        |        |        |        | ion-tw |
-| /TYPO3 |        |        |        |        |        |        | _lucen |
-| -ext-t |        |        |        |        |        |        | esearc |
-| w_luce |        |        |        |        |        |        | h>`__, |
-| nesear |        |        |        |        |        |        | `TER < |
-| ch>`__ |        |        |        |        |        |        | https: |
-|        |        |        |        |        |        |        | //exte |
-|        |        |        |        |        |        |        | nsions |
-|        |        |        |        |        |        |        | .typo3 |
-|        |        |        |        |        |        |        | .org/e |
-|        |        |        |        |        |        |        | xtensi |
-|        |        |        |        |        |        |        | on/tw_ |
-|        |        |        |        |        |        |        | lucene |
-|        |        |        |        |        |        |        | search |
-|        |        |        |        |        |        |        | />`__, |
-|        |        |        |        |        |        |        | `      |
-|        |        |        |        |        |        |        | docume |
-|        |        |        |        |        |        |        | ntatio |
-|        |        |        |        |        |        |        | n <htt |
-|        |        |        |        |        |        |        | ps://d |
-|        |        |        |        |        |        |        | ocs.ty |
+| Lucene | https: |        |        | gen    |        |        | ps://f |
+| searc  | //luce |        |        | eratio |        |        | orge.t |
+| h <htt | ne.apa |        |        | n <htt |        |        | ypo3.o |
+| ps://g | che.or |        |        | ps://d |        |        | rg/pro |
+| ithub. | g/>`__ |        |        | ocs.ty |        |        | jects/ |
+| com/to | server |        |        | po3.or |        |        | extens |
+| llwerk |        |        |        | g/typo |        |        | ion-tw |
+| /TYPO3 |        |        |        | 3cms/e |        |        | _lucen |
+| -ext-t |        |        |        | xtensi |        |        | esearc |
+| w_luce |        |        |        | ons/tw |        |        | h>`__, |
+| nesear |        |        |        | _lucen |        |        | `TER < |
+| ch>`__ |        |        |        | esearc |        |        | https: |
+|        |        |        |        | h/ExtT |        |        | //exte |
+|        |        |        |        | ollwer |        |        | nsions |
+|        |        |        |        | kLucen |        |        | .typo3 |
+|        |        |        |        | eSearc |        |        | .org/e |
+|        |        |        |        | h/Usag |        |        | xtensi |
+|        |        |        |        | e/Abou |        |        | on/tw_ |
+|        |        |        |        | tIndex |        |        | lucene |
+|        |        |        |        | ing/In |        |        | search |
+|        |        |        |        | dex.ht |        |        | />`__, |
+|        |        |        |        | ml>`__ |        |        | `      |
+|        |        |        |        | [not   |        |        | docume |
+|        |        |        |        | ava    |        |        | ntatio |
+|        |        |        |        | ilable |        |        | n <htt |
+|        |        |        |        | an     |        |        | ps://d |
+|        |        |        |        | ymore] |        |        | ocs.ty |
 |        |        |        |        |        |        |        | po3.or |
 |        |        |        |        |        |        |        | g/typo |
 |        |        |        |        |        |        |        | 3cms/e |
@@ -319,4 +365,6 @@ Helpful Links
    1 <https://t3terminal.com/blog/typo3-indexed-search/>`__
 
 | 
-| Also see ExtensionsCompared [outdated link].
+| Also see
+  `ExtensionsCompared </wiki/index.php?title=ExtensionsCompared&action=edit&redlink=1>`__
+  [not available anymore].

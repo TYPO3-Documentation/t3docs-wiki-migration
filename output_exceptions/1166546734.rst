@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1166546734:
-
-========================
-Exception/CMS/1166546734
-========================
+==========================
+TYPO3 Exception 1166546734
+==========================
 
 #1166546734 TYPO3\CMS\Core\Package\Exception\UnknownPackageException
 ====================================================================

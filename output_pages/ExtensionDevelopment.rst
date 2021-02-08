@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =====================
 Extension Development
@@ -7,11 +6,12 @@ Extension Development
 
 .. container::
 
-   **Content Type:** HowTo [outdated wiki link].
+   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
 
 << Back to `Developer manuals <overview-developer-manuals>`__ page
 
-[edit] [outdated wiki link]
+`[edit] <https://wiki.typo3.org/wiki/index.php?title=Extension_Development&action=edit&section=0>`__
+[deprecated wiki link]
 
 .. container::
 
@@ -31,9 +31,11 @@ Extension Development
 
       This page may contain totally outdated information!
 
-You find all the different extension development [outdated wiki link]
+You find all the different `extension
+development </Category:Extension_development>`__ [deprecated wiki link]
 manuals either by the `extensions <https://extensions.typo3.org/>`__
-themself or in the TYPO3 documentation matrix [outdated link].
+themself or in the TYPO3 `documentation
+matrix <https://docs.typo3.org/typo3cms/>`__ [not available anymore].
 
 A good place to start is the `Extension Developers Guide
 (XDG) <extension-developers-guide>`__
@@ -51,7 +53,8 @@ Development environments
    -  `PHPStorm <http://www.jetbrains.com/phpstorm/>`__
    -  `Eclipse IDE <http://www.eclipse.org>`__ and `PDT (Eclipse PHP
       Development Tools) <http://www.eclipse.org/pdt/>`__
-   -  PHPEclipse [outdated link]
+   -  `PHPEclipse <http://www.phpeclipse.com/>`__ [not available
+      anymore]
    -  `PHPEdit <http://www.phpedit.com/>`__
    -  `NetBeans IDE <http://netbeans.org/>`__
    -  `Kate Editor <https://kate-editor.org/>`__
@@ -68,7 +71,9 @@ Database development
 Documentation
 -------------
 
--  Read the TYPO3 API Documentation [outdated link].
+-  Read the `TYPO3 API
+   Documentation <https://typo3.org/documentation/api>`__ [not available
+   anymore].
 -  `API overview <http://api.typo3.org/>`__
 -  Install the
    `extdeveval <https://extensions.typo3.org/extension/extdeveval/>`__
@@ -81,7 +86,9 @@ the APIs for extensions and a link list to documentation.
 
 -  Search in the `Namazu: Full-Text Search
    Engine <http://lists.typo3.org/cgi-bin/namazu.cgi?idxname=Typo3-english>`__.
--  Follow the Project Coding Guidelines [outdated link]
+-  Follow the `Project Coding
+   Guidelines <https://docs.typo3.org/typo3cms/CodingGuidelinesReference/>`__
+   [not available anymore]
 -  `Extension Development, using
    Flexforms <extension-development-using-flexforms>`__
 -  `Backend Programming <backend-programming>`__
@@ -90,8 +97,11 @@ the APIs for extensions and a link list to documentation.
    developers <https://docs.typo3.org/typo3cms/extensions/doc_typo3org>`__
    (`How typo3.org
    works <https://docs.typo3.org/typo3cms/extensions/doc_typo3org/>`__)
--  Use the Documentation template [outdated wiki link] for your
-   extension documentation Documentation template [outdated link]
+-  Use the `Documentation template </T3Doc/Documentation_template>`__
+   [deprecated wiki link] for your extension documentation
+   `Documentation
+   template <https://typo3.org/documentation/document-library/core-documentation/doc_template/current/>`__
+   [not available anymore]
 
 External resources
 ------------------
@@ -101,14 +111,17 @@ External resources
 The source code
 ---------------
 
--  Get the source code for TYPO3 core: TYPO3 Content Management
-   Framework [outdated link]
+-  Get the source code for TYPO3 core: `TYPO3 Content Management
+   Framework <http://sourceforge.net/svn/?group_id=20391>`__ [not
+   available anymore]
 -  Get the source code for TYPO3 extensions: `TYPO3 Extension
    Development Platform <https://forge.typo3.org/projects/extensions>`__
 -  Browse the source code for TYPO3 core: `TYPO3 core Git repository
    browser <https://git.typo3.org/Packages/TYPO3.CMS.git>`__
--  Browse the source code for TYPO3 extensions: TYPO3 extension SVN
-   repository browser [outdated link]
+-  Browse the source code for TYPO3 extensions: `TYPO3 extension SVN
+   repository
+   browser <http://typo3xdev.svn.sourceforge.net/viewvc/typo3xdev/>`__
+   [not available anymore]
 
 Classes and functions
 ---------------------
@@ -120,7 +133,8 @@ Classes and functions
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -156,7 +170,9 @@ UNIX
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -170,7 +186,9 @@ all PHP files:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -183,7 +201,9 @@ all PHP files:
 
 .. container::
 
-   Shell Script [outdated wiki link]
+   `Shell
+   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -198,15 +218,16 @@ all PHP files:
 Database
 --------
 
-To access the database, use the Database Abstraction Layer. DBAL
-[outdated wiki link]
+To access the database, use the Database Abstraction Layer.
+`DBAL </Category:DBAL>`__ [deprecated wiki link]
 
 To enable database access debug output, open
 ``typo3/t3lib/class.t3lib_db.php`` and change the line:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -218,7 +239,8 @@ to
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -233,7 +255,8 @@ following change will write all generated database statements into the
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -267,8 +290,9 @@ Important global variables are:
 Use libraries and APIs
 ----------------------
 
-*please add the ones you like. --Daniel Brüßler [outdated wiki link]
-11:03, 4 June 2007 (CEST)*
+*please add the ones you like. --*\ `Daniel
+Brüßler </User:Patchworker>`__\ *[deprecated wiki link] 11:03, 4 June
+2007 (CEST)*
 
 -  `meta_feedit <https://extensions.typo3.org/extension/meta_feedit/>`__
 -  `rlmp_dateselectlib <https://extensions.typo3.org/extension/rlmp_dateselectlib/>`__
@@ -282,9 +306,13 @@ Use libraries and APIs
 Caching issues
 --------------
 
--  read how to manage the cache [outdated wiki link] - Caching and The
-   Mysteries Of &cHash [outdated link]
--  How to avoid the no_cache parameter? Proper Caching [outdated link]
+-  read how to manage the `cache </Category:Cache>`__ [deprecated wiki
+   link] - `Caching and The Mysteries Of
+   &cHash <https://typo3.org/documentation/article/the-mysteries-of-chash/>`__
+   [not available anymore]
+-  How to avoid the no_cache parameter? `Proper
+   Caching <http://t3flyers.wordpress.com/2006/09/11/a-quick-guide-to-proper-caching-with-tslib_pibase-episode-1/>`__
+   [not available anymore]
 
 -  Generally you have to use the extension variable like
    'tx_myext_pi_name[variable]'.
@@ -313,7 +341,8 @@ into the file ``typo3.log``.
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -337,19 +366,25 @@ Standards
 
 Take care of standards to make all TYPO3 extensions look very similar.
 This helps that others can easier understand your extensions and find
-the files in it. Standardization [outdated wiki link]. These are the
-current recommendations. And you are invited to make your own proposals.
-All things which are needed in several extensions should be defined by
-the same names. So the setup for one extensions could be used 1:1 for
-another extension as well.
+the files in it. `Standardization </Standardization>`__ [deprecated wiki
+link]. These are the current recommendations. And you are invited to
+make your own proposals. All things which are needed in several
+extensions should be defined by the same names. So the setup for one
+extensions could be used 1:1 for another extension as well.
 
 Send patches
 ------------
 
--  Get your patches into TYPO3 or an extension [outdated link]
--  Email template for Core developers [outdated link]
+-  `Get your patches into TYPO3 or an
+   extension <https://typo3.org/documentation/article/bugfixes-and-patches/>`__
+   [not available anymore]
+-  `Email template for Core
+   developers <https://typo3.org/teams/core/core-mailinglist-rules/>`__
+   [not available anymore]
 
 Help
 ----
 
--  Developer list [outdated link]
+-  `Developer
+   list <https://typo3.org/documentation/mailing-lists/dev-list-archive>`__
+   [not available anymore]

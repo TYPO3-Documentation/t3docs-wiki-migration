@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1392409507:
-
-========================
-Exception/CMS/1392409507
-========================
+==========================
+TYPO3 Exception 1392409507
+==========================
 
 The problem is usually caused by an missing security token which
 protects againg
@@ -15,7 +12,7 @@ controls. This problem is usually only backend related but could also
 occur in the frontend when using frontend editing.
 
 https://typo3.org/news/article/cross-site-request-forgery-protection-in-typo3-cms-62/
-[outdated link]
+[not available anymore]
 
 **For TYPO3 integrators:**
 
@@ -29,14 +26,15 @@ free to create a new bug report.
 In custom backend modules it is usually necessary to generate links to
 the module using BackendUtility::getModuleUrl() method
 (https://typo3.org/api/typo3cms/class_t_y_p_o3_1_1_c_m_s_1_1_backend_1_1_utility_1_1_backend_utility.html#a8437ed5134d2c407ca67cc5f5627b280
-[outdated link]). In the case of wizards the usage of the "script" key
-for type=>script wizards is deprecated. Instead the configuration option
-"module" should get used
+[not available anymore]). In the case of wizards the usage of the
+"script" key for type=>script wizards is deprecated. Instead the
+configuration option "module" should get used
 (https://docs.typo3.org/typo3cms/TCAReference/AdditionalFeatures/WizardsConfiguration/Index.html#wizards-configuration-script-script
-[outdated link])
+[not available anymore])
 
-Kraftb [outdated wiki link] (talk [outdated wiki link]) 15:20, 7 May
-2014 (CEST)
+`Kraftb </User:Kraftb>`__ [deprecated wiki link]
+(`talk </wiki/index.php?title=User_talk:Kraftb&action=edit&redlink=1>`__
+[deprecated wiki link]) 15:20, 7 May 2014 (CEST)
 
 | 
 | **Extension ics_awstats & TYPO3 6.2:**

@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =========================
 Rendering reST on Windows
@@ -15,8 +14,8 @@ Rendering reST on Windows
       documentation <https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/RenderingDocs/Index.html>`__
 
 | 
-| We use Sphinx [outdated link] as a tool-chain to generate TYPO3
-  documentation with
+| We use `Sphinx <http://sphinx.pocoo.org/>`__ [not available anymore]
+  as a tool-chain to generate TYPO3 documentation with
   `reStructuredText <http://docutils.sourceforge.net/rst.html>`__
   (commonly abbreviated as reST).
 
@@ -49,8 +48,9 @@ Optional components:
 
    .. container::
 
-      The documentation of the Sphinx extension comes with a dedicated
-      chapter [outdated link] for rendering PDF with LaTeX.
+      The documentation of the Sphinx extension comes with a `dedicated
+      chapter <https://docs.typo3.org/typo3cms/extensions/sphinx/AdministratorManual/RenderingPdf/Index.html>`__
+      [not available anymore] for rendering PDF with LaTeX.
 
 Installing the Components
 =========================
@@ -127,15 +127,17 @@ Installing TYPO3 Templates
 
 The TYPO3 templates are available for the time being from a dedicated
 Git repository. If you did not yet configure your environment for using
-Git, please do so using one of the Git Tutorials [outdated link].
+Git, please do so using one of the `Git
+Tutorials </wiki/index.php?title=Contribution_Walkthrough_Tutorials&action=edit&redlink=1>`__
+[not available anymore].
 
 The template projects is available from
-git://git.typo3.org/Documentation/RestTools.git [outdated link]. Clone
-that repository and move into it:
+git://git.typo3.org/Documentation/RestTools.git [not available anymore].
+Clone that repository and move into it:
 
 ::
 
-   $ git clone git://git.typo3.org/Documentation/RestTools.git [outdated link]
+   $ git clone git://git.typo3.org/Documentation/RestTools.git [not available anymore]
    $ cd RestTools
 
 Move down one more sub-folder and run the provided installer:

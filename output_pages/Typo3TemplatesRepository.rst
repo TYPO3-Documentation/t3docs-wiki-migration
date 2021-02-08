@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ==========================
 TYPO3 templates repository
@@ -55,10 +54,15 @@ Free templates
 
 -  `T3Terminal.com - Free Professional TYPO3 Themes &
    Templates <https://t3terminal.com/typo3-templates>`__
--  mapseven.de [outdated link]
--  Open Source Skins [outdated link]
--  WebEmpoweredChurch.org [outdated link]
--  web2000.hu [outdated link]
+-  `mapseven.de <http://www.typo3.mapseven.de/index.php?id=19>`__ [not
+   available anymore]
+-  `Open Source
+   Skins <http://www.osskins.com/category/typo3-templates/>`__ [not
+   available anymore]
+-  `WebEmpoweredChurch.org <http://webempoweredchurch.org/features/template-your-look/>`__
+   [not available anymore]
+-  `web2000.hu <http://web2000.hu/index.php?id=47>`__ [not available
+   anymore]
 -  `TemplaVoila QuickSite <http://templavoila.busynoggin.com/>`__
 -  `Free TYPO3 developer template based on the Introduction Package -
    t3net.org <http://t3net.org/downloads.html>`__
@@ -70,9 +74,12 @@ Commercial TYPO3 Templates
 -  `T3Terminal.com Freemium & Premium TYPO3
    Themes/Templates <https://t3terminal.com/typo3-templates>`__
 -  `t3bootstrap - TYPO3 Bootstrap Template <http://t3bootstrap.de>`__
--  Professional TYPO3 Templates - typo3coder.com [outdated link]
+-  `Professional TYPO3 Templates -
+   typo3coder.com <http://www.typo3coder.com/typo3-templates/?utm_source=wiki&utm_medium=link&utm_campaign=TYPO3+Wiki>`__
+   [not available anymore]
 -  `TYPO3 Agentur <http://www.it-bo.com/typo3-agentur/>`__
--  typo3-templates.de [outdated link]
+-  `typo3-templates.de <http://www.typo3-templates.de/templates/template-auswahl.html>`__
+   [not available anymore]
 -  `ultimatule.ru <http://ultimatule.ru/templates.html>`__
 -  `successful TYPO3 templates <http://if-20.com>`__
 -  `individuelle TYPO3 templates vom

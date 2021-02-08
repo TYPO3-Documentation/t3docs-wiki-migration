@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =======================
 TypoScript Header Image
@@ -47,7 +46,7 @@ TypoScript Header Image
       10 {
           file {
               import =  uploads/media/
-              import.data [outdated link] = levelmedia:-1, slide
+              import.data [not available anymore] = levelmedia:-1, slide
               import.listNum = 0
               width.field = imagewidth
               width.wrap = |m
@@ -68,7 +67,7 @@ TypoScript Header Image
        cObject.value = dummy.gif
        cObject.override {
          required = 1
-         data [outdated link] = levelmedia: -1, slide
+         data [not available anymore] = levelmedia: -1, slide
          wrap = uploads/media/|
          listNum = 0
        }

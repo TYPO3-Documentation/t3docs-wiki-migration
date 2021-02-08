@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _how-to-create-a-typo3-package:
 
@@ -9,7 +8,7 @@ FAQ/How to create a TYPO3 package
 
 .. container::
 
-   **Content Type:** HowTo [outdated wiki link].
+   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
 
 .. container::
 
@@ -30,7 +29,9 @@ FAQ/How to create a TYPO3 package
    .. container::
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
-      reviewer for text and TypoScript. info [outdated wiki link]
+      reviewer for text and TypoScript.
+      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      [deprecated wiki link]
 
 .. container::
 
@@ -40,8 +41,8 @@ FAQ/How to create a TYPO3 package
 
    .. container::
 
-   *Please remove "{{Todo}}" when the problem is solved. See all todos
-   [outdated wiki link].*
+   *Please remove "{{Todo}}" when the problem is solved. See*\ `all
+   todos </Category:Wiki-Todo>`__\ *[deprecated wiki link].*
 
 | 
 | This page describes how to create your own TYPO3 package (like **like
@@ -57,8 +58,8 @@ etc. but no media, images or and other files) do the following:
 
 as you prefer.)
 
--  do a 1-2-3 installation [outdated wiki link] and make all necessary
-   adjustments.
+-  do a 1-2-3 `installation </Category:Installation>`__ [deprecated wiki
+   link] and make all necessary adjustments.
 -  export the database with all create statements and data to a file
    called ``database.sql`` and put it in ``typo3conf/`` of another fresh
    unzipped package on which you didn't run 1-2-3 (overwriting the
@@ -70,9 +71,10 @@ as you prefer.)
 | Or you can use the TYPO3-source package, create the necessary folders
   manually and then adapt the typo3conf/localconf.php file manually.
 
-A description how to edit the file can be found here: localconf.php and
-$TYPO3_CONF_VARS [outdated link] (The offline version of this document
-is much more readable.)
+A description how to edit the file can be found here: `localconf.php and
+$TYPO3_CONF_VARS <https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/Configuration/LocalconfphpAndTypo3ConfVars/Index.html>`__
+[not available anymore] (The offline version of this document is much
+more readable.)
 
 Then do the same steps with your database as described above.
 
@@ -91,7 +93,8 @@ If you do not include the database settings (in ``localconfig.php``):
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 

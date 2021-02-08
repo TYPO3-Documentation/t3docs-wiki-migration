@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1437656456:
-
-========================
-Exception/CMS/1437656456
-========================
+==========================
+TYPO3 Exception 1437656456
+==========================
 
 I received this exception under Typo3 7.6.9 when attempting to add the
 language ISO code to a language with the ID "0". It worked fine for the

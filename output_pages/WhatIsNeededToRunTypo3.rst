@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 ===========================
 What is needed to run TYPO3
@@ -13,9 +12,11 @@ What is needed to run TYPO3
 
       **Reason: Outdated, information about system requirements is now
       maintained elsewhere**
-      If you disagree with its deletion, please explain why at Category
-      talk:Candidates for speedy deletion [outdated link] or improve the
-      page and remove the ``{{delete}}`` tag.
+      If you disagree with its deletion, please explain why at `Category
+      talk:Candidates for speedy
+      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      [not available anymore] or improve the page and remove the
+      ``{{delete}}`` tag.
 
       This notice should remain for a minimum of 1 week after it was
       placed on the page. If a discussion is still ongoing, it should
@@ -23,8 +24,11 @@ What is needed to run TYPO3
       about the removal, after which the page will either be deleted or
       this notice removed.
 
-      Remember to check what links here [outdated wiki link] and the the
-      page history [outdated wiki link] before deleting.
+      Remember to check `what links
+      here </Special:WhatLinksHere/What_is_needed_to_run_TYPO3>`__
+      [deprecated wiki link] and the `the page
+      history <https://wiki.typo3.org/wiki/index.php?title=What_is_needed_to_run_TYPO3&action=history>`__
+      [deprecated wiki link] before deleting.
 
 .. container::
 

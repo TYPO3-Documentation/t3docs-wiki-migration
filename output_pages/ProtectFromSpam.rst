@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =================
 Protect from spam
@@ -26,8 +25,8 @@ Tip 1
 
    .. container::
 
-   *Please remove "{{Todo}}" when the problem is solved. See all todos
-   [outdated wiki link].*
+   *Please remove "{{Todo}}" when the problem is solved. See*\ `all
+   todos </Category:Wiki-Todo>`__\ *[deprecated wiki link].*
 
 To protect your email against spam, add the following to the 'Setup'
 field of your template:

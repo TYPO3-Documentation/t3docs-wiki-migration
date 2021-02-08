@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1390334120:
-
-========================
-Exception/CMS/1390334120
-========================
+==========================
+TYPO3 Exception 1390334120
+==========================
 
 I'm getting this error frequently when installing and uninstalling
 extensions, running the DBAL etc, in TYPO3 6.2.6. It seems to have

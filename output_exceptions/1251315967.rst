@@ -1,19 +1,17 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1251315967:
-
-========================
-Exception/CMS/1251315967
-========================
+==========================
+TYPO3 Exception 1251315967
+==========================
 
 This Exception rose in one installation(TYPO3 4.6.9-15) after changing
 direction of relations in the extension_builder between two models after
 having already inserted some entries to the list-view in the backend.
 
 Deleting the files *typo3conf/temp_CACHED_\** and truncating the
-caching-framework-tables beginning with *cf\_* helped for me [outdated
-wiki link].
+caching-framework-tables beginning with *cf\_* helped for
+`me </wiki/index.php?title=User:Swagner&action=edit&redlink=1>`__
+[deprecated wiki link].
 
 // Additional Situations, observed in TYPO3 6.1.2, Extbase 6 This
 exception is also thrown when, in the course of development: - a
@@ -38,8 +36,9 @@ Non-CamelCase:
        */
 
 (Working in the files directly, not using the Extension_builder
-[anymore]) In my [outdated link] case, the truncating of the cf_-tables
-was sufficient.
+[anymore]) In `my </wiki/index.php?title=User&action=edit&redlink=1>`__
+[not available anymore] case, the truncating of the cf_-tables was
+sufficient.
 
 extension_builder bug
 =====================

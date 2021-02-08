@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =============
 Accessibility
@@ -8,7 +7,8 @@ Accessibility
 .. container::
 
    This page belongs to the Accessibility-Team (category
-   AccessibilityTeam [outdated wiki link])
+   `AccessibilityTeam </Category:AccessibilityTeam>`__ [deprecated wiki
+   link])
 
 =============
 Useful things

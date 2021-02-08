@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1519788775:
-
-========================
-Exception/CMS/1519788775
-========================
+==========================
+TYPO3 Exception 1519788775
+==========================
 
 I received this error when using the new style configuration of filefill
 ``$GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['filefill']['storages'][1] = [``
@@ -17,7 +14,7 @@ I received this error when using the new style configuration of filefill
       'placeholder' => true,
       [
           'identifier' => 'domain',
-          'configuration' => 'https://www.example.de/' [outdated link],
+          'configuration' => 'https://www.example.de/' [not available anymore],
       ],
       [
           'identifier' => 'placeholder',

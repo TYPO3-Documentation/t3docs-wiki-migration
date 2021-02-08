@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1283192644:
-
-========================
-Exception/CMS/1283192644
-========================
+==========================
+TYPO3 Exception 1283192644
+==========================
 
 Adding a TemplaVoila's datastructure via plugin (using
 $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['templavoila']['staticDataStructures'][]

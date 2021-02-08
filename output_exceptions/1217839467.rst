@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1217839467:
-
-========================
-Exception/CMS/1217839467
-========================
+==========================
+TYPO3 Exception 1217839467
+==========================
 
 -  Check if you have named the properties correctly in your fluid form
    and in your model class. In my case, this exception occurred simply

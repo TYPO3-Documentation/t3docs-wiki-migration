@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1439569743:
-
-========================
-Exception/CMS/1439569743
-========================
+==========================
+TYPO3 Exception 1439569743
+==========================
 
 #. 1439569743: Field tx_xx_xx of table fe_users reference to foreign
    table tx_xx, but this table is not defined in TCA

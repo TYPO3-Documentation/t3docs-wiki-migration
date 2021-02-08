@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1309255651:
-
-========================
-Exception/CMS/1309255651
-========================
+==========================
+TYPO3 Exception 1309255651
+==========================
 
 The provided phpdoc annotation contains a type that is not recognized.
 

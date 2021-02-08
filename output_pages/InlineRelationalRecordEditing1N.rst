@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 .. _inline-relational-record-editing1-n:
 
@@ -10,8 +9,8 @@ Inline Relational Record Editing 1:n
 .. container::
 
    This page belongs to the `Inline Relational Record Editing
-   project <inline-relational-record-editing>`__ (category Project
-   [outdated wiki link])
+   project <inline-relational-record-editing>`__ (category
+   `Project </Category:Project>`__ [deprecated wiki link])
 
 ============================================
 Different kinds of storing and configuration
@@ -342,9 +341,10 @@ functionality to add these child objects to another object - and that
 would mean, that we **reuse records**.
 
 This also means, that the intermediate table must have a proper TCA
-definition. See see attributes [outdated wiki link] section down this
-page. The child records of the "person"-table could **NOT** be edited
-inline.
+definition. See see
+`attributes </Inline_Relational_Record_Editing_1:n#Attributes_on_Intermediate_Tables>`__
+[deprecated wiki link] section down this page. The child records of the
+"person"-table could **NOT** be edited inline.
 
 | 
 | **An example of TCA configuration:**

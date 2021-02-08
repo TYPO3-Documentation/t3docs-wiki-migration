@@ -1,11 +1,8 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
-.. _exception-1301648945:
-
-========================
-Exception/CMS/1301648945
-========================
+==========================
+TYPO3 Exception 1301648945
+==========================
 
 Database Error: The current username, password or host was not accepted
 when the connection to the database was attempted to be established!

@@ -1,5 +1,4 @@
 .. include:: /Includes.rst.txt
-.. highlight:: php
 
 =============
 MVC Framework
@@ -21,9 +20,11 @@ MVC Framework
    .. container::
 
       **Reason: outdated work in progress document**
-      If you disagree with its deletion, please explain why at Category
-      talk:Candidates for speedy deletion [outdated link] or improve the
-      page and remove the ``{{delete}}`` tag.
+      If you disagree with its deletion, please explain why at `Category
+      talk:Candidates for speedy
+      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      [not available anymore] or improve the page and remove the
+      ``{{delete}}`` tag.
 
       This notice should remain for a minimum of 1 week after it was
       placed on the page. If a discussion is still ongoing, it should
@@ -31,18 +32,22 @@ MVC Framework
       about the removal, after which the page will either be deleted or
       this notice removed.
 
-      Remember to check what links here [outdated wiki link] and the the
-      page history [outdated wiki link] before deleting.
+      Remember to check `what links
+      here </Special:WhatLinksHere/MVC_Framework>`__ [deprecated wiki
+      link] and the `the page
+      history <https://wiki.typo3.org/wiki/index.php?title=MVC_Framework&action=history>`__
+      [deprecated wiki link] before deleting.
 
 .. container::
 
-   This page belongs to the Extension coordination team [outdated wiki
-   link] (category ECT [outdated wiki link])
+   This page belongs to the `Extension coordination team </ECT>`__
+   [deprecated wiki link] (category `ECT </Category:ECT>`__ [deprecated
+   wiki link])
 
 .. container::
 
    This page belongs to the MVC Framework aka lib/div project (category
-   Project [outdated wiki link])
+   `Project </Category:Project>`__ [deprecated wiki link])
 
 +-----------------------------------+-----------------------------------+
 | | *Title:*                        | | **lib/div**                     |
@@ -54,24 +59,35 @@ MVC Framework
 | | *using examples*                | rrent-version <https://docs.typo3 |
 |                                   | .org/typo3cms/extensions/lib/>`__ |
 |                                   | | the code is rich documented     |
-|                                   | | Apples [outdated link]/         |
+|                                   | | `Apples </wiki/index.php?title  |
+|                                   | =Apples&action=edit&redlink=1>`__ |
+|                                   |   [not available anymore]/        |
 |                                   |   `apples <https://extensions     |
 |                                   | .typo3.org/extension/apples/>`__, |
-|                                   |   Bananas [outdated wiki link]/   |
+|                                   |   `Bananas </Bananas>`__          |
+|                                   |   [deprecated wiki link]/         |
 |                                   |   `bananas <https://extensions.   |
 |                                   | typo3.org/extension/bananas/>`__, |
-|                                   |   Cherries [outdated link]/       |
+|                                   |   `                               |
+|                                   | Cherries </wiki/index.php?title=C |
+|                                   | herries&action=edit&redlink=1>`__ |
+|                                   |   [not available anymore]/        |
 |                                   |   `cherries <https://extensions.t |
 |                                   | ypo3.org/extension/cherries/>`__, |
-|                                   |   EFAQ Project [outdated wiki     |
-|                                   |   link]/                          |
+|                                   |   `EFAQ                           |
+|                                   |   Project </EFAQ_Project>`__      |
+|                                   |   [deprecated wiki link]/         |
 |                                   |   `efaq <https://extensio         |
 |                                   | ns.typo3.org/extension/efaq/>`__, |
-|                                   |   Articles [outdated link]/       |
+|                                   |   `                               |
+|                                   | Articles </wiki/index.php?title=A |
+|                                   | rticles&action=edit&redlink=1>`__ |
+|                                   |   [not available anymore]/        |
 |                                   |   `articles <https://extensions.t |
 |                                   | ypo3.org/extension/articles/>`__, |
-|                                   |   ResultBrowser [outdated wiki    |
-|                                   |   link]                           |
+|                                   |   `ResultBrowser                  |
+|                                   | </MVC_Framework/ResultBrowser>`__ |
+|                                   |   [deprecated wiki link]          |
 +-----------------------------------+-----------------------------------+
 
 .. container::
@@ -88,19 +104,23 @@ MVC Framework
 Keywords (Tags)
 ===============
 
-MVC [outdated wiki link], PAC [outdated wiki link], SPL [outdated wiki
-link], ECT [outdated wiki link], lib [outdated wiki link], div [outdated
-wiki link], PHP [outdated wiki link], OOP [outdated wiki link], ORM
-[outdated wiki link], Action Pipeline [outdated wiki link], Design
-Pattern [outdated wiki link]s
+`MVC </Category:MVC>`__ [deprecated wiki link], `PAC </Category:PAC>`__
+[deprecated wiki link], `SPL </Category:SPL>`__ [deprecated wiki link],
+`ECT </Category:ECT>`__ [deprecated wiki link], `lib </Category:Lib>`__
+[deprecated wiki link], `div </Category:Div>`__ [deprecated wiki link],
+`PHP </Category:PHP>`__ [deprecated wiki link], `OOP </Category:OOP>`__
+[deprecated wiki link], `ORM </Category:ORM>`__ [deprecated wiki link],
+`Action Pipeline </Category:Action_Pipeline>`__ [deprecated wiki link],
+`Design Pattern </Category:Design_Pattern>`__ [deprecated wiki link]s
 
 Abstract
 ========
 
-This library for extension [outdated wiki link]s can by used to replace
-the tslib_pibase class. The design implements the MVC pattern (Model
-View Controller) for TYPO3. Structuring your code in the MVC way
-prepares it for a smooth migration to TYPO3 5.0.
+This library for `extension </Category:Extension>`__ [deprecated wiki
+link]s can by used to replace the tslib_pibase class. The design
+implements the MVC pattern (Model View Controller) for TYPO3.
+Structuring your code in the MVC way prepares it for a smooth migration
+to TYPO3 5.0.
 
 Team
 ====
@@ -109,31 +129,35 @@ General
 -------
 
 -  `Elmar Hinz <http://t3flyers.wordpress.com>`__ (project leader)
--  Christian Welzel [outdated link] (kickstarter add-on, API and UML
-   generation)
+-  `Christian Welzel <http://www.camlann.de/de/typo3ecke.html>`__ [not
+   available anymore] (kickstarter add-on, API and UML generation)
 -  `Daniel Brüßler <http://www.patchworking.de>`__ (pear extension, wiki
    maintainance)
--  Steve Ryan [outdated link] (object persistence framework extension)
+-  `Steve Ryan <http://syntithenai.com/>`__ [not available anymore]
+   (object persistence framework extension)
 
 Alpha Branch (focus research, PHP4)
 -----------------------------------
 
 -  `Elmar Hinz <http://t3flyers.wordpress.com>`__ (lead developer,
    research)
--  Ries van Twisk [outdated link] (Smarty [outdated wiki link] view,
+-  `Ries van Twisk <http://www.rvantwisk.nl/>`__ [not available anymore]
+   (`Smarty </Category:Smarty>`__ [deprecated wiki link] view,
    ambassador)
--  `Steffen Kamper <http://www.sk-typo3.de/>`__ (Smarty [outdated wiki
-   link] view, typo3.org)
+-  `Steffen Kamper <http://www.sk-typo3.de/>`__
+   (`Smarty </Category:Smarty>`__ [deprecated wiki link] view,
+   typo3.org)
 
-Beta Branch [outdated wiki link] (focus stable API, PHP5)
----------------------------------------------------------
+`Beta Branch </MVC_Framework/lib_div_Beta_Branch>`__ [deprecated wiki link] (focus stable API, PHP5)
+----------------------------------------------------------------------------------------------------
 
 -  `Jörg Schoppet <http://schoppet.de/>`__ (lead developer, migration to
    beta, PHP5)
--  Robert Lemke [outdated link] (consultant for migration path to TYPO3
-   Neos)
--  Fabien Udriot [outdated link] (team)
--  Johnny Peck [outdated link] (team)
+-  `Robert Lemke <http://robertlemke.de/>`__ [not available anymore]
+   (consultant for migration path to TYPO3 Neos)
+-  `Fabien Udriot <http://omic.ch>`__ [not available anymore] (team)
+-  `Johnny Peck <http://slipcasemedia.com>`__ [not available anymore]
+   (team)
 -  `Philip Almeida <http://lib.idohost.com>`__ (team)
 
 Targets
@@ -153,7 +177,8 @@ Components
 Library
 
 -  `lib <https://extensions.typo3.org/extension/lib/>`__ with
-   ResultBrowser [outdated wiki link]: Library for extensions
+   `ResultBrowser </MVC_Framework/ResultBrowser>`__ [deprecated wiki
+   link]: Library for extensions
 -  `div <https://extensions.typo3.org/extension/div/>`__: Static
    functions for extensions
 
@@ -161,11 +186,14 @@ Related extensions
 
 -  `pear <https://extensions.typo3.org/extension/pear/>`__: Installer
    for pear components
--  kickstarter_mvc [outdated link]/
+-  `kickstarter_mvc </wiki/index.php?title=Kickstarter_mvc&action=edit&redlink=1>`__
+   [not available anymore]/
    `kickstarter__mvc <https://extensions.typo3.org/extension/kickstarter__mvc/>`__:
    Kickstarter add-on for lib/div extensions - *please help with the
    documentation*
--  object persistance framework [outdated link] (Steve Ryan)
+-  `object persistance
+   framework <http://svn.syntithenai.com/svn/t3ext/persistence/>`__ [not
+   available anymore] (Steve Ryan)
 
 Collection
 
@@ -179,22 +207,29 @@ Overview of Technology
    programming <http://en.wikipedia.org/wiki/Object-oriented_programming>`__
 -  `MVC <http://en.wikipedia.org/wiki/Model-view-controller>`__
    architectural pattern
--  MVC Framework/Features of other Frameworks [outdated wiki link] from
-   Nick Weisser
--  MVC Framework/Extending Extensions [outdated wiki link] - overview of
-   several ways to do it
+-  `MVC Framework/Features of other
+   Frameworks </MVC_Framework/Features_of_other_Frameworks>`__
+   [deprecated wiki link] from Nick Weisser
+-  `MVC Framework/Extending
+   Extensions </MVC_Framework/Extending_Extensions>`__ [deprecated wiki
+   link] - overview of several ways to do it
 -  `PAC <http://en.wikipedia.org/wiki/Presentation-abstraction-control>`__
    architectural pattern
 -  `Standard PHP Libray (SPL) <http://php.net/spl>`__
--  PHP5 featured [outdated link]
+-  `PHP5 featured <http://www.php.net/manual/en/migration5.php>`__ [not
+   available anymore]
 -  PHP4 compatible
 -  Using PEAR channels with
    `pear <https://extensions.typo3.org/extension/pear/>`__
--  Coding Guidelines [outdated link]
+-  `Coding
+   Guidelines <https://docs.typo3.org/typo3cms/CodingGuidelinesReference/>`__
+   [not available anymore]
 -  `PHP template
    engine <http://en.wikipedia.org/wiki/Template_engine_%28web%29>`__
--  Smarty template engine [outdated link] (wiki-keywords: Smarty
-   [outdated wiki link] template engine [outdated wiki link])
+-  `Smarty template engine <http://smarty.php.net/>`__ [not available
+   anymore] (wiki-keywords: `Smarty </Category:Smarty>`__ [deprecated
+   wiki link] `template engine </Category:Template_engine>`__
+   [deprecated wiki link])
 -  Rapid startup with
    `kickstarter__mvc <https://extensions.typo3.org/extension/kickstarter__mvc/>`__,
    the add-on for the
@@ -222,7 +257,8 @@ plugins. All plugins are objects with a common outer interface:
 
 .. container::
 
-   PHP Script [outdated wiki link]
+   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -271,9 +307,10 @@ The Tree of Plugins (TOP)
 
 Lib/div uses the MVC pattern in a nested way. Each node (agent) of the
 tree is a full MVC plugin. Plugin controllers can call sub-plugins. The
-output of sub-plugins is nested into the own view. PAC [outdated wiki
-link] is an architecural pattern that describes this aspect of the
-lib/div architecture approximately. `PAC on
+output of sub-plugins is nested into the own view.
+`PAC </Category:PAC>`__ [deprecated wiki link] is an architecural
+pattern that describes this aspect of the lib/div architecture
+approximately. `PAC on
 wikipedia <http://en.wikipedia.org/wiki/Presentation-abstraction-control>`__
 
 http://upload.wikimedia.org/wikipedia/commons/4/4a/Pac-schema.png
@@ -292,8 +329,8 @@ dispatcher object, which matches the incomming action parameters to
 action methods. The action methods define the tasks of different objects
 of model and view, that finally build the output string.
 
-The Action Pipeline [outdated wiki link]
-----------------------------------------
+The `Action Pipeline </Action_Pipeline>`__ [deprecated wiki link]
+-----------------------------------------------------------------
 
 Generally you can vitalize the actions methods of lib/div with any code
 you like, but the library also offers a standard system to build the
@@ -315,8 +352,8 @@ data can be routed. The processors return result status, to which
 different pipes can be assigned.
 
 The pipes are the methods by use of which the processors are plugged to
-each other. This methods are part of the inherited SPL [outdated wiki
-link] interfaces.
+each other. This methods are part of the inherited
+`SPL </Category:SPL>`__ [deprecated wiki link] interfaces.
 
 The flow of the action pipeline can be either controlled by plain PHP
 actions or by the usage of a special controller, that can be fully
@@ -409,8 +446,9 @@ General targets
 07/08/08 Last milestone (alpha ms -1)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
--  MVC_Framework/ResultBrowser [outdated wiki link] widget [outdated
-   wiki link]
+-  `MVC_Framework/ResultBrowser </MVC_Framework/ResultBrowser>`__
+   [deprecated wiki link] `widget </Category:Widget>`__ [deprecated wiki
+   link]
 -  Basic kickstarter support is finished.
 
 ::
@@ -423,7 +461,8 @@ General targets
 07/08/15 Alpha final (alpha final)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
--  TS configuration of the Action Pipeline [outdated wiki link].
+-  TS configuration of the `Action Pipeline </Action_Pipeline>`__
+   [deprecated wiki link].
 -  Feature freeze.
 
 While working on the RC for BETA the ALPHPA branch will be maintained.
@@ -447,15 +486,17 @@ BETA.
 
 -  Bugfixes
 
-Beta Branch [outdated wiki link]
---------------------------------
+`Beta Branch </MVC_Framework/lib_div_Beta_Branch>`__ [deprecated wiki link]
+---------------------------------------------------------------------------
 
 .. _general-targets-1:
 
 General targets
 ^^^^^^^^^^^^^^^
 
-See MVC_Framework/lib_div_Beta_Branch [outdated wiki link].
+See
+`MVC_Framework/lib_div_Beta_Branch </MVC_Framework/lib_div_Beta_Branch>`__
+[deprecated wiki link].
 
 -  Performance optimization: Singleton patterns, etc.
 -  The usibility is improved.
@@ -549,62 +590,77 @@ Stable release (stable)
 Documents
 =========
 
-external link [outdated wiki link]s
+`external link </Category:External_link>`__ [deprecated wiki link]s
 
--  Generated API - lib and div - version alpha-SVN-2007-08-17-2046
-   (phpdocumentor) [outdated link] -Christian Welzel
--  Generated API - lib - version 0.0.21 (phpdocumentor) [outdated link]
+-  `Generated API - lib and div - version alpha-SVN-2007-08-17-2046
+   (phpdocumentor) <http://www.camlann.de/apidoc/>`__ [not available
+   anymore] -Christian Welzel
+-  `Generated API - lib - version 0.0.21
+   (phpdocumentor) <http://lib.idohost.com/phpdocumentor/>`__ [not
+   available anymore] --Philip Almeida
+-  `Generated API - lib - version 0.0.21
+   (xref) <http://lib.idohost.com/xref/>`__ [not available anymore]
    --Philip Almeida
--  Generated API - lib - version 0.0.21 (xref) [outdated link] --Philip
-   Almeida
--  Generated UML diagram - lib and div - version
-   alpha-SVN-2007-08-17-2046 [outdated link] -Christian Welzel
+-  `Generated UML diagram - lib and div - version
+   alpha-SVN-2007-08-17-2046 <http://www.camlann.de/apidoc/tx_libdiv.png>`__
+   [not available anymore] -Christian Welzel
 -  `lib-div-slideshow.pdf - Slideshow of the MVC design for extensions
    (527 K) <https://extensions.typo3.org/extension/lib/>`__
--  Apples: Hello World Tutorial [outdated link]
--  Bananas: Fundamental Tutorial [outdated wiki link]
--  Web presentation of lib/div [outdated link] by Frank Thelemann from
-   the TUG Leipzig
+-  `Apples: Hello World
+   Tutorial </wiki/index.php?title=Apples&action=edit&redlink=1>`__ [not
+   available anymore]
+-  `Bananas: Fundamental Tutorial </Bananas>`__ [deprecated wiki link]
+-  `Web presentation of
+   lib/div <http://www.tugle.de/know_how/tipps/typo3_und_das_mvc_konzept.html>`__
+   [not available anymore] by Frank Thelemann from the TUG Leipzig
 -  `lib/div manual for
    developers <https://docs.typo3.org/typo3cms/extensions/lib/>`__
 -  `lib/div manual for template
    editors <https://docs.typo3.org/typo3cms/extensions/lib/>`__
--  The Definitive Guide to TYPO3 - Neos - for Developers [outdated link]
--  The Definitive Guide to TYPO3 - Migrationpath to Neos - A simple
-   addressbook [outdated link]
+-  `The Definitive Guide to TYPO3 - Neos - for
+   Developers </wiki/index.php?title=Migrationpath_to_Neos&action=edit&redlink=1>`__
+   [not available anymore]
+-  `The Definitive Guide to TYPO3 - Migrationpath to Neos - A simple
+   addressbook </wiki/index.php?title=Migrationpath_to_Neos&action=edit&redlink=1>`__
+   [not available anymore]
 
 Glossary and Coding Guidelines - ECT/MVC
 ----------------------------------------
 
 -  `lib/div coding guidelines (first
    draft) <https://docs.typo3.org/typo3cms/extensions/lib/>`__
--  ECT/Coding_Guidelines [outdated wiki link]
+-  `ECT/Coding_Guidelines </ECT/Coding_Guidelines>`__ [deprecated wiki
+   link]
 
 Reference Extensions
 ====================
 
--  Apples [outdated link]/
+-  `Apples </wiki/index.php?title=Apples&action=edit&redlink=1>`__ [not
+   available anymore]/
    `apples <https://extensions.typo3.org/extension/apples/>`__:
    Minimalistic "Hello World" demo
--  Bananas [outdated wiki link]/
+-  `Bananas </Bananas>`__ [deprecated wiki link]/
    `bananas <https://extensions.typo3.org/extension/bananas/>`__:
    Beginners example - the obligatory guestbook with a submit form and
    validation
--  Cherries [outdated link]/
+-  `Cherries </wiki/index.php?title=Cherries&action=edit&redlink=1>`__
+   [not available anymore]/
    `cherries <https://extensions.typo3.org/extension/cherries/>`__
--  Articles [outdated link]/
+-  `Articles </wiki/index.php?title=Articles&action=edit&redlink=1>`__
+   [not available anymore]/
    `articles <https://extensions.typo3.org/extension/articles/>`__:
    Simple article extension, first prototype for a lib/div extension,
    documented in the book `TYPO3
    4.0 <http://www.galileocomputing.de/katalog/buecher/titel/gp/titelID-1230?GalileoSession=02163241A21wy-93nX4>`__
    (Galileo Press, summer 2006)
--  EFAQ Project [outdated wiki link]/
+-  `EFAQ Project </EFAQ_Project>`__ [deprecated wiki link]/
    `efaq <https://extensions.typo3.org/extension/efaq/>`__: FAQ with
-   multiple views to choice from, best practice example, educational
-   project [outdated wiki link] for advanced team based extension
-   development
--  MVC_Framework/ResultBrowser [outdated wiki link] is the first
-   MVC-widget [outdated wiki link]. It's part of lib.
+   multiple views to choice from, best practice example, `educational
+   project </EFAQ_Project>`__ [deprecated wiki link] for advanced team
+   based extension development
+-  `MVC_Framework/ResultBrowser </MVC_Framework/ResultBrowser>`__
+   [deprecated wiki link] is the first MVC-`widget </Category:Widget>`__
+   [deprecated wiki link]. It's part of lib.
 -  Realstate Search Interface
    (realty_search)\ `[1] <https://extensions.typo3.org/extension/realty__search/>`__
    (contact: philip.almeida): A search engine interface for Realty
@@ -650,15 +706,22 @@ Relations
 
 *Other relating projects to lib/div*
 
--  features of other frameworks: MVC Framework/Features of other
-   Frameworks [outdated wiki link] - by Nick Weisser
--  subproject/ component: MVC_Framework/ErrorObject [outdated wiki link]
--  This will be the base for Party_Information_Framework [outdated
-   link], I suppose --Daniel Brüßler [outdated wiki link] 20:31, 6
+-  features of other frameworks: `MVC Framework/Features of other
+   Frameworks </MVC_Framework/Features_of_other_Frameworks>`__
+   [deprecated wiki link] - by Nick Weisser
+-  subproject/ component:
+   `MVC_Framework/ErrorObject </MVC_Framework/ErrorObject>`__
+   [deprecated wiki link]
+-  This will be the base for
+   `Party_Information_Framework </wiki/index.php?title=Party_Information_Framework&action=edit&redlink=1>`__
+   [not available anymore], I suppose --`Daniel
+   Brüßler </User:Patchworker>`__ [deprecated wiki link] 20:31, 6
    January 2007 (CET)
 -  the kickstarter addon
    `kickstarter__mvc <https://extensions.typo3.org/extension/kickstarter__mvc/>`__
--  maybe a relation to TYPO3 Neos Content Repository [outdated link]
+-  maybe a relation to `TYPO3 Neos Content
+   Repository </wiki/index.php?title=TYPO3_Neos_Content_Repository&action=edit&redlink=1>`__
+   [not available anymore]
 
 Todo
 ====
