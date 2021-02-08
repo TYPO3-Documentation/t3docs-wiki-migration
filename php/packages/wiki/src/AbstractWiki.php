@@ -281,10 +281,16 @@ abstract class AbstractWiki
                 $headerMap[key($headerMap)] = $level;
             }
 
-            krsort($headerMap);
             foreach ($headerMap as $originalLevel => $actualLevel) {
                 $pageBody = str_replace(
                     ['<h'.$originalLevel, 'h'.$originalLevel.'>'],
+                    ['<intermediate'.$originalLevel, 'intermediate'.$originalLevel.'>'],
+                    $pageBody
+                );
+            }
+            foreach ($headerMap as $originalLevel => $actualLevel) {
+                $pageBody = str_replace(
+                    ['<intermediate'.$originalLevel, 'intermediate'.$originalLevel.'>'],
                     ['<h'.$actualLevel, 'h'.$actualLevel.'>'],
                     $pageBody
                 );
