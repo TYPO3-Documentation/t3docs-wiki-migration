@@ -453,7 +453,6 @@ Alternatively, you can just set up a second TYPO3 instance, download the
 translation files from repository, and just deploy the entire
 »typo3conf/l10n«-directory to your other site.
 
-========================================
 Migrating locallang.xml to locallang.xlf
 ========================================
 

@@ -9,7 +9,6 @@ Webspace vs. Webserver
 << `back </Typo3_Installation_Basics#Webspace_vs._Webserver>`__
 [deprecated wiki link]
 
-=================
 What is Webspace?
 =================
 
@@ -67,7 +66,6 @@ webspaces as low as 10 or 15 up to 50 etc. That's why resellers are
 often webdesigner, web agencies, that want to work with a enviroment
 they are used to.
 
-==================
 Webspace and TYPO3
 ==================
 
@@ -79,7 +77,7 @@ influence on the kind of installation that is done on the webserver your
 webspace is set up.
 
 Outdated installations
-======================
+----------------------
 
 What happens is that because sometimes there are several hundred
 websites running on one webserver the hoster is hesitating to upgrade
@@ -99,7 +97,7 @@ running on webwerver20 with the updated versions and the other one on
 webserver3 with outdated installations.
 
 Memory
-======
+------
 
 The other issue that arises with TYPO3 is the memory for PHP. In most
 cases with webspaces it is set up to 8 MB. Current TYPO3 version
@@ -107,7 +105,7 @@ recommend 25 MB and more. People find it the hardest to convince their
 hoster to increase memory usage as it affects all the webspace users.
 
 ImageMagick and others
-======================
+----------------------
 
 TYPO3 uses several tools among which ImageMagick is hardly ever
 installed on webspace servers. Again, in order for you to install
@@ -115,7 +113,7 @@ ImageMagick you need root access or special permission to do so within
 your webspace.
 
 There is light at the end of the tunnel
-=======================================
+---------------------------------------
 
 Regardless of many problems that can arise with webspace there are more
 and more hosters who become aware of TYPO3 and are willing to set up the
@@ -124,7 +122,6 @@ accostumed to one hoster that doesn't provide TYPO3 support you end up
 switching to one that does and either have to handle two or more hosters
 or eventually switch all your websites to the one that does.
 
-==================
 Your own webserver
 ==================
 
@@ -141,7 +138,7 @@ starting five years ago and how we progressed through the different
 stages. For right now, just some information in a nutshell.
 
 Power
-=====
+-----
 
 One really good thing about a webserver is that you don't always need
 the latest and best hardware. Especially with Linux even older computers
@@ -150,7 +147,7 @@ don't have a lot of user access you can even afford a few high traffic
 websites on the same server.
 
 Service contract
-================
+----------------
 
 It might be valuable for you to get a service contract, especially in
 the beginning. Ask for the specs on the service contract to find out
@@ -169,7 +166,7 @@ to newer version (minor, bug fixes) of your modules and especially the
 backup.
 
 Managed server
-==============
+--------------
 
 This certainly is the top of the class maintenance you can get from a
 external hoster. Saying it with the words of my hoster: Your server is
@@ -184,7 +181,7 @@ If you trust your hoster, listen to him. His experience with his
 equipment is the key to a good running webserver.
 
 Backup
-======
+------
 
 Although very important, hosting providers tend not to care so much
 about backups, at least if it's not their own server.
@@ -194,7 +191,6 @@ second harddisc installed and a backup program set up on the server.
 Don't think that your hosting provider takes care of it by himself. Ask
 him and invest the money. It's worth it.
 
-============================
 Your own webserver and TYPO3
 ============================
 

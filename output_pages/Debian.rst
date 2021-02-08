@@ -21,15 +21,14 @@ wiki link]
 Debian is an important, very secure and stable OperatingSystem and many
 people use this page, so it's a HOT topic.
 
-============
 Requirements
 ============
 
 For ready-to-go-installer
-=========================
+-------------------------
 
 Debian 3.0 Woody
-----------------
+^^^^^^^^^^^^^^^^
 
 You need at least a clean installation of **Debian 3.0 Woody**. To
 install Debian `go here </Debian#Install_Debian_3.0_Woody>`__
@@ -39,7 +38,7 @@ install Debian `go here </Debian#Install_Debian_3.0_Woody>`__
 the current GD libraries.
 
 Root access
------------
+^^^^^^^^^^^
 
 In order to install with the ready-to-go-installer you need **root
 access** to the server. If you rent a **webspace** you don't get root
@@ -47,21 +46,20 @@ access (at least it is very unlikely) and have to install Typo3
 **manually** (see below)
 
 For manual installation
-=======================
+-----------------------
 
 You need a running **LAMP installation** that meet the `minimum
 requirements </Typo3_Installation_Basics#System_requirements>`__
 [deprecated wiki link] for Typo3.
 
 What about Apache, MySQL and PHP?
-=================================
+---------------------------------
 
 You **don't need** Apache, MySQL and PHP installed. The installer
 package can do this for you. However if you have already installed
 Apache, MySQL and PHP you still can run the installer which **skips**
 the installation process automatically.
 
-========================
 Ready-To-Go-Installation
 ========================
 
@@ -70,7 +68,7 @@ required to have root access. If you have root access than you probably
 have your own webserver (even if rented), not a webspace.
 
 Install Debian
-==============
+--------------
 
 Install Debian on your webserver.
 
@@ -78,7 +76,7 @@ Install Debian on your webserver.
 be lost.**
 
 Update sources.list
-===================
+-------------------
 
 1. Open sources.list
 
@@ -104,7 +102,7 @@ Your sources.list should look something like this:
    CTRL-X + y + [ENTER]
 
 Update your Debian installation and get the Typo3 packages
-==========================================================
+----------------------------------------------------------
 
 1. Update with apt-get
 
@@ -157,7 +155,7 @@ in setting up Typo3. Some parts are going to be handled by Debian or the
 appropriate Installer of a certain package.
 
 Install a TYPO3 site
-====================
+--------------------
 
 In order to install a new TYPO3 site you need to set a directory where
 you want the site to be installed to
@@ -181,7 +179,7 @@ procedure and all your websites that point to **latest** will be
 updated.
 
 Access your TYPO3 site
-======================
+----------------------
 
 In order to test if everything worked so far to continue with the `TYPO3
 installation </Debian#Install_TYPO3>`__ [deprecated wiki link] just
@@ -192,7 +190,7 @@ access your newly install TYPO3 site with a browser:
    http://192.168.1.25/myfirsttypo3 [not available anymore]
 
 IP address
-----------
+^^^^^^^^^^
 
 To get your IP address, type
 
@@ -208,7 +206,7 @@ The value after **inet addr;** is your IP address. In our example it is
 192.168.1.25.
 
 Add PHP
--------
+^^^^^^^
 
 If you follow the installation process from the very beginning (Debian
 installation) you probably end up with a directory listing at this
@@ -328,7 +326,7 @@ like this:
    apachectl graceful
 
 Test your TYPO3 site
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 If everything worked out fine you should be able to access your TYPO3
 site with
@@ -346,12 +344,11 @@ and get the following message:
 
 Now, you are ready to install TYPO3.
 
-===================
 Manual Installation
 ===================
 
 Download the source package
-===========================
+---------------------------
 
 Go to the the packages page of TYPO3.
 
@@ -381,7 +378,7 @@ the Debian Installation instructions you need to install wget first.
    wget http://typo3.sunsite.dk/unix-archives/3.7.0/typo3_src/typo3_src-3.7.0.tar.gz [not available anymore]
 
 Get the Source Package Ready
-============================
+----------------------------
 
 1. Untar the source package.
 
@@ -414,7 +411,7 @@ Get the Source Package Ready
    ln -s typo3_src-3.7.0 latest
 
 Download the Dummy Package
-==========================
+--------------------------
 
 1. Position yourself to the document root
 
@@ -429,7 +426,7 @@ Download the Dummy Package
    wget http://typo3.sunsite.dk/unix-archives/3.7.0/dummy/dummy-3.7.0.tar.gz [not available anymore]
 
 Get the Dummy Package Ready
-===========================
+---------------------------
 
 1. Untar the source package.
 
@@ -464,7 +461,7 @@ correct link.
    ln -s /var/lib/typo3/latest typo3_src
 
 Test your installation
-======================
+----------------------
 
 Use your browser to test your installation:
 
@@ -473,12 +470,11 @@ Use your browser to test your installation:
    http://192.168.1.25/myfirsttypo3 [not available anymore]
 
 More help
-=========
+---------
 
 -  in german: `linuxwiki.de <http://linuxwiki.de/Debian>`__,
    `debian.org <http://www.debian.org/devel/debian-desktop>`__
 
-=============
 Miscellaneous
 =============
 
@@ -486,7 +482,7 @@ This section cover any additional topic about TYPO3 and debian related
 package or information.
 
 Image processing package for TYPO3
-==================================
+----------------------------------
 
 Debian Sid
 http://lists.typo3.org/pipermail/typo3-debian/2004-August/000836.html
@@ -495,7 +491,7 @@ Debian Sarge
 http://lists.typo3.org/pipermail/typo3-debian/2004-August/000835.html
 
 Debian Woody
-============
+------------
 
 `Running GIF enabled packages on Debian
 Woody </Running_GIF_enabled_packages_on_Debian_Woody>`__ [deprecated

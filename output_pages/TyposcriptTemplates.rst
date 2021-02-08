@@ -25,12 +25,11 @@ Introduction.
 
 --------------
 
-==============================
 TypoScript templates structure
 ==============================
 
 Overview
-========
+--------
 
 A TypoScript ("TS") template has two parts: the actual script (this is
 called the TypoScript "setup") and TypoScript constants. This is
@@ -43,14 +42,14 @@ overview of an actual template structure. To help with this, TYPO3
 provides some useful tools.
 
 Organizing templates
-====================
+--------------------
 
 A good practice to maintain templates is to create libraries of
 TypoScript code in a template and then include that template in another
 one to reuse the code. This is the point of static templates.
 
 Elements of a template
-======================
+----------------------
 
 As said above, a TypoScript template is divided into constants and
 setup. The constants are simple values meant that can be substituted
@@ -79,7 +78,7 @@ static (from extensions)" field.
 | |Includes.png|
 
 File inclusions
-===============
+---------------
 
 Both the constants and the setup fields can refer to an external file
 containing TypoScript by using the ``<INCLUDE_TYPOSCRIPT>`` directive.
@@ -101,34 +100,34 @@ An example:
   Syntax and In-depth Study" (extension: doc_core_ts).
 
 Tools
-=====
+-----
 
 | The Web > Template module contains four tools that can greatly help
   with the creation and management of TypoScript templates. They are
   described hereafter.
 
 Constants Editor
-----------------
+^^^^^^^^^^^^^^^^
 
 **TODO**
 
 Info/Modify
------------
+^^^^^^^^^^^
 
 **TODO**
 
 TypoScript Object Browser
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **TODO**
 
 Template Analyzer
------------------
+^^^^^^^^^^^^^^^^^
 
 **TODO**
 
 Helpful Links
-=============
+-------------
 
 -  `Myth: TypoScript Is a Scripting
    Language <https://t3terminal.com/blog/typoscript/>`__

@@ -16,10 +16,10 @@ markers.
     debug ($markerArray, '$markerArray');
 
 General Single Markers
-======================
+----------------------
 
 Additional text markers
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 You can add multiple additional texts to each product together with a
 marker suffix, e.g. "MYMARKER". The contents of the text has the marker
@@ -37,7 +37,7 @@ The title has the marker
    ###PRODUCT_TEXT_MYMARKER_TITLE###
 
 Errors and Messages Markers
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 These and many more markers are stored in the file
 tt_products/marker/locallang.xml and the language file
@@ -72,7 +72,7 @@ language specific conditions around it to support multiple languages:
       [globalVar = GP:L = 1]
 
 Select Box
-----------
+^^^^^^^^^^
 
 -  selector for a delivery address (pick_store):
 
@@ -81,7 +81,7 @@ Select Box
    ###DELIVERY_STORE_SELECT###
 
 Form Url Markers
-----------------
+^^^^^^^^^^^^^^^^
 
 These markers are generally used as the destination of a form.
 
@@ -119,10 +119,10 @@ to be different for every product. Use the marker ###URL_ITEM### in item
 lists instead.
 
 Item Single Markers
-===================
+-------------------
 
 Product
--------
+^^^^^^^
 
 ::
 
@@ -144,7 +144,7 @@ E.g. ###ARTICLE_TITLE###
 ###ORDER_TRACKING_NO###
 
 Article
--------
+^^^^^^^
 
 ::
 
@@ -153,7 +153,7 @@ Article
 see product
 
 Category
---------
+^^^^^^^^
 
 ::
 
@@ -162,7 +162,7 @@ Category
 see product
 
 Front End User / Order Address
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ::
 
@@ -176,7 +176,7 @@ included here. The former marker ###FE_USER_TT_PRODUCTS_DISCOUNT### is
 deprecated.
 
 Order
------
+^^^^^
 
 ::
 
@@ -196,7 +196,7 @@ In the basket view you have reduced number of markers:
 automatically.)
 
 Image
------
+^^^^^
 
 Use the constants separateImage=1 to show the product images with their
 own markers. Set limitImage=10 to allow 10 different image markers.
@@ -226,7 +226,7 @@ Marker for the first image of a product which has its own setup:
    }
 
 Price
------
+^^^^^
 
 There are different markers available. The article markers will be used
 for the corresponding product, if no article has been assigned to the
@@ -287,10 +287,10 @@ added.
 See calculated price markers. A prefix "ARTICLE_" must be added.
 
 Plugin Specific Single Marker
-=============================
+-----------------------------
 
 Basket
-------
+^^^^^^
 
 This includes the following display modes:
 
@@ -314,7 +314,7 @@ It also includes the
 basket checkbox no. 1 has been checked before. (v3.0.0)
 
 Item Row
-^^^^^^^^
+''''''''
 
 ###LINE_NO### (v3.0.0):
 
@@ -325,7 +325,7 @@ Item Row
 .. _price-1:
 
 Price
-^^^^^
+'''''
 
 You sometimes also have a PRICE2 marker which will give the value for
 the second price field. Many more price numbers can be supported by
@@ -439,15 +439,15 @@ for the handling line 10, 20 with without any tax
 ###PRICE_VAT###: calculated tax sum
 
 Product List
-------------
+^^^^^^^^^^^^
 
 Links
-^^^^^
+'''''
 
 ###URL_ITEM###: link to the product single view (v3.0.0)
 
 Page Browser
-^^^^^^^^^^^^
+''''''''''''
 
 ###CURRENT_PAGE###: current page number
 
@@ -456,14 +456,14 @@ Page Browser
 ###BROWSE_LINKS###: page browser
 
 Other
-^^^^^
+'''''
 
 ###IMAGE_BASKET###: (basket icon image)
 
 ###HIDDENFIELDS###: (hidden entry fields will show up here)
 
 Content Object Markers
-======================
+----------------------
 
 External extensions can be called by special markers with underlying
 TypoScript. These markers are only valid inside of the subpart
@@ -471,20 +471,19 @@ TypoScript. These markers are only valid inside of the subpart
 which is itself inside of several other subparts.
 
 Ratings
--------
+^^^^^^^
 
 The ratings extension provides the rating of each product.
 
 ###RATING###: ratings extension
 
 Comments
---------
+^^^^^^^^
 
 The tt_board extension provides the commenting of each product.
 
 ###COMMENT###: tt_board extension
 
-===============
 Subpart Markers
 ===============
 
@@ -497,10 +496,10 @@ A subpart marker has the following format
      <!-- ###EXAMPLE_SUBPART_MARKER### end -->
 
 Plugin Specific Subpart Markers
-===============================
+-------------------------------
 
 Basket to Finalize Main Subparts
---------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ###BASKET_TEMPLATE###: (Basket: shopping cart, options)
 
@@ -554,7 +553,7 @@ HTML format sent to shop.)
 ###DELIVERY_PDF_FOOTER_TEMPLATE###: (attach PDF: footer of delivery)
 
 Basket internal
----------------
+^^^^^^^^^^^^^^^
 
 ###MESSAGE_MINQUANTITY_ERROR###: Error message subpart if less than the
 minimum quantity of a product has been put into the basket
@@ -572,7 +571,7 @@ has been generated.
 "recs[delivery][checkbox1]" has been checked. (v3.0.0)
 
 Basket Single Item
-^^^^^^^^^^^^^^^^^^
+''''''''''''''''''
 
 ###IS_DOWNLOAD###: If a download object with an assigned FAL record has
 been related to a product and a combination of both has been put into
@@ -581,7 +580,7 @@ the basket. (v3.0.0)
 .. _product-list-1:
 
 Product List
-------------
+^^^^^^^^^^^^
 
 ###ITEM_LIST_RELATED_TEMPLATE###: (Products: related products) replaces
 ###PRODUCT_RELATED_UID###
@@ -598,12 +597,12 @@ products by system category. v2.12.0) replaces
 ###ITEM_LIST_DOWNLOADS_TEMPLATE###: (Orders: downloads)
 
 Single Item
-^^^^^^^^^^^
+'''''''''''
 
 ###LINK_ITEM###: link to the item (product) single view
 
 Category and Items
-^^^^^^^^^^^^^^^^^^
+''''''''''''''''''
 
 ###ITEM_CATEGORY_AND_ITEMS###: repeated part in the list view: category
 with all products from this category. Only the following format for
@@ -617,7 +616,7 @@ integrated subparts is supported:
 .. _page-browser-1:
 
 Page Browser
-^^^^^^^^^^^^
+''''''''''''
 
 ###LINK_NEXT### next products page
 
@@ -629,14 +628,14 @@ browser which comes with the extension div2007:
 "plugin.tt_products.conf.tt_products.LIST.view.browser = div2007".
 
 Article List
-------------
+^^^^^^^^^^^^
 
 ###ITEM_LIST_RELATED_ARTICLES_TEMPLATE### (Products: related articles)
 
 ###ARTICLE_LIST_TEMPLATE### (Articles: list)
 
 Product Single
---------------
+^^^^^^^^^^^^^^
 
 ###ITEM_SINGLE_DISPLAY### (Products: single view)
 
@@ -644,17 +643,17 @@ Product Single
 product)
 
 Category Single
----------------
+^^^^^^^^^^^^^^^
 
 ###CATEGORY_SINGLE_DISPLAY### (Categories: single)
 
 Search Form
------------
+^^^^^^^^^^^
 
 ###ITEM_SEARCH### (Products: search)
 
 Tracking
---------
+^^^^^^^^
 
 ###TRACKING_DISPLAY_INFO### (The main subpart for the tracking which
 contains subsections)
@@ -668,17 +667,17 @@ the tracking status)
 ###TRACKING_TEMPLATE###: see Basket
 
 Orders
-------
+^^^^^^
 
 ###ORDERS_LIST_TEMPLATE###
 
 Downloads
----------
+^^^^^^^^^
 
 ###DOWNLOAD_LIST_TEMPLATE###
 
 Category Lists
---------------
+^^^^^^^^^^^^^^
 
 ###ITEM_CATLIST_TEMPLATE### (Categories: list)
 
@@ -687,7 +686,7 @@ Category Lists
 ###ITEM_CATEGORY_MENU_TEMPLATE### (Categories: menu)
 
 DAM Category Lists
-------------------
+^^^^^^^^^^^^^^^^^^
 
 ###ITEM_DAMCATLIST_TEMPLATE### (DAM Categories: list)
 
@@ -696,7 +695,7 @@ DAM Category Lists
 ###ITEM_DAMCATMENU_TEMPLATE### (DAM Categories: menu)
 
 Address Lists
--------------
+^^^^^^^^^^^^^
 
 ###ITEM_ADLIST_TEMPLATE### (Addresses: list)
 
@@ -705,7 +704,7 @@ Address Lists
 ###ITEM_ADDRESS_MENU_TEMPLATE### (Adresses: menu)
 
 Specials
---------
+^^^^^^^^
 
 ###BASKET_ORDERCONFIRMATION_NOSAVE_TEMPLATE###
 
@@ -725,10 +724,10 @@ generation of the order confirmation email in HTML format.)
 base for extensions based on the Trasactor API)
 
 General Subpart Markers
-=======================
+-----------------------
 
 Errors and Messages Subparts
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ###MEMO_NOT_LOGGED_IN### (If the MEMO list requires a login and when no
 FE user is logged in)
@@ -762,7 +761,7 @@ logged in FE users and no user is logged in.)
 has not been reached.)
 
 Special Features
-----------------
+^^^^^^^^^^^^^^^^
 
 ###FE_GROUP_1_TEMPLATE### (If a FE user is logged in which is a member
 of the FE group with id 1)
@@ -772,7 +771,7 @@ of the FE group with id 1)
 ###NOLOGIN_TEMPLATE### (If no FE user is logged)
 
 Product, Article and Front End User
------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This can be the item part inside of the list view or single view. All
 subpart markers are in capital letters. For articles use the form

@@ -15,7 +15,6 @@ Using the PHPUnit extension for TYPO3 CMS in PhpStorm
       `Unit_Testing_TYPO3 <unit-testing-typo3>`__ on how to properly
       execute test suites.
 
-============
 Introduction
 ============
 
@@ -27,7 +26,6 @@ Using the builtin PHPUnit test feature with TYPO3 CMS extensions is not
 possible out of the box, as far as is known. This guide shows how to
 work around that.
 
-=====
 Guide
 =====
 
@@ -37,7 +35,7 @@ testing </wiki/index.php?title=Functional_testing&action=edit&redlink=1>`__
 [not available anymore]
 
 Step 1
-======
+------
 
 First of all, make sure that you can run unit tests via the CLI.
 
@@ -60,13 +58,13 @@ If you experience issues, make sure that the extension is installed and
 the backend user *\_cli_phpunit* was created.
 
 Step 2
-======
+------
 
 In PhpStorm, go to File -> Settings -> External Tools and click on
 "Add...". On OS X, go to Preferences -> External Tools.
 
 Step 3
-======
+------
 
 -  Give your new external tool a name, e.g.: "TYPO3 PHPUnit Test" and a
    group, e.g.: "phpunit".
@@ -80,7 +78,7 @@ $ProjektFileDir$ is the root of the project, the root folder of a TYPO3
 website. If you have different project settings, adjust accordingly.
 
 Step 4
-======
+------
 
 -  Go to Preferences -> Keymap.
 -  Search for the new external tool, in this case "TYPO3 PHPUnit Test",
@@ -89,20 +87,19 @@ Step 4
 -  Assign a key and click "OK".
 
 Step 5
-======
+------
 
 Open a file containing unit tests and execute them by either using the
 shortcut or selecting the command in the menu: Tools -> "TYPO3 PHPUnit
 Test"
 
-=========================================================
 Alternative Configuration to run Unit Tests from PhpStorm
 =========================================================
 
 NOTE: this was tested under **TYPO3 6.0 in Windows**.
 
 Prerequicities
-==============
+--------------
 
 -  You must have working TYPO3 installation locally.
 -  You must have EXT:phpunit installed.
@@ -113,7 +110,7 @@ Prerequicities
    Settings" -> "PHP"). You may use original from php.net.
 
 Configure PHPUnit to run locally
-================================
+--------------------------------
 
 -  Open "Project Settings" -> "PHP" -> "PHPUnit", choose "Use custom
    loader" and specify path to autoload.php (either use <absolute
@@ -130,7 +127,6 @@ Configure PHPUnit to run locally
 NOTE: **"Run with code coverage" isn't working yet** with such a method,
 so you still need PHPUnit BE module for that.
 
-=========================================
 Configuration for one testsuite/test only
 =========================================
 
@@ -138,7 +134,7 @@ For running only one test or test suite, you have to add some arguments
 to your shell command:
 
 Running one testsuite
-=====================
+---------------------
 
 .. container::
 
@@ -152,7 +148,7 @@ Running one testsuite
       php --some-php-args /path/to/TYPO3/cli_dispatch.phpsh phpunit classNameOrTestSuiteName path/to/tests/
 
 Running one test
-================
+----------------
 
 .. container::
 
@@ -165,12 +161,11 @@ Running one test
 
       php --filter myFancyTestName /path/to/TYPO3/cli_dispatch.phpsh phpunit classNameOrTestSuiteName path/to/tests/
 
-====
 TODO
 ====
 
 Testing one class/method only
-=============================
+-----------------------------
 
 There is a `feature request for PhpStorm to add two other macros for
 external tools <http://youtrack.jetbrains.net/issue/WI-4699>`__. One
@@ -180,4 +175,4 @@ macros will be included you can easily test the current class or even
 method = test.
 
 Adding screenshots
-------------------
+~~~~~~~~~~~~~~~~~~

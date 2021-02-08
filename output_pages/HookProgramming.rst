@@ -62,7 +62,6 @@ Usage of a `hook </Category:Hook>`__ [deprecated wiki link]:
       its necessity and ask for its inclusion into the official TYPO3
       source code.
 
-===============
 Hook references
 ===============
 
@@ -75,7 +74,6 @@ Hook references
 -  https://typo3.org/documentation/article/how-to-use-existing-hooks-in-your-own-extension/
    [not available anymore] How to use
 
-=====================================
 Registered hooks in your installation
 =====================================
 

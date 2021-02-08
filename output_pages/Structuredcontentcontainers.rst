@@ -8,7 +8,6 @@ Blueprints/StructuredContentContainers
 
 `<- Back to blueprints overview </Blueprints>`__ [deprecated wiki link]
 
-===================================================================
 Blueprint: Grouped and nested content structures in the page module
 ===================================================================
 
@@ -31,15 +30,15 @@ Blueprint: Grouped and nested content structures in the page module
 +----------------------+----------------------------------------------+
 
 Target Versions/Milestones
-==========================
+--------------------------
 
 -  To be defined
 
 Goals / Motivation
-==================
+------------------
 
 Some history
-------------
+^^^^^^^^^^^^
 
 In the early days of TYPO3 we had a simple two level approach to
 structure content and other records in the page and the list module. The
@@ -105,7 +104,7 @@ define which types of content elements are **allowed in certain
 columns** of the backend layout.
 
 Limitations, problems and demands of the current state
-------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 While using the backend layouts works quite comfortable for most of the
 TYPO3 users nowadays, there are still some problems we have to tackle.
@@ -145,10 +144,10 @@ container solution** in the TYPO3 core due to more modern **semantic
 concepts** in the underlying markup languages for the frontend output.
 
 Concept
-=======
+-------
 
 Available solutions for structured container elements
------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To get a working solution for structured containers in the TYPO3 core,
 we must tackle the issues explained before, **while staying as backwards
@@ -195,7 +194,7 @@ m\ **inimum efforts to migrate** existing content. In the end this will
 **increase the overall acceptance** of our new official solution.
 
 Features for structured container elements
-------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Based on the way the current page module is already working and combined
 with the experience we have with the mentioned extensions we will need
@@ -203,7 +202,7 @@ the following features to provide a working solution for structured
 container elements:
 
 Must haves
-^^^^^^^^^^
+''''''''''
 
 -  Configurable structures
 -  Dataprovider to easily provide structures from within third party
@@ -229,14 +228,14 @@ Must haves
    elements and visibility for users
 
 Should haves
-^^^^^^^^^^^^
+''''''''''''
 
 -  No conflicts with extensions like TV, Flux/Fluidcontent or
    Gridelements (provided they are made compatible to that particular
    LTS version of TYPO3 CMS)
 
 Could haves
-^^^^^^^^^^^
+'''''''''''
 
 -  Resize or toggle areas to avoid confusion within larger content
    structures (maybe even storable per user)
@@ -250,7 +249,7 @@ Could haves
    additional container, as it is with EXT:gridelements)
 
 Won’t haves
-^^^^^^^^^^^
+'''''''''''
 
 -  Flexform for additional fields or other FCE like stuff. (Can still be
    provided by extensions)
@@ -263,13 +262,13 @@ Won’t haves
    horizontal scrollable Screen
 
 Goals for structural container elements
-=======================================
+---------------------------------------
 
 The final goal should be to provide at least the must haves within the
 next two versions of TYPO3 CMS.
 
 Implementation Details
-======================
+----------------------
 
 First we will discuss things on slack and then create user stories on
 https://forge.typo3.org/issues/67134 Then we will put up the concept for
@@ -278,17 +277,17 @@ to achieve and WHY we actually want it to be like that, we can go for
 the details of HOW to implement it.
 
 Risks
-=====
+-----
 
 Issues and reviews
-------------------
+~~~~~~~~~~~~~~~~~~
 
 -  https://forge.typo3.org/issues/67134 The core must provide structured
    content elements which are configurable similar to backend layouts
    out of the box
 
 Dependencies upon other Blueprints
-==================================
+----------------------------------
 
 Since the original page columns are conflicting already with the way
 TYPO3 is sorting/moving content elements in the list module, there will
@@ -300,4 +299,4 @@ and get some bugs fixed, which are partly in the code and partly in the
 concept of "move after" actions.
 
 External links for clarification of technologies
-------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

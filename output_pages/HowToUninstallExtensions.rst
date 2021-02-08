@@ -31,7 +31,6 @@ How to uninstall extensions
       updating, see the `Installation & Upgrade
       Guide <https://docs.typo3.org/m/typo3/guide-installation/master/en-us/>`__
 
-=============================
 Extension Manager terminology
 =============================
 
@@ -54,12 +53,11 @@ See also the `Delete Extensions <delete-extensions>`__ for a complete
 discussion about removing an extension completely from disk and
 database.
 
-====================
 Uninstall Extensions
 ====================
 
 Check Dependencies
-==================
+------------------
 
 First find out, which other extensions and functions of your
 Typo3-Installation are dependent of the extension you want to deinstall.
@@ -80,7 +78,7 @@ extension again by going to the Install Tool and adding it to
 not to do it under time pressure.
 
 Uninstall / Deinstall / Remove
-==============================
+------------------------------
 
 There are at least 3 ways to uninstall an extension:
 
@@ -93,7 +91,7 @@ Each of them does not delete the extension, but prevents it from being
 loaded by Typo3 further more. Choose A, B, or C
 
 A - Using the Extension Manager
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 | Open the Extension Manager ('Ext Manager'). From the menu choose
   'Install extensions'.
@@ -126,7 +124,7 @@ UnInstall Icon|. After some seconds the icon changes to |Extension
 Install Icon|.
 
 B - Using the Install Tool
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 | In the menu click on 'All Configuration'.
 | |Install Tool - menu - mouse on All Configuration|
@@ -142,10 +140,10 @@ B - Using the Install Tool
   Write to LocalConfiguration.php|
 
 C - Using ftp and an editor
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``For >= 6.2 LTS:``
-^^^^^^^^^^^^^^^^^^^
+'''''''''''''''''''
 
 | 1) Open the file ``typo3conf/PackageStates.php``
 | 2) Search for your ``ext_key`` in the array.
@@ -166,7 +164,7 @@ C - Using ftp and an editor
 .. _for-6.2-lts-1:
 
 ``For < 6.2 LTS:``
-^^^^^^^^^^^^^^^^^^
+''''''''''''''''''
 
 | Download from folder ``typo3conf/`` the file
   ``LocalConfiguration.php``.
@@ -227,14 +225,14 @@ C - Using ftp and an editor
 | Save the file (without utf-8-BOM, if asked) and upload again.
 
 Backup the new LocalConfiguration.php
-=====================================
+-------------------------------------
 
 The file ``typo3conf/LocalConfiguration.php`` has been changed. Make a
 backup of the new version. That's it. If your Typo3 is still running,
 you are done.
 
 Some notes
-==========
+----------
 
 To get more information about the extension, in extension manager click
 on its title (3rd column).

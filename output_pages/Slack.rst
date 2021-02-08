@@ -38,7 +38,6 @@ meetings" in a more open, inviting and modern environment. The Slack
 tool is also used by plenty of other teams around the TYPO3 ecosphere so
 it is easier to interconnect teams.
 
-===================================
 How to register for a Slack account
 ===================================
 
@@ -59,29 +58,28 @@ If you are running into problems during the first time login after
 registering, please reset your password (https://typo3.slack.com/forgot)
 and try again.
 
-========
 Channels
 ========
 
 Some general channels
-=====================
+---------------------
 
 #announcements
---------------
+^^^^^^^^^^^^^^
 
 This channel is used for important announcements. You will be
 automatically joined to this channel. Also, you can not leave this
 channel, you cannot write here.
 
 #typo3-cms
-----------
+^^^^^^^^^^
 
 This channel is for general discussion on TYPO3 CMS. It is also the main
 support channel for TYPO3. Feel free to ask questions related to TYPO3
 CMS.
 
 #typo3-cms-coredev
-------------------
+^^^^^^^^^^^^^^^^^^
 
 This channel acts as a central hub for all things related to **CORE**
 development. So if you want to stay informed about the latest in TYPO3
@@ -89,20 +87,20 @@ CMS development, this is a good place to follow. Please keep in mind
 that support requests cannot be handled here. Use #typo3-cms instead.
 
 #random
--------
+^^^^^^^
 
 This channel is open for **any** discussion you like to have. You can
 also ask questions about topics, for which you did not find an
 appropriate channel.
 
 #slack-howto
-------------
+^^^^^^^^^^^^
 
 You can enter this channel to get usage tips for Slack and to ask
 questions about using Slack in the TYPO3 workspace.
 
 CMS interest groups (CIG)
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In Slack we group our resources in different "Interest Groups". So once
 in Slack you might also want to join the channels with the prefix #cig
@@ -110,10 +108,10 @@ for a specific topic you are interested in working in. This way allows
 you to get informed about what's happening on that specific topic.
 
 Mini howtos
-===========
+-----------
 
 Create a channel
-----------------
+^^^^^^^^^^^^^^^^
 
 .. container::
 
@@ -135,7 +133,7 @@ to make it helpful for everyone:
 -  get a channel closed if it is no longer required
 
 Set a channel purpose
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 .. container::
 
@@ -160,7 +158,7 @@ similar names. The purpose is listed in the channel selector and if
 someone clicks on "i" in the top.
 
 How to get a channel closed
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Notify an admin (with @username).
 
@@ -172,7 +170,7 @@ Example:
 *"@someadmin Please close this channel because ..."*
 
 Naming conventions for channels
-===============================
+-------------------------------
 
 .. container::
 
@@ -215,7 +213,6 @@ Some examples:
 -  #t3o-development
 -  #t3o-team
 
-=====
 Botty
 =====
 

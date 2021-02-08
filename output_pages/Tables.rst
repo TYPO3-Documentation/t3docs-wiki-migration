@@ -17,7 +17,6 @@ Tables
 
 A reference of tables and their fields used in the TYPO3-core.
 
-=====
 pages
 =====
 
@@ -45,20 +44,17 @@ Every page in TYPO3 has row in the pages table.
 |                       |                       | +---+-------------+   |
 +-----------------------+-----------------------+-----------------------+
 
-==========
 tt_content
 ==========
 
 Content elements linked to the pages table with the "pid" entry.
 
-===================
 cf_cache_pages_tags
 ===================
 
 tag e.g., pageId_23 identifier ... hash (used in the cf_cache_pages
 table)
 
-==============
 cf_cache_pages
 ==============
 
@@ -66,14 +62,12 @@ contains the cache in the column "content" and is referenced by
 identifier (identifier of cf_cache_pages_tags) expires ... date when
 cache entry expires
 
-=========================
 cf_cache_pagesection_tags
 =========================
 
 tag e.g., pageId_23 identifier ... has (used in cf_cache_pagesection
 table)
 
-====================
 cf_cache_pagesection
 ====================
 

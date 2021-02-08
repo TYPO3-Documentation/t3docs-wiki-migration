@@ -25,7 +25,6 @@ Backend Programming
 
 .. _backend-programming-1:
 
-===================
 Backend Programming
 ===================
 
@@ -49,7 +48,7 @@ This document is under revision and can be greatly changed in the
 future.
 
 Introduction
-============
+------------
 
 This document deals with issues regarding customization of the TYPO3
 backend. More specifically this involves:
@@ -75,7 +74,7 @@ authoritative reference in general regarding these backend related
 issues.
 
 The Photo Marathon case
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 The examples in this document is taken from the Photo Marathon on the
 testsite you can download with TYPO3. So you should be able to keep
@@ -135,10 +134,10 @@ proces the values - like keeping track of files and relations for you!
 On the downside this comes at the cost of configuration.
 
 Configuring a custom database table
-===================================
+-----------------------------------
 
 user_photomarathon
-------------------
+^^^^^^^^^^^^^^^^^^
 
 This is the structure of the user_photomarathon table used on the
 testsite:
@@ -302,7 +301,7 @@ This is how the testsite typo3conf/localconf.php file is configured:
   comments which are stripped in this listing.)
 
 $TCA: The [ctrl] section
-========================
+------------------------
 
 The "ctrl" part of the $TCA configuration of a table determines how
 TYPO3 handles the table generally.
@@ -401,7 +400,7 @@ The latter is quickly un-hidden by a click in the Control Panel:
 ... and immediately the record is not hidden anymore.
 
 Mandatory fields: uid and pid
------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Looking at the previous SQL-dump of the table we see that blue lines
 (below) has been utilized for system purposes through configuration in
@@ -447,7 +446,7 @@ categorized by the page they belong to. How you choose to take advantage
 of this is up to you to a certain extend.
 
 The root page
--------------
+^^^^^^^^^^^^^
 
 While a pid value of 0 (zero) or less can never point to a record,
 exactly the zero value is valid. If the pid value of a record is zero it
@@ -458,7 +457,7 @@ which *must* belong to a proper page record (the only exception is
 "pages" records which form the very page tree).
 
 $TCA: The [columns] section
-===========================
+---------------------------
 
 This section configures how TYPO3 handles each field; which kind of form
 element it should be rendered as and which further properties are
@@ -469,7 +468,7 @@ into an integer database field! However it does not generate a warning -
 just the wrong value.
 
 The INPUT type:
----------------
+^^^^^^^^^^^^^^^
 
 .. container::
 
@@ -527,7 +526,7 @@ photodate field which is configured like this:
       ),
 
 The TEXT type:
---------------
+^^^^^^^^^^^^^^
 
 .. container::
 
@@ -554,7 +553,7 @@ You can also configure the field to turn wrapping OFF or use the Rich
 Text Editor!
 
 The CHECK type:
----------------
+^^^^^^^^^^^^^^^
 
 .. container::
 
@@ -610,7 +609,7 @@ This is rendered like this in the forms:
 |Beprogrenderinform.gif|
 
 The GROUP type / file:
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 .. container::
 
@@ -661,7 +660,7 @@ The content of the "user_photomarathon.image" field is:
 "372046.jpg,p020_f.jpg"
 
 The GROUP type / db:
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 .. container::
 
@@ -747,7 +746,7 @@ tt_calender_7,tt_news_1,tt_products_3,tt_address_5,tt_calender_3,tt_products_2,t
 | This is uid-numbers prepended with the tablenames.
 
 Making real MM relations
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 The above examples shows how to make MM (many-to-many) relations in a
 straight forward manner - a list of comma separated values - but also a
@@ -901,7 +900,7 @@ t3lib/install/example_MM_relationTables.sql:
       );
 
 The "exclude" fields
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 Did you notice in tables.php that certain fields has a flag set,
 "exclude=1"? For instance the tt_news.related field as shown above:
@@ -947,7 +946,7 @@ realize that there is generally no need to restrict certain users from
 accessing this field!
 
 $TCA: The [types] and [palettes] section
-========================================
+----------------------------------------
 
 While the ctrl and columns section deal with general handling and
 specific handling of the table and it's fields, the "types" and
@@ -999,7 +998,7 @@ Notice the order from top and down is the same as set by the field name
 list defined in the "types" section!
 
 Multiple "types" entries
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 So far I haven't commented the "types" configuration for more than a
 single, default entry. However the concept of using the "types" section
@@ -1089,7 +1088,7 @@ rendered differently:
 This is basically the options.
 
 Configuring the Rich Text Editor (RTE)
---------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can attach the Rich Text Editor component in TYPO3 to any field of
 the TEXT type. The configuration is best shown by looking at how the
@@ -1126,7 +1125,7 @@ The result of this configuration looks like this:
 |Beprogrteditor.gif|
 
 Browsing the configuration in Tools > Configuration
----------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you are curious how your configuration of tables should happen to be
 currently, you can take a peek in the Tools > Configuration module,
@@ -1135,14 +1134,14 @@ selecting $TCA as the array to browse:
 |Beprogtoolsconfig.gif|
 
 Creating records on pages
-=========================
+-------------------------
 
 You can find up to date information on page types
 ($GLOBAL['PAGE_TYPES']) in `"TYPO3 Explained: Page
 Types" <https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/PageTypes/Index.html>`__
 
 Adding context sensitive help to custom table fields
-====================================================
+----------------------------------------------------
 
 All the default tables in TYPO3 has context sensitive help for their
 fields. This is done through the centrally distributed tables
@@ -1179,7 +1178,7 @@ Changing the display type, the field help may also appear like this:
 | https://typo3.org/typo3temp/tx_oodocs_6f87466bed.gif [outdated image]
 
 Adding a translation to the custom table descriptions
------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 That's very easy. You just need to know the available language keys
 (must be one of them). Those are found in the t3lib/config_default.php
@@ -1200,14 +1199,13 @@ references and links does not need to be respecified.
 *In this example it is danish descriptions with the exception of the
 "title" which was left out in the translation.*
 
-=====================
 Custom Backend Module
 =====================
 
 .. _introduction-1:
 
 Introduction
-============
+------------
 
 Backend modules are subdivided into "main modules" and "submodules".
 Generally speaking "modules" covers them all. Refering to a module is
@@ -1215,7 +1213,7 @@ done by it's name and 'path'. For instance the submodule "List" in the
 "Web"-module would be refered to as "Web>List" module.
 
 The location of default and custom modules
-------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The modules are technically represented by a folder each in typo3/mod/,
 the first level being the main module and subfolders to this being the
@@ -1246,7 +1244,7 @@ folder in addition to the wellknown localconf.php file and now also the
 custom modules!
 
 Basic requirements to (custom) modules
---------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 First of all, determine if you wish to make a main module or submodule.
 Submodules should be placed in folders in typo3conf/ named similar to
@@ -1264,7 +1262,7 @@ typo3conf/web/uPhotomarathon) is located in the Classic backend:
 | https://typo3.org/typo3temp/tx_oodocs_44d2fc37f6.gif [outdated image]
 
 Files in the module folder
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''
 
 Regardless of a module being a main- or submodule, a file named
 "conf.php" must be found in the module folder:
@@ -1351,7 +1349,7 @@ language.
 | https://typo3.org/typo3temp/tx_oodocs_3d4ddec63b.gif [outdated image]
 
 Adding to the global $TBE_MODULES array
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+'''''''''''''''''''''''''''''''''''''''
 
 When your module is configured you must also enable it in the global
 $TBE_MODULES array. The default values (and syntax derived from this) of
@@ -1374,7 +1372,7 @@ way by modifying the array. Or even switch them around, altering the
 order etc.
 
 Parameters passed to the module script
-======================================
+--------------------------------------
 
 Generally the scripts of the modules are called without any special
 parameters. At least this is the case with the Classic Backend. Using
@@ -1393,7 +1391,7 @@ Alternative Backend:
 ``typo3/mod/user/task/index.php?AB=1``
 
 The Web and File main modules
------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 There are two very special main modules. This is the Web and File
 modules. They are always used within the context of the page tree and
@@ -1409,7 +1407,7 @@ together logically.
 page "Citylife" was clicked in the page tree.*
 
 Mandatory initialization
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Looking inside the main script of the Photo Marathon module we see first
 of all a few lines of traditional includes and evaluations:
@@ -1450,7 +1448,7 @@ Backend scope, please refer to "Inside TYPO3" document)
   may come in handy for you.
 
 TYPO3 Project Guidelines and "GPvars"
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 First of all I would like to draw attension to "Inside TYPO3" document
 where a list of project guidelines are specified. You're strongly
@@ -1480,7 +1478,7 @@ There are two solutions to this:
    $bart = t3lib_div::GPvar("bart");
 
 Page access
------------
+^^^^^^^^^^^
 
 You should make sure that the user has read-access to the page according
 to his permissions. You can get an appropriate WHERE-clause for this
@@ -1497,12 +1495,12 @@ page record back the user has read access. In short it looks like this:
 ``<?    // WHERE-clause part which you should use for selecting records so you can be sure,    // the BE_USER (backend user) has read access. $perms_clause = $BE_USER->getPagePermsClause(1);        // integer id value $id = intval($id);    // The page record of the current page (set by $id).    // $perms_clause ensures that the BE user has read access to this module. $pageinfo = t3lib_BEfunc::readPageAccess($id,$perms_clause);    // Has access?? if ($id && is_array($pageinfo)) {      // Do your main things here      } else {     die("Sorry, you did not have read access to this page!"); }  ?>``
 
 User annotations:
-^^^^^^^^^^^^^^^^^
+'''''''''''''''''
 
 Date: **27-10-2003 10:01** by **martin.van.dongen**
 
 group permissions
-^^^^^^^^^^^^^^^^^
+'''''''''''''''''
 
 There are situations in which user and group should have default the
 same rights, including deleting pages for the group. In the file
@@ -1517,7 +1515,7 @@ file before editing.
 have default the same rights, including deleting pages for the group.
 
 Header and footer
------------------
+^^^^^^^^^^^^^^^^^
 
 The template.php script contains some classes for the framework of the
 page, eg. correct charset based on system language.
@@ -1551,7 +1549,7 @@ These can be reached through $doc, eg:
 ``$doc->bgColor2``
 
 Language specific labels ($LANG object)
----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In the above code listing you also see how to retrieve the language
 labels from the $LOCAL_LANG array configured in locallang.php:
@@ -1561,7 +1559,7 @@ labels from the $LOCAL_LANG array configured in locallang.php:
 ``    // Draw the header. $content.=$doc->startPage($LANG->getLL("title")); $content.=$doc->header($LANG->getLL("title")); This is a clear example, how to get the value of the label, named "title": <? $LOCAL_LANG = Array (         "default" => Array (    // Default english labels:         "title" => "Photo Marathon (EXAMPLE)",         "menu" => "Select a function",         "menu_overview" => "Overview of Photo Marathon records",         "menu_list" => "List Photo Marathon records on the page"     ),     "dk" => Array (        // Danish labels:         "title" => "Foto Maraton (EKSEMPEL)",         "menu" => "Vælg en funktion",         "menu_overview" => "Overblik over foto maraton emner",         "menu_list" => "Liste over foto maraton emner på siden"     ) ) ?>``
 
 A selector box menu
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 Making a selector menu like the one found in the Photo Marathon module
 is done easily through an API call. The menu will reload the page
@@ -1596,7 +1594,7 @@ module. Following our style from before this is easily done like this:
 ``        // Render the main menu (&mode)         // Good thing about this menu is that it saves the state automatically for the backend user.     $menuHTML = t3lib_BEfunc::getFuncMenu($id,"SET[mode]",$MOD_SETTINGS["mode"],$MOD_MENU["mode"]);     $content.=$doc->section($LANG->getLL("menu"),$menuHTML);``
 
 Using "module TS config"
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 One final thing for you to know is that there is a concept established
 called TSconfig. This has threads into all kinds of things in TYPO3.

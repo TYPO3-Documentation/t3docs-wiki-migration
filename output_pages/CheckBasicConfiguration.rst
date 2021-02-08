@@ -29,7 +29,6 @@ Check Basic Configuration
       updating, see the `Installation & Upgrade
       Guide <https://docs.typo3.org/m/typo3/guide-installation/master/en-us/>`__
 
-=====================
 Directories Writable?
 =====================
 
@@ -43,7 +42,7 @@ In this case TYPO3 **does not** have write permissions to the
 operating system you have installed TYPO3 on.
 
 Linux/Unix/Mac OS X
-===================
+-------------------
 
 Go to your TYPO3 source installation and show the information of the
 directory **ext**. You'll probably find it under /var/lib/typo3/latest
@@ -84,7 +83,7 @@ Two things need to be done:
 permissions to.
 
 Windows
-=======
+-------
 
 #. Go to your TYPO3 source installation and show the information of the
    directory **ext**. It could be somewhere like
@@ -98,7 +97,6 @@ Once you have changed all permissions, check it by selecting **1. Basic
 configuration** again and see if TYPO3 has write permissions to all
 directories now.
 
-=======
 Php.ini
 =======
 
@@ -112,7 +110,7 @@ to take care of.
 Both *problems* can be addressed in the php.ini.
 
 Memory
-======
+------
 
 1. `Open </Text_Editor>`__ [deprecated wiki link] the php.ini file.
 
@@ -136,7 +134,7 @@ Example (php.ini):
    memory_limit = 25M      ; Maximum amount of memory a script may consume (8MB)
 
 "upload_max_filesize" and "post_max_size"
-=========================================
+-----------------------------------------
 
 "upload_max_filesize" and "post_max_size" should have the same values,
 because they are connected.

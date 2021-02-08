@@ -434,7 +434,6 @@ As can be seen, the class isn't used at the client-side call. Instead,
 the defined JavaScript object name that was introduced in the
 configuration array is used.
 
-==========================
 Core parts using ExtDirect
 ==========================
 
@@ -445,12 +444,11 @@ Core parts using ExtDirect
 -  `Workspaces <https://typo3.org/api/typo3cms/namespace_t_y_p_o3_1_1_c_m_s_1_1_workspaces_1_1_ext_direct.html>`__
    [not available anymore]
 
-===============
 Tips And Tricks
 ===============
 
 How can I add custom GET parameters to each Ext.Direct call?
-============================================================
+------------------------------------------------------------
 
 Just do it like this in your javascript controller...
 
@@ -478,7 +476,7 @@ and languageId. You can access them in your php code of the Ext.Direct
 provider via t3lib_div::_GP(<parameter>).
 
 How can I use Ext.Direct in my ExtBase extensions?
-==================================================
+--------------------------------------------------
 
 Unfortunatly this is a little bit complicated and the provided solution
 is a bit expensive, but you can get a working example by installing and
@@ -494,12 +492,11 @@ working example can be found in the non-TER extension
 `rs_fetsy <https://github.com/sgalinski/rs_fetsy>`__ [not available
 anymore].
 
-==================================
 Avoiding Problems / Known Problems
 ==================================
 
 ExtDirect: Invalid Security Token!
-==================================
+----------------------------------
 
 With the intruduction of the new CSRF protection, I got permanently
 errors with the message "ExtDirect: Invalid Security Token!". After a

@@ -10,7 +10,6 @@ Inline Relational Record Editing Attributes
    project <inline-relational-record-editing>`__ (category
    `Project </Category:Project>`__ [deprecated wiki link])
 
-==========
 Attributes
 ==========
 
@@ -22,7 +21,7 @@ the parent, the relation, the attributes on the relations, and the
 child.
 
 Intermediate Table
-==================
+------------------
 
 .. container::
 
@@ -68,7 +67,7 @@ and "company.employees" are of type "inline" and will store the number
 of references that point to or away of them.
 
 Bidirectional anti-symmetric relations
-======================================
+--------------------------------------
 
 Bidirectional anti-symmetric relations are tables to that point to a
 different table on the next level. For examples "company" pointing to
@@ -79,7 +78,7 @@ relation </Inline_Relational_Record_Editing_Attributes#Bidirectional_symmetric_r
 pointer uids belongs to its appropriate table.
 
 Configure the normal way
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container::
 
@@ -207,7 +206,7 @@ the fields of a "person" can be edited.
    );
 
 Configure the combined way
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container::
 
@@ -294,7 +293,7 @@ virtual dataset, it is shown in a different color (in this example
    );
 
 Bidirectional symmetric relations
-=================================
+---------------------------------
 
 Symmetric relations refer among themselves on the same level. So a
 "person" pointing to another "person" - because the second person is the
@@ -380,7 +379,7 @@ ranking of news-items.
    );
 
 Configure the uniqeness of relations
-====================================
+------------------------------------
 
 .. container::
 

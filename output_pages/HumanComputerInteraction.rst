@@ -350,7 +350,6 @@ http://developer.apple.com/documentation/UserExperience/Conceptual/OSXHIGuidelin
 **Interface Design patterns** "Best guidelines for designers for
 creating interface design patterns"
 http://www.techved.com/blog/interface-design-patterns-a-designers-guide
-[not available anymore]
 
 HCI Team Structure
 ==================

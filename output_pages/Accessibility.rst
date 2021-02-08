@@ -10,7 +10,6 @@ Accessibility
    `AccessibilityTeam </Category:AccessibilityTeam>`__ [deprecated wiki
    link])
 
-=============
 Useful things
 =============
 
@@ -18,7 +17,6 @@ To get an overview of accessibility related bugs in the bugtracker on
 https://forge.typo3.org/projects/typo3cms-core/issues just enter the
 keyword accessibility into the search field.
 
-=====
 ToDos
 =====
 
@@ -29,7 +27,7 @@ necessary to pay them for their work and after that the list should be
 presented to the edu/marketing team for budget decisions.
 
 Identifying changes in language
-===============================
+-------------------------------
 
 -  **RTE:**
 
@@ -49,20 +47,20 @@ Identifying changes in language
       page language
 
 Provide a text equivalent for every non-text element
-====================================================
+----------------------------------------------------
 
 ::
 
     - http://www.w3.org/TR/WCAG10-TECHS/#def-d-link
 
 Add TITLE to Standard-Link-Funktion
-===================================
+-----------------------------------
 
 The standard link popup should have a field to enter a link title
 (title="...")
 
 Generate valid (X)HTML output
-=============================
+-----------------------------
 
 -  *RTE*
 
@@ -104,13 +102,13 @@ Generate valid (X)HTML output
       elements
 
 Raise the awareness for the accessibility topic
-===============================================
+-----------------------------------------------
 
 -  Provide built in documentation and links to WAI guidelines in the
    backend
 
 Force accessibility input
-=========================
+-------------------------
 
 There should be a parameter like "forceAccessibility" to validate user
 input according to accessibility needs and require correct input. A.e.

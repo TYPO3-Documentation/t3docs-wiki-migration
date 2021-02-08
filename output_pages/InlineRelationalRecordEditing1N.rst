@@ -12,7 +12,6 @@ Inline Relational Record Editing 1:n
    project <inline-relational-record-editing>`__ (category
    `Project </Category:Project>`__ [deprecated wiki link])
 
-============================================
 Different kinds of storing and configuration
 ============================================
 
@@ -48,7 +47,7 @@ right side, is the model we're working with in this example.
    parent
 
 Comma separated list
-====================
+--------------------
 
 .. container::
 
@@ -110,7 +109,7 @@ changing masses of records.
    );
 
 Foreign Field in Foreign Table
-==============================
+------------------------------
 
 .. container::
 
@@ -279,7 +278,7 @@ can do so by setting this.
    );
 
 Intermediate Table (like used for MM-Relations)
-===============================================
+-----------------------------------------------
 
 .. container::
 
@@ -332,7 +331,7 @@ child of a "company" and an "association" at the same time.
 +---------------+-----------------+----------------+-------------+---------------------+
 
 Intermediate Table is the inline element
-----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 That would mean, when the parent is killed, only the relations between
 the parent and the children would be deleted. The child records would
@@ -373,7 +372,7 @@ definition. See see
    );
 
 Regular child object is the inline element
-------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 That would mean, when the parent is killed, the relations between the
 parent and the children would be removed and also these related children

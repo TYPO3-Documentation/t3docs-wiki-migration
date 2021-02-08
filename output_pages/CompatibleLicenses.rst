@@ -14,7 +14,6 @@ Reviewer will be: Michael Scharkow
 We depend on the GNU list:
 http://www.gnu.org/philosophy/license-list.html
 
-==================================
 Ideas, refhistory, howtolinktothis
 ==================================
 
@@ -45,7 +44,6 @@ License, MPL, Mozilla Public License, Sun Public License* . Some people
 name it "licence" (see google) so a forward for that alias-name would be
 a good thing.
 
-============================
 Compatible licences with GPL
 ============================
 
@@ -64,7 +62,7 @@ Repository </Glossary#TYPO3_extension_repository_.28TER.29>`__
    change the code a little bit, so that it better fits into TYPO3?
 
 For manuals
-===========
+-----------
 
 See this:
 
@@ -80,7 +78,7 @@ See this:
       available from `typo3.org <http://typo3.org>`__
 
 LGPL
-====
+----
 
 This is compatible with GPL. Example:
 `xajax <https://extensions.typo3.org/extension/xajax/>`__, which is base
@@ -91,20 +89,19 @@ paragraph 3 of the license to switch it to GPL. That's a special
 opportunity of this license.
 
 MIT (real name is X11)
-======================
+----------------------
 
 This is compatible with GPL. The license is not used in the moment in
 TER.
 
 BSD
-===
+---
 
 This is compatible with GPL. The license is used for example by
 `scriptaculous <https://extensions.typo3.org/extension/scriptaculous/>`__
 and `jquery <https://extensions.typo3.org/extension/jquery/>`__ in the
 TER.
 
-==========================================================
 in use somewhere else but NOT compatible licences with GPL
 ==========================================================
 
@@ -114,7 +111,7 @@ in use somewhere else but NOT compatible licences with GPL
    because you may get a copy with a GPL-compatible license!
 
 Apache, Apache2.0, Common Public License 1.0, MPL Mozilla Public License, Sun Public License
-============================================================================================
+--------------------------------------------------------------------------------------------
 
 For **details** of these licences and more see the GNU-list (see top on
 page) . The reason we list the names of some is, that the wiki-search

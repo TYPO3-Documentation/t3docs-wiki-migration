@@ -31,20 +31,19 @@ Restart your webserver
       history <https://wiki.typo3.org/wiki/index.php?title=Restart_your_webserver&action=history>`__
       [deprecated wiki link] before deleting.
 
-======
 Apache
 ======
 
 Httpd
-=====
+-----
 
 .. _apache-1:
 
 Apache
-======
+------
 
 SuSE Distribution
------------------
+^^^^^^^^^^^^^^^^^
 
 #. **Start** Apache with *rchttpd start*
 #. **Shutdown** Apache with *rchttpd stop*
@@ -52,14 +51,13 @@ SuSE Distribution
 #. **Get status** with *rchttpd status*
 
 Apachectl
-=========
+---------
 
 #. Start - apachectl start
 #. Stop - apachectl stop
 #. Restart - apachectl restart
 #. **Graceful Restart - apachectl graceful**
 
-===========================================
 IIS Microsoft's Internet Information Server
 ===========================================
 
@@ -67,7 +65,7 @@ As for the Apache server, there are several ways to start, stop and
 restart Microsoft's Internet Information Server IIS.
 
 DOS box
-=======
+-------
 
 Using a DOS shell you might start and stop any given services by simply
 typing
@@ -85,7 +83,7 @@ names is displayed by simply typing ``net start``*
 whitespace!*
 
 MMC (Microsoft Management Console)
-==================================
+----------------------------------
 
 The Management Console is meant for administrators and provides a
 graphical interface for various server administration tasks. The MMC is
@@ -102,7 +100,7 @@ Console Document).
    service
 
 inetmgr.exe
-===========
+-----------
 
 Basically, this program is a shortcut for the MMC with the preloaded IIS
 Snap-In.
@@ -111,7 +109,7 @@ Snap-In.
 #. Procede like in the MMC section
 
 services.msc
-============
+------------
 
 services.msc is another way to control system services like the IIS
 

@@ -33,12 +33,11 @@ Php.ini
       history <https://wiki.typo3.org/wiki/index.php?title=Php.ini&action=history>`__
       [deprecated wiki link] before deleting.
 
-============================
 How to find the php.ini file
 ============================
 
 General
-=======
+-------
 
 The most simple and portable way to find the
 `php.ini </Category:Php.ini>`__ [deprecated wiki link] file that's
@@ -54,7 +53,7 @@ apps, websites and projects that also run on this computer / server and
 use the same PHP version.**
 
 Howto
------
+^^^^^
 
 Create a file in your web root (for example ``info.php``) with this
 content:
@@ -75,10 +74,10 @@ Now open this page in your browser, and look for the line
 telling you which php.ini is loaded.
 
 Unix
-====
+----
 
 Using ``find``
---------------
+^^^^^^^^^^^^^^
 
 You can use the find program to find all the ``php.ini`` files on your
 system.
@@ -96,7 +95,7 @@ system.
       find / -name "php.ini"
 
 Using ``locate``
-----------------
+^^^^^^^^^^^^^^^^
 
 You can use the locate program to find all the ``php.ini`` files in the
 locate database (which may not always be up to date).
@@ -114,12 +113,12 @@ locate database (which may not always be up to date).
       locate php.ini
 
 Conventional locations
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 As with most configuration files, ``php.ini`` should reside in ``/etc``.
 
 Gentoo
-^^^^^^
+''''''
 
 Example locations:
 

@@ -230,21 +230,18 @@ extension links to TER
 
 fast version: `cal <https://extensions.typo3.org/extension/cal/>`__
 
-============
 UPLOAD-tests
 ============
 
 | `File:!test.pdf <files/!test.pdf>`__
 | |Navigation.png|
 
-=====
 Links
 =====
 
 | Link `typo3.org <http://www.typo3.org>`__
 | `TYPO3 Association <http://association.typo3.org>`__
 
-====
 Code
 ====
 
@@ -259,7 +256,6 @@ Code
 
       $exampleText = "Hello!";
 
-========
 PHP-Code
 ========
 
@@ -278,7 +274,6 @@ PHP-Code
     }
     ?>
 
-=======
 Ext key
 =======
 
@@ -319,7 +314,6 @@ some other text
 
 some other text
 
-==========
 Wiki-Table
 ==========
 
@@ -329,7 +323,6 @@ c1 c2
 c3 c4
 == ==
 
-===============================
 Wiki-Table of a Navigation-menu
 ===============================
 
@@ -375,7 +368,6 @@ Wiki-Table of a Navigation-menu
 |   more information.               |                                   |
 +-----------------------------------+-----------------------------------+
 
-=============
 Test of Geshi
 =============
 
@@ -530,7 +522,6 @@ Just another test
       # überschreibt "<em>Beispielstext</em>" durch den Inhalt des Feldes header aus dem Array $cObj->data-array
       10.value.field = header
 
-============
 Warning Test
 ============
 
@@ -550,7 +541,6 @@ Warning Test
 
       I am CRAZZZZZZZZZZZZZZZYYYYYYYYYYYYYYYYYYYY
 
-========
 tagcloud
 ========
 

@@ -1900,7 +1900,6 @@ Example:
 
       <f:translate key="label_recent_posts" extensionName="blog_example">Below are the most recent posts:</f:translate>
 
-====================
 additionalAttributes
 ====================
 
@@ -1928,19 +1927,17 @@ which is not part of HTML, you could do that as follows:
 This attribute is available in all tags that inherit from
 TYPO3\Fluid\Core\ViewHelper\AbstractTagBasedViewHelper.
 
-=======================
 Things that do not work
 =======================
 
 Mathematical expessions
-=======================
+-----------------------
 
 Fluid does *not* have a native way to e.g. make sums or products of
 numbers and variables. You have to use `external view
 helpers <https://fluidtypo3.org/viewhelpers/vhs/master.html>`__ [not
 available anymore] like ``<vhs:math.sum>``.
 
-===============
 Other resources
 ===============
 

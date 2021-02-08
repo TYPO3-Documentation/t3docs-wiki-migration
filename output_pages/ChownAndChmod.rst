@@ -29,7 +29,6 @@ Chown and Chmod
       history <https://wiki.typo3.org/wiki/index.php?title=Chown_and_Chmod&action=history>`__
       [deprecated wiki link] before deleting.
 
-=====
 Chown
 =====
 
@@ -104,4 +103,4 @@ The revert the change just type
    chown -R :root typo3
 
 Chmod
-=====
+-----

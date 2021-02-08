@@ -25,7 +25,7 @@ development work if a developer wants to use it.
 
 | 
 | Current Eclipse Integration Project Page:
-  `dev3.org <http://www.dev3.org/>`__
+  `dev3.org <http://www.dev3.org/>`__ [not available anymore]
 
 Debugging on the Mac with PHPEclipse
 ====================================

@@ -41,7 +41,9 @@ Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code 
 Link https://wiki.typo3.org/Category:AccessibilityTeam of page Accessibility gets marked as outdated as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page Languagelabels gets marked as outdated as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page Languagelabels gets marked as outdated as it links to deprecated wiki instance.
+Url https://code.google.com/p/ulipad/ seems to be outdated (status code: 500)!
 Link https://wiki.typo3.org/DocTeam/Online_ReST_Editor of page Editors(rest) gets marked as outdated as it links to deprecated wiki instance.
+Link https://code.google.com/p/ulipad/ of page Editors(rest) gets marked as outdated as it is not available.
 Url http://technet.microsoft.com/pl-pl/sysinternals/bb896768.aspx seems to be outdated (status code: 403)!
 Link http://technet.microsoft.com/pl-pl/sysinternals/bb896768.aspx of page SymlinksOnWindows gets marked as outdated as it is not available.
 Url https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!
@@ -52,7 +54,7 @@ Link https://wiki.typo3.org/Category:CheatSheet of page LinuxCheatSheet gets mar
 Link https://wiki.typo3.org/Category:Wiki-Question of page LinuxCheatSheet gets marked as outdated as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Linux_shell-command of page LinuxCheatSheet gets marked as outdated as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Installation of page LinuxCheatSheet gets marked as outdated as it links to deprecated wiki instance.
-Url http://mydomain.ch/fileadmin/webdav/ seems to be outdated (status code: 404)!
+Url http://mydomain.ch/fileadmin/webdav/ seems to be outdated (Could not resolve host "mydomain.ch".)!
 Url http://mydomain.ch/fileadmin/webdav/# seems to be outdated (status code: 404)!
 Url http://www.typo3.net/forum/list/list_post//53197/?page=1 seems to be outdated (status code: 500)!
 Url http://downloads.lansa.co.uk/other/Novel%20Netdrive/ seems to be outdated (fopen(http://62.172.215.85/other/Novel%20Netdrive/): failed to open stream: Connection timed out)!
@@ -300,11 +302,13 @@ Link https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_sp
 Link https://wiki.typo3.org/Special:WhatLinksHere/Upgrade of page Upgrade gets marked as outdated as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=Upgrade&amp;action=history of page Upgrade gets marked as outdated as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Core_Team of page Upgrade gets marked as outdated as it links to deprecated wiki instance.
+Url http://www.dev3.org/ seems to be outdated (Could not resolve host "www.dev3.org".)!
 Url http://dd.cron.ru/dbg/downloads.php seems to be outdated (Could not resolve host "dd.cron.ru".)!
 Url http://www.phpeclipse.com/ seems to be outdated (status code: 500)!
 Link https://wiki.typo3.org/Projects of page EclipseIntegration gets marked as outdated as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=Eclipse_Integration&amp;action=edit&amp;section=0 of page EclipseIntegration gets marked as outdated as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Eclipse of page EclipseIntegration gets marked as outdated as it links to deprecated wiki instance.
+Link http://www.dev3.org/ of page EclipseIntegration gets marked as outdated as it is not available.
 Link https://wiki.typo3.org/Category:Mac_OS_X of page EclipseIntegration gets marked as outdated as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript of page EclipseIntegration gets marked as outdated as it links to deprecated wiki instance.
 Link http://dd.cron.ru/dbg/downloads.php of page EclipseIntegration gets marked as outdated as it is not available.
@@ -321,7 +325,7 @@ Link https://wiki.typo3.org/wiki/index.php?title=Indexed_search&amp;action=histo
 Link https://wiki.typo3.org/Category:Draft of page IndexedSearch gets marked as outdated as it links to deprecated wiki instance.
 Url https://twitter.com/t3git_master seems to be outdated (status code: 400)!
 Link https://twitter.com/t3git_master of page Typo376ExtensionMigrationGuide gets marked as outdated as it is not available.
-Url http://www.aptana.org/studio/download seems to be outdated (status code: 404)!
+Url http://www.aptana.org/studio/download seems to be outdated (Could not resolve host "www.aptana.org".)!
 Url https://github.com/NeoBlack/PHPStormTYPO3 seems to be outdated (status code: 404)!
 Url http://typo3.helmut-hummel.de/post/85031122475/xml-schema-auto-completion-in-phpstorm seems to be outdated (status code: 404)!
 Url http://www.sgalinski.de/open-source/typoscript-plugin.html seems to be outdated (status code: 404)!
@@ -386,7 +390,6 @@ Url https://forge.typo3.org/projects/show/usability-design seems to be outdated 
 Url http://designinginterfaces.com/Introduction seems to be outdated (status code: 404)!
 Url http://dev.uxmatters.com/MT/archives/000107.php seems to be outdated (status code: 401)!
 Url http://developer.apple.com/documentation/UserExperience/Conceptual/OSXHIGuidelines/index.html seems to be outdated (status code: 404)!
-Url http://www.techved.com/blog/interface-design-patterns-a-designers-guide seems to be outdated (status code: 500)!
 Link https://wiki.typo3.org/Category:HCI of page HumanComputerInteraction gets marked as outdated as it links to deprecated wiki instance.
 Link https://forge.typo3.org/projects/show/usability-design of page HumanComputerInteraction gets marked as outdated as it is not available.
 Link https://wiki.typo3.org/Category:HCI of page HumanComputerInteraction gets marked as outdated as it links to deprecated wiki instance.
@@ -400,7 +403,6 @@ Link https://wiki.typo3.org/Usability_Discoveries of page HumanComputerInteracti
 Link http://designinginterfaces.com/Introduction of page HumanComputerInteraction gets marked as outdated as it is not available.
 Link http://dev.uxmatters.com/MT/archives/000107.php of page HumanComputerInteraction gets marked as outdated as it is not available.
 Link http://developer.apple.com/documentation/UserExperience/Conceptual/OSXHIGuidelines/index.html of page HumanComputerInteraction gets marked as outdated as it is not available.
-Link http://www.techved.com/blog/interface-design-patterns-a-designers-guide of page HumanComputerInteraction gets marked as outdated as it is not available.
 Link https://wiki.typo3.org/Usability_Survey of page HumanComputerInteraction gets marked as outdated as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/User:Kuckuck of page HumanComputerInteraction gets marked as outdated as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Category:Project of page InlineRelationalRecordEditingAttributes gets marked as outdated as it links to deprecated wiki instance.
@@ -1126,12 +1128,14 @@ Url http://www.typo3.mapseven.de/index.php?id=19 seems to be outdated (status co
 Url http://www.osskins.com/category/typo3-templates/ seems to be outdated (Could not resolve host "www.osskins.com".)!
 Url http://webempoweredchurch.org/features/template-your-look/ seems to be outdated (status code: 404)!
 Url http://web2000.hu/index.php?id=47 seems to be outdated (status code: 404)!
+Url http://t3net.org/downloads.html seems to be outdated (Could not resolve host "ww17.t3net.org".)!
 Url http://www.typo3coder.com/typo3-templates/?utm_source=wiki&amp;utm_medium=link&amp;utm_campaign=TYPO3+Wiki seems to be outdated (status code: 403)!
 Url http://www.typo3-templates.de/templates/template-auswahl.html seems to be outdated (Could not resolve host "www.typo3-templates.de".)!
 Link http://www.typo3.mapseven.de/index.php?id=19 of page Typo3TemplatesRepository gets marked as outdated as it is not available.
 Link http://www.osskins.com/category/typo3-templates/ of page Typo3TemplatesRepository gets marked as outdated as it is not available.
 Link http://webempoweredchurch.org/features/template-your-look/ of page Typo3TemplatesRepository gets marked as outdated as it is not available.
 Link http://web2000.hu/index.php?id=47 of page Typo3TemplatesRepository gets marked as outdated as it is not available.
+Link http://t3net.org/downloads.html of page Typo3TemplatesRepository gets marked as outdated as it is not available.
 Link http://www.typo3coder.com/typo3-templates/?utm_source=wiki&amp;utm_medium=link&amp;utm_campaign=TYPO3+Wiki of page Typo3TemplatesRepository gets marked as outdated as it is not available.
 Link http://www.typo3-templates.de/templates/template-auswahl.html of page Typo3TemplatesRepository gets marked as outdated as it is not available.
 Url https://wiki.typo3.org/wiki/index.php?title=TYPO3_6.2&amp;action=edit&amp;redlink=1 seems to be outdated (status code: 404)!

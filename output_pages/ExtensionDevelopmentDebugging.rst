@@ -32,12 +32,11 @@ Extension Development, Debugging
       updating, see the `Installation & Upgrade
       Guide <https://docs.typo3.org/m/typo3/guide-installation/master/en-us/>`__
 
-==================
 Tipps on debugging
 ==================
 
 Debug TYPO3
-===========
+-----------
 
 See also the `Extension Developers Guide <extension-developers-guide>`__
 
@@ -128,7 +127,7 @@ well, by adding the following line to
        $TYPO3_CONF_VARS['SYS']['enable_DLOG'] = true;
 
 ``error_log()``
----------------
+^^^^^^^^^^^^^^^
 
 You can write to the (system) error log using:
 
@@ -192,7 +191,7 @@ Or use these lines with ``var_dump()``:
        error_log ('$myComplexArray = '.$debugOut);
 
 How to debug SQL
-================
+----------------
 
 .. container::
 
@@ -213,7 +212,7 @@ to debug SQL queries, measure query execution time and hide unnecessary
 PHP warning messages.
 
 How to debug TypoScript
-=======================
+-----------------------
 
 See `TypoScript
 Reference <https://docs.typo3.org/typo3cms/TyposcriptReference/>`__,

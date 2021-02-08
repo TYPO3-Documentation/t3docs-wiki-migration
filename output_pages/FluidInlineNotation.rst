@@ -37,7 +37,6 @@ ViewHelper as array value
 
    <f:translate key="{msg_id}" arguments="{1: '{f:format.date(date: record.validend, format: \'d.m.Y H:i:s\')}'}" />
 
-==========================================================
 Special precautions for nested inline notation ViewHelpers
 ==========================================================
 
@@ -49,12 +48,11 @@ Additional nesting levels require more escaped quotation marks!
 
 https://techblog.sitegeist.de/fluid-escaping-nested-inline-viewhelper/
 
-=======================
 Things that do not work
 =======================
 
 No equivalents
-==============
+--------------
 
 There is no equivalent inline notation for the following syntax:
 
@@ -68,7 +66,6 @@ This does **not work**:
 
    {'foo' -> f:foo()}
 
-============
 General info
 ============
 

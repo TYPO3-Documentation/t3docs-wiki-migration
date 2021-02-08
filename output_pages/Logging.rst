@@ -8,7 +8,6 @@ Blueprints/Logging
 
 `<- Back to blueprints overview </Blueprints>`__ [deprecated wiki link]
 
-======================
 Blueprint: Logging API
 ======================
 
@@ -31,12 +30,12 @@ Blueprint: Logging API
 +----------------------+----------------------------------------------+
 
 Target Versions/Milestones
-==========================
+--------------------------
 
 -  TYPO3 10.x
 
 Goals / Motivation
-==================
+------------------
 
 Motivation back in 2014 and earlier:
 
@@ -64,7 +63,7 @@ Motivation in 2018:
    dimension for filtering e.g. by security-related log messages
 
 What could be the purposes of Logging in a CMS?
------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The following is a collection of use cases from the current logging
 implementation, as well as new ideas:
@@ -82,7 +81,7 @@ implementation, as well as new ideas:
 -  **Learning** how the system works
 
 Some user stories
------------------
+^^^^^^^^^^^^^^^^^
 
 (Stories from the perspective of an integrator)
 
@@ -98,12 +97,12 @@ Some user stories
 #. I want to combine stories 1 to 5 freely
 
 Concept
-=======
+-------
 
 PSR-3 provides us with the basic foundation of the concept.
 
 Definition of terms
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 The two key terms of PSR-3 are: - Severity/Level: "How important is the
 log entry?" - Context: Arbitrary additional information for the log
@@ -122,7 +121,7 @@ entry into a string representation. - Target: A definition of this term
 will be provided blow, please read on.
 
 Bits an pieces
---------------
+^^^^^^^^^^^^^^
 
 As an application is about to create a log entry, it has to deal with
 various classes to achieve this.
@@ -173,7 +172,7 @@ are data which are **part of** a log entry, whereas the Formatters and
 Handlers are tools which **deal with** a log entry.
 
 Configuration - the Targets
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Clearly there needs to be configuration, which glues those "dealers"
 together. The integrator of a system is responible to set up an adequate
@@ -198,10 +197,10 @@ local rsyslog daemon. - Send all shopping cart (ext:cart) related log
 messages to our business tracking service (some cloud service).
 
 Implementation
-==============
+--------------
 
 Current situation
------------------
+^^^^^^^^^^^^^^^^^
 
 At present (07/2019) we have the existing Logging API of TYPO3 at hand
 as well as some very popular projects like monolog. Both projects are
@@ -214,14 +213,14 @@ TYPO3), TYPO3 only a few (no Formatters at all). TYPO3 allows for
 fine-grained configuration based on the naming schema.
 
 Our proposal
-------------
+^^^^^^^^^^^^
 
 We propose to take the monolog library as a basis to implement the new
 Logging API of TYPO3. **BUT** we mostly use the "dealers" from there. We
 still have to implement the naming, types and targets by ourselves.
 
 Example usage of the new API
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''
 
 .. container::
 
@@ -234,7 +233,7 @@ This is the default usage as PSR-3 purports, extended by the additional
 data "type".
 
 Example configuration
-^^^^^^^^^^^^^^^^^^^^^
+'''''''''''''''''''''
 
 The following example shows the configuration for three targets: - "log
 everything to file" - "security related stuff to dedicated file" -
@@ -325,7 +324,7 @@ everything to file" - "security related stuff to dedicated file" -
       ];
 
 Migration
----------
+^^^^^^^^^
 
 As the "type" information for a log entry is optional, there is no need
 to migrate existing code, as the existing TYPO3 API is already PSR-3
@@ -368,13 +367,13 @@ New config:
       ];
 
 Risks
-=====
+-----
 
 Issues and reviews
-------------------
+~~~~~~~~~~~~~~~~~~
 
 Dependencies upon other Blueprints
-==================================
+----------------------------------
 
 External links for clarification of technologies
-------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

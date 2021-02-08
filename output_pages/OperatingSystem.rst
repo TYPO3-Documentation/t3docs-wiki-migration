@@ -13,7 +13,6 @@ Operating System
       While some details may still apply in specific situations, this
       page was written for packages of TYPO3 that are no longer current.
 
-=====================================================
 The differences when running TYPO3 on Windows or Unix
 =====================================================
 
@@ -24,14 +23,14 @@ page with a wink. I would like to suggest to test the opionions on this
 page by yourself to see how it works in real-world.
 
 Historical reasons
-==================
+------------------
 
 Every software component which is required by TYPO3 (including TYPO3
 itself) were originally concepted/developed for Unix systems. Windows
 compatibility came later and is often botch.
 
 Logging / AWstats
-=================
+-----------------
 
 It is not yet possible to create logfiles with TYPO3 that can be used by
 AWstats.
@@ -39,7 +38,7 @@ AWstats.
 Hint: Will be solved in TYPO3 3.8.0
 
 Indexed search can not index external files (PDF, DOC, etc.)
-============================================================
+------------------------------------------------------------
 
 You are wrong here, TYPO3 on Windows **can** index external files...
 --`Clonedyke </User:Clonedyke>`__ [deprecated wiki link] 16:54, 3 Mar
@@ -51,7 +50,7 @@ for many people. Maybe a link would be good.
 [not available anymore] 09:44, 7 Mar 2005 (CET)
 
 No symlinks possible
-====================
+--------------------
 
 `Symbolic links </Typo3_Installation_Basics#How_TYPO3_works>`__
 [deprecated wiki link] (symlinks) offer a great possibility to solve
@@ -65,7 +64,7 @@ http://www.sysinternals.com/ntw2k/source/misc.shtml#junction [not
 available anymore]
 
 Logfile sizes
-=============
+-------------
 
 There is no tool like logrotate which compresses/deletes logfiles after
 a given time.
@@ -74,7 +73,7 @@ a given time.
 Apache/IIS are providing logrotate tools.
 
 File system properties
-======================
+----------------------
 
 With Windows NTFS you must defragment your partitions regularily or they
 will become slow. Defragmentation under Windows will work only if you
@@ -90,7 +89,7 @@ under Windows you need always to use the full name containing the server
 name to access the file system.
 
 Security / ImageMagick
-======================
+----------------------
 
 (Can someone confirm this?) On a Windows server you have to grant access
 to cmd.exe for the IIS in order to use ImageMagick (which is needed for
@@ -98,7 +97,7 @@ graphics generation). That is something most administrators won't feel
 comfortable with ...
 
 Security
-========
+--------
 
 On Linux you can build chroot jails for every service, vhost, site,
 whatever and allow only shell commands you want to. You can even install
@@ -109,7 +108,7 @@ can get filtered in the Linux kernel with iptables. And you can run
 Linux under different security levels of the kernel.
 
 Software configuration
-======================
+----------------------
 
 Let's be honest: Why would you want to use Windows? I guess the reason
 is mostly that you don't want to learn how to edit config files and
@@ -131,7 +130,7 @@ Server OS for administrative purposes and can be bought as commercial
 products.
 
 Logs / Details
-==============
+--------------
 
 Linux really babbles a lot in it's logs, and they tell you everything.
 After Googling you know what to do to solve it, and since it has an open
@@ -145,7 +144,7 @@ configured logging for your needs and are you able to do so?
 2005 (CET)
 
 Software installation
-=====================
+---------------------
 
 On Linux you can install new software with graphical tools or the
 command line tools 'rpm' and 'apt-get'. In many cases you just have to
@@ -196,7 +195,7 @@ security floppy, but if this does not help you must make a fresh install
 together with a new installation of every software.
 
 Personalised Operating System
-=============================
+-----------------------------
 
 Under linux you can compile your own kernel, which means that you can
 adapt the operating system to your needs and your hardware. You cannot
@@ -207,7 +206,7 @@ system update you can change to another kernel version without
 deinstallation of the other kernels.
 
 Naming of partitions
-====================
+--------------------
 
 | If you build a new harddrive into your Windows 2000 computer, the
   names of your partitions are changed automatically. This is bad,
@@ -225,14 +224,14 @@ Naming of partitions
   Windows.
 
 Multi User
-==========
+----------
 
 On a Unix machine multiple user can log in via a terminal program and
 execute any programs on the server simultaneously. On a Windows machine
 only one person can log in at one time.
 
 user and administrator
-======================
+----------------------
 
 The Unix machine usually runs with the permissions of a simple user.
 When you have to work on it as an administrator, you open a command
@@ -243,7 +242,7 @@ programs will stop running when someone logs out. This is also a
 security issue.
 
 Recovery after the Change of Hardware
-=====================================
+-------------------------------------
 
 | When you have a big hardware damage and you must change the
   motherboard of your computer you will probably have to buy a new

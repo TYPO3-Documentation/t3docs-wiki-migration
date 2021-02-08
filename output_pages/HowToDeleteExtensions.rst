@@ -31,7 +31,6 @@ How to delete extensions
       updating, see the `Installation & Upgrade
       Guide <https://docs.typo3.org/m/typo3/guide-installation/master/en-us/>`__
 
-=============================
 Extension Manager terminology
 =============================
 
@@ -54,7 +53,6 @@ To deactivate an extension without deleting it completely, see the
 article `Uninstall Extensions </Uninstall_Extensions>`__ [deprecated
 wiki link].
 
-================
 Why this manual?
 ================
 
@@ -71,10 +69,10 @@ This manual explains how to remove extensions, using the extension
 core and it is no longer needed).
 
 How to delete an extension
-==========================
+--------------------------
 
 Preparations
-------------
+^^^^^^^^^^^^
 
 It is assumed that you have backed up your complete TYPO3 installation
 (including the SQL database), made sure that only admins can login and
@@ -83,20 +81,20 @@ informed all editors and users about the planned maintenance.
 Read this manual to its end first.
 
 Check extension dependencies
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Deleting an extensions is not always easily revertible. Follow these
 steps carefully:
 
 Uninstall
----------
+^^^^^^^^^
 
 Follow all steps in `Uninstall Extensions </Uninstall_Extensions>`__
 [deprecated wiki link]. Don't forget to backup the new
 *LocalConfiguration.php*.
 
 Identifying files and tables
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 | Open the Extension Manager. Choose 'Install extensions'.
 | |Extension Manager menu|
@@ -144,7 +142,7 @@ Note all directories and database tables. It is possible that not all of
 them will be deleted by the push of a button.
 
 Delete the extension
-====================
+--------------------
 
 | Choose 'Backup/Delete'
 | |Extension manager, extensions details, menu Backup/Delete)|
@@ -160,13 +158,13 @@ After confirming, after a while you should see the message *"Removed
 extension in path..."*.
 
 Control and cleaning up
-=======================
+-----------------------
 
 Click on |Typo3-sysext-t3skin-icons-gfx-goback.gif| to reach the upper
 level of the extension manager. The extension should be gone.
 
 LocalConfiguration.php
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 Download the actual ``LocalConfiguration.php``, but do not overwrite
 your old backup.
@@ -184,7 +182,7 @@ Upload the cleaned ``LocalConfiguration.php``. (Alternatively you could
 use the Install Tool on page 'All configuration'.)
 
 Database
---------
+^^^^^^^^
 
 | Open the Install Tool and start **Database Analyser**:
 | |Install Tool - menu - mouse on DatabaseAnalyser|
@@ -204,7 +202,7 @@ Admin-Tools / DB Check, then in the menu 'Manage Reference Index'. Click
 on **Click here to update reference index: Update Now!**
 
 Files and Directories
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 Check whether the identified directories and files have been deleted. It
 might be that the directory under ``typo3conf/ext/`` has been deleted,
@@ -212,12 +210,12 @@ but files and directories in *typo3temp/* still exist. You might have to
 delete them manually.
 
 Empty the cache
-===============
+---------------
 
 Empty the configuration and frontend cache.
 
 Done!
-=====
+-----
 
 If your TYPO3 installation still works, you were probably successful
 (check the entire site to be sure) and can now reset the maintenance

@@ -25,7 +25,6 @@ Tt products
 
 | 
 
-=========================
 The future of tt_products
 =========================
 
@@ -72,7 +71,6 @@ maintainer of
 `tt_products <https://extensions.typo3.org/extension/tt_products/>`__
 since version 2.0.0.
 
-====
 News
 ====
 
@@ -158,7 +156,6 @@ In tt_products 2.8.0 you will have
 | Send me any error messages per email or to the forum at
   http://jambage.com .
 
-======================
 Recommended extensions
 ======================
 
@@ -193,7 +190,6 @@ features.
 -  (given up) myDashboard for several lists: a most recent order list,
    newest products, out of stock, few on stock
 
-=====================
 Patches for TYPO3 6.2
 =====================
 
@@ -207,7 +203,6 @@ should apply these patches from forge.typo3.org:
 
 -  https://review.typo3.org/#/c/38917/
 
-======
 Wanted
 ======
 
@@ -218,7 +213,6 @@ future versions of TYPO3, help us to achieve this: Give us a full copy
 of your TYPO3 tt_products implementation. This is necessary to test it
 during the development process.
 
-========
 Download
 ========
 
@@ -243,24 +237,22 @@ Newer versions of tt_products are availble and can be ordered from the
 website `tt_products.de
 Shop <https://www.ttproducts.de/index.php?id=tt_products_ext>`__.
 
-=========
 Templates
 =========
 
 See the extension addons_tt_products for example shop template files.
 
-=============
 Documentation
 =============
 
 Marker
-======
+------
 
 This is documented on the subpage `tt_products
 Marker <tt-products-marker>`__
 
 Installation Instructions
-=========================
+-------------------------
 
 | Remove your tt_products extension from the Extension Manager, download
   the file above and copy its contents to the local folder
@@ -276,13 +268,13 @@ Installation Instructions
 Add these: eID,search,tt_products[search],tt_products[pp]
 
 Categories
-==========
+----------
 
 You have several setup options to configure the display and the
 behaviour of category lists and menues.
 
 Recommendations
-===============
+---------------
 
 Put your recommendations here. Send error messages directly to the
 author.
@@ -310,7 +302,7 @@ pmkhtmlcrop, static_info_tables, static_info_tables_taxes, taxajax,
 transactor
 
 Hooks
-=====
+-----
 
 It's much easier to upgrade from one shop-version to the current one,
 when addons are added using `hook </Category:Hook>`__ [deprecated wiki
@@ -319,7 +311,7 @@ to this page! --`Daniel Brüßler </User:Patchworker>`__ [deprecated wiki
 link] 09:45, 21 April 2007 (CEST)
 
 getLinkParams
--------------
+^^^^^^^^^^^^^
 
 example usage: *I need to add certain parameter to the "back to list"
 links*
@@ -356,7 +348,7 @@ you can change the contents.
       }
 
 addGlobalMarkers
-----------------
+^^^^^^^^^^^^^^^^
 
 example usage: *I need to add "global" content what comes from the
 FlexForm or what is defined by TypoScript*
@@ -394,18 +386,17 @@ and load it in the main class class.tx_ttproducts_pi1 using
 **require_once**.
 
 getItemMarkerArray
-------------------
+^^^^^^^^^^^^^^^^^^
 
 You can use the hook at function getItemMarkerArray in
 model/class.tx_ttproducts_article_base.php to add markers on a
 product/article base.
 
-======================
 Migration to TYPO3 9.5
 ======================
 
 Speaking Url
-============
+------------
 
 If you have formerly used realurl and want to keep the already existing
 links, then you can migrate the speaking urls by this method. Just
@@ -419,7 +410,7 @@ Or here is an alternative php script:
 `File:Migration-Routing-Enhancer.odt <files/Migration-Routing-Enhancer.odt>`__
 
 Upgrade scripts
-===============
+---------------
 
 Use the tt_products upgrade scripts in the Install Tool if necessary.
 Before TYPO3 9 you must do everything by yourself using phpMyAdmin or
@@ -439,7 +430,6 @@ another database tool.
 
 .. _speaking-url-1:
 
-============
 Speaking Url
 ============
 
@@ -471,18 +461,17 @@ example Yaml file for the routing enhancer with tt_products support:
 
 `File:Yaml ttproducts.odt <files/Yaml_ttproducts.odt>`__
 
-========
 Wishlist
 ========
 
 newly implemented
-=================
+-----------------
 
 -  credit card payment via Paypal: Paypal extension can be used together
    with the Payment Library and tt_products
 
 Add your wishes here
-====================
+--------------------
 
 what should be implemented in the next step.
 
@@ -553,7 +542,6 @@ what should be implemented in the next step.
 -  Resize images to a exact size (ex: 150px x 120px) even if they are
    horizontal or vertical sized
 
-=================
 Implemented Shops
 =================
 
@@ -580,12 +568,11 @@ Implemented Shops
 | `tt_products shop <http://www.ttproducts.de>`__
 | `Shop für den Orgelbau <http://www.weiblen.de/>`__
 
-===============
 TYPO3 Solutions
 ===============
 
 The records are not shown
-=========================
+-------------------------
 
 If you use the Fluid Styled Contents and want to insert a tt_products
 record as a content element by "Insert records [shortcut]", then you
@@ -595,7 +582,6 @@ must put this into the constants:
 
     styles.content.shortcut.tables := addToList(tt_products)
 
-====
 Code
 ====
 

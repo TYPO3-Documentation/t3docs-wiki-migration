@@ -65,7 +65,8 @@ Free templates
    anymore]
 -  `TemplaVoila QuickSite <http://templavoila.busynoggin.com/>`__
 -  `Free TYPO3 developer template based on the Introduction Package -
-   t3net.org <http://t3net.org/downloads.html>`__
+   t3net.org <http://t3net.org/downloads.html>`__ [not available
+   anymore]
 -  `Free TYPO3 Templates based on YAML - if-20.com <http://if-20.com>`__
 
 Commercial TYPO3 Templates

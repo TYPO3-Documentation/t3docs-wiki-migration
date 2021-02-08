@@ -63,14 +63,13 @@ EXT/vimeovideo
 `[edit] <https://wiki.typo3.org/wiki/index.php?title=EXT/vimeovideo&action=edit&section=0>`__
 [deprecated wiki link]
 
-===========
 Vimeo Video
 ===========
 
 Adds new content element for Vimeo videos.
 
 Screenshots & Examples
-======================
+----------------------
 
 -  
 
@@ -105,7 +104,7 @@ In action:
 -  https://kickstart8.t3brightside.com/content/ [not available anymore]
 
 Features
-========
+--------
 
 -  Video and options overview in page module
 -  Regular content element settings (title, access, etc.)
@@ -119,13 +118,13 @@ Features
 -  Customizable HTML & TS template
 
 Requirements
-============
+------------
 
 -  TYPO3 8.7 LTS
 -  fluid_styled_content
 
 Install
-=======
+-------
 
 -  Install the extension
 -  Include default TypoScript template and modify if needed.
@@ -134,14 +133,14 @@ Install
    adding via new content wizard)
 
 TypoScript Setup
-================
+----------------
 
 ::
 
    Check typo3conf/ext/vimeovideo/Configuration/TypoScript/setup.ts
 
 Page TSConfig
-=============
+-------------
 
 For changing the settings default values change **Page > Properties >
 Resources > Page TSConfig**.

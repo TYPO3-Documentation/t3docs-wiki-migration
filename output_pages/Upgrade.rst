@@ -41,7 +41,6 @@ Upgrade
       history <https://wiki.typo3.org/wiki/index.php?title=Upgrade&action=history>`__
       [deprecated wiki link] before deleting.
 
-===================
 General information
 ===================
 
@@ -53,7 +52,7 @@ follow. This wiki page holds additions to this information for the
 upgrade to a specific version.
 
 Read the Release notes
-======================
+----------------------
 
 You should not only go through the upgrade notes, which this page has
 for *the* version, to which you are updating, but also the notes for any
@@ -65,7 +64,6 @@ through when updating (e.g. 6.2.0 and 7.6.0). These documents contain a
 section called "Upgrading", which you should follow. See list of all see
 https://get.typo3.org.
 
-==================================
 Upgrading to 7.6 Long Term Support
 ==================================
 
@@ -73,7 +71,6 @@ Information specific to upgrading to 7.6 LTS has been migrated to
 `Installation and Upgrade Guide:
 Upgrade <https://docs.typo3.org/m/typo3/guide-installation/7.6/en-us/Upgrade/UpgradeToLts/Index.html>`__
 
-==================================
 Upgrading to 8.7 Long Term Support
 ==================================
 
@@ -81,7 +78,6 @@ Information specific to upgrading to 8.7 LTS has been migrated to
 `Installation and Upgrade Guide:
 Upgrade <https://docs.typo3.org/m/typo3/guide-installation/8.7/en-us/Upgrade/UpgradeToLts/Index.html>`__
 
-==================================
 Upgrading to 9.5 Long Term Support
 ==================================
 
@@ -89,7 +85,6 @@ Information specific to upgrading to 9.5 LTS has been migrated to
 `Installation and Upgrade Guide:
 Upgrade <https://docs.typo3.org/m/typo3/guide-installation/9.5/en-us/Upgrade/Index.html>`__
 
-=================
 Upgrading to 10.4
 =================
 

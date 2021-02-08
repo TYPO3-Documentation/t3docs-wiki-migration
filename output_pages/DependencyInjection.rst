@@ -15,7 +15,6 @@ Dependency Injection
       contains information about Dependency Injection for newer versions
       of TYPO3.
 
-===============================
 Dependency Injection in Extbase
 ===============================
 
@@ -41,10 +40,10 @@ inversion of control:
 In Extbase this mechanism is used as well.
 
 Methods of Depency Injection (DI) in Extbase
-============================================
+--------------------------------------------
 
 inject method
--------------
+^^^^^^^^^^^^^
 
 Let's give an example:
 
@@ -80,7 +79,7 @@ name starts with *inject*, and thus passes the logging service to
 *MyController*. This is automatically done by the Extbase framework.
 
 @inject annotation
-------------------
+^^^^^^^^^^^^^^^^^^
 
 Since version 4.7, Dependency Injection works with an @inject annotation
 and no inject-method is needed anymore.
@@ -98,7 +97,7 @@ However, be aware of possible performance implications, see for example
 Extbase" <https://gist.github.com/NamelessCoder/3b2e5931a6c1af19f9c3f8b46e74f837>`__.
 
 Constructor Injection
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 Extbase also supports `Constructor
 Injection <https://en.wikipedia.org/wiki/Dependency_injection#Constructor_injection>`__.
@@ -128,17 +127,17 @@ the following example:
    }
 
 More Hints
-==========
+----------
 
 initializeObject() as object lifecycle method
----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If a method with the name *initializeObject()* exists, it is called
 **after all dependencies** have been injected and configured; so you can
 use this method for further initialization work.
 
 Creating Prototype Objects through the Object Manager
------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To create prototype objects, use the get() method on the
 `ObjectManager <https://api.typo3.org/typo3cms/current/html/class_t_y_p_o3_1_1_c_m_s_1_1_extbase_1_1_object_1_1_object_manager.html>`__
@@ -172,7 +171,7 @@ To create prototype objects, use the get() method on the
 **You can also inject prototypes into your classes.**
 
 Programming against interfaces
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If a name ends with "...Interface", Extbase DI automatically strips away
 the "Interface" from the name, and expects to find a concrete
@@ -183,7 +182,7 @@ classes, you should always reference an *interface*, and let the DI
 container instanciate the concrete class.
 
 TypoScript configuration
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Additionally, Extbase DI allows to *replace* certain implementation
 classes by other classes through configuration in TypoScript. Let's give
@@ -216,7 +215,7 @@ Since version 6.1 it is possible to override that on a per-plugin basis:
    }
 
 Links
-=====
+-----
 
 -  https://daniel-siepmann.de/Posts/2017/2017-08-17-typo3-injection.html
 -  https://gist.github.com/NamelessCoder/3b2e5931a6c1af19f9c3f8b46e74f837

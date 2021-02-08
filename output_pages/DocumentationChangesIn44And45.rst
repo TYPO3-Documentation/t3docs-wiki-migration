@@ -23,15 +23,14 @@ Documentation changes in 4.4 and 4.5
       trackers <https://forge.typo3.org/projects/typo3cms-documentation>`__
       instead to inform us! Thank you!
 
-======================
 TSref (doc_core_tsref)
 ======================
 
 Changes for TYPO3 4.5
-=====================
+---------------------
 
 `23677: TYPO3 Core - [Feature] Add SVG support for all browsers [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23677>`__
-----------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Steffen,
 
@@ -100,7 +99,7 @@ Optimize stdWrap usage for TypoScript content element SVG [Closed;
 assigned to Steffen Kamper] <https://forge.typo3.org/issues/24065>`__
 
 `23744: TYPO3 Core - A new TypoScript cObject: FLUIDTEMPLATE [Closed; assigned to Benni Mack] <https://forge.typo3.org/issues/23744>`__
----------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Benni,
 
@@ -171,7 +170,7 @@ the fluid template (fileadmin/templates/MyTemplate.html) could then look
 like this:
 
 {mylabel}
----------
+^^^^^^^^^
 
 ::
 
@@ -182,7 +181,7 @@ Optimize stdWrap usage for TypoScript content element FLUIDTEMPLATE
 [Closed] <https://forge.typo3.org/issues/23897>`__
 
 `14894: TYPO3 Core - stdWrap.age should differenciate between singular/plural [Closed; assigned to Susanne Moog] <https://forge.typo3.org/issues/14894>`__
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Susanne,
 
@@ -208,7 +207,7 @@ Example:
    libdate.age = " Minuten | Stunden | Tage | Jahre | Minute | Stunde | Tag | Jahr"
 
 `15288: TYPO3 Core - Ellipse Gifbuilder Function [Closed; assigned to Susanne Moog] <https://forge.typo3.org/issues/15288>`__
------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Susanne,
 
@@ -242,7 +241,7 @@ x,y is the offset. w,h is the dimensions. Dimensions of 1 will result in
 [tsref:->GIFBUILDER.(GBObj).ELLIPSE]
 
 `16209: TYPO3 Core - additional wrap for mailform.radio [Closed; assigned to Susanne Moog] <https://forge.typo3.org/issues/16209>`__
-------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Susanne,
 
@@ -252,7 +251,7 @@ radioInputWrap ->stdWrap Wraps the input element and label of a radio
 button.
 
 `20497: TYPO3 Core - New options noRescale and resoultionFactor for getImgResource() [Closed; assigned to Benni Mack] <https://forge.typo3.org/issues/20497>`__
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Added by Benni, text by Stefan Geith
 
@@ -280,7 +279,7 @@ To be insterted to Properties-Table in TSref / Functions / imgResource:
 -  Default: 0
 
 `22279: TYPO3 Core - Add .numberFormat function to stdWrap [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/22279>`__
------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sebastian Michaelsen
 
@@ -347,7 +346,7 @@ Examples:
    # Will result in something like "2.055"
 
 `23528: TYPO3 Core - Allow easy use of lightbox style image enlargement in the frontend [Closed; assigned to Susanne Moog] <https://forge.typo3.org/issues/23528>`__
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Susanne,
 
@@ -376,7 +375,7 @@ Example:
    linkParams.ATagParams.dataWrap =   rel="{$styles.content.imgtext.linkWrap.lightboxRelAttribute}"
 
 `23533: TYPO3 Core - TSConfig needs conditions for current page (backend) [Closed; assigned to Susanne Moog] <https://forge.typo3.org/issues/23533>`__
-------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Susanne,
 
@@ -399,7 +398,7 @@ With this condition you can do things depending on the layout field:
 [page|layout = 1]
 
 `23760: TYPO3 Core - Let typolink honour secure filelink configuration [Closed; assigned to Ernesto Baschny] <https://forge.typo3.org/issues/23760>`__
-------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Stan,
 
@@ -421,7 +420,7 @@ Example:
    typolink.jumpurl.secure.mimeTypes = list of mimetypes, syntax [ext] = [mimetype]
 
 `23844: TYPO3 Core - No possibility to completely disable the preview info box -> introduce new config setting [Closed; assigned to Jeff Segars] <https://forge.typo3.org/issues/23844>`__
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Jeff,
 
@@ -433,7 +432,7 @@ TSref - section "CONFIG"
 -  default: 0
 
 `24059: TYPO3 Core - Add basic support for RDFa in core (semantic web) [Closed; assigned to Jochen Rau] <https://forge.typo3.org/issues/24059>`__
--------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Jochen Rau:
 
@@ -488,7 +487,7 @@ The configuration will result in a html tag like
    <html xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
 `24443: TYPO3 Core - getBrowserInfo should recognize iOS and android for easier mobile optimization [Closed; assigned to Ernesto Baschny] <https://forge.typo3.org/issues/24443>`__
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Andy,
 
@@ -536,7 +535,7 @@ documented above, but those are valid, too:
    Windows 7 | winNT
 
 `24545: TYPO3 Core - Rename config.doctype value "html_5" to "html5" [Closed; assigned to Steffen Gebert] <https://forge.typo3.org/issues/24545>`__
----------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sebastian M.
 
@@ -545,7 +544,7 @@ Apply the following changes to 1.6 Setup -> "CONFIG" -> doctype: Replace
 HTML5 is "html_5". This spelling is deprecated since TYPO3 4.5."
 
 `25317: TYPO3 Core - Typolink fails to link between two non-default page types [Closed] <https://forge.typo3.org/issues/25317>`__
----------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Ernesto Baschny,
 
@@ -554,7 +553,7 @@ parameter in the linkVars list (e.g. "config.linkVars = type"), as this
 can result in unexpected behaviour. See above mentioned bug report.
 
 stdWrap everywhere
-------------------
+^^^^^^^^^^^^^^^^^^
 
 Following is a list of the properties, to which stdWrap has been added.
 It is ordered by their appearance in TSref.
@@ -562,7 +561,7 @@ It is ordered by their appearance in TSref.
 The patches were made by Joey.
 
 `23921: TYPO3 Core - Optimize stdWrap usage for TypoScript content element HTML [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23921>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 `diff <https://forge.typo3.org/projects/typo3cms-core/repository/revisions/91c7175198b4e6fd3491b207a7c332c288cffef8/diff>`__
 [not available anymore]
@@ -579,14 +578,14 @@ So now it's possible to use 2 times stdWrap, one with "value" and one
 with "stdWrap".
 
 `24063: TYPO3 Core - Optimize stdWrap usage for TypoScript content element TEXT [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/24063>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: TEXT
 
 Only optimizsation of when to call stdWrap; no new stdWrap anywhere.
 
 `23891: TYPO3 Core - Optimize stdWrap usage for TypoScript content element COA [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23891>`__, `23892: TYPO3 Core - Optimize stdWrap usage for TypoScript content element COA_INT [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23892>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: COA, COA_INT
 
@@ -605,7 +604,7 @@ the scripts are included. That's not the case with the regular
 PHP_SCRIPT cObject.
 
 `23896: TYPO3 Core - Optimize stdWrap usage for TypoScript content element FILE [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23896>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 `diff <https://forge.typo3.org/projects/typo3cms-core/repository/revisions/0ecff15a36e4a74b089dabe16d2d8ffd5cb35704/diff/typo3/sysext/cms/tslib/content/class.tslib_content_file.php>`__
 [not available anymore]
@@ -632,7 +631,7 @@ internally!
 -  Data type: ->stdWrap
 
 `23969: TYPO3 Core - Optimize stdWrap usage for TypoScript content element IMAGE [Closed; assigned to Susanne Moog] <https://forge.typo3.org/issues/23969>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: IMAGE
 
@@ -640,7 +639,7 @@ No new stdWrap. But other missing stdWrap parameters will be added by
 another RFC changing the behaviour of cObj->cImage.
 
 `23970: TYPO3 Core - Optimize stdWrap usage for TypoScript content element IMG_RESOURCE [Closed; assigned to Ernesto Baschny] <https://forge.typo3.org/issues/23970>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: IMG_RESOURCE
 
@@ -649,7 +648,7 @@ parameters will be added by another RFC changing the behaviour of
 cObj->cImage.
 
 `23888: TYPO3 Core - Optimize stdWrap usage for TypoScript content element CLEARGIF [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23888>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 `diff <https://forge.typo3.org/projects/typo3cms-core/repository/revisions/8f4baa47a0ecd6137f11b4945cf5f363c24b49fc/diff/typo3/sysext/cms/tslib/content/class.tslib_content_cleargif.php>`__
 [not available anymore]
@@ -663,7 +662,7 @@ TSref: CLEARGIF
 -  Data type: ->stdWrap
 
 `23890: TYPO3 Core - Optimize stdWrap usage for TypoScript content element CONTENT [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23890>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 `diff <https://forge.typo3.org/projects/typo3cms-core/repository/revisions/11e9a5460221b6b34f33af0b1227fdf33b5afc70/diff>`__
 [not available anymore]
@@ -699,7 +698,7 @@ with collect.
 -  Description: Wrap the whole content story ...
 
 `23972: TYPO3 Core - Optimize stdWrap usage for TypoScript content element RECORDS [Closed; assigned to Susanne Moog] <https://forge.typo3.org/issues/23972>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: RECORDS
 
@@ -716,7 +715,7 @@ example <http://lists.typo3.org/pipermail/typo3-team-core/2010-November/045829.h
 -  Data type: wrap /stdWrap
 
 `23898: TYPO3 Core - Optimize stdWrap usage for TypoScript content element HMENU [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23898>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: HMENU
 
@@ -734,7 +733,7 @@ Roland Waldner:
 -  Data type: list of integers /stdWrap
 
 `23895: TYPO3 Core - Optimize stdWrap usage for TypoScript content element CTABLE [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23895>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: CTABLE
 
@@ -781,7 +780,7 @@ TSref: CTABLE
 -  Data type: ->stdWrap
 
 `24050: TYPO3 Core - Optimize stdWrap usage for TypoScript content element OTABLE [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/24050>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 `diff <https://forge.typo3.org/projects/typo3cms-core/repository/revisions/14b4990022c3cb196a80a8b1d3beb8ad748959a1/diff>`__
 [not available anymore]
@@ -798,7 +797,7 @@ TSref: OTABLE
 -  Data type: ->stdWrap
 
 `23889: TYPO3 Core - Optimize stdWrap usage for TypoScript content element COLUMNS [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23889>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: COLUMNS
 
@@ -822,7 +821,7 @@ TSref: COLUMNS
 -  Description: The total width of the columns + gaps.
 
 `23920: TYPO3 Core - Optimize stdWrap usage for TypoScript content element HRULER [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23920>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: HRULER
 
@@ -862,7 +861,7 @@ Kamper] <https://forge.typo3.org/issues/23886>`__ TSref: CASE
 There where no missing stdWrap parameters so nothing to add.
 
 `23971: TYPO3 Core - Optimize stdWrap usage for TypoScript content element LOAD_REGISTER [Closed; assigned to Susanne Moog] <https://forge.typo3.org/issues/23971>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: LOAD_REGISTER
 
@@ -870,14 +869,14 @@ Bug descriptiopn only speaks of optimization, not of new stdWrap
 anywhere.
 
 RESTORE_REGISTER
-^^^^^^^^^^^^^^^^
+''''''''''''''''
 
 TSref: RESTORE_REGISTER
 
 Not needed. No issue, no discussion, no entry in ChangeLog
 
 `23981: TYPO3 Core - Optimize stdWrap usage for TypoScript content element FORM [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23981>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: FORM
 
@@ -971,7 +970,7 @@ TSref: FORM
 -  Data type: boolean /stdWrap
 
 `24069: TYPO3 Core - Optimize stdWrap usage for TypoScript content element SEARCHRESULT [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/24069>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: SEARCHRESULT
 
@@ -991,7 +990,7 @@ TSref: SEARCHRESULT
 -  Data type: wrap /stdWrap
 
 `24062: TYPO3 Core - Optimize stdWrap usage for TypoScript content element USER_INT [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/24062>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: USER_INT
 
@@ -1003,7 +1002,7 @@ stdWrap functionality to avoid conflicts with existing setups, that
 handle the stdWrap functions within a plugin.
 
 `24051: TYPO3 Core - Optimize stdWrap usage for TypoScript content element PHP_SCRIPT [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/24051>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: PHP_SCRIPT
 
@@ -1014,7 +1013,7 @@ TSref: PHP_SCRIPT
 -  Data type: ->stdWrap
 
 `24052: TYPO3 Core - Optimize stdWrap usage for TypoScript content elements PHP_SCRIPT_INT and PHP_SCRIPT_EXT [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/24052>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: PHP_SCRIPT_INT, PHP_SCRIPT_EXT
 
@@ -1025,7 +1024,7 @@ TSref: PHP_SCRIPT_INT, PHP_SCRIPT_EXT
 -  Data type: ->stdWrap
 
 `24064: TYPO3 Core - Optimize stdWrap usage for TypoScript content element TEMPLATE [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/24064>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: TEMPLATE
 
@@ -1045,7 +1044,7 @@ TSref: TEMPLATE
 -  Data type: ->stdWrap
 
 `24048: TYPO3 Core - Optimize stdWrap usage for TypoScript content element MULTIMEDIA [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/24048>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: MULTIMEDIA
 
@@ -1056,7 +1055,7 @@ TSref: MULTIMEDIA
 -  Data type: integer /stdWrap
 
 `24032: TYPO3 Core - The content object type EDITPANEL is missing, causing pi_getEditPanel to break. [Closed; assigned to Jeff Segars] <https://forge.typo3.org/issues/24032>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: EDITPANEL
 
@@ -1083,7 +1082,7 @@ stdWrap <http://lists.typo3.org/pipermail/typo3-team-core/2010-November/045994.h
 -  Data type: wrap /stdWrap
 
 `24090: TYPO3 Core - Optimize stdWrap usage for GIFBUILDER [Closed; assigned to Susanne Moog] <https://forge.typo3.org/issues/24090>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSref: GIFBUILDER
 
@@ -1159,7 +1158,7 @@ TSref: GIFBUILDER
    -  Data type: pixels + calc /stdWrap
 
 `24089: TYPO3 Core - Optimize stdWrap usage for tslib_content [Closed; assigned to Susanne Moog] <https://forge.typo3.org/issues/24089>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 TSREF, changes to tslib_content affecting different cObjects
 
@@ -1324,10 +1323,10 @@ select
 -  Data type: SQL-orderBy /stdWrap
 
 Changes for TYPO3 4.4
-=====================
+---------------------
 
 `20736: TYPO3 Core - HTML5 doctype implementation [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/20736>`__
---------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Andy:
 
@@ -1338,7 +1337,7 @@ Add in config / doctype
    html_5 for the HTML5 doctype.
 
 `21053: TYPO3 Core - Support for SSL and absolute Links [Closed; assigned to Oliver Hader] <https://forge.typo3.org/issues/21053>`__
-------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Olly, 2010-02-22
 
@@ -1362,7 +1361,7 @@ or http, which is the default value)
    }
 
 `22300: TYPO3 Core - Possibility to configure another link paramter for jumpurl filelinks [Closed; assigned to Benni Mack] <https://forge.typo3.org/issues/22300>`__
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Add the following to chapter 1.5 Functions in `section
 filelink <https://typo3.org/documentation/document-library/core-documentation/doc_core_tsref/4.3.1/view/1/5/#id2509370>`__
@@ -1376,7 +1375,7 @@ need alternative values (e.g. for logging) you can specify them here.
 For options see typolink.parameter
 
 `22338: TYPO3 Core - Added marker in CONTENT object [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/22338>`__
-----------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Jigal
 
@@ -1419,7 +1418,7 @@ markername
    }
 
 `22511: TYPO3 Core - getBrowserInfo delivers wrong info [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/22511>`__
---------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 SteffenK:
 
@@ -1435,7 +1434,7 @@ or even a webkit based browser. This is the list of known browsers:
    amaya, omniweb, avant, camino, flock, aol
 
 `22603: TYPO3 Core - Condition misses check for no logged in user [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/22603>`__
-------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 SteffenK:
 
@@ -1449,17 +1448,16 @@ Additionally it is possible to match for no FE user being logged in.
    This matches when no user is logged in:
    [loginUser = ]
 
-============================
 TSconfig (doc_core_tsconfig)
 ============================
 
 .. _changes-for-typo3-4.5-1:
 
 Changes for TYPO3 4.5
-=====================
+---------------------
 
 Description of setup.fields.<fieldname>.disabled
-------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Søren Malling:
 
@@ -1502,7 +1500,7 @@ still receive an email when he logs in.
 -  Default value: 0
 
 `23433: TYPO3 Core - Rename "Shortcuts" to "Bookmarks" [Closed; assigned to Steffen Gebert] <https://forge.typo3.org/issues/23433>`__, `23943: TYPO3 Core - Apply "bookmarks" naming to UserTS options [Closed; assigned to Steffen Gebert] <https://forge.typo3.org/issues/23943>`__
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 SteffenG:
 
@@ -1521,7 +1519,7 @@ In doc_core_tsconfig Section: User TSconfig Table: ->OPTIONS
    included with an according hint.
 
 `23506: TYPO3 Core - Make checkboxes at the bottom of modules hidable [Closed; assigned to Susanne Moog] <https://forge.typo3.org/issues/23506>`__
---------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Susanne:
 
@@ -1612,7 +1610,7 @@ option can be selected by the user.
 -  Default: selectable
 
 `22266: TYPO3 Core - Move checkbox "secondary options" to users module [Closed; assigned to Susanne Moog] <https://forge.typo3.org/issues/22266>`__
----------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Susanne: User TSconfig, new property after clipboardNumberPads
 
@@ -1623,7 +1621,7 @@ Susanne: User TSconfig, new property after clipboardNumberPads
 -  Default: 1
 
 `23182: TYPO3 Core - Context menu icons are on the right side [Closed; assigned to Steffen Gebert] <https://forge.typo3.org/issues/23182>`__
---------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Steffen Gebert: UserTSconfig ->SETUP
 
@@ -1632,7 +1630,7 @@ Option contextMenu.options.leftIcons
 default value changed to 1
 
 `24004: TYPO3 Core - navFrameWidth and navFrameResizable are not respected any more [Closed; assigned to Steffen Gebert] <https://forge.typo3.org/issues/24004>`__
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Steffen Gebert UserTSconfig ->SETUP
 
@@ -1644,7 +1642,7 @@ Mark options as removed
 They are not supported/needed anymore with the new Page Tree.
 
 `24041: TYPO3 Core - Implement Inline Relational Record Editing (IRRE) in Workspaces [Closed; assigned to Oliver Hader] <https://forge.typo3.org/issues/24041>`__
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Olly
 
@@ -1661,7 +1659,7 @@ new entry after property "workspaces.changeStageMode"
 -  Default: 1
 
 `24006: TYPO3 Core - Make FlexForms editable via TSConfig and group access lists [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/24006>`__
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Kai Vogel
 
@@ -1869,7 +1867,7 @@ Description:
     }
 
 notificationEmail_subject and notificationEmail_body
-----------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Both options are deprecated now. Instead, translated texts are used for
 the according texts automatically, if the needed translations have been
@@ -1878,10 +1876,10 @@ downloaded using the Extension Manager.
 .. _changes-for-typo3-4.4-1:
 
 Changes for TYPO3 4.4
-=====================
+---------------------
 
 `22701: TYPO3 Core - Remove old_backend [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/22701>`__
-----------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Steffen Gebert, 2.7.2010:
 
@@ -1895,31 +1893,30 @@ User TSconfig->OPTIONS
 .. _notificationemail_subject-and-notificationemail_body-1:
 
 notificationEmail_subject and notificationEmail_body
-----------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Page TSconfig->TCEMAIN
 
 -  properties notificationEmail_subject and notificationEmail_body did
    not have a description. According texts were added.
 
-============================
 TCA reference (doc_core_tca)
 ============================
 
 .. _changes-for-typo3-4.4-2:
 
 Changes for TYPO3 4.4
-=====================
+---------------------
 
 None
 
 .. _changes-for-typo3-4.5-2:
 
 Changes for TYPO3 4.5
-=====================
+---------------------
 
 `23922: TYPO3 Core - [Feature] TCA tree [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23922>`__ -- *2011-04-18 (olly): Updated the documentation*
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ::
 
@@ -1963,7 +1960,7 @@ Changes for TYPO3 4.5
    );
 
 `24361: TYPO3 Core - t3ver_stage should be int(11) instead of tinyint(4) [Closed; assigned to Tolleiv Nietsch] <https://forge.typo3.org/issues/24361>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 t3ver_stage should have the type "int(11)" besides that the meaning
 changes since everything > 0 now references an actual "workspace stage"
@@ -1973,44 +1970,43 @@ never really use these values to refer to these states, they should use
 the constants Tx_Workspaces_Service_Stages::STAGE_EDIT_ID,
 Tx_Workspaces_Service_Stages::STAGE_PUBLISH_ID
 
-========================
 Core APIs (doc_core_api)
 ========================
 
 doc_core_api (4.4)
-==================
+------------------
 
 `22000: TYPO3 Core - ExtDirect API [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/22000>`__
------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 `Ext Direct Wiki Page <extdirect>`__
 
 `22319: TYPO3 Core - Add Viewport layout to BE [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/22319>`__
------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 `Wiki
 Page </wiki/index.php?title=TYPO3Viewport&action=edit&redlink=1>`__ [not
 available anymore]
 
 `22642: TYPO3 Core - Rewrite of the debug panel (More Features!, More Stability!, More Usability!) [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/22642>`__
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 `Wiki
 Page </wiki/index.php?title=TYPO3Viewport&action=edit&redlink=1>`__ [not
 available anymore]
 
 doc_core_api (4.5)
-==================
+------------------
 
 `24071: TYPO3 Core - Support for Custom Navigation Components [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/24071>`__
---------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 `Wiki
 Page </wiki/index.php?title=TYPO3Viewport&action=edit&redlink=1>`__ [not
 available anymore]
 
 Extension Architecture
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 **ext_emconf.php**
 
@@ -2025,7 +2021,7 @@ Extension Architecture
                 Example: 'docPath' => 'ressources/documentation',
 
 `23768: TYPO3 Core - API for Trees and ContextMenus [Closed; assigned to Steffen Kamper] <https://forge.typo3.org/issues/23768>`__
-----------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 | **Pagetree documentation**
 
@@ -2040,7 +2036,7 @@ Diagram <https://forge.typo3.org/attachments/download/4028/Tree_UML_Diagram__6_.
 Diagram <https://forge.typo3.org/attachments/download/4025/ContextMenu_Diagram__1_.png>`__
 
 `23735: TYPO3 Core - Create a new API based on SwiftMailer to replace t3lib_htmlmail [Closed; assigned to Ernesto Baschny] <https://forge.typo3.org/issues/23735>`__
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Since 4.5 TYPO3 provides a RFC compliant mailing solution, based on
 SwiftMailer. In the Install Tool ("All Configuration") several settings
@@ -2212,7 +2208,7 @@ sending configuration:
    site to 4.5!
 
 `24097: TYPO3 Core - Introduce a form protection API [Closed; assigned to Ernesto Baschny] <https://forge.typo3.org/issues/24097>`__
-------------------------------------------------------------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Core now provides a form protection against Cross-Site-Request
 Forgery (XSRF/CSRF).

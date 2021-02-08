@@ -34,19 +34,17 @@ Rte htmlarea
       `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
       [deprecated wiki link]
 
-========================================
 Information about RTE (Rich Text Editor)
 ========================================
 
 Installation
-============
+------------
 
-========
 TSConfig
 ========
 
 Configuration
-=============
+-------------
 
 Configure the shown buttons of the RTE in the page's TSConfig (e.g. root
 page of your site). Some examples:
@@ -93,4 +91,4 @@ page of your site). Some examples:
       RTE.default.showButtons = left, justifyfull, center, right, link, bold, italic, strikethrough, superscript, outdent, indent, pastetoggle, orderedlist, unorderedlist, insertcharacter, removeformat, image, chMode
 
 Linked CSS
-----------
+~~~~~~~~~~

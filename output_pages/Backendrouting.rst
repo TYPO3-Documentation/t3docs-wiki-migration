@@ -8,7 +8,6 @@ Blueprints/BackendRouting
 
 `<- Back to blueprints overview </Blueprints>`__ [deprecated wiki link]
 
-==========================
 Blueprint: Backend Routing
 ==========================
 
@@ -30,13 +29,13 @@ Blueprint: Backend Routing
 +----------------------+----------------------------------------------+
 
 Target Versions/Milestones
-==========================
+--------------------------
 
 -  Started during TYPO3 CMS 7.1 development, should be included until
    CMS 7 LTS.
 
 Motivation
-==========
+----------
 
 This page explains the concepts and details about the Routing principles
 in the TYPO3 Backend, which should be introduced with TYPO3 CMS 7.
@@ -57,7 +56,7 @@ own. When linking to a module, the method BackendUtility::getModuleUrl()
 is used as the main instance and used throughout the core.
 
 Current Implementation Status
-=============================
+-----------------------------
 
 All modules in the TYPO3 CMS Core have been moved to the dispatched
 version called mod.php. All standalone files have been moved to be using
@@ -90,7 +89,7 @@ of simple routing to pages / documents of the backend, we will now call
 “routes”.
 
 Concept / Goal
-==============
+--------------
 
 Modules will be an extended version of a route, and be treated on
 different places, exactly like an AJAX call, but the smallest portion
@@ -139,7 +138,7 @@ overhead in an non-cached frontend call as the ext_tables.php is not as
 polluted anymore.
 
 Implementation Details
-======================
+----------------------
 
 The Routing component is using the very basic feature set which is
 similar to Symfony’s Routing Component. The Backend Routing is set up at
@@ -164,14 +163,14 @@ path info string (see ->match()), and also used to create URLs from
 available routes (see generate()).
 
 Risks
-=====
+-----
 
 Issues and reviews
-------------------
+~~~~~~~~~~~~~~~~~~
 
 -  https://review.typo3.org/#/c/37476/
 
 External links for clarification of technologies
-================================================
+------------------------------------------------
 
 -  https://github.com/symfony/Routing

@@ -14,7 +14,6 @@ be required by law to mark external links. There is an extension in the
 TER ('dh_linklayout') which does this, but it is quite outdated and I
 did discover some bugs with it. But you can achieve the same yourself.
 
-==========
 TypoScript
 ==========
 

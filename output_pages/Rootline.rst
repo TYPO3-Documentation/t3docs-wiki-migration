@@ -8,7 +8,7 @@ lib.rootline
 ============
 
 Full TS
-=======
+-------
 
 ::
 
@@ -40,15 +40,15 @@ Full TS
    }
 
 Another example using Constants, different languages and full CSS Design options
-================================================================================
+--------------------------------------------------------------------------------
 
 Rendering
----------
+^^^^^^^^^
 
 |Rootline.gif|
 
 CONSTANT
---------
+^^^^^^^^
 
 ::
 
@@ -71,7 +71,7 @@ CONSTANT
    rootlineMsg_2 = Sie sind auf der Seite :
 
 SETUP
------
+^^^^^
 
 ::
 
@@ -119,7 +119,7 @@ SETUP
    ## Rootline [END]
 
 EXTERNAL CSS
-------------
+^^^^^^^^^^^^
 
 ::
 

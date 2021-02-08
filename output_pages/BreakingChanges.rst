@@ -16,7 +16,6 @@ Breaking Changes
       about newer breaking changes, see the `TYPO3 CMS Core
       ChangeLog <https://docs.typo3.org/c/typo3/cms-core/master/en-us/Index.html>`__
 
-=====================================
 Breaking Changes in Extbase and Fluid
 =====================================
 
@@ -38,7 +37,7 @@ you interacted with classes/methods that are not part of the Public API.
 you're using deprecated classes/functions.
 
 Version Matrix
-==============
+--------------
 
 This page handles Extbase 1.0.2 to 6.2 and some of the related Fluid
 changes. The version span corresponds to TYPO3 versions 6.2 and older.
@@ -61,10 +60,10 @@ TYPO3 Version  Extbase Version Fluid Version
 ============== =============== =============
 
 From Extbase 6.1 to Extbase 6.2
-===============================
+-------------------------------
 
 Extbase
--------
+^^^^^^^
 
 -  **Recursive object validation**: Validation of object structures in
    extbase is now done recursively. If a tree of objects is created by
@@ -86,7 +85,7 @@ Extbase
    function in favour of the one from extbase.
 
 Fluid
------
+^^^^^
 
 -  **Image view helper does not render title tag by default**: In
    previous versions of fluid the image view helper always rendered the
@@ -98,12 +97,12 @@ Fluid
    condition in IfViewHelper which performs checks with negative values.
 
 From Extbase 6.0 to Extbase 6.1
-===============================
+-------------------------------
 
 .. _extbase-1:
 
 Extbase
--------
+^^^^^^^
 
 -  **Introduce explicit saving of modified domain objects**: Modified
    objects now need to be passed through their repository update method
@@ -129,7 +128,7 @@ Extbase
 .. _fluid-1:
 
 Fluid
------
+^^^^^
 
 -  **Allow Fluid arrays only in ViewHelper arguments**: This change
    greatly enhances the JavaScript compatibility of Fluid.
@@ -171,12 +170,12 @@ the array as ViewHelper argument:
    <f:debug value="{key1: 'value1', key2: 'value2'}" />
 
 From Extbase 4.7 to Extbase 6.0
-===============================
+-------------------------------
 
 .. _extbase-2:
 
 Extbase
--------
+^^^^^^^
 
 -  **FrontendUser->isOnline**: The property isOnline of FrontendUser
    with its getter and setter was removed, because there is no TCA
@@ -188,7 +187,7 @@ mappping process.
 .. _fluid-2:
 
 Fluid
------
+^^^^^
 
 -  **Naming of Fluid Templates**: As of version 6.0 all Fluid template
    filenames must begin with an uppercase letter. So if your action is
@@ -200,12 +199,12 @@ Fluid
    some versions. Please use FlashMessagesViewHelper instead.
 
 From Extbase 1.4 to Extbase 4.7
-===============================
+-------------------------------
 
 .. _extbase-3:
 
 Extbase
--------
+^^^^^^^
 
 -  A registered slot now gets the signal's information (classname::name)
    by default set as last parameter in the arguments array. You can
@@ -213,12 +212,12 @@ Extbase
    connect()-call.
 
 From Extbase 1.3.x to Extbase 1.4.0
-===================================
+-----------------------------------
 
 .. _extbase-4:
 
 Extbase
--------
+^^^^^^^
 
 -  The **Property Mapper** of FLOW3 has been reworked and backported to
    Extbase. The new property mapper is very `configurable and
@@ -246,7 +245,7 @@ controller/action if an invalid action was requested.
 .. _fluid-3:
 
 Fluid
------
+^^^^^
 
 -  **AbstractViewHelper::arguments** are no longer an object but an
    array. If you used *$this->arguments->hasArgument()* in your custom
@@ -265,7 +264,7 @@ you can do so by disabling the cache with
 = 't3lib_cache_backend_NullBackend';*
 
 From Extbase 1.2.x to Extbase 1.3.0
-===================================
+-----------------------------------
 
 -  We now have **Dependency Injection** in Extbase. This should work
    seamlessly in most cases. However, if you used your own Dependency
@@ -310,7 +309,7 @@ method *getFirst()* on the QueryResult. See
    defaultScheme= *to your <f:link.external /> command.*
 
 From Extbase 1.0.2 to Extbase 1.2.0
-===================================
+-----------------------------------
 
 -  *$query->execute()* now returns a **plain array** of row-arrays
    instead of an *RowIterator*. This is a breaking change if you use

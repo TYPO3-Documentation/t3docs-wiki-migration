@@ -10,7 +10,7 @@ Common Principles
 From: ftp://ftp.isi.edu/in-notes/rfc2223.txt [not available anymore]
 
 First Page
-==========
+----------
 
 Please see the front page of this memo for an example of the front page
 heading. On the first page there is no running header. The top of the
@@ -92,14 +92,14 @@ to accommodate them and to associate the authors with the organizations
 properly.
 
 Status Section
-==============
+--------------
 
 Each RFC must include on its first page the "Status of this Memo"
 section which contains two elements: (1) a paragraph describing the type
 of the RFC, and (2) the distribution statement.
 
 Introduction Section
-====================
+--------------------
 
 Each RFC should have an Introduction section that (among other things)
 explains the motivation for the RFC.
@@ -131,7 +131,7 @@ Examples:
               the benefit of community members)
 
 References Section
-==================
+------------------
 
 Nearly all RFCs contain citations to other documents, and these are
 listed in a References section near the end of the RFC. There are many
@@ -146,14 +146,14 @@ BCP 14, RFC 2119 [3], defines these words as they should be interpreted
 in IETF documents.
 
 Security Considerations Section
-===============================
+-------------------------------
 
 All RFCs must contain a section near the end of the document that
 discusses the security considerations of the protocol or procedures that
 are the main topic of the RFC.
 
 Author's Address Section
-========================
+------------------------
 
 Each RFC must have at the very end a section giving the author's
 address, including the name and postal address, the telephone number,
