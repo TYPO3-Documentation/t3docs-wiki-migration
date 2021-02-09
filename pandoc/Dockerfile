@@ -13,9 +13,21 @@ RUN apt-get -q --no-allow-insecure-repositories update \
    && apt-get install --assume-yes --no-install-recommends \
          php-cli \
          php-xml \
+         php-xdebug \
          composer \
          unzip \
    && rm -rf /var/lib/apt/lists/*
+
+# Configure PHP
+WORKDIR /etc/php/7.4/cli
+RUN phpdismod xdebug \
+   && cp php.ini php-debug.ini \
+   && echo "\
+zend_extension=xdebug.so \n\
+xdebug.remote_enable=1 \n\
+xdebug.remote_host=host.docker.internal \n\
+xdebug.remote_port=9000 \
+" >> php-debug.ini
 
 # Smoke test
 RUN pandoc --version \

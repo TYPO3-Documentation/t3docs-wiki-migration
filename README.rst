@@ -31,7 +31,7 @@ Conversion of Wiki Exception Pages
       make exceptions
 
       # MacOS and Windows
-      docker-compose run -e "SCOPE=exceptions" --rm convert
+      SCOPE=exceptions docker-compose run --rm convert
 
 2. Check and adapt file `_map_of_failed_urls.php <output_exceptions/_map_of_failed_urls.php>`_ for
    outdated links which should be mapped to valid urls. Run the script after adaption again.
@@ -51,12 +51,32 @@ Conversion of Wiki Pages
       make pages
 
       # MacOS and Windows
-      docker-compose run -e "SCOPE=pages" --rm convert
+      SCOPE=pages docker-compose run --rm convert
 
 2. Check and adapt file `_map_of_failed_urls.php <output_pages/_map_of_failed_urls.php>`_ for outdated links which
    should be mapped to valid urls. Run the script after adaption again.
 3. Check file `_warnings.txt <output_pages/_warnings.txt>`_ for conversion warnings which should be handled.
 4. Edit reST files of folder `output_pages <output_pages>`_ manually to make them ready for use in docs.typo3.org.
+
+Developing
+----------
+
+Debug the conversion script by prepending the Xdebug specific environment variables ``XDEBUG_CONFIG`` and
+``PHP_IDE_CONFIG`` to define the interaction with your IDE.
+
+.. code-block:: bash
+
+   # Linux
+   XDEBUG_CONFIG="idekey={idekey}" PHP_IDE_CONFIG="serverName={serverName}" make (exceptions|pages)
+   # e.g.
+   XDEBUG_CONFIG="idekey=PHPSTORM" PHP_IDE_CONFIG="serverName=t3docs-wiki-migration" make exceptions
+
+   # MacOS and Windows
+   XDEBUG_CONFIG="idekey={idekey}" PHP_IDE_CONFIG="serverName={serverName}" SCOPE="(exceptions|pages)" docker-compose run --rm convert
+   # e.g.
+   XDEBUG_CONFIG="idekey=PHPSTORM" PHP_IDE_CONFIG="serverName=t3docs-wiki-migration" SCOPE="exceptions" docker-compose run --rm convert
+
+Xdebug is configured to communicate via port 9000.
 
 Uninstallation
 --------------

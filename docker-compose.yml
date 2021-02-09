@@ -11,7 +11,7 @@ services:
     volumes:
       - .:/wiki-migration
     environment:
-      SCRIPT_VERBOSE: 0
+      - SCRIPT_VERBOSE=0
     command: >
       /bin/sh -c '
         [ "$${SCRIPT_VERBOSE}" -eq "1" ] && set -x;
@@ -24,7 +24,7 @@ services:
     volumes:
       - .:/wiki-migration
     environment:
-      SCRIPT_VERBOSE: 0
+      - SCRIPT_VERBOSE=0
     command: >
       /bin/sh -c '
         [ "$${SCRIPT_VERBOSE}" -eq "1" ] && set -x;
@@ -37,9 +37,20 @@ services:
     volumes:
       - .:/wiki-migration
     environment:
-      SCRIPT_VERBOSE: 0
+      - SCRIPT_VERBOSE=0
+      - SCOPE
+      - XDEBUG_CONFIG
+      - PHP_IDE_CONFIG
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     command: >
       /bin/sh -c '
         [ "$${SCRIPT_VERBOSE}" -eq "1" ] && set -x;
-        ./php/vendor/bin/wiki $${SCOPE};
+        if [ -n "$${XDEBUG_CONFIG}" ] && [ -n "$${PHP_IDE_CONFIG}" ]; then
+          echo "Debugging enabled."
+          php -c /etc/php/7.4/cli/php-debug.ini ./php/vendor/bin/wiki $${SCOPE};
+        else
+          echo "No debugging."
+          ./php/vendor/bin/wiki $${SCOPE};
+        fi
       '
