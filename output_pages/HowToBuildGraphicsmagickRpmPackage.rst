@@ -6,15 +6,17 @@ How to build GraphicsMagick RPM package
 
 .. container::
 
-   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
+   **Content Type:** `HowTo <https://wiki.typo3.org/Category:HowTo>`__
+   [deprecated wiki link].
 
 How to build GraphicsMagick RPM package (--enable-magick-compat)
 ================================================================
 
-This is help for a `RedHat </Category:RedHat>`__ [deprecated wiki
-link]-`Linux </Category:Linux>`__ [deprecated wiki link]-Server and is
-an `installation </Category:Installation>`__ [deprecated wiki link]-help
-for GraphicsMagick/ImageMagick.
+This is help for a `RedHat <https://wiki.typo3.org/Category:RedHat>`__
+[deprecated wiki link]-`Linux <https://wiki.typo3.org/Category:Linux>`__
+[deprecated wiki link]-Server and is an
+`installation <https://wiki.typo3.org/Category:Installation>`__
+[deprecated wiki link]-help for GraphicsMagick/ImageMagick.
 
 Making workspace directories
 ----------------------------

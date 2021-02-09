@@ -5,7 +5,7 @@ Windows
 =======
 
 << Back to `Getting
-started </wiki/index.php?title=Getting_started&action=edit&redlink=1>`__
+started <https://wiki.typo3.org/wiki/index.php?title=Getting_started&action=edit&redlink=1>`__
 [not available anymore] page
 
 `[edit] <https://wiki.typo3.org/wiki/index.php?title=Windows&action=edit&section=0>`__
@@ -53,7 +53,7 @@ started </wiki/index.php?title=Getting_started&action=edit&redlink=1>`__
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
       reviewer for text and TypoScript.
-      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      `info <https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
       [deprecated wiki link]
 
 Introduction
@@ -133,7 +133,8 @@ gives the same security level than IIS5.
 
 Edit: If you receive "error forking ... ImageMagick\convert.exe" etc. in
 the Typo3-Installer (Image Processing-Setup), you shold read this:
-`Windows security </Windows_security>`__ [deprecated wiki link]
+`Windows security <https://wiki.typo3.org/Windows_security>`__
+[deprecated wiki link]
 
 Webserver
 =========
@@ -526,11 +527,11 @@ http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vclib/html/_crt
 eAccelerator
 ============
 
-e\ `accelerator </Category:Accelerator>`__ [deprecated wiki link]
-increases performance of PHP scripts by caching them in precompiled
-state, so that the overhead of compiling is almost completely
-eliminated. eAccelerator 's home is http://eaccelerator.net, Windows
-binaries can be found at
+e\ `accelerator <https://wiki.typo3.org/Category:Accelerator>`__
+[deprecated wiki link] increases performance of PHP scripts by caching
+them in precompiled state, so that the overhead of compiling is almost
+completely eliminated. eAccelerator 's home is http://eaccelerator.net,
+Windows binaries can be found at
 http://dev.freshsite.pl/php-accelerators/eaccelerator.html [not
 available anymore] or `eAccelerator Windows
 binaries <http://www.sitebuddy.com/PHP/Accelerators/eAccelerator_windows_binaries_builds>`__
@@ -538,8 +539,8 @@ binaries <http://www.sitebuddy.com/PHP/Accelerators/eAccelerator_windows_binarie
 Download the DLL suitable to your PHP version, rename it to
 *eaccelerator.dll* and copy it to the *extensions* directory of your PHP
 installation. After this step, open the
-`php.ini </Category:Php.ini>`__\ *[deprecated wiki link]* and add the
-following lines:
+`php.ini <https://wiki.typo3.org/Category:Php.ini>`__\ *[deprecated wiki
+link]* and add the following lines:
 
 ::
 
@@ -597,7 +598,8 @@ Use Windows symbolic links
 --------------------------
 
 (Choice number two is using `symbolic
-links </Category:Symbolic_links>`__ [deprecated wiki link])
+links <https://wiki.typo3.org/Category:Symbolic_links>`__ [deprecated
+wiki link])
 
 NEW: 16th of December 2005. Once again, quote "TYPO3 uses symlinks to
 offer a much easier management of future maintenance and upgrades. With

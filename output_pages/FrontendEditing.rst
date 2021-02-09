@@ -6,7 +6,8 @@ Frontend editing
 
 .. container::
 
-   **Content Type:** `FAQ </Category:FAQ>`__ [deprecated wiki link].
+   **Content Type:** `FAQ <https://wiki.typo3.org/Category:FAQ>`__
+   [deprecated wiki link].
 
 .. container::
 
@@ -37,7 +38,7 @@ add :**
 .. container::
 
    `TS
-   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   TypoScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -58,12 +59,13 @@ another website if not explicitly added to the other website's
 usergroup.
 
 -  Add the following code to the usergroup's
-   `TSconfig </Category:TSconfig>`__ [deprecated wiki link] field :
+   `TSconfig <https://wiki.typo3.org/Category:TSconfig>`__ [deprecated
+   wiki link] field :
 
 .. container::
 
    `TS
-   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   TypoScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
    [deprecated wiki link]
 
 .. container::

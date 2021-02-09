@@ -24,8 +24,9 @@ Answers to your questions
 How to...
 =========
 
--  `...create your own TYPO3 package </Create_Typo3_package>`__
-   [deprecated wiki link]
+-  `...create your own TYPO3
+   package <https://wiki.typo3.org/Create_Typo3_package>`__ [deprecated
+   wiki link]
 -  `...rotate the login
    picture <http://www.allanime.org/index.php?id=143>`__
 -  `...scale images using extension code and the TYPO3
@@ -42,7 +43,8 @@ Articles
 Here you find different articles (an article, generally speaking, is an
 uncategorized document).
 
--  Article about `performance tips </Articles/PerformancesTricks>`__
+-  Article about `performance
+   tips <https://wiki.typo3.org/Articles/PerformancesTricks>`__
    [deprecated wiki link]
 -  Article about setting up `My first TYPO3
    site <my-first-typo3-site>`__
@@ -61,5 +63,6 @@ Other helpful documents
 -  `Linux cheat sheet <linux-cheat-sheet>`__ - short explanations of
    common UNIX/Linux shell commands
 -  `TYPO3 templates repository <typo3-templates-repository>`__
--  Wiki `template for extension manuals </Extensiontemplate>`__
-   [deprecated wiki link]
+-  Wiki `template for extension
+   manuals <https://wiki.typo3.org/Extensiontemplate>`__ [deprecated
+   wiki link]

@@ -14,7 +14,8 @@ and must be migrated!)
 General information
 -------------------
 
--  `Wiki Coordination </WikiCoordination>`__ [deprecated wiki link]
+-  `Wiki Coordination <https://wiki.typo3.org/WikiCoordination>`__
+   [deprecated wiki link]
 -  `Overview of the Wiki <overviewofwiki>`__ (contains some information
    about types of pages, categories, number of pages etc.)
 

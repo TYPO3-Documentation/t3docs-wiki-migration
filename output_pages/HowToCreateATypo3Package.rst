@@ -8,7 +8,8 @@ FAQ/How to create a TYPO3 package
 
 .. container::
 
-   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
+   **Content Type:** `HowTo <https://wiki.typo3.org/Category:HowTo>`__
+   [deprecated wiki link].
 
 .. container::
 
@@ -30,7 +31,7 @@ FAQ/How to create a TYPO3 package
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
       reviewer for text and TypoScript.
-      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      `info <https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
       [deprecated wiki link]
 
 .. container::
@@ -42,7 +43,8 @@ FAQ/How to create a TYPO3 package
    .. container::
 
    *Please remove "{{Todo}}" when the problem is solved. See*\ `all
-   todos </Category:Wiki-Todo>`__\ *[deprecated wiki link].*
+   todos <https://wiki.typo3.org/Category:Wiki-Todo>`__\ *[deprecated
+   wiki link].*
 
 | 
 | This page describes how to create your own TYPO3 package (like **like
@@ -58,8 +60,9 @@ etc. but no media, images or and other files) do the following:
 
 as you prefer.)
 
--  do a 1-2-3 `installation </Category:Installation>`__ [deprecated wiki
-   link] and make all necessary adjustments.
+-  do a 1-2-3
+   `installation <https://wiki.typo3.org/Category:Installation>`__
+   [deprecated wiki link] and make all necessary adjustments.
 -  export the database with all create statements and data to a file
    called ``database.sql`` and put it in ``typo3conf/`` of another fresh
    unzipped package on which you didn't run 1-2-3 (overwriting the
@@ -93,7 +96,8 @@ If you do not include the database settings (in ``localconfig.php``):
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::

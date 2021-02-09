@@ -7,20 +7,22 @@ WebDAV
 .. container::
 
    This page belongs to the WebDAV integration project (category
-   `Project </Category:Project>`__ [deprecated wiki link])
+   `Project <https://wiki.typo3.org/Category:Project>`__ [deprecated
+   wiki link])
 
 Current Project Members
 =======================
 
 -  Karsten Dambekalns, karsten@typo3.org
 -  `Andreas
-   Förthner </wiki/index.php?title=User:OldFoerthner&action=edit&redlink=1>`__
+   Förthner <https://wiki.typo3.org/wiki/index.php?title=User:OldFoerthner&action=edit&redlink=1>`__
    [not available anymore], andreas.foerthner@netlogix.de
--  `Daniel Schiffner </User:Netzspiegel>`__ [deprecated wiki link]
+-  `Daniel Schiffner <https://wiki.typo3.org/User:Netzspiegel>`__
+   [deprecated wiki link]
 -  Clemens Kalb, clemens.kalb@netlogix.de
 -  Marc Bastian Heinrichs, typo3@mbh-web.de
 -  `Christophe
-   Balisky </wiki/index.php?title=User:Oldcbalisky&action=edit&redlink=1>`__
+   Balisky <https://wiki.typo3.org/wiki/index.php?title=User:Oldcbalisky&action=edit&redlink=1>`__
    [not available anymore], cbalisky@metaphore.fr
 
 Tentatively
@@ -34,13 +36,14 @@ Tentatively
 
 | i would prefer everybody creating an account and making use of the
   "signature" button to link to his user-page
-| --`Daniel Schiffner </User:Netzspiegel>`__ [deprecated wiki link]
-  11:15, 14 October 2006 (CEST)
+| --`Daniel Schiffner <https://wiki.typo3.org/User:Netzspiegel>`__
+  [deprecated wiki link] 11:15, 14 October 2006 (CEST)
 
 I would love people to make use of shift and capitalize letters, as well
 as use proper punctuation. Sounds like nitpicking, but makes things
-easier to read. Thanks. --`k-fish </User:K-fish>`__ [deprecated wiki
-link] 09:48, 6 November 2006 (CET)
+easier to read. Thanks.
+--`k-fish <https://wiki.typo3.org/User:K-fish>`__ [deprecated wiki link]
+09:48, 6 November 2006 (CET)
 
 Communication
 =============
@@ -119,14 +122,15 @@ weeks.
 Feel free to comment, criticise or whatever.
 
 --`Andreas
-Förthner </wiki/index.php?title=User:OldFoerthner&action=edit&redlink=1>`__
+Förthner <https://wiki.typo3.org/wiki/index.php?title=User:OldFoerthner&action=edit&redlink=1>`__
 [not available anymore] 19:49, 23 October 2006 (CEST)
 
 Sounds very interesting! I added a relations-section for you and put in
 the ContentRepository-project. You easily can add more projects, what
 are relating to WebDAV, too. For example `Users
-Addresses </Users_Addresses>`__ [deprecated wiki link] could be a
-candidate. --`Daniel Brüßler </User:Patchworker>`__ [deprecated wiki
+Addresses <https://wiki.typo3.org/Users_Addresses>`__ [deprecated wiki
+link] could be a candidate. --`Daniel
+Brüßler <https://wiki.typo3.org/User:Patchworker>`__ [deprecated wiki
 link] 20:50, 23 October 2006 (CEST)
 
 Roadmap
@@ -148,15 +152,15 @@ Tasks
   the package with
 | *require_once('HTTP/WebDAV/Server/Filesystem.php');*
 
---`Daniel Schiffner </User:Netzspiegel>`__ [deprecated wiki link] 20:29,
-14 October 2006 (CEST)
+--`Daniel Schiffner <https://wiki.typo3.org/User:Netzspiegel>`__
+[deprecated wiki link] 20:29, 14 October 2006 (CEST)
 
 now that i had a short look at the Pear sourcecode, it seams that a
 whole bunch of methods has not been implemented right now, looks like
 lots of work
 
---`Daniel Schiffner </User:Netzspiegel>`__ [deprecated wiki link] 20:27,
-14 October 2006 (CEST)
+--`Daniel Schiffner <https://wiki.typo3.org/User:Netzspiegel>`__
+[deprecated wiki link] 20:27, 14 October 2006 (CEST)
 
 Of course it is not implemented, this is not what it was intended to be.
 It provides an abstract class that handles the lowlevel protcol stuff.
@@ -165,7 +169,7 @@ good thing, because then we are able to develop a class that perfectly
 fits our needs.
 
 --`Andreas
-Förthner </wiki/index.php?title=User:OldAndreas_F%C3%B6rthner&action=edit&redlink=1>`__
+Förthner <https://wiki.typo3.org/wiki/index.php?title=User:OldAndreas_F%C3%B6rthner&action=edit&redlink=1>`__
 [not available anymore] 19:49, 23 October 2006 (CEST)
 
 | 
@@ -259,7 +263,7 @@ on the roadmap. So I will try to follow the actual development for the
 
 Ok, I think I'll have a beer now... ;-)
 
---`Andi </wiki/index.php?title=User:OldFoerthner&action=edit&redlink=1>`__
+--`Andi <https://wiki.typo3.org/wiki/index.php?title=User:OldFoerthner&action=edit&redlink=1>`__
 [not available anymore] 21:53, 20 November 2006 (CET)
 
 Sponsoring
@@ -270,26 +274,27 @@ sponsorship for this project ;-) feel free to contact me about that or
 go here:
 `wishlist <http://www.amazon.de/gp/registry/registry.html/ref=em-si-html_viewall/028-0565586-8857361?id=LL1PYTGP2Z3O>`__
 
---`Daniel Schiffner </User:Netzspiegel>`__ [deprecated wiki link] 20:58,
-13 October 2006 (CEST)
+--`Daniel Schiffner <https://wiki.typo3.org/User:Netzspiegel>`__
+[deprecated wiki link] 20:58, 13 October 2006 (CEST)
 
 Relations
 =========
 
 **relating projects** (`edit
-this </Template:NavigationContentRepository>`__ [deprecated wiki link],
-*in alphabetical order*)
+this <https://wiki.typo3.org/Template:NavigationContentRepository>`__
+[deprecated wiki link], *in alphabetical order*)
 
 -  `TYPO3 Neos Content
-   Repository </wiki/index.php?title=TYPO3_Neos_Content_Repository&action=edit&redlink=1>`__
+   Repository <https://wiki.typo3.org/wiki/index.php?title=TYPO3_Neos_Content_Repository&action=edit&redlink=1>`__
    [not available anymore]
 -  maybe a relation to lib/div (can provide data for the `MVC
    Framework <mvc-framework>`__)
 -  `DAM aka Digital Asset
-   Management </wiki/index.php?title=Dam&action=edit&redlink=1>`__ [not
-   available anymore] - features advanced metatagging and categorisation
-   of assets
--  WebDAV, `Apache2 Typo3 WebDAV </Apache2_Typo3_WebDAV>`__ [deprecated
+   Management <https://wiki.typo3.org/wiki/index.php?title=Dam&action=edit&redlink=1>`__
+   [not available anymore] - features advanced metatagging and
+   categorisation of assets
+-  WebDAV, `Apache2 Typo3
+   WebDAV <https://wiki.typo3.org/Apache2_Typo3_WebDAV>`__ [deprecated
    wiki link] - client - needs meta data to render objects in a tree
    structure
 
@@ -299,9 +304,9 @@ Resources
 -  Material related to WebDAV from TYCON3 2005,
    http://projects.fishfarm.de/webdav/ [not available anymore]
 -  `Setting up WebDAV for TYPO3 with external
-   tools </Apache2_Typo3_WebDAV>`__ [deprecated wiki link]
-   --`k-fish </User:K-fish>`__ [deprecated wiki link] 09:46, 6 November
-   2006 (CET)
+   tools <https://wiki.typo3.org/Apache2_Typo3_WebDAV>`__ [deprecated
+   wiki link] --`k-fish <https://wiki.typo3.org/User:K-fish>`__
+   [deprecated wiki link] 09:46, 6 November 2006 (CET)
 -  PEAR WebDAV implementation,
    http://pear.php.net/package/HTTP_WebDAV_Server/download
 -  CalDAV - Calendaring Extensions to WebDAV,
@@ -309,10 +314,10 @@ Resources
    [not available anymore] - might prove interesting at a later stage
 -  There is an implementation of a WebDAV server in ezpublish which you
    can download at http://ez.no --`Daniel
-   Schiffner </User:Netzspiegel>`__ [deprecated wiki link] 00:46, 14
-   October 2006 (CEST)
+   Schiffner <https://wiki.typo3.org/User:Netzspiegel>`__ [deprecated
+   wiki link] 00:46, 14 October 2006 (CEST)
 
    -  Might be interesting to look at, but is not usable for us, as it
       depends on a ton of ezpublish libraries.
-      --`k-fish </User:K-fish>`__ [deprecated wiki link] 09:50, 6
-      November 2006 (CET)
+      --`k-fish <https://wiki.typo3.org/User:K-fish>`__ [deprecated wiki
+      link] 09:50, 6 November 2006 (CET)

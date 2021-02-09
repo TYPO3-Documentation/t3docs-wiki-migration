@@ -4,7 +4,8 @@
 TUG-Switzerland
 ===============
 
-<< Back to `Usergroups </Usergroups>`__ [deprecated wiki link] page
+<< Back to `Usergroups <https://wiki.typo3.org/Usergroups>`__
+[deprecated wiki link] page
 
 `[edit] <https://wiki.typo3.org/wiki/index.php?title=TUG-Switzerland&action=edit&section=0>`__
 [deprecated wiki link]
@@ -55,8 +56,8 @@ April 2017
       -  weitere sind jederzeit willkommen! Bitte einfach melden
 
 -  Anmeldung: **per Mail
-   an**\ `Dominic <mailto:dbrander@snowflake.ch>`__\ **[not available
-   anymore]**
+   an**\ `Dominic <https://wiki.typo3.org/mailto:dbrander@snowflake.ch>`__\ **[not
+   available anymore]**
 
 Juni 2016
 ^^^^^^^^^
@@ -76,8 +77,8 @@ Juni 2016
       melden
 
 -  Anmeldung: **per Mail
-   an**\ `Dominic <mailto:dbrander@snowflake.ch>`__\ **[not available
-   anymore]**
+   an**\ `Dominic <https://wiki.typo3.org/mailto:dbrander@snowflake.ch>`__\ **[not
+   available anymore]**
 
 Zusätzliche Informationen zum Thema Design Thinking:
 

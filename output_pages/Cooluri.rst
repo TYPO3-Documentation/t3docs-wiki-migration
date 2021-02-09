@@ -7,8 +7,8 @@ Cooluri
 .. container::
 
    **Content Type:** `Extension
-   Documentation </Category:ExtensionDocumentation>`__ [deprecated wiki
-   link] (find more extensions in the `Extension
+   Documentation <https://wiki.typo3.org/Category:ExtensionDocumentation>`__
+   [deprecated wiki link] (find more extensions in the `Extension
    Repository <https://extensions.typo3.org/extension/%7B%7B%7Bterkey%7D%7D%7D>`__
    [not available anymore])
    Using the Wiki for extension documentation is no longer recommended.
@@ -30,7 +30,8 @@ Cooluri
    |                                   | nicer URLs.                       |
    +-----------------------------------+-----------------------------------+
    | **documentation state**           | `needs a                          |
-   |                                   | review </Category:                |
+   |                                   | review                            |
+   |                                   | <https://wiki.typo3.org/Category: |
    |                                   | Needs_a_review>`__\ **[deprecated |
    |                                   | wiki link]** |document state      |
    |                                   | list|                             |
@@ -52,7 +53,8 @@ Cooluri
    | dependency                        | NONE                              |
    +-----------------------------------+-----------------------------------+
 
-<< Back to `Extension manuals </Overview_Extension_manuals>`__
+<< Back to `Extension
+manuals <https://wiki.typo3.org/Overview_Extension_manuals>`__
 [deprecated wiki link] page
 
 `[edit] <https://wiki.typo3.org/wiki/index.php?title=Cooluri&action=edit&section=0>`__
@@ -129,7 +131,7 @@ your URLs
 .. container::
 
    `TS
-   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   TypoScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -165,7 +167,7 @@ Subdirectory
    .. container::
 
       `TS
-      TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+      TypoScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
       [deprecated wiki link]
 
    .. container::

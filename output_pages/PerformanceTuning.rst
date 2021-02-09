@@ -7,8 +7,9 @@ Performance tuning
 .. container::
 
    This page belongs to the Performance tuning for TYPO3 and database
-   project (category `Project </Category:Project>`__ [deprecated wiki
-   link])
+   project (category
+   `Project <https://wiki.typo3.org/Category:Project>`__ [deprecated
+   wiki link])
 
 << Back to `Administrators <overview-administrator-manuals>`__ page
 
@@ -60,8 +61,8 @@ involves several SQL queries and heavy PHP logic. If your site has many
 static pages that are rendered the same way several times, even with
 TYPO3's cache you won't get a performance similar to static HTML files.
 That's why you should either use a web server `proxy
-cache </Category:Proxy_cache>`__ [deprecated wiki link], or the static
-file cache extension
+cache <https://wiki.typo3.org/Category:Proxy_cache>`__ [deprecated wiki
+link], or the static file cache extension
 `nc_staticfilecache <https://extensions.typo3.org/extension/nc_staticfilecache/>`__.
 
 Testing the performance
@@ -97,18 +98,18 @@ Linux
    `accesstime <http://www.howtoforge.com/reducing-disk-io-by-mounting-partitions-with-noatime>`__
    recording can substantially reduce I/O load.
 
-`Linux </Category:Linux>`__ [deprecated wiki link] has a special mount
-option for file systems called
+`Linux <https://wiki.typo3.org/Category:Linux>`__ [deprecated wiki link]
+has a special mount option for file systems called
 `noatime <http://www.howtoforge.com/reducing-disk-io-by-mounting-partitions-with-noatime>`__
 that can be added to each line that addresses one file system in
 ``/etc/fstab`` file. If a file system has been mounted with this option,
 reading accesses to the file system will no longer update the atime
 information associated with the file. Effectively, disabling noatime
 eliminates a write operation when files are read, which can result in
-measurable `performance </Category:Performance>`__ [deprecated wiki
-link] gains. Note that the write time of a file will still be updated
-each time the file is written to. In our example below, we will set the
-noatime option to our ``/chroot`` file system.
+measurable `performance <https://wiki.typo3.org/Category:Performance>`__
+[deprecated wiki link] gains. Note that the write time of a file will
+still be updated each time the file is written to. In our example below,
+we will set the noatime option to our ``/chroot`` file system.
 
 Edit ``/etc/fstab`` and add the noatime option after the defaults option
 in the line that refer to ``/chroot``:
@@ -122,7 +123,7 @@ command:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -136,7 +137,7 @@ Then test your results with the following command:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -168,8 +169,8 @@ might say, "Go snap your toolbox and search for the bottleneck".
 Exactly! MySQL optimization is not trivial and demands benchmarking
 while tuning in almost every case. Keep that in mind when websites
 advise you how to tune your server parameters. This section is about
-tools to analyse `MySQL </Category:MySQL>`__ [deprecated wiki link]
-performance.
+tools to analyse `MySQL <https://wiki.typo3.org/Category:MySQL>`__
+[deprecated wiki link] performance.
 
 Build-in tools
 ^^^^^^^^^^^^^^
@@ -278,8 +279,8 @@ This cuts down the response time for frequently used queries.
 How to use it?
 ^^^^^^^^^^^^^^
 
-| Set Query `cache </Category:Cache>`__ [deprecated wiki link] to a
-  value greater than 16M
+| Set Query `cache <https://wiki.typo3.org/Category:Cache>`__
+  [deprecated wiki link] to a value greater than 16M
 
 To find out if query cache is available for your MySQL server, try:
 
@@ -381,7 +382,8 @@ Informal Tests with Eaccelerator in 2006
 
 I've done a small test to see the direct influence of few tricks to see
 their impact. So you see what effect an
-`accelerator </Category:Accelerator>`__ [deprecated wiki link] has.
+`accelerator <https://wiki.typo3.org/Category:Accelerator>`__
+[deprecated wiki link] has.
 
 +---------+---------+---------+---------+---------+---------+---------+
 |         | T3      | T3      | T3      | T3      | T3      | T3      |
@@ -423,7 +425,7 @@ Time is in milliseconds (ms.).
 | **Notes**
 
 | The first 3 pages done with the `template
-  Zen2Col </wiki/images/4/42/TemplateUsedforTestingPerformance.png>`__
+  Zen2Col <https://wiki.typo3.org/wiki/images/4/42/TemplateUsedforTestingPerformance.png>`__
   [deprecated wiki link]
 | Page 4 is made with the Nomad template
 | First column is always first hit
@@ -621,7 +623,7 @@ Related discussions in the TYPO3 community
 
 -  [TYPO3-dev] Testing TYPO3 caching vs. [FE][pageCacheToExternalFiles]
    `[1] <http://lists.typo3.org/pipermail/typo3-dev/2006-March/017105.html>`__
-   `TYPO3-dev <news://news.typo3.org:119/mailman.1.1143609630.14531.typo3-dev@lists.typo3.org>`__
+   `TYPO3-dev <https://wiki.typo3.org/news://news.typo3.org:119/mailman.1.1143609630.14531.typo3-dev@lists.typo3.org>`__
    [not available anymore]
 
 About: Comparison of DB and filesystem caching within TYPO3. *(Date:
@@ -629,7 +631,7 @@ About: Comparison of DB and filesystem caching within TYPO3. *(Date:
 
 -  [TYPO3-dev] Typo3 Performance
    `[2] <http://lists.typo3.org/pipermail/typo3-dev/2007-February/022271.html>`__
-   `TYPO3-dev <news://news.typo3.org:119/mailman.1.1172588346.25873.typo3-dev@lists.typo3.org>`__
+   `TYPO3-dev <https://wiki.typo3.org/news://news.typo3.org:119/mailman.1.1172588346.25873.typo3-dev@lists.typo3.org>`__
    [not available anymore]
 
 About: DB indices for TYPO3 tables, Description of Celkos nested sets
@@ -637,7 +639,7 @@ for the Pagetree, testing+tuning tips. *(Date: 2-3/2007)*
 
 -  [TYPO3-dev] Indexed Search Performance Improvement
    `[3] <http://lists.typo3.org/pipermail/typo3-dev/2007-February/022302.html>`__
-   `TYPO3-dev <news://news.typo3.org:119/mailman.1.1172671573.14329.typo3-dev@lists.typo3.org>`__
+   `TYPO3-dev <https://wiki.typo3.org/news://news.typo3.org:119/mailman.1.1172671573.14329.typo3-dev@lists.typo3.org>`__
    [not available anymore]
 
 About: Using the FULLTEXT feature of (MySQL) MyISAM tables for
@@ -645,14 +647,14 @@ indexed_search. *(Date: 2-3/2007)*
 
 -  [TYPO3-dev] Typo3 Database design question (optimization / indices)
    `[4] <http://lists.typo3.org/pipermail/typo3-dev/2006-March/016967.html>`__
-   `TYPO3-dev <news://news.typo3.org:119/mailman.1.1143135140.16594.typo3-dev@lists.typo3.org>`__
+   `TYPO3-dev <https://wiki.typo3.org/news://news.typo3.org:119/mailman.1.1143135140.16594.typo3-dev@lists.typo3.org>`__
    [not available anymore]
 
 About: DB indices for TYPO3 tables. *(Date: 3/2006)*
 
 -  [TYPO3-dev] Speeded up TYPO3 by 500% :)
    `[5] <http://lists.typo3.org/pipermail/typo3-dev/2006-June/018817.html>`__
-   `TYPO3-dev <news://news.typo3.org:119/mailman.1.1151121093.2102.typo3-dev@lists.typo3.org>`__
+   `TYPO3-dev <https://wiki.typo3.org/news://news.typo3.org:119/mailman.1.1151121093.2102.typo3-dev@lists.typo3.org>`__
    [not available anymore]
 
 About: Bernhard Kraft introducing his extension kb_quickindex, an
@@ -666,7 +668,7 @@ Relations
 -  `MySQL configuration <mysql-configuration>`__ - *the basics: prepare
    for installation, settings, rights management*
 -  `TYPO3.org - improvements#better
-   performance </TYPO3.org_-_improvements#better_performance>`__
+   performance <https://wiki.typo3.org/TYPO3.org_-_improvements#better_performance>`__
    [deprecated wiki link]
 
 Links

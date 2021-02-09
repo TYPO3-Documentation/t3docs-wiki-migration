@@ -25,7 +25,7 @@ Upgrade
       to\ **\ https://docs.typo3.org/m/typo3/guide-installation/master/en-us/
       If you disagree with its deletion, please explain why at `Category
       talk:Candidates for speedy
-      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      deletion <https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
       [not available anymore] or improve the page and remove the
       ``{{delete}}`` tag.
 
@@ -36,8 +36,8 @@ Upgrade
       this notice removed.
 
       Remember to check `what links
-      here </Special:WhatLinksHere/Upgrade>`__ [deprecated wiki link]
-      and the `the page
+      here <https://wiki.typo3.org/Special:WhatLinksHere/Upgrade>`__
+      [deprecated wiki link] and the `the page
       history <https://wiki.typo3.org/wiki/index.php?title=Upgrade&action=history>`__
       [deprecated wiki link] before deleting.
 
@@ -95,4 +95,5 @@ Upgrade <https://docs.typo3.org/m/typo3/guide-installation/master/en-us/Upgrade/
 .. container::
 
    This page belongs to the `Core Team <core-team>`__ (category `Core
-   Team </Category:Core_Team>`__ [deprecated wiki link])
+   Team <https://wiki.typo3.org/Category:Core_Team>`__ [deprecated wiki
+   link])

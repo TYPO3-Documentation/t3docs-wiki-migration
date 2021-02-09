@@ -13,7 +13,7 @@ Doc template
       **Reason: Page is empty, can be redirected and removed**
       If you disagree with its deletion, please explain why at `Category
       talk:Candidates for speedy
-      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      deletion <https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
       [not available anymore] or improve the page and remove the
       ``{{delete}}`` tag.
 
@@ -24,8 +24,8 @@ Doc template
       this notice removed.
 
       Remember to check `what links
-      here </Special:WhatLinksHere/Doc_template>`__ [not available
-      anymore] and the `the page
+      here <https://wiki.typo3.org/Special:WhatLinksHere/Doc_template>`__
+      [not available anymore] and the `the page
       history <https://wiki.typo3.org/wiki/index.php?title=Doc_template&action=history>`__
       [deprecated wiki link] before deleting.
 

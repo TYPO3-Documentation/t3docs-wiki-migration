@@ -470,5 +470,5 @@ rendered in TYPO3.
 --------------
 
 `Bernhard
-Kraft </wiki/index.php?title=User:Oldkraftb&action=edit&redlink=1>`__
+Kraft <https://wiki.typo3.org/wiki/index.php?title=User:Oldkraftb&action=edit&redlink=1>`__
 [not available anymore] 16:00, 25 Jun 2006 (CET) [www.think-open.at]

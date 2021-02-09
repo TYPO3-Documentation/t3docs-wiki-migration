@@ -12,7 +12,7 @@ TemplaVoila/FCE
 [deprecated wiki link]
 
 | This is the continuing part of the `Futuristic Template
-  Building </wiki/index.php?title=TemplaVoila/FTB1&action=edit&redlink=1>`__
+  Building <https://wiki.typo3.org/wiki/index.php?title=TemplaVoila/FTB1&action=edit&redlink=1>`__
   [not available anymore] document.
 
 .. container::
@@ -24,7 +24,7 @@ TemplaVoila/FCE
       This page should be **merged** with the page `The content of this
       page was imported from the TER-extension - check the changes and
       update the original
-      document </wiki/index.php?title=The_content_of_this_page_was_imported_from_the_TER-extension_-_check_the_changes_and_update_the_original_document&action=edit&redlink=1>`__
+      document <https://wiki.typo3.org/wiki/index.php?title=The_content_of_this_page_was_imported_from_the_TER-extension_-_check_the_changes_and_update_the_original_document&action=edit&redlink=1>`__
       [not available anymore]
 
 Flexible Content Elements
@@ -201,7 +201,7 @@ not the <body> tag but the
    .. container::
 
       `TS
-      TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+      TypoScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
       [deprecated wiki link]
 
    .. container::
@@ -227,7 +227,7 @@ not the <body> tag but the
    .. container::
 
       `XML /
-      HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+      HTML <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
       [deprecated wiki link]
 
    .. container::

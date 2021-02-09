@@ -9,12 +9,12 @@ Documentation Process - Problems and Resolutions
 | << Back to `Documentation Team <documentationteam>`__  
   (`edit <https://wiki.typo3.org/wiki/index.php?title=Documentation_Process_-_Problems_and_Resolutions&action=edit&section=0>`__
   [deprecated wiki link])
-| `DocTeam </DocTeam>`__ [deprecated wiki link] More details are being
-  filled in as time permits. Please feel free to add or comment, but
-  please be aware that this is not being posted as "complete" as there
-  are more details already created, but waiting to be entered.
-  Suggestions should be made by utilizing one of the "Talk" pages at the
-  end of this document. Thanks.
+| `DocTeam <https://wiki.typo3.org/DocTeam>`__ [deprecated wiki link]
+  More details are being filled in as time permits. Please feel free to
+  add or comment, but please be aware that this is not being posted as
+  "complete" as there are more details already created, but waiting to
+  be entered. Suggestions should be made by utilizing one of the "Talk"
+  pages at the end of this document. Thanks.
 
 .. container::
 
@@ -24,7 +24,7 @@ Documentation Process - Problems and Resolutions
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
       reviewer for text and TypoScript.
-      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      `info <https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
       [deprecated wiki link]
 
 Introduction
@@ -195,7 +195,7 @@ TYPO3. But for the sake of completeness, let me expound further.
    fix problems when they occur - I believe there are many who are
    sticking with what works. As a consultant who will be offering TYPO3
    websites, I think it would be a `Best
-   Practices </wiki/index.php?title=Best_Practices&action=edit&redlink=1>`__
+   Practices <https://wiki.typo3.org/wiki/index.php?title=Best_Practices&action=edit&redlink=1>`__
    [not available anymore] idea to install only stable extensions, and
    even give new patches - no matter how seemingly minor (e.g., 3.6.2)
    time to be released, debugged, documented and repaired before
@@ -263,7 +263,7 @@ Documentation Team) that the older documents are more stable. For
 example, people often point Newbies in the direction of the various
 tutorials - such as GoLive Template Integration, `Modern Template
 Building
-Part1 </wiki/index.php?title=T3Doc/Modern_Template_Building,_Part_1&action=edit&redlink=1>`__
+Part1 <https://wiki.typo3.org/wiki/index.php?title=T3Doc/Modern_Template_Building,_Part_1&action=edit&redlink=1>`__
 [not available anymore], and Part 2 & 3. However, for example, the MTB
 Part I tutorial was last modified in December of 2003. And clearly there
 has been some major code changes since then. This creates problems,
@@ -376,7 +376,7 @@ anti-wiki, but I want the opportunity to post my ideas and thoughts in
 their entirety. But please feel free to add if you must, and my
 preference is that contributions at this point be made on one of the
 "Talk" pages, or directly to me at**\ `Coby
-Pachmayr </wiki/index.php?title=User:OldCpachmayr&action=edit&redlink=1>`__\ **[deprecated
+Pachmayr <https://wiki.typo3.org/wiki/index.php?title=User:OldCpachmayr&action=edit&redlink=1>`__\ **[deprecated
 wiki link]**
 
 Coding and Documentation Release Protocols

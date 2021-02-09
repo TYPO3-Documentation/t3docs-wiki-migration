@@ -9,7 +9,8 @@ Transition Days/Berlin Manifesto
 .. container::
 
    This page belongs to the `Core Team <core-team>`__ (category `Core
-   Team </Category:Core_Team>`__ [deprecated wiki link])
+   Team <https://wiki.typo3.org/Category:Core_Team>`__ [deprecated wiki
+   link])
 
 .. _berlin-manifesto-1:
 

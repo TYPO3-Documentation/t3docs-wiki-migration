@@ -7,7 +7,7 @@ Human-Computer-Interaction
 .. container::
 
    This page belongs to the Human-Computer-Interaction - Team (category
-   `HCI </Category:HCI>`__ [deprecated wiki link])
+   `HCI <https://wiki.typo3.org/Category:HCI>`__ [deprecated wiki link])
 
 See
 `usability-design <https://forge.typo3.org/projects/show/usability-design>`__
@@ -26,8 +26,8 @@ This page represents the working area for the HCI team. The initially
 published information here is a summary of the first 3 weeks of mailing
 list activity, collected by the interim team leader, Kasper Skårhøj.
 
-See `all pages that belong to HCI </Category:HCI>`__ [deprecated wiki
-link].
+See `all pages that belong to
+HCI <https://wiki.typo3.org/Category:HCI>`__ [deprecated wiki link].
 
 Focus
 =====
@@ -95,22 +95,26 @@ Usability for 4.5
 In the process of working with usability for version 4.5, we have the
 following work areas:
 
--  `Usability No-brainers </Usability_No-brainers>`__ [deprecated wiki
-   link]: There are obvious improvements we can already name from our
-   own experience (these are abundantly exposed on the HCI list already,
-   on mailing lists and we could make a survey for the community).
-   **This is where you can contribute your ideas offhand**. Also,
-   contributed by creating a `Usability Survey </Usability_Survey>`__
-   [deprecated wiki link] for the community.
--  `Usability Discoveries </Usability_Discoveries>`__ [deprecated wiki
-   link]: There are improvements we have not realized yet (these should
-   be discovered through usability tests on the current system). **This
-   is where we work systematically with analysis of the current
-   system**.
--  `Usability Innovation </Usability_Innovation>`__ [deprecated wiki
-   link]: There are possible innovative ideas to be discovered (seeking
-   inspiration outside our software?). **This is where we innovate new
-   approaches**
+-  `Usability
+   No-brainers <https://wiki.typo3.org/Usability_No-brainers>`__
+   [deprecated wiki link]: There are obvious improvements we can already
+   name from our own experience (these are abundantly exposed on the HCI
+   list already, on mailing lists and we could make a survey for the
+   community). **This is where you can contribute your ideas offhand**.
+   Also, contributed by creating a `Usability
+   Survey <https://wiki.typo3.org/Usability_Survey>`__ [deprecated wiki
+   link] for the community.
+-  `Usability
+   Discoveries <https://wiki.typo3.org/Usability_Discoveries>`__
+   [deprecated wiki link]: There are improvements we have not realized
+   yet (these should be discovered through usability tests on the
+   current system). **This is where we work systematically with analysis
+   of the current system**.
+-  `Usability
+   Innovation <https://wiki.typo3.org/Usability_Innovation>`__
+   [deprecated wiki link]: There are possible innovative ideas to be
+   discovered (seeking inspiration outside our software?). **This is
+   where we innovate new approaches**
 
 Eventually all improvements needs to be tested (we change only to
 improve, not for the sake of change).
@@ -175,7 +179,8 @@ Target Groups
 -------------
 
 Big topic, gets its own page: `Usability Target
-Groups </Usability_Target_Groups>`__ [deprecated wiki link]
+Groups <https://wiki.typo3.org/Usability_Target_Groups>`__ [deprecated
+wiki link]
 
 Interface must work for
 -----------------------
@@ -287,12 +292,13 @@ Methods and actions
 What methods and actions are we going to go about for improving
 usability:
 
--  Online-Survey (view draft: `Usability_Survey </Usability_Survey>`__
+-  Online-Survey (view draft:
+   `Usability_Survey <https://wiki.typo3.org/Usability_Survey>`__
    [deprecated wiki link])
 -  Remote-Usability-Testing (Skype/VNC)
 -  single observations (see
-   `Usability_Discoveries </Usability_Discoveries>`__ [deprecated wiki
-   link])
+   `Usability_Discoveries <https://wiki.typo3.org/Usability_Discoveries>`__
+   [deprecated wiki link])
 
 Resources
 =========
@@ -389,7 +395,8 @@ related to usability/HCI team]
 
 -  Sebastian Erlhofer - erlhofer(at)mindshape(dott).de - interested in
    getting TYPO3 more intuitive for everybody and especially easy to use
-   for editors (working on `Usability_Survey </Usability_Survey>`__
+   for editors (working on
+   `Usability_Survey <https://wiki.typo3.org/Usability_Survey>`__
    [deprecated wiki link] at the moment)
 
 -  Andreas Balzer - typo3(at)andreas-balzer(dot)de - "interested in
@@ -404,9 +411,10 @@ related to usability/HCI team]
    content or whatever in the long run. So let's say I'm a
    programmer ;-)
 
-   -  `Kuckuck </User:Kuckuck>`__ [deprecated wiki link] 10:55, 19 June
-      2006 (CEST) pleas don't, realy don't do one at your own, there are
-      two existing libarys, one from ezPublish and one from PEAR...
+   -  `Kuckuck <https://wiki.typo3.org/User:Kuckuck>`__ [deprecated wiki
+      link] 10:55, 19 June 2006 (CEST) pleas don't, realy don't do one
+      at your own, there are two existing libarys, one from ezPublish
+      and one from PEAR...
 
       -  Andreas: We used the one from PEAR ;-) I meant a libray
          specially adopted for TYPO3

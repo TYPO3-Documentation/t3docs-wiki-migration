@@ -8,7 +8,8 @@ FAQ/Reset front end session
 
 .. container::
 
-   **Content Type:** `FAQ </Category:FAQ>`__ [deprecated wiki link].
+   **Content Type:** `FAQ <https://wiki.typo3.org/Category:FAQ>`__
+   [deprecated wiki link].
 
 << Back to `FAQ <faq>`__
 

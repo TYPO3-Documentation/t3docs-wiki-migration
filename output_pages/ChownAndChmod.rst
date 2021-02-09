@@ -13,7 +13,7 @@ Chown and Chmod
       **Reason: Information not TYPO3 specific, can be found elsewhere**
       If you disagree with its deletion, please explain why at `Category
       talk:Candidates for speedy
-      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      deletion <https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
       [not available anymore] or improve the page and remove the
       ``{{delete}}`` tag.
 
@@ -24,17 +24,19 @@ Chown and Chmod
       this notice removed.
 
       Remember to check `what links
-      here </Special:WhatLinksHere/Chown_and_Chmod>`__ [deprecated wiki
-      link] and the `the page
+      here <https://wiki.typo3.org/Special:WhatLinksHere/Chown_and_Chmod>`__
+      [deprecated wiki link] and the `the page
       history <https://wiki.typo3.org/wiki/index.php?title=Chown_and_Chmod&action=history>`__
       [deprecated wiki link] before deleting.
 
 Chown
 =====
 
-This is an important `Linux </Category:Linux>`__ [deprecated wiki link]
-`Linux shell-command </Category:Linux_shell-command>`__ [deprecated wiki
-link]. german-users: see the `linuxwiki <http://linuxwiki.de>`__
+This is an important `Linux <https://wiki.typo3.org/Category:Linux>`__
+[deprecated wiki link] `Linux
+shell-command <https://wiki.typo3.org/Category:Linux_shell-command>`__
+[deprecated wiki link]. german-users: see the
+`linuxwiki <http://linuxwiki.de>`__
 
 Chown means **change owner** but it can do more than that. Let's look at
 a directory listing that you get under a Linux/Unix/Mac OS X

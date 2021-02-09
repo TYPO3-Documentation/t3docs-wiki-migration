@@ -6,14 +6,15 @@ Object Persistence Framework
 
 .. container::
 
-   This page belongs to the `Extension coordination team </ECT>`__
-   [deprecated wiki link] (category `ECT </Category:ECT>`__ [deprecated
-   wiki link])
+   This page belongs to the `Extension coordination
+   team <https://wiki.typo3.org/ECT>`__ [deprecated wiki link] (category
+   `ECT <https://wiki.typo3.org/Category:ECT>`__ [deprecated wiki link])
 
 .. container::
 
    This page belongs to the Object Persistence Framework project
-   (category `Project </Category:Project>`__ [deprecated wiki link])
+   (category `Project <https://wiki.typo3.org/Category:Project>`__
+   [deprecated wiki link])
 
 Object Persistance Frameworks - Mapping Object Models into Relational Databases
 ===============================================================================
@@ -21,9 +22,9 @@ Object Persistance Frameworks - Mapping Object Models into Relational Databases
 NB: These notes were written in the context of a search for a
 persistence framework suitable for integrating with the standard
 extension development coordination team for the TYPO3 content management
-system. An understanding of the `lib </Category:Lib>`__ [deprecated wiki
-link]/div extension and TCA meta data is useful to following this
-discussion.
+system. An understanding of the
+`lib <https://wiki.typo3.org/Category:Lib>`__ [deprecated wiki link]/div
+extension and TCA meta data is useful to following this discussion.
 
 Other Frameworks
 ----------------
@@ -31,7 +32,7 @@ Other Frameworks
 Object persistence frameworks come in many flavours. There are many
 difficulties in providing an API to map Object Oriented code models into
 a relational database
-`tedneward.com </Object_Persistence_Framework#tedneward.com>`__
+`tedneward.com <https://wiki.typo3.org/Object_Persistence_Framework#tedneward.com>`__
 [deprecated wiki link] often grouped under the title object impedance
 mismatch. Mapping inheritence trees against one/many tables, complex
 joins, primary key mapping are all problems that are arguably better
@@ -43,7 +44,7 @@ wide range of software development experience so simplicity is high on
 the list of criteria.
 
 Some of the core problems listed in
-`tedneward.com </Object_Persistence_Framework#tedneward.com>`__
+`tedneward.com <https://wiki.typo3.org/Object_Persistence_Framework#tedneward.com>`__
 [deprecated wiki link] are -
 
 -  Mapping inheritence hierarchies against database tables.
@@ -65,17 +66,19 @@ Some of the core problems listed in
    memory can be significant. This is particularly problematic when
    loading from related tables.
 
-Looking for `other frameworks </Category:Other_frameworks>`__
+Looking for `other
+frameworks <https://wiki.typo3.org/Category:Other_frameworks>`__
 [deprecated wiki link], some of the open source PHP object persistence
 frameworks include - `ado_db Active
-Reccords </Object_Persistence_Framework#phplens.com-adodb>`__
+Reccords <https://wiki.typo3.org/Object_Persistence_Framework#phplens.com-adodb>`__
 [deprecated wiki link],
-`tcaObjects </Object_Persistence_Framework#webempoweredchurch.org-tcaobj>`__
+`tcaObjects <https://wiki.typo3.org/Object_Persistence_Framework#webempoweredchurch.org-tcaobj>`__
 [deprecated wiki link],
-`Propel </Object_Persistence_Framework#propel>`__ [deprecated wiki
-link], `CakePHP </Object_Persistence_Framework#cakephp.org-models>`__
+`Propel <https://wiki.typo3.org/Object_Persistence_Framework#propel>`__
+[deprecated wiki link],
+`CakePHP <https://wiki.typo3.org/Object_Persistence_Framework#cakephp.org-models>`__
 [deprecated wiki link], `PEAR
-DB_DataObject </Object_Persistence_Framework#pear.php.net-db-dataobject>`__
+DB_DataObject <https://wiki.typo3.org/Object_Persistence_Framework#pear.php.net-db-dataobject>`__
 [deprecated wiki link] th. There are also ideas to be found in the typo3
 TCEMAIN, and T3LIB_DB classes and the admin_interface extension to name
 just a few. This discussion is deliberately limited to simple PHP
@@ -124,8 +127,10 @@ tcaObjects [6]
 PearDB_DataObject
 ^^^^^^^^^^^^^^^^^
 
--  `PEAR DB_DataObject </Category:PEAR_DB_DataObject>`__ [deprecated
-   wiki link] provides insert/update/delete to a single database table
+-  `PEAR
+   DB_DataObject <https://wiki.typo3.org/Category:PEAR_DB_DataObject>`__
+   [deprecated wiki link] provides insert/update/delete to a single
+   database table
 -  provides find() which queries by example(values of current object
    properties) and by addition of criteria using addWhere()
 -  provides for direct SQL query
@@ -155,8 +160,9 @@ Propel
 CakePHP
 ^^^^^^^
 
--  `CakePHP </Category:CakePHP>`__ [deprecated wiki link] is the most
-   extensive and provides code to manage relational concepts
+-  `CakePHP <https://wiki.typo3.org/Category:CakePHP>`__ [deprecated
+   wiki link] is the most extensive and provides code to manage
+   relational concepts
 -  requires definition of a class for each database table
 -  uses configuration by convention to provide functionality without
    explicit definition of all the details where the naming of databases
@@ -445,7 +451,8 @@ References
 tedneward.com
 ^^^^^^^^^^^^^
 
-`external link </Category:External_link>`__ [deprecated wiki link] [1]
+`external link <https://wiki.typo3.org/Category:External_link>`__
+[deprecated wiki link] [1]
 http://blogs.tedneward.com/PermaLink,guid,33e0e84c-1a82-4362-bb15-eb18a1a1d91f.aspx
 [not available anymore]
 
@@ -454,46 +461,52 @@ http://blogs.tedneward.com/PermaLink,guid,33e0e84c-1a82-4362-bb15-eb18a1a1d91f.a
 propel
 ^^^^^^
 
-`external link </Category:External_link>`__ [deprecated wiki link] [2]
+`external link <https://wiki.typo3.org/Category:External_link>`__
+[deprecated wiki link] [2]
 http://propel.phpdb.org/trac/wiki/Users/Documentation/1.2/Relationships
 [not available anymore]
 
 cakephp.org-models
 ^^^^^^^^^^^^^^^^^^
 
-`external link </Category:External_link>`__ [deprecated wiki link] [3]
-http://www.cakephp.org/chapter/models [not available anymore]
+`external link <https://wiki.typo3.org/Category:External_link>`__
+[deprecated wiki link] [3] http://www.cakephp.org/chapter/models [not
+available anymore]
 
 pear.php.net-db-dataobject
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-`external link </Category:External_link>`__ [deprecated wiki link] [4]
+`external link <https://wiki.typo3.org/Category:External_link>`__
+[deprecated wiki link] [4]
 http://pear.php.net/manual/en/package.database.db-dataobject.php
 
 phplens.com-adodb
 ^^^^^^^^^^^^^^^^^
 
-`external link </Category:External_link>`__ [deprecated wiki link] [5]
-http://phplens.com/lens/adodb [not available anymore]
+`external link <https://wiki.typo3.org/Category:External_link>`__
+[deprecated wiki link] [5] http://phplens.com/lens/adodb [not available
+anymore]
 
 webempoweredchurch.org-tcaobj
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-`external link </Category:External_link>`__ [deprecated wiki link] [6]
+`external link <https://wiki.typo3.org/Category:External_link>`__
+[deprecated wiki link] [6]
 http://svn.webempoweredchurch.org/misc/browser/trunk/tcaobj [not
 available anymore]
 
 t3ext-persistence
 ^^^^^^^^^^^^^^^^^
 
-`external link </Category:External_link>`__ [deprecated wiki link] [7]
+`external link <https://wiki.typo3.org/Category:External_link>`__
+[deprecated wiki link] [7]
 http://svn.syntithenai.com/svn/t3ext/persistence [not available anymore]
 
 doctrine
 ^^^^^^^^
 
-`external link </Category:External_link>`__ [deprecated wiki link] [8]
-http://phpdoctrine.org/
+`external link <https://wiki.typo3.org/Category:External_link>`__
+[deprecated wiki link] [8] http://phpdoctrine.org/
 
 Current Project Members
 -----------------------
@@ -512,7 +525,7 @@ Wishlist
 
    -  A: currently working on classes based on lib/div in an extension
       persistence - see
-      `persistence </Object_Persistence_Framework#t3ext-persistence>`__
+      `persistence <https://wiki.typo3.org/Object_Persistence_Framework#t3ext-persistence>`__
       [deprecated wiki link]
       http://svn.syntithenai.com/svn/t3ext/persistence [not available
       anymore]

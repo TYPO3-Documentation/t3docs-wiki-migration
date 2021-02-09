@@ -22,7 +22,8 @@ this HowTo:
 
 -  Typo3 version 4.2.x
 -  Multiple domains pointing to the same TYPO3
-   `installation </Category:Installation>`__ [deprecated wiki link].
+   `installation <https://wiki.typo3.org/Category:Installation>`__
+   [deprecated wiki link].
 
 In this How To I'll explain how to set-up a multi domain managed website
 with **domain1** functioning as a portal to **domain2** and **domain3**.
@@ -87,7 +88,7 @@ is my setup:
 .. container::
 
    `TS
-   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   TypoScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -116,7 +117,7 @@ I have the same code for **domain3** only changes are:
 .. container::
 
    `TS
-   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   TypoScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -137,7 +138,7 @@ Now important part. The Typoscript SETUP for domain1
 .. container::
 
    `TS
-   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   TypoScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
    [deprecated wiki link]
 
 .. container::

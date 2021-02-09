@@ -6,7 +6,8 @@ Add your own favicon
 
 .. container::
 
-   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
+   **Content Type:** `HowTo <https://wiki.typo3.org/Category:HowTo>`__
+   [deprecated wiki link].
 
 .. container::
 

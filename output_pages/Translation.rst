@@ -9,7 +9,8 @@ Translations
 .. container::
 
    This page belongs to the TYPO3 Core & Extensions Translation project
-   (category `Project </Category:Project>`__ [deprecated wiki link])
+   (category `Project <https://wiki.typo3.org/Category:Project>`__
+   [deprecated wiki link])
 
 .. container::
 
@@ -27,10 +28,10 @@ Translations
 Projects
 ========
 
--  `Support for XLIFF </Support_for_XLIFF>`__ [deprecated wiki link] is
-   available in TYPO3 4.6. To be able to use XLIFF, a new `Translation
-   Server <http://translation.typo3.org>`__ based on Pootle has been set
-   up.
+-  `Support for XLIFF <https://wiki.typo3.org/Support_for_XLIFF>`__
+   [deprecated wiki link] is available in TYPO3 4.6. To be able to use
+   XLIFF, a new `Translation Server <http://translation.typo3.org>`__
+   based on Pootle has been set up.
 
 A `very good page with information about localization management with
 XLIFF <http://xavier.perseguers.ch/tutoriels/typo3/articles/managing-localization-files.html>`__
@@ -85,19 +86,20 @@ like to do more and engage yourself for a longer time, you can become a
 translation team member. If you want to become a team member, you have
 to do the following: Login on `typo3.org <http://typo3.org>`__ and then
 visit the translation server. Afterwards write an e-mail to the
-`language administrator of your language <#Translation_Teams>`__
-[deprecated wiki link]. He can make you member of the translation team
-for your language so that you can do your translation work.
+`language administrator of your
+language <https://wiki.typo3.org/#Translation_Teams>`__ [deprecated wiki
+link]. He can make you member of the translation team for your language
+so that you can do your translation work.
 
 Extensions available for translation
 ------------------------------------
 
 The translation server is not only a place to translate the language
 files of the TYPO3 core: We can also translate
-`extension </Category:Extension>`__ [deprecated wiki link]s there. Right
-now only manually added extensions can be translated. If your extension
-is not on the list and you would like it to be, please file a "task"
-issue in the `Forge
+`extension <https://wiki.typo3.org/Category:Extension>`__ [deprecated
+wiki link]s there. Right now only manually added extensions can be
+translated. If your extension is not on the list and you would like it
+to be, please file a "task" issue in the `Forge
 bugtracker <https://forge.typo3.org/projects/show/team-translation>`__
 or request for admission via `translators mailing
 list <http://lists.typo3.org/cgi-bin/mailman/listinfo/typo3-project-documentation>`__.
@@ -291,20 +293,22 @@ goal is to change that.
       You want to help us?
       Then go here:
 
-      `Hardcoded </Hardcoded>`__ [deprecated wiki link]
+      `Hardcoded <https://wiki.typo3.org/Hardcoded>`__ [deprecated wiki
+      link]
 
 Labels not needed for TYPO3 terminology
 =======================================
 
-With the `Terminology Project </Translations/Terminology_Project>`__
+With the `Terminology
+Project <https://wiki.typo3.org/Translations/Terminology_Project>`__
 [deprecated wiki link] we have built a Terminology list for TYPO3! This
 list is now used for the Terminology hints, when you translate on the
 `Translation Server <http://translation.typo3.org>`__.
 
 Inside that terminology there are some labels that are not really needed
 for TYPO3. `See this
-page </Translations/Terminology_Project/Words_to_remove>`__ [deprecated
-wiki link].
+page <https://wiki.typo3.org/Translations/Terminology_Project/Words_to_remove>`__
+[deprecated wiki link].
 
 locallang_common.xlf
 ====================
@@ -344,45 +348,73 @@ Translation Teams
 
 Translation teams have been formed for the following languages:
 
--  `Bahasa Indonesia </Bahasa-Translation-Team>`__ [deprecated wiki
-   link]
--  `Bulgarian </Bulgarian-Translation-Team>`__ [deprecated wiki link]
--  `Brazilian Portuguese </Brazilian-Translation-Team>`__ [deprecated
+-  `Bahasa Indonesia <https://wiki.typo3.org/Bahasa-Translation-Team>`__
+   [deprecated wiki link]
+-  `Bulgarian <https://wiki.typo3.org/Bulgarian-Translation-Team>`__
+   [deprecated wiki link]
+-  `Brazilian
+   Portuguese <https://wiki.typo3.org/Brazilian-Translation-Team>`__
+   [deprecated wiki link]
+-  `Czech <https://wiki.typo3.org/Czech-Translation-Team>`__ [deprecated
    wiki link]
--  `Czech </Czech-Translation-Team>`__ [deprecated wiki link]
--  `Croatian </Croatian-Translation-Team>`__ [deprecated wiki link]
--  `Danish </Danish-Translation-Team>`__ [deprecated wiki link]
--  `Dutch </Dutch-Translation-Team>`__ [deprecated wiki link]
--  `Estonian </Estonian-Translation-Team>`__ [deprecated wiki link]
--  `Filipino </Filipino-Translation-Team>`__ [deprecated wiki link]
--  `French </French-Translation-Team>`__ [deprecated wiki link]
--  `Galician </Galician-Translation-Team>`__ [deprecated wiki link]
--  `German </German-Translation-Team>`__ [deprecated wiki link]
--  `Greek </Greek-Translation-Team>`__ [deprecated wiki link]
--  `Hebrew </Hebrew-Translation-Team>`__ [deprecated wiki link]
--  `Hungarian </Hungarian-Translation-Team>`__ [deprecated wiki link]
--  `Italian </Italian-Translation-Team>`__ [deprecated wiki link]
--  `Khmer </Khmer-Translation-Team>`__ [deprecated wiki link]
--  `Latvian </Latvian-Translation-Team>`__ [deprecated wiki link]
--  `Polish </Polish-Translation-Team>`__ [deprecated wiki link]
--  `Romanian </Romanian-Translation-Team>`__ [deprecated wiki link]
--  `Russian </Russian-Translation-Team>`__ [deprecated wiki link]
--  `Slovak </Slovak-Translation-Team>`__ [deprecated wiki link]
--  `Slovenian </Slovenian-Translation-Team>`__ [deprecated wiki link]
--  `Spanish </Spanish-Translation-Team>`__ [deprecated wiki link]
--  `Swedish </Swedish-Translation-Team>`__ [deprecated wiki link]
--  `Thai </Thai-Translation-Team>`__ [deprecated wiki link]
--  `Japanese </Japanese-Translation-Team>`__ [deprecated wiki link]
--  `Turkish </Turkish-Translation-Team>`__ [deprecated wiki link]
+-  `Croatian <https://wiki.typo3.org/Croatian-Translation-Team>`__
+   [deprecated wiki link]
+-  `Danish <https://wiki.typo3.org/Danish-Translation-Team>`__
+   [deprecated wiki link]
+-  `Dutch <https://wiki.typo3.org/Dutch-Translation-Team>`__ [deprecated
+   wiki link]
+-  `Estonian <https://wiki.typo3.org/Estonian-Translation-Team>`__
+   [deprecated wiki link]
+-  `Filipino <https://wiki.typo3.org/Filipino-Translation-Team>`__
+   [deprecated wiki link]
+-  `French <https://wiki.typo3.org/French-Translation-Team>`__
+   [deprecated wiki link]
+-  `Galician <https://wiki.typo3.org/Galician-Translation-Team>`__
+   [deprecated wiki link]
+-  `German <https://wiki.typo3.org/German-Translation-Team>`__
+   [deprecated wiki link]
+-  `Greek <https://wiki.typo3.org/Greek-Translation-Team>`__ [deprecated
+   wiki link]
+-  `Hebrew <https://wiki.typo3.org/Hebrew-Translation-Team>`__
+   [deprecated wiki link]
+-  `Hungarian <https://wiki.typo3.org/Hungarian-Translation-Team>`__
+   [deprecated wiki link]
+-  `Italian <https://wiki.typo3.org/Italian-Translation-Team>`__
+   [deprecated wiki link]
+-  `Khmer <https://wiki.typo3.org/Khmer-Translation-Team>`__ [deprecated
+   wiki link]
+-  `Latvian <https://wiki.typo3.org/Latvian-Translation-Team>`__
+   [deprecated wiki link]
+-  `Polish <https://wiki.typo3.org/Polish-Translation-Team>`__
+   [deprecated wiki link]
+-  `Romanian <https://wiki.typo3.org/Romanian-Translation-Team>`__
+   [deprecated wiki link]
+-  `Russian <https://wiki.typo3.org/Russian-Translation-Team>`__
+   [deprecated wiki link]
+-  `Slovak <https://wiki.typo3.org/Slovak-Translation-Team>`__
+   [deprecated wiki link]
+-  `Slovenian <https://wiki.typo3.org/Slovenian-Translation-Team>`__
+   [deprecated wiki link]
+-  `Spanish <https://wiki.typo3.org/Spanish-Translation-Team>`__
+   [deprecated wiki link]
+-  `Swedish <https://wiki.typo3.org/Swedish-Translation-Team>`__
+   [deprecated wiki link]
+-  `Thai <https://wiki.typo3.org/Thai-Translation-Team>`__ [deprecated
+   wiki link]
+-  `Japanese <https://wiki.typo3.org/Japanese-Translation-Team>`__
+   [deprecated wiki link]
+-  `Turkish <https://wiki.typo3.org/Turkish-Translation-Team>`__
+   [deprecated wiki link]
 
 To facilitate broader acceptance of TYPO3 in the world we would very
 much like to see translation teams for `all of the six UN
 languages <http://en.wikipedia.org/wiki/United_Nations>`__. We still
 miss:
 
--  `Arabic </wiki/index.php?title=Arabic-Translation-Team&action=edit&redlink=1>`__
+-  `Arabic <https://wiki.typo3.org/wiki/index.php?title=Arabic-Translation-Team&action=edit&redlink=1>`__
    [not available anymore]
--  `Chinese </Chinese-Translation-Team>`__ [deprecated wiki link]
+-  `Chinese <https://wiki.typo3.org/Chinese-Translation-Team>`__
+   [deprecated wiki link]
 
 If you would like to become a member of a translation team, please
 contact the administrator for your language. If your language does not

@@ -215,7 +215,7 @@ recommend to use a custom, minimum distribution composer.json like this:
 
 .. container::
 
-   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   `JavaScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -286,7 +286,7 @@ section of the root composer.json like that:
 
 .. container::
 
-   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   `JavaScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -362,7 +362,7 @@ package like that:
 
 .. container::
 
-   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   `JavaScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -405,7 +405,7 @@ extension key.
 
 .. container::
 
-   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   `JavaScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -555,7 +555,7 @@ Recommended minimum example composer.json:
 
 .. container::
 
-   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   `JavaScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
    [deprecated wiki link]
 
 .. container::

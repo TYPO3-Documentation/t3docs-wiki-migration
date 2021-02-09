@@ -7,7 +7,8 @@ ExtDirect
 .. container::
 
    This page belongs to the `Core Team <core-team>`__ (category `Core
-   Team </Category:Core_Team>`__ [deprecated wiki link])
+   Team <https://wiki.typo3.org/Category:Core_Team>`__ [deprecated wiki
+   link])
 
 TYPO3 and Ext.Direct
 ====================
@@ -36,7 +37,7 @@ concept.
 
 .. container::
 
-   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   `JavaScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -56,7 +57,7 @@ concept.
 
 .. container::
 
-   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   `JavaScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -86,7 +87,8 @@ define admin only access.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -120,7 +122,8 @@ function (fourth parameter).
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -156,7 +159,8 @@ class of the following example code.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -187,7 +191,8 @@ coding. As a second difference, you cannot use ``ajax.php`` to call the
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -238,7 +243,8 @@ the ``throw`` keyword and add a useful message.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -272,7 +278,8 @@ the client side.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -336,7 +343,8 @@ be usually found inside the file ``t3lib/config_default.php``.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -360,7 +368,8 @@ request.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -379,7 +388,8 @@ like this:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -402,7 +412,7 @@ the methods inside the configured classes.
 
 .. container::
 
-   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   `JavaScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -417,7 +427,8 @@ the methods inside the configured classes.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -438,7 +449,7 @@ Core parts using ExtDirect
 ==========================
 
 -  `ExtDirect
-   StateProvider </wiki/index.php?title=ExtDirect_StateProvider&action=edit&redlink=1>`__
+   StateProvider <https://wiki.typo3.org/wiki/index.php?title=ExtDirect_StateProvider&action=edit&redlink=1>`__
    [not available anymore]
 -  `Pagetree <pagetree>`__
 -  `Workspaces <https://typo3.org/api/typo3cms/namespace_t_y_p_o3_1_1_c_m_s_1_1_workspaces_1_1_ext_direct.html>`__
@@ -454,7 +465,7 @@ Just do it like this in your javascript controller...
 
 .. container::
 
-   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   `JavaScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -507,7 +518,7 @@ was to simply replace the following line
 
 .. container::
 
-   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   `JavaScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -520,7 +531,8 @@ with
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::

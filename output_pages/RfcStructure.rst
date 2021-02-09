@@ -7,7 +7,8 @@ RFC Structure
 Common Principles
 =================
 
-From: ftp://ftp.isi.edu/in-notes/rfc2223.txt [not available anymore]
+From: https://wiki.typo3.org/ftp://ftp.isi.edu/in-notes/rfc2223.txt [not
+available anymore]
 
 First Page
 ----------

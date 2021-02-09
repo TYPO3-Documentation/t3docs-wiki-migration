@@ -4,7 +4,8 @@
 Tt products
 ===========
 
-<< Back to `Extension manuals </Overview_Extension_manuals>`__
+<< Back to `Extension
+manuals <https://wiki.typo3.org/Overview_Extension_manuals>`__
 [deprecated wiki link] page
 
 `[edit] <https://wiki.typo3.org/wiki/index.php?title=Tt_products&action=edit&section=0>`__
@@ -20,7 +21,7 @@ Tt products
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
       reviewer for text and TypoScript.
-      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      `info <https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
       [deprecated wiki link]
 
 | 
@@ -42,15 +43,15 @@ extension with additional features which is based on hooks of
 tt_products. Nobody should create or use a fork.
 
 You can get the latest version of tt_products and a much improved
-mbi_products_categories extensions including `hook </Category:Hook>`__
-[deprecated wiki link]s for mm-categories in the shop of
-http://ttproducts.de. This sponsoring is needed to get the bugs fixed,
-questions answered and new features implemented and well tested. This
-development work cannot continue without regularly received payments.
-This is a fundraising where the contributors and sponsors will get the
-code in advance. The currently developed extension code will be
-published on the TYPO3 TER under GPL as free after some years of funds
-collection.
+mbi_products_categories extensions including
+`hook <https://wiki.typo3.org/Category:Hook>`__ [deprecated wiki link]s
+for mm-categories in the shop of http://ttproducts.de. This sponsoring
+is needed to get the bugs fixed, questions answered and new features
+implemented and well tested. This development work cannot continue
+without regularly received payments. This is a fundraising where the
+contributors and sponsors will get the code in advance. The currently
+developed extension code will be published on the TYPO3 TER under GPL as
+free after some years of funds collection.
 
 | Info sites:
 | `German tt_products.de site <http://ttproducts.de>`__
@@ -66,8 +67,8 @@ collection.
 | Video: `adding & editing products with
   tt_products <http://www.youtube.com/watch?v=IQFDvgVJDXA>`__
 
-`Franz Holzinger </User:Franzholz>`__ [deprecated wiki link] is the
-maintainer of
+`Franz Holzinger <https://wiki.typo3.org/User:Franzholz>`__ [deprecated
+wiki link] is the maintainer of
 `tt_products <https://extensions.typo3.org/extension/tt_products/>`__
 since version 2.0.0.
 
@@ -305,10 +306,11 @@ Hooks
 -----
 
 It's much easier to upgrade from one shop-version to the current one,
-when addons are added using `hook </Category:Hook>`__ [deprecated wiki
-link]s. When a hook exists what is not listed here, then **just add** it
-to this page! --`Daniel Brüßler </User:Patchworker>`__ [deprecated wiki
-link] 09:45, 21 April 2007 (CEST)
+when addons are added using
+`hook <https://wiki.typo3.org/Category:Hook>`__ [deprecated wiki link]s.
+When a hook exists what is not listed here, then **just add** it to this
+page! --`Daniel Brüßler <https://wiki.typo3.org/User:Patchworker>`__
+[deprecated wiki link] 09:45, 21 April 2007 (CEST)
 
 getLinkParams
 ^^^^^^^^^^^^^
@@ -321,7 +323,8 @@ documentation@2007-03-17 - available in the next version (suppose
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -335,7 +338,8 @@ you can change the contents.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -359,7 +363,8 @@ You define the method in an extra class:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -506,9 +511,11 @@ what should be implemented in the next step.
 -  Always check if the amount of products is on the stock before making
    an order possible.
 
--  `Ajax </Category:Ajax>`__ [deprecated wiki link] Shop Search
+-  `Ajax <https://wiki.typo3.org/Category:Ajax>`__ [deprecated wiki
+   link] Shop Search
 
--  `Ajax </Category:Ajax>`__ [deprecated wiki link] Mini Basket
+-  `Ajax <https://wiki.typo3.org/Category:Ajax>`__ [deprecated wiki
+   link] Mini Basket
 
 -  Create a price value where shipping costs nothing
 
@@ -561,7 +568,8 @@ Implemented Shops
 | `Traditionelle Weihnachtskunst aus dem
   Erzgebirge <http://www.nutcracker-house.com>`__
 | `qualitaetsstruempfe.de <http://www.qualitaetsstruempfe.de>`__
-| `Schimonski's Kulturkaufhaus <http://www.schimonski.de/>`__
+| `Schimonski's Kulturkaufhaus <http://www.schimonski.de/>`__ [not
+  available anymore]
 | `Shop für
   Sonnenschutzfolien <http://www.sonnenschutzfolien-shop.de/>`__
 | `Silkes Schmuckmuschel <https://www.schmuckmuschel.de>`__
@@ -592,5 +600,5 @@ in svn you have written your patch.
 
 -  The function headers shall be completed.
 
---`Franz Holzinger </User:Franzholz>`__ [deprecated wiki link] 09:20, 12
-October 2008 (CEST)
+--`Franz Holzinger <https://wiki.typo3.org/User:Franzholz>`__
+[deprecated wiki link] 09:20, 12 October 2008 (CEST)

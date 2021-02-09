@@ -7,7 +7,8 @@ Pagetree
 .. container::
 
    This page belongs to the `Core Team <core-team>`__ (category `Core
-   Team </Category:Core_Team>`__ [deprecated wiki link])
+   Team <https://wiki.typo3.org/Category:Core_Team>`__ [deprecated wiki
+   link])
 
 General
 =======
@@ -15,7 +16,7 @@ General
 In 4.5 we integrated a new page tree based on Ext JS with enhanced
 features like drag and drop, inline editing, an improved context menu
 and a lot more. The tree was implemented as a `Navigation
-Component </wiki/index.php?title=TYPO3Viewport&action=edit&redlink=1>`__
+Component <https://wiki.typo3.org/wiki/index.php?title=TYPO3Viewport&action=edit&redlink=1>`__
 [not available anymore].
 
 Available Options
@@ -81,7 +82,8 @@ queries.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -139,7 +141,8 @@ the default user ts config:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -208,7 +211,7 @@ to be included with the ``t3lib_pageRenderer`` singleton.
 
 .. container::
 
-   `JavaScript </wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
+   `JavaScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_JavaScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -252,7 +255,8 @@ the JavaScript file described above.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -265,7 +269,8 @@ the JavaScript file described above.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -300,7 +305,7 @@ Example:
 .. container::
 
    `TS
-   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   TypoScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -331,7 +336,7 @@ selected page id.
 .. container::
 
    `TS
-   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   TypoScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
    [deprecated wiki link]
 
 .. container::

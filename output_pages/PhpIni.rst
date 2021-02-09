@@ -17,7 +17,7 @@ Php.ini
       **Reason: No reason given**
       If you disagree with its deletion, please explain why at `Category
       talk:Candidates for speedy
-      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      deletion <https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
       [not available anymore] or improve the page and remove the
       ``{{delete}}`` tag.
 
@@ -28,8 +28,8 @@ Php.ini
       this notice removed.
 
       Remember to check `what links
-      here </Special:WhatLinksHere/Php.ini>`__ [not available anymore]
-      and the `the page
+      here <https://wiki.typo3.org/Special:WhatLinksHere/Php.ini>`__
+      [not available anymore] and the `the page
       history <https://wiki.typo3.org/wiki/index.php?title=Php.ini&action=history>`__
       [deprecated wiki link] before deleting.
 
@@ -40,8 +40,8 @@ General
 -------
 
 The most simple and portable way to find the
-`php.ini </Category:Php.ini>`__ [deprecated wiki link] file that's
-actually being used is to use ``phpinfo()``.
+`php.ini <https://wiki.typo3.org/Category:Php.ini>`__ [deprecated wiki
+link] file that's actually being used is to use ``phpinfo()``.
 
 Since there may be more than one file named ``info.php``, this avoids
 the case where you edit a ``info.php`` that is not really used by PHP.
@@ -60,7 +60,8 @@ content:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -85,7 +86,7 @@ system.
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -103,7 +104,7 @@ locate database (which may not always be up to date).
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::

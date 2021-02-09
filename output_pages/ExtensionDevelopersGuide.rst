@@ -9,7 +9,7 @@ Extension Developers Guide
 `[edit] <https://wiki.typo3.org/wiki/index.php?title=Extension_Developers_Guide&action=edit&section=0>`__
 [deprecated wiki link]
 
-Short-name: `XDG </XDG>`__ [deprecated wiki link]
+Short-name: `XDG <https://wiki.typo3.org/XDG>`__ [deprecated wiki link]
 
 .. container::
 
@@ -30,26 +30,29 @@ Short-name: `XDG </XDG>`__ [deprecated wiki link]
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
       reviewer for text and TypoScript.
-      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      `info <https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
       [deprecated wiki link]
 
 Introduction
 ============
 
 The document **TYPO3 Extension Development** is a
-`guide </Category:Guide>`__ [deprecated wiki link] mainly for extension
-developers, explaining the basic steps to create an extension and going
-further into advanced topics useful for TYPO3 `extension
-development </Category:Extension_development>`__ [deprecated wiki link].
+`guide <https://wiki.typo3.org/Category:Guide>`__ [deprecated wiki link]
+mainly for extension developers, explaining the basic steps to create an
+extension and going further into advanced topics useful for TYPO3
+`extension
+development <https://wiki.typo3.org/Category:Extension_development>`__
+[deprecated wiki link].
 
 What is an extension?
 ---------------------
 
-`glossary-definition </Category:Glossary-definition>`__ [deprecated wiki
-link]: An extension is a piece of software that extends or alters the
-functionality of TYPO3. Extensions let TYPO3 perform almost any function
-you could imagine. TYPO3 is built for flexibility (it is a CMS
-*framework*); and it is one of the most flexible CMS frameworks around.
+`glossary-definition <https://wiki.typo3.org/Category:Glossary-definition>`__
+[deprecated wiki link]: An extension is a piece of software that extends
+or alters the functionality of TYPO3. Extensions let TYPO3 perform
+almost any function you could imagine. TYPO3 is built for flexibility
+(it is a CMS *framework*); and it is one of the most flexible CMS
+frameworks around.
 
 A wide variety of extensions can be downloaded from the TYPO3 extension
 repository ("TER").
@@ -122,7 +125,7 @@ is an add-on for the
 It generates MVC-style frontend plugins based on the (deprecated)
 lib/div libraries `lib <https://extensions.typo3.org/extension/lib/>`__.
 See `Kickstarter_team#Kickstarter MVC
-(lib/div) </Kickstarter_team#Kickstarter_MVC_.28lib.2Fdiv.29>`__
+(lib/div) <https://wiki.typo3.org/Kickstarter_team#Kickstarter_MVC_.28lib.2Fdiv.29>`__
 [deprecated wiki link]
 
 The TYPO3 architecture
@@ -202,8 +205,8 @@ One base for all - Or one for many at least
 -------------------------------------------
 
 (Explains when and how you should inherit from ``tslib_pibase``, and how
-your extension will be '`hook </Category:Hook>`__ [deprecated wiki
-link]ed' at runtime. Please extend!)
+your extension will be '`hook <https://wiki.typo3.org/Category:Hook>`__
+[deprecated wiki link]ed' at runtime. Please extend!)
 
 When Kasper Skårhøj put the idea of extensions for TYPO3 into reality,
 he delivered a PHP class which can serve as a basis for frontend
@@ -243,7 +246,8 @@ Of course, you can also write your own functions.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -283,7 +287,8 @@ To instantiate an object, use the ``new`` operator only in concert with
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -301,7 +306,8 @@ a class variable in the Controller) and call
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -380,7 +386,7 @@ Things you can use
 ------------------
 
 If you are programming a `Frontend
-Plugin </wiki/index.php?title=Types_of_user_extensions_(XDG)&action=edit&redlink=1>`__
+Plugin <https://wiki.typo3.org/wiki/index.php?title=Types_of_user_extensions_(XDG)&action=edit&redlink=1>`__
 [not available anymore], the main API functions for that are in
 ``tslib_pibase`` (``tslib/class.tslib_pibase.php``) and ``tslib_cObj``
 (``class.tslib_content.php``).
@@ -397,7 +403,8 @@ parameters, like:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -415,7 +422,8 @@ function:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -436,7 +444,8 @@ Example:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -569,8 +578,8 @@ Required extension files
 ------------------------
 
 Most of the content of this list is taken from `T3Doc/TYPO3 Core
-APIs </T3Doc/TYPO3_Core_APIs>`__ [deprecated wiki link]: "files and
-locations".
+APIs <https://wiki.typo3.org/T3Doc/TYPO3_Core_APIs>`__ [deprecated wiki
+link]: "files and locations".
 
 All these files are either marked (optional) or (required).
 
@@ -653,7 +662,7 @@ data from the shell (assuming you are in the extension directory):
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -684,8 +693,8 @@ The language file with translations for the extension scripts.
 ``ext_typoscript_setup.txt`` *(optional)*
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Contains `TypoScript </Category:TypoScript>`__ [deprecated wiki link]
-for the extension.
+Contains `TypoScript <https://wiki.typo3.org/Category:TypoScript>`__
+[deprecated wiki link] for the extension.
 
 ``ext_icon.gif`` *(optional)*
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -697,8 +706,9 @@ Extending an extension
 
 *Actions that are required to extend an extension, and the implications
 this has for future compatibility. A case study would be useful here.*
-Core `hook </Category:Hook>`__ [deprecated wiki link]s: How you would
-extend the core by requesting a hook from the core devs?
+Core `hook <https://wiki.typo3.org/Category:Hook>`__ [deprecated wiki
+link]s: How you would extend the core by requesting a hook from the core
+devs?
 
 If you want to extend an existing extension TCA:
 
@@ -707,7 +717,8 @@ If you want to extend an existing extension TCA:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -748,15 +759,18 @@ Security
 --------
 
 -  `security_check <https://extensions.typo3.org/extension/security_check/>`__
-   - This extension makes some `security </Category:Security>`__
-   [deprecated wiki link] checks on your TYPO3 installation. It does
-   \*not\* check the code.
+   - This extension makes some
+   `security <https://wiki.typo3.org/Category:Security>`__ [deprecated
+   wiki link] checks on your TYPO3 installation. It does \*not\* check
+   the code.
 -  `Inside TYPO3 - Security in
    TYPO3 <https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/SecurityInTypo3/Index.html>`__
    [not available anymore]
--  Database: `Cleaning functions </XDG#Security_-_Cleaning_functions>`__
+-  Database: `Cleaning
+   functions <https://wiki.typo3.org/XDG#Security_-_Cleaning_functions>`__
    [deprecated wiki link], `quoting
-   function </XDG#Security_-_quoting_function>`__ [deprecated wiki link]
+   function <https://wiki.typo3.org/XDG#Security_-_quoting_function>`__
+   [deprecated wiki link]
 -  `40+ Steps to Improve Your TYPO3
    Security <https://t3terminal.com/blog/typo3-security/>`__
 
@@ -810,7 +824,8 @@ In backend modules, session data is retrieved like this:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -823,7 +838,8 @@ You can store your own data as follows:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -836,7 +852,8 @@ To save the data to the session in the end:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -850,7 +867,8 @@ Storing data across the session
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -874,7 +892,8 @@ In frontend modules, sessions are handled slightly differently:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -887,7 +906,8 @@ Modify the data:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -900,7 +920,8 @@ And save it to the session:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -918,13 +939,13 @@ Using the database
 Introduction
 ^^^^^^^^^^^^
 
-The `DBAL </Category:DBAL>`__ [deprecated wiki link] consists of the
-class ``t3lib_DB`` in ``$GLOBALS['TYPO3_DB']``. It offers methods to
-build queries for creating, retrieving, updating and deleting (CRUD)
-records from tables in the db: ``INSERTquery()``, ``SELECTquery()``,
-``UPDATEquery()`` and ``DELETEquery()``; and to execute such queries and
-retrieve the result handle (a PHP resource): ``exec_INSERTquery``,
-``exec_SELECTquery()``, ``exec_UPDATEquery()`` and
+The `DBAL <https://wiki.typo3.org/Category:DBAL>`__ [deprecated wiki
+link] consists of the class ``t3lib_DB`` in ``$GLOBALS['TYPO3_DB']``. It
+offers methods to build queries for creating, retrieving, updating and
+deleting (CRUD) records from tables in the db: ``INSERTquery()``,
+``SELECTquery()``, ``UPDATEquery()`` and ``DELETEquery()``; and to
+execute such queries and retrieve the result handle (a PHP resource):
+``exec_INSERTquery``, ``exec_SELECTquery()``, ``exec_UPDATEquery()`` and
 ``exec_DELETEquery()``. This handle and the result set it represents can
 be browsed by methods in the class. These methods will be familiar to
 people knowing the PHP MySQL functions; for example, the PHP function
@@ -975,7 +996,8 @@ To get the last inserted id, you can use:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1013,7 +1035,8 @@ with a certain pid contained in the variable ``$id``.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1030,7 +1053,8 @@ fetched from the browser, it is a good idea to put it through
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1045,7 +1069,8 @@ time. ``enableFields()`` returns a string for your ``WHERE`` clause:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1062,7 +1087,8 @@ strip the leading AND in this case:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1077,7 +1103,8 @@ But it's more efficient to change
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1091,7 +1118,8 @@ and change "``SELECT * FROM tt_address WHERE OR ...``" to
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1105,7 +1133,8 @@ place of the standard PHP function ``addslashes()``:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1118,7 +1147,8 @@ The result set can now be browsed like this:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1134,7 +1164,8 @@ To destroy the result set when finished with it, use the method
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1148,7 +1179,8 @@ the source file):
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1185,7 +1217,8 @@ The values are run through ``t3lib_DB->quoteStr().``
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1208,7 +1241,8 @@ Inserting records is similar to updating records, except there is no
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1237,7 +1271,8 @@ which records to delete.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1258,17 +1293,19 @@ Debugging
 
 ````
 
-One drawback of using the `DBAL </Category:DBAL>`__ [deprecated wiki
-link] is that all database errors, like malformed queries, will look
-like they originated from the t3lib_db class. To
-`debug </Category:Debug>`__ [deprecated wiki link] DBAL invocations, set
-the following flag:
+One drawback of using the
+`DBAL <https://wiki.typo3.org/Category:DBAL>`__ [deprecated wiki link]
+is that all database errors, like malformed queries, will look like they
+originated from the t3lib_db class. To
+`debug <https://wiki.typo3.org/Category:Debug>`__ [deprecated wiki link]
+DBAL invocations, set the following flag:
 
 ````
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1304,7 +1341,8 @@ other functions for cleaning lists and arrays of integers:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1334,7 +1372,8 @@ but ``quotestr()`` is preferred as it is not database dependent.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1367,7 +1406,8 @@ installation in your extensions, use the ``BACK_PATH`` constant.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1385,7 +1425,8 @@ your extension.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1418,7 +1459,8 @@ The debug() function
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1441,7 +1483,8 @@ SQL information (``$GLOBALS['TYPO3_DB']->debug_lastBuiltQuery``):
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1485,7 +1528,8 @@ Useful for debugging code using the `MVC Framework <mvc-framework>`__
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -1571,7 +1615,7 @@ available anymore] here.*
 .. container::
 
    `XML /
-   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   HTML <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
    [deprecated wiki link]
 
 .. container::
@@ -1613,8 +1657,10 @@ Handling content
 ````
 
 *Examples of how to use template
-markers,*\ `TemplaVoila </Category:TemplaVoila>`__\ *[deprecated wiki
-link],*\ `Smarty </Category:Smarty>`__\ *[deprecated wiki link] etc.*
+markers,*\ `TemplaVoila <https://wiki.typo3.org/Category:TemplaVoila>`__\ *[deprecated
+wiki
+link],*\ `Smarty <https://wiki.typo3.org/Category:Smarty>`__\ *[deprecated
+wiki link] etc.*
 
 ````
 

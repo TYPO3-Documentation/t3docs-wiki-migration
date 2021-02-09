@@ -22,7 +22,7 @@ IDEs are ordered alphabetically.
 
       Change the **{{review}}** marker to **{{publish}}** when all parts
       are reviewed (e.g. TypoScript).
-      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      `info <https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
       [deprecated wiki link]
 
 Aptana

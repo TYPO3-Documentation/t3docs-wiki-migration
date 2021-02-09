@@ -5,7 +5,7 @@ TYPO3 and Moodle
 ================
 
 `Back to the
-Listing </Overview_Extension_manuals#Connecting_.2F_Integrating_.2F_Combining_-_.22Get_it_together_and_inspire_to_share.22>`__
+Listing <https://wiki.typo3.org/Overview_Extension_manuals#Connecting_.2F_Integrating_.2F_Combining_-_.22Get_it_together_and_inspire_to_share.22>`__
 [deprecated wiki link]
 
 `Moodle <http://moodle.org/>`__

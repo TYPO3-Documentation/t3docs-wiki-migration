@@ -7,8 +7,8 @@ Accessibility
 .. container::
 
    This page belongs to the Accessibility-Team (category
-   `AccessibilityTeam </Category:AccessibilityTeam>`__ [deprecated wiki
-   link])
+   `AccessibilityTeam <https://wiki.typo3.org/Category:AccessibilityTeam>`__
+   [deprecated wiki link])
 
 Useful things
 =============

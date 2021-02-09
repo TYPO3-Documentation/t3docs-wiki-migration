@@ -366,5 +366,5 @@ Helpful Links
 
 | 
 | Also see
-  `ExtensionsCompared </wiki/index.php?title=ExtensionsCompared&action=edit&redlink=1>`__
+  `ExtensionsCompared <https://wiki.typo3.org/wiki/index.php?title=ExtensionsCompared&action=edit&redlink=1>`__
   [not available anymore].

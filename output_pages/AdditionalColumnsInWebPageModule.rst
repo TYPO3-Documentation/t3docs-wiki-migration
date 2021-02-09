@@ -6,7 +6,8 @@ Additional columns in WEB-Page Module
 
 .. container::
 
-   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
+   **Content Type:** `HowTo <https://wiki.typo3.org/Category:HowTo>`__
+   [deprecated wiki link].
 
 .. container::
 
@@ -17,7 +18,8 @@ Additional columns in WEB-Page Module
    .. container::
 
    *Please remove "{{Question}}" when the problem is solved. See*\ `all
-   questions </Category:Wiki-Question>`__\ *[deprecated wiki link].*
+   questions <https://wiki.typo3.org/Category:Wiki-Question>`__\ *[deprecated
+   wiki link].*
 
 TCA Overrides
 =============
@@ -43,8 +45,8 @@ columns <https://docs.typo3.org/m/typo3/reference-tca/master/en-us/Columns/Index
 Page TSconfig
 =============
 
-In your Page `TSconfig </Category:TSconfig>`__ [deprecated wiki link]
-you have to set this value:
+In your Page `TSconfig <https://wiki.typo3.org/Category:TSconfig>`__
+[deprecated wiki link] you have to set this value:
 
 .. container::
 

@@ -31,7 +31,7 @@ Guide
 
 This guide is about running **unit tests**, if you want to run
 **functional tests**, please see `Functional
-testing </wiki/index.php?title=Functional_testing&action=edit&redlink=1>`__
+testing <https://wiki.typo3.org/wiki/index.php?title=Functional_testing&action=edit&redlink=1>`__
 [not available anymore]
 
 Step 1
@@ -43,7 +43,8 @@ The general command pattern is:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -138,7 +139,8 @@ Running one testsuite
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -152,7 +154,8 @@ Running one test
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::

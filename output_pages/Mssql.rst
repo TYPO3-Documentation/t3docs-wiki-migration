@@ -241,7 +241,7 @@ tx_templavoila_tmplobj.sorting',
 also for line 229 you have to remove quotes around
 ###REC_FIELD_tx_templavoila_next_ds###
 
---`Abezet </wiki/index.php?title=User:Abezet&action=edit&redlink=1>`__
+--`Abezet <https://wiki.typo3.org/wiki/index.php?title=User:Abezet&action=edit&redlink=1>`__
 [deprecated wiki link] 09:43, 29 August 2006 (CEST)
 
 Problem: Treeleven shows only two levels

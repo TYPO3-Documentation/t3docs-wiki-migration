@@ -44,7 +44,8 @@ wiki page is to describe TYPO3 extensions that might be affected in
 future.
 
 *Please add your
-extensions*\ `below <#Affected_extensions>`__\ *[deprecated wiki link].*
+extensions*\ `below <https://wiki.typo3.org/#Affected_extensions>`__\ *[deprecated
+wiki link].*
 
 How to enable and disable the deprecation log
 =============================================

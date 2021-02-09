@@ -6,7 +6,8 @@ Extension Development
 
 .. container::
 
-   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
+   **Content Type:** `HowTo <https://wiki.typo3.org/Category:HowTo>`__
+   [deprecated wiki link].
 
 << Back to `Developer manuals <overview-developer-manuals>`__ page
 
@@ -32,10 +33,11 @@ Extension Development
       This page may contain totally outdated information!
 
 You find all the different `extension
-development </Category:Extension_development>`__ [deprecated wiki link]
-manuals either by the `extensions <https://extensions.typo3.org/>`__
-themself or in the TYPO3 `documentation
-matrix <https://docs.typo3.org/typo3cms/>`__ [not available anymore].
+development <https://wiki.typo3.org/Category:Extension_development>`__
+[deprecated wiki link] manuals either by the
+`extensions <https://extensions.typo3.org/>`__ themself or in the TYPO3
+`documentation matrix <https://docs.typo3.org/typo3cms/>`__ [not
+available anymore].
 
 A good place to start is the `Extension Developers Guide
 (XDG) <extension-developers-guide>`__
@@ -97,7 +99,8 @@ the APIs for extensions and a link list to documentation.
    developers <https://docs.typo3.org/typo3cms/extensions/doc_typo3org>`__
    (`How typo3.org
    works <https://docs.typo3.org/typo3cms/extensions/doc_typo3org/>`__)
--  Use the `Documentation template </T3Doc/Documentation_template>`__
+-  Use the `Documentation
+   template <https://wiki.typo3.org/T3Doc/Documentation_template>`__
    [deprecated wiki link] for your extension documentation
    `Documentation
    template <https://typo3.org/documentation/document-library/core-documentation/doc_template/current/>`__
@@ -133,7 +136,8 @@ Classes and functions
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -171,7 +175,7 @@ UNIX
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -187,7 +191,7 @@ all PHP files:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -202,7 +206,7 @@ all PHP files:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -219,14 +223,15 @@ Database
 --------
 
 To access the database, use the Database Abstraction Layer.
-`DBAL </Category:DBAL>`__ [deprecated wiki link]
+`DBAL <https://wiki.typo3.org/Category:DBAL>`__ [deprecated wiki link]
 
 To enable database access debug output, open
 ``typo3/t3lib/class.t3lib_db.php`` and change the line:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -239,7 +244,8 @@ to
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -255,7 +261,8 @@ following change will write all generated database statements into the
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -291,8 +298,8 @@ Use libraries and APIs
 ----------------------
 
 *please add the ones you like. --*\ `Daniel
-Brüßler </User:Patchworker>`__\ *[deprecated wiki link] 11:03, 4 June
-2007 (CEST)*
+Brüßler <https://wiki.typo3.org/User:Patchworker>`__\ *[deprecated wiki
+link] 11:03, 4 June 2007 (CEST)*
 
 -  `meta_feedit <https://extensions.typo3.org/extension/meta_feedit/>`__
 -  `rlmp_dateselectlib <https://extensions.typo3.org/extension/rlmp_dateselectlib/>`__
@@ -306,7 +313,8 @@ Brüßler </User:Patchworker>`__\ *[deprecated wiki link] 11:03, 4 June
 Caching issues
 --------------
 
--  read how to manage the `cache </Category:Cache>`__ [deprecated wiki
+-  read how to manage the
+   `cache <https://wiki.typo3.org/Category:Cache>`__ [deprecated wiki
    link] - `Caching and The Mysteries Of
    &cHash <https://typo3.org/documentation/article/the-mysteries-of-chash/>`__
    [not available anymore]
@@ -341,7 +349,8 @@ into the file ``typo3.log``.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -366,9 +375,10 @@ Standards
 
 Take care of standards to make all TYPO3 extensions look very similar.
 This helps that others can easier understand your extensions and find
-the files in it. `Standardization </Standardization>`__ [deprecated wiki
-link]. These are the current recommendations. And you are invited to
-make your own proposals. All things which are needed in several
+the files in it.
+`Standardization <https://wiki.typo3.org/Standardization>`__ [deprecated
+wiki link]. These are the current recommendations. And you are invited
+to make your own proposals. All things which are needed in several
 extensions should be defined by the same names. So the setup for one
 extensions could be used 1:1 for another extension as well.
 

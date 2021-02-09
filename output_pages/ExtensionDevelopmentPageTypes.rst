@@ -6,9 +6,9 @@ Extension Development page types
 
 .. container::
 
-   This page belongs to the `Extension coordination team </ECT>`__
-   [deprecated wiki link] (category `ECT </Category:ECT>`__ [deprecated
-   wiki link])
+   This page belongs to the `Extension coordination
+   team <https://wiki.typo3.org/ECT>`__ [deprecated wiki link] (category
+   `ECT <https://wiki.typo3.org/Category:ECT>`__ [deprecated wiki link])
 
 page types (type,typeNum) used by extensions
 ============================================
@@ -19,10 +19,10 @@ is advisable to choose a type that is not used by any other extension
 yet.
 
 NOTE: some of these typeNums might get obsolete with TYPO3 4.0 where
-extensions can `hook </Category:Hook>`__ [deprecated wiki link] up into
-index.php and take over the rendering of the page via the eID HTTP GET
-parameter. But for backwards compatibility we should try to stick with
-these reserved typeNums.
+extensions can `hook <https://wiki.typo3.org/Category:Hook>`__
+[deprecated wiki link] up into index.php and take over the rendering of
+the page via the eID HTTP GET parameter. But for backwards compatibility
+we should try to stick with these reserved typeNums.
 
 News (EXT:tt_news)
 ==================
@@ -46,7 +46,8 @@ XML-RPC if the Server component gets moved into an own extension
 AJAX Server (EXT:ajax) (not published yet)
 ==========================================
 
-500 for `Ajax </Category:Ajax>`__ [deprecated wiki link] communication
+500 for `Ajax <https://wiki.typo3.org/Category:Ajax>`__ [deprecated wiki
+link] communication
 
 jEdit TypoScript external editing (EXT:jeditvfs)
 ================================================

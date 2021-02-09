@@ -4,7 +4,7 @@
 Extension Development, add a startingpoint
 ==========================================
 
-`Template:Head-Howto </wiki/index.php?title=Template:Head-Howto&action=edit&redlink=1>`__
+`Template:Head-Howto <https://wiki.typo3.org/wiki/index.php?title=Template:Head-Howto&action=edit&redlink=1>`__
 [not available anymore]
 
 .. container::
@@ -48,7 +48,8 @@ Remove **pages** from **subtypes_excludelist** in **ext_tables.php**:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -68,7 +69,8 @@ Remove **pages** from **subtypes_excludelist** in **ext_tables.php**:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -95,7 +97,8 @@ recursion and gain some speed:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -110,8 +113,8 @@ recursion and gain some speed:
           'S2.uid='..$GLOBALS['TYPO3_DB']->cleanIntList($parentUid).' AND WA.deleted=0 AND WA.hidden=0'.(count($this->andWhere)?' AND '.implode(' AND ',$this->andWhere):'').(count($this->orWhere)?' AND ('.implode(' OR ',$this->orWhere).')':''),
           'S1.uid','WA.pid','');
 
---`Chibox </User:Chi_hoang>`__ [deprecated wiki link] 15:38, 12 February
-2008 (CET)
+--`Chibox <https://wiki.typo3.org/User:Chi_hoang>`__ [deprecated wiki
+link] 15:38, 12 February 2008 (CET)
 
 .. |Typo3-extension-startingpoint.png| image:: files/Typo3-extension-startingpoint.png
    :target: /File:Typo3-extension-startingpoint.png

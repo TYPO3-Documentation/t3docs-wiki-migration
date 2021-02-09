@@ -11,9 +11,10 @@ Categories
 ----------
 
 This is an overview of what is currently in the Wiki. The
-`categories </Special:Categories>`__ [deprecated wiki link] are being
-used to categorize and tag the Wiki. There are some ways to categorize
-the content e.g. by DocumentState, by ContentType etc.
+`categories <https://wiki.typo3.org/Special:Categories>`__ [deprecated
+wiki link] are being used to categorize and tag the Wiki. There are some
+ways to categorize the content e.g. by DocumentState, by ContentType
+etc.
 
 ContentType
 ^^^^^^^^^^^
@@ -53,9 +54,11 @@ category:
 -  Information about **events**, event communication, Information for
    Code sprints: uses category Events
    https://wiki.typo3.org/Category:Events [deprecated wiki link],
-   examples: `t3board </T3BOARD19>`__ [deprecated wiki link], TYPO3
-   release parties, e.g. `code sprint </Code_Sprint_Linz_2012>`__
-   [deprecated wiki link], `UXW </T3UXW18>`__ [deprecated wiki link]
+   examples: `t3board <https://wiki.typo3.org/T3BOARD19>`__ [deprecated
+   wiki link], TYPO3 release parties, e.g. `code
+   sprint <https://wiki.typo3.org/Code_Sprint_Linz_2012>`__ [deprecated
+   wiki link], `UXW <https://wiki.typo3.org/T3UXW18>`__ [deprecated wiki
+   link]
 -  Information about **Usergroups**: uses category Usergroup
    https://wiki.typo3.org/Category:Usergroup [deprecated wiki link]
 -  **Blueprints** are TYPO3 CMS feature specifications. The is used. See

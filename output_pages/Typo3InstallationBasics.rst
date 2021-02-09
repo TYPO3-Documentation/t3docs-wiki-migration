@@ -8,5 +8,5 @@ TYPO3 Installation Basics
 
    Redirect to:
 
-   -  `Install </wiki/index.php?title=Install&action=edit&redlink=1>`__
+   -  `Install <https://wiki.typo3.org/wiki/index.php?title=Install&action=edit&redlink=1>`__
       [not available anymore]

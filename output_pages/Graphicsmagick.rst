@@ -30,11 +30,11 @@ Finding
 =======
 
    Download the latest version from the `GraphicsMagick FTP
-   server <ftp://ftp.graphicsmagick.org/pub/GraphicsMagick/>`__ [not
-   available anymore]. Then extract it in the cgi-bin folder, e.g. at
-   /var/www/vhosts/story-castle.net/httpdocs/cgi-bin Or simply install
-   it as a rpm file for your LINUX distribution and skip the following
-   installation steps.
+   server <https://wiki.typo3.org/ftp://ftp.graphicsmagick.org/pub/GraphicsMagick/>`__
+   [not available anymore]. Then extract it in the cgi-bin folder, e.g.
+   at /var/www/vhosts/story-castle.net/httpdocs/cgi-bin Or simply
+   install it as a rpm file for your LINUX distribution and skip the
+   following installation steps.
 
 ::
 
@@ -50,9 +50,9 @@ Installing
 ..
 
    If you do also have an ImageMagick
-   `installation </Category:Installation>`__ [deprecated wiki link] then
-   you cannot use the option '--enable-magick-compat' in the configure
-   command.
+   `installation <https://wiki.typo3.org/Category:Installation>`__
+   [deprecated wiki link] then you cannot use the option
+   '--enable-magick-compat' in the configure command.
 
 ::
 

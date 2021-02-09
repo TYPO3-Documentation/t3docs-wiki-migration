@@ -41,18 +41,19 @@ Indexed search can not index external files (PDF, DOC, etc.)
 ------------------------------------------------------------
 
 You are wrong here, TYPO3 on Windows **can** index external files...
---`Clonedyke </User:Clonedyke>`__ [deprecated wiki link] 16:54, 3 Mar
-2005 (CET)
+--`Clonedyke <https://wiki.typo3.org/User:Clonedyke>`__ [deprecated wiki
+link] 16:54, 3 Mar 2005 (CET)
 
 @Clonedyke: I've just seen on mailing lists that this seems not possible
 for many people. Maybe a link would be good.
---`stucki </wiki/index.php?title=User:Oldstucki&action=edit&redlink=1>`__
+--`stucki <https://wiki.typo3.org/wiki/index.php?title=User:Oldstucki&action=edit&redlink=1>`__
 [not available anymore] 09:44, 7 Mar 2005 (CET)
 
 No symlinks possible
 --------------------
 
-`Symbolic links </Typo3_Installation_Basics#How_TYPO3_works>`__
+`Symbolic
+links <https://wiki.typo3.org/Typo3_Installation_Basics#How_TYPO3_works>`__
 [deprecated wiki link] (symlinks) offer a great possibility to solve
 redundancies inside of TYPO3.
 
@@ -69,8 +70,8 @@ Logfile sizes
 There is no tool like logrotate which compresses/deletes logfiles after
 a given time.
 
-`Clonedyke </User:Clonedyke>`__ [deprecated wiki link] writes:
-Apache/IIS are providing logrotate tools.
+`Clonedyke <https://wiki.typo3.org/User:Clonedyke>`__ [deprecated wiki
+link] writes: Apache/IIS are providing logrotate tools.
 
 File system properties
 ----------------------
@@ -140,8 +141,8 @@ release patches. Which usually they do pretty rarely.
 
 What information do you miss in Windows' logging facility? Have you ever
 configured logging for your needs and are you able to do so?
---`Clonedyke </User:Clonedyke>`__ [deprecated wiki link] 17:02, 3 Mar
-2005 (CET)
+--`Clonedyke <https://wiki.typo3.org/User:Clonedyke>`__ [deprecated wiki
+link] 17:02, 3 Mar 2005 (CET)
 
 Software installation
 ---------------------
@@ -162,7 +163,7 @@ CD in your CD drive and type in licence numbers. This will get
 difficult, if the server is not located at your office. And it is very
 difficult to automate this process.
 
-`Bolson </wiki/index.php?title=User:OldBolson&action=edit&redlink=1>`__
+`Bolson <https://wiki.typo3.org/wiki/index.php?title=User:OldBolson&action=edit&redlink=1>`__
 [not available anymore] 00:04, 15 Mar 2005 (CET)
 
 Not entirely correct. If your Windows server installation is made after

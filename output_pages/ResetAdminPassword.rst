@@ -8,7 +8,8 @@ FAQ/Reset admin password
 
 .. container::
 
-   **Content Type:** `FAQ </Category:FAQ>`__ [deprecated wiki link].
+   **Content Type:** `FAQ <https://wiki.typo3.org/Category:FAQ>`__
+   [deprecated wiki link].
 
 << Back to `FAQ <faq>`__
 
@@ -65,8 +66,8 @@ You can also edit the database directly:
 
 .. container::
 
-   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
-   wiki link]
+   `SQL <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -86,7 +87,8 @@ row with the following:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::

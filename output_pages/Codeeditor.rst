@@ -8,17 +8,19 @@ Codeeditor
 
    This page belongs to the javascript-based Code-Editor with
    syntax-highlighting (TS, PHP, HTML, CSS,...) project (category
-   `Project </Category:Project>`__ [deprecated wiki link])
+   `Project <https://wiki.typo3.org/Category:Project>`__ [deprecated
+   wiki link])
 
 What's it about
 ===============
 
-We are developing a `Text Editor </Category:Text_Editor>`__ [deprecated
-wiki link] -- based on JavaScript -- to improve the way you can edit
-files and templates in the TYPO3-backend. The most important feature is
-to integrate syntax highlighting for
-`TypoScript </Category:TypoScript>`__ [deprecated wiki link] in the
-template module.
+We are developing a `Text
+Editor <https://wiki.typo3.org/Category:Text_Editor>`__ [deprecated wiki
+link] -- based on JavaScript -- to improve the way you can edit files
+and templates in the TYPO3-backend. The most important feature is to
+integrate syntax highlighting for
+`TypoScript <https://wiki.typo3.org/Category:TypoScript>`__ [deprecated
+wiki link] in the template module.
 
 Features
 ========
@@ -202,10 +204,10 @@ Further informations and release announcements you can find on
 Current Project Members
 =======================
 
--  `Thomas Hempel </User:Matrikz>`__ [deprecated wiki link]
-   <thomas(at)typo3-unleashed(dot)net>
--  `Tobias Liebig </User:Etobi.de>`__ [deprecated wiki link]
-   <tobias(at)work(dot)de>
+-  `Thomas Hempel <https://wiki.typo3.org/User:Matrikz>`__ [deprecated
+   wiki link] <thomas(at)typo3-unleashed(dot)net>
+-  `Tobias Liebig <https://wiki.typo3.org/User:Etobi.de>`__ [deprecated
+   wiki link] <tobias(at)work(dot)de>
 
 Wishlist
 ========

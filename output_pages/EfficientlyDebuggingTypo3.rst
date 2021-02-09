@@ -6,7 +6,8 @@ Efficiently Debugging TYPO3
 
 .. container::
 
-   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
+   **Content Type:** `HowTo <https://wiki.typo3.org/Category:HowTo>`__
+   [deprecated wiki link].
 
 This page describes how efficiently debugging TYPO3. If you need a PHP
 editor / IDE, please refer to `Comparison of PHP Editors for TYPO3
@@ -20,7 +21,7 @@ development <ide-for-typo3>`__.
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
       reviewer for text and TypoScript.
-      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      `info <https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
       [deprecated wiki link]
 
 PDT and Zend Server Community Edition
@@ -258,4 +259,4 @@ Further Reading
 -  `Extension Development,
    Debugging <extension-development-debugging>`__
 
-`debug </Category:Debug>`__ [deprecated wiki link]
+`debug <https://wiki.typo3.org/Category:Debug>`__ [deprecated wiki link]

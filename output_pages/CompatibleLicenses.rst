@@ -4,10 +4,12 @@
 Compatible Licenses
 ===================
 
-This is a `draft </Category:Draft>`__ [deprecated wiki link],in the
-moment. `ECT </Extension_coordination_team>`__ [deprecated wiki link]:
-Please help to make it ready. --`Daniel Brüßler </User:Patchworker>`__
-[deprecated wiki link] 22:13, 21 November 2006 (CET)
+This is a `draft <https://wiki.typo3.org/Category:Draft>`__ [deprecated
+wiki link],in the moment.
+`ECT <https://wiki.typo3.org/Extension_coordination_team>`__ [deprecated
+wiki link]: Please help to make it ready. --`Daniel
+Brüßler <https://wiki.typo3.org/User:Patchworker>`__ [deprecated wiki
+link] 22:13, 21 November 2006 (CET)
 
 Reviewer will be: Michael Scharkow
 
@@ -47,10 +49,11 @@ a good thing.
 Compatible licences with GPL
 ============================
 
-We have to care about the right `license </Category:License>`__
-[deprecated wiki link]. You can use components with the following
-licenses in the `TER TYPO3
-Repository </Glossary#TYPO3_extension_repository_.28TER.29>`__
+We have to care about the right
+`license <https://wiki.typo3.org/Category:License>`__ [deprecated wiki
+link]. You can use components with the following licenses in the `TER
+TYPO3
+Repository <https://wiki.typo3.org/Glossary#TYPO3_extension_repository_.28TER.29>`__
 [deprecated wiki link] **without any problems in law**.
 
 **Tips for Extension-Developers:**

@@ -6,7 +6,8 @@ Linux cheat sheet
 
 .. container::
 
-   **Content Type:** `Cheat Sheet </Category:CheatSheet>`__ [deprecated
+   **Content Type:** `Cheat
+   Sheet <https://wiki.typo3.org/Category:CheatSheet>`__ [deprecated
    wiki link].
 
 .. container::
@@ -21,13 +22,14 @@ Linux cheat sheet
    .. container::
 
    *Please remove "{{Question}}" when the problem is solved. See*\ `all
-   questions </Category:Wiki-Question>`__\ *[deprecated wiki link].*
+   questions <https://wiki.typo3.org/Category:Wiki-Question>`__\ *[deprecated
+   wiki link].*
 
 This is my cheat sheet of helpful `Linux
-shell-command </Category:Linux_shell-command>`__ [deprecated wiki
-link]s. I refer to this frequently when I do an
-`installation </Category:Installation>`__ [deprecated wiki link] of a
-Linux based TYPO3 server.
+shell-command <https://wiki.typo3.org/Category:Linux_shell-command>`__
+[deprecated wiki link]s. I refer to this frequently when I do an
+`installation <https://wiki.typo3.org/Category:Installation>`__
+[deprecated wiki link] of a Linux based TYPO3 server.
 
 Often needed
 ============

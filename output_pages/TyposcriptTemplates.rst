@@ -7,7 +7,8 @@ TypoScript Templates
 .. container::
 
    This page belongs to the `Core Team <core-team>`__ (category `Core
-   Team </Category:Core_Team>`__ [deprecated wiki link])
+   Team <https://wiki.typo3.org/Category:Core_Team>`__ [deprecated wiki
+   link])
 
 .. container::
 
@@ -17,7 +18,7 @@ TypoScript Templates
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
       reviewer for text and TypoScript.
-      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      `info <https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
       [deprecated wiki link]
 
 To be inserted into TSref, as the first chapter just after the
@@ -87,7 +88,7 @@ An example:
 .. container::
 
    `TS
-   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   TypoScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
    [deprecated wiki link]
 
 .. container::

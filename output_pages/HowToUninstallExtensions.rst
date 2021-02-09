@@ -6,7 +6,8 @@ How to uninstall extensions
 
 .. container::
 
-   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
+   **Content Type:** `HowTo <https://wiki.typo3.org/Category:HowTo>`__
+   [deprecated wiki link].
 
 .. container::
 
@@ -34,10 +35,11 @@ How to uninstall extensions
 Extension Manager terminology
 =============================
 
-In the context of the TYPO3 `extension </Category:Extension>`__
-[deprecated wiki link] manager ("EM"), the words "install" and
-"uninstall" differ from their mainstream meaning. To avoid mixing these
-terms up with the other EM verbs, here is a clarification:
+In the context of the TYPO3
+`extension <https://wiki.typo3.org/Category:Extension>`__ [deprecated
+wiki link] manager ("EM"), the words "install" and "uninstall" differ
+from their mainstream meaning. To avoid mixing these terms up with the
+other EM verbs, here is a clarification:
 
 -  **Import** means "downloading an extension from
    `TER <https://extensions.typo3.org/>`__ and copying it to
@@ -245,7 +247,8 @@ the hard disk, read `Delete Extensions <delete-extensions>`__.
 
 ---
 
-Page started by `DvSchuetz </DvSchuetz>`__ [deprecated wiki link]
+Page started by `DvSchuetz <https://wiki.typo3.org/DvSchuetz>`__
+[deprecated wiki link]
 
 .. |Extension Manager menu| image:: files/ErwMan_Auswahlliste_InstallExtensions.png
    :target: /File:ErwMan_Auswahlliste_InstallExtensions.png

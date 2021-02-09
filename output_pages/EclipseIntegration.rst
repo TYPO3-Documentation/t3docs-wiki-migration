@@ -4,7 +4,8 @@
 Eclipse Integration
 ===================
 
-<< Back to `Projects </Projects>`__ [deprecated wiki link] page
+<< Back to `Projects <https://wiki.typo3.org/Projects>`__ [deprecated
+wiki link] page
 
 `[edit] <https://wiki.typo3.org/wiki/index.php?title=Eclipse_Integration&action=edit&section=0>`__
 [deprecated wiki link]
@@ -19,13 +20,14 @@ Summarize all features / plugins that are needed for the whole
 development process with Eclipse. The idea is a 100% use of Eclipse for
 development work if a developer wants to use it.
 
--  `Eclipse </Category:Eclipse>`__ [deprecated wiki link] Core
+-  `Eclipse <https://wiki.typo3.org/Category:Eclipse>`__ [deprecated
+   wiki link] Core
 -  Eclipse Web Tools Project
 -  PHPEclipse or Xored TruStudio Foundation
 
 | 
 | Current Eclipse Integration Project Page:
-  `dev3.org <http://www.dev3.org/>`__ [not available anymore]
+  `dev3.org <http://www.dev3.org/>`__
 
 Debugging on the Mac with PHPEclipse
 ====================================
@@ -39,22 +41,23 @@ On my Mac the dbg binaries are:
 /pi1/class.tx_cwtcommunity_pi1.php or similar. Both combined should give
 you the absolute path to your php file that you want to debug.
 
-Now, let's get started with `Mac OS X </Category:Mac_OS_X>`__
-[deprecated wiki link]: You can use the Apache that comes with every Mac
-and the PHP (5.0.4, 5.0.5 should work fine, too) and mysql binaries from
-entropy.ch. I downloaded the mac binaries for mysql from the mysql
-website and it worked fine. Now, download the PHP 5.0.5 source (I used
-5.0.4, so these directions work for this version for sure, there
-shouldn't be a problem for 5.0.5 though) from the PHP website and untar
-it to your Desktop or anywhere else. I will assume it's some folder on
-the Desktop. Now, make sure you have the developer tools installed so
-you can compile stuff. Go to the terminal, change to the php folder on
-your desktop, and configure php with the default options.
+Now, let's get started with `Mac OS
+X <https://wiki.typo3.org/Category:Mac_OS_X>`__ [deprecated wiki link]:
+You can use the Apache that comes with every Mac and the PHP (5.0.4,
+5.0.5 should work fine, too) and mysql binaries from entropy.ch. I
+downloaded the mac binaries for mysql from the mysql website and it
+worked fine. Now, download the PHP 5.0.5 source (I used 5.0.4, so these
+directions work for this version for sure, there shouldn't be a problem
+for 5.0.5 though) from the PHP website and untar it to your Desktop or
+anywhere else. I will assume it's some folder on the Desktop. Now, make
+sure you have the developer tools installed so you can compile stuff. Go
+to the terminal, change to the php folder on your desktop, and configure
+php with the default options.
 
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -78,7 +81,7 @@ first lines points to the phpize binary. Change that path from
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -92,7 +95,7 @@ to
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -133,13 +136,13 @@ Now run ./deferphpize and it should create a dbg.so file in your dgb
 source folder in a subfolder called modules. Copy that file to your PHP
 extension dir (it tells you that directory on the phpinfo page. It might
 not be defined in the entropy.ch binaries, just change it in
-`php.ini </Category:Php.ini>`__ [deprecated wiki link] to whereever you
-like. I have mine in /usr/local/php5/ext/. The rest of the instructions
-are the same as outlined in the phpeclipse wiki, see above for a link.
-You can now delete the dbg source folder, php source folder and binary
-folder from the Desktop, together with all the downloaded files if you
-want. I saved an extra copy of dbg.so in my Documents folder, in case I
-should need it later.
+`php.ini <https://wiki.typo3.org/Category:Php.ini>`__ [deprecated wiki
+link] to whereever you like. I have mine in /usr/local/php5/ext/. The
+rest of the instructions are the same as outlined in the phpeclipse
+wiki, see above for a link. You can now delete the dbg source folder,
+php source folder and binary folder from the Desktop, together with all
+the downloaded files if you want. I saved an extra copy of dbg.so in my
+Documents folder, in case I should need it later.
 
 I hope these instructions help you guys to get debugging to work in
 Eclipse with phpeclipse on the Mac.

@@ -4,7 +4,8 @@
 Overview User Manuals
 =====================
 
-<< Back to `Main Page </Main_Page>`__ [deprecated wiki link]
+<< Back to `Main Page <https://wiki.typo3.org/Main_Page>`__ [deprecated
+wiki link]
 
 `[edit] <https://wiki.typo3.org/wiki/index.php?title=Overview_User_Manuals&action=edit&section=0>`__
 [deprecated wiki link]
@@ -16,7 +17,7 @@ Editor documents
 
 -  `TYPO3 Templates <typo3-templates-repository>`__
 -  `TYPO3
-   Tutorial </wiki/index.php?title=TYPO3_Tutorial_for_Editors&action=edit&redlink=1>`__
+   Tutorial <https://wiki.typo3.org/wiki/index.php?title=TYPO3_Tutorial_for_Editors&action=edit&redlink=1>`__
    [not available anymore]
 -  `Handbuch für
    Redakteure <https://docs.typo3.org/typo3cms/extensions/doc_tut_editor_ger>`__
@@ -24,8 +25,9 @@ Editor documents
 -  `Manual Para
    Redactores <https://docs.typo3.org/typo3cms/extensions/doc_tut_editor_es>`__
    (Castellano) - *finished*
--  `Manuel du rédacteur </T3Doc/doc_tut_editor_fr>`__ [deprecated wiki
-   link] (français)
+-  `Manuel du
+   rédacteur <https://wiki.typo3.org/T3Doc/doc_tut_editor_fr>`__
+   [deprecated wiki link] (français)
 -  TYPO3 `Editors Manual <http://www.infolagret.se/index.php?id=584>`__
    (English) - *in progress, Peter Kindström*
 -  TYPO3 `Editors

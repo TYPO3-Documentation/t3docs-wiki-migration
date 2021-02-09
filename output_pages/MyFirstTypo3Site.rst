@@ -35,7 +35,8 @@ to simplify the process for other newbies like me.
 
 **I am partial to HTML/CSS formatting and no frames.**
 
---`chrispy </User:Cpaige>`__ [deprecated wiki link]
+--`chrispy <https://wiki.typo3.org/User:Cpaige>`__ [deprecated wiki
+link]
 
 Overall documentation
 =====================
@@ -90,7 +91,8 @@ really committed to TYPO3. I knew/know there was/is a lot more to learn.
 But with that first site functional, I would then be able to make
 progress gradually as my time allowed.
 
-`Possible solution? </Gimmicks_for_beginners>`__ [deprecated wiki link]
+`Possible solution? <https://wiki.typo3.org/Gimmicks_for_beginners>`__
+[deprecated wiki link]
 
 TemplaVoila
 -----------
@@ -102,7 +104,7 @@ and this was the first thing I felt I could make any progress with. Here
 are some of my notes and reference material for that...
 
 -  `Running with
-   TemplaVoila </wiki/index.php?title=Running_with_TemplaVoila&action=edit&redlink=1>`__
+   TemplaVoila <https://wiki.typo3.org/wiki/index.php?title=Running_with_TemplaVoila&action=edit&redlink=1>`__
    [not available anymore]
 
 **Disadvantages**: As I tweaked my layout in my HTML template file and
@@ -576,7 +578,7 @@ for me. I didn't know any .htaccess stuff before this.
    to rename it to .htaccess for it to become active.
 -  There also is a simple TypoScript configuration set of a few commands
    - see `A Wiki page about RealURL test and
-   error </wiki/index.php?title=Realurl/testing&action=edit&redlink=1>`__
+   error <https://wiki.typo3.org/wiki/index.php?title=Realurl/testing&action=edit&redlink=1>`__
    [not available anymore].
 
 Choosing extensions
@@ -753,5 +755,5 @@ Weird Things I've run into
 
 Note: I originally had them in an .htaccess file, but when I changed
 servers that no longer worked. Putting them in a
-`php.ini </Category:Php.ini>`__ [deprecated wiki link] file is better
-anyhow.
+`php.ini <https://wiki.typo3.org/Category:Php.ini>`__ [deprecated wiki
+link] file is better anyhow.

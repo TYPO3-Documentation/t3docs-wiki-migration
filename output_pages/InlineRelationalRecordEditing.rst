@@ -7,7 +7,8 @@ Inline Relational Record Editing
 .. container::
 
    This page belongs to the Inline Relational Record Editing project
-   (category `Project </Category:Project>`__ [deprecated wiki link])
+   (category `Project <https://wiki.typo3.org/Category:Project>`__
+   [deprecated wiki link])
 
 .. container::
 
@@ -36,9 +37,9 @@ Inline Relational Record Editing
          **Screenshot of extension dynbeedit 0.0.2**
          How it could work in TYPO3
 
-`glossary-definition </Category:Glossary-definition>`__ [deprecated wiki
-link]: IRRE (Inline Relational Record Editing) is part of the core since
-TYPO3 4.1.0.
+`glossary-definition <https://wiki.typo3.org/Category:Glossary-definition>`__
+[deprecated wiki link]: IRRE (Inline Relational Record Editing) is part
+of the core since TYPO3 4.1.0.
 
 Main focus in abstract
 ======================
@@ -97,7 +98,8 @@ Feedback/Discussion
 | To discuss further development of Inline Relational Record Editing you
   can subscribe to the list typo3.projects.irre by using the
   `mailing-list <http://lists.typo3.org/cgi-bin/mailman/listinfo/typo3-project-irre>`__
-  or the `news-group <news://lists.typo3.org/typo3.projects.irre>`__
+  or the
+  `news-group <https://wiki.typo3.org/news://lists.typo3.org/typo3.projects.irre>`__
   [not available anymore].
 
 A closer look
@@ -108,7 +110,7 @@ A closer look
 -  TCEmain has to handle comma separated lists of uids (like in select
    type), mm relations (like in select/group type) and additional the
    `foreign_field
-   alternative </Inline_Relational_Record_Editing_1:n#Foreign_Field_in_Foreign_Table>`__
+   alternative <https://wiki.typo3.org/Inline_Relational_Record_Editing_1:n#Foreign_Field_in_Foreign_Table>`__
    [deprecated wiki link]
 -  The Ajax object of the prototype JavaScript framework is creating
    dynamically new records and handles the inline structure
@@ -177,32 +179,33 @@ Relations
 =========
 
 **Other relating projects** to `Party Information
-Framework </wiki/index.php?title=Party_Information_Framework&action=edit&redlink=1>`__
+Framework <https://wiki.typo3.org/wiki/index.php?title=Party_Information_Framework&action=edit&redlink=1>`__
 [not available anymore] (`edit
-this </Template:NavigationPartyInformationFramework-Relations>`__
+this <https://wiki.typo3.org/Template:NavigationPartyInformationFramework-Relations>`__
 [deprecated wiki link], *in alphabetical order*)
 
 -  `Commerce Shop
-   Extension </wiki/index.php?title=Commerce&action=edit&redlink=1>`__
+   Extension <https://wiki.typo3.org/wiki/index.php?title=Commerce&action=edit&redlink=1>`__
    [not available anymore] This extension use an 1:N relation for
    addresses and included an own addressmanagement, which should be part
    of the `Party Information
-   Framework </wiki/index.php?title=Party_Information_Framework&action=edit&redlink=1>`__
+   Framework <https://wiki.typo3.org/wiki/index.php?title=Party_Information_Framework&action=edit&redlink=1>`__
    [not available anymore].
--  `Enhanced Rights Management </Enhanced_Rights_Management>`__
+-  `Enhanced Rights
+   Management <https://wiki.typo3.org/Enhanced_Rights_Management>`__
    [deprecated wiki link] - a pear class for a RBAC / Role Based Access
    Control.
 -  Inline Relational Record Editing - 1:n relations for BackEnd-Forms --
    *Oliver Hader*
--  `Newloginbox </wiki/index.php?title=Newloginbox&action=edit&redlink=1>`__
+-  `Newloginbox <https://wiki.typo3.org/wiki/index.php?title=Newloginbox&action=edit&redlink=1>`__
    [not available anymore] development coordination - *Ingmar Schlecht
    and Stefan Strasser*
    The User list plugin (pi3) of Newloginbox is related to the Party
    Framework. If the Party Framework will ship with a user listing
    plugin, the pi3 of Newloginbox wouldn't be needed any more.
--  `Users Addresses </Users_Addresses>`__ [deprecated wiki link] -
-   relations between fe_user and tt_address, best practice discussion -
-   *Elmar Hinz*
+-  `Users Addresses <https://wiki.typo3.org/Users_Addresses>`__
+   [deprecated wiki link] - relations between fe_user and tt_address,
+   best practice discussion - *Elmar Hinz*
 -  dkd_feuser_belogin - relation between fe_user and be_user
 
 Timeline
@@ -254,8 +257,8 @@ Current To-Do-List
    -  **OK** check uniqueness on pointer tables (foreign_field), that
       are used as intermediate tables with attributes on client-side
    -  **OK** replace
-      `xaJax </wiki/index.php?title=Xajax&action=edit&redlink=1>`__ [not
-      available anymore] by prototype (handling of AJAX with JSON)
+      `xaJax <https://wiki.typo3.org/wiki/index.php?title=Xajax&action=edit&redlink=1>`__
+      [not available anymore] by prototype (handling of AJAX with JSON)
    -  **OK** recursively delete child records
    -  **OK** recursively undelete child records (history/undo)
    -  **OK** recursively copy child records
@@ -311,8 +314,9 @@ of "Inline-Relational-Record-Editing" at some time.
 Current Project Members
 =======================
 
--  Project Leader, developer: `Oliver Hader </User:Ohader>`__
-   [deprecated wiki link] <oh(at)inpublica(dot)de>
+-  Project Leader, developer: `Oliver
+   Hader <https://wiki.typo3.org/User:Ohader>`__ [deprecated wiki link]
+   <oh(at)inpublica(dot)de>
 -  Reviewing for the Core: Ingmar Schlecht, Sebastian Kurfürst
 -  Testing: Thomas Oppelt, Volker Graubaum, David Brühlmeier
 

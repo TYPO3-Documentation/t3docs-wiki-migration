@@ -6,7 +6,8 @@
 Blueprints/DistributionManagement
 =================================
 
-`<- Back to blueprints overview </Blueprints>`__ [deprecated wiki link]
+`<- Back to blueprints overview <https://wiki.typo3.org/Blueprints>`__
+[deprecated wiki link]
 
 Blueprint: Distribution Management for TYPO3 6.2 LTS
 ====================================================

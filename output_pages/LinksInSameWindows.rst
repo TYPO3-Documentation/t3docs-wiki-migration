@@ -6,7 +6,8 @@ Links in same windows
 
 .. container::
 
-   **Content Type:** `FAQ </Category:FAQ>`__ [deprecated wiki link].
+   **Content Type:** `FAQ <https://wiki.typo3.org/Category:FAQ>`__
+   [deprecated wiki link].
 
 .. container::
 
@@ -62,4 +63,5 @@ but it could be fixed by adding this line to the template:
    .. container::
 
    *Please remove "{{Todo}}" when the problem is solved. See*\ `all
-   todos </Category:Wiki-Todo>`__\ *[deprecated wiki link].*
+   todos <https://wiki.typo3.org/Category:Wiki-Todo>`__\ *[deprecated
+   wiki link].*

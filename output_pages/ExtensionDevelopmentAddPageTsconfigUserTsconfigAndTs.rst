@@ -31,7 +31,7 @@ Extension Development, add Page TSconfig, User TSconfig and TS
       **Reason: No reason given**
       If you disagree with its deletion, please explain why at `Category
       talk:Candidates for speedy
-      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      deletion <https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
       [not available anymore] or improve the page and remove the
       ``{{delete}}`` tag.
 
@@ -42,7 +42,7 @@ Extension Development, add Page TSconfig, User TSconfig and TS
       this notice removed.
 
       Remember to check `what links
-      here </Special:WhatLinksHere/Extension_Development,_add_Page_TSconfig,_User_TSconfig_and_TS>`__
+      here <https://wiki.typo3.org/Special:WhatLinksHere/Extension_Development,_add_Page_TSconfig,_User_TSconfig_and_TS>`__
       [deprecated wiki link] and the `the page
       history <https://wiki.typo3.org/wiki/index.php?title=Extension_Development,_add_Page_TSconfig,_User_TSconfig_and_TS&action=history>`__
       [deprecated wiki link] before deleting.

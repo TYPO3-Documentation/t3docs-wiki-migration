@@ -5,8 +5,8 @@ Debian
 ======
 
 << Back to `Typo3 Installation
-Basics </Typo3_Installation_Basics#How_to_install_on>`__ [deprecated
-wiki link]
+Basics <https://wiki.typo3.org/Typo3_Installation_Basics#How_to_install_on>`__
+[deprecated wiki link]
 
 .. container::
 
@@ -31,7 +31,8 @@ Debian 3.0 Woody
 ^^^^^^^^^^^^^^^^
 
 You need at least a clean installation of **Debian 3.0 Woody**. To
-install Debian `go here </Debian#Install_Debian_3.0_Woody>`__
+install Debian `go
+here <https://wiki.typo3.org/Debian#Install_Debian_3.0_Woody>`__
 [deprecated wiki link].
 
 [NOTE] If you run **Debian Sid** you might run into **problems** with
@@ -49,7 +50,7 @@ For manual installation
 -----------------------
 
 You need a running **LAMP installation** that meet the `minimum
-requirements </Typo3_Installation_Basics#System_requirements>`__
+requirements <https://wiki.typo3.org/Typo3_Installation_Basics#System_requirements>`__
 [deprecated wiki link] for Typo3.
 
 What about Apache, MySQL and PHP?
@@ -142,7 +143,8 @@ Confirm the installation of the packages:
 Debian now **installs** all the packages that are required. This might
 take a **few minutes**. After installation Debian starts the
 configuration process (see `Configuration
-Packages </Configuration_Packages>`__ [deprecated wiki link]).
+Packages <https://wiki.typo3.org/Configuration_Packages>`__ [deprecated
+wiki link]).
 
 4. Install Typo3-site-installer
 
@@ -165,15 +167,15 @@ you want the site to be installed to
    typo3-site-installer -d=/var/www/myfirsttypo3 -a
 
 The **option -a** fixes the
-`symlink </Typo3_Installation_Basics#How_Typo3_works>`__ [deprecated
-wiki link] inside the site directory to point to the TYPO3 core at
-**/var/lib/typo3/latest**. If you have a look at /var/lib/typo3/latest
-you find it to be yet another
-`symlink </Typo3_Installation_Basics#How_Typo3_works>`__ [deprecated
-wiki link] that points to **typo3_src-3.5.0**.
+`symlink <https://wiki.typo3.org/Typo3_Installation_Basics#How_Typo3_works>`__
+[deprecated wiki link] inside the site directory to point to the TYPO3
+core at **/var/lib/typo3/latest**. If you have a look at
+/var/lib/typo3/latest you find it to be yet another
+`symlink <https://wiki.typo3.org/Typo3_Installation_Basics#How_Typo3_works>`__
+[deprecated wiki link] that points to **typo3_src-3.5.0**.
 
 If a future version of TYPO3 you just change the
-**latest**-`symlink </Typo3_Installation_Basics#How_Typo3_works>`__
+**latest**-`symlink <https://wiki.typo3.org/Typo3_Installation_Basics#How_Typo3_works>`__
 [deprecated wiki link] to e.g. *typo3_src-3.7.0* and follow the update
 procedure and all your websites that point to **latest** will be
 updated.
@@ -182,8 +184,9 @@ Access your TYPO3 site
 ----------------------
 
 In order to test if everything worked so far to continue with the `TYPO3
-installation </Debian#Install_TYPO3>`__ [deprecated wiki link] just
-access your newly install TYPO3 site with a browser:
+installation <https://wiki.typo3.org/Debian#Install_TYPO3>`__
+[deprecated wiki link] just access your newly install TYPO3 site with a
+browser:
 
 ::
 
@@ -494,8 +497,8 @@ Debian Woody
 ------------
 
 `Running GIF enabled packages on Debian
-Woody </Running_GIF_enabled_packages_on_Debian_Woody>`__ [deprecated
-wiki link]
+Woody <https://wiki.typo3.org/Running_GIF_enabled_packages_on_Debian_Woody>`__
+[deprecated wiki link]
 
 .. |Debian sources.list.png| image:: files/Debian_sources.list.png
    :target: /File:Debian_sources.list.png

@@ -24,7 +24,7 @@ Setup and run tests:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -42,7 +42,7 @@ testing file, function name and testclass
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -57,7 +57,7 @@ the parent level to prevent showing it up in Git
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -81,7 +81,7 @@ Unit testing since TYPO3 6.2
 
 With TYPO3 CMS version 6.2 the unit test execution and its required
 setup was streamlined. See
-`Blueprints/StandaloneUnitTests </Blueprints/StandaloneUnitTests>`__
+`Blueprints/StandaloneUnitTests <https://wiki.typo3.org/Blueprints/StandaloneUnitTests>`__
 [deprecated wiki link] for more details.
 
 `composer <https://getcomposer.org/>`__ should be available on the
@@ -92,7 +92,7 @@ Setup and run tests:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -117,7 +117,7 @@ Install the randomizer using composer.
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -131,7 +131,7 @@ Using the randomizer works in a similar way as the normal phpunit.
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -147,7 +147,7 @@ this seed to the randomizer command reproduces the same order.
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -180,7 +180,7 @@ option is your only choice because secpol.msc is not available there
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -194,7 +194,7 @@ To run a certain test, just append the test class:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -218,7 +218,7 @@ Functional testing
 ==================
 
 For information about functional testing see
-`https://wiki.typo3.org/Functional_testing </wiki/index.php?title=Functional_testing&action=edit&redlink=1>`__
+`https://wiki.typo3.org/Functional_testing <https://wiki.typo3.org/wiki/index.php?title=Functional_testing&action=edit&redlink=1>`__
 [not available anymore]
 
 Unit testing below TYPO3 CMS 6.2

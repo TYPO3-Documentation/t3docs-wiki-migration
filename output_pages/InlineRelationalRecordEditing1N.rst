@@ -10,7 +10,8 @@ Inline Relational Record Editing 1:n
 
    This page belongs to the `Inline Relational Record Editing
    project <inline-relational-record-editing>`__ (category
-   `Project </Category:Project>`__ [deprecated wiki link])
+   `Project <https://wiki.typo3.org/Category:Project>`__ [deprecated
+   wiki link])
 
 Different kinds of storing and configuration
 ============================================
@@ -341,7 +342,7 @@ would mean, that we **reuse records**.
 
 This also means, that the intermediate table must have a proper TCA
 definition. See see
-`attributes </Inline_Relational_Record_Editing_1:n#Attributes_on_Intermediate_Tables>`__
+`attributes <https://wiki.typo3.org/Inline_Relational_Record_Editing_1:n#Attributes_on_Intermediate_Tables>`__
 [deprecated wiki link] section down this page. The child records of the
 "person"-table could **NOT** be edited inline.
 

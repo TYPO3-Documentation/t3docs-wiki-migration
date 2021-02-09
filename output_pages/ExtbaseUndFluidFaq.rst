@@ -6,7 +6,8 @@ Extbase und Fluid FAQ
 
 .. container::
 
-   **Content Type:** `FAQ </Category:FAQ>`__ [deprecated wiki link].
+   **Content Type:** `FAQ <https://wiki.typo3.org/Category:FAQ>`__
+   [deprecated wiki link].
 
 Extbase
 =======
@@ -156,7 +157,7 @@ your locallang files:
 .. container::
 
    `XML /
-   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   HTML <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
    [deprecated wiki link]
 
 .. container::
@@ -177,7 +178,7 @@ If you want to use names for months, you can do so like this: locallang:
 .. container::
 
    `XML /
-   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   HTML <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
    [deprecated wiki link]
 
 .. container::
@@ -228,7 +229,7 @@ Another nested Example
 .. container::
 
    `XML /
-   HTML </wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
+   HTML <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_HTML%20and%20XML>`__
    [deprecated wiki link]
 
 .. container::
@@ -277,7 +278,8 @@ your model by adding boolean getters like:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::

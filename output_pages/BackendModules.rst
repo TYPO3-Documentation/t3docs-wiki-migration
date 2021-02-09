@@ -18,7 +18,7 @@ Backend Modules
 Web
 ===
 
--  `Page </wiki/index.php?title=BEmodule_Page&action=edit&redlink=1>`__\ **[not
+-  `Page <https://wiki.typo3.org/wiki/index.php?title=BEmodule_Page&action=edit&redlink=1>`__\ **[not
    available anymore]**
 -  **View**
    Views the current page in the same way that it would look in the
@@ -33,7 +33,8 @@ Web
    are able to view, edit and delete a page and also which frontend
    users that are able to see it.
 -  **Functions**
--  `Template </BEmodule_Template>`__\ **[deprecated wiki link]**
+-  `Template <https://wiki.typo3.org/BEmodule_Template>`__\ **[deprecated
+   wiki link]**
    Here you handle all the templates for you site, and the TypoScript
    configuration related to it.
 
@@ -78,8 +79,9 @@ Admin Tools
 
 -  **User admin**
 -  **Ext Manager**
-   Install / `uninstall </Uninstall_Extensions>`__ [deprecated wiki
-   link] / create / `delete <delete-extensions>`__ extensions
+   Install / `uninstall <https://wiki.typo3.org/Uninstall_Extensions>`__
+   [deprecated wiki link] / create / `delete <delete-extensions>`__
+   extensions
 -  **DB check**
 -  **Configuration**
    Explore different arrays like $GLOBALS['TYPO3_CONF_VARS'] or

@@ -5,9 +5,10 @@ Sandbox
 =======
 
 Here's the place you can try out everything what the `WikiWiki-Markup
-makes possible </Help:Contents>`__ [deprecated wiki link]! Have fun!
---`Daniel Brüßler </User:Patchworker>`__ [deprecated wiki link] 10:27, 2
-March 2007 (CET)
+makes possible <https://wiki.typo3.org/Help:Contents>`__ [deprecated
+wiki link]! Have fun! --`Daniel
+Brüßler <https://wiki.typo3.org/User:Patchworker>`__ [deprecated wiki
+link] 10:27, 2 March 2007 (CET)
 
 Test no-spam-mode
 =================
@@ -167,8 +168,9 @@ Because somebody could delete the
 
 Other solutions is that: I could create a template for you to solve this
 problem. So you would type {{HEB}} at the [beginning] of a page and
-{{HEBEND}} at the end. --`Daniel Brüßler </User:Patchworker>`__
-[deprecated wiki link] 12:10, 11 June 2007 (CEST)
+{{HEBEND}} at the end. --`Daniel
+Brüßler <https://wiki.typo3.org/User:Patchworker>`__ [deprecated wiki
+link] 12:10, 11 June 2007 (CEST)
 
 Same hebrew text - using a p tag
 --------------------------------
@@ -247,7 +249,8 @@ Code
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -329,25 +332,27 @@ Wiki-Table of a Navigation-menu
 +-----------------------------------+-----------------------------------+
 | Git & Gerrit                      |                                   |
 +-----------------------------------+-----------------------------------+
-| | `Getting started with           | `Troubleshooting </wi             |
-|   Git                             | ki/index.php?title=TroubleShootin |
-|  </wiki/index.php?title=Git_Intro | g_(Git)&action=edit&redlink=1>`__ |
-| duction&action=edit&redlink=1>`__ | [not available anymore]           |
-|   [not available anymore]         | Having trouble with Git and       |
-| | General introduction to Git.    | Gerrit? Look if someone already   |
-|   Read this if you never used Git | solved it. Have solved an issue?  |
-|   before.                         | Add it here for others to find.   |
-|                                   | | `Tips &                         |
-| | `I just want a current          |   Tricks </wi                     |
-|   trunk </wiki/index.php?title=Gi | ki/index.php?title=Tips_and_Trick |
-| t_Clone&action=edit&redlink=1>`__ | s_(Git)&action=edit&redlink=1>`__ |
-|   [not available anymore]         |   [not available anymore]         |
-| | Find out how you can get the    | | Helpful hints, tips and tricks  |
-|   latest development version of   |   that make your life with Git    |
-|   TYPO3.                          |   and Gerrit easier.              |
-|                                   |                                   |
-| | `I want to                      | | `Glossa                         |
-|   contribute </wiki/              | ry </wiki/index.php?title=Glossar |
+| | `Getting started with           | `Troublesh                        |
+|   Git <https://wiki.typo3.o       | ooting <https://wiki.typo3.org/wi |
+| rg/wiki/index.php?title=Git_Intro | ki/index.php?title=TroubleShootin |
+| duction&action=edit&redlink=1>`__ | g_(Git)&action=edit&redlink=1>`__ |
+|   [not available anymore]         | [not available anymore]           |
+| | General introduction to Git.    | Having trouble with Git and       |
+|   Read this if you never used Git | Gerrit? Look if someone already   |
+|   before.                         | solved it. Have solved an issue?  |
+|                                   | Add it here for others to find.   |
+| | `I just want a current          | | `Tips &                         |
+|   trunk <https://wiki.            |                                   |
+| typo3.org/wiki/index.php?title=Gi | Tricks <https://wiki.typo3.org/wi |
+| t_Clone&action=edit&redlink=1>`__ | ki/index.php?title=Tips_and_Trick |
+|   [not available anymore]         | s_(Git)&action=edit&redlink=1>`__ |
+| | Find out how you can get the    |   [not available anymore]         |
+|   latest development version of   | | Helpful hints, tips and tricks  |
+|   TYPO3.                          |   that make your life with Git    |
+|                                   |   and Gerrit easier.              |
+| | `I want to                      |                                   |
+|   contrib                         | | `Glossary <https://wiki.typo3   |
+| ute <https://wiki.typo3.org/wiki/ | .org/wiki/index.php?title=Glossar |
 | index.php?title=Contribution_Walk | y_(Git)&action=edit&redlink=1>`__ |
 | through&action=edit&redlink=1>`__ |   [not available anymore]         |
 |   [not available anymore]         | | Don't understand what all the   |
@@ -357,7 +362,7 @@ Wiki-Table of a Navigation-menu
 |   here.                           |                                   |
 |                                   |                                   |
 | `Multiple branch                  |                                   |
-| setup </wi                        |                                   |
+| setup <https://wiki.typo3.org/wi  |                                   |
 | ki/index.php?title=Multiple_Branc |                                   |
 | h_Setup&action=edit&redlink=1>`__ |                                   |
 | [not available anymore]           |                                   |
@@ -422,7 +427,8 @@ Normal text as a test to compare the size with the highlighted text.
 
 .. container::
 
-   `CSS Styles </wiki/Help:Contents#Syntax-Highlighting_for_CSS>`__
+   `CSS
+   Styles <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_CSS>`__
    [deprecated wiki link]
 
 .. container::
@@ -465,7 +471,8 @@ Normal text as a test to compare the size with the highlighted text.
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -484,8 +491,8 @@ Just another test
 
 .. container::
 
-   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
-   wiki link]
+   `SQL <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -509,7 +516,7 @@ Just another test
 .. container::
 
    `TS
-   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   TypoScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -546,36 +553,56 @@ tagcloud
 
 .. container::
 
-   `2005 </Category:2005>`__ [deprecated wiki link] 
-   `2006 </Category:2006>`__ [deprecated wiki link] 
-   `2007 </Category:2007>`__ [deprecated wiki link] 
-   `2008 </Category:2008>`__ [deprecated wiki link] 
-   `2009 </Category:2009>`__ [deprecated wiki link] 
-   `2010 </Category:2010>`__ [deprecated wiki link] 
-   `2013 </Category:2013>`__ [deprecated wiki link] 
-   `Administrator </Category:Administrator>`__ [deprecated wiki link] 
-   `Blueprints </Category:Blueprints>`__ [deprecated wiki link]  `Core
-   Team </Category:Core_Team>`__ [deprecated wiki link] 
-   `Delete </Category:Delete>`__ [deprecated wiki link] 
-   `Developer </Category:Developer>`__ [deprecated wiki link] 
-   `DocTeam </Category:DocTeam>`__ [deprecated wiki link] 
-   `Documentation </Category:Documentation>`__ [deprecated wiki link] 
-   `Draft </Category:Draft>`__ [deprecated wiki link] 
-   `ECT </Category:ECT>`__ [deprecated wiki link] 
-   `Events </Category:Events>`__ [deprecated wiki link] 
-   `Extension </Category:Extension>`__ [deprecated wiki link] 
-   `ExtensionDocumentation </Category:ExtensionDocumentation>`__
-   [deprecated wiki link]  `Extensions </Category:Extensions>`__
-   [deprecated wiki link]  `HowTo </Category:HowTo>`__ [deprecated wiki
-   link]  `Installation </Category:Installation>`__ [deprecated wiki
-   link]  `Note </Category:Note>`__ [deprecated wiki link] 
-   `Outdated </Category:Outdated>`__ [deprecated wiki link] 
-   `Project </Category:Project>`__ [deprecated wiki link] 
-   `T3Doc </Category:T3Doc>`__ [deprecated wiki link] 
-   `T3cmsDocumentation </Category:T3cmsDocumentation>`__ [deprecated
-   wiki link]  `Translation </Category:Translation>`__ [deprecated wiki
-   link]  `Tutorial </Category:Tutorial>`__ [deprecated wiki link] 
-   `TypoScript </Category:TypoScript>`__ [deprecated wiki link] 
+   `2005 <https://wiki.typo3.org/Category:2005>`__ [deprecated wiki
+   link]  `2006 <https://wiki.typo3.org/Category:2006>`__ [deprecated
+   wiki link]  `2007 <https://wiki.typo3.org/Category:2007>`__
+   [deprecated wiki link] 
+   `2008 <https://wiki.typo3.org/Category:2008>`__ [deprecated wiki
+   link]  `2009 <https://wiki.typo3.org/Category:2009>`__ [deprecated
+   wiki link]  `2010 <https://wiki.typo3.org/Category:2010>`__
+   [deprecated wiki link] 
+   `2013 <https://wiki.typo3.org/Category:2013>`__ [deprecated wiki
+   link] 
+   `Administrator <https://wiki.typo3.org/Category:Administrator>`__
+   [deprecated wiki link] 
+   `Blueprints <https://wiki.typo3.org/Category:Blueprints>`__
+   [deprecated wiki link]  `Core
+   Team <https://wiki.typo3.org/Category:Core_Team>`__ [deprecated wiki
+   link]  `Delete <https://wiki.typo3.org/Category:Delete>`__
+   [deprecated wiki link] 
+   `Developer <https://wiki.typo3.org/Category:Developer>`__ [deprecated
+   wiki link]  `DocTeam <https://wiki.typo3.org/Category:DocTeam>`__
+   [deprecated wiki link] 
+   `Documentation <https://wiki.typo3.org/Category:Documentation>`__
+   [deprecated wiki link] 
+   `Draft <https://wiki.typo3.org/Category:Draft>`__ [deprecated wiki
+   link]  `ECT <https://wiki.typo3.org/Category:ECT>`__ [deprecated wiki
+   link]  `Events <https://wiki.typo3.org/Category:Events>`__
+   [deprecated wiki link] 
+   `Extension <https://wiki.typo3.org/Category:Extension>`__ [deprecated
+   wiki link] 
+   `ExtensionDocumentation <https://wiki.typo3.org/Category:ExtensionDocumentation>`__
+   [deprecated wiki link] 
+   `Extensions <https://wiki.typo3.org/Category:Extensions>`__
+   [deprecated wiki link] 
+   `HowTo <https://wiki.typo3.org/Category:HowTo>`__ [deprecated wiki
+   link] 
+   `Installation <https://wiki.typo3.org/Category:Installation>`__
+   [deprecated wiki link] 
+   `Note <https://wiki.typo3.org/Category:Note>`__ [deprecated wiki
+   link]  `Outdated <https://wiki.typo3.org/Category:Outdated>`__
+   [deprecated wiki link] 
+   `Project <https://wiki.typo3.org/Category:Project>`__ [deprecated
+   wiki link]  `T3Doc <https://wiki.typo3.org/Category:T3Doc>`__
+   [deprecated wiki link] 
+   `T3cmsDocumentation <https://wiki.typo3.org/Category:T3cmsDocumentation>`__
+   [deprecated wiki link] 
+   `Translation <https://wiki.typo3.org/Category:Translation>`__
+   [deprecated wiki link] 
+   `Tutorial <https://wiki.typo3.org/Category:Tutorial>`__ [deprecated
+   wiki link] 
+   `TypoScript <https://wiki.typo3.org/Category:TypoScript>`__
+   [deprecated wiki link] 
 
 *update tagcloud*
 

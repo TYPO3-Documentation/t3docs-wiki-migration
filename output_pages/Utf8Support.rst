@@ -27,14 +27,15 @@ page
    .. container::
 
       If a step is not understandable, you can `note that
-      here </Talk:UTF-8_support>`__ [deprecated wiki link].
+      here <https://wiki.typo3.org/Talk:UTF-8_support>`__ [deprecated
+      wiki link].
 
 Introduction
 ============
 
 On this page we collect information about the old but still current
-`UTF-8 </Category:UTF-8>`__ [deprecated wiki link] topic. There are many
-options to set and check.
+`UTF-8 <https://wiki.typo3.org/Category:UTF-8>`__ [deprecated wiki link]
+topic. There are many options to set and check.
 
 A good start is to make sure that everything in the chain is using UTF-8
 encoding, starting with ``apache.conf``, ``php.ini``, ``my.cnf`` and
@@ -165,7 +166,8 @@ TYPO3 settings
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -241,8 +243,8 @@ change ``$TYPO3_CONF_VARS['SYS']['setDBinit']`` at all.
 
 .. container::
 
-   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
-   wiki link]
+   `SQL <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -274,8 +276,8 @@ In some configurations a setting for the session is needed, too:
 
 .. container::
 
-   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
-   wiki link]
+   `SQL <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -298,8 +300,8 @@ that are hard to solve. **Avoid using this directive**:
 
 .. container::
 
-   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
-   wiki link]
+   `SQL <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -314,8 +316,8 @@ values:
 
 .. container::
 
-   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
-   wiki link]
+   `SQL <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -363,7 +365,7 @@ charset:
 .. container::
 
    `TS
-   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   TypoScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -375,7 +377,7 @@ charset:
 .. container::
 
    `TS
-   TypoScript </wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
+   TypoScript <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_TypoScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -400,7 +402,7 @@ To work with strings in TYPO3 extensions, use the methods in
    .. container::
 
       `PHP
-      Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+      Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
       [deprecated wiki link]
 
    .. container::
@@ -414,7 +416,7 @@ To work with strings in TYPO3 extensions, use the methods in
    .. container::
 
       `PHP
-      Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+      Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
       [deprecated wiki link]
 
    .. container::
@@ -428,7 +430,7 @@ To work with strings in TYPO3 extensions, use the methods in
    .. container::
 
       `PHP
-      Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+      Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
       [deprecated wiki link]
 
    .. container::
@@ -578,7 +580,8 @@ order to pick up the database connection data:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -593,7 +596,8 @@ retrieve from the configuration array:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
@@ -645,7 +649,7 @@ Linux users connect to the server via ssh typing
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -659,7 +663,7 @@ Create a backup of the database (if things go wrong...)
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -675,7 +679,7 @@ the following error: *"SQL=Specified key was too long; max key length is
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -697,7 +701,7 @@ to ``"DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci"``:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -712,7 +716,7 @@ charset you have written in your file) to "COLLATE utf8_general_ci":
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -726,7 +730,7 @@ Import database:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -740,7 +744,7 @@ Alter character set and collation for the whole database:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -762,7 +766,7 @@ and ``utf8_general_ci`` as collation:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -798,7 +802,7 @@ Then they use iconv on the dumped file to convert the signs inside:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -813,7 +817,7 @@ Use this to find supported charset names:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -828,7 +832,7 @@ After that they import the file using the switch
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -847,7 +851,7 @@ as the origin charset to the iconv command like that:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -869,7 +873,7 @@ correctly encoded UTF-8:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -892,7 +896,7 @@ which there is no representation in the target charset:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -907,7 +911,7 @@ ignore these characters silently:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -930,7 +934,7 @@ For the database do:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -957,7 +961,7 @@ statement by setting MySQL to very verbose:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -971,7 +975,7 @@ For errors like this:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::
@@ -996,7 +1000,7 @@ line:
 .. container::
 
    `Shell
-   Script </wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_shellScript>`__
    [deprecated wiki link]
 
 .. container::

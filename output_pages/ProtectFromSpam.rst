@@ -26,7 +26,8 @@ Tip 1
    .. container::
 
    *Please remove "{{Todo}}" when the problem is solved. See*\ `all
-   todos </Category:Wiki-Todo>`__\ *[deprecated wiki link].*
+   todos <https://wiki.typo3.org/Category:Wiki-Todo>`__\ *[deprecated
+   wiki link].*
 
 To protect your email against spam, add the following to the 'Setup'
 field of your template:

@@ -5,9 +5,10 @@ Running with TypoScript and CSS
 ===============================
 
 The idea with this approach is to control most of the layout through an
-HTML/CSS template. A small set of `TypoScript </Category:TypoScript>`__
-[deprecated wiki link] in the TYPO3 Template indicates what portions
-TYPO3 should replace with Typo3 content and menu items.
+HTML/CSS template. A small set of
+`TypoScript <https://wiki.typo3.org/Category:TypoScript>`__ [deprecated
+wiki link] in the TYPO3 Template indicates what portions TYPO3 should
+replace with Typo3 content and menu items.
 
 I manage several websites within one installation of TYPO3, so I like to
 keep things modular. I'm still learning and this helps me make sure

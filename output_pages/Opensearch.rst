@@ -27,20 +27,22 @@ OpenSearch
    .. container::
 
    *Please remove "{{Question}}" when the problem is solved. See*\ `all
-   questions </Category:Wiki-Question>`__\ *[deprecated wiki link].*
+   questions <https://wiki.typo3.org/Category:Wiki-Question>`__\ *[deprecated
+   wiki link].*
 
 .. container::
 
    Todo:
    When this page has been updated, the block "Browser Search" can be
    uncommented on
-   `Template:Main_Page/SidebarMenu </Template:Main_Page/SidebarMenu>`__
+   `Template:Main_Page/SidebarMenu <https://wiki.typo3.org/Template:Main_Page/SidebarMenu>`__
    [deprecated wiki link] - Speters 2020-04-19
 
    .. container::
 
    *Please remove "{{Todo}}" when the problem is solved. See*\ `all
-   todos </Category:Wiki-Todo>`__\ *[deprecated wiki link].*
+   todos <https://wiki.typo3.org/Category:Wiki-Todo>`__\ *[deprecated
+   wiki link].*
 
 .. _opensearch-1:
 
@@ -48,8 +50,9 @@ OpenSearch
 ==========
 
 OpenSearch gives the possiblity to define the search-engine for your
-`browser </Category:Browser>`__ [deprecated wiki link]. You will know it
-from google or wikipedia, now you can use it for TYPO3 related search.
+`browser <https://wiki.typo3.org/Category:Browser>`__ [deprecated wiki
+link]. You will know it from google or wikipedia, now you can use it for
+TYPO3 related search.
 
 If your Browser supports OpenSearch (IE and FF works) you can go to
 http://www.martinholtz.de/index.php?id=219 [not available anymore] and

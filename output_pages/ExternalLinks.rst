@@ -6,7 +6,8 @@ External links
 
 .. container::
 
-   **Content Type:** `HowTo </Category:HowTo>`__ [deprecated wiki link].
+   **Content Type:** `HowTo <https://wiki.typo3.org/Category:HowTo>`__
+   [deprecated wiki link].
 
 Marking external links with an image or descriptive text is usually
 considered good behaviour usability-wise. In some countries it may even

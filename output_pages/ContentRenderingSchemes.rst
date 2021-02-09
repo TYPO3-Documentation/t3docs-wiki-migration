@@ -7,23 +7,26 @@ Content Rendering Schemes
 .. container::
 
    This page belongs to the `Content Rendering -
-   Team </Content_Rendering>`__ [deprecated wiki link] (category
-   `ContentRenderingTeam </Category:ContentRenderingTeam>`__ [deprecated
-   wiki link])
+   Team <https://wiki.typo3.org/Content_Rendering>`__ [deprecated wiki
+   link] (category
+   `ContentRenderingTeam <https://wiki.typo3.org/Category:ContentRenderingTeam>`__
+   [deprecated wiki link])
 
-The `ECT (Extension Coordination Team) </Extension_coordination_team>`__
+The `ECT (Extension Coordination
+Team) <https://wiki.typo3.org/Extension_coordination_team>`__
 [deprecated wiki link] and the `CRG (Content Rendering
-Group) </Content_Rendering>`__ [deprecated wiki link] are doing a joint
-effort at the moment to get some new out-of-the-box templates into
-TYPO3. For this purpose some standard id and class schemes for the HTML
-output have to be drawn up. That's what's done on this page.
+Group) <https://wiki.typo3.org/Content_Rendering>`__ [deprecated wiki
+link] are doing a joint effort at the moment to get some new
+out-of-the-box templates into TYPO3. For this purpose some standard id
+and class schemes for the HTML output have to be drawn up. That's what's
+done on this page.
 
 What is this about?
 ===================
 
-`glossary-definition </Category:Glossary-definition>`__ [deprecated wiki
-link]: Content Rendering Schemes (CRS) are a method for standardisation
-of markup code and classes/IDs for TYPO3 markup.
+`glossary-definition <https://wiki.typo3.org/Category:Glossary-definition>`__
+[deprecated wiki link]: Content Rendering Schemes (CRS) are a method for
+standardisation of markup code and classes/IDs for TYPO3 markup.
 
 Content Rendering Schemes should bring together several things :
 

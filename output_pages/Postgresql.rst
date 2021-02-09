@@ -32,9 +32,9 @@ TYPO3
 -----
 
 It is advised to use the latest development master as a lot of work is
-happening on the `DBAL </Category:DBAL>`__ [deprecated wiki link] at the
-moment. If you need to use released version TYPO3 7.3 or later is
-advised.
+happening on the `DBAL <https://wiki.typo3.org/Category:DBAL>`__
+[deprecated wiki link] at the moment. If you need to use released
+version TYPO3 7.3 or later is advised.
 
 How do I configure my system
 ============================
@@ -73,12 +73,13 @@ Windows:
 TYPO3
 -----
 
-The current installer supports using the `DBAL </Category:DBAL>`__
-[deprecated wiki link] during first install. Most
-`PostgreSQL </Category:PostgreSQL>`__ [deprecated wiki link]
-installations are set up to connect using a TCP/IP network connection
-with user authentication, if you can't connect using the socket it is
-advisable to switch the connection type.
+The current installer supports using the
+`DBAL <https://wiki.typo3.org/Category:DBAL>`__ [deprecated wiki link]
+during first install. Most
+`PostgreSQL <https://wiki.typo3.org/Category:PostgreSQL>`__ [deprecated
+wiki link] installations are set up to connect using a TCP/IP network
+connection with user authentication, if you can't connect using the
+socket it is advisable to switch the connection type.
 
 .. _postgresql-2:
 

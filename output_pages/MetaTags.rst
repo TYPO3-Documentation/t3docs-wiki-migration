@@ -8,7 +8,8 @@ Faq/Meta Tags
 
 .. container::
 
-   **Content Type:** `FAQ </Category:FAQ>`__ [deprecated wiki link].
+   **Content Type:** `FAQ <https://wiki.typo3.org/Category:FAQ>`__
+   [deprecated wiki link].
 
 << back to `FAQ <faq>`__
 

@@ -128,16 +128,16 @@ Installing TYPO3 Templates
 The TYPO3 templates are available for the time being from a dedicated
 Git repository. If you did not yet configure your environment for using
 Git, please do so using one of the `Git
-Tutorials </wiki/index.php?title=Contribution_Walkthrough_Tutorials&action=edit&redlink=1>`__
+Tutorials <https://wiki.typo3.org/wiki/index.php?title=Contribution_Walkthrough_Tutorials&action=edit&redlink=1>`__
 [not available anymore].
 
 The template projects is available from
-git://git.typo3.org/Documentation/RestTools.git [not available anymore].
-Clone that repository and move into it:
+https://wiki.typo3.org/git://git.typo3.org/Documentation/RestTools.git
+[not available anymore]. Clone that repository and move into it:
 
 ::
 
-   $ git clone git://git.typo3.org/Documentation/RestTools.git [not available anymore]
+   $ git clone https://wiki.typo3.org/git://git.typo3.org/Documentation/RestTools.git [not available anymore]
    $ cd RestTools
 
 Move down one more sub-folder and run the provided installer:

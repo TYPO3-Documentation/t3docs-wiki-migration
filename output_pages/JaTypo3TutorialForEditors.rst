@@ -22,7 +22,8 @@ Ja:TYPO3 Tutorial for Editors
    | `typo3_tut <https://extensions.t  |                                   |
    | ypo3.org/extension/typo3_tut/>`__ |                                   |
    +-----------------------------------+-----------------------------------+
-   |                                   | `tutorial </Category:Tutorial>`__ |
+   |                                   | `tutorial <https://wik            |
+   |                                   | i.typo3.org/Category:Tutorial>`__ |
    |                                   | [deprecated wiki link]: This      |
    |                                   | basic tutorial for editors        |
    |                                   | explains how to add or change     |
@@ -31,7 +32,7 @@ Ja:TYPO3 Tutorial for Editors
    |                                   | step-by-step instructions to get  |
    |                                   | the job done.                     |
    +-----------------------------------+-----------------------------------+
-   | **documentation state**           | `stable </C                       |
+   | **documentation state**           | `stable <https://wiki.typo3.org/C |
    |                                   | ategory:Stable>`__\ **[deprecated |
    |                                   | wiki link]** |document state      |
    |                                   | list|                             |
@@ -46,14 +47,16 @@ Ja:TYPO3 Tutorial for Editors
    | usergroups                        | |list of usergroups| forEditors,  |
    |                                   | forBeginners                      |
    +-----------------------------------+-----------------------------------+
-   | author(s)                         | editors: `Eikaa </User:Eikaa>`__  |
+   | author(s)                         | editors:                          |
+   |                                   | `Eikaa <http                      |
+   |                                   | s://wiki.typo3.org/User:Eikaa>`__ |
    |                                   | [deprecated wiki link],           |
-   |                                   | `P                                |
-   |                                   | sychomieze </User:Psychomieze>`__ |
+   |                                   | `Psychomieze <https://wi          |
+   |                                   | ki.typo3.org/User:Psychomieze>`__ |
    |                                   | [deprecated wiki link]            |
    |                                   | reviewer and publisher:           |
-   |                                   | `P                                |
-   |                                   | sychomieze </User:Psychomieze>`__ |
+   |                                   | `Psychomieze <https://wi          |
+   |                                   | ki.typo3.org/User:Psychomieze>`__ |
    |                                   | [deprecated wiki link]            |
    +-----------------------------------+-----------------------------------+
    | TER category                      | doc_tut                           |
@@ -61,7 +64,8 @@ Ja:TYPO3 Tutorial for Editors
    | dependency                        |                                   |
    +-----------------------------------+-----------------------------------+
 
-<< Back to `Extension manuals </Overview_Extension_manuals>`__
+<< Back to `Extension
+manuals <https://wiki.typo3.org/Overview_Extension_manuals>`__
 [deprecated wiki link] page
 
 `[edit] <https://wiki.typo3.org/wiki/index.php?title=Ja:TYPO3_Tutorial_for_Editors&action=edit&section=0>`__
@@ -72,7 +76,7 @@ Ja:TYPO3 Tutorial for Editors
   https://docs.typo3.org/m/typo3/tutorial-editors/master/en-us/
 
 続編:
-`TYPO3_Tutorial_for_Editors_part2 </TYPO3_Tutorial_for_Editors_part2>`__
+`TYPO3_Tutorial_for_Editors_part2 <https://wiki.typo3.org/TYPO3_Tutorial_for_Editors_part2>`__
 [deprecated wiki link]
 
 ログイン

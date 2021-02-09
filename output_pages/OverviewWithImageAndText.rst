@@ -210,10 +210,12 @@ Now you are done!
 
 Choose what tags you need:
 
-Keywords: `TemplaVoila </Category:TemplaVoila>`__ [deprecated wiki
-link],\ `tutorial </Category:Tutorial>`__ [deprecated wiki
-link],mapping,\ `TypoScript </Category:TypoScript>`__ [deprecated wiki
-link],xml
+Keywords: `TemplaVoila <https://wiki.typo3.org/Category:TemplaVoila>`__
+[deprecated wiki
+link],\ `tutorial <https://wiki.typo3.org/Category:Tutorial>`__
+[deprecated wiki
+link],mapping,\ `TypoScript <https://wiki.typo3.org/Category:TypoScript>`__
+[deprecated wiki link],xml
 
 .. |Overview fce 1.jpg| image:: files/Overview_fce_1.jpg
    :target: /File:Overview_fce_1.jpg

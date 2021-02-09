@@ -14,7 +14,7 @@ Slack
       currently\ **\ https://typo3.org
       If you disagree with its deletion, please explain why at `Category
       talk:Candidates for speedy
-      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      deletion <https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
       [not available anymore] or improve the page and remove the
       ``{{delete}}`` tag.
 
@@ -25,8 +25,8 @@ Slack
       this notice removed.
 
       Remember to check `what links
-      here </Special:WhatLinksHere/Slack>`__ [deprecated wiki link] and
-      the `the page
+      here <https://wiki.typo3.org/Special:WhatLinksHere/Slack>`__
+      [deprecated wiki link] and the `the page
       history <https://wiki.typo3.org/wiki/index.php?title=Slack&action=history>`__
       [deprecated wiki link] before deleting.
 
@@ -121,7 +121,7 @@ Create a channel
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
       reviewer for text and TypoScript.
-      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      `info <https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
       [deprecated wiki link]
 
 In Slack, everyone can create channels. Please follow these simple rules
@@ -143,7 +143,7 @@ Set a channel purpose
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
       reviewer for text and TypoScript.
-      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      `info <https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
       [deprecated wiki link]
 
 **How to add a purpose:**
@@ -180,7 +180,7 @@ Naming conventions for channels
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
       reviewer for text and TypoScript.
-      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      `info <https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
       [deprecated wiki link]
 
 Not all channels conform to these naming conventions and the naming are

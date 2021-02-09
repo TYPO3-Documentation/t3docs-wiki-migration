@@ -8,5 +8,5 @@ Formidable documentation
 
    Redirect to:
 
-   -  `Formidable </wiki/index.php?title=Formidable&action=edit&redlink=1>`__
+   -  `Formidable <https://wiki.typo3.org/wiki/index.php?title=Formidable&action=edit&redlink=1>`__
       [not available anymore]

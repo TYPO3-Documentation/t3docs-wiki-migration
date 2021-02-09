@@ -6,7 +6,8 @@
 Blueprints/Logging
 ==================
 
-`<- Back to blueprints overview </Blueprints>`__ [deprecated wiki link]
+`<- Back to blueprints overview <https://wiki.typo3.org/Blueprints>`__
+[deprecated wiki link]
 
 Blueprint: Logging API
 ======================

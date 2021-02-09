@@ -6,7 +6,8 @@ Page Header with Gifbuilder
 
 .. container::
 
-   **Content Type:** `FAQ </Category:FAQ>`__ [deprecated wiki link].
+   **Content Type:** `FAQ <https://wiki.typo3.org/Category:FAQ>`__
+   [deprecated wiki link].
 
 Page Header with Gifbuilder - Page Header with Gifbuilder (Text from Subtitle, Picture from File)
 =================================================================================================

@@ -9,8 +9,8 @@ EXT/vimeovideo
 .. container::
 
    **Content Type:** `Extension
-   Documentation </Category:ExtensionDocumentation>`__ [deprecated wiki
-   link] (find more extensions in the `Extension
+   Documentation <https://wiki.typo3.org/Category:ExtensionDocumentation>`__
+   [deprecated wiki link] (find more extensions in the `Extension
    Repository <https://extensions.typo3.org/extension/%7B%7B%7Bterkey%7D%7D%7D>`__
    [not available anymore])
    Using the Wiki for extension documentation is no longer recommended.
@@ -33,7 +33,7 @@ EXT/vimeovideo
    |                                   | element. Pure CSS responsive      |
    |                                   | template.                         |
    +-----------------------------------+-----------------------------------+
-   | **documentation state**           | `stable </C                       |
+   | **documentation state**           | `stable <https://wiki.typo3.org/C |
    |                                   | ategory:Stable>`__\ **[deprecated |
    |                                   | wiki link]** |document state      |
    |                                   | list|                             |
@@ -57,7 +57,8 @@ EXT/vimeovideo
    | dependency                        | TYPO3 8.7, fluid_styled_content   |
    +-----------------------------------+-----------------------------------+
 
-<< Back to `Extension manuals </Overview_Extension_manuals>`__
+<< Back to `Extension
+manuals <https://wiki.typo3.org/Overview_Extension_manuals>`__
 [deprecated wiki link] page
 
 `[edit] <https://wiki.typo3.org/wiki/index.php?title=EXT/vimeovideo&action=edit&section=0>`__

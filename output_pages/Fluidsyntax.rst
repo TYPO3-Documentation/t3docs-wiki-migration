@@ -17,9 +17,10 @@ braces to output it:
 | .. container::        | .. container::        | Output:               |
 |                       |                       |                       |
 |    `PHP               |    `XML /             | ::                    |
-|    S                  |    HTML </            |                       |
-| cript </wiki/Help:Con | wiki/Help:Contents#Sy |                       |
-| tents#Syntax-Highligh | ntax-Highlighting_for |   <h1>An example</h1> |
+|    Sc                 |    HTML <ht           |                       |
+| ript <https://wiki.ty | tps://wiki.typo3.org/ |                       |
+| po3.org/wiki/Help:Con | wiki/Help:Contents#Sy |   <h1>An example</h1> |
+| tents#Syntax-Highligh | ntax-Highlighting_for |                       |
 | ting_for_PHP-Code>`__ | _HTML%20and%20XML>`__ |                       |
 |    [deprecated wiki   |    [deprecated wiki   |                       |
 |    link]              |    link]              |                       |
@@ -42,8 +43,9 @@ Use a dot ``.`` to access array keys:
 | .. container::        | .. container::        | Output:               |
 |                       |                       |                       |
 |    `PHP               |    `XML /             | ::                    |
-|    S                  |    HTML </            |                       |
-| cript </wiki/Help:Con | wiki/Help:Contents#Sy |    <p>Low, High</p>   |
+|    Sc                 |    HTML <ht           |                       |
+| ript <https://wiki.ty | tps://wiki.typo3.org/ |    <p>Low, High</p>   |
+| po3.org/wiki/Help:Con | wiki/Help:Contents#Sy |                       |
 | tents#Syntax-Highligh | ntax-Highlighting_for |                       |
 | ting_for_PHP-Code>`__ | _HTML%20and%20XML>`__ |                       |
 |    [deprecated wiki   |    [deprecated wiki   |                       |
@@ -67,8 +69,9 @@ This also works for object properties:
 | .. container::        | .. container::        | Output:               |
 |                       |                       |                       |
 |    `PHP               |    `XML /             | ::                    |
-|    S                  |    HTML </            |                       |
-| cript </wiki/Help:Con | wiki/Help:Contents#Sy |    <p>Pear: 1.2</p>   |
+|    Sc                 |    HTML <ht           |                       |
+| ript <https://wiki.ty | tps://wiki.typo3.org/ |    <p>Pear: 1.2</p>   |
+| po3.org/wiki/Help:Con | wiki/Help:Contents#Sy |                       |
 | tents#Syntax-Highligh | ntax-Highlighting_for |                       |
 | ting_for_PHP-Code>`__ | _HTML%20and%20XML>`__ |                       |
 |    [deprecated wiki   |    [deprecated wiki   |                       |
@@ -101,8 +104,9 @@ variable, put them in curly braces and ``v:variable.get``:
 | .. container::        | .. container::        | Output:               |
 |                       |                       |                       |
 |    `PHP               |    `XML /             | ::                    |
-|    S                  |    HTML </            |                       |
-| cript </wiki/Help:Con | wiki/Help:Contents#Sy |    <p>Pear</p>        |
+|    Sc                 |    HTML <ht           |                       |
+| ript <https://wiki.ty | tps://wiki.typo3.org/ |    <p>Pear</p>        |
+| po3.org/wiki/Help:Con | wiki/Help:Contents#Sy |                       |
 | tents#Syntax-Highligh | ntax-Highlighting_for |                       |
 | ting_for_PHP-Code>`__ | _HTML%20and%20XML>`__ |                       |
 |    [deprecated wiki   |    [deprecated wiki   |                       |
@@ -138,8 +142,8 @@ Simple
 | .. container::                    | .. container::                    |
 |                                   |                                   |
 |    `PHP                           |    `XML /                         |
-|                                   |    HTML                           |
-|   Script </wiki/Help:Contents#Syn |  </wiki/Help:Contents#Syntax-High |
+|    Script <https://wiki           |    HTML <https://wiki.typo3.o     |
+| .typo3.org/wiki/Help:Contents#Syn | rg/wiki/Help:Contents#Syntax-High |
 | tax-Highlighting_for_PHP-Code>`__ | lighting_for_HTML%20and%20XML>`__ |
 |    [deprecated wiki link]         |    [deprecated wiki link]         |
 |                                   |                                   |
@@ -167,9 +171,10 @@ values are variables, quoted values are used as they are:
 | .. container::        | .. container::        | Output:               |
 |                       |                       |                       |
 |    `PHP               |    `XML /             | ::                    |
-|    S                  |    HTML </            |                       |
-| cript </wiki/Help:Con | wiki/Help:Contents#Sy |    1.230e+2           |
-| tents#Syntax-Highligh | ntax-Highlighting_for |    0.000e+0           |
+|    Sc                 |    HTML <ht           |                       |
+| ript <https://wiki.ty | tps://wiki.typo3.org/ |    1.230e+2           |
+| po3.org/wiki/Help:Con | wiki/Help:Contents#Sy |    0.000e+0           |
+| tents#Syntax-Highligh | ntax-Highlighting_for |                       |
 | ting_for_PHP-Code>`__ | _HTML%20and%20XML>`__ |                       |
 |    [deprecated wiki   |    [deprecated wiki   |                       |
 |    link]              |    link]              |                       |

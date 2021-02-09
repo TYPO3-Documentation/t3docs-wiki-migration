@@ -6,7 +6,8 @@
 Webspace vs. Webserver
 ======================
 
-<< `back </Typo3_Installation_Basics#Webspace_vs._Webserver>`__
+<<
+`back <https://wiki.typo3.org/Typo3_Installation_Basics#Webspace_vs._Webserver>`__
 [deprecated wiki link]
 
 What is Webspace?

@@ -7,8 +7,8 @@ Boilerplate extension
 .. container::
 
    **Content Type:** `Extension
-   Documentation </Category:ExtensionDocumentation>`__ [deprecated wiki
-   link] (find more extensions in the `Extension
+   Documentation <https://wiki.typo3.org/Category:ExtensionDocumentation>`__
+   [deprecated wiki link] (find more extensions in the `Extension
    Repository <https://extensions.typo3.org/extension/%7B%7B%7Bterkey%7D%7D%7D>`__
    [not available anymore])
    Using the Wiki for extension documentation is no longer recommended.
@@ -25,14 +25,16 @@ Boilerplate extension
    | **Extension detail information**  |                                   |
    | `[extension: Missing the          |                                   |
    | extension key to render           |                                   |
-   | it] <#>`__ [deprecated wiki       |                                   |
-   | link]/ `[extension: Missing the   |                                   |
+   | it] <https://wiki.typo3.org/#>`__ |                                   |
+   | [deprecated wiki link]/           |                                   |
+   | `[extension: Missing the          |                                   |
    | extension key to render           |                                   |
-   | it] <#>`__ [deprecated wiki link] |                                   |
+   | it] <https://wiki.typo3.org/#>`__ |                                   |
+   | [deprecated wiki link]            |                                   |
    +-----------------------------------+-----------------------------------+
    |                                   | This                              |
-   |                                   | `e                                |
-   |                                   | xtension </Category:Extension>`__ |
+   |                                   | `extension <https://wiki          |
+   |                                   | .typo3.org/Category:Extension>`__ |
    |                                   | [deprecated wiki link] DOES X for |
    |                                   | Y AND USES Z                      |
    +-----------------------------------+-----------------------------------+
@@ -55,7 +57,8 @@ Boilerplate extension
    | dependency                        | EXTENSIONKEYS DEPENDING           |
    +-----------------------------------+-----------------------------------+
 
-<< Back to `Extension manuals </Overview_Extension_manuals>`__
+<< Back to `Extension
+manuals <https://wiki.typo3.org/Overview_Extension_manuals>`__
 [deprecated wiki link] page
 
 `[edit] <https://wiki.typo3.org/wiki/index.php?title=Boilerplate_extension&action=edit&section=0>`__
@@ -90,7 +93,7 @@ A short description please.
 
       Change the **{{draft}}** marker to **{{review}}** when you need a
       reviewer for text and TypoScript.
-      `info </Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
+      `info <https://wiki.typo3.org/Help:Contents#Teamwork_-_draft_review_publish_delete_merge_outdated>`__
       [deprecated wiki link]
 
 .. container::
@@ -106,7 +109,8 @@ A short description please.
 
       to use the issue-tracker and to care for the members.
 
-      `DocTeam </DocTeam>`__ [deprecated wiki link]
+      `DocTeam <https://wiki.typo3.org/DocTeam>`__ [deprecated wiki
+      link]
 
 .. container::
 
@@ -117,7 +121,7 @@ A short description please.
       **This is tagging:**
 
       This is an example of the `tips and tools for the
-      documentation </Category:Tips_and_tools_for_the_documentation>`__
+      documentation <https://wiki.typo3.org/Category:Tips_and_tools_for_the_documentation>`__
       [deprecated wiki link].
 
       Choose what tags you need (please open the link in a NEW
@@ -126,7 +130,8 @@ A short description please.
 Screenshots
 -----------
 
-Uploads via `Special:Upload </Special:Upload>`__ [deprecated wiki link]
+Uploads via `Special:Upload <https://wiki.typo3.org/Special:Upload>`__
+[deprecated wiki link]
 
 Users manual
 ============
@@ -160,13 +165,13 @@ Reference
 | yourproperty  | `string <ht    | Your Property  | the default    |
 |               | tps://docs.typ | description -  | value          |
 |               | o3.org/typo3cm | `more about    |                |
-|               | s/TyposcriptRe | wiki-table </  |                |
-|               | ference/DataTy | Help:Contents# |                |
-|               | pes/String>`__ | Wiki-Table>`__ |                |
-|               | [not available | [deprecated    |                |
-|               | anymore] /     | wiki link]     |                |
-|               | `stdWrap <htt  |                |                |
-|               | ps://docs.typo |                |                |
+|               | s/TyposcriptRe | wiki-ta        |                |
+|               | ference/DataTy | ble <https://w |                |
+|               | pes/String>`__ | iki.typo3.org/ |                |
+|               | [not available | Help:Contents# |                |
+|               | anymore] /     | Wiki-Table>`__ |                |
+|               | `stdWrap <htt  | [deprecated    |                |
+|               | ps://docs.typo | wiki link]     |                |
 |               | 3.org/typo3cms |                |                |
 |               | /TyposcriptRef |                |                |
 |               | erence/Functio |                |                |

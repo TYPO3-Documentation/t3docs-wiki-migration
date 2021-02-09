@@ -19,7 +19,7 @@ Oracle
       **Reason: No reason given**
       If you disagree with its deletion, please explain why at `Category
       talk:Candidates for speedy
-      deletion </wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
+      deletion <https://wiki.typo3.org/wiki/index.php?title=Category_talk:Candidates_for_speedy_deletion&action=edit&redlink=1>`__
       [not available anymore] or improve the page and remove the
       ``{{delete}}`` tag.
 
@@ -30,8 +30,8 @@ Oracle
       this notice removed.
 
       Remember to check `what links
-      here </Special:WhatLinksHere/Oracle>`__ [deprecated wiki link] and
-      the `the page
+      here <https://wiki.typo3.org/Special:WhatLinksHere/Oracle>`__
+      [deprecated wiki link] and the `the page
       history <https://wiki.typo3.org/wiki/index.php?title=Oracle&action=history>`__
       [deprecated wiki link] before deleting.
 
@@ -51,8 +51,8 @@ PHP
 ---
 
 PHP with support for Oracle. There are several PHP extensions that
-connect you to an `Oracle </Category:Oracle>`__ [deprecated wiki link]
-server.
+connect you to an `Oracle <https://wiki.typo3.org/Category:Oracle>`__
+[deprecated wiki link] server.
 
 Hint: Via Oracle's `XE
 pages <http://www.oracle.com/technology/products/database/xe/index.html>`__
@@ -129,8 +129,10 @@ wizard to connect to an Oracle server!
 Install ADOdb and DBAL
 ^^^^^^^^^^^^^^^^^^^^^^
 
-`ADOdb </Category:ADOdb>`__\ *[deprecated wiki link]
-and*\ `DBAL </Category:DBAL>`__\ *[deprecated wiki link]*
+`ADOdb <https://wiki.typo3.org/Category:ADOdb>`__\ *[deprecated wiki
+link]
+and*\ `DBAL <https://wiki.typo3.org/Category:DBAL>`__\ *[deprecated wiki
+link]*
 
 There a two possible ways
 
@@ -256,8 +258,8 @@ create a workaround.
    end;
 
 The 4.0.1 release of TYPO3 will include IS NULL when checking against
-fe_group --`k-fish </User:K-fish>`__ [deprecated wiki link] 14:00, 6
-July 2006 (CEST)
+fe_group --`k-fish <https://wiki.typo3.org/User:K-fish>`__ [deprecated
+wiki link] 14:00, 6 July 2006 (CEST)
 
 Add index for versioning
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -283,8 +285,8 @@ you have the following table setup:
 
 .. container::
 
-   `SQL </wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__ [deprecated
-   wiki link]
+   `SQL <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_SQL>`__
+   [deprecated wiki link]
 
 .. container::
 
@@ -309,8 +311,8 @@ Both index names are longer than 30 characters and table creation will
 fail with the error: ORA-00972: identifier is too long
 
 To solve this, set up a table name mapping before creating the table in
-TYPO3 --`k-fish </User:K-fish>`__ [deprecated wiki link] 14:01, 6 July
-2006 (CEST)
+TYPO3 --`k-fish <https://wiki.typo3.org/User:K-fish>`__ [deprecated wiki
+link] 14:01, 6 July 2006 (CEST)
 
 You can create a table or column name mapping in
 typo3conf/LocalConfiguration.php. This is outlined in the dbal
@@ -348,7 +350,8 @@ A possible solution is:
 
 .. container::
 
-   `PHP Script </wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
+   `PHP
+   Script <https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code>`__
    [deprecated wiki link]
 
 .. container::
