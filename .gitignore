@@ -1,5 +1,5 @@
-/.env
-/php/vendor/
+/convert/.env
+/convert/php/vendor/
 /.idea
 
 !.gitkeep
