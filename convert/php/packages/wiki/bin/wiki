@@ -9,6 +9,8 @@ use Typo3\Wiki\WikiPages;
 $scope = !empty($argv[1]) ? $argv[1] : '';
 if ($scope === 'exceptions') {
     $wiki = new WikiExceptions('output_exceptions');
+    $wiki->setIncludePages(['Exception/CMS/1203699034']);
+    $wiki->setKeepTemporaryFiles(true);
     $wiki->run();
 } elseif ($scope === 'pages') {
     $wiki = new WikiPages('output_pages');
