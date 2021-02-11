@@ -127,17 +127,17 @@ class WikiExceptions extends AbstractWiki
          * ===================
          *
          * .. note::
-         * If you encountered this exception, please help others by providing
-         * information about how you got this error. Especially if you have a solution,
-         * please add it to this page by following the :ref:`"Edit on GitHub" workflow
-         * <docs-contribute-github-method>`!
+         *    If you encountered this exception, please help others by providing
+         *    information about how you got this error. Especially if you have a solution,
+         *    please add it to this page by following the :ref:`"Edit on GitHub" workflow
+         *    <docs-contribute-github-method>`!
          */
         $note = trim('
 .. note::
-If you encountered this exception, please help others by providing
-information about how you got this error. Especially if you have a solution,
-please add it to this page by following the :ref:`"Edit on GitHub" workflow
-<docs-contribute-github-method>`!
+   If you encountered this exception, please help others by providing
+   information about how you got this error. Especially if you have a solution,
+   please add it to this page by following the :ref:`"Edit on GitHub" workflow
+   <docs-contribute-github-method>`!
         ');
         $content = preg_replace("/\n\n([^\n]+)\n([=]+)\n/", sprintf("\n\n$1\n$2\n\n%s\n", $note), $content);
 
