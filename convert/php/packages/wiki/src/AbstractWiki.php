@@ -680,7 +680,7 @@ abstract class AbstractWiki
                         try {
                             $targetFileName = $pageName;
                             $targetFilePath = $this->outputDir . DIRECTORY_SEPARATOR . $targetFileName . '.rst';
-                            $this->postProcessRst($filePath, $targetFilePath);
+                            $this->postProcessPage($filePath, $targetFilePath);
                             $this->info("Page %s post-processed.", $pageName);
                         } catch (Exception $e) {
                             $this->warn("Page %s could not be post-processed (%s)!", $pageName, $e->getMessage());
@@ -695,12 +695,23 @@ abstract class AbstractWiki
     /**
      * Post-process reST file.
      *
-     * @param $sourceFile
-     * @param $targetFile
+     * @param string $sourceFile
+     * @param string $targetFile
      */
-    protected function postProcessRst($sourceFile, $targetFile): void
+    protected function postProcessPage(string $sourceFile, string $targetFile): void
     {
         $content = file_get_contents($sourceFile);
+        $this->postProcessContent($content);
+        file_put_contents($targetFile, $content);
+    }
+
+    /**
+     * Post-process reST file content.
+     *
+     * @param string $content
+     */
+    protected function postProcessContent(string &$content): void
+    {
         /**
          * First-level heading
          * ===================
@@ -730,8 +741,6 @@ abstract class AbstractWiki
         $content = preg_replace_callback("/\n\n([^\n]+)\n([~]+)\n\n/", function($matches) {
             return sprintf("\n\n%s\n%s\n\n", $matches[1], str_repeat('-', strlen($matches[2])));
         }, $content);
-
-        file_put_contents($targetFile, $content);
     }
 
     protected function info(string $message, ...$args): void

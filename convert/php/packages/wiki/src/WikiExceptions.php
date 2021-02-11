@@ -111,4 +111,36 @@ class WikiExceptions extends AbstractWiki
 
         file_put_contents($targetFile, $content);
     }
+
+    /**
+     * Post-process reST file content.
+     *
+     * @param string $content
+     */
+    protected function postProcessContent(string &$content): void
+    {
+        /**
+         * First-level heading
+         * ===================
+         * =>
+         * First-level heading
+         * ===================
+         *
+         * .. note::
+         * If you encountered this exception, please help others by providing
+         * information about how you got this error. Especially if you have a solution,
+         * please add it to this page by following the :ref:`"Edit on GitHub" workflow
+         * <docs-contribute-github-method>`!
+         */
+        $note = trim('
+.. note::
+If you encountered this exception, please help others by providing
+information about how you got this error. Especially if you have a solution,
+please add it to this page by following the :ref:`"Edit on GitHub" workflow
+<docs-contribute-github-method>`!
+        ');
+        $content = preg_replace("/\n\n([^\n]+)\n([=]+)\n/", sprintf("\n\n$1\n$2\n\n%s\n", $note), $content);
+
+        parent::postProcessContent($content);
+    }
 }
