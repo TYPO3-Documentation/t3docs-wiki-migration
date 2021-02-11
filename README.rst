@@ -7,3 +7,7 @@ docs.typo3.org.
 
 `Conversion <convert>`_
    The original MediaWiki pages of wiki.typo3.org get fetched and converted from HTML to reST in this sub folder.
+
+`Creation <create>`_
+   The original MediaWiki process of creating new exception pages by the community is migrated to docs.typo3.org in
+   this sub folder.

@@ -1,5 +1,9 @@
+/.idea
 /convert/.env
 /convert/php/vendor/
-/.idea
+/create/.env
+/create/app/vendor/
+/create/app/config.php
+/create/html/exceptions/
 
 !.gitkeep
