@@ -86,5 +86,4 @@ More information
 -  `Official password hashing documentation since TYPO3
    v9 <https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/PasswordHashing/Index.html>`__
 -  `Issue explaining the deployment
-   problem <https://forge.typo3.org/issues/86155>`__ [not available
-   anymore]
+   problem <https://forge.typo3.org/issues/86155>`__

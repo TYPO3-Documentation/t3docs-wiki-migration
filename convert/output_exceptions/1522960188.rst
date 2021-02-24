@@ -10,4 +10,4 @@ TYPO3 Exception 1522960188
    please add it to this page by following the :ref:`"Edit on GitHub" workflow
    <docs-contribute-github-method>`!
 
-https://forge.typo3.org/issues/86623 [not available anymore]
+https://forge.typo3.org/issues/86623

@@ -72,8 +72,8 @@ Removing the spaces after { and before } is my solution to the problem:
 
    <f:for each="{jobs}" as="job">{job.id}</f:for>
 
-Please not the discussion at: https://forge.typo3.org/issues/64317 [not
-available anymore] --`Bernhard
+Please not the discussion at: https://forge.typo3.org/issues/64317
+--`Bernhard
 Schenkenfelder <https://wiki.typo3.org/wiki/index.php?title=User:Bernland&action=edit&redlink=1>`__
 [deprecated wiki link]
 

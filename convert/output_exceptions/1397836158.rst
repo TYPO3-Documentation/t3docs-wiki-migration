@@ -16,7 +16,7 @@ If you have an error in typo3conf/ext/[your_ext_key]/ext_tables.php:
 -  Search for variable $extensionKey and replace with $_EXTKEY
 -  Try not to use $_EXTKEY in dynamicConfigFiles or otherwise included
    TCA snippets
--  Check https://forge.typo3.org/issues/59033 [not available anymore]
+-  Check https://forge.typo3.org/issues/59033
 
 You may have to clear the cache in install tool (See "Important
 actions").

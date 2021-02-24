@@ -38,8 +38,7 @@ your template happens to be a Fluid tag, then the Fluid parser will
 throw the execption, that »xmlns« is in fact not a valid attribute of
 the current Fluid tag.
 
-Issue on Forge: https://forge.typo3.org/issues/56481 [not available
-anymore]
+Issue on Forge: https://forge.typo3.org/issues/56481
 
 Solution 1 - Remove the attribute
 ---------------------------------
@@ -92,7 +91,7 @@ Fluid 6.1 select ViewHelper
 ``</f:form.select>``
 
 -  prependContent="TRUE" should be available since 6.1
-   https://forge.typo3.org/issues/26595 [not available anymore]
+   https://forge.typo3.org/issues/26595
 -  No documented solution yet
 
 EXT:news
@@ -117,8 +116,7 @@ action="eventDetail">{newsItem.title}</e:link>
 Updated and working version : <n:link newsItem="{newsItem}"
 settings="{settings}">{newsItem.title}</n:link>
 
-See on TYPO3 Forge here : https://forge.typo3.org/issues/53921 [not
-available anymore]
+See on TYPO3 Forge here : https://forge.typo3.org/issues/53921
 
 Upgrade to TYPO3 7.6.2
 ======================

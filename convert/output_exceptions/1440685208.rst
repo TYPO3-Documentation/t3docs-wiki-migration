@@ -25,7 +25,7 @@ Then I worked.
 
 Issues:
 
--  https://forge.typo3.org/issues/70197 [not available anymore]
+-  https://forge.typo3.org/issues/70197
 -  https://github.com/FluidTYPO3/flux/issues/944
 -  https://github.com/FluidTYPO3/flux/issues/992
 

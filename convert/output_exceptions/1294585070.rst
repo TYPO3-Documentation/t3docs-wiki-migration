@@ -38,10 +38,10 @@ Backend Module Call with navigationFrameModule by Extbase
 =========================================================
 
 -  TYPO3 Version 6.2.26
--  @see: https://forge.typo3.org/issues/59369 [not available anymore]
+-  @see: https://forge.typo3.org/issues/59369
 
-According to https://forge.typo3.org/issues/59369#note-2 [not available
-anymore] the errormessage in the navigation part of the frameModule is:
+According to https://forge.typo3.org/issues/59369#note-2 the
+errormessage in the navigation part of the frameModule is:
 
 Uncaught TYPO3 Exception
 

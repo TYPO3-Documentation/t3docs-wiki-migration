@@ -14,8 +14,7 @@ TYPO3 Exception 1313855175
 Resources/Private/Templates/{controller}/{action}.html
 
 | 
-| For details, please see https://forge.typo3.org/issues/31322 [not
-  available anymore]
+| For details, please see https://forge.typo3.org/issues/31322
 
 To solve this, you can set the following in TypoScript:
 

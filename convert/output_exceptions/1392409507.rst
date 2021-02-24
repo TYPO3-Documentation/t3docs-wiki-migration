@@ -24,8 +24,8 @@ https://typo3.org/news/article/cross-site-request-forgery-protection-in-typo3-cm
 
 If you encounter this problem with default backend modules included in
 the TYPO3 distribution you should first check if there is already an
-error report on https://forge.typo3.org [not available anymore] and if
-this is not the case feel free to create a new bug report.
+error report on https://forge.typo3.org and if this is not the case feel
+free to create a new bug report.
 
 **For developers:**
 

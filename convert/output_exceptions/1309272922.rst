@@ -17,7 +17,6 @@ Workspaces
 
 The origin of this Exception is
 `class.tx_solr_site.php <https://git.typo3.org/TYPO3CMS/Extensions/solr.git/blob/HEAD:/classes/class.tx_solr_site.php>`__
-[not available anymore]
 
 A statement concerning workspaces and solr can be found
 `here <http://lists.typo3.org/pipermail/typo3-project-solr/2011-October/000670.html>`__

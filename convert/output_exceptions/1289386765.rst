@@ -259,8 +259,7 @@ Redo the whole TYPO3 upgrade? --> yes, that's what I meant. Take your
 
 Thanks, but (luckily) it was something else: the templates and
 namespaces have been changed. So using an old template can cause this
-exception too. https://forge.typo3.org/issues/62220 [not available
-anymore]
+exception too. https://forge.typo3.org/issues/62220
 
 If you got the error while adding a new namespace in TYPO3 7.4.0 or 7.5.0
 =========================================================================
