@@ -1,7 +1,7 @@
 .. include:: /Includes.rst.txt
 
 ==========================
-TYPO3 Exception 1242816074
+TYPO3 Exception 1275399922
 ==========================
 
 .. note::
@@ -10,23 +10,12 @@ TYPO3 Exception 1242816074
    please add it to this page by following the :ref:`"Edit on GitHub" workflow
    <docs-contribute-github-method>`!
 
-Error 1
-=======
+Uncaught TYPO3 Exception
 
-::
+#1275399922: Could not find a Solr connection for root page [1] and
+language [4]. Initial page used was [1]
 
-   Oops, an error occurred!
+| 
+| Solution:
 
-   The number of question marks to replace must be equal to the number of parameters.
-
-Error 2
-=======
-
-::
-
-    #1242816074: Unsupported order encountered.
-
-**Solution:** There is something wrong with your query, look at:
-**``$query->setOrderings``**
-
-https://forge.typo3.org/issues/32051
+Unknown yet

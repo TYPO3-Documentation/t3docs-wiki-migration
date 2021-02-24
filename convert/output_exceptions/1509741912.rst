@@ -14,8 +14,8 @@ Concerned Version: TYPO3 Version 9.2.1
 
 Related issues:
 
--  https://forge.typo3.org/issues/84578 [not available anymore] (closed)
--  https://forge.typo3.org/issues/84343 [not available anymore] (closed)
+-  https://forge.typo3.org/issues/84578 (closed)
+-  https://forge.typo3.org/issues/84343 (closed)
 
 When moving some files in the File-module with the clipboard this Error
 Message is shown:

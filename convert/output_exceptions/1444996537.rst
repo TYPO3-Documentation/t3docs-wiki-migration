@@ -15,8 +15,7 @@ in the file Configuration/TCA/my_extension_table.php and when
 "'displayCond' => 'EXT:foreign_extension:LOADED:true'" is used.
 
 see `Bug #76958: displayCond LOADED does not check the loaded
-extension <https://forge.typo3.org/issues/76958>`__ [not available
-anymore]
+extension <https://forge.typo3.org/issues/76958>`__
 
 You must move the the column with the condition into the folder
 Configuration/TCA/Overrides of your extension (my_extension) or of the

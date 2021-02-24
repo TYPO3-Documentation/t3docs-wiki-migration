@@ -22,7 +22,7 @@ Usage of (new) property mapper / t3extblog
 I encountered this exception when trying to install/use t3extblog with
 TYPO3 6.2.10. Check your code for correct usage of (new) property
 mapper, this should give you a hint (taken from
-https://forge.typo3.org/issues/51330 [not available anymore]):
+https://forge.typo3.org/issues/51330):
 
 old property mapper is not supported anymore and removed from the Core
 after 6.2. Use the new one instead.

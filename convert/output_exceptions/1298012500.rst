@@ -62,7 +62,7 @@ Posted 25. June 2015
   without the redirect.
 | **LINKS**
 | http://stackoverflow.com/a/31022725
-| https://forge.typo3.org/issues/66848 [not available anymore]
+| https://forge.typo3.org/issues/66848
 
 Posted earlier from somebody else
 =================================

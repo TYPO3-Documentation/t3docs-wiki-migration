@@ -175,7 +175,7 @@ that you have installed the infotables for all required languages!
 'tx_news_domain_model_filereference' doesn't exist
 ==================================================
 
-See https://forge.typo3.org/issues/58925 [not available anymore] and
+See https://forge.typo3.org/issues/58925 and
 https://forge.typo3.org/issues/58784 I actually had the current version
 already (merging an upgraded dev instance with the live site), but I had
 to include the static templates and clear all caches, also truncate cf\_
@@ -268,8 +268,8 @@ Alternative solution is to use DB abstraction with following code:
 Related `issue <https://github.com/evoWeb/sf_register/issues/13>`__ at
 sf_register bugtracker.
 
-Related `issue <https://forge.typo3.org/issues/67375>`__ [not available
-anymore] at TYPO3 bugtracker.
+Related `issue <https://forge.typo3.org/issues/67375>`__ at TYPO3
+bugtracker.
 
 SQL Mode not compatible
 =======================

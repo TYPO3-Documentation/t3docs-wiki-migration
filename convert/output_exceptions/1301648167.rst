@@ -21,7 +21,6 @@ mountpage. You can select the mountpage as shortcut target - just do not
 use the automatic functions ("first subpage", "random subpage"...)
 
 There is some info in this bug: https://forge.typo3.org/issues/14351
-[not available anymore]
 
 TYPO3 4.7.4
 

@@ -26,10 +26,8 @@ backend page.
 
 Apparently this happend to other people with the same extension. They
 reported the same error in a (German) board: `Thread
-one <http://www.typo3.net/forum/thematik/zeige/thema/114839/>`__ [not
-available anymore], `Thread
-two <http://www.typo3.net/forum/thematik/zeige/thema/115266/>`__ [not
-available anymore]
+one <http://www.typo3.net/forum/thematik/zeige/thema/114839/>`__,
+`Thread two <http://www.typo3.net/forum/thematik/zeige/thema/115266/>`__
 
 Reason
 ------

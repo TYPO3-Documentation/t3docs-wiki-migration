@@ -80,8 +80,7 @@ If you set the format of our view manually in the controller like this:
 $this->request->setFormat('xml'); extbase is still looking for a file
 called youraction.html even if it eventually uses youraction.xml so you
 need to create both files, the html file can be empty. I think this is a
-bug and filled a bug report; https://forge.typo3.org/issues/46657 [not
-available anymore]
+bug and filled a bug report; https://forge.typo3.org/issues/46657
 
 typo3 6.1.7
 ===========

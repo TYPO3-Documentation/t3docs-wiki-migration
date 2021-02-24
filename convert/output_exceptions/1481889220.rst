@@ -17,5 +17,4 @@ If you get this error when running the *Optimize MySQL database tables
 (scheduler)* task, try using the **mysqli** driver instead of
 *pdo_mysql*.
 
-See: https://forge.typo3.org/issues/82686?next_issue_id=82682 [not
-available anymore]
+See: https://forge.typo3.org/issues/82686?next_issue_id=82682

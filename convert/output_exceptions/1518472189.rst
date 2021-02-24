@@ -18,6 +18,8 @@ following or further reasons:
 
 -  Slugs are defined for pages but there is a fault in the definitions
    (i.e. trailing slash or the path is broken).
+-  This may happen with a PersistedAliasMapper definition if the record
+   you try to decode is stored **outside** of your site.
 -  If there are several domains defined in a TYPO3-installation and a
    page includes a link to a page that is in another domain but still to
    another page inside the TYPO3-installation.

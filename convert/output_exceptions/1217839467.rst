@@ -18,5 +18,4 @@ TYPO3 Exception 1217839467
 -  Check if you have annotated @ignorevalidation $myObject in your
    action (or @dontvalidate for older Extbase version < 6.1)
 -  Some hints (in German) can be found here:
-   http://www.typo3.net/forum/beitraege/extbase_und_fluid/108844/ [not
-   available anymore]
+   http://www.typo3.net/forum/beitraege/extbase_und_fluid/108844/

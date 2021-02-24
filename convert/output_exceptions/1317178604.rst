@@ -37,7 +37,6 @@ Typo3 CMS 6.1.2 filelist/fileadmin error while uploading a file again which has 
 | Don´t know, whether this is the right place for a bug report -
   hopefully!
 | Edit: Related to `Bug #50508 <https://forge.typo3.org/issues/50508>`__
-  [not available anymore]
 
 TYPO3 CMS 6.2.x - happened when a tt_news entry had an non-existing image in the bodytext
 =========================================================================================

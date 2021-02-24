@@ -42,8 +42,8 @@ and follow a link:
 not find a suitable type converter for "array|null" because no such
 class or interface exists.
 
-seems related to https://forge.typo3.org/issues/48172 [not available
-anymore] as the solution, setting the Typoscript
+seems related to https://forge.typo3.org/issues/48172 as the solution,
+setting the Typoscript
 
 plugin.tx_news.features.rewrittenPropertyMapper = 0
 
@@ -266,7 +266,7 @@ Extbase then uses the @param annotation. But this caused another error:
 `typo3-exception-1278450972 <typo3-exception-1278450972>`__
 
 Which could only get solved by applying a patch:
-https://forge.typo3.org/issues/66049 [not available anymore]
+https://forge.typo3.org/issues/66049
 
 This issue concerning passing an array of objects to a controller action
 should have been resolved in 7.x because the old property mapper has

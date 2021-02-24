@@ -16,3 +16,8 @@ TYPO3 Exception 1481647089
 
 Happens on TYPO3 v8 when using a multiRelation field inside a section
 container
+
+This `also happens with flux
+8 <https://github.com/FluidTYPO3/flux/issues/1446>`__ when using a
+<flux:field.relation> tag. This has `been fixed in flux
+9.0.0 <https://github.com/FluidTYPO3/flux/issues/1446>`__.
