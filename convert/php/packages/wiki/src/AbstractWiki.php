@@ -352,7 +352,7 @@ abstract class AbstractWiki
                 'text' => $nodes[2][$id],
                 'url' => $nodes[1][$id],
                 'urlAbs' => $this->getAbsoluteUri($nodes[1][$id]),
-                'urlActual' => $this->getFileUrlFromWikiFileLink($this->getAbsoluteUri($nodes[1][$id]))
+                'urlActual' => $this->resolveWikiFileUrl($this->getAbsoluteUri($nodes[1][$id]))
             ];
         }
 
@@ -362,11 +362,11 @@ abstract class AbstractWiki
             $replace = [];
 
             foreach ($links as $link) {
-                if (!array_key_exists($link['urlAbs'], $this->urlMap) && !array_key_exists($link['urlAbs'], $responses)) {
-                    if (empty($this->urlMapOfFailed[$link['urlAbs']])) {
-                        $responses[$link['urlAbs']] = $client->request('GET', $link['urlActual']);
+                if (!array_key_exists($link['urlActual'], $this->urlMap) && !array_key_exists($link['urlActual'], $responses)) {
+                    if (empty($this->urlMapOfFailed[$link['urlActual']])) {
+                        $responses[$link['urlActual']] = $client->request('GET', $link['urlActual']);
                     } else {
-                        $responses[$link['urlAbs']] = $client->request('GET', $this->urlMapOfFailed[$link['urlAbs']]);
+                        $responses[$link['urlActual']] = $client->request('GET', $this->urlMapOfFailed[$link['urlActual']]);
                     }
                 }
             }
@@ -375,7 +375,7 @@ abstract class AbstractWiki
                 try {
                     $linkContent = $response->getContent(false);
                     if ($response->getStatusCode() === 200) {
-                        if ($this->isWikiFileLink($requestUrl)) {
+                        if ($this->isWikiFileUrl($requestUrl)) {
                             $localFileUrl = $this->saveFileToLocal($requestUrl, $linkContent);
                             $this->urlMap[$requestUrl] = $localFileUrl;
                             $this->info("Url %s is confirmed and downloaded to %s.", $requestUrl, $localFileUrl);
@@ -399,10 +399,10 @@ abstract class AbstractWiki
             }
 
             foreach ($links as $link) {
-                $actualUrl = $this->urlMap[$link['urlAbs']];
+                $actualUrl = $this->urlMap[$link['urlActual']];
                 if ($actualUrl !== '') {
                     if (strpos($actualUrl, self::WIKI_URL) !== 0) {
-                        if (strpos($link['urlAbs'], self::WIKI_URL) === 0 || !empty($this->urlMapOfFailed[$link['urlAbs']])) {
+                        if (strpos($link['urlActual'], self::WIKI_URL) === 0 || !empty($this->urlMapOfFailed[$link['urlActual']])) {
                             $actualNode = str_replace($link['url'], $actualUrl, $link['node']);
                             $replace[$link['node']] = $actualNode;
                             $this->info("Link %s of page %s gets replaced by %s.", $link['urlAbs'], $pageName, $actualUrl);
@@ -438,18 +438,46 @@ abstract class AbstractWiki
                 self::WIKI_URL . '/' . $url);
     }
 
-    protected function isWikiFileLink(string $sourceFile): bool
+    protected function resolveWikiFileUrl(string $sourceFile): string
     {
-        return strpos($sourceFile, self::WIKI_URL) === 0 && strpos($sourceFile, '/File:') !== false;
+        $targetFile = $this->getWikiFileLinkFromThumbnailLink($sourceFile);
+        $targetFile = $this->getWikiFileLinkFromImageLink($targetFile);
+        $targetFile = $this->getWikiFileUrlFromWikiFileLink($targetFile);
+        return $targetFile;
     }
 
-    protected function getFileUrlFromWikiFileLink(string $sourceFile): string
+    protected function getWikiFileLinkFromThumbnailLink(string $sourceFile): string
+    {
+        $targetFile = $sourceFile;
+        if (strpos($sourceFile, self::WIKI_URL) === 0 && strpos($sourceFile, '/thumb/') !== false) {
+            preg_match('|/thumb/[a-z0-9]{1}/[a-z0-9]{2}/(.*?)/|', $sourceFile, $matches);
+            $targetFile = sprintf('%s/File:%s', self::WIKI_URL, $matches[1]);
+        }
+        return $targetFile;
+    }
+
+    protected function getWikiFileLinkFromImageLink(string $sourceFile): string
+    {
+        $targetFile = $sourceFile;
+        if (strpos($sourceFile, self::WIKI_URL) === 0 && strpos($sourceFile, '/images/') !== false) {
+            preg_match('|/images/[a-z0-9]{1}/[a-z0-9]{2}/(.*)|', $sourceFile, $matches);
+            $targetFile = sprintf('%s/File:%s', self::WIKI_URL, $matches[1]);
+        }
+        return $targetFile;
+    }
+
+    protected function getWikiFileUrlFromWikiFileLink(string $sourceFile): string
     {
         $targetFile = $sourceFile;
         if (strpos($sourceFile, self::WIKI_URL) === 0) {
             $targetFile = str_replace('/File:', '/Special:FilePath/', $sourceFile);
         }
         return $targetFile;
+    }
+
+    protected function isWikiFileUrl(string $sourceFile): bool
+    {
+        return strpos($sourceFile, self::WIKI_URL) === 0 && strpos($sourceFile, '/Special:FilePath/') !== false;
     }
 
     protected function removeWikiFileLinkSyntax(string $sourceFile): string
@@ -514,7 +542,7 @@ abstract class AbstractWiki
                 'node' => $node,
                 'url' => $nodes[1][$id],
                 'urlAbs' => $this->getAbsoluteUri($nodes[1][$id]),
-                'urlActual' => $this->getOriginalImageFromPotentialThumbnail($this->getAbsoluteUri($nodes[1][$id]))
+                'urlActual' => $this->resolveWikiFileUrl($this->getAbsoluteUri($nodes[1][$id]))
             ];
         }
 
@@ -572,25 +600,6 @@ abstract class AbstractWiki
         }
 
         file_put_contents($targetFile, $content);
-    }
-
-    /**
-     * Extract the original image path from a potential TYPO3 Wiki thumbnail path, e.g.
-     * https://wiki.typo3.org/wiki/images/thumb/d/d1/Extension_Upload_screen_TER.png/300px-Extension_Upload_screen_TER.png
-     * =>
-     * https://wiki.typo3.org/wiki/images/d/d1/Extension_Upload_screen_TER.png
-     *
-     * @param string $sourceFile Potential thumbnail image path
-     * @return string Original image path
-     */
-    protected function getOriginalImageFromPotentialThumbnail(string $sourceFile): string
-    {
-        $targetFile = $sourceFile;
-        if (strpos($sourceFile, self::WIKI_URL) === 0 && strpos($sourceFile, '/thumb/') !== false) {
-            $targetFile = str_replace('/thumb', '', $targetFile);
-            $targetFile = substr($targetFile, 0, strrpos($targetFile, '/'));
-        }
-        return $targetFile;
     }
 
     /**
