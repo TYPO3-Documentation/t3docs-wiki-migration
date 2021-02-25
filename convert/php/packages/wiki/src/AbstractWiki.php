@@ -344,7 +344,7 @@ abstract class AbstractWiki
     protected function replaceLinksOfPage(string $sourceFile, string $targetFile, string $pageName): void
     {
         $content = file_get_contents($sourceFile);
-        preg_match_all('|<a[^>]*href="([^"]*)"[^>]*>([^<]+)</a>|', $content, $nodes);
+        preg_match_all('|<a[^>]*href="([^"]*)"[^>]*>(.*?)</a>|', $content, $nodes);
         $links = [];
         foreach ($nodes[0] as $id => $node) {
             $links[] = [
