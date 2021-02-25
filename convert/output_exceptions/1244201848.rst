@@ -19,5 +19,6 @@ Exception message:
    A boolean expression has more than tree parts.
 
 The error happens when you have a `Fluid ``f:if``
-tag </Fluid#f:if.2C_f:then.2C_f:else>`__ with a syntax error in the
-``condition`` attribute.
+tag <https://wiki.typo3.org/Fluid#f:if.2C_f:then.2C_f:else>`__
+[deprecated wiki link] with a syntax error in the ``condition``
+attribute.

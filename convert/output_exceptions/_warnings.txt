@@ -63,6 +63,7 @@ Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;a
 Link https://wiki.typo3.org/User:David_bruchmann of page 1237823695 gets marked as outdated as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=User_talk:David_bruchmann&amp;action=edit&amp;redlink=1 of page 1237823695 gets marked as outdated as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/Extension_Development,_native_ExtJS_Modules of page 1312140065 gets marked as outdated as it links to deprecated wiki instance.
+Link https://wiki.typo3.org/Fluid#f:if.2C_f:then.2C_f:else of page 1244201848 gets marked as outdated as it links to deprecated wiki instance.
 Url https://project.localdomain.vm/http-error-404 seems to be outdated (Could not resolve host "project.localdomain.vm".)!
 Link https://project.localdomain.vm/http-error-404 of page 1544172838 gets marked as outdated as it is not available.
 Link https://wiki.typo3.org/wiki/Help:Contents#Syntax-Highlighting_for_PHP-Code of page 1231267498 gets marked as outdated as it links to deprecated wiki instance.
@@ -85,8 +86,7 @@ Link https://wiki.typo3.org/wiki/index.php?title=User:An0ther-adm1n&amp;action=e
 Link https://wiki.typo3.org/wiki/index.php?title=User_talk:An0ther-adm1n&amp;action=edit&amp;redlink=1 of page 1417988921 gets marked as outdated as it links to deprecated wiki instance.
 Url http://......ch/typo3/mod.php?M=tools_ExtensionmanagerExtensionmanager&amp;moduleToken=0cede4471e1c5e94daa96d46bcbb6904ddbeca6c seems to be outdated (Could not resolve host "......ch".)!
 Link http://......ch/typo3/mod.php?M=tools_ExtensionmanagerExtensionmanager&amp;moduleToken=0cede4471e1c5e94daa96d46bcbb6904ddbeca6c of page 1348146451 gets marked as outdated as it is not available.
-Url https://www.example.de/' seems to be outdated (fopen(): SSL operation failed with code 1. OpenSSL Error messages:
-error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error)!
+Url https://www.example.de/' seems to be outdated (fopen(): SSL: Success)!
 Link https://www.example.de/' of page 1519788775 gets marked as outdated as it is not available.
 Link https://wiki.typo3.org/wiki/index.php?title=User:Csehrt&amp;action=edit&amp;redlink=1 of page 1319455097 gets marked as outdated as it links to deprecated wiki instance.
 Link https://wiki.typo3.org/wiki/index.php?title=User_talk:Csehrt&amp;action=edit&amp;redlink=1 of page 1319455097 gets marked as outdated as it links to deprecated wiki instance.

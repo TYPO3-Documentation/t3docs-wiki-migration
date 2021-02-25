@@ -62,4 +62,4 @@ varies in the error message until "rte_ckeditor" and
 appears only with Package "core".
 
 .. |Extension Upload screen TER.png| image:: files/Extension_Upload_screen_TER.png
-   :target: /File:Extension_Upload_screen_TER.png
+   :target: files/Extension_Upload_screen_TER.png
