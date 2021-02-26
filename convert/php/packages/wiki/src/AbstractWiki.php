@@ -750,6 +750,19 @@ abstract class AbstractWiki
         $content = preg_replace_callback("/\n\n([^\n]+)\n([~]+)\n\n/", function($matches) {
             return sprintf("\n\n%s\n%s\n\n", $matches[1], str_repeat('-', strlen($matches[2])));
         }, $content);
+        /**
+         * Remove self-targeting image links as they do not work after the sphinx conversion anymore:
+         * Sphinx moves the images to the folder _images but forgets to adjust the links to the images
+         * accordingly.
+         * Use sphinx configuration param "html_scaled_image_link" instead if self-linking should be
+         * supported.
+         *
+         * .. |Extension Upload screen TER.png| image:: files/Extension_Upload_screen_TER.png
+         *    :target: files/Extension_Upload_screen_TER.png
+         * =>
+         * .. |Extension Upload screen TER.png| image:: files/Extension_Upload_screen_TER.png
+         */
+        $content = preg_replace(sprintf("|\n.*?:target: %s/.*?\n|", $this->filesUrl), "\n", $content);
     }
 
     protected function info(string $message, ...$args): void
