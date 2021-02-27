@@ -8,6 +8,7 @@ use Exception;
 use Symfony\Component\DomCrawler\Crawler;
 use Symfony\Component\HttpClient\HttpClient;
 use Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface;
+use Symfony\Contracts\HttpClient\Exception\DecodingExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
@@ -126,9 +127,53 @@ abstract class AbstractWiki
     }
 
     /**
-     * Fetch list of TYPO3 Wiki pages and saves as 1-dimensional array of absolute page urls in $this->pages.
+     * Fetch list of TYPO3 Wiki pages.
+     *
+     * @throws ClientExceptionInterface
+     * @throws RedirectionExceptionInterface
+     * @throws ServerExceptionInterface
+     * @throws TransportExceptionInterface
+     * @throws DecodingExceptionInterface
+     *
+     * @see https://www.mediawiki.org/wiki/API:Query
+     * @see https://www.mediawiki.org/wiki/API:Info
      */
-    abstract protected function fetchListOfPages(): void;
+    protected function fetchListOfPages(): void
+    {
+        $client = HttpClient::create();
+        $query = [
+            'action' => 'query',
+            'generator' => 'allpages',
+            'prop' => 'info',
+            'inprop' => 'url',
+            'format' => 'json',
+            'gaplimit' => 500,
+        ];
+        $pages = [];
+        $includePagesIndex = array_flip($this->includePages);
+
+        do {
+            $response = $client->request('GET', self::WIKI_API_URL, ['query' => $query + [
+                    'gapcontinue' => $responseData['continue']['gapcontinue'] ?? ''
+                ]]);
+            $responseData = $response->toArray();
+            if (!empty($responseData['query']['pages'])) {
+                $pages += $responseData['query']['pages'];
+            }
+        } while (!empty($responseData['continue']['gapcontinue']));
+
+        foreach ($pages as &$page) {
+            if (!empty($includePagesIndex)) {
+                if (isset($includePagesIndex[$page['canonicalurl']])) {
+                    $this->pages[] = $page['canonicalurl'];
+                }
+            } else {
+                $this->pages[] = $page['canonicalurl'];
+            }
+        }
+
+        $this->info("%d pages will be fetched.", count($this->pages));
+    }
 
     /**
      * Crawl TYPO3 Wiki pages and save their content into folder $this->outputDir.
