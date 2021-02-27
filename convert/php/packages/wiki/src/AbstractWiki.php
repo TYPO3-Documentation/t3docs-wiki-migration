@@ -284,7 +284,14 @@ abstract class AbstractWiki
      */
     protected function reducePage(string $sourceFile, string $targetFile, string $pageName): void
     {
-        $crawler = new Crawler(file_get_contents($sourceFile));
+        $content = file_get_contents($sourceFile);
+        $this->reduceContent($content, $pageName);
+        file_put_contents($targetFile, $content);
+    }
+
+    protected function reduceContent(&$content, $pageName): void
+    {
+        $crawler = new Crawler($content);
         $title = $crawler->filterXPath('//h1[@id="firstHeading"]')->outerHtml();
         $bodyParts = $crawler->filterXPath('//div[@class="mw-parser-output"]/*[not(contains(@class, "toc"))]')
             ->each(function(Crawler $node){return $node->outerHtml();});
@@ -304,8 +311,6 @@ abstract class AbstractWiki
         $content = preg_replace_callback('/<(h1[^>]*)>(.*)<\/h1>/', function($matches) use($pageId) {
             return sprintf('<%s id="%s">%s</h1>', $matches[1], $pageId, $matches[2]);
         }, $content, 1);
-
-        file_put_contents($targetFile, $content);
     }
 
     /**
