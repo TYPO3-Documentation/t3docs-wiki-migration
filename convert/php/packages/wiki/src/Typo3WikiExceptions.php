@@ -11,7 +11,7 @@ use Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
 
-class WikiExceptions extends Wiki
+class Typo3WikiExceptions extends Wiki
 {
     /**
      * Fetch list of TYPO3 Wiki exception pages.
