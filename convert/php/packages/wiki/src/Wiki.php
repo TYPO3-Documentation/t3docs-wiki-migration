@@ -15,11 +15,11 @@ use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
 
 class Wiki
 {
-    const WIKI_URL = 'https://wiki.typo3.org';
-    const WIKI_API_URL = 'https://wiki.typo3.org/api.php';
     const LOGLEVEL_INFO = 1;
     const LOGLEVEL_WARNING = 2;
 
+    protected string $wikiUrl;
+    protected string $wikiApiUrl;
     protected bool $keepTemporaryFiles;
     protected array $includePages;
     protected int $logLevel;
@@ -34,6 +34,8 @@ class Wiki
 
     public function __construct(string $outputDir)
     {
+        $this->wikiUrl = 'https://wiki.typo3.org';
+        $this->wikiApiUrl = 'https://wiki.typo3.org/api.php';
         $this->keepTemporaryFiles = false;
         $this->includePages = [];
         $this->logLevel = self::LOGLEVEL_INFO;
@@ -76,7 +78,7 @@ class Wiki
     protected function saveMapOfFailedUrls(): void
     {
         $urlMapOfFailed = array_filter($this->urlMap, function($responseUrl){
-            return $responseUrl === '' || strpos($responseUrl, self::WIKI_URL) === 0;
+            return $responseUrl === '' || strpos($responseUrl, $this->wikiUrl) === 0;
         });
         $urlMapOfFailed = array_merge($urlMapOfFailed, $this->urlMapOfFailed);
 
@@ -153,7 +155,7 @@ class Wiki
         $includePagesIndex = array_flip($this->includePages);
 
         do {
-            $response = $client->request('GET', self::WIKI_API_URL, ['query' => $query + [
+            $response = $client->request('GET', $this->wikiApiUrl, ['query' => $query + [
                     'gapcontinue' => $responseData['continue']['gapcontinue'] ?? ''
                 ]]);
             $responseData = $response->toArray();
@@ -451,8 +453,8 @@ class Wiki
             foreach ($links as $link) {
                 $actualUrl = $this->urlMap[$link['urlActual']];
                 if ($actualUrl !== '') {
-                    if (strpos($actualUrl, self::WIKI_URL) !== 0) {
-                        if (strpos($link['urlActual'], self::WIKI_URL) === 0 || !empty($this->urlMapOfFailed[$link['urlActual']])) {
+                    if (strpos($actualUrl, $this->wikiUrl) !== 0) {
+                        if (strpos($link['urlActual'], $this->wikiUrl) === 0 || !empty($this->urlMapOfFailed[$link['urlActual']])) {
                             $actualNode = str_replace($link['url'], $actualUrl, $link['node']);
                             $replace[$link['node']] = $actualNode;
                             $this->info("Link %s of page %s gets replaced by %s.", $link['urlAbs'], $pageName, $actualUrl);
@@ -484,8 +486,8 @@ class Wiki
     protected function getAbsoluteUri(string $url): string
     {
         return strpos($url, 'http') === 0 ? $url :
-            (strpos($url, '/') === 0 ? self::WIKI_URL . $url :
-                self::WIKI_URL . '/' . $url);
+            (strpos($url, '/') === 0 ? $this->wikiUrl . $url :
+                $this->wikiUrl . '/' . $url);
     }
 
     protected function resolveWikiFileUrl(string $sourceFile): string
@@ -499,9 +501,9 @@ class Wiki
     protected function getWikiFileLinkFromThumbnailLink(string $sourceFile): string
     {
         $targetFile = $sourceFile;
-        if (strpos($sourceFile, self::WIKI_URL) === 0 && strpos($sourceFile, '/thumb/') !== false) {
+        if (strpos($sourceFile, $this->wikiUrl) === 0 && strpos($sourceFile, '/thumb/') !== false) {
             preg_match('|/thumb/[a-z0-9]{1}/[a-z0-9]{2}/(.*?)/|', $sourceFile, $matches);
-            $targetFile = sprintf('%s/File:%s', self::WIKI_URL, $matches[1]);
+            $targetFile = sprintf('%s/File:%s', $this->wikiUrl, $matches[1]);
         }
         return $targetFile;
     }
@@ -509,9 +511,9 @@ class Wiki
     protected function getWikiFileLinkFromImageLink(string $sourceFile): string
     {
         $targetFile = $sourceFile;
-        if (strpos($sourceFile, self::WIKI_URL) === 0 && strpos($sourceFile, '/images/') !== false) {
+        if (strpos($sourceFile, $this->wikiUrl) === 0 && strpos($sourceFile, '/images/') !== false) {
             preg_match('|/images/[a-z0-9]{1}/[a-z0-9]{2}/(.*)|', $sourceFile, $matches);
-            $targetFile = sprintf('%s/File:%s', self::WIKI_URL, $matches[1]);
+            $targetFile = sprintf('%s/File:%s', $this->wikiUrl, $matches[1]);
         }
         return $targetFile;
     }
@@ -519,7 +521,7 @@ class Wiki
     protected function getWikiFileUrlFromWikiFileLink(string $sourceFile): string
     {
         $targetFile = $sourceFile;
-        if (strpos($sourceFile, self::WIKI_URL) === 0) {
+        if (strpos($sourceFile, $this->wikiUrl) === 0) {
             $targetFile = str_replace('/File:', '/Special:FilePath/', $sourceFile);
         }
         return $targetFile;
@@ -527,13 +529,13 @@ class Wiki
 
     protected function isWikiFileUrl(string $sourceFile): bool
     {
-        return strpos($sourceFile, self::WIKI_URL) === 0 && strpos($sourceFile, '/Special:FilePath/') !== false;
+        return strpos($sourceFile, $this->wikiUrl) === 0 && strpos($sourceFile, '/Special:FilePath/') !== false;
     }
 
     protected function removeWikiFileLinkSyntax(string $sourceFile): string
     {
         $targetFile = $sourceFile;
-        if (strpos($sourceFile, self::WIKI_URL) === 0) {
+        if (strpos($sourceFile, $this->wikiUrl) === 0) {
             $targetFile = str_replace('/File:', '/', $sourceFile);
         }
         return $targetFile;
@@ -839,6 +841,16 @@ class Wiki
         if ($level >= self::LOGLEVEL_WARNING) {
             file_put_contents($this->outputDir . DIRECTORY_SEPARATOR . '_warnings.txt', sprintf($message . "\n", ...$args), FILE_APPEND);
         }
+    }
+
+    public function setWikiUrl(string $wikiUrl): void
+    {
+        $this->wikiUrl = $wikiUrl;
+    }
+
+    public function setWikiApiUrl(string $wikiApiUrl): void
+    {
+        $this->wikiApiUrl = $wikiApiUrl;
     }
 
     public function setKeepTemporaryFiles(bool $keepTemporaryFiles): void

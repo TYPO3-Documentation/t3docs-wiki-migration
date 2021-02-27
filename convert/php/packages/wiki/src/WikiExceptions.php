@@ -39,10 +39,10 @@ class WikiExceptions extends Wiki
         ];
         $pages = [];
         $includePagesIndex = array_flip($this->includePages);
-        $excludePagesIndex = array_flip([self::WIKI_URL . '/Exception']);
+        $excludePagesIndex = array_flip([$this->wikiUrl . '/Exception']);
 
         do {
-            $response = $client->request('GET', self::WIKI_API_URL, ['query' => $query + [
+            $response = $client->request('GET', $this->wikiApiUrl, ['query' => $query + [
                 'gapcontinue' => $responseData['continue']['gapcontinue'] ?? ''
             ]]);
             $responseData = $response->toArray();
