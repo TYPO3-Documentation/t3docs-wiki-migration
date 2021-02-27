@@ -17,11 +17,13 @@ class Wiki
 {
     const LOGLEVEL_INFO = 1;
     const LOGLEVEL_WARNING = 2;
+    const NO_LIMIT_OF_PAGES = 0;
 
     protected string $wikiUrl;
     protected string $wikiApiUrl;
     protected bool $keepTemporaryFiles;
     protected array $includePages;
+    protected int $limitPages;
     protected int $logLevel;
 
     protected string $projectDir;
@@ -38,6 +40,7 @@ class Wiki
         $this->wikiApiUrl = 'https://wiki.typo3.org/api.php';
         $this->keepTemporaryFiles = false;
         $this->includePages = [];
+        $this->limitPages = self::NO_LIMIT_OF_PAGES;
         $this->logLevel = self::LOGLEVEL_INFO;
 
         $this->projectDir = dirname(dirname(dirname(dirname(dirname(__FILE__)))));
@@ -165,6 +168,9 @@ class Wiki
         } while (!empty($responseData['continue']['gapcontinue']));
 
         foreach ($pages as &$page) {
+            if ($this->limitPages !== self::NO_LIMIT_OF_PAGES && count($this->pages) >= $this->limitPages) {
+                break;
+            }
             if (!empty($includePagesIndex)) {
                 if (isset($includePagesIndex[$page['canonicalurl']])) {
                     $this->pages[] = $page['canonicalurl'];
@@ -861,6 +867,11 @@ class Wiki
     public function setIncludePages(array $includePages): void
     {
         $this->includePages = array_map([$this, 'getAbsoluteUri'], $includePages);
+    }
+
+    public function setLimitPages(int $limitPages): void
+    {
+        $this->limitPages = $limitPages;
     }
 
     public function setLogLevel(int $logLevel): void

@@ -52,6 +52,9 @@ class WikiExceptions extends Wiki
         } while (!empty($responseData['continue']['gapcontinue']));
 
         foreach ($pages as &$page) {
+            if ($this->limitPages !== self::NO_LIMIT_OF_PAGES && count($this->pages) >= $this->limitPages) {
+                break;
+            }
             if (!empty($includePagesIndex)) {
                 if (isset($includePagesIndex[$page['canonicalurl']])) {
                     $this->pages[] = $page['canonicalurl'];
