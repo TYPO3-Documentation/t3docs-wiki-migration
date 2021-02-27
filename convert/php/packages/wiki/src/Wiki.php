@@ -24,6 +24,7 @@ class Wiki
     protected bool $keepTemporaryFiles;
     protected array $includePages;
     protected int $limitPages;
+    protected bool $isWikiDeprecated;
     protected int $logLevel;
 
     protected string $wikiUrlScheme;
@@ -42,6 +43,7 @@ class Wiki
         $this->keepTemporaryFiles = false;
         $this->includePages = [];
         $this->limitPages = self::NO_LIMIT_OF_PAGES;
+        $this->isWikiDeprecated = false;
         $this->logLevel = self::LOGLEVEL_INFO;
 
         $this->projectDir = dirname(dirname(dirname(dirname(dirname(__FILE__)))));
@@ -467,9 +469,11 @@ class Wiki
                             $this->info("Link %s of page %s gets replaced by %s.", $link['urlAbs'], $pageName, $actualUrl);
                         }
                     } else {
-                        $actualNode = str_replace($link['url'], $link['urlAbs'], $link['node']);
-                        $replace[$link['node']] = $actualNode . ' [deprecated wiki link]';
-                        $this->warn("Link %s of page %s gets marked as outdated as it links to deprecated wiki instance.", $link['urlAbs'], $pageName);
+                        if ($this->isWikiDeprecated) {
+                            $actualNode = str_replace($link['url'], $link['urlAbs'], $link['node']);
+                            $replace[$link['node']] = $actualNode . ' [deprecated wiki link]';
+                            $this->warn("Link %s of page %s gets marked as outdated as it links to deprecated wiki instance.", $link['urlAbs'], $pageName);
+                        }
                     }
                 } else {
                     $actualNode = str_replace($link['url'], $link['urlAbs'], $link['node']);
@@ -875,6 +879,11 @@ class Wiki
     public function setLimitPages(int $limitPages): void
     {
         $this->limitPages = $limitPages;
+    }
+
+    public function setIsWikiDeprecated(bool $isWikiDeprecated): void
+    {
+        $this->isWikiDeprecated = $isWikiDeprecated;
     }
 
     public function setLogLevel(int $logLevel): void
