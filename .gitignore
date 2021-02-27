@@ -1,6 +1,7 @@
 /.idea
 /convert/.env
 /convert/php/vendor/
+/convert/output_mediawiki/
 /create/.env
 /create/app/vendor/
 /create/app/config.php
