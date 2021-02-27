@@ -497,7 +497,7 @@ class Wiki
 
     protected function getAbsoluteUri(string $url): string
     {
-        return strpos($url, 'http') === 0 ? $url :
+        return preg_match('|^[a-z]*://|', $url) === 1 ? $url :
             (strpos($url, '//') === 0 ? $this->wikiUrlScheme . ':' . $url :
             (strpos($url, '/') === 0 ? $this->wikiUrl . $url :
                 $this->wikiUrl . '/' . $url));
