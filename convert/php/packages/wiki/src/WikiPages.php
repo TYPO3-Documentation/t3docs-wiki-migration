@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Typo3\Wiki;
 
-class WikiPages extends AbstractWiki
+class WikiPages extends Wiki
 {
     public function __construct(string $outputDir)
     {

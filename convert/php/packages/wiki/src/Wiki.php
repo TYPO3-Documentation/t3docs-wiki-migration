@@ -13,7 +13,7 @@ use Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
 
-abstract class AbstractWiki
+class Wiki
 {
     const WIKI_URL = 'https://wiki.typo3.org';
     const WIKI_API_URL = 'https://wiki.typo3.org/api.php';
