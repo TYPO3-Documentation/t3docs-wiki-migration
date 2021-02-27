@@ -3,14 +3,14 @@
 
 require dirname(dirname(dirname(dirname(__FILE__)))) . '/vendor/autoload.php';
 
-use Typo3\Wiki\WikiExceptions;
-use Typo3\Wiki\WikiPages;
+use Typo3\Wiki\Typo3WikiExceptions;
+use Typo3\Wiki\Typo3WikiPages;
 
 $scope = !empty($argv[1]) ? $argv[1] : '';
 if ($scope === 'exceptions') {
-    $wiki = new WikiExceptions('output_exceptions');
+    $wiki = new Typo3WikiExceptions('output_exceptions');
     $wiki->run();
 } elseif ($scope === 'pages') {
-    $wiki = new WikiPages('output_pages');
+    $wiki = new Typo3WikiPages('output_pages');
     $wiki->run();
 }
