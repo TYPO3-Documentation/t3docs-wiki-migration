@@ -26,6 +26,7 @@ class Wiki
     protected int $limitPages;
     protected int $logLevel;
 
+    protected string $wikiUrlScheme;
     protected string $projectDir;
     protected string $outputDir;
     protected string $filesDir;
@@ -36,7 +37,7 @@ class Wiki
 
     public function __construct(string $outputDir)
     {
-        $this->wikiUrl = 'https://wiki.typo3.org';
+        $this->setWikiUrl('https://wiki.typo3.org');
         $this->wikiApiUrl = 'https://wiki.typo3.org/api.php';
         $this->keepTemporaryFiles = false;
         $this->includePages = [];
@@ -492,8 +493,9 @@ class Wiki
     protected function getAbsoluteUri(string $url): string
     {
         return strpos($url, 'http') === 0 ? $url :
+            (strpos($url, '//') === 0 ? $this->wikiUrlScheme . ':' . $url :
             (strpos($url, '/') === 0 ? $this->wikiUrl . $url :
-                $this->wikiUrl . '/' . $url);
+                $this->wikiUrl . '/' . $url));
     }
 
     protected function resolveWikiFileUrl(string $sourceFile): string
@@ -852,6 +854,7 @@ class Wiki
     public function setWikiUrl(string $wikiUrl): void
     {
         $this->wikiUrl = $wikiUrl;
+        $this->wikiUrlScheme = parse_url($wikiUrl, PHP_URL_SCHEME);
     }
 
     public function setWikiApiUrl(string $wikiApiUrl): void
