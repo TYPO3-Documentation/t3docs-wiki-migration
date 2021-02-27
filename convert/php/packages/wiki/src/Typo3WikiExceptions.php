@@ -13,6 +13,13 @@ use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
 
 class Typo3WikiExceptions extends Wiki
 {
+    public function __construct(string $outputDir)
+    {
+        parent::__construct($outputDir);
+
+        $this->setIsWikiDeprecated(true);
+    }
+
     /**
      * Fetch list of TYPO3 Wiki exception pages.
      *

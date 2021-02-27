@@ -11,6 +11,7 @@ class Typo3WikiPages extends Wiki
         parent::__construct($outputDir);
 
         $this->setIncludePages($this->getMostVisitedWikiPages());
+        $this->setIsWikiDeprecated(true);
     }
 
     /**
