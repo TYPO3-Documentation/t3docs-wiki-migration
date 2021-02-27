@@ -15,9 +15,11 @@ if ($scope === 'exceptions') {
     $wiki = new Typo3WikiPages('output_pages');
     $wiki->run();
 } elseif ($scope === 'mediawiki') {
-    $wiki = new Wiki('output_mediawiki');
-    $wiki->setWikiUrl('https://www.mediawiki.org');
-    $wiki->setWikiApiUrl('https://www.mediawiki.org/w/api.php');
+    $wiki = new Wiki(
+        'https://www.mediawiki.org',
+        'https://www.mediawiki.org/w/api.php',
+        'output_mediawiki'
+    );
     /**
      * TODO: Support namespaced pages too
      * @see Wiki::fetchListOfPages()

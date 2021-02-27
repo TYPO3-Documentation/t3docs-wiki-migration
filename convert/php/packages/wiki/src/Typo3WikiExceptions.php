@@ -15,7 +15,11 @@ class Typo3WikiExceptions extends Wiki
 {
     public function __construct(string $outputDir)
     {
-        parent::__construct($outputDir);
+        parent::__construct(
+            'https://wiki.typo3.org',
+            'https://wiki.typo3.org/api.php',
+            $outputDir
+        );
 
         $this->setIsWikiDeprecated(true);
     }

@@ -8,7 +8,11 @@ class Typo3WikiPages extends Wiki
 {
     public function __construct(string $outputDir)
     {
-        parent::__construct($outputDir);
+        parent::__construct(
+            'https://wiki.typo3.org',
+            'https://wiki.typo3.org/api.php',
+            $outputDir
+        );
 
         $this->setIncludePages($this->getMostVisitedWikiPages());
         $this->setIsWikiDeprecated(true);

@@ -36,10 +36,11 @@ class Wiki
     protected array $urlMap;
     protected array $urlMapOfFailed;
 
-    public function __construct(string $outputDir)
+    public function __construct(string $wikiUrl, string $wikiApiUrl, string $outputDir)
     {
-        $this->setWikiUrl('https://wiki.typo3.org');
-        $this->wikiApiUrl = 'https://wiki.typo3.org/api.php';
+        $this->setWikiUrl($wikiUrl);
+        $this->setWikiApiUrl($wikiApiUrl);
+
         $this->keepTemporaryFiles = false;
         $this->includePages = [];
         $this->limitPages = self::NO_LIMIT_OF_PAGES;
