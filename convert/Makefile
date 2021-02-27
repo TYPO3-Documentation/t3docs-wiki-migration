@@ -2,7 +2,7 @@ SHELL := /bin/bash
 
 BRANCH ?= $$(git rev-parse --abbrev-ref HEAD 2> /dev/null)
 
-.PHONY: env build exceptions pages clean
+.PHONY: env build exceptions pages mediawiki clean
 
 env:
 	@echo "UID=$$(id -u)" > .env
@@ -20,6 +20,10 @@ exceptions: env
 pages: env
 	@echo "Convert TYPO3 Wiki pages into reST files"
 	@docker-compose run -e "SCOPE=pages" --rm convert
+
+mediawiki: env
+	@echo "Convert MediaWiki pages into reST files"
+	@docker-compose run -e "SCOPE=mediawiki" --rm convert
 
 clean:
 	@echo "Remove TYPO3 Wiki migration environment"

@@ -20,8 +20,8 @@ Installation
       docker-compose build --force-rm
       docker-compose run --rm composer-install
 
-Conversion of Wiki Exception Pages
-----------------------------------
+Conversion of TYPO3 Wiki Exception Pages
+----------------------------------------
 
 1. Run conversion script by
 
@@ -40,8 +40,8 @@ Conversion of Wiki Exception Pages
 4. Edit reST files of folder `output_exceptions <output_exceptions>`_ manually to make them ready for use in
    docs.typo3.org.
 
-Conversion of Wiki Pages
-------------------------
+Conversion of TYPO3 Wiki Pages
+------------------------------
 
 1. Run conversion script by
 
@@ -57,6 +57,24 @@ Conversion of Wiki Pages
    should be mapped to valid urls. Run the script after adaption again.
 3. Check file `_warnings.txt <output_pages/_warnings.txt>`_ for conversion warnings which should be handled.
 4. Edit reST files of folder `output_pages <output_pages>`_ manually to make them ready for use in docs.typo3.org.
+
+Conversion of MediaWiki Pages
+-----------------------------
+
+This scope is to test this tool with another MediaWiki instance - mediawiki.org -
+and added here as inspiration only.
+
+1. Run conversion script by
+
+   .. code-block:: bash
+
+      # Linux
+      make mediawiki
+
+      # MacOS and Windows
+      SCOPE=mediawiki docker-compose run --rm convert
+
+2. Check folder ``output_mediawiki``.
 
 Developing
 ----------
