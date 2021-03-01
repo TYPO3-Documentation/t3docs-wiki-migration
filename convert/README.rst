@@ -5,6 +5,18 @@ Currently the official TYPO3 documentation is spread across different places. To
 docs.typo3.org, this folder contains the tools and scripts to support the conversion of original HTML pages to
 reST pages.
 
+This is the same exception page of the former wiki.typo3.org and the future
+docs.typo3.org instance:
+
+.. table::
+   :widths: auto
+
+   =========================================   =========================================
+   Wiki (old)                                  Docs (new)
+   =========================================   =========================================
+   .. image:: docs/exception_page_wiki.png     .. image:: docs/exception_page_docs.png
+   =========================================   =========================================
+
 Installation
 ------------
 
