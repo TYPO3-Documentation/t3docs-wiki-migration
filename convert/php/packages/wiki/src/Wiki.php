@@ -514,8 +514,9 @@ class Wiki
     protected function getWikiFileLinkFromThumbnailLink(string $sourceFile): string
     {
         $targetFile = $sourceFile;
-        if (strpos($sourceFile, $this->wikiUrl) === 0 && strpos($sourceFile, '/thumb/') !== false) {
-            preg_match('|/thumb/[a-z0-9]{1}/[a-z0-9]{2}/(.*?)/|', $sourceFile, $matches);
+        if (strpos($sourceFile, $this->wikiUrl) === 0
+            && preg_match('|/thumb/[a-z0-9]{1}/[a-z0-9]{2}/(.*?)/|', $sourceFile, $matches) === 1
+        ) {
             $targetFile = sprintf('%s/File:%s', $this->wikiUrl, $matches[1]);
         }
         return $targetFile;
@@ -524,8 +525,9 @@ class Wiki
     protected function getWikiFileLinkFromImageLink(string $sourceFile): string
     {
         $targetFile = $sourceFile;
-        if (strpos($sourceFile, $this->wikiUrl) === 0 && strpos($sourceFile, '/images/') !== false) {
-            preg_match('|/images/[a-z0-9]{1}/[a-z0-9]{2}/(.*)|', $sourceFile, $matches);
+        if (strpos($sourceFile, $this->wikiUrl) === 0
+            && preg_match('|/images/[a-z0-9]{1}/[a-z0-9]{2}/(.*)|', $sourceFile, $matches) === 1
+        ) {
             $targetFile = sprintf('%s/File:%s', $this->wikiUrl, $matches[1]);
         }
         return $targetFile;
@@ -542,6 +544,10 @@ class Wiki
 
     protected function isWikiFileUrl(string $sourceFile): bool
     {
+        /**
+         * TODO: Missing detection of wiki files (images/documents/..) without url path segment "/Special:FilePath/",
+         * e.g. <a href="https://www.pokewiki.de/images/greenchu_willkommen2.png"></a>
+         */
         return strpos($sourceFile, $this->wikiUrl) === 0 && strpos($sourceFile, '/Special:FilePath/') !== false;
     }
 
