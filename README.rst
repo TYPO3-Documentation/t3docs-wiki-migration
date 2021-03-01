@@ -5,9 +5,9 @@ Currently the official TYPO3 documentation is spread across different places. To
 docs.typo3.org, this repository contains the tools and scripts to support the migration of wiki.typo3.org to
 docs.typo3.org.
 
-`Conversion <convert>`_
+`TYPO3 Wiki Conversion <convert>`_
    The original MediaWiki pages of wiki.typo3.org get fetched and converted from HTML to reST in this sub folder.
 
-`Creation <create>`_
+`TYPO3 Exception Page Creation <create>`_
    The original MediaWiki process of creating new exception pages by the community is migrated to docs.typo3.org in
    this sub folder.
