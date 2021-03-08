@@ -1,4 +1,4 @@
-rewrite ^/Exception/CMS/(.*?)$ https://docs.typo3.org/typo3cms/exceptions/master/en-us/Exceptions/$1.html permanent;
+rewrite ^/Exception/CMS/([0-9]+)$ https://docs.typo3.org/typo3cms/exceptions/master/en-us/Exceptions/$1.html permanent;
 rewrite ^/Upgrade$ https://docs.typo3.org/m/typo3/guide-installation/master/en-us/Upgrade/Index.html permanent;
 rewrite ^/Extension_Development,_using_Flexforms$ https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/FlexForms/Index.html permanent;
 rewrite ^/Dependency_Injection$ https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/DependencyInjection/Index.html permanent;
