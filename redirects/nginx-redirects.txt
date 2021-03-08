@@ -73,5 +73,5 @@ rewrite ^/TypoScript_-_PHP_Interaction$ https://docs.typo3.org/m/typo3/reference
 rewrite ^/T3Doc/Fluidtemplate_by_example$ https://docs.typo3.org/m/typo3/tutorial-getting-started/master/en-us/ permanent;
 rewrite ^/Translated_validation_error_messages_for_Fluid$ https://docs.typo3.org/m/typo3/book-extbasefluid/master/en-us/9-CrosscuttingConcerns/2-validating-domain-objects.html?highlight=validatorinterfac#validators-for-checking-of-invariants permanent;
 rewrite ^/GIFBUILDER$ https://docs.typo3.org/m/typo3/reference-typoscript/master/en-us/Gifbuilder/Examples.html permanent;
-# rewrite ^/FluidSyntax$ TYPO3-Documentation/TYPO3CMS-Reference-CoreApi#1333 permanent;
-# rewrite ^/Fluid_Inline_Notation$ Fluid Extbase Book inline-notation permanent;
+rewrite ^/FluidSyntax$ https://docs.typo3.org/m/typo3/reference-coreapi/10.4/en-us/ApiOverview/Fluid/Introduction.html permanent;
+rewrite ^/Fluid_Inline_Notation$ https://docs.typo3.org/m/typo3/book-extbasefluid/master/en-us/8-Fluid/1a-inline-syntax.html permanent;
