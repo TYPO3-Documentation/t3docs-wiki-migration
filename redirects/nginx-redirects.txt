@@ -18,7 +18,7 @@ rewrite ^/Extension_Development,_Debugging$ https://docs.typo3.org/m/typo3/guide
 rewrite ^/TypoScript_language_additions,_override$ https://docs.typo3.org/m/typo3/reference-typoscript/master/en-us/TopLevelObjects/Plugin.html?highlight=local_lang#local-lang-lang-key-label-key permanent;
 rewrite ^/TYPO3_Installation_on_Ubuntu$ https://docs.typo3.org/m/typo3/guide-installation/master/en-us/ permanent;
 rewrite ^/Content_Slide$ https://docs.typo3.org/m/typo3/reference-typoscript/master/en-us/ContentObjects/Content/Index.html?highlight=slide#slide permanent;
-rewrite ^/Default_Orderings_and_Query_Settings_in_Repository$ https://docs.typo3.org/m/typo3/book-extbasefluid/9.5/en-us/6-Persistence/2a-creating-the-repositories.html#default-orderings permanent;
+rewrite ^/Default_Orderings_and_Query_Settings_in_Repository$ https://docs.typo3.org/m/typo3/book-extbasefluid/master/en-us/6-Persistence/2a-creating-the-repositories.html#default-orderings permanent;
 rewrite ^/FAQ/Reset_admin_password$ https://docs.typo3.org/m/typo3/guide-installation/master/en-us/Troubleshooting/Index.html#resetting-lost-admin-passwords permanent;
 rewrite ^/Protect_from_spam$ https://docs.typo3.org/m/typo3/reference-typoscript/master/en-us/Setup/Config/Index.html#spamprotectemailaddresses permanent;
 rewrite ^/Breadcrumb_menu$ https://docs.typo3.org/m/typo3/reference-typoscript/master/en-us/ContentObjects/Hmenu/Index.html#special-rootline permanent;
