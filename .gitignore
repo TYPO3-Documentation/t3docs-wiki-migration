@@ -7,5 +7,6 @@
 /create/app/config.php
 /create/html/exceptions/
 /create/app/packages/exception-pages/res/typo3/
+/create/app/packages/exception-pages/tests/tmp/
 
 !.gitkeep
