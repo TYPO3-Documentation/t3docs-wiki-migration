@@ -75,3 +75,6 @@ rewrite ^/Translated_validation_error_messages_for_Fluid$ https://docs.typo3.org
 rewrite ^/GIFBUILDER$ https://docs.typo3.org/m/typo3/reference-typoscript/master/en-us/Gifbuilder/Examples.html permanent;
 rewrite ^/FluidSyntax$ https://docs.typo3.org/m/typo3/reference-coreapi/10.4/en-us/ApiOverview/Fluid/Introduction.html permanent;
 rewrite ^/Fluid_Inline_Notation$ https://docs.typo3.org/m/typo3/book-extbasefluid/master/en-us/8-Fluid/1a-inline-syntax.html permanent;
+rewrite ^/Opcode_Cache$ https://docs.typo3.org/m/typo3/guide-installation/master/en-us/Troubleshooting/Index.html#opcode-cache-messages permanent;
+rewrite ^/ComposerClassLoader$ https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/Autoloading/Background.html permanent;
+rewrite ^/Blueprints/BackendRouting$ https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/BackendRouting/Index.html permanent;
