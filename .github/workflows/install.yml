@@ -42,5 +42,7 @@ jobs:
           username: ${{ secrets.DEPLOY_DOCS_USERNAME }}
           key: ${{ secrets.DEPLOY_KEY }}
           source: "create/app/*"
-          target: "/srv/vhosts/prod.docs.typo3.com/deployment/github/"
+          rm: true
+          strip_components: 2
+          target: "/srv/vhosts/prod.docs.typo3.com/deployment/github/test/"
 
