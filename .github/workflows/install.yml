@@ -27,8 +27,9 @@ jobs:
 
       - name: Find and Replace User Name and Token
         run: |
-          find create/app/config.inc.php -type f -exec sed -i ''s/#{USERNAME}#/${{ secrets.EXCEPTIONS_USER }}/g'' {} \;
-          find create/app/config.inc.php -type f -exec sed -i ''s/#{TOKEN}#/${{ secrets.EXCEPTIONS_TOKEN }}/g'' {} \;
+          sed -i "s|'user' => [^,$]*\(,\?\)|'user' => '${{ secrets.EXCEPTIONS_USER }}'\1|" create/app/config.inc.php
+          sed -i "s|'token' => [^,$]*\(,\?\)|'token' => '${{ secrets.EXCEPTIONS_TOKEN }}'\1|" create/app/config.inc.php
+          sed -i "s|'workingDir' => [^,$]*\(,\?\)|'workingDir' => '${{ secrets.APP_WORKING_DIR }}'\1|" create/app/config.inc.php
           cp create/app/config.inc.php create/app/config.php
 
       - name: SCP files to production system
