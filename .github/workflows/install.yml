@@ -30,7 +30,7 @@ jobs:
         run: cd create/app/ && composer install --prefer-dist --no-progress --no-suggest --no-dev
         
       - name: Find and Replace User Name - Using Build Variable
-        run: find config.inc.php -type f -exec sed -i ''s/#{USERNAME}#/${{ secrets.DEPLOY_DOCS_USERNAME }}/g'' {} \;
+        run: find create/app/config.inc.php -type f -exec sed -i ''s/#{USERNAME}#/${{ secrets.DEPLOY_DOCS_USERNAME }}/g'' {} \;
 
       - name: copy file via ssh key
         uses: appleboy/scp-action@master
