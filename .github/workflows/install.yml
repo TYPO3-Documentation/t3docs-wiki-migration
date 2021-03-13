@@ -31,14 +31,12 @@ jobs:
       - name: Install dependencies
         run: cd create/app/ && composer install --prefer-dist --no-progress --no-suggest --no-dev
 
-      - uses: actions/upload-artifact@v2
-        with:
-          name: app
-          path: create/app/*
+    - name: copy file via ssh key
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.DEPLOY_DOCS_HOST }}
+        username: ${{ secrets.DEPLOY_DOCS_USERNAME }}
+        key: ${{ secrets.DEPLOY_KEY }}
+        source: "README.rst"
+        target: "/srv/vhosts/prod.docs.typo3.com/deployment/test"
 
-      - name: Repository Dispatch
-        uses: peter-evans/repository-dispatch@v1
-        with:
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
-          event-type: installed
-          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
