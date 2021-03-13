@@ -9,9 +9,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -31,12 +29,12 @@ jobs:
       - name: Install dependencies
         run: cd create/app/ && composer install --prefer-dist --no-progress --no-suggest --no-dev
 
-    - name: copy file via ssh key
-      uses: appleboy/scp-action@master
-      with:
-        host: ${{ secrets.DEPLOY_DOCS_HOST }}
-        username: ${{ secrets.DEPLOY_DOCS_USERNAME }}
-        key: ${{ secrets.DEPLOY_KEY }}
-        source: "README.rst"
-        target: "/srv/vhosts/prod.docs.typo3.com/deployment/test"
+      - name: copy file via ssh key
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.DEPLOY_DOCS_HOST }}
+          username: ${{ secrets.DEPLOY_DOCS_USERNAME }}
+          key: ${{ secrets.DEPLOY_KEY }}
+          source: "README.rst"
+          target: "/srv/vhosts/prod.docs.typo3.com/deployment/test"
 
