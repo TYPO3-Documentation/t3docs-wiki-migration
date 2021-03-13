@@ -6,6 +6,9 @@ on:
 
   workflow_dispatch:
 
+env:
+  COMMAND_PATH: ${{ secrets.TARGET_PATH }}/vendor/bin/merge-exception-code-files
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -44,3 +47,10 @@ jobs:
           tar_tmp_path: ${{ secrets.TMP_TARGET_PATH }}
           target: ${{ secrets.TARGET_PATH }}
 
+      - name: Run merge script
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.DEPLOY_DOCS_HOST }}
+          username: ${{ secrets.DEPLOY_DOCS_USERNAME }}
+          key: ${{ secrets.DEPLOY_KEY }}
+          script: ${{ env.COMMAND_PATH }}
