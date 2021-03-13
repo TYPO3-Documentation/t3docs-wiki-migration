@@ -35,6 +35,6 @@ jobs:
           host: ${{ secrets.DEPLOY_DOCS_HOST }}
           username: ${{ secrets.DEPLOY_DOCS_USERNAME }}
           key: ${{ secrets.DEPLOY_KEY }}
-          source: "README.rst"
-          target: /srv/vhosts/prod.docs.typo3.com/deployment/test/$GITHUB_REF
+          source: "create/app/*"
+          target: "/srv/vhosts/prod.docs.typo3.com/deployment/github/"
 
