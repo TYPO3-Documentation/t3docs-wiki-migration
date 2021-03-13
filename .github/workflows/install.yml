@@ -35,3 +35,10 @@ jobs:
         with:
           name: app
           path: create/app/*
+
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          event-type: installed
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
