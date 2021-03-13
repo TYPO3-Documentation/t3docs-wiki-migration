@@ -44,5 +44,5 @@ jobs:
           source: "create/app/*"
           rm: true
           strip_components: 2
-          target: "/srv/vhosts/prod.docs.typo3.com/deployment/github/test/"
+          target: "/srv/vhosts/prod.docs.typo3.com/site/Web/typo3cms/exceptions/app/"
 
