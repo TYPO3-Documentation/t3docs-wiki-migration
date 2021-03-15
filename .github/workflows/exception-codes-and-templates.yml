@@ -1,4 +1,4 @@
-name: Exception Codes
+name: Exception Codes and Templates
 
 on:
   workflow_dispatch:
@@ -6,7 +6,8 @@ on:
     - cron: '0 16 * * 2'
 
 env:
-  COMMAND_PATH: ${{ secrets.TARGET_PATH }}/vendor/bin/merge-exception-code-files
+  MERGE_CODES_COMMAND: ${{ secrets.TARGET_PATH }}/vendor/bin/merge-exception-code-files
+  REFRESH_TEMPLATES_COMMAND: ${{ secrets.TARGET_PATH }}/vendor/bin/refresh-templates
 
 jobs:
   build:
@@ -53,10 +54,18 @@ jobs:
           tar_tmp_path: ${{ secrets.TMP_TARGET_PATH }}
           target: ${{ secrets.APP_WORKING_DIR }}
 
-      - name: Run merge script
+      - name: Run merge script of Exception Codes
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DEPLOY_DOCS_HOST }}
           username: ${{ secrets.DEPLOY_DOCS_USERNAME }}
           key: ${{ secrets.DEPLOY_KEY }}
-          script: ${{ env.COMMAND_PATH }}
+          script: ${{ env.MERGE_CODES_COMMAND }}
+
+      - name: Run refresh script of Exception Templates
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.DEPLOY_DOCS_HOST }}
+          username: ${{ secrets.DEPLOY_DOCS_USERNAME }}
+          key: ${{ secrets.DEPLOY_KEY }}
+          script: ${{ env.REFRESH_TEMPLATES_COMMAND }}
