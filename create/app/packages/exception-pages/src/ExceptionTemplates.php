@@ -70,18 +70,19 @@ class ExceptionTemplates
                 if (strpos($node->getAttribute('href'), 'TYPO3CMS-Exceptions/edit') !== false) {
                     $node->setAttribute('href', '?action=edit');
                 } elseif (strpos($node->getAttribute('href'), '/_sources/') !== false) {
-                    $node->setAttribute('href', '?action=source');
+                    $node = $crawler->getNode(0);
+                    $node->parentNode->removeChild($node);
                 }
             });
         $crawler->filterXPath('//div[@itemprop="articleBody"]/div')
             ->each(function(Crawler $crawler){
-                // Keep headline + contribution note and replace the remainder
+                // Keep headline and replace the remainder
                 // -
                 // Index 0: Headline
                 // Index 1: Contribution note
                 // Index 2..n: Body
                 foreach ($crawler->children() as $index => $child) {
-                    if ($index >= 2) {
+                    if ($index >= 1) {
                         $child->parentNode->removeChild($child);
                     }
                 }
@@ -105,7 +106,7 @@ class ExceptionTemplates
             });
         $crawler->filterXPath('//div[@itemprop="articleBody"]/div')
             ->each(function(Crawler $crawler){
-                // Keep headline and replace the remainder by placeholder "[[[Body]]]"
+                // Keep headline and replace the remainder
                 // -
                 // Index 0: Headline
                 // Index 1: Contribution note
@@ -133,7 +134,10 @@ class ExceptionTemplates
                 $node = $crawler->getNode(0);
                 $node->parentNode->removeChild($node);
             });
-        $crawler->filterXPath('//div[@class="toc-collapse"]/div[@class="toc"]')
+        $crawler->filterXPath(implode('|', [
+                '//div[@class="toc-collapse"]/div[@class="toc"]/p[span/text() = "PAGE CONTENTS"]/self::p',
+                '//div[@class="toc-collapse"]/div[@class="toc"]/p[span/text() = "PAGE CONTENTS"]/following-sibling::ul[1]',
+            ]))
             ->each(function(Crawler $crawler){
                 $node = $crawler->getNode(0);
                 $node->parentNode->removeChild($node);
