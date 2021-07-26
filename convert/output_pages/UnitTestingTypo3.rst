@@ -31,7 +31,7 @@ Setup and run tests:
 
    ::
 
-      git clone git://git.typo3.org/Packages/TYPO3.CMS.git
+      git clone git@github.com:typo3/typo3.git
       cd TYPO3.CMS
       composer install
       ./bin/phpunit -d memory_limit=1G -c vendor/typo3/testing-framework/Resources/Core/Build/UnitTests.xml
@@ -99,7 +99,7 @@ Setup and run tests:
 
    ::
 
-      git clone git://git.typo3.org/Packages/TYPO3.CMS.git
+      git clone git@github.com:typo3/typo3.git
       cd TYPO3.CMS
       composer install
       ./bin/phpunit -c typo3/sysext/core/Build/UnitTests.xml

@@ -8,7 +8,7 @@ TYPO3 7.6 Extension Migration Guide
 
 -  `List of outdated class names and their namespace counterparts in
    TYPO3
-   6.2 <https://git.typo3.org/Packages/TYPO3.CMS.git/tree/refs/heads/TYPO3_6-2:/typo3/sysext/core/Migrations/Code>`__
+   6.2 <https://github.com/typo3/typo3/tree/TYPO3_6-2/typo3/sysext/core/Migrations/Code>`__
 -  `Extension migration hints for TYPO3
    6.0 <typo360-extension-migration-tips>`__
 -  `Helpful information on how to convert your code to PHP
@@ -17,7 +17,7 @@ TYPO3 7.6 Extension Migration Guide
    log-file <deprecation-log>`__
 -  `Core changelog for TYPO3 7 LTS in the TYPO3 Git repository. Perfect
    for downloading and
-   searching <https://git.typo3.org/Packages/TYPO3.CMS.git/tree/TYPO3_7-6:/typo3/sysext/core/Documentation/Changelog/7.6>`__
+   searching <https://github.com/typo3/typo3/tree/TYPO3_7-6/typo3/sysext/core/Documentation/Changelog/7.6>`__
 -  `Core changelog in the TYPO3
    documentation <https://docs.typo3.org/c/typo3/cms-core/8.7/en-us/Changelog-7.html>`__
 -  `Follow core changes with

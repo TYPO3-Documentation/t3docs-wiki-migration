@@ -119,8 +119,8 @@ The source code
    available anymore]
 -  Get the source code for TYPO3 extensions: `TYPO3 Extension
    Development Platform <https://forge.typo3.org/projects/extensions>`__
--  Browse the source code for TYPO3 core: `TYPO3 core Git repository
-   browser <https://git.typo3.org/Packages/TYPO3.CMS.git>`__
+-  Browse the source code for TYPO3 core: `TYPO3 core repository on
+   GitHub <https://github.com/typo3/typo3>`__
 -  Browse the source code for TYPO3 extensions: `TYPO3 extension SVN
    repository
    browser <http://typo3xdev.svn.sourceforge.net/viewvc/typo3xdev/>`__
@@ -145,7 +145,7 @@ Classes and functions
    ::
 
        if (is_array($this->conf['parseFunc.'])) {
-          $markerArray['###PRODUCT_NOTE###'] = $this->cObj->parseFunc($markerArray['###PRODUCT_NOTE###'], $this->conf['parseFunc.']); 
+          $markerArray['###PRODUCT_NOTE###'] = $this->cObj->parseFunc($markerArray['###PRODUCT_NOTE###'], $this->conf['parseFunc.']);
        }
 
 Flexforms

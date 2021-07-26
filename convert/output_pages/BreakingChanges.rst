@@ -24,9 +24,9 @@ changes.
 
 For a more complete list please refer to the `Extbase Changelog for 6.2
 and
-below <https://git.typo3.org/Packages/TYPO3.CMS.git/blob/TYPO3_6-2:/typo3/sysext/extbase/ChangeLog.txt>`__
+below <https://github.com/typo3/typo3/blob/TYPO3_6-2/typo3/sysext/extbase/ChangeLog.txt>`__
 and the `Fluid Changelog for 6.2 and
-below <https://git.typo3.org/Packages/TYPO3.CMS.git/blob/TYPO3_6-2:/typo3/sysext/fluid/ChangeLog.txt>`__
+below <https://github.com/TYPO3/typo3/blob/TYPO3_6-2/typo3/sysext/fluid/ChangeLog.txt>`__
 
 We try to keep breaking changes to a minimum. Nevertheless, there will
 be some changes that might break your existing extensions, especially if
@@ -46,7 +46,7 @@ version numbers as the TYPO3 version (at least for the first 2 digits,
 e.g. 6.2).
 
 ============== =============== =============
-Version Matrix                 
+Version Matrix
 TYPO3 Version  Extbase Version Fluid Version
 6.2.x (latest) 6.2.0           6.2.0
 6.1.x (latest) 6.1.0           6.1.0
@@ -56,7 +56,7 @@ TYPO3 Version  Extbase Version Fluid Version
 4.5.x (latest) 1.3.4           1.3.1
 4.4.x (latest) 1.2.1           1.2.1
 4.3.x (latest) 1.1.0           1.1.1
-\                              
+\
 ============== =============== =============
 
 From Extbase 6.1 to Extbase 6.2

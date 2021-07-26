@@ -187,7 +187,7 @@ extensions and change extension settings.
 **Classic Mode (Non Composer Mode)** means, that the TYPO3 sources are
 `fetched as a tarball <https://typo3.org/download/>`__ and symlinked
 into (or used as) the document root. Alternatively the sources can be
-`fetched via git <https://git.typo3.org/Packages/TYPO3.CMS.git>`__, but
+`fetched via git <https://github.com/typo3/typo3>`__, but
 a ``composer install`` is then required before they are ready to be used
 in a symlinked setup like described above.
 
